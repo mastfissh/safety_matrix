@@ -1,0 +1,105 @@
+---
+let data = {
+  "drugs": ["","milk", "cereal", "salt"],
+  "danger" : [
+    ["milk", "salt"]
+  ],
+  "safe" :[
+    ["cereal", "milk"]
+  ]
+}
+let drugs = data["drugs"]
+function combo(i, j){
+	let subs = [...new Set([i,j])]
+  subs.sort()
+  if (subs[0] == ""){
+  	return subs[1]
+  }
+  return subs.join('-')
+}
+
+function bg(i, j){
+	let canon = combo(i,j)
+	for (let danger of data["danger"]){
+		if (combo(danger[0],danger[1]) == canon){
+			return "danger"
+		}
+	}
+	for (let safe of data["safe"]){
+		if (combo(safe[0],safe[1]) == canon){
+			return "safe"
+		}
+	}
+	if (!((""+canon).includes('-'))){
+		return "single"
+	}
+  return "unknown"
+}
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Combos</title>
+		<style>
+			td.danger{background-color: red;}
+			td.safe{background-color: green;}
+			td.unknown{background-color: grey;}
+			table {
+			  table-layout: fixed;
+			  width: 100%;
+			  border-collapse: collapse;
+			  border: 2px solid black;
+			}
+			th,
+			td {
+				border: 1px solid #e5e7eb;
+			  padding: 20px;
+			}
+		</style>
+
+	</head>
+
+<script>
+window.onload = (event) => {
+	const checkboxes = document.querySelectorAll('.filter_check');
+  checkboxes.forEach((box) => {
+    box.addEventListener('click', (event) => {
+    	if (box.checked){
+    		for (const item of document.querySelectorAll("." + box.id)) {
+				  item.style.display = '';
+				}
+    	} else {
+    		for (const item of document.querySelectorAll("." + box.id)) {
+				  item.style.display = 'none';
+				}
+    	}
+
+    });
+  });
+};
+</script>
+
+	<body>
+		<h1>Combos</h1>
+		<table>
+			{drugs.map((drugrow) => (
+			  <tr class:list={drugrow}>
+					{drugs.map((drugcell) => (
+					  <td class:list={[bg(drugrow,drugcell),drugrow,drugcell]}>{combo(drugrow,drugcell)}</td>
+					 ))}
+				</tr>
+			 ))}
+		</table>
+
+		<div>
+			{drugs.slice(1).map((drug) => (
+				<input type="checkbox" class="filter_check" id={drug} name={drug} value={drug} checked>
+				<label for={drug}> Display {drug}</label><br>
+			))}
+		</div>
+	</body>
+</html>
