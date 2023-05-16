@@ -1,4 +1,7 @@
 ---
+import { getCollection } from 'astro:content';
+const pages = await getCollection('substances');
+
 let data = {
   "drugs": ["","milk", "cereal", "salt"],
   "danger" : [
@@ -85,6 +88,20 @@ window.onload = (event) => {
 
 	<body>
 		<h1>Combos</h1>
+		<ul>
+		  {pages.map(page => (
+		    <li>
+		      <a href={`substances/${page.slug}`}>{page.data.title}</a>
+		    </li>
+		  ))}
+		</ul>
+
+		<div>
+			{drugs.slice(1).map((drug) => (
+				<input type="checkbox" class="filter_check" id={drug} name={drug} value={drug} checked>
+				<label for={drug}> Display {drug}</label><br>
+			))}
+		</div>
 		<table>
 			{drugs.map((drugrow) => (
 			  <tr class:list={drugrow}>
@@ -94,12 +111,5 @@ window.onload = (event) => {
 				</tr>
 			 ))}
 		</table>
-
-		<div>
-			{drugs.slice(1).map((drug) => (
-				<input type="checkbox" class="filter_check" id={drug} name={drug} value={drug} checked>
-				<label for={drug}> Display {drug}</label><br>
-			))}
-		</div>
 	</body>
 </html>
