@@ -14,9 +14,12 @@ import data from '../../data.json';
 let value = entry.data.slug
 
 import Grid from '../../components/grid.astro';
+import Risk from '../../components/risk.astro';
+import Confidence from '../../components/confidence.astro';
 ---
 <h1>{entry.data.title}</h1>
-
+<Risk page={entry.data.slug} data={data} />
+<Confidence confidence={entry.data.confidence} />
 <Content />
 <Grid page={entry.data.slug} data={data} />
 
