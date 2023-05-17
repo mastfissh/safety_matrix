@@ -1,0 +1,77 @@
+---
+const { page, data } = Astro.props;
+let drugs = data["drugs"].filter(item => item !== page)
+
+function combo(list){
+  let subs = [...new Set(list)]
+  subs.sort()
+  if (subs[0] == ""){
+    subs.shift()
+  }
+  return subs.join('-')
+}
+
+function bg(list){
+  let canon = combo(list)
+  for (let danger of data["danger"]){
+    if (combo(danger) == canon){
+      return "danger"
+    }
+  }
+  for (let safe of data["safe"]){
+    if (combo(safe) == canon){
+      return "safe"
+    }
+  }
+  if (!((""+canon).includes('-'))){
+    return "single"
+  }
+  return "unknown"
+}
+import '../style.css';
+
+---
+<script>
+window.onload = (event) => {
+  const checkboxes = document.querySelectorAll('.filter_check');
+  checkboxes.forEach((box) => {
+    box.addEventListener('click', (event) => {
+      if (box.checked){
+        for (const item of document.querySelectorAll("." + box.id)) {
+          item.style.display = '';
+        }
+      } else {
+        for (const item of document.querySelectorAll("." + box.id)) {
+          item.style.display = 'none';
+        }
+      }
+
+    });
+  });
+};
+</script>
+
+<div>
+  {drugs.map((drug) => (
+    <input type="checkbox" class="filter_check" id={drug} name={drug} value={drug} checked>
+    <label for={drug}> Display {drug}</label><br>
+  ))}
+</div>
+<table>
+  <tr class:list={"topkey"}>
+    <td></td>
+    {drugs.map((drug) => (
+      <td>{drug}</td>
+    ))
+  }
+  </tr>
+    {drugs.map((drugrow) => (
+      <tr class:list={drugrow}>
+        <td>{drugrow}</td>
+        {drugs.map((drugcell) => (
+          <td class:list={[bg([page,drugrow,drugcell]),drugrow,drugcell]}>{combo([page,drugrow,drugcell])}</td>
+         ))}
+      </tr>
+     ))}
+
+</table>
