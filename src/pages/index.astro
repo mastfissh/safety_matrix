@@ -2,34 +2,7 @@
 import { getCollection } from 'astro:content';
 const pages = await getCollection('substances');
 import data from '../data.json';
-let drugs = data["drugs"]
-function combo(i, j){
-	let subs = [...new Set([i,j])]
-  subs.sort()
-  if (subs[0] == ""){
-  	subs.shift()
-  }
-  return subs.join('-')
-}
-
-function bg(i, j){
-	let canon = combo(i,j)
-	for (let danger of data["danger"]){
-		if (combo(danger[0],danger[1]) == canon){
-			return "danger"
-		}
-	}
-	for (let safe of data["safe"]){
-		if (combo(safe[0],safe[1]) == canon){
-			return "safe"
-		}
-	}
-	if (!((""+canon).includes('-'))){
-		return "single"
-	}
-  return "unknown"
-}
-import '../style.css';
+import Grid from '../components/grid.astro';
 ---
 
 <html lang="en">
@@ -43,26 +16,6 @@ import '../style.css';
 
 	</head>
 
-<script>
-window.onload = (event) => {
-	const checkboxes = document.querySelectorAll('.filter_check');
-  checkboxes.forEach((box) => {
-    box.addEventListener('click', (event) => {
-    	if (box.checked){
-    		for (const item of document.querySelectorAll("." + box.id)) {
-				  item.style.display = '';
-				}
-    	} else {
-    		for (const item of document.querySelectorAll("." + box.id)) {
-				  item.style.display = 'none';
-				}
-    	}
-
-    });
-  });
-};
-</script>
-
 	<body>
 		<h1>Combos</h1>
 		<ul>
@@ -73,20 +26,6 @@ window.onload = (event) => {
 		  ))}
 		</ul>
 
-		<div>
-			{drugs.map((drug) => (
-				<input type="checkbox" class="filter_check" id={drug} name={drug} value={drug} checked>
-				<label for={drug}> Display {drug}</label><br>
-			))}
-		</div>
-		<table>
-			{[""].concat(drugs).map((drugrow) => (
-			  <tr class:list={drugrow}>
-					{[""].concat(drugs).map((drugcell) => (
-					  <td class:list={[bg(drugrow,drugcell),drugrow,drugcell]}>{combo(drugrow,drugcell)}</td>
-					 ))}
-				</tr>
-			 ))}
-		</table>
+		<Grid page={""} data={data} />
 	</body>
 </html>
