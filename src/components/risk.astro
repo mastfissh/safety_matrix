@@ -1,3 +1,5 @@
 ---
+const { page, data } = Astro.props;
+import {risk } from '../util';
 ---
-There is a high|low risk for this
+There is a {risk([page], data)} risk for this

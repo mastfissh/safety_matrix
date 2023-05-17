@@ -2,32 +2,7 @@
 const { page, data } = Astro.props;
 let drugs = data["drugs"].filter(item => item !== page)
 
-function combo(list){
-  let subs = [...new Set(list)]
-  subs.sort()
-  if (subs[0] == ""){
-    subs.shift()
-  }
-  return subs.join('-')
-}
-
-function bg(list){
-  let canon = combo(list)
-  for (let danger of data["danger"]){
-    if (combo(danger) == canon){
-      return "danger"
-    }
-  }
-  for (let safe of data["safe"]){
-    if (combo(safe) == canon){
-      return "safe"
-    }
-  }
-  if (!((""+canon).includes('-'))){
-    return "single"
-  }
-  return "unknown"
-}
+import { combo, risk } from '../util';
 import '../style.css';
 
 ---
@@ -69,7 +44,7 @@ window.onload = (event) => {
       <tr class:list={drugrow}>
         <td>{drugrow}</td>
         {drugs.map((drugcell) => (
-          <td class:list={[bg([page,drugrow,drugcell]),drugrow,drugcell]}>{combo([page,drugrow,drugcell])}</td>
+          <td class:list={[risk([page,drugrow,drugcell], data),drugrow,drugcell]}>{combo([page,drugrow,drugcell])}</td>
          ))}
       </tr>
      ))}
