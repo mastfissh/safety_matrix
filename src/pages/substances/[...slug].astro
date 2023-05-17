@@ -10,6 +10,61 @@ export async function getStaticPaths() {
 // 2. When it's time to render, you can get the entry directly from the prop
 const { entry } = Astro.props;
 const { Content } = await entry.render();
+import data from '../../data.json';
+let value = entry.data.slug
+let drugs = data["drugs"].filter(item => item !== value)
+
+function combo(list){
+  let subs = [...new Set(list)]
+  subs.sort()
+  if (subs[0] == ""){
+    subs.shift()
+  }
+  return subs.join('-')
+}
+
+function bg(list){
+  let canon = combo(list)
+  for (let danger of data["danger"]){
+    if (combo(danger) == canon){
+      return "danger"
+    }
+  }
+  for (let safe of data["safe"]){
+    if (combo(safe) == canon){
+      return "safe"
+    }
+  }
+  if (!((""+canon).includes('-'))){
+    return "single"
+  }
+  return "unknown"
+}
+import '../../style.css';
 ---
 <h1>{entry.data.title}</h1>
 <Content />
+<div>
+      {drugs.map((drug) => (
+        <input type="checkbox" class="filter_check" id={drug} name={drug} value={drug} checked>
+        <label for={drug}> Display {drug}</label><br>
+      ))}
+    </div>
+    <table>
+      <tr class:list={"topkey"}>
+        <td></td>
+        {drugs.map((drug) => (
+          <td>{drug}</td>
+        ))
+      }
+      </tr>
+        {drugs.map((drugrow) => (
+          <tr class:list={drugrow}>
+            <td>{drugrow}</td>
+            {drugs.map((drugcell) => (
+              <td class:list={[bg([entry.data.slug,drugrow,drugcell]),drugrow,drugcell]}>{combo([entry.data.slug,drugrow,drugcell])}</td>
+             ))}
+          </tr>
+         ))}
+
+    </table>

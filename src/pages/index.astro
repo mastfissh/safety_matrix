@@ -1,22 +1,13 @@
 ---
 import { getCollection } from 'astro:content';
 const pages = await getCollection('substances');
-
-let data = {
-  "drugs": ["","milk", "cereal", "salt"],
-  "danger" : [
-    ["milk", "salt"]
-  ],
-  "safe" :[
-    ["cereal", "milk"]
-  ]
-}
+import data from '../data.json';
 let drugs = data["drugs"]
 function combo(i, j){
 	let subs = [...new Set([i,j])]
   subs.sort()
   if (subs[0] == ""){
-  	return subs[1]
+  	subs.shift()
   }
   return subs.join('-')
 }
@@ -38,6 +29,7 @@ function bg(i, j){
 	}
   return "unknown"
 }
+import '../style.css';
 ---
 
 <html lang="en">
@@ -50,22 +42,7 @@ function bg(i, j){
 
 
 	</head>
-<style>
-	td.danger{background-color: red;}
-	td.safe{background-color: green;}
-	td.unknown{background-color: grey;}
-	table {
-	  table-layout: fixed;
-	  width: 100%;
-	  border-collapse: collapse;
-	  border: 2px solid black;
-	}
-	th,
-	td {
-		border: 1px solid #e5e7eb;
-	  padding: 20px;
-	}
-</style>
+
 <script>
 window.onload = (event) => {
 	const checkboxes = document.querySelectorAll('.filter_check');
@@ -97,15 +74,15 @@ window.onload = (event) => {
 		</ul>
 
 		<div>
-			{drugs.slice(1).map((drug) => (
+			{drugs.map((drug) => (
 				<input type="checkbox" class="filter_check" id={drug} name={drug} value={drug} checked>
 				<label for={drug}> Display {drug}</label><br>
 			))}
 		</div>
 		<table>
-			{drugs.map((drugrow) => (
+			{[""].concat(drugs).map((drugrow) => (
 			  <tr class:list={drugrow}>
-					{drugs.map((drugcell) => (
+					{[""].concat(drugs).map((drugcell) => (
 					  <td class:list={[bg(drugrow,drugcell),drugrow,drugcell]}>{combo(drugrow,drugcell)}</td>
 					 ))}
 				</tr>
