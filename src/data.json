@@ -1,0 +1,10 @@
+{
+  "drugs": ["milk", "cereal", "salt"],
+  "danger" : [
+    ["milk", "salt"]
+  ],
+  "safe" :[
+    ["cereal", "milk"],
+    ["cereal", "milk", "salt"]
+  ]
+}
