@@ -1,10 +1,11 @@
 ---
+
 const { page, data } = Astro.props;
 let drugs = data["drugs"].filter(item => item !== page)
 
 import { combo, risk } from '../util';
 import '../style.css';
-
+import Druglink from './druglink.astro';
 ---
 <script>
 window.onload = (event) => {
@@ -44,7 +45,7 @@ window.onload = (event) => {
       <tr class:list={drugrow}>
         <td>{drugrow}</td>
         {drugs.map((drugcell) => (
-          <td class:list={[risk([page,drugrow,drugcell], data),drugrow,drugcell]}>{combo([page,drugrow,drugcell])}</td>
+          <td class:list={[risk([page,drugrow,drugcell], data),drugrow,drugcell]}><Druglink slug={combo([page,drugrow,drugcell])} /></td>
          ))}
       </tr>
      ))}

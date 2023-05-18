@@ -1,6 +1,4 @@
 ---
-import { getCollection } from 'astro:content';
-const pages = await getCollection('substances');
 import data from '../data.json';
 import Grid from '../components/grid.astro';
 ---
@@ -18,13 +16,6 @@ import Grid from '../components/grid.astro';
 
 	<body>
 		<h1>Combos</h1>
-		<ul>
-		  {pages.map(page => (
-		    <li>
-		      <a href={`substances/${page.slug}`}>{page.data.title}</a>
-		    </li>
-		  ))}
-		</ul>
 
 		<Grid page={""} data={data} />
 	</body>

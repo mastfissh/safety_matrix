@@ -1,0 +1,9 @@
+---
+import { getEntryBySlug } from 'astro:content';
+const { slug } = Astro.props;
+const page = await getEntryBySlug('substances', slug);
+let link = (!!page)
+---
+{!link && slug}
+{link && <a href={'substances/' + slug}> {slug} </a>}
+
