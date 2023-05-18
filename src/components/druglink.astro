@@ -5,5 +5,5 @@ const page = await getEntryBySlug('substances', slug);
 let link = (!!page)
 ---
 {!link && slug}
-{link && <a href={'substances/' + slug}> {slug} </a>}
+{link && <a href={'/safety_matrix/substances/' + slug}> {slug} </a>}
 
