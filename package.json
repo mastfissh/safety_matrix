@@ -7,10 +7,12 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "ingest": "node ./src/ingest.js"
   },
   "dependencies": {
     "@astrojs/mdx": "^0.19.1",
-    "astro": "^2.4.1"
+    "astro": "^2.4.1",
+    "csv-parse": "^5.3.10"
   }
 }

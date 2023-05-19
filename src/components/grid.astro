@@ -2,8 +2,8 @@
 
 const { page, data } = Astro.props;
 let drugs = data["drugs"].filter(item => item !== page)
-
-import { combo, risk } from '../util';
+drugs = drugs.slice(0, 12)
+import { combo, risk,slugify } from '../util';
 import '../style.css';
 import Druglink from './druglink.astro';
 ---
@@ -29,23 +29,23 @@ window.onload = (event) => {
 
 <div>
   {drugs.map((drug) => (
-    <input type="checkbox" class="filter_check" id={drug} name={drug} value={drug} checked>
-    <label for={drug}> Display {drug}</label><br>
+    <input type="checkbox" class="filter_check" id={slugify(drug)} name={slugify(drug)} value={slugify(drug)} checked>
+    <label for={slugify(drug)}> Display {drug}</label><br>
   ))}
 </div>
 <table>
   <tr class:list={"topkey"}>
     <td></td>
     {drugs.map((drug) => (
-      <td>{drug}</td>
+      <td class:list={slugify(drug)}>{drug}</td>
     ))
   }
   </tr>
     {drugs.map((drugrow) => (
-      <tr class:list={drugrow}>
-        <td>{drugrow}</td>
+      <tr class:list={slugify(drugrow)}>
+        <td class:list={slugify(drugrow)}>{drugrow}</td>
         {drugs.map((drugcell) => (
-          <td class:list={[risk([page,drugrow,drugcell], data),drugrow,drugcell]}><Druglink slug={combo([page,drugrow,drugcell])} /></td>
+          <td class:list={[risk([page,drugrow,drugcell], data),slugify(drugrow),slugify(drugcell)]}><Druglink slug={combo([page,drugrow,drugcell])} /></td>
          ))}
       </tr>
      ))}
