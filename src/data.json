@@ -1,1 +1,7969 @@
-{"drugs":["LSD","Psilocybin","DMT","Mescaline","DOx","NBOMes","2C-x","2C-T-x","5-MeO-xxT","Cannabis","Ketamine","MXE","DXM","Nitrous ","Amphetamines","MDMA","Cocaine","Caffeine","Alcohol","GHB/GBL","Opiods","Tramadol","Benzodiazepine","MAOIs","SSRIs","Salvia divonorum","Acacia species","Mimosa tenuiflora","Panaelous cyanescens","Argyreia nervosa","Ipomea violacea","Rivea corymbosa","Amanita muscaria","Trichocereus species","Lophpopra willamsii","Incillius alvarius","Mitragyna speciosa","Papaver somnifarem","Banisteriopsis caapi","Piper methysticum","Catha edulis","Ephedra sinica","Eroxythylum coca","Phyllomedusa bicolor","Tabernathe iboga"],"risk_levels":["SR","GR","MR","LRS","LRD","LRNS"],"SR":[["5-MeO-xxT","MAOIs"],["5-MeO-xxT","Banisteriopsis caapi"],["5-MeO-xxT","Piper methysticum"],["Ketamine","Alcohol"],["Ketamine","GHB/GBL"],["Ketamine","Opiods"],["Ketamine","Tramadol"],["Ketamine","Mitragyna speciosa"],["Ketamine","Papaver somnifarem"],["Ketamine","Phyllomedusa bicolor"],["MXE","Alcohol"],["MXE","GHB/GBL"],["MXE","Opiods"],["MXE","Tramadol"],["MXE","Mitragyna speciosa"],["MXE","Papaver somnifarem"],["MXE","Phyllomedusa bicolor"],["DXM","MDMA"],["DXM","Alcohol"],["DXM","GHB/GBL"],["DXM","Opiods"],["DXM","Tramadol"],["DXM","MAOIs"],["DXM","SSRIs"],["DXM","Mitragyna speciosa"],["DXM","Papaver somnifarem"],["DXM","Banisteriopsis caapi"],["DXM","Piper methysticum"],["DXM","Phyllomedusa bicolor"],["Amphetamines","Tramadol"],["Amphetamines","MAOIs"],["Amphetamines","Banisteriopsis caapi"],["Amphetamines","Piper methysticum"],["MDMA","DXM"],["MDMA","Tramadol"],["MDMA","MAOIs"],["MDMA","Banisteriopsis caapi"],["MDMA","Piper methysticum"],["Cocaine","Opiods"],["Cocaine","Tramadol"],["Cocaine","MAOIs"],["Cocaine","Mitragyna speciosa"],["Cocaine","Papaver somnifarem"],["Cocaine","Banisteriopsis caapi"],["Cocaine","Piper methysticum"],["Cocaine","Phyllomedusa bicolor"],["Alcohol","Ketamine"],["Alcohol","MXE"],["Alcohol","DXM"],["Alcohol","GHB/GBL"],["Alcohol","Opiods"],["Alcohol","Tramadol"],["Alcohol","Benzodiazepine"],["Alcohol","Mitragyna speciosa"],["Alcohol","Papaver somnifarem"],["Alcohol","Phyllomedusa bicolor"],["GHB/GBL","Ketamine"],["GHB/GBL","MXE"],["GHB/GBL","DXM"],["GHB/GBL","Alcohol"],["GHB/GBL","Opiods"],["GHB/GBL","Tramadol"],["GHB/GBL","Benzodiazepine"],["GHB/GBL","Mitragyna speciosa"],["GHB/GBL","Papaver somnifarem"],["GHB/GBL","Phyllomedusa bicolor"],["Opiods","Ketamine"],["Opiods","MXE"],["Opiods","DXM"],["Opiods","Cocaine"],["Opiods","Alcohol"],["Opiods","GHB/GBL"],["Opiods","Tramadol"],["Opiods","Benzodiazepine"],["Opiods","Eroxythylum coca"],["Tramadol","Ketamine"],["Tramadol","MXE"],["Tramadol","DXM"],["Tramadol","Amphetamines"],["Tramadol","MDMA"],["Tramadol","Cocaine"],["Tramadol","Alcohol"],["Tramadol","GHB/GBL"],["Tramadol","Opiods"],["Tramadol","Benzodiazepine"],["Tramadol","MAOIs"],["Tramadol","SSRIs"],["Tramadol","Mitragyna speciosa"],["Tramadol","Papaver somnifarem"],["Tramadol","Banisteriopsis caapi"],["Tramadol","Piper methysticum"],["Tramadol","Catha edulis"],["Tramadol","Ephedra sinica"],["Tramadol","Eroxythylum coca"],["Tramadol","Phyllomedusa bicolor"],["Benzodiazepine","Alcohol"],["Benzodiazepine","GHB/GBL"],["Benzodiazepine","Opiods"],["Benzodiazepine","Tramadol"],["Benzodiazepine","Mitragyna speciosa"],["Benzodiazepine","Papaver somnifarem"],["Benzodiazepine","Phyllomedusa bicolor"],["MAOIs","5-MeO-xxT"],["MAOIs","DXM"],["MAOIs","Amphetamines"],["MAOIs","MDMA"],["MAOIs","Cocaine"],["MAOIs","Tramadol"],["MAOIs","SSRIs"],["MAOIs","Incillius alvarius"],["MAOIs","Catha edulis"],["MAOIs","Ephedra sinica"],["MAOIs","Eroxythylum coca"],["MAOIs","Tabernathe iboga"],["SSRIs","DXM"],["SSRIs","Tramadol"],["SSRIs","MAOIs"],["SSRIs","Banisteriopsis caapi"],["SSRIs","Piper methysticum"],["Incillius alvarius","MAOIs"],["Incillius alvarius","Banisteriopsis caapi"],["Mitragyna speciosa","Cocaine"],["Mitragyna speciosa","Tramadol"],["Mitragyna speciosa","Benzodiazepine"],["Mitragyna speciosa","Eroxythylum coca"],["Mitragyna speciosa","Tabernathe iboga"],["Papaver somnifarem","Tramadol"],["Papaver somnifarem","Benzodiazepine"],["Papaver somnifarem","Tabernathe iboga"],["Banisteriopsis caapi","Cannabis"],["Banisteriopsis caapi","Opiods"],["Banisteriopsis caapi","SSRIs"],["Banisteriopsis caapi","Incillius alvarius"],["Banisteriopsis caapi","Tabernathe iboga"],["Piper methysticum","5-MeO-xxT"],["Piper methysticum","GHB/GBL"],["Piper methysticum","SSRIs"],["Catha edulis","Tramadol"],["Catha edulis","MAOIs"],["Ephedra sinica","Tramadol"],["Ephedra sinica","MAOIs"],["Eroxythylum coca","Opiods"],["Eroxythylum coca","Tramadol"],["Eroxythylum coca","MAOIs"],["Eroxythylum coca","Papaver somnifarem"],["Phyllomedusa bicolor","GHB/GBL"],["Phyllomedusa bicolor","Tramadol"],["Phyllomedusa bicolor","Benzodiazepine"],["Phyllomedusa bicolor","Tabernathe iboga"],["Tabernathe iboga","MAOIs"],["Tabernathe iboga","Mitragyna speciosa"],["Tabernathe iboga","Papaver somnifarem"],["Tabernathe iboga","Banisteriopsis caapi"],["Tabernathe iboga","Phyllomedusa bicolor"]],"GR":[["LSD","Tramadol"],["Psilocybin","Tramadol"],["DMT","Tramadol"],["Mescaline","Tramadol"],["DOx","DXM"],["DOx","Amphetamines"],["DOx","Cocaine"],["DOx","Tramadol"],["DOx","Catha edulis"],["DOx","Ephedra sinica"],["DOx","Eroxythylum coca"],["NBOMes","DXM"],["NBOMes","Amphetamines"],["NBOMes","Cocaine"],["NBOMes","Tramadol"],["NBOMes","Catha edulis"],["NBOMes","Ephedra sinica"],["NBOMes","Eroxythylum coca"],["2C-x","Tramadol"],["2C-T-x","DXM"],["2C-T-x","Amphetamines"],["2C-T-x","Cocaine"],["2C-T-x","Tramadol"],["2C-T-x","Catha edulis"],["2C-T-x","Ephedra sinica"],["2C-T-x","Eroxythylum coca"],["5-MeO-xxT","DXM"],["5-MeO-xxT","Amphetamines"],["5-MeO-xxT","Cocaine"],["5-MeO-xxT","Tramadol"],["5-MeO-xxT","Catha edulis"],["5-MeO-xxT","Ephedra sinica"],["5-MeO-xxT","Eroxythylum coca"],["5-MeO-xxT","Tabernathe iboga"],["MXE","MAOIs"],["MXE","Banisteriopsis caapi"],["MXE","Piper methysticum"],["DXM","DOx"],["DXM","NBOMes"],["DXM","2C-T-x"],["DXM","5-MeO-xxT"],["DXM","Amphetamines"],["DXM","Cocaine"],["DXM","Incillius alvarius"],["DXM","Catha edulis"],["DXM","Ephedra sinica"],["DXM","Eroxythylum coca"],["Amphetamines","DOx"],["Amphetamines","NBOMes"],["Amphetamines","2C-T-x"],["Amphetamines","5-MeO-xxT"],["Amphetamines","DXM"],["Amphetamines","Incillius alvarius"],["MDMA","Tabernathe iboga"],["Cocaine","DOx"],["Cocaine","NBOMes"],["Cocaine","2C-T-x"],["Cocaine","5-MeO-xxT"],["Cocaine","DXM"],["Cocaine","Alcohol"],["Cocaine","Incillius alvarius"],["Alcohol","Cocaine"],["Alcohol","MAOIs"],["Alcohol","Banisteriopsis caapi"],["Alcohol","Piper methysticum"],["Alcohol","Eroxythylum coca"],["Tramadol","LSD"],["Tramadol","Psilocybin"],["Tramadol","DMT"],["Tramadol","Mescaline"],["Tramadol","DOx"],["Tramadol","NBOMes"],["Tramadol","2C-x"],["Tramadol","2C-T-x"],["Tramadol","5-MeO-xxT"],["Tramadol","Acacia species"],["Tramadol","Mimosa tenuiflora"],["Tramadol","Panaelous cyanescens"],["Tramadol","Argyreia nervosa"],["Tramadol","Ipomea violacea"],["Tramadol","Rivea corymbosa"],["Tramadol","Trichocereus species"],["Tramadol","Lophpopra willamsii"],["Tramadol","Incillius alvarius"],["Tramadol","Tabernathe iboga"],["MAOIs","MXE"],["MAOIs","Alcohol"],["SSRIs","Tabernathe iboga"],["Acacia species","Tramadol"],["Mimosa tenuiflora","Tramadol"],["Panaelous cyanescens","Tramadol"],["Argyreia nervosa","Tramadol"],["Ipomea violacea","Tramadol"],["Rivea corymbosa","Tramadol"],["Amanita muscaria","Tabernathe iboga"],["Trichocereus species","Tramadol"],["Lophpopra willamsii","Tramadol"],["Incillius alvarius","DXM"],["Incillius alvarius","Amphetamines"],["Incillius alvarius","Cocaine"],["Incillius alvarius","Tramadol"],["Incillius alvarius","Piper methysticum"],["Incillius alvarius","Tabernathe iboga"],["Mitragyna speciosa","Papaver somnifarem"],["Mitragyna speciosa","Piper methysticum"],["Papaver somnifarem","Mitragyna speciosa"],["Papaver somnifarem","Piper methysticum"],["Papaver somnifarem","Eroxythylum coca"],["Papaver somnifarem","Phyllomedusa bicolor"],["Banisteriopsis caapi","Catha edulis"],["Banisteriopsis caapi","Ephedra sinica"],["Banisteriopsis caapi","Eroxythylum coca"],["Piper methysticum","Incillius alvarius"],["Piper methysticum","Mitragyna speciosa"],["Piper methysticum","Papaver somnifarem"],["Piper methysticum","Catha edulis"],["Piper methysticum","Ephedra sinica"],["Piper methysticum","Eroxythylum coca"],["Piper methysticum","Phyllomedusa bicolor"],["Piper methysticum","Tabernathe iboga"],["Catha edulis","DOx"],["Catha edulis","NBOMes"],["Catha edulis","2C-T-x"],["Catha edulis","5-MeO-xxT"],["Catha edulis","DXM"],["Catha edulis","Banisteriopsis caapi"],["Catha edulis","Piper methysticum"],["Ephedra sinica","DOx"],["Ephedra sinica","NBOMes"],["Ephedra sinica","2C-T-x"],["Ephedra sinica","5-MeO-xxT"],["Ephedra sinica","DXM"],["Ephedra sinica","Banisteriopsis caapi"],["Ephedra sinica","Piper methysticum"],["Eroxythylum coca","DOx"],["Eroxythylum coca","NBOMes"],["Eroxythylum coca","2C-T-x"],["Eroxythylum coca","5-MeO-xxT"],["Eroxythylum coca","DXM"],["Eroxythylum coca","Alcohol"],["Eroxythylum coca","Banisteriopsis caapi"],["Eroxythylum coca","Piper methysticum"],["Eroxythylum coca","Catha edulis"],["Phyllomedusa bicolor","Papaver somnifarem"],["Phyllomedusa bicolor","Piper methysticum"],["Tabernathe iboga","5-MeO-xxT"],["Tabernathe iboga","MDMA"],["Tabernathe iboga","Tramadol"],["Tabernathe iboga","SSRIs"],["Tabernathe iboga","Amanita muscaria"],["Tabernathe iboga","Incillius alvarius"],["Tabernathe iboga","Piper methysticum"]],"MR":[["LSD","Cannabis"],["LSD","Amphetamines"],["LSD","Cocaine"],["LSD","Catha edulis"],["LSD","Ephedra sinica"],["LSD","Eroxythylum coca"],["LSD","Tabernathe iboga"],["Psilocybin","Cannabis"],["Psilocybin","Amphetamines"],["Psilocybin","Cocaine"],["Psilocybin","Catha edulis"],["Psilocybin","Ephedra sinica"],["Psilocybin","Eroxythylum coca"],["Psilocybin","Tabernathe iboga"],["DMT","Cannabis"],["DMT","Amphetamines"],["DMT","Cocaine"],["DMT","Catha edulis"],["DMT","Ephedra sinica"],["DMT","Eroxythylum coca"],["DMT","Tabernathe iboga"],["Mescaline","DOx"],["Mescaline","NBOMes"],["Mescaline","2C-x"],["Mescaline","2C-T-x"],["Mescaline","5-MeO-xxT"],["Mescaline","Cannabis"],["Mescaline","Amphetamines"],["Mescaline","Cocaine"],["Mescaline","MAOIs"],["Mescaline","Incillius alvarius"],["Mescaline","Banisteriopsis caapi"],["Mescaline","Piper methysticum"],["Mescaline","Catha edulis"],["Mescaline","Ephedra sinica"],["Mescaline","Eroxythylum coca"],["Mescaline","Tabernathe iboga"],["DOx","Mescaline"],["DOx","NBOMes"],["DOx","2C-x"],["DOx","2C-T-x"],["DOx","5-MeO-xxT"],["DOx","Cannabis"],["DOx","MDMA"],["DOx","Caffeine"],["DOx","MAOIs"],["DOx","Trichocereus species"],["DOx","Lophpopra willamsii"],["DOx","Incillius alvarius"],["DOx","Banisteriopsis caapi"],["DOx","Piper methysticum"],["DOx","Tabernathe iboga"],["NBOMes","Mescaline"],["NBOMes","DOx"],["NBOMes","2C-x"],["NBOMes","2C-T-x"],["NBOMes","5-MeO-xxT"],["NBOMes","Cannabis"],["NBOMes","MDMA"],["NBOMes","Caffeine"],["NBOMes","MAOIs"],["NBOMes","Trichocereus species"],["NBOMes","Lophpopra willamsii"],["NBOMes","Incillius alvarius"],["NBOMes","Banisteriopsis caapi"],["NBOMes","Piper methysticum"],["NBOMes","Tabernathe iboga"],["2C-x","Mescaline"],["2C-x","DOx"],["2C-x","NBOMes"],["2C-x","2C-T-x"],["2C-x","5-MeO-xxT"],["2C-x","Cannabis"],["2C-x","Amphetamines"],["2C-x","Cocaine"],["2C-x","MAOIs"],["2C-x","Trichocereus species"],["2C-x","Lophpopra willamsii"],["2C-x","Incillius alvarius"],["2C-x","Banisteriopsis caapi"],["2C-x","Piper methysticum"],["2C-x","Catha edulis"],["2C-x","Ephedra sinica"],["2C-x","Eroxythylum coca"],["2C-x","Tabernathe iboga"],["2C-T-x","Mescaline"],["2C-T-x","DOx"],["2C-T-x","NBOMes"],["2C-T-x","2C-x"],["2C-T-x","5-MeO-xxT"],["2C-T-x","Cannabis"],["2C-T-x","MXE"],["2C-T-x","MDMA"],["2C-T-x","MAOIs"],["2C-T-x","Trichocereus species"],["2C-T-x","Lophpopra willamsii"],["2C-T-x","Incillius alvarius"],["2C-T-x","Banisteriopsis caapi"],["2C-T-x","Piper methysticum"],["2C-T-x","Tabernathe iboga"],["5-MeO-xxT","Mescaline"],["5-MeO-xxT","DOx"],["5-MeO-xxT","NBOMes"],["5-MeO-xxT","2C-x"],["5-MeO-xxT","2C-T-x"],["5-MeO-xxT","Cannabis"],["5-MeO-xxT","MDMA"],["5-MeO-xxT","Trichocereus species"],["5-MeO-xxT","Lophpopra willamsii"],["Cannabis","LSD"],["Cannabis","Psilocybin"],["Cannabis","DMT"],["Cannabis","Mescaline"],["Cannabis","DOx"],["Cannabis","NBOMes"],["Cannabis","2C-x"],["Cannabis","2C-T-x"],["Cannabis","5-MeO-xxT"],["Cannabis","Amphetamines"],["Cannabis","Cocaine"],["Cannabis","Salvia divonorum"],["Cannabis","Acacia species"],["Cannabis","Mimosa tenuiflora"],["Cannabis","Panaelous cyanescens"],["Cannabis","Argyreia nervosa"],["Cannabis","Ipomea violacea"],["Cannabis","Rivea corymbosa"],["Cannabis","Trichocereus species"],["Cannabis","Lophpopra willamsii"],["Cannabis","Incillius alvarius"],["Cannabis","Catha edulis"],["Cannabis","Ephedra sinica"],["Cannabis","Eroxythylum coca"],["Cannabis","Tabernathe iboga"],["Ketamine","Amphetamines"],["Ketamine","Cocaine"],["Ketamine","Benzodiazepine"],["Ketamine","MAOIs"],["Ketamine","Banisteriopsis caapi"],["Ketamine","Piper methysticum"],["Ketamine","Catha edulis"],["Ketamine","Ephedra sinica"],["Ketamine","Eroxythylum coca"],["Ketamine","Tabernathe iboga"],["MXE","2C-x"],["MXE","Amphetamines"],["MXE","MDMA"],["MXE","Cocaine"],["MXE","Benzodiazepine"],["MXE","SSRIs"],["MXE","Catha edulis"],["MXE","Ephedra sinica"],["MXE","Eroxythylum coca"],["MXE","Tabernathe iboga"],["DXM","Benzodiazepine"],["DXM","Tabernathe iboga"],["Nitrous ","Alcohol"],["Nitrous ","GHB/GBL"],["Nitrous ","Opiods"],["Nitrous ","Tramadol"],["Nitrous ","Mitragyna speciosa"],["Nitrous ","Papaver somnifarem"],["Nitrous ","Phyllomedusa bicolor"],["Nitrous ","Tabernathe iboga"],["Amphetamines","LSD"],["Amphetamines","Psilocybin"],["Amphetamines","DMT"],["Amphetamines","Mescaline"],["Amphetamines","2C-x"],["Amphetamines","Cannabis"],["Amphetamines","Ketamine"],["Amphetamines","MXE"],["Amphetamines","Cocaine"],["Amphetamines","Caffeine"],["Amphetamines","Alcohol"],["Amphetamines","GHB/GBL"],["Amphetamines","Opiods"],["Amphetamines","Salvia divonorum"],["Amphetamines","Acacia species"],["Amphetamines","Mimosa tenuiflora"],["Amphetamines","Panaelous cyanescens"],["Amphetamines","Argyreia nervosa"],["Amphetamines","Ipomea violacea"],["Amphetamines","Rivea corymbosa"],["Amphetamines","Trichocereus species"],["Amphetamines","Lophpopra willamsii"],["Amphetamines","Mitragyna speciosa"],["Amphetamines","Papaver somnifarem"],["Amphetamines","Catha edulis"],["Amphetamines","Eroxythylum coca"],["Amphetamines","Phyllomedusa bicolor"],["Amphetamines","Tabernathe iboga"],["MDMA","DOx"],["MDMA","NBOMes"],["MDMA","2C-T-x"],["MDMA","5-MeO-xxT"],["MDMA","MXE"],["MDMA","Cocaine"],["MDMA","Caffeine"],["MDMA","Alcohol"],["MDMA","GHB/GBL"],["MDMA","Incillius alvarius"],["MDMA","Eroxythylum coca"],["Cocaine","LSD"],["Cocaine","Psilocybin"],["Cocaine","DMT"],["Cocaine","Mescaline"],["Cocaine","2C-x"],["Cocaine","Cannabis"],["Cocaine","Ketamine"],["Cocaine","MXE"],["Cocaine","Amphetamines"],["Cocaine","MDMA"],["Cocaine","Caffeine"],["Cocaine","GHB/GBL"],["Cocaine","Salvia divonorum"],["Cocaine","Acacia species"],["Cocaine","Mimosa tenuiflora"],["Cocaine","Panaelous cyanescens"],["Cocaine","Argyreia nervosa"],["Cocaine","Ipomea violacea"],["Cocaine","Rivea corymbosa"],["Cocaine","Trichocereus species"],["Cocaine","Lophpopra willamsii"],["Cocaine","Catha edulis"],["Cocaine","Ephedra sinica"],["Cocaine","Tabernathe iboga"],["Caffeine","DOx"],["Caffeine","NBOMes"],["Caffeine","Amphetamines"],["Caffeine","MDMA"],["Caffeine","Cocaine"],["Caffeine","Catha edulis"],["Caffeine","Ephedra sinica"],["Caffeine","Eroxythylum coca"],["Caffeine","Tabernathe iboga"],["Alcohol","Nitrous "],["Alcohol","Amphetamines"],["Alcohol","MDMA"],["Alcohol","SSRIs"],["Alcohol","Salvia divonorum"],["Alcohol","Amanita muscaria"],["Alcohol","Catha edulis"],["Alcohol","Ephedra sinica"],["Alcohol","Tabernathe iboga"],["GHB/GBL","Nitrous "],["GHB/GBL","Amphetamines"],["GHB/GBL","MDMA"],["GHB/GBL","Cocaine"],["GHB/GBL","Salvia divonorum"],["GHB/GBL","Amanita muscaria"],["GHB/GBL","Catha edulis"],["GHB/GBL","Ephedra sinica"],["GHB/GBL","Eroxythylum coca"],["GHB/GBL","Tabernathe iboga"],["Opiods","Nitrous "],["Opiods","Amphetamines"],["Opiods","MAOIs"],["Opiods","Amanita muscaria"],["Opiods","Banisteriopsis caapi"],["Opiods","Piper methysticum"],["Opiods","Catha edulis"],["Opiods","Ephedra sinica"],["Opiods","Tabernathe iboga"],["Tramadol","Nitrous "],["Tramadol","Salvia divonorum"],["Tramadol","Amanita muscaria"],["Benzodiazepine","Ketamine"],["Benzodiazepine","MXE"],["Benzodiazepine","DXM"],["Benzodiazepine","Amanita muscaria"],["Benzodiazepine","Tabernathe iboga"],["MAOIs","Mescaline"],["MAOIs","DOx"],["MAOIs","NBOMes"],["MAOIs","2C-x"],["MAOIs","2C-T-x"],["MAOIs","Ketamine"],["MAOIs","Opiods"],["MAOIs","Amanita muscaria"],["MAOIs","Trichocereus species"],["MAOIs","Lophpopra willamsii"],["MAOIs","Mitragyna speciosa"],["MAOIs","Papaver somnifarem"],["MAOIs","Phyllomedusa bicolor"],["SSRIs","MXE"],["SSRIs","Alcohol"],["Salvia divonorum","Cannabis"],["Salvia divonorum","Amphetamines"],["Salvia divonorum","Cocaine"],["Salvia divonorum","Alcohol"],["Salvia divonorum","GHB/GBL"],["Salvia divonorum","Tramadol"],["Salvia divonorum","Catha edulis"],["Salvia divonorum","Ephedra sinica"],["Salvia divonorum","Eroxythylum coca"],["Salvia divonorum","Phyllomedusa bicolor"],["Acacia species","Cannabis"],["Acacia species","Amphetamines"],["Acacia species","Cocaine"],["Acacia species","Catha edulis"],["Acacia species","Ephedra sinica"],["Acacia species","Eroxythylum coca"],["Acacia species","Phyllomedusa bicolor"],["Acacia species","Tabernathe iboga"],["Mimosa tenuiflora","Cannabis"],["Mimosa tenuiflora","Amphetamines"],["Mimosa tenuiflora","Cocaine"],["Mimosa tenuiflora","Catha edulis"],["Mimosa tenuiflora","Ephedra sinica"],["Mimosa tenuiflora","Eroxythylum coca"],["Mimosa tenuiflora","Phyllomedusa bicolor"],["Mimosa tenuiflora","Tabernathe iboga"],["Panaelous cyanescens","Cannabis"],["Panaelous cyanescens","Amphetamines"],["Panaelous cyanescens","Cocaine"],["Panaelous cyanescens","Catha edulis"],["Panaelous cyanescens","Ephedra sinica"],["Panaelous cyanescens","Eroxythylum coca"],["Panaelous cyanescens","Phyllomedusa bicolor"],["Panaelous cyanescens","Tabernathe iboga"],["Argyreia nervosa","Cannabis"],["Argyreia nervosa","Amphetamines"],["Argyreia nervosa","Cocaine"],["Argyreia nervosa","Catha edulis"],["Argyreia nervosa","Ephedra sinica"],["Argyreia nervosa","Eroxythylum coca"],["Argyreia nervosa","Phyllomedusa bicolor"],["Argyreia nervosa","Tabernathe iboga"],["Ipomea violacea","Cannabis"],["Ipomea violacea","Amphetamines"],["Ipomea violacea","Cocaine"],["Ipomea violacea","Catha edulis"],["Ipomea violacea","Ephedra sinica"],["Ipomea violacea","Eroxythylum coca"],["Ipomea violacea","Phyllomedusa bicolor"],["Ipomea violacea","Tabernathe iboga"],["Rivea corymbosa","Cannabis"],["Rivea corymbosa","Amphetamines"],["Rivea corymbosa","Cocaine"],["Rivea corymbosa","Catha edulis"],["Rivea corymbosa","Ephedra sinica"],["Rivea corymbosa","Eroxythylum coca"],["Rivea corymbosa","Phyllomedusa bicolor"],["Rivea corymbosa","Tabernathe iboga"],["Amanita muscaria","Alcohol"],["Amanita muscaria","GHB/GBL"],["Amanita muscaria","Opiods"],["Amanita muscaria","Tramadol"],["Amanita muscaria","Benzodiazepine"],["Amanita muscaria","MAOIs"],["Amanita muscaria","Mitragyna speciosa"],["Amanita muscaria","Papaver somnifarem"],["Amanita muscaria","Piper methysticum"],["Amanita muscaria","Phyllomedusa bicolor"],["Trichocereus species","DOx"],["Trichocereus species","NBOMes"],["Trichocereus species","2C-x"],["Trichocereus species","2C-T-x"],["Trichocereus species","5-MeO-xxT"],["Trichocereus species","Cannabis"],["Trichocereus species","Amphetamines"],["Trichocereus species","Cocaine"],["Trichocereus species","MAOIs"],["Trichocereus species","Banisteriopsis caapi"],["Trichocereus species","Piper methysticum"],["Trichocereus species","Catha edulis"],["Trichocereus species","Ephedra sinica"],["Trichocereus species","Eroxythylum coca"],["Trichocereus species","Phyllomedusa bicolor"],["Trichocereus species","Tabernathe iboga"],["Lophpopra willamsii","DOx"],["Lophpopra willamsii","NBOMes"],["Lophpopra willamsii","2C-x"],["Lophpopra willamsii","2C-T-x"],["Lophpopra willamsii","5-MeO-xxT"],["Lophpopra willamsii","Cannabis"],["Lophpopra willamsii","Amphetamines"],["Lophpopra willamsii","Cocaine"],["Lophpopra willamsii","MAOIs"],["Lophpopra willamsii","Banisteriopsis caapi"],["Lophpopra willamsii","Piper methysticum"],["Lophpopra willamsii","Catha edulis"],["Lophpopra willamsii","Ephedra sinica"],["Lophpopra willamsii","Eroxythylum coca"],["Lophpopra willamsii","Phyllomedusa bicolor"],["Lophpopra willamsii","Tabernathe iboga"],["Incillius alvarius","Mescaline"],["Incillius alvarius","DOx"],["Incillius alvarius","NBOMes"],["Incillius alvarius","2C-x"],["Incillius alvarius","2C-T-x"],["Incillius alvarius","Cannabis"],["Incillius alvarius","MDMA"],["Incillius alvarius","Catha edulis"],["Incillius alvarius","Ephedra sinica"],["Incillius alvarius","Eroxythylum coca"],["Incillius alvarius","Phyllomedusa bicolor"],["Mitragyna speciosa","MAOIs"],["Mitragyna speciosa","Amanita muscaria"],["Mitragyna speciosa","Ephedra sinica"],["Mitragyna speciosa","Phyllomedusa bicolor"],["Papaver somnifarem","MAOIs"],["Papaver somnifarem","Amanita muscaria"],["Banisteriopsis caapi","Mescaline"],["Banisteriopsis caapi","DOx"],["Banisteriopsis caapi","NBOMes"],["Banisteriopsis caapi","2C-x"],["Banisteriopsis caapi","2C-T-x"],["Banisteriopsis caapi","Ketamine"],["Banisteriopsis caapi","Alcohol"],["Banisteriopsis caapi","GHB/GBL"],["Banisteriopsis caapi","Tramadol"],["Banisteriopsis caapi","Benzodiazepine"],["Banisteriopsis caapi","Trichocereus species"],["Banisteriopsis caapi","Lophpopra willamsii"],["Banisteriopsis caapi","Piper methysticum"],["Banisteriopsis caapi","Phyllomedusa bicolor"],["Piper methysticum","Mescaline"],["Piper methysticum","DOx"],["Piper methysticum","NBOMes"],["Piper methysticum","2C-x"],["Piper methysticum","2C-T-x"],["Piper methysticum","Ketamine"],["Piper methysticum","Cocaine"],["Piper methysticum","Alcohol"],["Piper methysticum","Opiods"],["Piper methysticum","Tramadol"],["Piper methysticum","Amanita muscaria"],["Piper methysticum","Trichocereus species"],["Piper methysticum","Lophpopra willamsii"],["Piper methysticum","Banisteriopsis caapi"],["Catha edulis","LSD"],["Catha edulis","Psilocybin"],["Catha edulis","DMT"],["Catha edulis","Mescaline"],["Catha edulis","2C-x"],["Catha edulis","Cannabis"],["Catha edulis","Ketamine"],["Catha edulis","MXE"],["Catha edulis","Amphetamines"],["Catha edulis","Cocaine"],["Catha edulis","Caffeine"],["Catha edulis","Alcohol"],["Catha edulis","GHB/GBL"],["Catha edulis","Opiods"],["Catha edulis","Salvia divonorum"],["Catha edulis","Acacia species"],["Catha edulis","Mimosa tenuiflora"],["Catha edulis","Panaelous cyanescens"],["Catha edulis","Argyreia nervosa"],["Catha edulis","Ipomea violacea"],["Catha edulis","Rivea corymbosa"],["Catha edulis","Trichocereus species"],["Catha edulis","Lophpopra willamsii"],["Catha edulis","Incillius alvarius"],["Catha edulis","Ephedra sinica"],["Catha edulis","Eroxythylum coca"],["Catha edulis","Phyllomedusa bicolor"],["Catha edulis","Tabernathe iboga"],["Ephedra sinica","LSD"],["Ephedra sinica","Psilocybin"],["Ephedra sinica","DMT"],["Ephedra sinica","Mescaline"],["Ephedra sinica","2C-x"],["Ephedra sinica","Cannabis"],["Ephedra sinica","Ketamine"],["Ephedra sinica","MXE"],["Ephedra sinica","Cocaine"],["Ephedra sinica","Caffeine"],["Ephedra sinica","Alcohol"],["Ephedra sinica","GHB/GBL"],["Ephedra sinica","Opiods"],["Ephedra sinica","Salvia divonorum"],["Ephedra sinica","Acacia species"],["Ephedra sinica","Mimosa tenuiflora"],["Ephedra sinica","Panaelous cyanescens"],["Ephedra sinica","Argyreia nervosa"],["Ephedra sinica","Ipomea violacea"],["Ephedra sinica","Rivea corymbosa"],["Ephedra sinica","Trichocereus species"],["Ephedra sinica","Lophpopra willamsii"],["Ephedra sinica","Incillius alvarius"],["Ephedra sinica","Mitragyna speciosa"],["Ephedra sinica","Catha edulis"],["Ephedra sinica","Eroxythylum coca"],["Ephedra sinica","Phyllomedusa bicolor"],["Ephedra sinica","Tabernathe iboga"],["Eroxythylum coca","LSD"],["Eroxythylum coca","Psilocybin"],["Eroxythylum coca","DMT"],["Eroxythylum coca","Mescaline"],["Eroxythylum coca","2C-x"],["Eroxythylum coca","Cannabis"],["Eroxythylum coca","Ketamine"],["Eroxythylum coca","MXE"],["Eroxythylum coca","Amphetamines"],["Eroxythylum coca","MDMA"],["Eroxythylum coca","Caffeine"],["Eroxythylum coca","GHB/GBL"],["Eroxythylum coca","Salvia divonorum"],["Eroxythylum coca","Acacia species"],["Eroxythylum coca","Mimosa tenuiflora"],["Eroxythylum coca","Panaelous cyanescens"],["Eroxythylum coca","Argyreia nervosa"],["Eroxythylum coca","Ipomea violacea"],["Eroxythylum coca","Rivea corymbosa"],["Eroxythylum coca","Trichocereus species"],["Eroxythylum coca","Lophpopra willamsii"],["Eroxythylum coca","Incillius alvarius"],["Eroxythylum coca","Mitragyna speciosa"],["Eroxythylum coca","Ephedra sinica"],["Eroxythylum coca","Tabernathe iboga"],["Phyllomedusa bicolor","Cannabis"],["Phyllomedusa bicolor","Cocaine"],["Phyllomedusa bicolor","Caffeine"],["Phyllomedusa bicolor","Alcohol"],["Phyllomedusa bicolor","MAOIs"],["Phyllomedusa bicolor","Salvia divonorum"],["Phyllomedusa bicolor","Acacia species"],["Phyllomedusa bicolor","Mimosa tenuiflora"],["Phyllomedusa bicolor","Panaelous cyanescens"],["Phyllomedusa bicolor","Argyreia nervosa"],["Phyllomedusa bicolor","Ipomea violacea"],["Phyllomedusa bicolor","Rivea corymbosa"],["Phyllomedusa bicolor","Amanita muscaria"],["Phyllomedusa bicolor","Trichocereus species"],["Phyllomedusa bicolor","Lophpopra willamsii"],["Phyllomedusa bicolor","Incillius alvarius"],["Phyllomedusa bicolor","Mitragyna speciosa"],["Phyllomedusa bicolor","Banisteriopsis caapi"],["Phyllomedusa bicolor","Catha edulis"],["Phyllomedusa bicolor","Ephedra sinica"],["Tabernathe iboga","LSD"],["Tabernathe iboga","Psilocybin"],["Tabernathe iboga","DMT"],["Tabernathe iboga","Mescaline"],["Tabernathe iboga","DOx"],["Tabernathe iboga","NBOMes"],["Tabernathe iboga","2C-x"],["Tabernathe iboga","2C-T-x"],["Tabernathe iboga","Cannabis"],["Tabernathe iboga","Ketamine"],["Tabernathe iboga","MXE"],["Tabernathe iboga","DXM"],["Tabernathe iboga","Nitrous "],["Tabernathe iboga","Amphetamines"],["Tabernathe iboga","Cocaine"],["Tabernathe iboga","Caffeine"],["Tabernathe iboga","Alcohol"],["Tabernathe iboga","GHB/GBL"],["Tabernathe iboga","Opiods"],["Tabernathe iboga","Benzodiazepine"],["Tabernathe iboga","Acacia species"],["Tabernathe iboga","Mimosa tenuiflora"],["Tabernathe iboga","Panaelous cyanescens"],["Tabernathe iboga","Argyreia nervosa"],["Tabernathe iboga","Ipomea violacea"],["Tabernathe iboga","Rivea corymbosa"],["Tabernathe iboga","Trichocereus species"],["Tabernathe iboga","Lophpopra willamsii"],["Tabernathe iboga","Catha edulis"],["Tabernathe iboga","Ephedra sinica"],["Tabernathe iboga","Eroxythylum coca"]],"LRS":[["LSD","Psilocybin"],["LSD","DMT"],["LSD","Mescaline"],["LSD","DOx"],["LSD","NBOMes"],["LSD","2C-x"],["LSD","2C-T-x"],["LSD","5-MeO-xxT"],["LSD","Ketamine"],["LSD","MXE"],["LSD","DXM"],["LSD","Nitrous "],["LSD","MDMA"],["LSD","Salvia divonorum"],["LSD","Acacia species"],["LSD","Mimosa tenuiflora"],["LSD","Panaelous cyanescens"],["LSD","Argyreia nervosa"],["LSD","Ipomea violacea"],["LSD","Rivea corymbosa"],["LSD","Trichocereus species"],["LSD","Lophpopra willamsii"],["LSD","Incillius alvarius"],["Psilocybin","LSD"],["Psilocybin","DMT"],["Psilocybin","Mescaline"],["Psilocybin","DOx"],["Psilocybin","NBOMes"],["Psilocybin","2C-x"],["Psilocybin","2C-T-x"],["Psilocybin","5-MeO-xxT"],["Psilocybin","Ketamine"],["Psilocybin","MXE"],["Psilocybin","DXM"],["Psilocybin","Nitrous "],["Psilocybin","MDMA"],["Psilocybin","MAOIs"],["Psilocybin","Salvia divonorum"],["Psilocybin","Acacia species"],["Psilocybin","Mimosa tenuiflora"],["Psilocybin","Panaelous cyanescens"],["Psilocybin","Argyreia nervosa"],["Psilocybin","Ipomea violacea"],["Psilocybin","Rivea corymbosa"],["Psilocybin","Trichocereus species"],["Psilocybin","Lophpopra willamsii"],["Psilocybin","Incillius alvarius"],["Psilocybin","Banisteriopsis caapi"],["Psilocybin","Piper methysticum"],["DMT","LSD"],["DMT","Psilocybin"],["DMT","Mescaline"],["DMT","DOx"],["DMT","NBOMes"],["DMT","2C-x"],["DMT","2C-T-x"],["DMT","5-MeO-xxT"],["DMT","Ketamine"],["DMT","MXE"],["DMT","DXM"],["DMT","Nitrous "],["DMT","MDMA"],["DMT","MAOIs"],["DMT","Salvia divonorum"],["DMT","Acacia species"],["DMT","Mimosa tenuiflora"],["DMT","Panaelous cyanescens"],["DMT","Argyreia nervosa"],["DMT","Ipomea violacea"],["DMT","Rivea corymbosa"],["DMT","Trichocereus species"],["DMT","Lophpopra willamsii"],["DMT","Incillius alvarius"],["DMT","Banisteriopsis caapi"],["DMT","Piper methysticum"],["Mescaline","LSD"],["Mescaline","Psilocybin"],["Mescaline","DMT"],["Mescaline","Ketamine"],["Mescaline","MXE"],["Mescaline","DXM"],["Mescaline","Nitrous "],["Mescaline","MDMA"],["Mescaline","Salvia divonorum"],["Mescaline","Acacia species"],["Mescaline","Mimosa tenuiflora"],["Mescaline","Panaelous cyanescens"],["Mescaline","Argyreia nervosa"],["Mescaline","Ipomea violacea"],["Mescaline","Rivea corymbosa"],["Mescaline","Trichocereus species"],["Mescaline","Lophpopra willamsii"],["DOx","LSD"],["DOx","Psilocybin"],["DOx","DMT"],["DOx","Ketamine"],["DOx","MXE"],["DOx","Nitrous "],["DOx","Salvia divonorum"],["DOx","Acacia species"],["DOx","Mimosa tenuiflora"],["DOx","Panaelous cyanescens"],["DOx","Argyreia nervosa"],["DOx","Ipomea violacea"],["DOx","Rivea corymbosa"],["NBOMes","LSD"],["NBOMes","Psilocybin"],["NBOMes","DMT"],["NBOMes","Ketamine"],["NBOMes","MXE"],["NBOMes","Nitrous "],["NBOMes","Salvia divonorum"],["NBOMes","Acacia species"],["NBOMes","Mimosa tenuiflora"],["NBOMes","Panaelous cyanescens"],["NBOMes","Argyreia nervosa"],["NBOMes","Ipomea violacea"],["NBOMes","Rivea corymbosa"],["2C-x","LSD"],["2C-x","Psilocybin"],["2C-x","DMT"],["2C-x","Ketamine"],["2C-x","MXE"],["2C-x","DXM"],["2C-x","Nitrous "],["2C-x","MDMA"],["2C-x","Salvia divonorum"],["2C-x","Acacia species"],["2C-x","Mimosa tenuiflora"],["2C-x","Panaelous cyanescens"],["2C-x","Argyreia nervosa"],["2C-x","Ipomea violacea"],["2C-x","Rivea corymbosa"],["2C-T-x","LSD"],["2C-T-x","Psilocybin"],["2C-T-x","DMT"],["2C-T-x","Ketamine"],["2C-T-x","Nitrous "],["2C-T-x","Salvia divonorum"],["2C-T-x","Acacia species"],["2C-T-x","Mimosa tenuiflora"],["2C-T-x","Panaelous cyanescens"],["2C-T-x","Argyreia nervosa"],["2C-T-x","Ipomea violacea"],["2C-T-x","Rivea corymbosa"],["5-MeO-xxT","LSD"],["5-MeO-xxT","Psilocybin"],["5-MeO-xxT","DMT"],["5-MeO-xxT","Ketamine"],["5-MeO-xxT","MXE"],["5-MeO-xxT","Nitrous "],["5-MeO-xxT","Salvia divonorum"],["5-MeO-xxT","Acacia species"],["5-MeO-xxT","Mimosa tenuiflora"],["5-MeO-xxT","Panaelous cyanescens"],["5-MeO-xxT","Argyreia nervosa"],["5-MeO-xxT","Ipomea violacea"],["5-MeO-xxT","Rivea corymbosa"],["5-MeO-xxT","Incillius alvarius"],["Cannabis","Ketamine"],["Cannabis","MXE"],["Cannabis","DXM"],["Cannabis","Nitrous "],["Cannabis","MDMA"],["Cannabis","Alcohol"],["Cannabis","GHB/GBL"],["Cannabis","Opiods"],["Cannabis","Tramadol"],["Cannabis","MAOIs"],["Cannabis","Amanita muscaria"],["Cannabis","Mitragyna speciosa"],["Cannabis","Papaver somnifarem"],["Cannabis","Banisteriopsis caapi"],["Cannabis","Piper methysticum"],["Cannabis","Phyllomedusa bicolor"],["Ketamine","LSD"],["Ketamine","Psilocybin"],["Ketamine","DMT"],["Ketamine","Mescaline"],["Ketamine","DOx"],["Ketamine","NBOMes"],["Ketamine","2C-x"],["Ketamine","2C-T-x"],["Ketamine","5-MeO-xxT"],["Ketamine","Cannabis"],["Ketamine","MXE"],["Ketamine","Nitrous "],["Ketamine","MDMA"],["Ketamine","Salvia divonorum"],["Ketamine","Acacia species"],["Ketamine","Mimosa tenuiflora"],["Ketamine","Panaelous cyanescens"],["Ketamine","Argyreia nervosa"],["Ketamine","Ipomea violacea"],["Ketamine","Rivea corymbosa"],["Ketamine","Trichocereus species"],["Ketamine","Lophpopra willamsii"],["Ketamine","Incillius alvarius"],["MXE","LSD"],["MXE","Psilocybin"],["MXE","DMT"],["MXE","Mescaline"],["MXE","DOx"],["MXE","NBOMes"],["MXE","2C-T-x"],["MXE","5-MeO-xxT"],["MXE","Cannabis"],["MXE","Ketamine"],["MXE","Nitrous "],["MXE","Salvia divonorum"],["MXE","Acacia species"],["MXE","Mimosa tenuiflora"],["MXE","Panaelous cyanescens"],["MXE","Argyreia nervosa"],["MXE","Ipomea violacea"],["MXE","Rivea corymbosa"],["MXE","Trichocereus species"],["MXE","Lophpopra willamsii"],["MXE","Incillius alvarius"],["DXM","LSD"],["DXM","Psilocybin"],["DXM","DMT"],["DXM","Mescaline"],["DXM","2C-x"],["DXM","Cannabis"],["DXM","Nitrous "],["DXM","Salvia divonorum"],["DXM","Acacia species"],["DXM","Mimosa tenuiflora"],["DXM","Panaelous cyanescens"],["DXM","Argyreia nervosa"],["DXM","Ipomea violacea"],["DXM","Rivea corymbosa"],["DXM","Trichocereus species"],["DXM","Lophpopra willamsii"],["Nitrous ","LSD"],["Nitrous ","Psilocybin"],["Nitrous ","DMT"],["Nitrous ","Mescaline"],["Nitrous ","DOx"],["Nitrous ","NBOMes"],["Nitrous ","2C-x"],["Nitrous ","2C-T-x"],["Nitrous ","5-MeO-xxT"],["Nitrous ","Cannabis"],["Nitrous ","Ketamine"],["Nitrous ","MXE"],["Nitrous ","DXM"],["Nitrous ","Amphetamines"],["Nitrous ","MDMA"],["Nitrous ","Cocaine"],["Nitrous ","Salvia divonorum"],["Nitrous ","Acacia species"],["Nitrous ","Mimosa tenuiflora"],["Nitrous ","Panaelous cyanescens"],["Nitrous ","Argyreia nervosa"],["Nitrous ","Ipomea violacea"],["Nitrous ","Rivea corymbosa"],["Nitrous ","Trichocereus species"],["Nitrous ","Lophpopra willamsii"],["Nitrous ","Incillius alvarius"],["Nitrous ","Catha edulis"],["Nitrous ","Ephedra sinica"],["Nitrous ","Eroxythylum coca"],["Amphetamines","Nitrous "],["Amphetamines","MDMA"],["Amphetamines","Ephedra sinica"],["MDMA","LSD"],["MDMA","Psilocybin"],["MDMA","DMT"],["MDMA","Mescaline"],["MDMA","2C-x"],["MDMA","Nitrous "],["MDMA","Amphetamines"],["MDMA","Salvia divonorum"],["MDMA","Acacia species"],["MDMA","Mimosa tenuiflora"],["MDMA","Panaelous cyanescens"],["MDMA","Argyreia nervosa"],["MDMA","Ipomea violacea"],["MDMA","Rivea corymbosa"],["MDMA","Trichocereus species"],["MDMA","Lophpopra willamsii"],["MDMA","Catha edulis"],["MDMA","Ephedra sinica"],["Cocaine","Nitrous "],["Cocaine","Eroxythylum coca"],["Alcohol","Cannabis"],["GHB/GBL","Cannabis"],["GHB/GBL","MAOIs"],["GHB/GBL","Banisteriopsis caapi"],["GHB/GBL","Piper methysticum"],["Opiods","Cannabis"],["Opiods","Salvia divonorum"],["Opiods","Mitragyna speciosa"],["Opiods","Papaver somnifarem"],["Opiods","Phyllomedusa bicolor"],["Tramadol","Cannabis"],["Benzodiazepine","MAOIs"],["Benzodiazepine","Banisteriopsis caapi"],["Benzodiazepine","Piper methysticum"],["MAOIs","Psilocybin"],["MAOIs","DMT"],["MAOIs","Cannabis"],["MAOIs","GHB/GBL"],["MAOIs","Benzodiazepine"],["MAOIs","Salvia divonorum"],["MAOIs","Acacia species"],["MAOIs","Mimosa tenuiflora"],["MAOIs","Panaelous cyanescens"],["MAOIs","Banisteriopsis caapi"],["MAOIs","Piper methysticum"],["Salvia divonorum","LSD"],["Salvia divonorum","Psilocybin"],["Salvia divonorum","DMT"],["Salvia divonorum","Mescaline"],["Salvia divonorum","DOx"],["Salvia divonorum","NBOMes"],["Salvia divonorum","2C-x"],["Salvia divonorum","2C-T-x"],["Salvia divonorum","5-MeO-xxT"],["Salvia divonorum","Ketamine"],["Salvia divonorum","MXE"],["Salvia divonorum","DXM"],["Salvia divonorum","Nitrous "],["Salvia divonorum","MDMA"],["Salvia divonorum","Opiods"],["Salvia divonorum","MAOIs"],["Salvia divonorum","Acacia species"],["Salvia divonorum","Mimosa tenuiflora"],["Salvia divonorum","Panaelous cyanescens"],["Salvia divonorum","Argyreia nervosa"],["Salvia divonorum","Ipomea violacea"],["Salvia divonorum","Rivea corymbosa"],["Salvia divonorum","Trichocereus species"],["Salvia divonorum","Lophpopra willamsii"],["Salvia divonorum","Incillius alvarius"],["Salvia divonorum","Mitragyna speciosa"],["Salvia divonorum","Papaver somnifarem"],["Salvia divonorum","Piper methysticum"],["Salvia divonorum","Tabernathe iboga"],["Acacia species","LSD"],["Acacia species","Psilocybin"],["Acacia species","DMT"],["Acacia species","Mescaline"],["Acacia species","DOx"],["Acacia species","NBOMes"],["Acacia species","2C-x"],["Acacia species","2C-T-x"],["Acacia species","5-MeO-xxT"],["Acacia species","Ketamine"],["Acacia species","MXE"],["Acacia species","DXM"],["Acacia species","Nitrous "],["Acacia species","MDMA"],["Acacia species","MAOIs"],["Acacia species","Salvia divonorum"],["Acacia species","Mimosa tenuiflora"],["Acacia species","Panaelous cyanescens"],["Acacia species","Argyreia nervosa"],["Acacia species","Ipomea violacea"],["Acacia species","Rivea corymbosa"],["Acacia species","Trichocereus species"],["Acacia species","Lophpopra willamsii"],["Acacia species","Incillius alvarius"],["Acacia species","Banisteriopsis caapi"],["Acacia species","Piper methysticum"],["Mimosa tenuiflora","LSD"],["Mimosa tenuiflora","Psilocybin"],["Mimosa tenuiflora","DMT"],["Mimosa tenuiflora","Mescaline"],["Mimosa tenuiflora","DOx"],["Mimosa tenuiflora","NBOMes"],["Mimosa tenuiflora","2C-x"],["Mimosa tenuiflora","2C-T-x"],["Mimosa tenuiflora","5-MeO-xxT"],["Mimosa tenuiflora","Ketamine"],["Mimosa tenuiflora","MXE"],["Mimosa tenuiflora","DXM"],["Mimosa tenuiflora","Nitrous "],["Mimosa tenuiflora","MDMA"],["Mimosa tenuiflora","MAOIs"],["Mimosa tenuiflora","Salvia divonorum"],["Mimosa tenuiflora","Acacia species"],["Mimosa tenuiflora","Panaelous cyanescens"],["Mimosa tenuiflora","Argyreia nervosa"],["Mimosa tenuiflora","Ipomea violacea"],["Mimosa tenuiflora","Rivea corymbosa"],["Mimosa tenuiflora","Trichocereus species"],["Mimosa tenuiflora","Lophpopra willamsii"],["Mimosa tenuiflora","Incillius alvarius"],["Mimosa tenuiflora","Banisteriopsis caapi"],["Mimosa tenuiflora","Piper methysticum"],["Panaelous cyanescens","LSD"],["Panaelous cyanescens","Psilocybin"],["Panaelous cyanescens","DMT"],["Panaelous cyanescens","Mescaline"],["Panaelous cyanescens","DOx"],["Panaelous cyanescens","NBOMes"],["Panaelous cyanescens","2C-x"],["Panaelous cyanescens","2C-T-x"],["Panaelous cyanescens","5-MeO-xxT"],["Panaelous cyanescens","Ketamine"],["Panaelous cyanescens","MXE"],["Panaelous cyanescens","DXM"],["Panaelous cyanescens","Nitrous "],["Panaelous cyanescens","MDMA"],["Panaelous cyanescens","MAOIs"],["Panaelous cyanescens","Salvia divonorum"],["Panaelous cyanescens","Acacia species"],["Panaelous cyanescens","Mimosa tenuiflora"],["Panaelous cyanescens","Argyreia nervosa"],["Panaelous cyanescens","Ipomea violacea"],["Panaelous cyanescens","Rivea corymbosa"],["Panaelous cyanescens","Trichocereus species"],["Panaelous cyanescens","Lophpopra willamsii"],["Panaelous cyanescens","Incillius alvarius"],["Panaelous cyanescens","Banisteriopsis caapi"],["Panaelous cyanescens","Piper methysticum"],["Argyreia nervosa","LSD"],["Argyreia nervosa","Psilocybin"],["Argyreia nervosa","DMT"],["Argyreia nervosa","Mescaline"],["Argyreia nervosa","DOx"],["Argyreia nervosa","NBOMes"],["Argyreia nervosa","2C-x"],["Argyreia nervosa","2C-T-x"],["Argyreia nervosa","5-MeO-xxT"],["Argyreia nervosa","Ketamine"],["Argyreia nervosa","MXE"],["Argyreia nervosa","DXM"],["Argyreia nervosa","Nitrous "],["Argyreia nervosa","MDMA"],["Argyreia nervosa","Salvia divonorum"],["Argyreia nervosa","Acacia species"],["Argyreia nervosa","Mimosa tenuiflora"],["Argyreia nervosa","Panaelous cyanescens"],["Argyreia nervosa","Ipomea violacea"],["Argyreia nervosa","Rivea corymbosa"],["Argyreia nervosa","Trichocereus species"],["Argyreia nervosa","Lophpopra willamsii"],["Argyreia nervosa","Incillius alvarius"],["Argyreia nervosa","Banisteriopsis caapi"],["Ipomea violacea","LSD"],["Ipomea violacea","Psilocybin"],["Ipomea violacea","DMT"],["Ipomea violacea","Mescaline"],["Ipomea violacea","DOx"],["Ipomea violacea","NBOMes"],["Ipomea violacea","2C-x"],["Ipomea violacea","2C-T-x"],["Ipomea violacea","5-MeO-xxT"],["Ipomea violacea","Ketamine"],["Ipomea violacea","MXE"],["Ipomea violacea","DXM"],["Ipomea violacea","Nitrous "],["Ipomea violacea","MDMA"],["Ipomea violacea","Salvia divonorum"],["Ipomea violacea","Acacia species"],["Ipomea violacea","Mimosa tenuiflora"],["Ipomea violacea","Panaelous cyanescens"],["Ipomea violacea","Argyreia nervosa"],["Ipomea violacea","Rivea corymbosa"],["Ipomea violacea","Trichocereus species"],["Ipomea violacea","Lophpopra willamsii"],["Ipomea violacea","Incillius alvarius"],["Ipomea violacea","Banisteriopsis caapi"],["Rivea corymbosa","LSD"],["Rivea corymbosa","Psilocybin"],["Rivea corymbosa","DMT"],["Rivea corymbosa","Mescaline"],["Rivea corymbosa","DOx"],["Rivea corymbosa","NBOMes"],["Rivea corymbosa","2C-x"],["Rivea corymbosa","2C-T-x"],["Rivea corymbosa","5-MeO-xxT"],["Rivea corymbosa","Ketamine"],["Rivea corymbosa","MXE"],["Rivea corymbosa","DXM"],["Rivea corymbosa","Nitrous "],["Rivea corymbosa","MDMA"],["Rivea corymbosa","Salvia divonorum"],["Rivea corymbosa","Acacia species"],["Rivea corymbosa","Mimosa tenuiflora"],["Rivea corymbosa","Panaelous cyanescens"],["Rivea corymbosa","Argyreia nervosa"],["Rivea corymbosa","Ipomea violacea"],["Rivea corymbosa","Trichocereus species"],["Rivea corymbosa","Lophpopra willamsii"],["Rivea corymbosa","Incillius alvarius"],["Rivea corymbosa","Banisteriopsis caapi"],["Amanita muscaria","Cannabis"],["Trichocereus species","LSD"],["Trichocereus species","Psilocybin"],["Trichocereus species","DMT"],["Trichocereus species","Mescaline"],["Trichocereus species","Ketamine"],["Trichocereus species","MXE"],["Trichocereus species","DXM"],["Trichocereus species","Nitrous "],["Trichocereus species","MDMA"],["Trichocereus species","Salvia divonorum"],["Trichocereus species","Acacia species"],["Trichocereus species","Mimosa tenuiflora"],["Trichocereus species","Panaelous cyanescens"],["Trichocereus species","Argyreia nervosa"],["Trichocereus species","Ipomea violacea"],["Trichocereus species","Rivea corymbosa"],["Trichocereus species","Lophpopra willamsii"],["Trichocereus species","Incillius alvarius"],["Lophpopra willamsii","LSD"],["Lophpopra willamsii","Psilocybin"],["Lophpopra willamsii","DMT"],["Lophpopra willamsii","Mescaline"],["Lophpopra willamsii","Ketamine"],["Lophpopra willamsii","MXE"],["Lophpopra willamsii","DXM"],["Lophpopra willamsii","Nitrous "],["Lophpopra willamsii","MDMA"],["Lophpopra willamsii","Salvia divonorum"],["Lophpopra willamsii","Acacia species"],["Lophpopra willamsii","Mimosa tenuiflora"],["Lophpopra willamsii","Panaelous cyanescens"],["Lophpopra willamsii","Argyreia nervosa"],["Lophpopra willamsii","Ipomea violacea"],["Lophpopra willamsii","Rivea corymbosa"],["Lophpopra willamsii","Trichocereus species"],["Lophpopra willamsii","Incillius alvarius"],["Incillius alvarius","LSD"],["Incillius alvarius","Psilocybin"],["Incillius alvarius","DMT"],["Incillius alvarius","5-MeO-xxT"],["Incillius alvarius","Ketamine"],["Incillius alvarius","MXE"],["Incillius alvarius","Nitrous "],["Incillius alvarius","Salvia divonorum"],["Incillius alvarius","Acacia species"],["Incillius alvarius","Mimosa tenuiflora"],["Incillius alvarius","Panaelous cyanescens"],["Incillius alvarius","Argyreia nervosa"],["Incillius alvarius","Ipomea violacea"],["Incillius alvarius","Rivea corymbosa"],["Incillius alvarius","Trichocereus species"],["Incillius alvarius","Lophpopra willamsii"],["Mitragyna speciosa","Cannabis"],["Mitragyna speciosa","Opiods"],["Mitragyna speciosa","Salvia divonorum"],["Papaver somnifarem","GHB/GBL"],["Papaver somnifarem","Opiods"],["Papaver somnifarem","Salvia divonorum"],["Banisteriopsis caapi","Psilocybin"],["Banisteriopsis caapi","DMT"],["Banisteriopsis caapi","MXE"],["Banisteriopsis caapi","DXM"],["Banisteriopsis caapi","Nitrous "],["Banisteriopsis caapi","MAOIs"],["Banisteriopsis caapi","Acacia species"],["Banisteriopsis caapi","Mimosa tenuiflora"],["Banisteriopsis caapi","Panaelous cyanescens"],["Banisteriopsis caapi","Argyreia nervosa"],["Banisteriopsis caapi","Ipomea violacea"],["Banisteriopsis caapi","Rivea corymbosa"],["Piper methysticum","Psilocybin"],["Piper methysticum","DMT"],["Piper methysticum","Cannabis"],["Piper methysticum","MXE"],["Piper methysticum","DXM"],["Piper methysticum","Benzodiazepine"],["Piper methysticum","MAOIs"],["Piper methysticum","Salvia divonorum"],["Piper methysticum","Acacia species"],["Piper methysticum","Mimosa tenuiflora"],["Piper methysticum","Panaelous cyanescens"],["Catha edulis","Nitrous "],["Catha edulis","MDMA"],["Ephedra sinica","Nitrous "],["Ephedra sinica","Amphetamines"],["Ephedra sinica","MDMA"],["Eroxythylum coca","Nitrous "],["Eroxythylum coca","Cocaine"],["Phyllomedusa bicolor","Nitrous "],["Phyllomedusa bicolor","Amphetamines"],["Phyllomedusa bicolor","Opiods"],["Tabernathe iboga","Salvia divonorum"]],"LRD":[["LSD","Alcohol"],["LSD","GHB/GBL"],["LSD","Benzodiazepine"],["LSD","MAOIs"],["LSD","SSRIs"],["LSD","Banisteriopsis caapi"],["LSD","Piper methysticum"],["Psilocybin","Alcohol"],["Psilocybin","GHB/GBL"],["Psilocybin","Benzodiazepine"],["Psilocybin","SSRIs"],["DMT","Alcohol"],["DMT","GHB/GBL"],["DMT","Benzodiazepine"],["DMT","SSRIs"],["Mescaline","Alcohol"],["Mescaline","GHB/GBL"],["Mescaline","Benzodiazepine"],["Mescaline","SSRIs"],["DOx","Alcohol"],["DOx","GHB/GBL"],["DOx","Benzodiazepine"],["DOx","SSRIs"],["NBOMes","Alcohol"],["NBOMes","GHB/GBL"],["NBOMes","Benzodiazepine"],["NBOMes","SSRIs"],["2C-x","Alcohol"],["2C-x","GHB/GBL"],["2C-x","Benzodiazepine"],["2C-x","SSRIs"],["2C-T-x","Alcohol"],["2C-T-x","GHB/GBL"],["2C-T-x","Benzodiazepine"],["2C-T-x","SSRIs"],["5-MeO-xxT","Alcohol"],["5-MeO-xxT","GHB/GBL"],["5-MeO-xxT","Benzodiazepine"],["5-MeO-xxT","SSRIs"],["Cannabis","Benzodiazepine"],["Nitrous ","Benzodiazepine"],["Amphetamines","Benzodiazepine"],["Amphetamines","Amanita muscaria"],["MDMA","Benzodiazepine"],["MDMA","SSRIs"],["MDMA","Amanita muscaria"],["Cocaine","Benzodiazepine"],["Cocaine","Amanita muscaria"],["Caffeine","Benzodiazepine"],["Caffeine","Amanita muscaria"],["Alcohol","LSD"],["Alcohol","Psilocybin"],["Alcohol","DMT"],["Alcohol","Mescaline"],["Alcohol","DOx"],["Alcohol","NBOMes"],["Alcohol","2C-x"],["Alcohol","2C-T-x"],["Alcohol","5-MeO-xxT"],["Alcohol","Acacia species"],["Alcohol","Mimosa tenuiflora"],["Alcohol","Panaelous cyanescens"],["Alcohol","Argyreia nervosa"],["Alcohol","Ipomea violacea"],["Alcohol","Rivea corymbosa"],["Alcohol","Trichocereus species"],["Alcohol","Lophpopra willamsii"],["Alcohol","Incillius alvarius"],["GHB/GBL","LSD"],["GHB/GBL","Psilocybin"],["GHB/GBL","DMT"],["GHB/GBL","Mescaline"],["GHB/GBL","DOx"],["GHB/GBL","NBOMes"],["GHB/GBL","2C-x"],["GHB/GBL","2C-T-x"],["GHB/GBL","5-MeO-xxT"],["GHB/GBL","Acacia species"],["GHB/GBL","Mimosa tenuiflora"],["GHB/GBL","Panaelous cyanescens"],["GHB/GBL","Argyreia nervosa"],["GHB/GBL","Ipomea violacea"],["GHB/GBL","Rivea corymbosa"],["GHB/GBL","Trichocereus species"],["GHB/GBL","Lophpopra willamsii"],["GHB/GBL","Incillius alvarius"],["Benzodiazepine","LSD"],["Benzodiazepine","Psilocybin"],["Benzodiazepine","DMT"],["Benzodiazepine","Mescaline"],["Benzodiazepine","DOx"],["Benzodiazepine","NBOMes"],["Benzodiazepine","2C-x"],["Benzodiazepine","2C-T-x"],["Benzodiazepine","5-MeO-xxT"],["Benzodiazepine","Cannabis"],["Benzodiazepine","Nitrous "],["Benzodiazepine","Amphetamines"],["Benzodiazepine","MDMA"],["Benzodiazepine","Cocaine"],["Benzodiazepine","Caffeine"],["Benzodiazepine","Acacia species"],["Benzodiazepine","Mimosa tenuiflora"],["Benzodiazepine","Panaelous cyanescens"],["Benzodiazepine","Argyreia nervosa"],["Benzodiazepine","Ipomea violacea"],["Benzodiazepine","Rivea corymbosa"],["Benzodiazepine","Trichocereus species"],["Benzodiazepine","Lophpopra willamsii"],["Benzodiazepine","Incillius alvarius"],["Benzodiazepine","Catha edulis"],["Benzodiazepine","Ephedra sinica"],["Benzodiazepine","Eroxythylum coca"],["MAOIs","LSD"],["MAOIs","Argyreia nervosa"],["MAOIs","Ipomea violacea"],["MAOIs","Rivea corymbosa"],["SSRIs","LSD"],["SSRIs","Psilocybin"],["SSRIs","DMT"],["SSRIs","Mescaline"],["SSRIs","DOx"],["SSRIs","NBOMes"],["SSRIs","2C-x"],["SSRIs","2C-T-x"],["SSRIs","5-MeO-xxT"],["SSRIs","MDMA"],["SSRIs","Salvia divonorum"],["SSRIs","Acacia species"],["SSRIs","Mimosa tenuiflora"],["SSRIs","Panaelous cyanescens"],["SSRIs","Argyreia nervosa"],["SSRIs","Ipomea violacea"],["SSRIs","Rivea corymbosa"],["SSRIs","Amanita muscaria"],["SSRIs","Trichocereus species"],["SSRIs","Lophpopra willamsii"],["SSRIs","Incillius alvarius"],["Salvia divonorum","SSRIs"],["Acacia species","Alcohol"],["Acacia species","GHB/GBL"],["Acacia species","Benzodiazepine"],["Acacia species","SSRIs"],["Mimosa tenuiflora","Alcohol"],["Mimosa tenuiflora","GHB/GBL"],["Mimosa tenuiflora","Benzodiazepine"],["Mimosa tenuiflora","SSRIs"],["Panaelous cyanescens","Alcohol"],["Panaelous cyanescens","GHB/GBL"],["Panaelous cyanescens","Benzodiazepine"],["Panaelous cyanescens","SSRIs"],["Argyreia nervosa","Alcohol"],["Argyreia nervosa","GHB/GBL"],["Argyreia nervosa","Benzodiazepine"],["Argyreia nervosa","MAOIs"],["Argyreia nervosa","SSRIs"],["Ipomea violacea","Alcohol"],["Ipomea violacea","GHB/GBL"],["Ipomea violacea","Benzodiazepine"],["Ipomea violacea","MAOIs"],["Ipomea violacea","SSRIs"],["Rivea corymbosa","Alcohol"],["Rivea corymbosa","GHB/GBL"],["Rivea corymbosa","Benzodiazepine"],["Rivea corymbosa","MAOIs"],["Rivea corymbosa","SSRIs"],["Amanita muscaria","Amphetamines"],["Amanita muscaria","MDMA"],["Amanita muscaria","Cocaine"],["Amanita muscaria","Caffeine"],["Amanita muscaria","SSRIs"],["Amanita muscaria","Catha edulis"],["Amanita muscaria","Ephedra sinica"],["Trichocereus species","Alcohol"],["Trichocereus species","GHB/GBL"],["Trichocereus species","Benzodiazepine"],["Trichocereus species","SSRIs"],["Lophpopra willamsii","Alcohol"],["Lophpopra willamsii","GHB/GBL"],["Lophpopra willamsii","Benzodiazepine"],["Lophpopra willamsii","SSRIs"],["Incillius alvarius","Alcohol"],["Incillius alvarius","GHB/GBL"],["Incillius alvarius","Benzodiazepine"],["Incillius alvarius","SSRIs"],["Mitragyna speciosa","Catha edulis"],["Papaver somnifarem","Catha edulis"],["Papaver somnifarem","Ephedra sinica"],["Banisteriopsis caapi","LSD"],["Banisteriopsis caapi","Amphetamines"],["Banisteriopsis caapi","MDMA"],["Banisteriopsis caapi","Cocaine"],["Piper methysticum","LSD"],["Piper methysticum","Nitrous "],["Piper methysticum","Amphetamines"],["Piper methysticum","MDMA"],["Catha edulis","Benzodiazepine"],["Catha edulis","Amanita muscaria"],["Catha edulis","Mitragyna speciosa"],["Catha edulis","Papaver somnifarem"],["Ephedra sinica","Benzodiazepine"],["Ephedra sinica","Amanita muscaria"],["Ephedra sinica","Papaver somnifarem"],["Eroxythylum coca","Benzodiazepine"]],"LRNS":[["LSD","Caffeine"],["LSD","Opiods"],["LSD","Amanita muscaria"],["LSD","Mitragyna speciosa"],["LSD","Papaver somnifarem"],["LSD","Phyllomedusa bicolor"],["Psilocybin","Caffeine"],["Psilocybin","Opiods"],["Psilocybin","Amanita muscaria"],["Psilocybin","Mitragyna speciosa"],["Psilocybin","Papaver somnifarem"],["Psilocybin","Phyllomedusa bicolor"],["DMT","Caffeine"],["DMT","Opiods"],["DMT","Amanita muscaria"],["DMT","Mitragyna speciosa"],["DMT","Papaver somnifarem"],["DMT","Phyllomedusa bicolor"],["Mescaline","Caffeine"],["Mescaline","Opiods"],["Mescaline","Amanita muscaria"],["Mescaline","Mitragyna speciosa"],["Mescaline","Papaver somnifarem"],["Mescaline","Phyllomedusa bicolor"],["DOx","Opiods"],["DOx","Amanita muscaria"],["DOx","Mitragyna speciosa"],["DOx","Papaver somnifarem"],["DOx","Phyllomedusa bicolor"],["NBOMes","Opiods"],["NBOMes","Amanita muscaria"],["NBOMes","Mitragyna speciosa"],["NBOMes","Papaver somnifarem"],["NBOMes","Phyllomedusa bicolor"],["2C-x","Caffeine"],["2C-x","Opiods"],["2C-x","Amanita muscaria"],["2C-x","Mitragyna speciosa"],["2C-x","Papaver somnifarem"],["2C-x","Phyllomedusa bicolor"],["2C-T-x","Caffeine"],["2C-T-x","Opiods"],["2C-T-x","Amanita muscaria"],["2C-T-x","Mitragyna speciosa"],["2C-T-x","Papaver somnifarem"],["2C-T-x","Phyllomedusa bicolor"],["5-MeO-xxT","Caffeine"],["5-MeO-xxT","Opiods"],["5-MeO-xxT","Amanita muscaria"],["5-MeO-xxT","Mitragyna speciosa"],["5-MeO-xxT","Papaver somnifarem"],["5-MeO-xxT","Phyllomedusa bicolor"],["Cannabis","Caffeine"],["Cannabis","SSRIs"],["Ketamine","DXM"],["Ketamine","Caffeine"],["Ketamine","SSRIs"],["Ketamine","Amanita muscaria"],["MXE","DXM"],["MXE","Caffeine"],["MXE","Amanita muscaria"],["DXM","Ketamine"],["DXM","MXE"],["DXM","Caffeine"],["DXM","Amanita muscaria"],["Nitrous ","Caffeine"],["Nitrous ","MAOIs"],["Nitrous ","SSRIs"],["Nitrous ","Amanita muscaria"],["Nitrous ","Banisteriopsis caapi"],["Nitrous ","Piper methysticum"],["Amphetamines","SSRIs"],["MDMA","Opiods"],["MDMA","Mitragyna speciosa"],["MDMA","Papaver somnifarem"],["MDMA","Phyllomedusa bicolor"],["Cocaine","SSRIs"],["Caffeine","LSD"],["Caffeine","Psilocybin"],["Caffeine","DMT"],["Caffeine","Mescaline"],["Caffeine","2C-x"],["Caffeine","2C-T-x"],["Caffeine","5-MeO-xxT"],["Caffeine","Cannabis"],["Caffeine","Ketamine"],["Caffeine","MXE"],["Caffeine","DXM"],["Caffeine","Nitrous "],["Caffeine","Alcohol"],["Caffeine","GHB/GBL"],["Caffeine","Opiods"],["Caffeine","Tramadol"],["Caffeine","MAOIs"],["Caffeine","SSRIs"],["Caffeine","Salvia divonorum"],["Caffeine","Acacia species"],["Caffeine","Mimosa tenuiflora"],["Caffeine","Panaelous cyanescens"],["Caffeine","Argyreia nervosa"],["Caffeine","Ipomea violacea"],["Caffeine","Rivea corymbosa"],["Caffeine","Trichocereus species"],["Caffeine","Lophpopra willamsii"],["Caffeine","Incillius alvarius"],["Caffeine","Mitragyna speciosa"],["Caffeine","Papaver somnifarem"],["Caffeine","Banisteriopsis caapi"],["Caffeine","Piper methysticum"],["Caffeine","Phyllomedusa bicolor"],["Alcohol","Caffeine"],["GHB/GBL","Caffeine"],["GHB/GBL","SSRIs"],["Opiods","LSD"],["Opiods","Psilocybin"],["Opiods","DMT"],["Opiods","Mescaline"],["Opiods","DOx"],["Opiods","NBOMes"],["Opiods","2C-x"],["Opiods","2C-T-x"],["Opiods","5-MeO-xxT"],["Opiods","MDMA"],["Opiods","Caffeine"],["Opiods","SSRIs"],["Opiods","Acacia species"],["Opiods","Mimosa tenuiflora"],["Opiods","Panaelous cyanescens"],["Opiods","Argyreia nervosa"],["Opiods","Ipomea violacea"],["Opiods","Rivea corymbosa"],["Opiods","Trichocereus species"],["Opiods","Lophpopra willamsii"],["Opiods","Incillius alvarius"],["Tramadol","Caffeine"],["Benzodiazepine","SSRIs"],["Benzodiazepine","Salvia divonorum"],["MAOIs","Nitrous "],["MAOIs","Caffeine"],["SSRIs","Cannabis"],["SSRIs","Ketamine"],["SSRIs","Nitrous "],["SSRIs","Amphetamines"],["SSRIs","Cocaine"],["SSRIs","Caffeine"],["SSRIs","GHB/GBL"],["SSRIs","Opiods"],["SSRIs","Benzodiazepine"],["SSRIs","Mitragyna speciosa"],["SSRIs","Papaver somnifarem"],["SSRIs","Catha edulis"],["SSRIs","Ephedra sinica"],["SSRIs","Eroxythylum coca"],["SSRIs","Phyllomedusa bicolor"],["Salvia divonorum","Caffeine"],["Salvia divonorum","Benzodiazepine"],["Salvia divonorum","Amanita muscaria"],["Salvia divonorum","Banisteriopsis caapi"],["Acacia species","Caffeine"],["Acacia species","Opiods"],["Acacia species","Amanita muscaria"],["Acacia species","Mitragyna speciosa"],["Acacia species","Papaver somnifarem"],["Mimosa tenuiflora","Caffeine"],["Mimosa tenuiflora","Opiods"],["Mimosa tenuiflora","Amanita muscaria"],["Mimosa tenuiflora","Mitragyna speciosa"],["Mimosa tenuiflora","Papaver somnifarem"],["Panaelous cyanescens","Caffeine"],["Panaelous cyanescens","Opiods"],["Panaelous cyanescens","Amanita muscaria"],["Panaelous cyanescens","Mitragyna speciosa"],["Panaelous cyanescens","Papaver somnifarem"],["Argyreia nervosa","Caffeine"],["Argyreia nervosa","Opiods"],["Argyreia nervosa","Amanita muscaria"],["Argyreia nervosa","Mitragyna speciosa"],["Argyreia nervosa","Papaver somnifarem"],["Argyreia nervosa","Piper methysticum"],["Ipomea violacea","Caffeine"],["Ipomea violacea","Opiods"],["Ipomea violacea","Amanita muscaria"],["Ipomea violacea","Mitragyna speciosa"],["Ipomea violacea","Papaver somnifarem"],["Ipomea violacea","Piper methysticum"],["Rivea corymbosa","Caffeine"],["Rivea corymbosa","Opiods"],["Rivea corymbosa","Amanita muscaria"],["Rivea corymbosa","Mitragyna speciosa"],["Rivea corymbosa","Papaver somnifarem"],["Rivea corymbosa","Piper methysticum"],["Amanita muscaria","LSD"],["Amanita muscaria","Psilocybin"],["Amanita muscaria","DMT"],["Amanita muscaria","Mescaline"],["Amanita muscaria","DOx"],["Amanita muscaria","NBOMes"],["Amanita muscaria","2C-x"],["Amanita muscaria","2C-T-x"],["Amanita muscaria","5-MeO-xxT"],["Amanita muscaria","Ketamine"],["Amanita muscaria","MXE"],["Amanita muscaria","DXM"],["Amanita muscaria","Nitrous "],["Amanita muscaria","Salvia divonorum"],["Amanita muscaria","Acacia species"],["Amanita muscaria","Mimosa tenuiflora"],["Amanita muscaria","Panaelous cyanescens"],["Amanita muscaria","Argyreia nervosa"],["Amanita muscaria","Ipomea violacea"],["Amanita muscaria","Rivea corymbosa"],["Amanita muscaria","Trichocereus species"],["Amanita muscaria","Lophpopra willamsii"],["Amanita muscaria","Banisteriopsis caapi"],["Amanita muscaria","Eroxythylum coca"],["Trichocereus species","Caffeine"],["Trichocereus species","Opiods"],["Trichocereus species","Amanita muscaria"],["Trichocereus species","Mitragyna speciosa"],["Trichocereus species","Papaver somnifarem"],["Lophpopra willamsii","Caffeine"],["Lophpopra willamsii","Opiods"],["Lophpopra willamsii","Amanita muscaria"],["Lophpopra willamsii","Mitragyna speciosa"],["Lophpopra willamsii","Papaver somnifarem"],["Incillius alvarius","Caffeine"],["Incillius alvarius","Opiods"],["Incillius alvarius","Mitragyna speciosa"],["Incillius alvarius","Papaver somnifarem"],["Mitragyna speciosa","LSD"],["Mitragyna speciosa","Psilocybin"],["Mitragyna speciosa","DMT"],["Mitragyna speciosa","Mescaline"],["Mitragyna speciosa","DOx"],["Mitragyna speciosa","NBOMes"],["Mitragyna speciosa","2C-x"],["Mitragyna speciosa","2C-T-x"],["Mitragyna speciosa","5-MeO-xxT"],["Mitragyna speciosa","Ketamine"],["Mitragyna speciosa","MXE"],["Mitragyna speciosa","DXM"],["Mitragyna speciosa","Nitrous "],["Mitragyna speciosa","Amphetamines"],["Mitragyna speciosa","MDMA"],["Mitragyna speciosa","Caffeine"],["Mitragyna speciosa","Alcohol"],["Mitragyna speciosa","GHB/GBL"],["Mitragyna speciosa","SSRIs"],["Mitragyna speciosa","Acacia species"],["Mitragyna speciosa","Mimosa tenuiflora"],["Mitragyna speciosa","Panaelous cyanescens"],["Mitragyna speciosa","Argyreia nervosa"],["Mitragyna speciosa","Ipomea violacea"],["Mitragyna speciosa","Rivea corymbosa"],["Mitragyna speciosa","Trichocereus species"],["Mitragyna speciosa","Lophpopra willamsii"],["Mitragyna speciosa","Incillius alvarius"],["Mitragyna speciosa","Banisteriopsis caapi"],["Papaver somnifarem","LSD"],["Papaver somnifarem","Psilocybin"],["Papaver somnifarem","DMT"],["Papaver somnifarem","Mescaline"],["Papaver somnifarem","DOx"],["Papaver somnifarem","NBOMes"],["Papaver somnifarem","2C-x"],["Papaver somnifarem","2C-T-x"],["Papaver somnifarem","5-MeO-xxT"],["Papaver somnifarem","Cannabis"],["Papaver somnifarem","Ketamine"],["Papaver somnifarem","MXE"],["Papaver somnifarem","DXM"],["Papaver somnifarem","Nitrous "],["Papaver somnifarem","Amphetamines"],["Papaver somnifarem","MDMA"],["Papaver somnifarem","Cocaine"],["Papaver somnifarem","Caffeine"],["Papaver somnifarem","Alcohol"],["Papaver somnifarem","SSRIs"],["Papaver somnifarem","Acacia species"],["Papaver somnifarem","Mimosa tenuiflora"],["Papaver somnifarem","Panaelous cyanescens"],["Papaver somnifarem","Argyreia nervosa"],["Papaver somnifarem","Ipomea violacea"],["Papaver somnifarem","Rivea corymbosa"],["Papaver somnifarem","Trichocereus species"],["Papaver somnifarem","Lophpopra willamsii"],["Papaver somnifarem","Incillius alvarius"],["Papaver somnifarem","Banisteriopsis caapi"],["Banisteriopsis caapi","Caffeine"],["Banisteriopsis caapi","Salvia divonorum"],["Banisteriopsis caapi","Amanita muscaria"],["Banisteriopsis caapi","Mitragyna speciosa"],["Banisteriopsis caapi","Papaver somnifarem"],["Piper methysticum","Caffeine"],["Piper methysticum","Argyreia nervosa"],["Piper methysticum","Ipomea violacea"],["Piper methysticum","Rivea corymbosa"],["Catha edulis","SSRIs"],["Ephedra sinica","SSRIs"],["Eroxythylum coca","SSRIs"],["Eroxythylum coca","Amanita muscaria"],["Eroxythylum coca","Phyllomedusa bicolor"],["Phyllomedusa bicolor","LSD"],["Phyllomedusa bicolor","Psilocybin"],["Phyllomedusa bicolor","DMT"],["Phyllomedusa bicolor","Mescaline"],["Phyllomedusa bicolor","DOx"],["Phyllomedusa bicolor","NBOMes"],["Phyllomedusa bicolor","2C-x"],["Phyllomedusa bicolor","2C-T-x"],["Phyllomedusa bicolor","5-MeO-xxT"],["Phyllomedusa bicolor","Ketamine"],["Phyllomedusa bicolor","MXE"],["Phyllomedusa bicolor","DXM"],["Phyllomedusa bicolor","MDMA"],["Phyllomedusa bicolor","SSRIs"],["Phyllomedusa bicolor","Eroxythylum coca"]]}
+{
+  "drugs": [
+    "LSD",
+    "Psilocybin",
+    "DMT",
+    "Mescaline",
+    "DOx",
+    "NBOMes",
+    "2C-x",
+    "2C-T-x",
+    "5-MeO-xxT",
+    "Cannabis",
+    "Ketamine",
+    "MXE",
+    "DXM",
+    "Nitrous ",
+    "Amphetamines",
+    "MDMA",
+    "Cocaine",
+    "Caffeine",
+    "Alcohol",
+    "GHB/GBL",
+    "Opiods",
+    "Tramadol",
+    "Benzodiazepine",
+    "MAOIs",
+    "SSRIs",
+    "Salvia divonorum",
+    "Acacia species",
+    "Mimosa tenuiflora",
+    "Panaelous cyanescens",
+    "Argyreia nervosa",
+    "Ipomea violacea",
+    "Rivea corymbosa",
+    "Amanita muscaria",
+    "Trichocereus species",
+    "Lophpopra willamsii",
+    "Incillius alvarius",
+    "Mitragyna speciosa",
+    "Papaver somnifarem",
+    "Banisteriopsis caapi",
+    "Piper methysticum",
+    "Catha edulis",
+    "Ephedra sinica",
+    "Eroxythylum coca",
+    "Phyllomedusa bicolor",
+    "Tabernathe iboga"
+  ],
+  "risk_levels": [
+    "SR",
+    "GR",
+    "MR",
+    "LRS",
+    "LRD",
+    "LRNS"
+  ],
+  "SR": [
+    [
+      "5-MeO-xxT",
+      "MAOIs"
+    ],
+    [
+      "5-MeO-xxT",
+      "Banisteriopsis caapi"
+    ],
+    [
+      "5-MeO-xxT",
+      "Piper methysticum"
+    ],
+    [
+      "Ketamine",
+      "Alcohol"
+    ],
+    [
+      "Ketamine",
+      "GHB/GBL"
+    ],
+    [
+      "Ketamine",
+      "Opiods"
+    ],
+    [
+      "Ketamine",
+      "Tramadol"
+    ],
+    [
+      "Ketamine",
+      "Mitragyna speciosa"
+    ],
+    [
+      "Ketamine",
+      "Papaver somnifarem"
+    ],
+    [
+      "Ketamine",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "MXE",
+      "Alcohol"
+    ],
+    [
+      "MXE",
+      "GHB/GBL"
+    ],
+    [
+      "MXE",
+      "Opiods"
+    ],
+    [
+      "MXE",
+      "Tramadol"
+    ],
+    [
+      "MXE",
+      "Mitragyna speciosa"
+    ],
+    [
+      "MXE",
+      "Papaver somnifarem"
+    ],
+    [
+      "MXE",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "DXM",
+      "MDMA"
+    ],
+    [
+      "DXM",
+      "Alcohol"
+    ],
+    [
+      "DXM",
+      "GHB/GBL"
+    ],
+    [
+      "DXM",
+      "Opiods"
+    ],
+    [
+      "DXM",
+      "Tramadol"
+    ],
+    [
+      "DXM",
+      "MAOIs"
+    ],
+    [
+      "DXM",
+      "SSRIs"
+    ],
+    [
+      "DXM",
+      "Mitragyna speciosa"
+    ],
+    [
+      "DXM",
+      "Papaver somnifarem"
+    ],
+    [
+      "DXM",
+      "Banisteriopsis caapi"
+    ],
+    [
+      "DXM",
+      "Piper methysticum"
+    ],
+    [
+      "DXM",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "Amphetamines",
+      "Tramadol"
+    ],
+    [
+      "Amphetamines",
+      "MAOIs"
+    ],
+    [
+      "Amphetamines",
+      "Banisteriopsis caapi"
+    ],
+    [
+      "Amphetamines",
+      "Piper methysticum"
+    ],
+    [
+      "MDMA",
+      "DXM"
+    ],
+    [
+      "MDMA",
+      "Tramadol"
+    ],
+    [
+      "MDMA",
+      "MAOIs"
+    ],
+    [
+      "MDMA",
+      "Banisteriopsis caapi"
+    ],
+    [
+      "MDMA",
+      "Piper methysticum"
+    ],
+    [
+      "Cocaine",
+      "Opiods"
+    ],
+    [
+      "Cocaine",
+      "Tramadol"
+    ],
+    [
+      "Cocaine",
+      "MAOIs"
+    ],
+    [
+      "Cocaine",
+      "Mitragyna speciosa"
+    ],
+    [
+      "Cocaine",
+      "Papaver somnifarem"
+    ],
+    [
+      "Cocaine",
+      "Banisteriopsis caapi"
+    ],
+    [
+      "Cocaine",
+      "Piper methysticum"
+    ],
+    [
+      "Cocaine",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "Alcohol",
+      "Ketamine"
+    ],
+    [
+      "Alcohol",
+      "MXE"
+    ],
+    [
+      "Alcohol",
+      "DXM"
+    ],
+    [
+      "Alcohol",
+      "GHB/GBL"
+    ],
+    [
+      "Alcohol",
+      "Opiods"
+    ],
+    [
+      "Alcohol",
+      "Tramadol"
+    ],
+    [
+      "Alcohol",
+      "Benzodiazepine"
+    ],
+    [
+      "Alcohol",
+      "Mitragyna speciosa"
+    ],
+    [
+      "Alcohol",
+      "Papaver somnifarem"
+    ],
+    [
+      "Alcohol",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "GHB/GBL",
+      "Ketamine"
+    ],
+    [
+      "GHB/GBL",
+      "MXE"
+    ],
+    [
+      "GHB/GBL",
+      "DXM"
+    ],
+    [
+      "GHB/GBL",
+      "Alcohol"
+    ],
+    [
+      "GHB/GBL",
+      "Opiods"
+    ],
+    [
+      "GHB/GBL",
+      "Tramadol"
+    ],
+    [
+      "GHB/GBL",
+      "Benzodiazepine"
+    ],
+    [
+      "GHB/GBL",
+      "Mitragyna speciosa"
+    ],
+    [
+      "GHB/GBL",
+      "Papaver somnifarem"
+    ],
+    [
+      "GHB/GBL",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "Opiods",
+      "Ketamine"
+    ],
+    [
+      "Opiods",
+      "MXE"
+    ],
+    [
+      "Opiods",
+      "DXM"
+    ],
+    [
+      "Opiods",
+      "Cocaine"
+    ],
+    [
+      "Opiods",
+      "Alcohol"
+    ],
+    [
+      "Opiods",
+      "GHB/GBL"
+    ],
+    [
+      "Opiods",
+      "Tramadol"
+    ],
+    [
+      "Opiods",
+      "Benzodiazepine"
+    ],
+    [
+      "Opiods",
+      "Eroxythylum coca"
+    ],
+    [
+      "Tramadol",
+      "Ketamine"
+    ],
+    [
+      "Tramadol",
+      "MXE"
+    ],
+    [
+      "Tramadol",
+      "DXM"
+    ],
+    [
+      "Tramadol",
+      "Amphetamines"
+    ],
+    [
+      "Tramadol",
+      "MDMA"
+    ],
+    [
+      "Tramadol",
+      "Cocaine"
+    ],
+    [
+      "Tramadol",
+      "Alcohol"
+    ],
+    [
+      "Tramadol",
+      "GHB/GBL"
+    ],
+    [
+      "Tramadol",
+      "Opiods"
+    ],
+    [
+      "Tramadol",
+      "Benzodiazepine"
+    ],
+    [
+      "Tramadol",
+      "MAOIs"
+    ],
+    [
+      "Tramadol",
+      "SSRIs"
+    ],
+    [
+      "Tramadol",
+      "Mitragyna speciosa"
+    ],
+    [
+      "Tramadol",
+      "Papaver somnifarem"
+    ],
+    [
+      "Tramadol",
+      "Banisteriopsis caapi"
+    ],
+    [
+      "Tramadol",
+      "Piper methysticum"
+    ],
+    [
+      "Tramadol",
+      "Catha edulis"
+    ],
+    [
+      "Tramadol",
+      "Ephedra sinica"
+    ],
+    [
+      "Tramadol",
+      "Eroxythylum coca"
+    ],
+    [
+      "Tramadol",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "Benzodiazepine",
+      "Alcohol"
+    ],
+    [
+      "Benzodiazepine",
+      "GHB/GBL"
+    ],
+    [
+      "Benzodiazepine",
+      "Opiods"
+    ],
+    [
+      "Benzodiazepine",
+      "Tramadol"
+    ],
+    [
+      "Benzodiazepine",
+      "Mitragyna speciosa"
+    ],
+    [
+      "Benzodiazepine",
+      "Papaver somnifarem"
+    ],
+    [
+      "Benzodiazepine",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "MAOIs",
+      "5-MeO-xxT"
+    ],
+    [
+      "MAOIs",
+      "DXM"
+    ],
+    [
+      "MAOIs",
+      "Amphetamines"
+    ],
+    [
+      "MAOIs",
+      "MDMA"
+    ],
+    [
+      "MAOIs",
+      "Cocaine"
+    ],
+    [
+      "MAOIs",
+      "Tramadol"
+    ],
+    [
+      "MAOIs",
+      "SSRIs"
+    ],
+    [
+      "MAOIs",
+      "Incillius alvarius"
+    ],
+    [
+      "MAOIs",
+      "Catha edulis"
+    ],
+    [
+      "MAOIs",
+      "Ephedra sinica"
+    ],
+    [
+      "MAOIs",
+      "Eroxythylum coca"
+    ],
+    [
+      "MAOIs",
+      "Tabernathe iboga"
+    ],
+    [
+      "SSRIs",
+      "DXM"
+    ],
+    [
+      "SSRIs",
+      "Tramadol"
+    ],
+    [
+      "SSRIs",
+      "MAOIs"
+    ],
+    [
+      "SSRIs",
+      "Banisteriopsis caapi"
+    ],
+    [
+      "SSRIs",
+      "Piper methysticum"
+    ],
+    [
+      "Incillius alvarius",
+      "MAOIs"
+    ],
+    [
+      "Incillius alvarius",
+      "Banisteriopsis caapi"
+    ],
+    [
+      "Mitragyna speciosa",
+      "Cocaine"
+    ],
+    [
+      "Mitragyna speciosa",
+      "Tramadol"
+    ],
+    [
+      "Mitragyna speciosa",
+      "Benzodiazepine"
+    ],
+    [
+      "Mitragyna speciosa",
+      "Eroxythylum coca"
+    ],
+    [
+      "Mitragyna speciosa",
+      "Tabernathe iboga"
+    ],
+    [
+      "Papaver somnifarem",
+      "Tramadol"
+    ],
+    [
+      "Papaver somnifarem",
+      "Benzodiazepine"
+    ],
+    [
+      "Papaver somnifarem",
+      "Tabernathe iboga"
+    ],
+    [
+      "Banisteriopsis caapi",
+      "Cannabis"
+    ],
+    [
+      "Banisteriopsis caapi",
+      "Opiods"
+    ],
+    [
+      "Banisteriopsis caapi",
+      "SSRIs"
+    ],
+    [
+      "Banisteriopsis caapi",
+      "Incillius alvarius"
+    ],
+    [
+      "Banisteriopsis caapi",
+      "Tabernathe iboga"
+    ],
+    [
+      "Piper methysticum",
+      "5-MeO-xxT"
+    ],
+    [
+      "Piper methysticum",
+      "GHB/GBL"
+    ],
+    [
+      "Piper methysticum",
+      "SSRIs"
+    ],
+    [
+      "Catha edulis",
+      "Tramadol"
+    ],
+    [
+      "Catha edulis",
+      "MAOIs"
+    ],
+    [
+      "Ephedra sinica",
+      "Tramadol"
+    ],
+    [
+      "Ephedra sinica",
+      "MAOIs"
+    ],
+    [
+      "Eroxythylum coca",
+      "Opiods"
+    ],
+    [
+      "Eroxythylum coca",
+      "Tramadol"
+    ],
+    [
+      "Eroxythylum coca",
+      "MAOIs"
+    ],
+    [
+      "Eroxythylum coca",
+      "Papaver somnifarem"
+    ],
+    [
+      "Phyllomedusa bicolor",
+      "GHB/GBL"
+    ],
+    [
+      "Phyllomedusa bicolor",
+      "Tramadol"
+    ],
+    [
+      "Phyllomedusa bicolor",
+      "Benzodiazepine"
+    ],
+    [
+      "Phyllomedusa bicolor",
+      "Tabernathe iboga"
+    ],
+    [
+      "Tabernathe iboga",
+      "MAOIs"
+    ],
+    [
+      "Tabernathe iboga",
+      "Mitragyna speciosa"
+    ],
+    [
+      "Tabernathe iboga",
+      "Papaver somnifarem"
+    ],
+    [
+      "Tabernathe iboga",
+      "Banisteriopsis caapi"
+    ],
+    [
+      "Tabernathe iboga",
+      "Phyllomedusa bicolor"
+    ]
+  ],
+  "GR": [
+    [
+      "LSD",
+      "Tramadol"
+    ],
+    [
+      "Psilocybin",
+      "Tramadol"
+    ],
+    [
+      "DMT",
+      "Tramadol"
+    ],
+    [
+      "Mescaline",
+      "Tramadol"
+    ],
+    [
+      "DOx",
+      "DXM"
+    ],
+    [
+      "DOx",
+      "Amphetamines"
+    ],
+    [
+      "DOx",
+      "Cocaine"
+    ],
+    [
+      "DOx",
+      "Tramadol"
+    ],
+    [
+      "DOx",
+      "Catha edulis"
+    ],
+    [
+      "DOx",
+      "Ephedra sinica"
+    ],
+    [
+      "DOx",
+      "Eroxythylum coca"
+    ],
+    [
+      "NBOMes",
+      "DXM"
+    ],
+    [
+      "NBOMes",
+      "Amphetamines"
+    ],
+    [
+      "NBOMes",
+      "Cocaine"
+    ],
+    [
+      "NBOMes",
+      "Tramadol"
+    ],
+    [
+      "NBOMes",
+      "Catha edulis"
+    ],
+    [
+      "NBOMes",
+      "Ephedra sinica"
+    ],
+    [
+      "NBOMes",
+      "Eroxythylum coca"
+    ],
+    [
+      "2C-x",
+      "Tramadol"
+    ],
+    [
+      "2C-T-x",
+      "DXM"
+    ],
+    [
+      "2C-T-x",
+      "Amphetamines"
+    ],
+    [
+      "2C-T-x",
+      "Cocaine"
+    ],
+    [
+      "2C-T-x",
+      "Tramadol"
+    ],
+    [
+      "2C-T-x",
+      "Catha edulis"
+    ],
+    [
+      "2C-T-x",
+      "Ephedra sinica"
+    ],
+    [
+      "2C-T-x",
+      "Eroxythylum coca"
+    ],
+    [
+      "5-MeO-xxT",
+      "DXM"
+    ],
+    [
+      "5-MeO-xxT",
+      "Amphetamines"
+    ],
+    [
+      "5-MeO-xxT",
+      "Cocaine"
+    ],
+    [
+      "5-MeO-xxT",
+      "Tramadol"
+    ],
+    [
+      "5-MeO-xxT",
+      "Catha edulis"
+    ],
+    [
+      "5-MeO-xxT",
+      "Ephedra sinica"
+    ],
+    [
+      "5-MeO-xxT",
+      "Eroxythylum coca"
+    ],
+    [
+      "5-MeO-xxT",
+      "Tabernathe iboga"
+    ],
+    [
+      "MXE",
+      "MAOIs"
+    ],
+    [
+      "MXE",
+      "Banisteriopsis caapi"
+    ],
+    [
+      "MXE",
+      "Piper methysticum"
+    ],
+    [
+      "DXM",
+      "DOx"
+    ],
+    [
+      "DXM",
+      "NBOMes"
+    ],
+    [
+      "DXM",
+      "2C-T-x"
+    ],
+    [
+      "DXM",
+      "5-MeO-xxT"
+    ],
+    [
+      "DXM",
+      "Amphetamines"
+    ],
+    [
+      "DXM",
+      "Cocaine"
+    ],
+    [
+      "DXM",
+      "Incillius alvarius"
+    ],
+    [
+      "DXM",
+      "Catha edulis"
+    ],
+    [
+      "DXM",
+      "Ephedra sinica"
+    ],
+    [
+      "DXM",
+      "Eroxythylum coca"
+    ],
+    [
+      "Amphetamines",
+      "DOx"
+    ],
+    [
+      "Amphetamines",
+      "NBOMes"
+    ],
+    [
+      "Amphetamines",
+      "2C-T-x"
+    ],
+    [
+      "Amphetamines",
+      "5-MeO-xxT"
+    ],
+    [
+      "Amphetamines",
+      "DXM"
+    ],
+    [
+      "Amphetamines",
+      "Incillius alvarius"
+    ],
+    [
+      "MDMA",
+      "Tabernathe iboga"
+    ],
+    [
+      "Cocaine",
+      "DOx"
+    ],
+    [
+      "Cocaine",
+      "NBOMes"
+    ],
+    [
+      "Cocaine",
+      "2C-T-x"
+    ],
+    [
+      "Cocaine",
+      "5-MeO-xxT"
+    ],
+    [
+      "Cocaine",
+      "DXM"
+    ],
+    [
+      "Cocaine",
+      "Alcohol"
+    ],
+    [
+      "Cocaine",
+      "Incillius alvarius"
+    ],
+    [
+      "Alcohol",
+      "Cocaine"
+    ],
+    [
+      "Alcohol",
+      "MAOIs"
+    ],
+    [
+      "Alcohol",
+      "Banisteriopsis caapi"
+    ],
+    [
+      "Alcohol",
+      "Piper methysticum"
+    ],
+    [
+      "Alcohol",
+      "Eroxythylum coca"
+    ],
+    [
+      "Tramadol",
+      "LSD"
+    ],
+    [
+      "Tramadol",
+      "Psilocybin"
+    ],
+    [
+      "Tramadol",
+      "DMT"
+    ],
+    [
+      "Tramadol",
+      "Mescaline"
+    ],
+    [
+      "Tramadol",
+      "DOx"
+    ],
+    [
+      "Tramadol",
+      "NBOMes"
+    ],
+    [
+      "Tramadol",
+      "2C-x"
+    ],
+    [
+      "Tramadol",
+      "2C-T-x"
+    ],
+    [
+      "Tramadol",
+      "5-MeO-xxT"
+    ],
+    [
+      "Tramadol",
+      "Acacia species"
+    ],
+    [
+      "Tramadol",
+      "Mimosa tenuiflora"
+    ],
+    [
+      "Tramadol",
+      "Panaelous cyanescens"
+    ],
+    [
+      "Tramadol",
+      "Argyreia nervosa"
+    ],
+    [
+      "Tramadol",
+      "Ipomea violacea"
+    ],
+    [
+      "Tramadol",
+      "Rivea corymbosa"
+    ],
+    [
+      "Tramadol",
+      "Trichocereus species"
+    ],
+    [
+      "Tramadol",
+      "Lophpopra willamsii"
+    ],
+    [
+      "Tramadol",
+      "Incillius alvarius"
+    ],
+    [
+      "Tramadol",
+      "Tabernathe iboga"
+    ],
+    [
+      "MAOIs",
+      "MXE"
+    ],
+    [
+      "MAOIs",
+      "Alcohol"
+    ],
+    [
+      "SSRIs",
+      "Tabernathe iboga"
+    ],
+    [
+      "Acacia species",
+      "Tramadol"
+    ],
+    [
+      "Mimosa tenuiflora",
+      "Tramadol"
+    ],
+    [
+      "Panaelous cyanescens",
+      "Tramadol"
+    ],
+    [
+      "Argyreia nervosa",
+      "Tramadol"
+    ],
+    [
+      "Ipomea violacea",
+      "Tramadol"
+    ],
+    [
+      "Rivea corymbosa",
+      "Tramadol"
+    ],
+    [
+      "Amanita muscaria",
+      "Tabernathe iboga"
+    ],
+    [
+      "Trichocereus species",
+      "Tramadol"
+    ],
+    [
+      "Lophpopra willamsii",
+      "Tramadol"
+    ],
+    [
+      "Incillius alvarius",
+      "DXM"
+    ],
+    [
+      "Incillius alvarius",
+      "Amphetamines"
+    ],
+    [
+      "Incillius alvarius",
+      "Cocaine"
+    ],
+    [
+      "Incillius alvarius",
+      "Tramadol"
+    ],
+    [
+      "Incillius alvarius",
+      "Piper methysticum"
+    ],
+    [
+      "Incillius alvarius",
+      "Tabernathe iboga"
+    ],
+    [
+      "Mitragyna speciosa",
+      "Papaver somnifarem"
+    ],
+    [
+      "Mitragyna speciosa",
+      "Piper methysticum"
+    ],
+    [
+      "Papaver somnifarem",
+      "Mitragyna speciosa"
+    ],
+    [
+      "Papaver somnifarem",
+      "Piper methysticum"
+    ],
+    [
+      "Papaver somnifarem",
+      "Eroxythylum coca"
+    ],
+    [
+      "Papaver somnifarem",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "Banisteriopsis caapi",
+      "Catha edulis"
+    ],
+    [
+      "Banisteriopsis caapi",
+      "Ephedra sinica"
+    ],
+    [
+      "Banisteriopsis caapi",
+      "Eroxythylum coca"
+    ],
+    [
+      "Piper methysticum",
+      "Incillius alvarius"
+    ],
+    [
+      "Piper methysticum",
+      "Mitragyna speciosa"
+    ],
+    [
+      "Piper methysticum",
+      "Papaver somnifarem"
+    ],
+    [
+      "Piper methysticum",
+      "Catha edulis"
+    ],
+    [
+      "Piper methysticum",
+      "Ephedra sinica"
+    ],
+    [
+      "Piper methysticum",
+      "Eroxythylum coca"
+    ],
+    [
+      "Piper methysticum",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "Piper methysticum",
+      "Tabernathe iboga"
+    ],
+    [
+      "Catha edulis",
+      "DOx"
+    ],
+    [
+      "Catha edulis",
+      "NBOMes"
+    ],
+    [
+      "Catha edulis",
+      "2C-T-x"
+    ],
+    [
+      "Catha edulis",
+      "5-MeO-xxT"
+    ],
+    [
+      "Catha edulis",
+      "DXM"
+    ],
+    [
+      "Catha edulis",
+      "Banisteriopsis caapi"
+    ],
+    [
+      "Catha edulis",
+      "Piper methysticum"
+    ],
+    [
+      "Ephedra sinica",
+      "DOx"
+    ],
+    [
+      "Ephedra sinica",
+      "NBOMes"
+    ],
+    [
+      "Ephedra sinica",
+      "2C-T-x"
+    ],
+    [
+      "Ephedra sinica",
+      "5-MeO-xxT"
+    ],
+    [
+      "Ephedra sinica",
+      "DXM"
+    ],
+    [
+      "Ephedra sinica",
+      "Banisteriopsis caapi"
+    ],
+    [
+      "Ephedra sinica",
+      "Piper methysticum"
+    ],
+    [
+      "Eroxythylum coca",
+      "DOx"
+    ],
+    [
+      "Eroxythylum coca",
+      "NBOMes"
+    ],
+    [
+      "Eroxythylum coca",
+      "2C-T-x"
+    ],
+    [
+      "Eroxythylum coca",
+      "5-MeO-xxT"
+    ],
+    [
+      "Eroxythylum coca",
+      "DXM"
+    ],
+    [
+      "Eroxythylum coca",
+      "Alcohol"
+    ],
+    [
+      "Eroxythylum coca",
+      "Banisteriopsis caapi"
+    ],
+    [
+      "Eroxythylum coca",
+      "Piper methysticum"
+    ],
+    [
+      "Eroxythylum coca",
+      "Catha edulis"
+    ],
+    [
+      "Phyllomedusa bicolor",
+      "Papaver somnifarem"
+    ],
+    [
+      "Phyllomedusa bicolor",
+      "Piper methysticum"
+    ],
+    [
+      "Tabernathe iboga",
+      "5-MeO-xxT"
+    ],
+    [
+      "Tabernathe iboga",
+      "MDMA"
+    ],
+    [
+      "Tabernathe iboga",
+      "Tramadol"
+    ],
+    [
+      "Tabernathe iboga",
+      "SSRIs"
+    ],
+    [
+      "Tabernathe iboga",
+      "Amanita muscaria"
+    ],
+    [
+      "Tabernathe iboga",
+      "Incillius alvarius"
+    ],
+    [
+      "Tabernathe iboga",
+      "Piper methysticum"
+    ]
+  ],
+  "MR": [
+    [
+      "LSD",
+      "Cannabis"
+    ],
+    [
+      "LSD",
+      "Amphetamines"
+    ],
+    [
+      "LSD",
+      "Cocaine"
+    ],
+    [
+      "LSD",
+      "Catha edulis"
+    ],
+    [
+      "LSD",
+      "Ephedra sinica"
+    ],
+    [
+      "LSD",
+      "Eroxythylum coca"
+    ],
+    [
+      "LSD",
+      "Tabernathe iboga"
+    ],
+    [
+      "Psilocybin",
+      "Cannabis"
+    ],
+    [
+      "Psilocybin",
+      "Amphetamines"
+    ],
+    [
+      "Psilocybin",
+      "Cocaine"
+    ],
+    [
+      "Psilocybin",
+      "Catha edulis"
+    ],
+    [
+      "Psilocybin",
+      "Ephedra sinica"
+    ],
+    [
+      "Psilocybin",
+      "Eroxythylum coca"
+    ],
+    [
+      "Psilocybin",
+      "Tabernathe iboga"
+    ],
+    [
+      "DMT",
+      "Cannabis"
+    ],
+    [
+      "DMT",
+      "Amphetamines"
+    ],
+    [
+      "DMT",
+      "Cocaine"
+    ],
+    [
+      "DMT",
+      "Catha edulis"
+    ],
+    [
+      "DMT",
+      "Ephedra sinica"
+    ],
+    [
+      "DMT",
+      "Eroxythylum coca"
+    ],
+    [
+      "DMT",
+      "Tabernathe iboga"
+    ],
+    [
+      "Mescaline",
+      "DOx"
+    ],
+    [
+      "Mescaline",
+      "NBOMes"
+    ],
+    [
+      "Mescaline",
+      "2C-x"
+    ],
+    [
+      "Mescaline",
+      "2C-T-x"
+    ],
+    [
+      "Mescaline",
+      "5-MeO-xxT"
+    ],
+    [
+      "Mescaline",
+      "Cannabis"
+    ],
+    [
+      "Mescaline",
+      "Amphetamines"
+    ],
+    [
+      "Mescaline",
+      "Cocaine"
+    ],
+    [
+      "Mescaline",
+      "MAOIs"
+    ],
+    [
+      "Mescaline",
+      "Incillius alvarius"
+    ],
+    [
+      "Mescaline",
+      "Banisteriopsis caapi"
+    ],
+    [
+      "Mescaline",
+      "Piper methysticum"
+    ],
+    [
+      "Mescaline",
+      "Catha edulis"
+    ],
+    [
+      "Mescaline",
+      "Ephedra sinica"
+    ],
+    [
+      "Mescaline",
+      "Eroxythylum coca"
+    ],
+    [
+      "Mescaline",
+      "Tabernathe iboga"
+    ],
+    [
+      "DOx",
+      "Mescaline"
+    ],
+    [
+      "DOx",
+      "NBOMes"
+    ],
+    [
+      "DOx",
+      "2C-x"
+    ],
+    [
+      "DOx",
+      "2C-T-x"
+    ],
+    [
+      "DOx",
+      "5-MeO-xxT"
+    ],
+    [
+      "DOx",
+      "Cannabis"
+    ],
+    [
+      "DOx",
+      "MDMA"
+    ],
+    [
+      "DOx",
+      "Caffeine"
+    ],
+    [
+      "DOx",
+      "MAOIs"
+    ],
+    [
+      "DOx",
+      "Trichocereus species"
+    ],
+    [
+      "DOx",
+      "Lophpopra willamsii"
+    ],
+    [
+      "DOx",
+      "Incillius alvarius"
+    ],
+    [
+      "DOx",
+      "Banisteriopsis caapi"
+    ],
+    [
+      "DOx",
+      "Piper methysticum"
+    ],
+    [
+      "DOx",
+      "Tabernathe iboga"
+    ],
+    [
+      "NBOMes",
+      "Mescaline"
+    ],
+    [
+      "NBOMes",
+      "DOx"
+    ],
+    [
+      "NBOMes",
+      "2C-x"
+    ],
+    [
+      "NBOMes",
+      "2C-T-x"
+    ],
+    [
+      "NBOMes",
+      "5-MeO-xxT"
+    ],
+    [
+      "NBOMes",
+      "Cannabis"
+    ],
+    [
+      "NBOMes",
+      "MDMA"
+    ],
+    [
+      "NBOMes",
+      "Caffeine"
+    ],
+    [
+      "NBOMes",
+      "MAOIs"
+    ],
+    [
+      "NBOMes",
+      "Trichocereus species"
+    ],
+    [
+      "NBOMes",
+      "Lophpopra willamsii"
+    ],
+    [
+      "NBOMes",
+      "Incillius alvarius"
+    ],
+    [
+      "NBOMes",
+      "Banisteriopsis caapi"
+    ],
+    [
+      "NBOMes",
+      "Piper methysticum"
+    ],
+    [
+      "NBOMes",
+      "Tabernathe iboga"
+    ],
+    [
+      "2C-x",
+      "Mescaline"
+    ],
+    [
+      "2C-x",
+      "DOx"
+    ],
+    [
+      "2C-x",
+      "NBOMes"
+    ],
+    [
+      "2C-x",
+      "2C-T-x"
+    ],
+    [
+      "2C-x",
+      "5-MeO-xxT"
+    ],
+    [
+      "2C-x",
+      "Cannabis"
+    ],
+    [
+      "2C-x",
+      "Amphetamines"
+    ],
+    [
+      "2C-x",
+      "Cocaine"
+    ],
+    [
+      "2C-x",
+      "MAOIs"
+    ],
+    [
+      "2C-x",
+      "Trichocereus species"
+    ],
+    [
+      "2C-x",
+      "Lophpopra willamsii"
+    ],
+    [
+      "2C-x",
+      "Incillius alvarius"
+    ],
+    [
+      "2C-x",
+      "Banisteriopsis caapi"
+    ],
+    [
+      "2C-x",
+      "Piper methysticum"
+    ],
+    [
+      "2C-x",
+      "Catha edulis"
+    ],
+    [
+      "2C-x",
+      "Ephedra sinica"
+    ],
+    [
+      "2C-x",
+      "Eroxythylum coca"
+    ],
+    [
+      "2C-x",
+      "Tabernathe iboga"
+    ],
+    [
+      "2C-T-x",
+      "Mescaline"
+    ],
+    [
+      "2C-T-x",
+      "DOx"
+    ],
+    [
+      "2C-T-x",
+      "NBOMes"
+    ],
+    [
+      "2C-T-x",
+      "2C-x"
+    ],
+    [
+      "2C-T-x",
+      "5-MeO-xxT"
+    ],
+    [
+      "2C-T-x",
+      "Cannabis"
+    ],
+    [
+      "2C-T-x",
+      "MXE"
+    ],
+    [
+      "2C-T-x",
+      "MDMA"
+    ],
+    [
+      "2C-T-x",
+      "MAOIs"
+    ],
+    [
+      "2C-T-x",
+      "Trichocereus species"
+    ],
+    [
+      "2C-T-x",
+      "Lophpopra willamsii"
+    ],
+    [
+      "2C-T-x",
+      "Incillius alvarius"
+    ],
+    [
+      "2C-T-x",
+      "Banisteriopsis caapi"
+    ],
+    [
+      "2C-T-x",
+      "Piper methysticum"
+    ],
+    [
+      "2C-T-x",
+      "Tabernathe iboga"
+    ],
+    [
+      "5-MeO-xxT",
+      "Mescaline"
+    ],
+    [
+      "5-MeO-xxT",
+      "DOx"
+    ],
+    [
+      "5-MeO-xxT",
+      "NBOMes"
+    ],
+    [
+      "5-MeO-xxT",
+      "2C-x"
+    ],
+    [
+      "5-MeO-xxT",
+      "2C-T-x"
+    ],
+    [
+      "5-MeO-xxT",
+      "Cannabis"
+    ],
+    [
+      "5-MeO-xxT",
+      "MDMA"
+    ],
+    [
+      "5-MeO-xxT",
+      "Trichocereus species"
+    ],
+    [
+      "5-MeO-xxT",
+      "Lophpopra willamsii"
+    ],
+    [
+      "Cannabis",
+      "LSD"
+    ],
+    [
+      "Cannabis",
+      "Psilocybin"
+    ],
+    [
+      "Cannabis",
+      "DMT"
+    ],
+    [
+      "Cannabis",
+      "Mescaline"
+    ],
+    [
+      "Cannabis",
+      "DOx"
+    ],
+    [
+      "Cannabis",
+      "NBOMes"
+    ],
+    [
+      "Cannabis",
+      "2C-x"
+    ],
+    [
+      "Cannabis",
+      "2C-T-x"
+    ],
+    [
+      "Cannabis",
+      "5-MeO-xxT"
+    ],
+    [
+      "Cannabis",
+      "Amphetamines"
+    ],
+    [
+      "Cannabis",
+      "Cocaine"
+    ],
+    [
+      "Cannabis",
+      "Salvia divonorum"
+    ],
+    [
+      "Cannabis",
+      "Acacia species"
+    ],
+    [
+      "Cannabis",
+      "Mimosa tenuiflora"
+    ],
+    [
+      "Cannabis",
+      "Panaelous cyanescens"
+    ],
+    [
+      "Cannabis",
+      "Argyreia nervosa"
+    ],
+    [
+      "Cannabis",
+      "Ipomea violacea"
+    ],
+    [
+      "Cannabis",
+      "Rivea corymbosa"
+    ],
+    [
+      "Cannabis",
+      "Trichocereus species"
+    ],
+    [
+      "Cannabis",
+      "Lophpopra willamsii"
+    ],
+    [
+      "Cannabis",
+      "Incillius alvarius"
+    ],
+    [
+      "Cannabis",
+      "Catha edulis"
+    ],
+    [
+      "Cannabis",
+      "Ephedra sinica"
+    ],
+    [
+      "Cannabis",
+      "Eroxythylum coca"
+    ],
+    [
+      "Cannabis",
+      "Tabernathe iboga"
+    ],
+    [
+      "Ketamine",
+      "Amphetamines"
+    ],
+    [
+      "Ketamine",
+      "Cocaine"
+    ],
+    [
+      "Ketamine",
+      "Benzodiazepine"
+    ],
+    [
+      "Ketamine",
+      "MAOIs"
+    ],
+    [
+      "Ketamine",
+      "Banisteriopsis caapi"
+    ],
+    [
+      "Ketamine",
+      "Piper methysticum"
+    ],
+    [
+      "Ketamine",
+      "Catha edulis"
+    ],
+    [
+      "Ketamine",
+      "Ephedra sinica"
+    ],
+    [
+      "Ketamine",
+      "Eroxythylum coca"
+    ],
+    [
+      "Ketamine",
+      "Tabernathe iboga"
+    ],
+    [
+      "MXE",
+      "2C-x"
+    ],
+    [
+      "MXE",
+      "Amphetamines"
+    ],
+    [
+      "MXE",
+      "MDMA"
+    ],
+    [
+      "MXE",
+      "Cocaine"
+    ],
+    [
+      "MXE",
+      "Benzodiazepine"
+    ],
+    [
+      "MXE",
+      "SSRIs"
+    ],
+    [
+      "MXE",
+      "Catha edulis"
+    ],
+    [
+      "MXE",
+      "Ephedra sinica"
+    ],
+    [
+      "MXE",
+      "Eroxythylum coca"
+    ],
+    [
+      "MXE",
+      "Tabernathe iboga"
+    ],
+    [
+      "DXM",
+      "Benzodiazepine"
+    ],
+    [
+      "DXM",
+      "Tabernathe iboga"
+    ],
+    [
+      "Nitrous ",
+      "Alcohol"
+    ],
+    [
+      "Nitrous ",
+      "GHB/GBL"
+    ],
+    [
+      "Nitrous ",
+      "Opiods"
+    ],
+    [
+      "Nitrous ",
+      "Tramadol"
+    ],
+    [
+      "Nitrous ",
+      "Mitragyna speciosa"
+    ],
+    [
+      "Nitrous ",
+      "Papaver somnifarem"
+    ],
+    [
+      "Nitrous ",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "Nitrous ",
+      "Tabernathe iboga"
+    ],
+    [
+      "Amphetamines",
+      "LSD"
+    ],
+    [
+      "Amphetamines",
+      "Psilocybin"
+    ],
+    [
+      "Amphetamines",
+      "DMT"
+    ],
+    [
+      "Amphetamines",
+      "Mescaline"
+    ],
+    [
+      "Amphetamines",
+      "2C-x"
+    ],
+    [
+      "Amphetamines",
+      "Cannabis"
+    ],
+    [
+      "Amphetamines",
+      "Ketamine"
+    ],
+    [
+      "Amphetamines",
+      "MXE"
+    ],
+    [
+      "Amphetamines",
+      "Cocaine"
+    ],
+    [
+      "Amphetamines",
+      "Caffeine"
+    ],
+    [
+      "Amphetamines",
+      "Alcohol"
+    ],
+    [
+      "Amphetamines",
+      "GHB/GBL"
+    ],
+    [
+      "Amphetamines",
+      "Opiods"
+    ],
+    [
+      "Amphetamines",
+      "Salvia divonorum"
+    ],
+    [
+      "Amphetamines",
+      "Acacia species"
+    ],
+    [
+      "Amphetamines",
+      "Mimosa tenuiflora"
+    ],
+    [
+      "Amphetamines",
+      "Panaelous cyanescens"
+    ],
+    [
+      "Amphetamines",
+      "Argyreia nervosa"
+    ],
+    [
+      "Amphetamines",
+      "Ipomea violacea"
+    ],
+    [
+      "Amphetamines",
+      "Rivea corymbosa"
+    ],
+    [
+      "Amphetamines",
+      "Trichocereus species"
+    ],
+    [
+      "Amphetamines",
+      "Lophpopra willamsii"
+    ],
+    [
+      "Amphetamines",
+      "Mitragyna speciosa"
+    ],
+    [
+      "Amphetamines",
+      "Papaver somnifarem"
+    ],
+    [
+      "Amphetamines",
+      "Catha edulis"
+    ],
+    [
+      "Amphetamines",
+      "Eroxythylum coca"
+    ],
+    [
+      "Amphetamines",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "Amphetamines",
+      "Tabernathe iboga"
+    ],
+    [
+      "MDMA",
+      "DOx"
+    ],
+    [
+      "MDMA",
+      "NBOMes"
+    ],
+    [
+      "MDMA",
+      "2C-T-x"
+    ],
+    [
+      "MDMA",
+      "5-MeO-xxT"
+    ],
+    [
+      "MDMA",
+      "MXE"
+    ],
+    [
+      "MDMA",
+      "Cocaine"
+    ],
+    [
+      "MDMA",
+      "Caffeine"
+    ],
+    [
+      "MDMA",
+      "Alcohol"
+    ],
+    [
+      "MDMA",
+      "GHB/GBL"
+    ],
+    [
+      "MDMA",
+      "Incillius alvarius"
+    ],
+    [
+      "MDMA",
+      "Eroxythylum coca"
+    ],
+    [
+      "Cocaine",
+      "LSD"
+    ],
+    [
+      "Cocaine",
+      "Psilocybin"
+    ],
+    [
+      "Cocaine",
+      "DMT"
+    ],
+    [
+      "Cocaine",
+      "Mescaline"
+    ],
+    [
+      "Cocaine",
+      "2C-x"
+    ],
+    [
+      "Cocaine",
+      "Cannabis"
+    ],
+    [
+      "Cocaine",
+      "Ketamine"
+    ],
+    [
+      "Cocaine",
+      "MXE"
+    ],
+    [
+      "Cocaine",
+      "Amphetamines"
+    ],
+    [
+      "Cocaine",
+      "MDMA"
+    ],
+    [
+      "Cocaine",
+      "Caffeine"
+    ],
+    [
+      "Cocaine",
+      "GHB/GBL"
+    ],
+    [
+      "Cocaine",
+      "Salvia divonorum"
+    ],
+    [
+      "Cocaine",
+      "Acacia species"
+    ],
+    [
+      "Cocaine",
+      "Mimosa tenuiflora"
+    ],
+    [
+      "Cocaine",
+      "Panaelous cyanescens"
+    ],
+    [
+      "Cocaine",
+      "Argyreia nervosa"
+    ],
+    [
+      "Cocaine",
+      "Ipomea violacea"
+    ],
+    [
+      "Cocaine",
+      "Rivea corymbosa"
+    ],
+    [
+      "Cocaine",
+      "Trichocereus species"
+    ],
+    [
+      "Cocaine",
+      "Lophpopra willamsii"
+    ],
+    [
+      "Cocaine",
+      "Catha edulis"
+    ],
+    [
+      "Cocaine",
+      "Ephedra sinica"
+    ],
+    [
+      "Cocaine",
+      "Tabernathe iboga"
+    ],
+    [
+      "Caffeine",
+      "DOx"
+    ],
+    [
+      "Caffeine",
+      "NBOMes"
+    ],
+    [
+      "Caffeine",
+      "Amphetamines"
+    ],
+    [
+      "Caffeine",
+      "MDMA"
+    ],
+    [
+      "Caffeine",
+      "Cocaine"
+    ],
+    [
+      "Caffeine",
+      "Catha edulis"
+    ],
+    [
+      "Caffeine",
+      "Ephedra sinica"
+    ],
+    [
+      "Caffeine",
+      "Eroxythylum coca"
+    ],
+    [
+      "Caffeine",
+      "Tabernathe iboga"
+    ],
+    [
+      "Alcohol",
+      "Nitrous "
+    ],
+    [
+      "Alcohol",
+      "Amphetamines"
+    ],
+    [
+      "Alcohol",
+      "MDMA"
+    ],
+    [
+      "Alcohol",
+      "SSRIs"
+    ],
+    [
+      "Alcohol",
+      "Salvia divonorum"
+    ],
+    [
+      "Alcohol",
+      "Amanita muscaria"
+    ],
+    [
+      "Alcohol",
+      "Catha edulis"
+    ],
+    [
+      "Alcohol",
+      "Ephedra sinica"
+    ],
+    [
+      "Alcohol",
+      "Tabernathe iboga"
+    ],
+    [
+      "GHB/GBL",
+      "Nitrous "
+    ],
+    [
+      "GHB/GBL",
+      "Amphetamines"
+    ],
+    [
+      "GHB/GBL",
+      "MDMA"
+    ],
+    [
+      "GHB/GBL",
+      "Cocaine"
+    ],
+    [
+      "GHB/GBL",
+      "Salvia divonorum"
+    ],
+    [
+      "GHB/GBL",
+      "Amanita muscaria"
+    ],
+    [
+      "GHB/GBL",
+      "Catha edulis"
+    ],
+    [
+      "GHB/GBL",
+      "Ephedra sinica"
+    ],
+    [
+      "GHB/GBL",
+      "Eroxythylum coca"
+    ],
+    [
+      "GHB/GBL",
+      "Tabernathe iboga"
+    ],
+    [
+      "Opiods",
+      "Nitrous "
+    ],
+    [
+      "Opiods",
+      "Amphetamines"
+    ],
+    [
+      "Opiods",
+      "MAOIs"
+    ],
+    [
+      "Opiods",
+      "Amanita muscaria"
+    ],
+    [
+      "Opiods",
+      "Banisteriopsis caapi"
+    ],
+    [
+      "Opiods",
+      "Piper methysticum"
+    ],
+    [
+      "Opiods",
+      "Catha edulis"
+    ],
+    [
+      "Opiods",
+      "Ephedra sinica"
+    ],
+    [
+      "Opiods",
+      "Tabernathe iboga"
+    ],
+    [
+      "Tramadol",
+      "Nitrous "
+    ],
+    [
+      "Tramadol",
+      "Salvia divonorum"
+    ],
+    [
+      "Tramadol",
+      "Amanita muscaria"
+    ],
+    [
+      "Benzodiazepine",
+      "Ketamine"
+    ],
+    [
+      "Benzodiazepine",
+      "MXE"
+    ],
+    [
+      "Benzodiazepine",
+      "DXM"
+    ],
+    [
+      "Benzodiazepine",
+      "Amanita muscaria"
+    ],
+    [
+      "Benzodiazepine",
+      "Tabernathe iboga"
+    ],
+    [
+      "MAOIs",
+      "Mescaline"
+    ],
+    [
+      "MAOIs",
+      "DOx"
+    ],
+    [
+      "MAOIs",
+      "NBOMes"
+    ],
+    [
+      "MAOIs",
+      "2C-x"
+    ],
+    [
+      "MAOIs",
+      "2C-T-x"
+    ],
+    [
+      "MAOIs",
+      "Ketamine"
+    ],
+    [
+      "MAOIs",
+      "Opiods"
+    ],
+    [
+      "MAOIs",
+      "Amanita muscaria"
+    ],
+    [
+      "MAOIs",
+      "Trichocereus species"
+    ],
+    [
+      "MAOIs",
+      "Lophpopra willamsii"
+    ],
+    [
+      "MAOIs",
+      "Mitragyna speciosa"
+    ],
+    [
+      "MAOIs",
+      "Papaver somnifarem"
+    ],
+    [
+      "MAOIs",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "SSRIs",
+      "MXE"
+    ],
+    [
+      "SSRIs",
+      "Alcohol"
+    ],
+    [
+      "Salvia divonorum",
+      "Cannabis"
+    ],
+    [
+      "Salvia divonorum",
+      "Amphetamines"
+    ],
+    [
+      "Salvia divonorum",
+      "Cocaine"
+    ],
+    [
+      "Salvia divonorum",
+      "Alcohol"
+    ],
+    [
+      "Salvia divonorum",
+      "GHB/GBL"
+    ],
+    [
+      "Salvia divonorum",
+      "Tramadol"
+    ],
+    [
+      "Salvia divonorum",
+      "Catha edulis"
+    ],
+    [
+      "Salvia divonorum",
+      "Ephedra sinica"
+    ],
+    [
+      "Salvia divonorum",
+      "Eroxythylum coca"
+    ],
+    [
+      "Salvia divonorum",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "Acacia species",
+      "Cannabis"
+    ],
+    [
+      "Acacia species",
+      "Amphetamines"
+    ],
+    [
+      "Acacia species",
+      "Cocaine"
+    ],
+    [
+      "Acacia species",
+      "Catha edulis"
+    ],
+    [
+      "Acacia species",
+      "Ephedra sinica"
+    ],
+    [
+      "Acacia species",
+      "Eroxythylum coca"
+    ],
+    [
+      "Acacia species",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "Acacia species",
+      "Tabernathe iboga"
+    ],
+    [
+      "Mimosa tenuiflora",
+      "Cannabis"
+    ],
+    [
+      "Mimosa tenuiflora",
+      "Amphetamines"
+    ],
+    [
+      "Mimosa tenuiflora",
+      "Cocaine"
+    ],
+    [
+      "Mimosa tenuiflora",
+      "Catha edulis"
+    ],
+    [
+      "Mimosa tenuiflora",
+      "Ephedra sinica"
+    ],
+    [
+      "Mimosa tenuiflora",
+      "Eroxythylum coca"
+    ],
+    [
+      "Mimosa tenuiflora",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "Mimosa tenuiflora",
+      "Tabernathe iboga"
+    ],
+    [
+      "Panaelous cyanescens",
+      "Cannabis"
+    ],
+    [
+      "Panaelous cyanescens",
+      "Amphetamines"
+    ],
+    [
+      "Panaelous cyanescens",
+      "Cocaine"
+    ],
+    [
+      "Panaelous cyanescens",
+      "Catha edulis"
+    ],
+    [
+      "Panaelous cyanescens",
+      "Ephedra sinica"
+    ],
+    [
+      "Panaelous cyanescens",
+      "Eroxythylum coca"
+    ],
+    [
+      "Panaelous cyanescens",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "Panaelous cyanescens",
+      "Tabernathe iboga"
+    ],
+    [
+      "Argyreia nervosa",
+      "Cannabis"
+    ],
+    [
+      "Argyreia nervosa",
+      "Amphetamines"
+    ],
+    [
+      "Argyreia nervosa",
+      "Cocaine"
+    ],
+    [
+      "Argyreia nervosa",
+      "Catha edulis"
+    ],
+    [
+      "Argyreia nervosa",
+      "Ephedra sinica"
+    ],
+    [
+      "Argyreia nervosa",
+      "Eroxythylum coca"
+    ],
+    [
+      "Argyreia nervosa",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "Argyreia nervosa",
+      "Tabernathe iboga"
+    ],
+    [
+      "Ipomea violacea",
+      "Cannabis"
+    ],
+    [
+      "Ipomea violacea",
+      "Amphetamines"
+    ],
+    [
+      "Ipomea violacea",
+      "Cocaine"
+    ],
+    [
+      "Ipomea violacea",
+      "Catha edulis"
+    ],
+    [
+      "Ipomea violacea",
+      "Ephedra sinica"
+    ],
+    [
+      "Ipomea violacea",
+      "Eroxythylum coca"
+    ],
+    [
+      "Ipomea violacea",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "Ipomea violacea",
+      "Tabernathe iboga"
+    ],
+    [
+      "Rivea corymbosa",
+      "Cannabis"
+    ],
+    [
+      "Rivea corymbosa",
+      "Amphetamines"
+    ],
+    [
+      "Rivea corymbosa",
+      "Cocaine"
+    ],
+    [
+      "Rivea corymbosa",
+      "Catha edulis"
+    ],
+    [
+      "Rivea corymbosa",
+      "Ephedra sinica"
+    ],
+    [
+      "Rivea corymbosa",
+      "Eroxythylum coca"
+    ],
+    [
+      "Rivea corymbosa",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "Rivea corymbosa",
+      "Tabernathe iboga"
+    ],
+    [
+      "Amanita muscaria",
+      "Alcohol"
+    ],
+    [
+      "Amanita muscaria",
+      "GHB/GBL"
+    ],
+    [
+      "Amanita muscaria",
+      "Opiods"
+    ],
+    [
+      "Amanita muscaria",
+      "Tramadol"
+    ],
+    [
+      "Amanita muscaria",
+      "Benzodiazepine"
+    ],
+    [
+      "Amanita muscaria",
+      "MAOIs"
+    ],
+    [
+      "Amanita muscaria",
+      "Mitragyna speciosa"
+    ],
+    [
+      "Amanita muscaria",
+      "Papaver somnifarem"
+    ],
+    [
+      "Amanita muscaria",
+      "Piper methysticum"
+    ],
+    [
+      "Amanita muscaria",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "Trichocereus species",
+      "DOx"
+    ],
+    [
+      "Trichocereus species",
+      "NBOMes"
+    ],
+    [
+      "Trichocereus species",
+      "2C-x"
+    ],
+    [
+      "Trichocereus species",
+      "2C-T-x"
+    ],
+    [
+      "Trichocereus species",
+      "5-MeO-xxT"
+    ],
+    [
+      "Trichocereus species",
+      "Cannabis"
+    ],
+    [
+      "Trichocereus species",
+      "Amphetamines"
+    ],
+    [
+      "Trichocereus species",
+      "Cocaine"
+    ],
+    [
+      "Trichocereus species",
+      "MAOIs"
+    ],
+    [
+      "Trichocereus species",
+      "Banisteriopsis caapi"
+    ],
+    [
+      "Trichocereus species",
+      "Piper methysticum"
+    ],
+    [
+      "Trichocereus species",
+      "Catha edulis"
+    ],
+    [
+      "Trichocereus species",
+      "Ephedra sinica"
+    ],
+    [
+      "Trichocereus species",
+      "Eroxythylum coca"
+    ],
+    [
+      "Trichocereus species",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "Trichocereus species",
+      "Tabernathe iboga"
+    ],
+    [
+      "Lophpopra willamsii",
+      "DOx"
+    ],
+    [
+      "Lophpopra willamsii",
+      "NBOMes"
+    ],
+    [
+      "Lophpopra willamsii",
+      "2C-x"
+    ],
+    [
+      "Lophpopra willamsii",
+      "2C-T-x"
+    ],
+    [
+      "Lophpopra willamsii",
+      "5-MeO-xxT"
+    ],
+    [
+      "Lophpopra willamsii",
+      "Cannabis"
+    ],
+    [
+      "Lophpopra willamsii",
+      "Amphetamines"
+    ],
+    [
+      "Lophpopra willamsii",
+      "Cocaine"
+    ],
+    [
+      "Lophpopra willamsii",
+      "MAOIs"
+    ],
+    [
+      "Lophpopra willamsii",
+      "Banisteriopsis caapi"
+    ],
+    [
+      "Lophpopra willamsii",
+      "Piper methysticum"
+    ],
+    [
+      "Lophpopra willamsii",
+      "Catha edulis"
+    ],
+    [
+      "Lophpopra willamsii",
+      "Ephedra sinica"
+    ],
+    [
+      "Lophpopra willamsii",
+      "Eroxythylum coca"
+    ],
+    [
+      "Lophpopra willamsii",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "Lophpopra willamsii",
+      "Tabernathe iboga"
+    ],
+    [
+      "Incillius alvarius",
+      "Mescaline"
+    ],
+    [
+      "Incillius alvarius",
+      "DOx"
+    ],
+    [
+      "Incillius alvarius",
+      "NBOMes"
+    ],
+    [
+      "Incillius alvarius",
+      "2C-x"
+    ],
+    [
+      "Incillius alvarius",
+      "2C-T-x"
+    ],
+    [
+      "Incillius alvarius",
+      "Cannabis"
+    ],
+    [
+      "Incillius alvarius",
+      "MDMA"
+    ],
+    [
+      "Incillius alvarius",
+      "Catha edulis"
+    ],
+    [
+      "Incillius alvarius",
+      "Ephedra sinica"
+    ],
+    [
+      "Incillius alvarius",
+      "Eroxythylum coca"
+    ],
+    [
+      "Incillius alvarius",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "Mitragyna speciosa",
+      "MAOIs"
+    ],
+    [
+      "Mitragyna speciosa",
+      "Amanita muscaria"
+    ],
+    [
+      "Mitragyna speciosa",
+      "Ephedra sinica"
+    ],
+    [
+      "Mitragyna speciosa",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "Papaver somnifarem",
+      "MAOIs"
+    ],
+    [
+      "Papaver somnifarem",
+      "Amanita muscaria"
+    ],
+    [
+      "Banisteriopsis caapi",
+      "Mescaline"
+    ],
+    [
+      "Banisteriopsis caapi",
+      "DOx"
+    ],
+    [
+      "Banisteriopsis caapi",
+      "NBOMes"
+    ],
+    [
+      "Banisteriopsis caapi",
+      "2C-x"
+    ],
+    [
+      "Banisteriopsis caapi",
+      "2C-T-x"
+    ],
+    [
+      "Banisteriopsis caapi",
+      "Ketamine"
+    ],
+    [
+      "Banisteriopsis caapi",
+      "Alcohol"
+    ],
+    [
+      "Banisteriopsis caapi",
+      "GHB/GBL"
+    ],
+    [
+      "Banisteriopsis caapi",
+      "Tramadol"
+    ],
+    [
+      "Banisteriopsis caapi",
+      "Benzodiazepine"
+    ],
+    [
+      "Banisteriopsis caapi",
+      "Trichocereus species"
+    ],
+    [
+      "Banisteriopsis caapi",
+      "Lophpopra willamsii"
+    ],
+    [
+      "Banisteriopsis caapi",
+      "Piper methysticum"
+    ],
+    [
+      "Banisteriopsis caapi",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "Piper methysticum",
+      "Mescaline"
+    ],
+    [
+      "Piper methysticum",
+      "DOx"
+    ],
+    [
+      "Piper methysticum",
+      "NBOMes"
+    ],
+    [
+      "Piper methysticum",
+      "2C-x"
+    ],
+    [
+      "Piper methysticum",
+      "2C-T-x"
+    ],
+    [
+      "Piper methysticum",
+      "Ketamine"
+    ],
+    [
+      "Piper methysticum",
+      "Cocaine"
+    ],
+    [
+      "Piper methysticum",
+      "Alcohol"
+    ],
+    [
+      "Piper methysticum",
+      "Opiods"
+    ],
+    [
+      "Piper methysticum",
+      "Tramadol"
+    ],
+    [
+      "Piper methysticum",
+      "Amanita muscaria"
+    ],
+    [
+      "Piper methysticum",
+      "Trichocereus species"
+    ],
+    [
+      "Piper methysticum",
+      "Lophpopra willamsii"
+    ],
+    [
+      "Piper methysticum",
+      "Banisteriopsis caapi"
+    ],
+    [
+      "Catha edulis",
+      "LSD"
+    ],
+    [
+      "Catha edulis",
+      "Psilocybin"
+    ],
+    [
+      "Catha edulis",
+      "DMT"
+    ],
+    [
+      "Catha edulis",
+      "Mescaline"
+    ],
+    [
+      "Catha edulis",
+      "2C-x"
+    ],
+    [
+      "Catha edulis",
+      "Cannabis"
+    ],
+    [
+      "Catha edulis",
+      "Ketamine"
+    ],
+    [
+      "Catha edulis",
+      "MXE"
+    ],
+    [
+      "Catha edulis",
+      "Amphetamines"
+    ],
+    [
+      "Catha edulis",
+      "Cocaine"
+    ],
+    [
+      "Catha edulis",
+      "Caffeine"
+    ],
+    [
+      "Catha edulis",
+      "Alcohol"
+    ],
+    [
+      "Catha edulis",
+      "GHB/GBL"
+    ],
+    [
+      "Catha edulis",
+      "Opiods"
+    ],
+    [
+      "Catha edulis",
+      "Salvia divonorum"
+    ],
+    [
+      "Catha edulis",
+      "Acacia species"
+    ],
+    [
+      "Catha edulis",
+      "Mimosa tenuiflora"
+    ],
+    [
+      "Catha edulis",
+      "Panaelous cyanescens"
+    ],
+    [
+      "Catha edulis",
+      "Argyreia nervosa"
+    ],
+    [
+      "Catha edulis",
+      "Ipomea violacea"
+    ],
+    [
+      "Catha edulis",
+      "Rivea corymbosa"
+    ],
+    [
+      "Catha edulis",
+      "Trichocereus species"
+    ],
+    [
+      "Catha edulis",
+      "Lophpopra willamsii"
+    ],
+    [
+      "Catha edulis",
+      "Incillius alvarius"
+    ],
+    [
+      "Catha edulis",
+      "Ephedra sinica"
+    ],
+    [
+      "Catha edulis",
+      "Eroxythylum coca"
+    ],
+    [
+      "Catha edulis",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "Catha edulis",
+      "Tabernathe iboga"
+    ],
+    [
+      "Ephedra sinica",
+      "LSD"
+    ],
+    [
+      "Ephedra sinica",
+      "Psilocybin"
+    ],
+    [
+      "Ephedra sinica",
+      "DMT"
+    ],
+    [
+      "Ephedra sinica",
+      "Mescaline"
+    ],
+    [
+      "Ephedra sinica",
+      "2C-x"
+    ],
+    [
+      "Ephedra sinica",
+      "Cannabis"
+    ],
+    [
+      "Ephedra sinica",
+      "Ketamine"
+    ],
+    [
+      "Ephedra sinica",
+      "MXE"
+    ],
+    [
+      "Ephedra sinica",
+      "Cocaine"
+    ],
+    [
+      "Ephedra sinica",
+      "Caffeine"
+    ],
+    [
+      "Ephedra sinica",
+      "Alcohol"
+    ],
+    [
+      "Ephedra sinica",
+      "GHB/GBL"
+    ],
+    [
+      "Ephedra sinica",
+      "Opiods"
+    ],
+    [
+      "Ephedra sinica",
+      "Salvia divonorum"
+    ],
+    [
+      "Ephedra sinica",
+      "Acacia species"
+    ],
+    [
+      "Ephedra sinica",
+      "Mimosa tenuiflora"
+    ],
+    [
+      "Ephedra sinica",
+      "Panaelous cyanescens"
+    ],
+    [
+      "Ephedra sinica",
+      "Argyreia nervosa"
+    ],
+    [
+      "Ephedra sinica",
+      "Ipomea violacea"
+    ],
+    [
+      "Ephedra sinica",
+      "Rivea corymbosa"
+    ],
+    [
+      "Ephedra sinica",
+      "Trichocereus species"
+    ],
+    [
+      "Ephedra sinica",
+      "Lophpopra willamsii"
+    ],
+    [
+      "Ephedra sinica",
+      "Incillius alvarius"
+    ],
+    [
+      "Ephedra sinica",
+      "Mitragyna speciosa"
+    ],
+    [
+      "Ephedra sinica",
+      "Catha edulis"
+    ],
+    [
+      "Ephedra sinica",
+      "Eroxythylum coca"
+    ],
+    [
+      "Ephedra sinica",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "Ephedra sinica",
+      "Tabernathe iboga"
+    ],
+    [
+      "Eroxythylum coca",
+      "LSD"
+    ],
+    [
+      "Eroxythylum coca",
+      "Psilocybin"
+    ],
+    [
+      "Eroxythylum coca",
+      "DMT"
+    ],
+    [
+      "Eroxythylum coca",
+      "Mescaline"
+    ],
+    [
+      "Eroxythylum coca",
+      "2C-x"
+    ],
+    [
+      "Eroxythylum coca",
+      "Cannabis"
+    ],
+    [
+      "Eroxythylum coca",
+      "Ketamine"
+    ],
+    [
+      "Eroxythylum coca",
+      "MXE"
+    ],
+    [
+      "Eroxythylum coca",
+      "Amphetamines"
+    ],
+    [
+      "Eroxythylum coca",
+      "MDMA"
+    ],
+    [
+      "Eroxythylum coca",
+      "Caffeine"
+    ],
+    [
+      "Eroxythylum coca",
+      "GHB/GBL"
+    ],
+    [
+      "Eroxythylum coca",
+      "Salvia divonorum"
+    ],
+    [
+      "Eroxythylum coca",
+      "Acacia species"
+    ],
+    [
+      "Eroxythylum coca",
+      "Mimosa tenuiflora"
+    ],
+    [
+      "Eroxythylum coca",
+      "Panaelous cyanescens"
+    ],
+    [
+      "Eroxythylum coca",
+      "Argyreia nervosa"
+    ],
+    [
+      "Eroxythylum coca",
+      "Ipomea violacea"
+    ],
+    [
+      "Eroxythylum coca",
+      "Rivea corymbosa"
+    ],
+    [
+      "Eroxythylum coca",
+      "Trichocereus species"
+    ],
+    [
+      "Eroxythylum coca",
+      "Lophpopra willamsii"
+    ],
+    [
+      "Eroxythylum coca",
+      "Incillius alvarius"
+    ],
+    [
+      "Eroxythylum coca",
+      "Mitragyna speciosa"
+    ],
+    [
+      "Eroxythylum coca",
+      "Ephedra sinica"
+    ],
+    [
+      "Eroxythylum coca",
+      "Tabernathe iboga"
+    ],
+    [
+      "Phyllomedusa bicolor",
+      "Cannabis"
+    ],
+    [
+      "Phyllomedusa bicolor",
+      "Cocaine"
+    ],
+    [
+      "Phyllomedusa bicolor",
+      "Caffeine"
+    ],
+    [
+      "Phyllomedusa bicolor",
+      "Alcohol"
+    ],
+    [
+      "Phyllomedusa bicolor",
+      "MAOIs"
+    ],
+    [
+      "Phyllomedusa bicolor",
+      "Salvia divonorum"
+    ],
+    [
+      "Phyllomedusa bicolor",
+      "Acacia species"
+    ],
+    [
+      "Phyllomedusa bicolor",
+      "Mimosa tenuiflora"
+    ],
+    [
+      "Phyllomedusa bicolor",
+      "Panaelous cyanescens"
+    ],
+    [
+      "Phyllomedusa bicolor",
+      "Argyreia nervosa"
+    ],
+    [
+      "Phyllomedusa bicolor",
+      "Ipomea violacea"
+    ],
+    [
+      "Phyllomedusa bicolor",
+      "Rivea corymbosa"
+    ],
+    [
+      "Phyllomedusa bicolor",
+      "Amanita muscaria"
+    ],
+    [
+      "Phyllomedusa bicolor",
+      "Trichocereus species"
+    ],
+    [
+      "Phyllomedusa bicolor",
+      "Lophpopra willamsii"
+    ],
+    [
+      "Phyllomedusa bicolor",
+      "Incillius alvarius"
+    ],
+    [
+      "Phyllomedusa bicolor",
+      "Mitragyna speciosa"
+    ],
+    [
+      "Phyllomedusa bicolor",
+      "Banisteriopsis caapi"
+    ],
+    [
+      "Phyllomedusa bicolor",
+      "Catha edulis"
+    ],
+    [
+      "Phyllomedusa bicolor",
+      "Ephedra sinica"
+    ],
+    [
+      "Tabernathe iboga",
+      "LSD"
+    ],
+    [
+      "Tabernathe iboga",
+      "Psilocybin"
+    ],
+    [
+      "Tabernathe iboga",
+      "DMT"
+    ],
+    [
+      "Tabernathe iboga",
+      "Mescaline"
+    ],
+    [
+      "Tabernathe iboga",
+      "DOx"
+    ],
+    [
+      "Tabernathe iboga",
+      "NBOMes"
+    ],
+    [
+      "Tabernathe iboga",
+      "2C-x"
+    ],
+    [
+      "Tabernathe iboga",
+      "2C-T-x"
+    ],
+    [
+      "Tabernathe iboga",
+      "Cannabis"
+    ],
+    [
+      "Tabernathe iboga",
+      "Ketamine"
+    ],
+    [
+      "Tabernathe iboga",
+      "MXE"
+    ],
+    [
+      "Tabernathe iboga",
+      "DXM"
+    ],
+    [
+      "Tabernathe iboga",
+      "Nitrous "
+    ],
+    [
+      "Tabernathe iboga",
+      "Amphetamines"
+    ],
+    [
+      "Tabernathe iboga",
+      "Cocaine"
+    ],
+    [
+      "Tabernathe iboga",
+      "Caffeine"
+    ],
+    [
+      "Tabernathe iboga",
+      "Alcohol"
+    ],
+    [
+      "Tabernathe iboga",
+      "GHB/GBL"
+    ],
+    [
+      "Tabernathe iboga",
+      "Opiods"
+    ],
+    [
+      "Tabernathe iboga",
+      "Benzodiazepine"
+    ],
+    [
+      "Tabernathe iboga",
+      "Acacia species"
+    ],
+    [
+      "Tabernathe iboga",
+      "Mimosa tenuiflora"
+    ],
+    [
+      "Tabernathe iboga",
+      "Panaelous cyanescens"
+    ],
+    [
+      "Tabernathe iboga",
+      "Argyreia nervosa"
+    ],
+    [
+      "Tabernathe iboga",
+      "Ipomea violacea"
+    ],
+    [
+      "Tabernathe iboga",
+      "Rivea corymbosa"
+    ],
+    [
+      "Tabernathe iboga",
+      "Trichocereus species"
+    ],
+    [
+      "Tabernathe iboga",
+      "Lophpopra willamsii"
+    ],
+    [
+      "Tabernathe iboga",
+      "Catha edulis"
+    ],
+    [
+      "Tabernathe iboga",
+      "Ephedra sinica"
+    ],
+    [
+      "Tabernathe iboga",
+      "Eroxythylum coca"
+    ]
+  ],
+  "LRS": [
+    [
+      "LSD",
+      "Psilocybin"
+    ],
+    [
+      "LSD",
+      "DMT"
+    ],
+    [
+      "LSD",
+      "Mescaline"
+    ],
+    [
+      "LSD",
+      "DOx"
+    ],
+    [
+      "LSD",
+      "NBOMes"
+    ],
+    [
+      "LSD",
+      "2C-x"
+    ],
+    [
+      "LSD",
+      "2C-T-x"
+    ],
+    [
+      "LSD",
+      "5-MeO-xxT"
+    ],
+    [
+      "LSD",
+      "Ketamine"
+    ],
+    [
+      "LSD",
+      "MXE"
+    ],
+    [
+      "LSD",
+      "DXM"
+    ],
+    [
+      "LSD",
+      "Nitrous "
+    ],
+    [
+      "LSD",
+      "MDMA"
+    ],
+    [
+      "LSD",
+      "Salvia divonorum"
+    ],
+    [
+      "LSD",
+      "Acacia species"
+    ],
+    [
+      "LSD",
+      "Mimosa tenuiflora"
+    ],
+    [
+      "LSD",
+      "Panaelous cyanescens"
+    ],
+    [
+      "LSD",
+      "Argyreia nervosa"
+    ],
+    [
+      "LSD",
+      "Ipomea violacea"
+    ],
+    [
+      "LSD",
+      "Rivea corymbosa"
+    ],
+    [
+      "LSD",
+      "Trichocereus species"
+    ],
+    [
+      "LSD",
+      "Lophpopra willamsii"
+    ],
+    [
+      "LSD",
+      "Incillius alvarius"
+    ],
+    [
+      "Psilocybin",
+      "LSD"
+    ],
+    [
+      "Psilocybin",
+      "DMT"
+    ],
+    [
+      "Psilocybin",
+      "Mescaline"
+    ],
+    [
+      "Psilocybin",
+      "DOx"
+    ],
+    [
+      "Psilocybin",
+      "NBOMes"
+    ],
+    [
+      "Psilocybin",
+      "2C-x"
+    ],
+    [
+      "Psilocybin",
+      "2C-T-x"
+    ],
+    [
+      "Psilocybin",
+      "5-MeO-xxT"
+    ],
+    [
+      "Psilocybin",
+      "Ketamine"
+    ],
+    [
+      "Psilocybin",
+      "MXE"
+    ],
+    [
+      "Psilocybin",
+      "DXM"
+    ],
+    [
+      "Psilocybin",
+      "Nitrous "
+    ],
+    [
+      "Psilocybin",
+      "MDMA"
+    ],
+    [
+      "Psilocybin",
+      "MAOIs"
+    ],
+    [
+      "Psilocybin",
+      "Salvia divonorum"
+    ],
+    [
+      "Psilocybin",
+      "Acacia species"
+    ],
+    [
+      "Psilocybin",
+      "Mimosa tenuiflora"
+    ],
+    [
+      "Psilocybin",
+      "Panaelous cyanescens"
+    ],
+    [
+      "Psilocybin",
+      "Argyreia nervosa"
+    ],
+    [
+      "Psilocybin",
+      "Ipomea violacea"
+    ],
+    [
+      "Psilocybin",
+      "Rivea corymbosa"
+    ],
+    [
+      "Psilocybin",
+      "Trichocereus species"
+    ],
+    [
+      "Psilocybin",
+      "Lophpopra willamsii"
+    ],
+    [
+      "Psilocybin",
+      "Incillius alvarius"
+    ],
+    [
+      "Psilocybin",
+      "Banisteriopsis caapi"
+    ],
+    [
+      "Psilocybin",
+      "Piper methysticum"
+    ],
+    [
+      "DMT",
+      "LSD"
+    ],
+    [
+      "DMT",
+      "Psilocybin"
+    ],
+    [
+      "DMT",
+      "Mescaline"
+    ],
+    [
+      "DMT",
+      "DOx"
+    ],
+    [
+      "DMT",
+      "NBOMes"
+    ],
+    [
+      "DMT",
+      "2C-x"
+    ],
+    [
+      "DMT",
+      "2C-T-x"
+    ],
+    [
+      "DMT",
+      "5-MeO-xxT"
+    ],
+    [
+      "DMT",
+      "Ketamine"
+    ],
+    [
+      "DMT",
+      "MXE"
+    ],
+    [
+      "DMT",
+      "DXM"
+    ],
+    [
+      "DMT",
+      "Nitrous "
+    ],
+    [
+      "DMT",
+      "MDMA"
+    ],
+    [
+      "DMT",
+      "MAOIs"
+    ],
+    [
+      "DMT",
+      "Salvia divonorum"
+    ],
+    [
+      "DMT",
+      "Acacia species"
+    ],
+    [
+      "DMT",
+      "Mimosa tenuiflora"
+    ],
+    [
+      "DMT",
+      "Panaelous cyanescens"
+    ],
+    [
+      "DMT",
+      "Argyreia nervosa"
+    ],
+    [
+      "DMT",
+      "Ipomea violacea"
+    ],
+    [
+      "DMT",
+      "Rivea corymbosa"
+    ],
+    [
+      "DMT",
+      "Trichocereus species"
+    ],
+    [
+      "DMT",
+      "Lophpopra willamsii"
+    ],
+    [
+      "DMT",
+      "Incillius alvarius"
+    ],
+    [
+      "DMT",
+      "Banisteriopsis caapi"
+    ],
+    [
+      "DMT",
+      "Piper methysticum"
+    ],
+    [
+      "Mescaline",
+      "LSD"
+    ],
+    [
+      "Mescaline",
+      "Psilocybin"
+    ],
+    [
+      "Mescaline",
+      "DMT"
+    ],
+    [
+      "Mescaline",
+      "Ketamine"
+    ],
+    [
+      "Mescaline",
+      "MXE"
+    ],
+    [
+      "Mescaline",
+      "DXM"
+    ],
+    [
+      "Mescaline",
+      "Nitrous "
+    ],
+    [
+      "Mescaline",
+      "MDMA"
+    ],
+    [
+      "Mescaline",
+      "Salvia divonorum"
+    ],
+    [
+      "Mescaline",
+      "Acacia species"
+    ],
+    [
+      "Mescaline",
+      "Mimosa tenuiflora"
+    ],
+    [
+      "Mescaline",
+      "Panaelous cyanescens"
+    ],
+    [
+      "Mescaline",
+      "Argyreia nervosa"
+    ],
+    [
+      "Mescaline",
+      "Ipomea violacea"
+    ],
+    [
+      "Mescaline",
+      "Rivea corymbosa"
+    ],
+    [
+      "Mescaline",
+      "Trichocereus species"
+    ],
+    [
+      "Mescaline",
+      "Lophpopra willamsii"
+    ],
+    [
+      "DOx",
+      "LSD"
+    ],
+    [
+      "DOx",
+      "Psilocybin"
+    ],
+    [
+      "DOx",
+      "DMT"
+    ],
+    [
+      "DOx",
+      "Ketamine"
+    ],
+    [
+      "DOx",
+      "MXE"
+    ],
+    [
+      "DOx",
+      "Nitrous "
+    ],
+    [
+      "DOx",
+      "Salvia divonorum"
+    ],
+    [
+      "DOx",
+      "Acacia species"
+    ],
+    [
+      "DOx",
+      "Mimosa tenuiflora"
+    ],
+    [
+      "DOx",
+      "Panaelous cyanescens"
+    ],
+    [
+      "DOx",
+      "Argyreia nervosa"
+    ],
+    [
+      "DOx",
+      "Ipomea violacea"
+    ],
+    [
+      "DOx",
+      "Rivea corymbosa"
+    ],
+    [
+      "NBOMes",
+      "LSD"
+    ],
+    [
+      "NBOMes",
+      "Psilocybin"
+    ],
+    [
+      "NBOMes",
+      "DMT"
+    ],
+    [
+      "NBOMes",
+      "Ketamine"
+    ],
+    [
+      "NBOMes",
+      "MXE"
+    ],
+    [
+      "NBOMes",
+      "Nitrous "
+    ],
+    [
+      "NBOMes",
+      "Salvia divonorum"
+    ],
+    [
+      "NBOMes",
+      "Acacia species"
+    ],
+    [
+      "NBOMes",
+      "Mimosa tenuiflora"
+    ],
+    [
+      "NBOMes",
+      "Panaelous cyanescens"
+    ],
+    [
+      "NBOMes",
+      "Argyreia nervosa"
+    ],
+    [
+      "NBOMes",
+      "Ipomea violacea"
+    ],
+    [
+      "NBOMes",
+      "Rivea corymbosa"
+    ],
+    [
+      "2C-x",
+      "LSD"
+    ],
+    [
+      "2C-x",
+      "Psilocybin"
+    ],
+    [
+      "2C-x",
+      "DMT"
+    ],
+    [
+      "2C-x",
+      "Ketamine"
+    ],
+    [
+      "2C-x",
+      "MXE"
+    ],
+    [
+      "2C-x",
+      "DXM"
+    ],
+    [
+      "2C-x",
+      "Nitrous "
+    ],
+    [
+      "2C-x",
+      "MDMA"
+    ],
+    [
+      "2C-x",
+      "Salvia divonorum"
+    ],
+    [
+      "2C-x",
+      "Acacia species"
+    ],
+    [
+      "2C-x",
+      "Mimosa tenuiflora"
+    ],
+    [
+      "2C-x",
+      "Panaelous cyanescens"
+    ],
+    [
+      "2C-x",
+      "Argyreia nervosa"
+    ],
+    [
+      "2C-x",
+      "Ipomea violacea"
+    ],
+    [
+      "2C-x",
+      "Rivea corymbosa"
+    ],
+    [
+      "2C-T-x",
+      "LSD"
+    ],
+    [
+      "2C-T-x",
+      "Psilocybin"
+    ],
+    [
+      "2C-T-x",
+      "DMT"
+    ],
+    [
+      "2C-T-x",
+      "Ketamine"
+    ],
+    [
+      "2C-T-x",
+      "Nitrous "
+    ],
+    [
+      "2C-T-x",
+      "Salvia divonorum"
+    ],
+    [
+      "2C-T-x",
+      "Acacia species"
+    ],
+    [
+      "2C-T-x",
+      "Mimosa tenuiflora"
+    ],
+    [
+      "2C-T-x",
+      "Panaelous cyanescens"
+    ],
+    [
+      "2C-T-x",
+      "Argyreia nervosa"
+    ],
+    [
+      "2C-T-x",
+      "Ipomea violacea"
+    ],
+    [
+      "2C-T-x",
+      "Rivea corymbosa"
+    ],
+    [
+      "5-MeO-xxT",
+      "LSD"
+    ],
+    [
+      "5-MeO-xxT",
+      "Psilocybin"
+    ],
+    [
+      "5-MeO-xxT",
+      "DMT"
+    ],
+    [
+      "5-MeO-xxT",
+      "Ketamine"
+    ],
+    [
+      "5-MeO-xxT",
+      "MXE"
+    ],
+    [
+      "5-MeO-xxT",
+      "Nitrous "
+    ],
+    [
+      "5-MeO-xxT",
+      "Salvia divonorum"
+    ],
+    [
+      "5-MeO-xxT",
+      "Acacia species"
+    ],
+    [
+      "5-MeO-xxT",
+      "Mimosa tenuiflora"
+    ],
+    [
+      "5-MeO-xxT",
+      "Panaelous cyanescens"
+    ],
+    [
+      "5-MeO-xxT",
+      "Argyreia nervosa"
+    ],
+    [
+      "5-MeO-xxT",
+      "Ipomea violacea"
+    ],
+    [
+      "5-MeO-xxT",
+      "Rivea corymbosa"
+    ],
+    [
+      "5-MeO-xxT",
+      "Incillius alvarius"
+    ],
+    [
+      "Cannabis",
+      "Ketamine"
+    ],
+    [
+      "Cannabis",
+      "MXE"
+    ],
+    [
+      "Cannabis",
+      "DXM"
+    ],
+    [
+      "Cannabis",
+      "Nitrous "
+    ],
+    [
+      "Cannabis",
+      "MDMA"
+    ],
+    [
+      "Cannabis",
+      "Alcohol"
+    ],
+    [
+      "Cannabis",
+      "GHB/GBL"
+    ],
+    [
+      "Cannabis",
+      "Opiods"
+    ],
+    [
+      "Cannabis",
+      "Tramadol"
+    ],
+    [
+      "Cannabis",
+      "MAOIs"
+    ],
+    [
+      "Cannabis",
+      "Amanita muscaria"
+    ],
+    [
+      "Cannabis",
+      "Mitragyna speciosa"
+    ],
+    [
+      "Cannabis",
+      "Papaver somnifarem"
+    ],
+    [
+      "Cannabis",
+      "Banisteriopsis caapi"
+    ],
+    [
+      "Cannabis",
+      "Piper methysticum"
+    ],
+    [
+      "Cannabis",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "Ketamine",
+      "LSD"
+    ],
+    [
+      "Ketamine",
+      "Psilocybin"
+    ],
+    [
+      "Ketamine",
+      "DMT"
+    ],
+    [
+      "Ketamine",
+      "Mescaline"
+    ],
+    [
+      "Ketamine",
+      "DOx"
+    ],
+    [
+      "Ketamine",
+      "NBOMes"
+    ],
+    [
+      "Ketamine",
+      "2C-x"
+    ],
+    [
+      "Ketamine",
+      "2C-T-x"
+    ],
+    [
+      "Ketamine",
+      "5-MeO-xxT"
+    ],
+    [
+      "Ketamine",
+      "Cannabis"
+    ],
+    [
+      "Ketamine",
+      "MXE"
+    ],
+    [
+      "Ketamine",
+      "Nitrous "
+    ],
+    [
+      "Ketamine",
+      "MDMA"
+    ],
+    [
+      "Ketamine",
+      "Salvia divonorum"
+    ],
+    [
+      "Ketamine",
+      "Acacia species"
+    ],
+    [
+      "Ketamine",
+      "Mimosa tenuiflora"
+    ],
+    [
+      "Ketamine",
+      "Panaelous cyanescens"
+    ],
+    [
+      "Ketamine",
+      "Argyreia nervosa"
+    ],
+    [
+      "Ketamine",
+      "Ipomea violacea"
+    ],
+    [
+      "Ketamine",
+      "Rivea corymbosa"
+    ],
+    [
+      "Ketamine",
+      "Trichocereus species"
+    ],
+    [
+      "Ketamine",
+      "Lophpopra willamsii"
+    ],
+    [
+      "Ketamine",
+      "Incillius alvarius"
+    ],
+    [
+      "MXE",
+      "LSD"
+    ],
+    [
+      "MXE",
+      "Psilocybin"
+    ],
+    [
+      "MXE",
+      "DMT"
+    ],
+    [
+      "MXE",
+      "Mescaline"
+    ],
+    [
+      "MXE",
+      "DOx"
+    ],
+    [
+      "MXE",
+      "NBOMes"
+    ],
+    [
+      "MXE",
+      "2C-T-x"
+    ],
+    [
+      "MXE",
+      "5-MeO-xxT"
+    ],
+    [
+      "MXE",
+      "Cannabis"
+    ],
+    [
+      "MXE",
+      "Ketamine"
+    ],
+    [
+      "MXE",
+      "Nitrous "
+    ],
+    [
+      "MXE",
+      "Salvia divonorum"
+    ],
+    [
+      "MXE",
+      "Acacia species"
+    ],
+    [
+      "MXE",
+      "Mimosa tenuiflora"
+    ],
+    [
+      "MXE",
+      "Panaelous cyanescens"
+    ],
+    [
+      "MXE",
+      "Argyreia nervosa"
+    ],
+    [
+      "MXE",
+      "Ipomea violacea"
+    ],
+    [
+      "MXE",
+      "Rivea corymbosa"
+    ],
+    [
+      "MXE",
+      "Trichocereus species"
+    ],
+    [
+      "MXE",
+      "Lophpopra willamsii"
+    ],
+    [
+      "MXE",
+      "Incillius alvarius"
+    ],
+    [
+      "DXM",
+      "LSD"
+    ],
+    [
+      "DXM",
+      "Psilocybin"
+    ],
+    [
+      "DXM",
+      "DMT"
+    ],
+    [
+      "DXM",
+      "Mescaline"
+    ],
+    [
+      "DXM",
+      "2C-x"
+    ],
+    [
+      "DXM",
+      "Cannabis"
+    ],
+    [
+      "DXM",
+      "Nitrous "
+    ],
+    [
+      "DXM",
+      "Salvia divonorum"
+    ],
+    [
+      "DXM",
+      "Acacia species"
+    ],
+    [
+      "DXM",
+      "Mimosa tenuiflora"
+    ],
+    [
+      "DXM",
+      "Panaelous cyanescens"
+    ],
+    [
+      "DXM",
+      "Argyreia nervosa"
+    ],
+    [
+      "DXM",
+      "Ipomea violacea"
+    ],
+    [
+      "DXM",
+      "Rivea corymbosa"
+    ],
+    [
+      "DXM",
+      "Trichocereus species"
+    ],
+    [
+      "DXM",
+      "Lophpopra willamsii"
+    ],
+    [
+      "Nitrous ",
+      "LSD"
+    ],
+    [
+      "Nitrous ",
+      "Psilocybin"
+    ],
+    [
+      "Nitrous ",
+      "DMT"
+    ],
+    [
+      "Nitrous ",
+      "Mescaline"
+    ],
+    [
+      "Nitrous ",
+      "DOx"
+    ],
+    [
+      "Nitrous ",
+      "NBOMes"
+    ],
+    [
+      "Nitrous ",
+      "2C-x"
+    ],
+    [
+      "Nitrous ",
+      "2C-T-x"
+    ],
+    [
+      "Nitrous ",
+      "5-MeO-xxT"
+    ],
+    [
+      "Nitrous ",
+      "Cannabis"
+    ],
+    [
+      "Nitrous ",
+      "Ketamine"
+    ],
+    [
+      "Nitrous ",
+      "MXE"
+    ],
+    [
+      "Nitrous ",
+      "DXM"
+    ],
+    [
+      "Nitrous ",
+      "Amphetamines"
+    ],
+    [
+      "Nitrous ",
+      "MDMA"
+    ],
+    [
+      "Nitrous ",
+      "Cocaine"
+    ],
+    [
+      "Nitrous ",
+      "Salvia divonorum"
+    ],
+    [
+      "Nitrous ",
+      "Acacia species"
+    ],
+    [
+      "Nitrous ",
+      "Mimosa tenuiflora"
+    ],
+    [
+      "Nitrous ",
+      "Panaelous cyanescens"
+    ],
+    [
+      "Nitrous ",
+      "Argyreia nervosa"
+    ],
+    [
+      "Nitrous ",
+      "Ipomea violacea"
+    ],
+    [
+      "Nitrous ",
+      "Rivea corymbosa"
+    ],
+    [
+      "Nitrous ",
+      "Trichocereus species"
+    ],
+    [
+      "Nitrous ",
+      "Lophpopra willamsii"
+    ],
+    [
+      "Nitrous ",
+      "Incillius alvarius"
+    ],
+    [
+      "Nitrous ",
+      "Catha edulis"
+    ],
+    [
+      "Nitrous ",
+      "Ephedra sinica"
+    ],
+    [
+      "Nitrous ",
+      "Eroxythylum coca"
+    ],
+    [
+      "Amphetamines",
+      "Nitrous "
+    ],
+    [
+      "Amphetamines",
+      "MDMA"
+    ],
+    [
+      "Amphetamines",
+      "Ephedra sinica"
+    ],
+    [
+      "MDMA",
+      "LSD"
+    ],
+    [
+      "MDMA",
+      "Psilocybin"
+    ],
+    [
+      "MDMA",
+      "DMT"
+    ],
+    [
+      "MDMA",
+      "Mescaline"
+    ],
+    [
+      "MDMA",
+      "2C-x"
+    ],
+    [
+      "MDMA",
+      "Nitrous "
+    ],
+    [
+      "MDMA",
+      "Amphetamines"
+    ],
+    [
+      "MDMA",
+      "Salvia divonorum"
+    ],
+    [
+      "MDMA",
+      "Acacia species"
+    ],
+    [
+      "MDMA",
+      "Mimosa tenuiflora"
+    ],
+    [
+      "MDMA",
+      "Panaelous cyanescens"
+    ],
+    [
+      "MDMA",
+      "Argyreia nervosa"
+    ],
+    [
+      "MDMA",
+      "Ipomea violacea"
+    ],
+    [
+      "MDMA",
+      "Rivea corymbosa"
+    ],
+    [
+      "MDMA",
+      "Trichocereus species"
+    ],
+    [
+      "MDMA",
+      "Lophpopra willamsii"
+    ],
+    [
+      "MDMA",
+      "Catha edulis"
+    ],
+    [
+      "MDMA",
+      "Ephedra sinica"
+    ],
+    [
+      "Cocaine",
+      "Nitrous "
+    ],
+    [
+      "Cocaine",
+      "Eroxythylum coca"
+    ],
+    [
+      "Alcohol",
+      "Cannabis"
+    ],
+    [
+      "GHB/GBL",
+      "Cannabis"
+    ],
+    [
+      "GHB/GBL",
+      "MAOIs"
+    ],
+    [
+      "GHB/GBL",
+      "Banisteriopsis caapi"
+    ],
+    [
+      "GHB/GBL",
+      "Piper methysticum"
+    ],
+    [
+      "Opiods",
+      "Cannabis"
+    ],
+    [
+      "Opiods",
+      "Salvia divonorum"
+    ],
+    [
+      "Opiods",
+      "Mitragyna speciosa"
+    ],
+    [
+      "Opiods",
+      "Papaver somnifarem"
+    ],
+    [
+      "Opiods",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "Tramadol",
+      "Cannabis"
+    ],
+    [
+      "Benzodiazepine",
+      "MAOIs"
+    ],
+    [
+      "Benzodiazepine",
+      "Banisteriopsis caapi"
+    ],
+    [
+      "Benzodiazepine",
+      "Piper methysticum"
+    ],
+    [
+      "MAOIs",
+      "Psilocybin"
+    ],
+    [
+      "MAOIs",
+      "DMT"
+    ],
+    [
+      "MAOIs",
+      "Cannabis"
+    ],
+    [
+      "MAOIs",
+      "GHB/GBL"
+    ],
+    [
+      "MAOIs",
+      "Benzodiazepine"
+    ],
+    [
+      "MAOIs",
+      "Salvia divonorum"
+    ],
+    [
+      "MAOIs",
+      "Acacia species"
+    ],
+    [
+      "MAOIs",
+      "Mimosa tenuiflora"
+    ],
+    [
+      "MAOIs",
+      "Panaelous cyanescens"
+    ],
+    [
+      "MAOIs",
+      "Banisteriopsis caapi"
+    ],
+    [
+      "MAOIs",
+      "Piper methysticum"
+    ],
+    [
+      "Salvia divonorum",
+      "LSD"
+    ],
+    [
+      "Salvia divonorum",
+      "Psilocybin"
+    ],
+    [
+      "Salvia divonorum",
+      "DMT"
+    ],
+    [
+      "Salvia divonorum",
+      "Mescaline"
+    ],
+    [
+      "Salvia divonorum",
+      "DOx"
+    ],
+    [
+      "Salvia divonorum",
+      "NBOMes"
+    ],
+    [
+      "Salvia divonorum",
+      "2C-x"
+    ],
+    [
+      "Salvia divonorum",
+      "2C-T-x"
+    ],
+    [
+      "Salvia divonorum",
+      "5-MeO-xxT"
+    ],
+    [
+      "Salvia divonorum",
+      "Ketamine"
+    ],
+    [
+      "Salvia divonorum",
+      "MXE"
+    ],
+    [
+      "Salvia divonorum",
+      "DXM"
+    ],
+    [
+      "Salvia divonorum",
+      "Nitrous "
+    ],
+    [
+      "Salvia divonorum",
+      "MDMA"
+    ],
+    [
+      "Salvia divonorum",
+      "Opiods"
+    ],
+    [
+      "Salvia divonorum",
+      "MAOIs"
+    ],
+    [
+      "Salvia divonorum",
+      "Acacia species"
+    ],
+    [
+      "Salvia divonorum",
+      "Mimosa tenuiflora"
+    ],
+    [
+      "Salvia divonorum",
+      "Panaelous cyanescens"
+    ],
+    [
+      "Salvia divonorum",
+      "Argyreia nervosa"
+    ],
+    [
+      "Salvia divonorum",
+      "Ipomea violacea"
+    ],
+    [
+      "Salvia divonorum",
+      "Rivea corymbosa"
+    ],
+    [
+      "Salvia divonorum",
+      "Trichocereus species"
+    ],
+    [
+      "Salvia divonorum",
+      "Lophpopra willamsii"
+    ],
+    [
+      "Salvia divonorum",
+      "Incillius alvarius"
+    ],
+    [
+      "Salvia divonorum",
+      "Mitragyna speciosa"
+    ],
+    [
+      "Salvia divonorum",
+      "Papaver somnifarem"
+    ],
+    [
+      "Salvia divonorum",
+      "Piper methysticum"
+    ],
+    [
+      "Salvia divonorum",
+      "Tabernathe iboga"
+    ],
+    [
+      "Acacia species",
+      "LSD"
+    ],
+    [
+      "Acacia species",
+      "Psilocybin"
+    ],
+    [
+      "Acacia species",
+      "DMT"
+    ],
+    [
+      "Acacia species",
+      "Mescaline"
+    ],
+    [
+      "Acacia species",
+      "DOx"
+    ],
+    [
+      "Acacia species",
+      "NBOMes"
+    ],
+    [
+      "Acacia species",
+      "2C-x"
+    ],
+    [
+      "Acacia species",
+      "2C-T-x"
+    ],
+    [
+      "Acacia species",
+      "5-MeO-xxT"
+    ],
+    [
+      "Acacia species",
+      "Ketamine"
+    ],
+    [
+      "Acacia species",
+      "MXE"
+    ],
+    [
+      "Acacia species",
+      "DXM"
+    ],
+    [
+      "Acacia species",
+      "Nitrous "
+    ],
+    [
+      "Acacia species",
+      "MDMA"
+    ],
+    [
+      "Acacia species",
+      "MAOIs"
+    ],
+    [
+      "Acacia species",
+      "Salvia divonorum"
+    ],
+    [
+      "Acacia species",
+      "Mimosa tenuiflora"
+    ],
+    [
+      "Acacia species",
+      "Panaelous cyanescens"
+    ],
+    [
+      "Acacia species",
+      "Argyreia nervosa"
+    ],
+    [
+      "Acacia species",
+      "Ipomea violacea"
+    ],
+    [
+      "Acacia species",
+      "Rivea corymbosa"
+    ],
+    [
+      "Acacia species",
+      "Trichocereus species"
+    ],
+    [
+      "Acacia species",
+      "Lophpopra willamsii"
+    ],
+    [
+      "Acacia species",
+      "Incillius alvarius"
+    ],
+    [
+      "Acacia species",
+      "Banisteriopsis caapi"
+    ],
+    [
+      "Acacia species",
+      "Piper methysticum"
+    ],
+    [
+      "Mimosa tenuiflora",
+      "LSD"
+    ],
+    [
+      "Mimosa tenuiflora",
+      "Psilocybin"
+    ],
+    [
+      "Mimosa tenuiflora",
+      "DMT"
+    ],
+    [
+      "Mimosa tenuiflora",
+      "Mescaline"
+    ],
+    [
+      "Mimosa tenuiflora",
+      "DOx"
+    ],
+    [
+      "Mimosa tenuiflora",
+      "NBOMes"
+    ],
+    [
+      "Mimosa tenuiflora",
+      "2C-x"
+    ],
+    [
+      "Mimosa tenuiflora",
+      "2C-T-x"
+    ],
+    [
+      "Mimosa tenuiflora",
+      "5-MeO-xxT"
+    ],
+    [
+      "Mimosa tenuiflora",
+      "Ketamine"
+    ],
+    [
+      "Mimosa tenuiflora",
+      "MXE"
+    ],
+    [
+      "Mimosa tenuiflora",
+      "DXM"
+    ],
+    [
+      "Mimosa tenuiflora",
+      "Nitrous "
+    ],
+    [
+      "Mimosa tenuiflora",
+      "MDMA"
+    ],
+    [
+      "Mimosa tenuiflora",
+      "MAOIs"
+    ],
+    [
+      "Mimosa tenuiflora",
+      "Salvia divonorum"
+    ],
+    [
+      "Mimosa tenuiflora",
+      "Acacia species"
+    ],
+    [
+      "Mimosa tenuiflora",
+      "Panaelous cyanescens"
+    ],
+    [
+      "Mimosa tenuiflora",
+      "Argyreia nervosa"
+    ],
+    [
+      "Mimosa tenuiflora",
+      "Ipomea violacea"
+    ],
+    [
+      "Mimosa tenuiflora",
+      "Rivea corymbosa"
+    ],
+    [
+      "Mimosa tenuiflora",
+      "Trichocereus species"
+    ],
+    [
+      "Mimosa tenuiflora",
+      "Lophpopra willamsii"
+    ],
+    [
+      "Mimosa tenuiflora",
+      "Incillius alvarius"
+    ],
+    [
+      "Mimosa tenuiflora",
+      "Banisteriopsis caapi"
+    ],
+    [
+      "Mimosa tenuiflora",
+      "Piper methysticum"
+    ],
+    [
+      "Panaelous cyanescens",
+      "LSD"
+    ],
+    [
+      "Panaelous cyanescens",
+      "Psilocybin"
+    ],
+    [
+      "Panaelous cyanescens",
+      "DMT"
+    ],
+    [
+      "Panaelous cyanescens",
+      "Mescaline"
+    ],
+    [
+      "Panaelous cyanescens",
+      "DOx"
+    ],
+    [
+      "Panaelous cyanescens",
+      "NBOMes"
+    ],
+    [
+      "Panaelous cyanescens",
+      "2C-x"
+    ],
+    [
+      "Panaelous cyanescens",
+      "2C-T-x"
+    ],
+    [
+      "Panaelous cyanescens",
+      "5-MeO-xxT"
+    ],
+    [
+      "Panaelous cyanescens",
+      "Ketamine"
+    ],
+    [
+      "Panaelous cyanescens",
+      "MXE"
+    ],
+    [
+      "Panaelous cyanescens",
+      "DXM"
+    ],
+    [
+      "Panaelous cyanescens",
+      "Nitrous "
+    ],
+    [
+      "Panaelous cyanescens",
+      "MDMA"
+    ],
+    [
+      "Panaelous cyanescens",
+      "MAOIs"
+    ],
+    [
+      "Panaelous cyanescens",
+      "Salvia divonorum"
+    ],
+    [
+      "Panaelous cyanescens",
+      "Acacia species"
+    ],
+    [
+      "Panaelous cyanescens",
+      "Mimosa tenuiflora"
+    ],
+    [
+      "Panaelous cyanescens",
+      "Argyreia nervosa"
+    ],
+    [
+      "Panaelous cyanescens",
+      "Ipomea violacea"
+    ],
+    [
+      "Panaelous cyanescens",
+      "Rivea corymbosa"
+    ],
+    [
+      "Panaelous cyanescens",
+      "Trichocereus species"
+    ],
+    [
+      "Panaelous cyanescens",
+      "Lophpopra willamsii"
+    ],
+    [
+      "Panaelous cyanescens",
+      "Incillius alvarius"
+    ],
+    [
+      "Panaelous cyanescens",
+      "Banisteriopsis caapi"
+    ],
+    [
+      "Panaelous cyanescens",
+      "Piper methysticum"
+    ],
+    [
+      "Argyreia nervosa",
+      "LSD"
+    ],
+    [
+      "Argyreia nervosa",
+      "Psilocybin"
+    ],
+    [
+      "Argyreia nervosa",
+      "DMT"
+    ],
+    [
+      "Argyreia nervosa",
+      "Mescaline"
+    ],
+    [
+      "Argyreia nervosa",
+      "DOx"
+    ],
+    [
+      "Argyreia nervosa",
+      "NBOMes"
+    ],
+    [
+      "Argyreia nervosa",
+      "2C-x"
+    ],
+    [
+      "Argyreia nervosa",
+      "2C-T-x"
+    ],
+    [
+      "Argyreia nervosa",
+      "5-MeO-xxT"
+    ],
+    [
+      "Argyreia nervosa",
+      "Ketamine"
+    ],
+    [
+      "Argyreia nervosa",
+      "MXE"
+    ],
+    [
+      "Argyreia nervosa",
+      "DXM"
+    ],
+    [
+      "Argyreia nervosa",
+      "Nitrous "
+    ],
+    [
+      "Argyreia nervosa",
+      "MDMA"
+    ],
+    [
+      "Argyreia nervosa",
+      "Salvia divonorum"
+    ],
+    [
+      "Argyreia nervosa",
+      "Acacia species"
+    ],
+    [
+      "Argyreia nervosa",
+      "Mimosa tenuiflora"
+    ],
+    [
+      "Argyreia nervosa",
+      "Panaelous cyanescens"
+    ],
+    [
+      "Argyreia nervosa",
+      "Ipomea violacea"
+    ],
+    [
+      "Argyreia nervosa",
+      "Rivea corymbosa"
+    ],
+    [
+      "Argyreia nervosa",
+      "Trichocereus species"
+    ],
+    [
+      "Argyreia nervosa",
+      "Lophpopra willamsii"
+    ],
+    [
+      "Argyreia nervosa",
+      "Incillius alvarius"
+    ],
+    [
+      "Argyreia nervosa",
+      "Banisteriopsis caapi"
+    ],
+    [
+      "Ipomea violacea",
+      "LSD"
+    ],
+    [
+      "Ipomea violacea",
+      "Psilocybin"
+    ],
+    [
+      "Ipomea violacea",
+      "DMT"
+    ],
+    [
+      "Ipomea violacea",
+      "Mescaline"
+    ],
+    [
+      "Ipomea violacea",
+      "DOx"
+    ],
+    [
+      "Ipomea violacea",
+      "NBOMes"
+    ],
+    [
+      "Ipomea violacea",
+      "2C-x"
+    ],
+    [
+      "Ipomea violacea",
+      "2C-T-x"
+    ],
+    [
+      "Ipomea violacea",
+      "5-MeO-xxT"
+    ],
+    [
+      "Ipomea violacea",
+      "Ketamine"
+    ],
+    [
+      "Ipomea violacea",
+      "MXE"
+    ],
+    [
+      "Ipomea violacea",
+      "DXM"
+    ],
+    [
+      "Ipomea violacea",
+      "Nitrous "
+    ],
+    [
+      "Ipomea violacea",
+      "MDMA"
+    ],
+    [
+      "Ipomea violacea",
+      "Salvia divonorum"
+    ],
+    [
+      "Ipomea violacea",
+      "Acacia species"
+    ],
+    [
+      "Ipomea violacea",
+      "Mimosa tenuiflora"
+    ],
+    [
+      "Ipomea violacea",
+      "Panaelous cyanescens"
+    ],
+    [
+      "Ipomea violacea",
+      "Argyreia nervosa"
+    ],
+    [
+      "Ipomea violacea",
+      "Rivea corymbosa"
+    ],
+    [
+      "Ipomea violacea",
+      "Trichocereus species"
+    ],
+    [
+      "Ipomea violacea",
+      "Lophpopra willamsii"
+    ],
+    [
+      "Ipomea violacea",
+      "Incillius alvarius"
+    ],
+    [
+      "Ipomea violacea",
+      "Banisteriopsis caapi"
+    ],
+    [
+      "Rivea corymbosa",
+      "LSD"
+    ],
+    [
+      "Rivea corymbosa",
+      "Psilocybin"
+    ],
+    [
+      "Rivea corymbosa",
+      "DMT"
+    ],
+    [
+      "Rivea corymbosa",
+      "Mescaline"
+    ],
+    [
+      "Rivea corymbosa",
+      "DOx"
+    ],
+    [
+      "Rivea corymbosa",
+      "NBOMes"
+    ],
+    [
+      "Rivea corymbosa",
+      "2C-x"
+    ],
+    [
+      "Rivea corymbosa",
+      "2C-T-x"
+    ],
+    [
+      "Rivea corymbosa",
+      "5-MeO-xxT"
+    ],
+    [
+      "Rivea corymbosa",
+      "Ketamine"
+    ],
+    [
+      "Rivea corymbosa",
+      "MXE"
+    ],
+    [
+      "Rivea corymbosa",
+      "DXM"
+    ],
+    [
+      "Rivea corymbosa",
+      "Nitrous "
+    ],
+    [
+      "Rivea corymbosa",
+      "MDMA"
+    ],
+    [
+      "Rivea corymbosa",
+      "Salvia divonorum"
+    ],
+    [
+      "Rivea corymbosa",
+      "Acacia species"
+    ],
+    [
+      "Rivea corymbosa",
+      "Mimosa tenuiflora"
+    ],
+    [
+      "Rivea corymbosa",
+      "Panaelous cyanescens"
+    ],
+    [
+      "Rivea corymbosa",
+      "Argyreia nervosa"
+    ],
+    [
+      "Rivea corymbosa",
+      "Ipomea violacea"
+    ],
+    [
+      "Rivea corymbosa",
+      "Trichocereus species"
+    ],
+    [
+      "Rivea corymbosa",
+      "Lophpopra willamsii"
+    ],
+    [
+      "Rivea corymbosa",
+      "Incillius alvarius"
+    ],
+    [
+      "Rivea corymbosa",
+      "Banisteriopsis caapi"
+    ],
+    [
+      "Amanita muscaria",
+      "Cannabis"
+    ],
+    [
+      "Trichocereus species",
+      "LSD"
+    ],
+    [
+      "Trichocereus species",
+      "Psilocybin"
+    ],
+    [
+      "Trichocereus species",
+      "DMT"
+    ],
+    [
+      "Trichocereus species",
+      "Mescaline"
+    ],
+    [
+      "Trichocereus species",
+      "Ketamine"
+    ],
+    [
+      "Trichocereus species",
+      "MXE"
+    ],
+    [
+      "Trichocereus species",
+      "DXM"
+    ],
+    [
+      "Trichocereus species",
+      "Nitrous "
+    ],
+    [
+      "Trichocereus species",
+      "MDMA"
+    ],
+    [
+      "Trichocereus species",
+      "Salvia divonorum"
+    ],
+    [
+      "Trichocereus species",
+      "Acacia species"
+    ],
+    [
+      "Trichocereus species",
+      "Mimosa tenuiflora"
+    ],
+    [
+      "Trichocereus species",
+      "Panaelous cyanescens"
+    ],
+    [
+      "Trichocereus species",
+      "Argyreia nervosa"
+    ],
+    [
+      "Trichocereus species",
+      "Ipomea violacea"
+    ],
+    [
+      "Trichocereus species",
+      "Rivea corymbosa"
+    ],
+    [
+      "Trichocereus species",
+      "Lophpopra willamsii"
+    ],
+    [
+      "Trichocereus species",
+      "Incillius alvarius"
+    ],
+    [
+      "Lophpopra willamsii",
+      "LSD"
+    ],
+    [
+      "Lophpopra willamsii",
+      "Psilocybin"
+    ],
+    [
+      "Lophpopra willamsii",
+      "DMT"
+    ],
+    [
+      "Lophpopra willamsii",
+      "Mescaline"
+    ],
+    [
+      "Lophpopra willamsii",
+      "Ketamine"
+    ],
+    [
+      "Lophpopra willamsii",
+      "MXE"
+    ],
+    [
+      "Lophpopra willamsii",
+      "DXM"
+    ],
+    [
+      "Lophpopra willamsii",
+      "Nitrous "
+    ],
+    [
+      "Lophpopra willamsii",
+      "MDMA"
+    ],
+    [
+      "Lophpopra willamsii",
+      "Salvia divonorum"
+    ],
+    [
+      "Lophpopra willamsii",
+      "Acacia species"
+    ],
+    [
+      "Lophpopra willamsii",
+      "Mimosa tenuiflora"
+    ],
+    [
+      "Lophpopra willamsii",
+      "Panaelous cyanescens"
+    ],
+    [
+      "Lophpopra willamsii",
+      "Argyreia nervosa"
+    ],
+    [
+      "Lophpopra willamsii",
+      "Ipomea violacea"
+    ],
+    [
+      "Lophpopra willamsii",
+      "Rivea corymbosa"
+    ],
+    [
+      "Lophpopra willamsii",
+      "Trichocereus species"
+    ],
+    [
+      "Lophpopra willamsii",
+      "Incillius alvarius"
+    ],
+    [
+      "Incillius alvarius",
+      "LSD"
+    ],
+    [
+      "Incillius alvarius",
+      "Psilocybin"
+    ],
+    [
+      "Incillius alvarius",
+      "DMT"
+    ],
+    [
+      "Incillius alvarius",
+      "5-MeO-xxT"
+    ],
+    [
+      "Incillius alvarius",
+      "Ketamine"
+    ],
+    [
+      "Incillius alvarius",
+      "MXE"
+    ],
+    [
+      "Incillius alvarius",
+      "Nitrous "
+    ],
+    [
+      "Incillius alvarius",
+      "Salvia divonorum"
+    ],
+    [
+      "Incillius alvarius",
+      "Acacia species"
+    ],
+    [
+      "Incillius alvarius",
+      "Mimosa tenuiflora"
+    ],
+    [
+      "Incillius alvarius",
+      "Panaelous cyanescens"
+    ],
+    [
+      "Incillius alvarius",
+      "Argyreia nervosa"
+    ],
+    [
+      "Incillius alvarius",
+      "Ipomea violacea"
+    ],
+    [
+      "Incillius alvarius",
+      "Rivea corymbosa"
+    ],
+    [
+      "Incillius alvarius",
+      "Trichocereus species"
+    ],
+    [
+      "Incillius alvarius",
+      "Lophpopra willamsii"
+    ],
+    [
+      "Mitragyna speciosa",
+      "Cannabis"
+    ],
+    [
+      "Mitragyna speciosa",
+      "Opiods"
+    ],
+    [
+      "Mitragyna speciosa",
+      "Salvia divonorum"
+    ],
+    [
+      "Papaver somnifarem",
+      "GHB/GBL"
+    ],
+    [
+      "Papaver somnifarem",
+      "Opiods"
+    ],
+    [
+      "Papaver somnifarem",
+      "Salvia divonorum"
+    ],
+    [
+      "Banisteriopsis caapi",
+      "Psilocybin"
+    ],
+    [
+      "Banisteriopsis caapi",
+      "DMT"
+    ],
+    [
+      "Banisteriopsis caapi",
+      "MXE"
+    ],
+    [
+      "Banisteriopsis caapi",
+      "DXM"
+    ],
+    [
+      "Banisteriopsis caapi",
+      "Nitrous "
+    ],
+    [
+      "Banisteriopsis caapi",
+      "MAOIs"
+    ],
+    [
+      "Banisteriopsis caapi",
+      "Acacia species"
+    ],
+    [
+      "Banisteriopsis caapi",
+      "Mimosa tenuiflora"
+    ],
+    [
+      "Banisteriopsis caapi",
+      "Panaelous cyanescens"
+    ],
+    [
+      "Banisteriopsis caapi",
+      "Argyreia nervosa"
+    ],
+    [
+      "Banisteriopsis caapi",
+      "Ipomea violacea"
+    ],
+    [
+      "Banisteriopsis caapi",
+      "Rivea corymbosa"
+    ],
+    [
+      "Piper methysticum",
+      "Psilocybin"
+    ],
+    [
+      "Piper methysticum",
+      "DMT"
+    ],
+    [
+      "Piper methysticum",
+      "Cannabis"
+    ],
+    [
+      "Piper methysticum",
+      "MXE"
+    ],
+    [
+      "Piper methysticum",
+      "DXM"
+    ],
+    [
+      "Piper methysticum",
+      "Benzodiazepine"
+    ],
+    [
+      "Piper methysticum",
+      "MAOIs"
+    ],
+    [
+      "Piper methysticum",
+      "Salvia divonorum"
+    ],
+    [
+      "Piper methysticum",
+      "Acacia species"
+    ],
+    [
+      "Piper methysticum",
+      "Mimosa tenuiflora"
+    ],
+    [
+      "Piper methysticum",
+      "Panaelous cyanescens"
+    ],
+    [
+      "Catha edulis",
+      "Nitrous "
+    ],
+    [
+      "Catha edulis",
+      "MDMA"
+    ],
+    [
+      "Ephedra sinica",
+      "Nitrous "
+    ],
+    [
+      "Ephedra sinica",
+      "Amphetamines"
+    ],
+    [
+      "Ephedra sinica",
+      "MDMA"
+    ],
+    [
+      "Eroxythylum coca",
+      "Nitrous "
+    ],
+    [
+      "Eroxythylum coca",
+      "Cocaine"
+    ],
+    [
+      "Phyllomedusa bicolor",
+      "Nitrous "
+    ],
+    [
+      "Phyllomedusa bicolor",
+      "Amphetamines"
+    ],
+    [
+      "Phyllomedusa bicolor",
+      "Opiods"
+    ],
+    [
+      "Tabernathe iboga",
+      "Salvia divonorum"
+    ]
+  ],
+  "LRD": [
+    [
+      "LSD",
+      "Alcohol"
+    ],
+    [
+      "LSD",
+      "GHB/GBL"
+    ],
+    [
+      "LSD",
+      "Benzodiazepine"
+    ],
+    [
+      "LSD",
+      "MAOIs"
+    ],
+    [
+      "LSD",
+      "SSRIs"
+    ],
+    [
+      "LSD",
+      "Banisteriopsis caapi"
+    ],
+    [
+      "LSD",
+      "Piper methysticum"
+    ],
+    [
+      "Psilocybin",
+      "Alcohol"
+    ],
+    [
+      "Psilocybin",
+      "GHB/GBL"
+    ],
+    [
+      "Psilocybin",
+      "Benzodiazepine"
+    ],
+    [
+      "Psilocybin",
+      "SSRIs"
+    ],
+    [
+      "DMT",
+      "Alcohol"
+    ],
+    [
+      "DMT",
+      "GHB/GBL"
+    ],
+    [
+      "DMT",
+      "Benzodiazepine"
+    ],
+    [
+      "DMT",
+      "SSRIs"
+    ],
+    [
+      "Mescaline",
+      "Alcohol"
+    ],
+    [
+      "Mescaline",
+      "GHB/GBL"
+    ],
+    [
+      "Mescaline",
+      "Benzodiazepine"
+    ],
+    [
+      "Mescaline",
+      "SSRIs"
+    ],
+    [
+      "DOx",
+      "Alcohol"
+    ],
+    [
+      "DOx",
+      "GHB/GBL"
+    ],
+    [
+      "DOx",
+      "Benzodiazepine"
+    ],
+    [
+      "DOx",
+      "SSRIs"
+    ],
+    [
+      "NBOMes",
+      "Alcohol"
+    ],
+    [
+      "NBOMes",
+      "GHB/GBL"
+    ],
+    [
+      "NBOMes",
+      "Benzodiazepine"
+    ],
+    [
+      "NBOMes",
+      "SSRIs"
+    ],
+    [
+      "2C-x",
+      "Alcohol"
+    ],
+    [
+      "2C-x",
+      "GHB/GBL"
+    ],
+    [
+      "2C-x",
+      "Benzodiazepine"
+    ],
+    [
+      "2C-x",
+      "SSRIs"
+    ],
+    [
+      "2C-T-x",
+      "Alcohol"
+    ],
+    [
+      "2C-T-x",
+      "GHB/GBL"
+    ],
+    [
+      "2C-T-x",
+      "Benzodiazepine"
+    ],
+    [
+      "2C-T-x",
+      "SSRIs"
+    ],
+    [
+      "5-MeO-xxT",
+      "Alcohol"
+    ],
+    [
+      "5-MeO-xxT",
+      "GHB/GBL"
+    ],
+    [
+      "5-MeO-xxT",
+      "Benzodiazepine"
+    ],
+    [
+      "5-MeO-xxT",
+      "SSRIs"
+    ],
+    [
+      "Cannabis",
+      "Benzodiazepine"
+    ],
+    [
+      "Nitrous ",
+      "Benzodiazepine"
+    ],
+    [
+      "Amphetamines",
+      "Benzodiazepine"
+    ],
+    [
+      "Amphetamines",
+      "Amanita muscaria"
+    ],
+    [
+      "MDMA",
+      "Benzodiazepine"
+    ],
+    [
+      "MDMA",
+      "SSRIs"
+    ],
+    [
+      "MDMA",
+      "Amanita muscaria"
+    ],
+    [
+      "Cocaine",
+      "Benzodiazepine"
+    ],
+    [
+      "Cocaine",
+      "Amanita muscaria"
+    ],
+    [
+      "Caffeine",
+      "Benzodiazepine"
+    ],
+    [
+      "Caffeine",
+      "Amanita muscaria"
+    ],
+    [
+      "Alcohol",
+      "LSD"
+    ],
+    [
+      "Alcohol",
+      "Psilocybin"
+    ],
+    [
+      "Alcohol",
+      "DMT"
+    ],
+    [
+      "Alcohol",
+      "Mescaline"
+    ],
+    [
+      "Alcohol",
+      "DOx"
+    ],
+    [
+      "Alcohol",
+      "NBOMes"
+    ],
+    [
+      "Alcohol",
+      "2C-x"
+    ],
+    [
+      "Alcohol",
+      "2C-T-x"
+    ],
+    [
+      "Alcohol",
+      "5-MeO-xxT"
+    ],
+    [
+      "Alcohol",
+      "Acacia species"
+    ],
+    [
+      "Alcohol",
+      "Mimosa tenuiflora"
+    ],
+    [
+      "Alcohol",
+      "Panaelous cyanescens"
+    ],
+    [
+      "Alcohol",
+      "Argyreia nervosa"
+    ],
+    [
+      "Alcohol",
+      "Ipomea violacea"
+    ],
+    [
+      "Alcohol",
+      "Rivea corymbosa"
+    ],
+    [
+      "Alcohol",
+      "Trichocereus species"
+    ],
+    [
+      "Alcohol",
+      "Lophpopra willamsii"
+    ],
+    [
+      "Alcohol",
+      "Incillius alvarius"
+    ],
+    [
+      "GHB/GBL",
+      "LSD"
+    ],
+    [
+      "GHB/GBL",
+      "Psilocybin"
+    ],
+    [
+      "GHB/GBL",
+      "DMT"
+    ],
+    [
+      "GHB/GBL",
+      "Mescaline"
+    ],
+    [
+      "GHB/GBL",
+      "DOx"
+    ],
+    [
+      "GHB/GBL",
+      "NBOMes"
+    ],
+    [
+      "GHB/GBL",
+      "2C-x"
+    ],
+    [
+      "GHB/GBL",
+      "2C-T-x"
+    ],
+    [
+      "GHB/GBL",
+      "5-MeO-xxT"
+    ],
+    [
+      "GHB/GBL",
+      "Acacia species"
+    ],
+    [
+      "GHB/GBL",
+      "Mimosa tenuiflora"
+    ],
+    [
+      "GHB/GBL",
+      "Panaelous cyanescens"
+    ],
+    [
+      "GHB/GBL",
+      "Argyreia nervosa"
+    ],
+    [
+      "GHB/GBL",
+      "Ipomea violacea"
+    ],
+    [
+      "GHB/GBL",
+      "Rivea corymbosa"
+    ],
+    [
+      "GHB/GBL",
+      "Trichocereus species"
+    ],
+    [
+      "GHB/GBL",
+      "Lophpopra willamsii"
+    ],
+    [
+      "GHB/GBL",
+      "Incillius alvarius"
+    ],
+    [
+      "Benzodiazepine",
+      "LSD"
+    ],
+    [
+      "Benzodiazepine",
+      "Psilocybin"
+    ],
+    [
+      "Benzodiazepine",
+      "DMT"
+    ],
+    [
+      "Benzodiazepine",
+      "Mescaline"
+    ],
+    [
+      "Benzodiazepine",
+      "DOx"
+    ],
+    [
+      "Benzodiazepine",
+      "NBOMes"
+    ],
+    [
+      "Benzodiazepine",
+      "2C-x"
+    ],
+    [
+      "Benzodiazepine",
+      "2C-T-x"
+    ],
+    [
+      "Benzodiazepine",
+      "5-MeO-xxT"
+    ],
+    [
+      "Benzodiazepine",
+      "Cannabis"
+    ],
+    [
+      "Benzodiazepine",
+      "Nitrous "
+    ],
+    [
+      "Benzodiazepine",
+      "Amphetamines"
+    ],
+    [
+      "Benzodiazepine",
+      "MDMA"
+    ],
+    [
+      "Benzodiazepine",
+      "Cocaine"
+    ],
+    [
+      "Benzodiazepine",
+      "Caffeine"
+    ],
+    [
+      "Benzodiazepine",
+      "Acacia species"
+    ],
+    [
+      "Benzodiazepine",
+      "Mimosa tenuiflora"
+    ],
+    [
+      "Benzodiazepine",
+      "Panaelous cyanescens"
+    ],
+    [
+      "Benzodiazepine",
+      "Argyreia nervosa"
+    ],
+    [
+      "Benzodiazepine",
+      "Ipomea violacea"
+    ],
+    [
+      "Benzodiazepine",
+      "Rivea corymbosa"
+    ],
+    [
+      "Benzodiazepine",
+      "Trichocereus species"
+    ],
+    [
+      "Benzodiazepine",
+      "Lophpopra willamsii"
+    ],
+    [
+      "Benzodiazepine",
+      "Incillius alvarius"
+    ],
+    [
+      "Benzodiazepine",
+      "Catha edulis"
+    ],
+    [
+      "Benzodiazepine",
+      "Ephedra sinica"
+    ],
+    [
+      "Benzodiazepine",
+      "Eroxythylum coca"
+    ],
+    [
+      "MAOIs",
+      "LSD"
+    ],
+    [
+      "MAOIs",
+      "Argyreia nervosa"
+    ],
+    [
+      "MAOIs",
+      "Ipomea violacea"
+    ],
+    [
+      "MAOIs",
+      "Rivea corymbosa"
+    ],
+    [
+      "SSRIs",
+      "LSD"
+    ],
+    [
+      "SSRIs",
+      "Psilocybin"
+    ],
+    [
+      "SSRIs",
+      "DMT"
+    ],
+    [
+      "SSRIs",
+      "Mescaline"
+    ],
+    [
+      "SSRIs",
+      "DOx"
+    ],
+    [
+      "SSRIs",
+      "NBOMes"
+    ],
+    [
+      "SSRIs",
+      "2C-x"
+    ],
+    [
+      "SSRIs",
+      "2C-T-x"
+    ],
+    [
+      "SSRIs",
+      "5-MeO-xxT"
+    ],
+    [
+      "SSRIs",
+      "MDMA"
+    ],
+    [
+      "SSRIs",
+      "Salvia divonorum"
+    ],
+    [
+      "SSRIs",
+      "Acacia species"
+    ],
+    [
+      "SSRIs",
+      "Mimosa tenuiflora"
+    ],
+    [
+      "SSRIs",
+      "Panaelous cyanescens"
+    ],
+    [
+      "SSRIs",
+      "Argyreia nervosa"
+    ],
+    [
+      "SSRIs",
+      "Ipomea violacea"
+    ],
+    [
+      "SSRIs",
+      "Rivea corymbosa"
+    ],
+    [
+      "SSRIs",
+      "Amanita muscaria"
+    ],
+    [
+      "SSRIs",
+      "Trichocereus species"
+    ],
+    [
+      "SSRIs",
+      "Lophpopra willamsii"
+    ],
+    [
+      "SSRIs",
+      "Incillius alvarius"
+    ],
+    [
+      "Salvia divonorum",
+      "SSRIs"
+    ],
+    [
+      "Acacia species",
+      "Alcohol"
+    ],
+    [
+      "Acacia species",
+      "GHB/GBL"
+    ],
+    [
+      "Acacia species",
+      "Benzodiazepine"
+    ],
+    [
+      "Acacia species",
+      "SSRIs"
+    ],
+    [
+      "Mimosa tenuiflora",
+      "Alcohol"
+    ],
+    [
+      "Mimosa tenuiflora",
+      "GHB/GBL"
+    ],
+    [
+      "Mimosa tenuiflora",
+      "Benzodiazepine"
+    ],
+    [
+      "Mimosa tenuiflora",
+      "SSRIs"
+    ],
+    [
+      "Panaelous cyanescens",
+      "Alcohol"
+    ],
+    [
+      "Panaelous cyanescens",
+      "GHB/GBL"
+    ],
+    [
+      "Panaelous cyanescens",
+      "Benzodiazepine"
+    ],
+    [
+      "Panaelous cyanescens",
+      "SSRIs"
+    ],
+    [
+      "Argyreia nervosa",
+      "Alcohol"
+    ],
+    [
+      "Argyreia nervosa",
+      "GHB/GBL"
+    ],
+    [
+      "Argyreia nervosa",
+      "Benzodiazepine"
+    ],
+    [
+      "Argyreia nervosa",
+      "MAOIs"
+    ],
+    [
+      "Argyreia nervosa",
+      "SSRIs"
+    ],
+    [
+      "Ipomea violacea",
+      "Alcohol"
+    ],
+    [
+      "Ipomea violacea",
+      "GHB/GBL"
+    ],
+    [
+      "Ipomea violacea",
+      "Benzodiazepine"
+    ],
+    [
+      "Ipomea violacea",
+      "MAOIs"
+    ],
+    [
+      "Ipomea violacea",
+      "SSRIs"
+    ],
+    [
+      "Rivea corymbosa",
+      "Alcohol"
+    ],
+    [
+      "Rivea corymbosa",
+      "GHB/GBL"
+    ],
+    [
+      "Rivea corymbosa",
+      "Benzodiazepine"
+    ],
+    [
+      "Rivea corymbosa",
+      "MAOIs"
+    ],
+    [
+      "Rivea corymbosa",
+      "SSRIs"
+    ],
+    [
+      "Amanita muscaria",
+      "Amphetamines"
+    ],
+    [
+      "Amanita muscaria",
+      "MDMA"
+    ],
+    [
+      "Amanita muscaria",
+      "Cocaine"
+    ],
+    [
+      "Amanita muscaria",
+      "Caffeine"
+    ],
+    [
+      "Amanita muscaria",
+      "SSRIs"
+    ],
+    [
+      "Amanita muscaria",
+      "Catha edulis"
+    ],
+    [
+      "Amanita muscaria",
+      "Ephedra sinica"
+    ],
+    [
+      "Trichocereus species",
+      "Alcohol"
+    ],
+    [
+      "Trichocereus species",
+      "GHB/GBL"
+    ],
+    [
+      "Trichocereus species",
+      "Benzodiazepine"
+    ],
+    [
+      "Trichocereus species",
+      "SSRIs"
+    ],
+    [
+      "Lophpopra willamsii",
+      "Alcohol"
+    ],
+    [
+      "Lophpopra willamsii",
+      "GHB/GBL"
+    ],
+    [
+      "Lophpopra willamsii",
+      "Benzodiazepine"
+    ],
+    [
+      "Lophpopra willamsii",
+      "SSRIs"
+    ],
+    [
+      "Incillius alvarius",
+      "Alcohol"
+    ],
+    [
+      "Incillius alvarius",
+      "GHB/GBL"
+    ],
+    [
+      "Incillius alvarius",
+      "Benzodiazepine"
+    ],
+    [
+      "Incillius alvarius",
+      "SSRIs"
+    ],
+    [
+      "Mitragyna speciosa",
+      "Catha edulis"
+    ],
+    [
+      "Papaver somnifarem",
+      "Catha edulis"
+    ],
+    [
+      "Papaver somnifarem",
+      "Ephedra sinica"
+    ],
+    [
+      "Banisteriopsis caapi",
+      "LSD"
+    ],
+    [
+      "Banisteriopsis caapi",
+      "Amphetamines"
+    ],
+    [
+      "Banisteriopsis caapi",
+      "MDMA"
+    ],
+    [
+      "Banisteriopsis caapi",
+      "Cocaine"
+    ],
+    [
+      "Piper methysticum",
+      "LSD"
+    ],
+    [
+      "Piper methysticum",
+      "Nitrous "
+    ],
+    [
+      "Piper methysticum",
+      "Amphetamines"
+    ],
+    [
+      "Piper methysticum",
+      "MDMA"
+    ],
+    [
+      "Catha edulis",
+      "Benzodiazepine"
+    ],
+    [
+      "Catha edulis",
+      "Amanita muscaria"
+    ],
+    [
+      "Catha edulis",
+      "Mitragyna speciosa"
+    ],
+    [
+      "Catha edulis",
+      "Papaver somnifarem"
+    ],
+    [
+      "Ephedra sinica",
+      "Benzodiazepine"
+    ],
+    [
+      "Ephedra sinica",
+      "Amanita muscaria"
+    ],
+    [
+      "Ephedra sinica",
+      "Papaver somnifarem"
+    ],
+    [
+      "Eroxythylum coca",
+      "Benzodiazepine"
+    ]
+  ],
+  "LRNS": [
+    [
+      "LSD",
+      "Caffeine"
+    ],
+    [
+      "LSD",
+      "Opiods"
+    ],
+    [
+      "LSD",
+      "Amanita muscaria"
+    ],
+    [
+      "LSD",
+      "Mitragyna speciosa"
+    ],
+    [
+      "LSD",
+      "Papaver somnifarem"
+    ],
+    [
+      "LSD",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "Psilocybin",
+      "Caffeine"
+    ],
+    [
+      "Psilocybin",
+      "Opiods"
+    ],
+    [
+      "Psilocybin",
+      "Amanita muscaria"
+    ],
+    [
+      "Psilocybin",
+      "Mitragyna speciosa"
+    ],
+    [
+      "Psilocybin",
+      "Papaver somnifarem"
+    ],
+    [
+      "Psilocybin",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "DMT",
+      "Caffeine"
+    ],
+    [
+      "DMT",
+      "Opiods"
+    ],
+    [
+      "DMT",
+      "Amanita muscaria"
+    ],
+    [
+      "DMT",
+      "Mitragyna speciosa"
+    ],
+    [
+      "DMT",
+      "Papaver somnifarem"
+    ],
+    [
+      "DMT",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "Mescaline",
+      "Caffeine"
+    ],
+    [
+      "Mescaline",
+      "Opiods"
+    ],
+    [
+      "Mescaline",
+      "Amanita muscaria"
+    ],
+    [
+      "Mescaline",
+      "Mitragyna speciosa"
+    ],
+    [
+      "Mescaline",
+      "Papaver somnifarem"
+    ],
+    [
+      "Mescaline",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "DOx",
+      "Opiods"
+    ],
+    [
+      "DOx",
+      "Amanita muscaria"
+    ],
+    [
+      "DOx",
+      "Mitragyna speciosa"
+    ],
+    [
+      "DOx",
+      "Papaver somnifarem"
+    ],
+    [
+      "DOx",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "NBOMes",
+      "Opiods"
+    ],
+    [
+      "NBOMes",
+      "Amanita muscaria"
+    ],
+    [
+      "NBOMes",
+      "Mitragyna speciosa"
+    ],
+    [
+      "NBOMes",
+      "Papaver somnifarem"
+    ],
+    [
+      "NBOMes",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "2C-x",
+      "Caffeine"
+    ],
+    [
+      "2C-x",
+      "Opiods"
+    ],
+    [
+      "2C-x",
+      "Amanita muscaria"
+    ],
+    [
+      "2C-x",
+      "Mitragyna speciosa"
+    ],
+    [
+      "2C-x",
+      "Papaver somnifarem"
+    ],
+    [
+      "2C-x",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "2C-T-x",
+      "Caffeine"
+    ],
+    [
+      "2C-T-x",
+      "Opiods"
+    ],
+    [
+      "2C-T-x",
+      "Amanita muscaria"
+    ],
+    [
+      "2C-T-x",
+      "Mitragyna speciosa"
+    ],
+    [
+      "2C-T-x",
+      "Papaver somnifarem"
+    ],
+    [
+      "2C-T-x",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "5-MeO-xxT",
+      "Caffeine"
+    ],
+    [
+      "5-MeO-xxT",
+      "Opiods"
+    ],
+    [
+      "5-MeO-xxT",
+      "Amanita muscaria"
+    ],
+    [
+      "5-MeO-xxT",
+      "Mitragyna speciosa"
+    ],
+    [
+      "5-MeO-xxT",
+      "Papaver somnifarem"
+    ],
+    [
+      "5-MeO-xxT",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "Cannabis",
+      "Caffeine"
+    ],
+    [
+      "Cannabis",
+      "SSRIs"
+    ],
+    [
+      "Ketamine",
+      "DXM"
+    ],
+    [
+      "Ketamine",
+      "Caffeine"
+    ],
+    [
+      "Ketamine",
+      "SSRIs"
+    ],
+    [
+      "Ketamine",
+      "Amanita muscaria"
+    ],
+    [
+      "MXE",
+      "DXM"
+    ],
+    [
+      "MXE",
+      "Caffeine"
+    ],
+    [
+      "MXE",
+      "Amanita muscaria"
+    ],
+    [
+      "DXM",
+      "Ketamine"
+    ],
+    [
+      "DXM",
+      "MXE"
+    ],
+    [
+      "DXM",
+      "Caffeine"
+    ],
+    [
+      "DXM",
+      "Amanita muscaria"
+    ],
+    [
+      "Nitrous ",
+      "Caffeine"
+    ],
+    [
+      "Nitrous ",
+      "MAOIs"
+    ],
+    [
+      "Nitrous ",
+      "SSRIs"
+    ],
+    [
+      "Nitrous ",
+      "Amanita muscaria"
+    ],
+    [
+      "Nitrous ",
+      "Banisteriopsis caapi"
+    ],
+    [
+      "Nitrous ",
+      "Piper methysticum"
+    ],
+    [
+      "Amphetamines",
+      "SSRIs"
+    ],
+    [
+      "MDMA",
+      "Opiods"
+    ],
+    [
+      "MDMA",
+      "Mitragyna speciosa"
+    ],
+    [
+      "MDMA",
+      "Papaver somnifarem"
+    ],
+    [
+      "MDMA",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "Cocaine",
+      "SSRIs"
+    ],
+    [
+      "Caffeine",
+      "LSD"
+    ],
+    [
+      "Caffeine",
+      "Psilocybin"
+    ],
+    [
+      "Caffeine",
+      "DMT"
+    ],
+    [
+      "Caffeine",
+      "Mescaline"
+    ],
+    [
+      "Caffeine",
+      "2C-x"
+    ],
+    [
+      "Caffeine",
+      "2C-T-x"
+    ],
+    [
+      "Caffeine",
+      "5-MeO-xxT"
+    ],
+    [
+      "Caffeine",
+      "Cannabis"
+    ],
+    [
+      "Caffeine",
+      "Ketamine"
+    ],
+    [
+      "Caffeine",
+      "MXE"
+    ],
+    [
+      "Caffeine",
+      "DXM"
+    ],
+    [
+      "Caffeine",
+      "Nitrous "
+    ],
+    [
+      "Caffeine",
+      "Alcohol"
+    ],
+    [
+      "Caffeine",
+      "GHB/GBL"
+    ],
+    [
+      "Caffeine",
+      "Opiods"
+    ],
+    [
+      "Caffeine",
+      "Tramadol"
+    ],
+    [
+      "Caffeine",
+      "MAOIs"
+    ],
+    [
+      "Caffeine",
+      "SSRIs"
+    ],
+    [
+      "Caffeine",
+      "Salvia divonorum"
+    ],
+    [
+      "Caffeine",
+      "Acacia species"
+    ],
+    [
+      "Caffeine",
+      "Mimosa tenuiflora"
+    ],
+    [
+      "Caffeine",
+      "Panaelous cyanescens"
+    ],
+    [
+      "Caffeine",
+      "Argyreia nervosa"
+    ],
+    [
+      "Caffeine",
+      "Ipomea violacea"
+    ],
+    [
+      "Caffeine",
+      "Rivea corymbosa"
+    ],
+    [
+      "Caffeine",
+      "Trichocereus species"
+    ],
+    [
+      "Caffeine",
+      "Lophpopra willamsii"
+    ],
+    [
+      "Caffeine",
+      "Incillius alvarius"
+    ],
+    [
+      "Caffeine",
+      "Mitragyna speciosa"
+    ],
+    [
+      "Caffeine",
+      "Papaver somnifarem"
+    ],
+    [
+      "Caffeine",
+      "Banisteriopsis caapi"
+    ],
+    [
+      "Caffeine",
+      "Piper methysticum"
+    ],
+    [
+      "Caffeine",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "Alcohol",
+      "Caffeine"
+    ],
+    [
+      "GHB/GBL",
+      "Caffeine"
+    ],
+    [
+      "GHB/GBL",
+      "SSRIs"
+    ],
+    [
+      "Opiods",
+      "LSD"
+    ],
+    [
+      "Opiods",
+      "Psilocybin"
+    ],
+    [
+      "Opiods",
+      "DMT"
+    ],
+    [
+      "Opiods",
+      "Mescaline"
+    ],
+    [
+      "Opiods",
+      "DOx"
+    ],
+    [
+      "Opiods",
+      "NBOMes"
+    ],
+    [
+      "Opiods",
+      "2C-x"
+    ],
+    [
+      "Opiods",
+      "2C-T-x"
+    ],
+    [
+      "Opiods",
+      "5-MeO-xxT"
+    ],
+    [
+      "Opiods",
+      "MDMA"
+    ],
+    [
+      "Opiods",
+      "Caffeine"
+    ],
+    [
+      "Opiods",
+      "SSRIs"
+    ],
+    [
+      "Opiods",
+      "Acacia species"
+    ],
+    [
+      "Opiods",
+      "Mimosa tenuiflora"
+    ],
+    [
+      "Opiods",
+      "Panaelous cyanescens"
+    ],
+    [
+      "Opiods",
+      "Argyreia nervosa"
+    ],
+    [
+      "Opiods",
+      "Ipomea violacea"
+    ],
+    [
+      "Opiods",
+      "Rivea corymbosa"
+    ],
+    [
+      "Opiods",
+      "Trichocereus species"
+    ],
+    [
+      "Opiods",
+      "Lophpopra willamsii"
+    ],
+    [
+      "Opiods",
+      "Incillius alvarius"
+    ],
+    [
+      "Tramadol",
+      "Caffeine"
+    ],
+    [
+      "Benzodiazepine",
+      "SSRIs"
+    ],
+    [
+      "Benzodiazepine",
+      "Salvia divonorum"
+    ],
+    [
+      "MAOIs",
+      "Nitrous "
+    ],
+    [
+      "MAOIs",
+      "Caffeine"
+    ],
+    [
+      "SSRIs",
+      "Cannabis"
+    ],
+    [
+      "SSRIs",
+      "Ketamine"
+    ],
+    [
+      "SSRIs",
+      "Nitrous "
+    ],
+    [
+      "SSRIs",
+      "Amphetamines"
+    ],
+    [
+      "SSRIs",
+      "Cocaine"
+    ],
+    [
+      "SSRIs",
+      "Caffeine"
+    ],
+    [
+      "SSRIs",
+      "GHB/GBL"
+    ],
+    [
+      "SSRIs",
+      "Opiods"
+    ],
+    [
+      "SSRIs",
+      "Benzodiazepine"
+    ],
+    [
+      "SSRIs",
+      "Mitragyna speciosa"
+    ],
+    [
+      "SSRIs",
+      "Papaver somnifarem"
+    ],
+    [
+      "SSRIs",
+      "Catha edulis"
+    ],
+    [
+      "SSRIs",
+      "Ephedra sinica"
+    ],
+    [
+      "SSRIs",
+      "Eroxythylum coca"
+    ],
+    [
+      "SSRIs",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "Salvia divonorum",
+      "Caffeine"
+    ],
+    [
+      "Salvia divonorum",
+      "Benzodiazepine"
+    ],
+    [
+      "Salvia divonorum",
+      "Amanita muscaria"
+    ],
+    [
+      "Salvia divonorum",
+      "Banisteriopsis caapi"
+    ],
+    [
+      "Acacia species",
+      "Caffeine"
+    ],
+    [
+      "Acacia species",
+      "Opiods"
+    ],
+    [
+      "Acacia species",
+      "Amanita muscaria"
+    ],
+    [
+      "Acacia species",
+      "Mitragyna speciosa"
+    ],
+    [
+      "Acacia species",
+      "Papaver somnifarem"
+    ],
+    [
+      "Mimosa tenuiflora",
+      "Caffeine"
+    ],
+    [
+      "Mimosa tenuiflora",
+      "Opiods"
+    ],
+    [
+      "Mimosa tenuiflora",
+      "Amanita muscaria"
+    ],
+    [
+      "Mimosa tenuiflora",
+      "Mitragyna speciosa"
+    ],
+    [
+      "Mimosa tenuiflora",
+      "Papaver somnifarem"
+    ],
+    [
+      "Panaelous cyanescens",
+      "Caffeine"
+    ],
+    [
+      "Panaelous cyanescens",
+      "Opiods"
+    ],
+    [
+      "Panaelous cyanescens",
+      "Amanita muscaria"
+    ],
+    [
+      "Panaelous cyanescens",
+      "Mitragyna speciosa"
+    ],
+    [
+      "Panaelous cyanescens",
+      "Papaver somnifarem"
+    ],
+    [
+      "Argyreia nervosa",
+      "Caffeine"
+    ],
+    [
+      "Argyreia nervosa",
+      "Opiods"
+    ],
+    [
+      "Argyreia nervosa",
+      "Amanita muscaria"
+    ],
+    [
+      "Argyreia nervosa",
+      "Mitragyna speciosa"
+    ],
+    [
+      "Argyreia nervosa",
+      "Papaver somnifarem"
+    ],
+    [
+      "Argyreia nervosa",
+      "Piper methysticum"
+    ],
+    [
+      "Ipomea violacea",
+      "Caffeine"
+    ],
+    [
+      "Ipomea violacea",
+      "Opiods"
+    ],
+    [
+      "Ipomea violacea",
+      "Amanita muscaria"
+    ],
+    [
+      "Ipomea violacea",
+      "Mitragyna speciosa"
+    ],
+    [
+      "Ipomea violacea",
+      "Papaver somnifarem"
+    ],
+    [
+      "Ipomea violacea",
+      "Piper methysticum"
+    ],
+    [
+      "Rivea corymbosa",
+      "Caffeine"
+    ],
+    [
+      "Rivea corymbosa",
+      "Opiods"
+    ],
+    [
+      "Rivea corymbosa",
+      "Amanita muscaria"
+    ],
+    [
+      "Rivea corymbosa",
+      "Mitragyna speciosa"
+    ],
+    [
+      "Rivea corymbosa",
+      "Papaver somnifarem"
+    ],
+    [
+      "Rivea corymbosa",
+      "Piper methysticum"
+    ],
+    [
+      "Amanita muscaria",
+      "LSD"
+    ],
+    [
+      "Amanita muscaria",
+      "Psilocybin"
+    ],
+    [
+      "Amanita muscaria",
+      "DMT"
+    ],
+    [
+      "Amanita muscaria",
+      "Mescaline"
+    ],
+    [
+      "Amanita muscaria",
+      "DOx"
+    ],
+    [
+      "Amanita muscaria",
+      "NBOMes"
+    ],
+    [
+      "Amanita muscaria",
+      "2C-x"
+    ],
+    [
+      "Amanita muscaria",
+      "2C-T-x"
+    ],
+    [
+      "Amanita muscaria",
+      "5-MeO-xxT"
+    ],
+    [
+      "Amanita muscaria",
+      "Ketamine"
+    ],
+    [
+      "Amanita muscaria",
+      "MXE"
+    ],
+    [
+      "Amanita muscaria",
+      "DXM"
+    ],
+    [
+      "Amanita muscaria",
+      "Nitrous "
+    ],
+    [
+      "Amanita muscaria",
+      "Salvia divonorum"
+    ],
+    [
+      "Amanita muscaria",
+      "Acacia species"
+    ],
+    [
+      "Amanita muscaria",
+      "Mimosa tenuiflora"
+    ],
+    [
+      "Amanita muscaria",
+      "Panaelous cyanescens"
+    ],
+    [
+      "Amanita muscaria",
+      "Argyreia nervosa"
+    ],
+    [
+      "Amanita muscaria",
+      "Ipomea violacea"
+    ],
+    [
+      "Amanita muscaria",
+      "Rivea corymbosa"
+    ],
+    [
+      "Amanita muscaria",
+      "Trichocereus species"
+    ],
+    [
+      "Amanita muscaria",
+      "Lophpopra willamsii"
+    ],
+    [
+      "Amanita muscaria",
+      "Banisteriopsis caapi"
+    ],
+    [
+      "Amanita muscaria",
+      "Eroxythylum coca"
+    ],
+    [
+      "Trichocereus species",
+      "Caffeine"
+    ],
+    [
+      "Trichocereus species",
+      "Opiods"
+    ],
+    [
+      "Trichocereus species",
+      "Amanita muscaria"
+    ],
+    [
+      "Trichocereus species",
+      "Mitragyna speciosa"
+    ],
+    [
+      "Trichocereus species",
+      "Papaver somnifarem"
+    ],
+    [
+      "Lophpopra willamsii",
+      "Caffeine"
+    ],
+    [
+      "Lophpopra willamsii",
+      "Opiods"
+    ],
+    [
+      "Lophpopra willamsii",
+      "Amanita muscaria"
+    ],
+    [
+      "Lophpopra willamsii",
+      "Mitragyna speciosa"
+    ],
+    [
+      "Lophpopra willamsii",
+      "Papaver somnifarem"
+    ],
+    [
+      "Incillius alvarius",
+      "Caffeine"
+    ],
+    [
+      "Incillius alvarius",
+      "Opiods"
+    ],
+    [
+      "Incillius alvarius",
+      "Mitragyna speciosa"
+    ],
+    [
+      "Incillius alvarius",
+      "Papaver somnifarem"
+    ],
+    [
+      "Mitragyna speciosa",
+      "LSD"
+    ],
+    [
+      "Mitragyna speciosa",
+      "Psilocybin"
+    ],
+    [
+      "Mitragyna speciosa",
+      "DMT"
+    ],
+    [
+      "Mitragyna speciosa",
+      "Mescaline"
+    ],
+    [
+      "Mitragyna speciosa",
+      "DOx"
+    ],
+    [
+      "Mitragyna speciosa",
+      "NBOMes"
+    ],
+    [
+      "Mitragyna speciosa",
+      "2C-x"
+    ],
+    [
+      "Mitragyna speciosa",
+      "2C-T-x"
+    ],
+    [
+      "Mitragyna speciosa",
+      "5-MeO-xxT"
+    ],
+    [
+      "Mitragyna speciosa",
+      "Ketamine"
+    ],
+    [
+      "Mitragyna speciosa",
+      "MXE"
+    ],
+    [
+      "Mitragyna speciosa",
+      "DXM"
+    ],
+    [
+      "Mitragyna speciosa",
+      "Nitrous "
+    ],
+    [
+      "Mitragyna speciosa",
+      "Amphetamines"
+    ],
+    [
+      "Mitragyna speciosa",
+      "MDMA"
+    ],
+    [
+      "Mitragyna speciosa",
+      "Caffeine"
+    ],
+    [
+      "Mitragyna speciosa",
+      "Alcohol"
+    ],
+    [
+      "Mitragyna speciosa",
+      "GHB/GBL"
+    ],
+    [
+      "Mitragyna speciosa",
+      "SSRIs"
+    ],
+    [
+      "Mitragyna speciosa",
+      "Acacia species"
+    ],
+    [
+      "Mitragyna speciosa",
+      "Mimosa tenuiflora"
+    ],
+    [
+      "Mitragyna speciosa",
+      "Panaelous cyanescens"
+    ],
+    [
+      "Mitragyna speciosa",
+      "Argyreia nervosa"
+    ],
+    [
+      "Mitragyna speciosa",
+      "Ipomea violacea"
+    ],
+    [
+      "Mitragyna speciosa",
+      "Rivea corymbosa"
+    ],
+    [
+      "Mitragyna speciosa",
+      "Trichocereus species"
+    ],
+    [
+      "Mitragyna speciosa",
+      "Lophpopra willamsii"
+    ],
+    [
+      "Mitragyna speciosa",
+      "Incillius alvarius"
+    ],
+    [
+      "Mitragyna speciosa",
+      "Banisteriopsis caapi"
+    ],
+    [
+      "Papaver somnifarem",
+      "LSD"
+    ],
+    [
+      "Papaver somnifarem",
+      "Psilocybin"
+    ],
+    [
+      "Papaver somnifarem",
+      "DMT"
+    ],
+    [
+      "Papaver somnifarem",
+      "Mescaline"
+    ],
+    [
+      "Papaver somnifarem",
+      "DOx"
+    ],
+    [
+      "Papaver somnifarem",
+      "NBOMes"
+    ],
+    [
+      "Papaver somnifarem",
+      "2C-x"
+    ],
+    [
+      "Papaver somnifarem",
+      "2C-T-x"
+    ],
+    [
+      "Papaver somnifarem",
+      "5-MeO-xxT"
+    ],
+    [
+      "Papaver somnifarem",
+      "Cannabis"
+    ],
+    [
+      "Papaver somnifarem",
+      "Ketamine"
+    ],
+    [
+      "Papaver somnifarem",
+      "MXE"
+    ],
+    [
+      "Papaver somnifarem",
+      "DXM"
+    ],
+    [
+      "Papaver somnifarem",
+      "Nitrous "
+    ],
+    [
+      "Papaver somnifarem",
+      "Amphetamines"
+    ],
+    [
+      "Papaver somnifarem",
+      "MDMA"
+    ],
+    [
+      "Papaver somnifarem",
+      "Cocaine"
+    ],
+    [
+      "Papaver somnifarem",
+      "Caffeine"
+    ],
+    [
+      "Papaver somnifarem",
+      "Alcohol"
+    ],
+    [
+      "Papaver somnifarem",
+      "SSRIs"
+    ],
+    [
+      "Papaver somnifarem",
+      "Acacia species"
+    ],
+    [
+      "Papaver somnifarem",
+      "Mimosa tenuiflora"
+    ],
+    [
+      "Papaver somnifarem",
+      "Panaelous cyanescens"
+    ],
+    [
+      "Papaver somnifarem",
+      "Argyreia nervosa"
+    ],
+    [
+      "Papaver somnifarem",
+      "Ipomea violacea"
+    ],
+    [
+      "Papaver somnifarem",
+      "Rivea corymbosa"
+    ],
+    [
+      "Papaver somnifarem",
+      "Trichocereus species"
+    ],
+    [
+      "Papaver somnifarem",
+      "Lophpopra willamsii"
+    ],
+    [
+      "Papaver somnifarem",
+      "Incillius alvarius"
+    ],
+    [
+      "Papaver somnifarem",
+      "Banisteriopsis caapi"
+    ],
+    [
+      "Banisteriopsis caapi",
+      "Caffeine"
+    ],
+    [
+      "Banisteriopsis caapi",
+      "Salvia divonorum"
+    ],
+    [
+      "Banisteriopsis caapi",
+      "Amanita muscaria"
+    ],
+    [
+      "Banisteriopsis caapi",
+      "Mitragyna speciosa"
+    ],
+    [
+      "Banisteriopsis caapi",
+      "Papaver somnifarem"
+    ],
+    [
+      "Piper methysticum",
+      "Caffeine"
+    ],
+    [
+      "Piper methysticum",
+      "Argyreia nervosa"
+    ],
+    [
+      "Piper methysticum",
+      "Ipomea violacea"
+    ],
+    [
+      "Piper methysticum",
+      "Rivea corymbosa"
+    ],
+    [
+      "Catha edulis",
+      "SSRIs"
+    ],
+    [
+      "Ephedra sinica",
+      "SSRIs"
+    ],
+    [
+      "Eroxythylum coca",
+      "SSRIs"
+    ],
+    [
+      "Eroxythylum coca",
+      "Amanita muscaria"
+    ],
+    [
+      "Eroxythylum coca",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "Phyllomedusa bicolor",
+      "LSD"
+    ],
+    [
+      "Phyllomedusa bicolor",
+      "Psilocybin"
+    ],
+    [
+      "Phyllomedusa bicolor",
+      "DMT"
+    ],
+    [
+      "Phyllomedusa bicolor",
+      "Mescaline"
+    ],
+    [
+      "Phyllomedusa bicolor",
+      "DOx"
+    ],
+    [
+      "Phyllomedusa bicolor",
+      "NBOMes"
+    ],
+    [
+      "Phyllomedusa bicolor",
+      "2C-x"
+    ],
+    [
+      "Phyllomedusa bicolor",
+      "2C-T-x"
+    ],
+    [
+      "Phyllomedusa bicolor",
+      "5-MeO-xxT"
+    ],
+    [
+      "Phyllomedusa bicolor",
+      "Ketamine"
+    ],
+    [
+      "Phyllomedusa bicolor",
+      "MXE"
+    ],
+    [
+      "Phyllomedusa bicolor",
+      "DXM"
+    ],
+    [
+      "Phyllomedusa bicolor",
+      "MDMA"
+    ],
+    [
+      "Phyllomedusa bicolor",
+      "SSRIs"
+    ],
+    [
+      "Phyllomedusa bicolor",
+      "Eroxythylum coca"
+    ]
+  ]
+}
