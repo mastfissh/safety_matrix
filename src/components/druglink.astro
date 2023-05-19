@@ -1,9 +1,11 @@
 ---
 import { getEntryBySlug } from 'astro:content';
+import { linkify } from '../util';
 const { slug } = Astro.props;
-const page = await getEntryBySlug('substances', slug);
+let actual = linkify(slug)
+const page = await getEntryBySlug('substances', actual);
 let link = (!!page)
 ---
-{!link && slug}
-{link && <a href={'/safety_matrix/substances/' + slug}> {slug} </a>}
+{!link && actual}
+{link && <a href={'/safety_matrix/substances/' + actual}> {slug} </a>}
 

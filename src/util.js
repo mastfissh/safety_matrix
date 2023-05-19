@@ -22,6 +22,10 @@ export function risk(list, data){
   return "unknown"
 }
 
+export function linkify(str){
+  return str.replace('/', '-').replace(' ', '-').replace('+', '-').toLowerCase()
+}
+
 export function slugify(str){
-  return '_'+str.replace('/', '-').replace(' ', '-')
+  return '_'+(str || '').replace('/', '-').replace(' ', '-').replace('+', '-')
 }

@@ -16,6 +16,24 @@ import Grid from '../components/grid.astro';
 
 	<body>
 		<h1>Combos</h1>
+		<h3> Psychoactive Combination Matrix </h3>
+		<p> Psychoactive products are listed along the top and side of the matrix. The intersection of each row and column is coded to show the risk rating of a psychoactive product combination. Simply select the psychoactive products you would like the matrix to display.
+Click a risk rating to learn more about how the risk rating was calculated. We aim to provide experience reports demonstrating the rating and research publications to help understand detail around each combination risk.
+If there is a psychoactive product that is not listed but should be, or if you have an experience report or research publication relating to a psychoactive combination listed on this chart, please share this information with us so we can improve this resource.
+</p>
+	<h3> Disclaimer </h3>
+	<p>Psychoactive combinations are hard to measure and compare. Use this matrix alongside more information and other harm reduction supports. These supports should include a comfortable set and setting, measured dosage and trusted carers.
+Psychoactive use is embedded in cultural contexts and should be treated with caution and respect. Ensure to understand local laws, traditions and sustainability before working with any psychoactive product.
+ </p>
+ <h3> Key </h3>
+ <p>In this chart ‘risk’ refers to danger or hazard. ‘Synergy’ refers to increased subjective effects (or in some cases, the creation of an additional subjective effect), while ‘decrease’ refers to reduced subjective effects.
+ </p>
+		<div class = "SR"> Significant risk</div>
+		<div class = "GR"> Greater risk</div>
+		<div class = "MR"> Minor risk</div>
+		<div class = "LRS"> low risk synergy</div>
+		<div class = "LRD"> low risk decrease</div>
+		<div class = "LRNS"> low risk no synergy</div>
 
 		<Grid page={""} data={data} />
 	</body>
