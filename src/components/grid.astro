@@ -2,7 +2,6 @@
 
 const { page, data } = Astro.props;
 let drugs = data["drugs"].filter(item => item !== page)
-drugs = drugs.slice(0, 12)
 import { combo, risk,slugify } from '../util';
 import '../style.css';
 import Druglink from './druglink.astro';
@@ -10,18 +9,27 @@ import Druglink from './druglink.astro';
 <script>
 window.onload = (event) => {
   const checkboxes = document.querySelectorAll('.filter_check');
-  checkboxes.forEach((box) => {
-    box.addEventListener('click', (event) => {
+  function compute_visibility(){
+    checkboxes.forEach((box) => {
       if (box.checked){
         for (const item of document.querySelectorAll("." + box.id)) {
           item.style.display = '';
         }
-      } else {
+      }
+    })
+    checkboxes.forEach((box) => {
+      if (!box.checked) {
         for (const item of document.querySelectorAll("." + box.id)) {
           item.style.display = 'none';
         }
       }
-
+    })
+  }
+  compute_visibility()
+  document.getElementById('safety_grid').style.display = '';
+  checkboxes.forEach((outerbox) => {
+    outerbox.addEventListener('click', (event) => {
+      compute_visibility()
     });
   });
 };
@@ -29,11 +37,11 @@ window.onload = (event) => {
 
 <div>
   {drugs.map((drug) => (
-    <input type="checkbox" class="filter_check" id={slugify(drug)} name={slugify(drug)} value={slugify(drug)} checked>
+    <input type="checkbox" class="filter_check" id={slugify(drug)} name={slugify(drug)} value={slugify(drug)} >
     <label for={slugify(drug)}> Display {drug}</label><br>
   ))}
 </div>
-<table>
+<table id="safety_grid" style="display: none;">
   <tr class:list={"topkey"}>
     <td></td>
     {drugs.map((drug) => (

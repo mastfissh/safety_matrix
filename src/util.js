@@ -23,5 +23,5 @@ export function risk(list, data){
 }
 
 export function slugify(str){
-  return '_'+str
+  return '_'+str.replace('/', '-').replace(' ', '-')
 }
