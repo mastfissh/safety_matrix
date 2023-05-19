@@ -27,5 +27,5 @@ export function linkify(str){
 }
 
 export function slugify(str){
-  return '_'+(str || '').replace('/', '-').replace(' ', '-').replace('+', '-')
+  return '_'+(str || '').replace('/', '-').replace(' ', '-')
 }

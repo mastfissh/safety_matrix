@@ -6,6 +6,6 @@ let actual = linkify(slug)
 const page = await getEntryBySlug('substances', actual);
 let link = (!!page)
 ---
-{!link && actual}
+{!link && slug}
 {link && <a href={'/safety_matrix/substances/' + actual}> {slug} </a>}
 
