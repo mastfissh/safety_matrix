@@ -4,23 +4,24 @@ export function combo(list){
   if (subs[0] == ""){
     subs.shift()
   }
-  return subs.join('-')
+  return subs.join('+')
 }
 
 export function risk(list, data){
   let canon = combo(list)
-  for (let danger of data["danger"]){
-    if (combo(danger) == canon){
-      return "danger"
+  for (let risk of data['risk_levels']) {
+    for (let candidate of data[risk]){
+      if (combo(candidate) == canon){
+        return risk
+      }
     }
   }
-  for (let safe of data["safe"]){
-    if (combo(safe) == canon){
-      return "safe"
-    }
-  }
-  if (!((""+canon).includes('-'))){
+  if (!((""+canon).includes('+'))){
     return "na"
   }
   return "unknown"
+}
+
+export function slugify(str){
+  return '_'+str.replace('/', '-').replace(' ', '-')
 }

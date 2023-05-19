@@ -1,5 +1,17 @@
-td.danger{background-color: red;}
-td.safe{background-color: green;}
+/*// SR = Significant risk
+// GR = Greater risk
+// MR = Minor risk
+// LRS = low risk synergy
+// LRD = low risk decrease
+// LRNS = low risk no synergy*/
+
+td.SR{background-color: #e6827e;}
+td.GR{background-color: #f79966;}
+td.MR{background-color: #ffeabb;}
+td.LRS{background-color: #c2dbe0;}
+td.LRD{background-color: #c5bbdc;}
+td.LRNS{background-color: #80a7cf;}
+
 td.unknown{background-color: grey;}
 table {
   table-layout: fixed;
