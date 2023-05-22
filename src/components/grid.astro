@@ -10,8 +10,10 @@ import Druglink from './druglink.astro';
 window.onload = (event) => {
   const checkboxes = document.querySelectorAll('.filter_check');
   function compute_visibility(){
+    let fragments = []
     checkboxes.forEach((box) => {
       if (box.checked){
+        fragments.push(box.id.replace('_', ''))
         for (const item of document.querySelectorAll("." + box.id)) {
           item.style.display = '';
         }
@@ -24,6 +26,19 @@ window.onload = (event) => {
         }
       }
     })
+    window.location.hash = fragments.join(',')
+  }
+  function checkBoxes(hashes) {
+    for (let checkbox of checkboxes){
+      if (hashes.includes(checkbox.id.replace('_', ''))){
+        checkbox.checked = true
+      }
+    }
+  }
+  if(window.location.hash) {
+    checkBoxes(window.location.hash)
+  } else {
+    checkBoxes('LSD,Cannabis,Opiods')
   }
   compute_visibility()
   document.getElementById('safety_grid').style.display = '';
