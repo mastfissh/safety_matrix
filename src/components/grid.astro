@@ -2,7 +2,7 @@
 
 const { page, data } = Astro.props;
 let drugs = data["drugs"].filter(item => item !== page)
-import { combo, risk,slugify, risk_css_prefix } from '../util';
+import { combo, risk,risk_css_prefix, drug_css_prefix } from '../util';
 import '../style.css';
 import Druglink from './druglink.astro';
 ---
@@ -13,7 +13,7 @@ window.onload = (event) => {
     let fragments = []
     checkboxes.forEach((box) => {
       if (box.checked){
-        fragments.push(box.id.replace('_', ''))
+        fragments.push(box.id.replace('drug_', ''))
         for (const item of document.querySelectorAll("." + box.id)) {
           item.style.display = '';
         }
@@ -30,7 +30,7 @@ window.onload = (event) => {
   }
   function checkBoxes(hashes) {
     for (let checkbox of checkboxes){
-      if (hashes.includes(checkbox.id.replace('_', ''))){
+      if (hashes.includes(checkbox.id.replace('drug_', ''))){
         checkbox.checked = true
       }
     }
@@ -52,23 +52,23 @@ window.onload = (event) => {
 
 <div>
   {drugs.map((drug) => (
-    <input type="checkbox" class="filter_check" id={slugify(drug)} name={slugify(drug)} value={slugify(drug)} >
-    <label for={slugify(drug)}> Display {drug}</label><br>
+    <input type="checkbox" class="filter_check" id={drug_css_prefix(drug)} name={drug_css_prefix(drug)} value={drug_css_prefix(drug)} >
+    <label for={drug_css_prefix(drug)}> Display {drug}</label><br>
   ))}
 </div>
 <table id="safety_grid" style="display: none;">
   <tr class:list={"topkey"}>
     <td></td>
     {drugs.map((drug) => (
-      <td class:list={slugify(drug)}>{drug}</td>
+      <td class:list={drug_css_prefix(drug)}>{drug}</td>
     ))
   }
   </tr>
     {drugs.map((drugrow) => (
-      <tr class:list={slugify(drugrow)}>
-        <td class:list={slugify(drugrow)}>{drugrow}</td>
+      <tr class:list={drug_css_prefix(drugrow)}>
+        <td class:list={drug_css_prefix(drugrow)}>{drugrow}</td>
         {drugs.map((drugcell) => (
-          <td class:list={[risk_css_prefix(risk([page,drugrow,drugcell], data)),slugify(drugrow),slugify(drugcell)]}><Druglink slug={combo([page,drugrow,drugcell])} /></td>
+          <td class:list={[risk_css_prefix(risk([page,drugrow,drugcell], data)),drug_css_prefix(drugrow),drug_css_prefix(drugcell)]}><Druglink drug={combo([page,drugrow,drugcell])} /></td>
          ))}
       </tr>
      ))}

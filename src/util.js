@@ -21,15 +21,17 @@ export function risk(list, data){
   }
   return "unknown"
 }
-
+function strip_weird_chars(str){
+  return str.replace('/', '-').replace(' ', '-')
+}
 export function linkify(str){
-  return str.replace('/', '-').replace(' ', '-').replace('+', '-').toLowerCase()
+  return strip_weird_chars(str).replace('+', '-').toLowerCase()
 }
 
 export function risk_css_prefix(str) {
-  return 'risk_'+str.replace('/', '-').replace(' ', '-')
+  return 'risk_'+strip_weird_chars(str)
 }
 
-export function slugify(str){
-  return '_'+(str || '').replace('/', '-').replace(' ', '-')
+export function drug_css_prefix(str) {
+  return 'drug_'+strip_weird_chars(str)
 }

@@ -1,9 +1,11 @@
-/*// SR = Significant risk
-// GR = Greater risk
-// MR = Minor risk
-// LRS = low risk synergy
-// LRD = low risk decrease
-// LRNS = low risk no synergy*/
+/*
+SR = Significant risk
+GR = Greater risk
+MR = Minor risk
+LRS = low risk synergy
+LRD = low risk decrease
+LRNS = low risk no synergy
+*/
 
 .risk_SR{background-color: #e6827e;}
 .risk_GR{background-color: #f79966;}
