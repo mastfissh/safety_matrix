@@ -1,21 +1,11 @@
 ---
 import data from '../data.json';
 import Grid from '../components/grid.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+const pageTitle = "Combos";
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Combos</title>
-
-
-	</head>
-
-	<body>
-		<h1>Combos</h1>
+<BaseLayout>
 		<h3> Psychoactive Combination Matrix </h3>
 		<p> Psychoactive products are listed along the top and side of the matrix. The intersection of each row and column is coded to show the risk rating of a psychoactive product combination. Simply select the psychoactive products you would like the matrix to display.
 Click a risk rating to learn more about how the risk rating was calculated. We aim to provide experience reports demonstrating the rating and research publications to help understand detail around each combination risk.
@@ -36,5 +26,4 @@ Psychoactive use is embedded in cultural contexts and should be treated with cau
 		<div class = "risk_LRNS"> low risk no synergy</div>
 
 		<Grid page={""} data={data} />
-	</body>
-</html>
+</BaseLayout>

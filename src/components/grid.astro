@@ -8,6 +8,9 @@ import Druglink from './druglink.astro';
 ---
 <script>
 window.onload = (event) => {
+  if (!document.getElementById('safety_grid')){
+    return
+  }
   const checkboxes = document.querySelectorAll('.filter_check');
   function compute_visibility(){
     let fragments = []
