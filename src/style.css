@@ -1,18 +1,20 @@
-/*// SR = Significant risk
-// GR = Greater risk
-// MR = Minor risk
-// LRS = low risk synergy
-// LRD = low risk decrease
-// LRNS = low risk no synergy*/
+/*
+SR = Significant risk
+GR = Greater risk
+MR = Minor risk
+LRS = low risk synergy
+LRD = low risk decrease
+LRNS = low risk no synergy
+*/
 
-.SR{background-color: #e6827e;}
-.GR{background-color: #f79966;}
-.MR{background-color: #ffeabb;}
-.LRS{background-color: #c2dbe0;}
-.LRD{background-color: #c5bbdc;}
-.LRNS{background-color: #80a7cf;}
+.risk_SR{background-color: #e6827e;}
+.risk_GR{background-color: #f79966;}
+.risk_MR{background-color: #ffeabb;}
+.risk_LRS{background-color: #c2dbe0;}
+.risk_LRD{background-color: #c5bbdc;}
+.risk_LRNS{background-color: #80a7cf;}
 
-td.unknown{background-color: grey;}
+td.risk_unknown{background-color: grey;}
 table {
   table-layout: fixed;
   width: 100%;

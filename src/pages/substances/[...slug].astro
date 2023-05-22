@@ -14,20 +14,13 @@ import data from '../../data.json';
 let value = entry.data.slug
 
 import Grid from '../../components/grid.astro';
-import Risk from '../../components/risk.astro';
-import Confidence from '../../components/confidence.astro';
-let visible = true
-if (entry.data.slug.includes('-')){
-  visible = false
+import BaseLayout from '../../layouts/BaseLayout.astro';
+let visible = false
+if (entry.data.display_grid){
+  visible = true
 }
 ---
-<head>
-    <meta charset="utf-8" />
-</head>
-<h1>{entry.data.title}</h1>
-
+<BaseLayout pageTitle={entry.data.title}>
 <Content />
-
 {visible && <Grid page={entry.data.slug} data={data} />}
-
-
+</BaseLayout>
