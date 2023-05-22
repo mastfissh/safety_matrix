@@ -2,7 +2,7 @@
 
 const { page, data } = Astro.props;
 let drugs = data["drugs"].filter(item => item !== page)
-import { combo, risk,slugify } from '../util';
+import { combo, risk,slugify, risk_css_prefix } from '../util';
 import '../style.css';
 import Druglink from './druglink.astro';
 ---
@@ -68,7 +68,7 @@ window.onload = (event) => {
       <tr class:list={slugify(drugrow)}>
         <td class:list={slugify(drugrow)}>{drugrow}</td>
         {drugs.map((drugcell) => (
-          <td class:list={[risk([page,drugrow,drugcell], data),slugify(drugrow),slugify(drugcell)]}><Druglink slug={combo([page,drugrow,drugcell])} /></td>
+          <td class:list={[risk_css_prefix(risk([page,drugrow,drugcell], data)),slugify(drugrow),slugify(drugcell)]}><Druglink slug={combo([page,drugrow,drugcell])} /></td>
          ))}
       </tr>
      ))}

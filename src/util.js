@@ -26,6 +26,10 @@ export function linkify(str){
   return str.replace('/', '-').replace(' ', '-').replace('+', '-').toLowerCase()
 }
 
+export function risk_css_prefix(str) {
+  return 'risk_'+str.replace('/', '-').replace(' ', '-')
+}
+
 export function slugify(str){
   return '_'+(str || '').replace('/', '-').replace(' ', '-')
 }
