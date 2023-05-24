@@ -4,7 +4,7 @@ export function combo(list){
   if (subs[0] == ""){
     subs.shift()
   }
-  return subs.join('+')
+  return subs.join(' + ')
 }
 
 export function risk(list, data){
@@ -25,7 +25,7 @@ function strip_weird_chars(str){
   return str.replace('/', '-').replace(' ', '-')
 }
 export function linkify(str){
-  return strip_weird_chars(str).replace('+', '-').toLowerCase()
+  return strip_weird_chars(str).replace('-+-', '-').toLowerCase()
 }
 
 export function risk_css_prefix(str) {

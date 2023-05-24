@@ -53,9 +53,12 @@ window.onload = (event) => {
 };
 </script>
 
-<div>
+
+
+
+<div class = "grid grid-cols-5 gap-2 my-4">
   {drugs.map((drug) => (
-    <span class = "border text-m font-medium mr-2 px-2.5 py-0.5 rounded"><input type="checkbox" class="filter_check" id={drug_css_prefix(drug)} name={drug_css_prefix(drug)} value={drug_css_prefix(drug)} > <label for={drug_css_prefix(drug)}> Display {drug}</label></span>
+    <span class = "border text-m font-medium mr-2 my-2 px-2.5 rounded"><input type="checkbox" class="filter_check" id={drug_css_prefix(drug)} name={drug_css_prefix(drug)} value={drug_css_prefix(drug)} > <label for={drug_css_prefix(drug)}> {drug}</label></span>
   ))}
 </div>
  <h3> Key </h3>
@@ -71,7 +74,7 @@ window.onload = (event) => {
   <tr class:list={"topkey"}>
     <td></td>
     {drugs.map((drug) => (
-      <td class:list={drug_css_prefix(drug)}>{drug}</td>
+      <td class:list={drug_css_prefix(drug)} >{drug}</td>
     ))
   }
   </tr>
