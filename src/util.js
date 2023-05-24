@@ -22,10 +22,10 @@ export function risk(list, data){
   return "unknown"
 }
 function strip_weird_chars(str){
-  return str.replace('/', '-').replace(' ', '-')
+  return str.replaceAll('/', '-').replaceAll(' ', '-')
 }
 export function linkify(str){
-  return strip_weird_chars(str).replace('-+-', '-').toLowerCase()
+  return strip_weird_chars(str).replaceAll('-+-', '-').toLowerCase()
 }
 
 export function risk_css_prefix(str) {
