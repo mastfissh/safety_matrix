@@ -55,10 +55,18 @@ window.onload = (event) => {
 
 <div>
   {drugs.map((drug) => (
-    <input type="checkbox" class="filter_check" id={drug_css_prefix(drug)} name={drug_css_prefix(drug)} value={drug_css_prefix(drug)} >
-    <label for={drug_css_prefix(drug)}> Display {drug}</label><br>
+    <span class = "border text-m font-medium mr-2 px-2.5 py-0.5 rounded"><input type="checkbox" class="filter_check" id={drug_css_prefix(drug)} name={drug_css_prefix(drug)} value={drug_css_prefix(drug)} > <label for={drug_css_prefix(drug)}> Display {drug}</label></span>
   ))}
 </div>
+ <h3> Key </h3>
+ <p>In this chart ‘risk’ refers to danger or hazard. ‘Synergy’ refers to increased subjective effects (or in some cases, the creation of an additional subjective effect), while ‘decrease’ refers to reduced subjective effects.
+ </p>
+    <span class = "risk_SR text-m font-medium mr-2 px-2.5 py-0.5 rounded"> Significant risk</span>
+    <span class = "risk_GR text-m font-medium mr-2 px-2.5 py-0.5 rounded"> Greater risk</span>
+    <span class = "risk_MR text-m font-medium mr-2 px-2.5 py-0.5 rounded"> Minor risk</span>
+    <span class = "risk_LRS text-m font-medium mr-2 px-2.5 py-0.5 rounded"> low risk synergy</span>
+    <span class = "risk_LRD text-m font-medium mr-2 px-2.5 py-0.5 rounded"> low risk decrease</span>
+    <span class = "risk_LRNS text-m font-medium mr-2 px-2.5 py-0.5 rounded"> low risk no synergy</span>
 <table id="safety_grid" style="display: none;">
   <tr class:list={"topkey"}>
     <td></td>

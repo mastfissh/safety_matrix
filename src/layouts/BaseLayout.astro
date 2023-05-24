@@ -10,7 +10,8 @@ const { pageTitle } = Astro.props;
     <title>{pageTitle}</title>
   </head>
   <body>
-    <h1>{pageTitle}</h1>
-    <slot />
+    <div class="m-8">
+      <slot />
+    </div>
   </body>
 </html>
