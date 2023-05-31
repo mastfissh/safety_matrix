@@ -2,7 +2,7 @@
 import { getCollection } from 'astro:content';
 // 1. Generate a new path for every collection entry
 export async function getStaticPaths() {
-  const pages = await getCollection('substances');
+  const pages = await getCollection('combos');
   return pages.map(entry => ({
     params: { slug: entry.slug }, props: { entry },
   }));
@@ -23,17 +23,6 @@ import Disclaimer from '../../components/disclaimer.astro';
 ---
 <BaseLayout pageTitle={entry.data.title}>
   <article class="prose lg:prose-xl mx-auto">
-    <h2> {entry.data.title} </h2>
-    <img src={entry.data.image_location} />
-    {entry.data.image_caption}
-    <h3>Commonly Known as: </h3>
-      <ul >
-    {entry.data.aka.map((name) => (
-      <li>
-      {name}
-      </li>
-      ))
-    }</ul>
     <Content />
   </article>
 <Disclaimer />
