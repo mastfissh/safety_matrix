@@ -23,8 +23,12 @@ import Disclaimer from '../../components/disclaimer.astro';
 ---
 
 <BaseLayout pageTitle={entry.data.title}>
+    <div>
+  <canvas id="myChart"></canvas>
+</div>
 
   <article class="prose lg:prose-xl mx-auto">
+
     <h2> {entry.data.title} </h2>
     <img src={entry.data.image_location} />
     {entry.data.image_caption}
@@ -42,6 +46,29 @@ import Disclaimer from '../../components/disclaimer.astro';
 
 
   </article>
+
+
+<script>
+  import Chart from 'chart.js/auto';
+  const ctx = document.getElementById('myChart');
+  new Chart(ctx, {
+    type: 'line',
+    data: {
+  labels: ["bob", "fish"],
+  datasets: [{
+    label: 'My First Dataset',
+    data: [65, 59, 80, 81, 56, 55, 40],
+    fill: false,
+    borderColor: 'rgb(75, 192, 192)',
+    tension: 0.1
+  }]
+},
+
+  });
+
+</script>
+
+
 <Disclaimer />
 {visible && <Grid page={entry.data.slug} data={data} />}
 </BaseLayout>
