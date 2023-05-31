@@ -21,7 +21,9 @@ if (entry.data.display_grid){
 }
 import Disclaimer from '../../components/disclaimer.astro';
 ---
+
 <BaseLayout pageTitle={entry.data.title}>
+
   <article class="prose lg:prose-xl mx-auto">
     <h2> {entry.data.title} </h2>
     <img src={entry.data.image_location} />
@@ -35,6 +37,10 @@ import Disclaimer from '../../components/disclaimer.astro';
       ))
     }</ul>
     <Content />
+
+
+
+
   </article>
 <Disclaimer />
 {visible && <Grid page={entry.data.slug} data={data} />}
