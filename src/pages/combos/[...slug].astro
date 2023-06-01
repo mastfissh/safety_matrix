@@ -1,0 +1,30 @@
+---
+import { getCollection } from 'astro:content';
+// 1. Generate a new path for every collection entry
+export async function getStaticPaths() {
+  const pages = await getCollection('combos');
+  return pages.map(entry => ({
+    params: { slug: entry.slug }, props: { entry },
+  }));
+}
+// 2. When it's time to render, you can get the entry directly from the prop
+const { entry } = Astro.props;
+const { Content } = await entry.render();
+import data from '../../data.json';
+let value = entry.data.slug
+
+import Grid from '../../components/grid.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+let visible = false
+if (entry.data.display_grid){
+  visible = true
+}
+import Disclaimer from '../../components/disclaimer.astro';
+---
+<BaseLayout pageTitle={entry.data.title}>
+  <article class="prose lg:prose-xl mx-auto">
+    <Content />
+  </article>
+<Disclaimer />
+{visible && <Grid page={entry.data.slug} data={data} />}
+</BaseLayout>

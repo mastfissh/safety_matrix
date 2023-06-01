@@ -4,13 +4,13 @@ import Grid from '../components/grid.astro';
 import Disclaimer from '../components/disclaimer.astro';
 import BaseLayout from '../layouts/BaseLayout.astro';
 const pageTitle = "Combos";
+import { getCollection } from 'astro:content';
+const substances = await getCollection('substances');
 ---
 
 <BaseLayout pageTitle={pageTitle}>
-<!-- Container for demo purpose -->
 <div class="container px-6 mx-auto">
 
-  <!-- Section: Design Block -->
   <section class="mb-2 text-gray-800">
     <div class="grow-0 shrink-0 basis-auto ">
           <div class="px-6 py-12 md:px-12">
@@ -27,12 +27,18 @@ If there is a psychoactive product that is not listed but should be, or if you h
           </div>
         </div>
   </section>
-  <!-- Section: Design Block -->
+
 
 </div>
-<!-- Container for demo purpose -->
+
 
 		<Disclaimer />
 
 		<Grid page={""} data={data} />
+    <h3>Substance pages: </h3>
+      <ul >
+    {substances.map((substance) => (
+      <li><a class="font-medium text-blue-600 underline dark:text-blue-900 hover:no-underline" href={'/safety_matrix/substances/' + substance.data.slug}> {substance.data.title} </a></li>
+      ))}</ul>
+
 </BaseLayout>

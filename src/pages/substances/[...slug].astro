@@ -20,11 +20,90 @@ if (entry.data.display_grid){
   visible = true
 }
 import Disclaimer from '../../components/disclaimer.astro';
+let data = entry.data
 ---
 <BaseLayout pageTitle={entry.data.title}>
   <article class="prose lg:prose-xl mx-auto">
+    <h2> {entry.data.title} </h2>
+    <img src={entry.data.image_location} />
+    {entry.data.image_caption}
+    <h3>Commonly Known as: </h3>
+      <ul >
+    {entry.data.aka.map((name) => (
+      <li>
+      {name}
+      </li>
+      ))
+    }</ul>
     <Content />
   </article>
+  <div class="block rounded-lg my-6 bg-slate-100 p-6 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] max-w-2xl mx-auto">
+      <h2>{entry.data.duration_chart_title} </h2>
+      <canvas id="myChart"></canvas>
+    </div>
+    <script define:vars={{ data }}>
+      window.data = data
+    </script>
+<script>
+  import Chart from 'chart.js/auto';
+  import { DateTime, Duration } from 'luxon';
+  import 'chartjs-adapter-luxon';
+  const now = DateTime.fromISO('12:00')
+  const ctx = document.getElementById('myChart');
+  // console.debug(window.data)
+  // duration_chart: { onset: '60m', coming_up: '22m', plateau: '3h', coming_down: '90m' }
+  let duration_chart = window.data.duration_chart
+  let onset = Duration.fromISO("PT"+duration_chart.onset.toUpperCase())
+  let coming_up = Duration.fromISO("PT"+duration_chart.coming_up.toUpperCase())
+  let plateau = Duration.fromISO("PT"+duration_chart.plateau.toUpperCase())
+  let coming_down = Duration.fromISO("PT"+duration_chart.coming_down.toUpperCase())
+  let chart_data = [
+    {x:now, y:0},
+    {x:now.plus(onset), y:0},
+    {x:now.plus(onset).plus(coming_up), y:1},
+    {x:now.plus(onset).plus(coming_up).plus(plateau), y:1},
+    {x:now.plus(onset).plus(coming_up).plus(plateau).plus(coming_down), y:0},
+  ]
+  Duration.fromISO('PT23H')
+  new Chart(ctx, {
+    type: 'line',
+    data: {
+      datasets: [
+      {
+        label: "Typical",
+        data: chart_data,
+        fill: false,
+        borderColor: 'rgb(75, 192, 192)',
+        cubicInterpolationMode: 'monotone',
+        tension: 0.4
+      }
+      ]
+    },
+    options : {
+      scales: {
+        y: {
+          display: false,
+          grid: {
+            display: false
+          }
+        },
+        x: {
+          type: 'time',
+          grid: {
+            display: false
+          }
+        }
+      },
+      plugins: {
+        legend: {
+          display: false
+        }
+      }
+    }
+  });
+
+</script>
+
 <Disclaimer />
 {visible && <Grid page={entry.data.slug} data={data} />}
 </BaseLayout>
