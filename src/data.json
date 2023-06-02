@@ -2,6 +2,8 @@
   "drugs": [
     "LSD",
     "Psilocybin",
+    "Cathinone",
+    "Psilocybe Species",
     "DMT",
     "Mescaline",
     "DOx",
@@ -670,6 +672,22 @@
     [
       "Tabernathe iboga",
       "Phyllomedusa bicolor"
+    ],
+    [
+      "Tramadol",
+      "Cathinone"
+    ],
+    [
+      "MAOIs",
+      "Cathinone"
+    ],
+    [
+      "Cathinone",
+      "Tramadol"
+    ],
+    [
+      "Cathinone",
+      "MAOIs"
     ]
   ],
   "GR": [
@@ -1280,6 +1298,74 @@
     [
       "Tabernathe iboga",
       "Piper methysticum"
+    ],
+    [
+      "Psilocybe Species",
+      "Tramadol"
+    ],
+    [
+      "DOx",
+      "Cathinone"
+    ],
+    [
+      "NBOMes",
+      "Cathinone"
+    ],
+    [
+      "2C-T-x",
+      "Cathinone"
+    ],
+    [
+      "5-MeO-xxT",
+      "Cathinone"
+    ],
+    [
+      "DXM",
+      "Cathinone"
+    ],
+    [
+      "Tramadol",
+      "Psilocybe Species"
+    ],
+    [
+      "Banisteriopsis caapi",
+      "Cathinone"
+    ],
+    [
+      "Piper methysticum",
+      "Cathinone"
+    ],
+    [
+      "Cathinone",
+      "DOx"
+    ],
+    [
+      "Cathinone",
+      "NBOMes"
+    ],
+    [
+      "Cathinone",
+      "2C-T-x"
+    ],
+    [
+      "Cathinone",
+      "5-MeO-xxT"
+    ],
+    [
+      "Cathinone",
+      "DXM"
+    ],
+    [
+      "Cathinone",
+      "Banisteriopsis caapi"
+    ],
+    [
+      "Cathinone",
+      "Piper methysticum"
+    ],
+    [
+      "Eroxythylum coca",
+      "Cathinone"
     ]
   ],
   "MR": [
@@ -3538,11 +3624,303 @@
     [
       "Tabernathe iboga",
       "Eroxythylum coca"
+    ],
+    [
+      "LSD",
+      "Cathinone"
+    ],
+    [
+      "Psilocybe Species",
+      "Cannabis"
+    ],
+    [
+      "Psilocybe Species",
+      "Amphetamines"
+    ],
+    [
+      "Psilocybe Species",
+      "Cocaine"
+    ],
+    [
+      "Psilocybe Species",
+      "Catha edulis"
+    ],
+    [
+      "Psilocybe Species",
+      "Cathinone"
+    ],
+    [
+      "Psilocybe Species",
+      "Ephedra sinica"
+    ],
+    [
+      "Psilocybe Species",
+      "Eroxythylum coca"
+    ],
+    [
+      "Psilocybe Species",
+      "Tabernathe iboga"
+    ],
+    [
+      "DMT",
+      "Cathinone"
+    ],
+    [
+      "Mescaline",
+      "Cathinone"
+    ],
+    [
+      "2C-x",
+      "Cathinone"
+    ],
+    [
+      "Cannabis",
+      "Psilocybe Species"
+    ],
+    [
+      "Cannabis",
+      "Cathinone"
+    ],
+    [
+      "Ketamine",
+      "Cathinone"
+    ],
+    [
+      "MXE",
+      "Cathinone"
+    ],
+    [
+      "Amphetamines",
+      "Psilocybe Species"
+    ],
+    [
+      "Amphetamines",
+      "Cathinone"
+    ],
+    [
+      "Cocaine",
+      "Psilocybe Species"
+    ],
+    [
+      "Cocaine",
+      "Cathinone"
+    ],
+    [
+      "Caffeine",
+      "Cathinone"
+    ],
+    [
+      "Alcohol",
+      "Cathinone"
+    ],
+    [
+      "GHB/GBL",
+      "Cathinone"
+    ],
+    [
+      "Opioids",
+      "Cathinone"
+    ],
+    [
+      "Salvia divonorum",
+      "Cathinone"
+    ],
+    [
+      "Acacia species",
+      "Cathinone"
+    ],
+    [
+      "Mimosa tenuiflora",
+      "Cathinone"
+    ],
+    [
+      "Panaelous cyanescens",
+      "Cathinone"
+    ],
+    [
+      "Argyreia nervosa",
+      "Cathinone"
+    ],
+    [
+      "Ipomea violacea",
+      "Cathinone"
+    ],
+    [
+      "Rivea corymbosa",
+      "Cathinone"
+    ],
+    [
+      "Trichocereus species",
+      "Cathinone"
+    ],
+    [
+      "Lophpopra willamsii",
+      "Cathinone"
+    ],
+    [
+      "Incillius alvarius",
+      "Cathinone"
+    ],
+    [
+      "Cathinone",
+      "LSD"
+    ],
+    [
+      "Cathinone",
+      "Psilocybin"
+    ],
+    [
+      "Cathinone",
+      "Psilocybe Species"
+    ],
+    [
+      "Cathinone",
+      "DMT"
+    ],
+    [
+      "Cathinone",
+      "Mescaline"
+    ],
+    [
+      "Cathinone",
+      "2C-x"
+    ],
+    [
+      "Cathinone",
+      "Cannabis"
+    ],
+    [
+      "Cathinone",
+      "Ketamine"
+    ],
+    [
+      "Cathinone",
+      "MXE"
+    ],
+    [
+      "Cathinone",
+      "Amphetamines"
+    ],
+    [
+      "Cathinone",
+      "Cocaine"
+    ],
+    [
+      "Cathinone",
+      "Caffeine"
+    ],
+    [
+      "Cathinone",
+      "Alcohol"
+    ],
+    [
+      "Cathinone",
+      "GHB/GBL"
+    ],
+    [
+      "Cathinone",
+      "Opioids"
+    ],
+    [
+      "Cathinone",
+      "Salvia divonorum"
+    ],
+    [
+      "Cathinone",
+      "Acacia species"
+    ],
+    [
+      "Cathinone",
+      "Mimosa tenuiflora"
+    ],
+    [
+      "Cathinone",
+      "Panaelous cyanescens"
+    ],
+    [
+      "Cathinone",
+      "Argyreia nervosa"
+    ],
+    [
+      "Cathinone",
+      "Ipomea violacea"
+    ],
+    [
+      "Cathinone",
+      "Rivea corymbosa"
+    ],
+    [
+      "Cathinone",
+      "Trichocereus species"
+    ],
+    [
+      "Cathinone",
+      "Lophpopra willamsii"
+    ],
+    [
+      "Cathinone",
+      "Incillius alvarius"
+    ],
+    [
+      "Cathinone",
+      "Ephedra sinica"
+    ],
+    [
+      "Cathinone",
+      "Eroxythylum coca"
+    ],
+    [
+      "Cathinone",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "Cathinone",
+      "Tabernathe iboga"
+    ],
+    [
+      "Ephedra sinica",
+      "Psilocybe Species"
+    ],
+    [
+      "Ephedra sinica",
+      "Cathinone"
+    ],
+    [
+      "Eroxythylum coca",
+      "Psilocybe Species"
+    ],
+    [
+      "Phyllomedusa bicolor",
+      "Cathinone"
+    ],
+    [
+      "Tabernathe iboga",
+      "Psilocybe Species"
+    ],
+    [
+      "Tabernathe iboga",
+      "Cathinone"
+    ],
+    [
+      "Psilocybe Species",
+      "Cathinone"
+    ],
+    [
+      "Cathinone",
+      "Psilocybe Species"
     ]
   ],
   "LRS": [
     [
       "LSD",
+      "Psilocybin"
+    ],
+    [
+      "Catha edulis",
+      "Cathinone"
+    ],
+    [
+      "Psilocybe Species",
       "Psilocybin"
     ],
     [
@@ -5876,6 +6254,230 @@
     [
       "Tabernathe iboga",
       "Salvia divonorum"
+    ],
+    [
+      "LSD",
+      "Psilocybe Species"
+    ],
+    [
+      "Psilocybe Species",
+      "LSD"
+    ],
+    [
+      "Psilocybe Species",
+      "DMT"
+    ],
+    [
+      "Psilocybe Species",
+      "Mescaline"
+    ],
+    [
+      "Psilocybe Species",
+      "DOx"
+    ],
+    [
+      "Psilocybe Species",
+      "NBOMes"
+    ],
+    [
+      "Psilocybe Species",
+      "2C-x"
+    ],
+    [
+      "Psilocybe Species",
+      "2C-T-x"
+    ],
+    [
+      "Psilocybe Species",
+      "5-MeO-xxT"
+    ],
+    [
+      "Psilocybe Species",
+      "Ketamine"
+    ],
+    [
+      "Psilocybe Species",
+      "MXE"
+    ],
+    [
+      "Psilocybe Species",
+      "DXM"
+    ],
+    [
+      "Psilocybe Species",
+      "Nitrous "
+    ],
+    [
+      "Psilocybe Species",
+      "MDMA"
+    ],
+    [
+      "Psilocybe Species",
+      "MAOIs"
+    ],
+    [
+      "Psilocybe Species",
+      "Salvia divonorum"
+    ],
+    [
+      "Psilocybe Species",
+      "Acacia species"
+    ],
+    [
+      "Psilocybe Species",
+      "Mimosa tenuiflora"
+    ],
+    [
+      "Psilocybe Species",
+      "Panaelous cyanescens"
+    ],
+    [
+      "Psilocybe Species",
+      "Argyreia nervosa"
+    ],
+    [
+      "Psilocybe Species",
+      "Ipomea violacea"
+    ],
+    [
+      "Psilocybe Species",
+      "Rivea corymbosa"
+    ],
+    [
+      "Psilocybe Species",
+      "Trichocereus species"
+    ],
+    [
+      "Psilocybe Species",
+      "Lophpopra willamsii"
+    ],
+    [
+      "Psilocybe Species",
+      "Incillius alvarius"
+    ],
+    [
+      "Psilocybe Species",
+      "Banisteriopsis caapi"
+    ],
+    [
+      "Psilocybe Species",
+      "Piper methysticum"
+    ],
+    [
+      "DMT",
+      "Psilocybe Species"
+    ],
+    [
+      "Mescaline",
+      "Psilocybe Species"
+    ],
+    [
+      "DOx",
+      "Psilocybe Species"
+    ],
+    [
+      "NBOMes",
+      "Psilocybe Species"
+    ],
+    [
+      "2C-x",
+      "Psilocybe Species"
+    ],
+    [
+      "2C-T-x",
+      "Psilocybe Species"
+    ],
+    [
+      "5-MeO-xxT",
+      "Psilocybe Species"
+    ],
+    [
+      "Ketamine",
+      "Psilocybe Species"
+    ],
+    [
+      "MXE",
+      "Psilocybe Species"
+    ],
+    [
+      "DXM",
+      "Psilocybe Species"
+    ],
+    [
+      "Nitrous ",
+      "Psilocybe Species"
+    ],
+    [
+      "Nitrous ",
+      "Cathinone"
+    ],
+    [
+      "MDMA",
+      "Psilocybe Species"
+    ],
+    [
+      "MDMA",
+      "Cathinone"
+    ],
+    [
+      "MAOIs",
+      "Psilocybe Species"
+    ],
+    [
+      "Salvia divonorum",
+      "Psilocybe Species"
+    ],
+    [
+      "Acacia species",
+      "Psilocybe Species"
+    ],
+    [
+      "Mimosa tenuiflora",
+      "Psilocybe Species"
+    ],
+    [
+      "Panaelous cyanescens",
+      "Psilocybe Species"
+    ],
+    [
+      "Argyreia nervosa",
+      "Psilocybe Species"
+    ],
+    [
+      "Ipomea violacea",
+      "Psilocybe Species"
+    ],
+    [
+      "Rivea corymbosa",
+      "Psilocybe Species"
+    ],
+    [
+      "Trichocereus species",
+      "Psilocybe Species"
+    ],
+    [
+      "Lophpopra willamsii",
+      "Psilocybe Species"
+    ],
+    [
+      "Incillius alvarius",
+      "Psilocybe Species"
+    ],
+    [
+      "Banisteriopsis caapi",
+      "Psilocybe Species"
+    ],
+    [
+      "Piper methysticum",
+      "Psilocybe Species"
+    ],
+    [
+      "Cathinone",
+      "Nitrous "
+    ],
+    [
+      "Cathinone",
+      "MDMA"
     ]
   ],
   "LRD": [
@@ -6694,6 +7296,70 @@
     [
       "Eroxythylum coca",
       "Benzodiazepine"
+    ],
+    [
+      "Psilocybe Species",
+      "Alcohol"
+    ],
+    [
+      "Psilocybe Species",
+      "GHB/GBL"
+    ],
+    [
+      "Psilocybe Species",
+      "Benzodiazepine"
+    ],
+    [
+      "Psilocybe Species",
+      "SSRIs"
+    ],
+    [
+      "Alcohol",
+      "Psilocybe Species"
+    ],
+    [
+      "GHB/GBL",
+      "Psilocybe Species"
+    ],
+    [
+      "Benzodiazepine",
+      "Psilocybe Species"
+    ],
+    [
+      "Benzodiazepine",
+      "Cathinone"
+    ],
+    [
+      "SSRIs",
+      "Psilocybe Species"
+    ],
+    [
+      "Amanita muscaria",
+      "Cathinone"
+    ],
+    [
+      "Mitragyna speciosa",
+      "Cathinone"
+    ],
+    [
+      "Papaver somnifarem",
+      "Cathinone"
+    ],
+    [
+      "Cathinone",
+      "Benzodiazepine"
+    ],
+    [
+      "Cathinone",
+      "Amanita muscaria"
+    ],
+    [
+      "Cathinone",
+      "Mitragyna speciosa"
+    ],
+    [
+      "Cathinone",
+      "Papaver somnifarem"
     ]
   ],
   "LRNS": [
@@ -7964,6 +8630,62 @@
     [
       "Phyllomedusa bicolor",
       "Eroxythylum coca"
+    ],
+    [
+      "Psilocybe Species",
+      "Caffeine"
+    ],
+    [
+      "Psilocybe Species",
+      "Opioids"
+    ],
+    [
+      "Psilocybe Species",
+      "Amanita muscaria"
+    ],
+    [
+      "Psilocybe Species",
+      "Mitragyna speciosa"
+    ],
+    [
+      "Psilocybe Species",
+      "Papaver somnifarem"
+    ],
+    [
+      "Psilocybe Species",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "Caffeine",
+      "Psilocybe Species"
+    ],
+    [
+      "Opioids",
+      "Psilocybe Species"
+    ],
+    [
+      "SSRIs",
+      "Cathinone"
+    ],
+    [
+      "Amanita muscaria",
+      "Psilocybe Species"
+    ],
+    [
+      "Mitragyna speciosa",
+      "Psilocybe Species"
+    ],
+    [
+      "Papaver somnifarem",
+      "Psilocybe Species"
+    ],
+    [
+      "Cathinone",
+      "SSRIs"
+    ],
+    [
+      "Phyllomedusa bicolor",
+      "Psilocybe Species"
     ]
   ]
 }

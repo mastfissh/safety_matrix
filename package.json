@@ -8,7 +8,8 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "ingest": "node ./src/ingest.js"
+    "ingest": "node ./src/ingest.js",
+    "add": "node ./src/add_substances.js"
   },
   "dependencies": {
     "@astrojs/mdx": "^0.19.1",
