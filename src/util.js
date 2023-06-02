@@ -25,7 +25,7 @@ function strip_weird_chars(str){
   return str.replaceAll('/', '-').replaceAll(' ', '-')
 }
 export function linkify(str){
-  return strip_weird_chars(str).replaceAll('-+-', '-').toLowerCase()
+  return strip_weird_chars(str).replaceAll('-+-', '_').toLowerCase()
 }
 
 export function risk_css_prefix(str) {

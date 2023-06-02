@@ -20,7 +20,7 @@
     "Caffeine",
     "Alcohol",
     "GHB/GBL",
-    "Opiods",
+    "Opioids",
     "Tramadol",
     "Benzodiazepine",
     "MAOIs",
@@ -77,7 +77,7 @@
     ],
     [
       "Ketamine",
-      "Opiods"
+      "Opioids"
     ],
     [
       "Ketamine",
@@ -105,7 +105,7 @@
     ],
     [
       "MXE",
-      "Opiods"
+      "Opioids"
     ],
     [
       "MXE",
@@ -137,7 +137,7 @@
     ],
     [
       "DXM",
-      "Opiods"
+      "Opioids"
     ],
     [
       "DXM",
@@ -209,7 +209,7 @@
     ],
     [
       "Cocaine",
-      "Opiods"
+      "Opioids"
     ],
     [
       "Cocaine",
@@ -257,7 +257,7 @@
     ],
     [
       "Alcohol",
-      "Opiods"
+      "Opioids"
     ],
     [
       "Alcohol",
@@ -297,7 +297,7 @@
     ],
     [
       "GHB/GBL",
-      "Opiods"
+      "Opioids"
     ],
     [
       "GHB/GBL",
@@ -320,39 +320,39 @@
       "Phyllomedusa bicolor"
     ],
     [
-      "Opiods",
+      "Opioids",
       "Ketamine"
     ],
     [
-      "Opiods",
+      "Opioids",
       "MXE"
     ],
     [
-      "Opiods",
+      "Opioids",
       "DXM"
     ],
     [
-      "Opiods",
+      "Opioids",
       "Cocaine"
     ],
     [
-      "Opiods",
+      "Opioids",
       "Alcohol"
     ],
     [
-      "Opiods",
+      "Opioids",
       "GHB/GBL"
     ],
     [
-      "Opiods",
+      "Opioids",
       "Tramadol"
     ],
     [
-      "Opiods",
+      "Opioids",
       "Benzodiazepine"
     ],
     [
-      "Opiods",
+      "Opioids",
       "Eroxythylum coca"
     ],
     [
@@ -389,7 +389,7 @@
     ],
     [
       "Tramadol",
-      "Opiods"
+      "Opioids"
     ],
     [
       "Tramadol",
@@ -445,7 +445,7 @@
     ],
     [
       "Benzodiazepine",
-      "Opiods"
+      "Opioids"
     ],
     [
       "Benzodiazepine",
@@ -577,7 +577,7 @@
     ],
     [
       "Banisteriopsis caapi",
-      "Opiods"
+      "Opioids"
     ],
     [
       "Banisteriopsis caapi",
@@ -621,7 +621,7 @@
     ],
     [
       "Eroxythylum coca",
-      "Opiods"
+      "Opioids"
     ],
     [
       "Eroxythylum coca",
@@ -1917,7 +1917,7 @@
     ],
     [
       "Nitrous ",
-      "Opiods"
+      "Opioids"
     ],
     [
       "Nitrous ",
@@ -1989,7 +1989,7 @@
     ],
     [
       "Amphetamines",
-      "Opiods"
+      "Opioids"
     ],
     [
       "Amphetamines",
@@ -2304,39 +2304,39 @@
       "Tabernathe iboga"
     ],
     [
-      "Opiods",
+      "Opioids",
       "Nitrous "
     ],
     [
-      "Opiods",
+      "Opioids",
       "Amphetamines"
     ],
     [
-      "Opiods",
+      "Opioids",
       "MAOIs"
     ],
     [
-      "Opiods",
+      "Opioids",
       "Amanita muscaria"
     ],
     [
-      "Opiods",
+      "Opioids",
       "Banisteriopsis caapi"
     ],
     [
-      "Opiods",
+      "Opioids",
       "Piper methysticum"
     ],
     [
-      "Opiods",
+      "Opioids",
       "Catha edulis"
     ],
     [
-      "Opiods",
+      "Opioids",
       "Ephedra sinica"
     ],
     [
-      "Opiods",
+      "Opioids",
       "Tabernathe iboga"
     ],
     [
@@ -2397,7 +2397,7 @@
     ],
     [
       "MAOIs",
-      "Opiods"
+      "Opioids"
     ],
     [
       "MAOIs",
@@ -2673,7 +2673,7 @@
     ],
     [
       "Amanita muscaria",
-      "Opiods"
+      "Opioids"
     ],
     [
       "Amanita muscaria",
@@ -2989,7 +2989,7 @@
     ],
     [
       "Piper methysticum",
-      "Opiods"
+      "Opioids"
     ],
     [
       "Piper methysticum",
@@ -3065,7 +3065,7 @@
     ],
     [
       "Catha edulis",
-      "Opiods"
+      "Opioids"
     ],
     [
       "Catha edulis",
@@ -3173,7 +3173,7 @@
     ],
     [
       "Ephedra sinica",
-      "Opiods"
+      "Opioids"
     ],
     [
       "Ephedra sinica",
@@ -3489,7 +3489,7 @@
     ],
     [
       "Tabernathe iboga",
-      "Opiods"
+      "Opioids"
     ],
     [
       "Tabernathe iboga",
@@ -4207,7 +4207,7 @@
     ],
     [
       "Cannabis",
-      "Opiods"
+      "Opioids"
     ],
     [
       "Cannabis",
@@ -4710,23 +4710,23 @@
       "Piper methysticum"
     ],
     [
-      "Opiods",
+      "Opioids",
       "Cannabis"
     ],
     [
-      "Opiods",
+      "Opioids",
       "Salvia divonorum"
     ],
     [
-      "Opiods",
+      "Opioids",
       "Mitragyna speciosa"
     ],
     [
-      "Opiods",
+      "Opioids",
       "Papaver somnifarem"
     ],
     [
-      "Opiods",
+      "Opioids",
       "Phyllomedusa bicolor"
     ],
     [
@@ -4847,7 +4847,7 @@
     ],
     [
       "Salvia divonorum",
-      "Opiods"
+      "Opioids"
     ],
     [
       "Salvia divonorum",
@@ -5723,7 +5723,7 @@
     ],
     [
       "Mitragyna speciosa",
-      "Opiods"
+      "Opioids"
     ],
     [
       "Mitragyna speciosa",
@@ -5735,7 +5735,7 @@
     ],
     [
       "Papaver somnifarem",
-      "Opiods"
+      "Opioids"
     ],
     [
       "Papaver somnifarem",
@@ -5871,7 +5871,7 @@
     ],
     [
       "Phyllomedusa bicolor",
-      "Opiods"
+      "Opioids"
     ],
     [
       "Tabernathe iboga",
@@ -6703,7 +6703,7 @@
     ],
     [
       "LSD",
-      "Opiods"
+      "Opioids"
     ],
     [
       "LSD",
@@ -6727,7 +6727,7 @@
     ],
     [
       "Psilocybin",
-      "Opiods"
+      "Opioids"
     ],
     [
       "Psilocybin",
@@ -6751,7 +6751,7 @@
     ],
     [
       "DMT",
-      "Opiods"
+      "Opioids"
     ],
     [
       "DMT",
@@ -6775,7 +6775,7 @@
     ],
     [
       "Mescaline",
-      "Opiods"
+      "Opioids"
     ],
     [
       "Mescaline",
@@ -6795,7 +6795,7 @@
     ],
     [
       "DOx",
-      "Opiods"
+      "Opioids"
     ],
     [
       "DOx",
@@ -6815,7 +6815,7 @@
     ],
     [
       "NBOMes",
-      "Opiods"
+      "Opioids"
     ],
     [
       "NBOMes",
@@ -6839,7 +6839,7 @@
     ],
     [
       "2C-x",
-      "Opiods"
+      "Opioids"
     ],
     [
       "2C-x",
@@ -6863,7 +6863,7 @@
     ],
     [
       "2C-T-x",
-      "Opiods"
+      "Opioids"
     ],
     [
       "2C-T-x",
@@ -6887,7 +6887,7 @@
     ],
     [
       "5-MeO-xxT",
-      "Opiods"
+      "Opioids"
     ],
     [
       "5-MeO-xxT",
@@ -6987,7 +6987,7 @@
     ],
     [
       "MDMA",
-      "Opiods"
+      "Opioids"
     ],
     [
       "MDMA",
@@ -7063,7 +7063,7 @@
     ],
     [
       "Caffeine",
-      "Opiods"
+      "Opioids"
     ],
     [
       "Caffeine",
@@ -7150,87 +7150,87 @@
       "SSRIs"
     ],
     [
-      "Opiods",
+      "Opioids",
       "LSD"
     ],
     [
-      "Opiods",
+      "Opioids",
       "Psilocybin"
     ],
     [
-      "Opiods",
+      "Opioids",
       "DMT"
     ],
     [
-      "Opiods",
+      "Opioids",
       "Mescaline"
     ],
     [
-      "Opiods",
+      "Opioids",
       "DOx"
     ],
     [
-      "Opiods",
+      "Opioids",
       "NBOMes"
     ],
     [
-      "Opiods",
+      "Opioids",
       "2C-x"
     ],
     [
-      "Opiods",
+      "Opioids",
       "2C-T-x"
     ],
     [
-      "Opiods",
+      "Opioids",
       "5-MeO-xxT"
     ],
     [
-      "Opiods",
+      "Opioids",
       "MDMA"
     ],
     [
-      "Opiods",
+      "Opioids",
       "Caffeine"
     ],
     [
-      "Opiods",
+      "Opioids",
       "SSRIs"
     ],
     [
-      "Opiods",
+      "Opioids",
       "Acacia species"
     ],
     [
-      "Opiods",
+      "Opioids",
       "Mimosa tenuiflora"
     ],
     [
-      "Opiods",
+      "Opioids",
       "Panaelous cyanescens"
     ],
     [
-      "Opiods",
+      "Opioids",
       "Argyreia nervosa"
     ],
     [
-      "Opiods",
+      "Opioids",
       "Ipomea violacea"
     ],
     [
-      "Opiods",
+      "Opioids",
       "Rivea corymbosa"
     ],
     [
-      "Opiods",
+      "Opioids",
       "Trichocereus species"
     ],
     [
-      "Opiods",
+      "Opioids",
       "Lophpopra willamsii"
     ],
     [
-      "Opiods",
+      "Opioids",
       "Incillius alvarius"
     ],
     [
@@ -7283,7 +7283,7 @@
     ],
     [
       "SSRIs",
-      "Opiods"
+      "Opioids"
     ],
     [
       "SSRIs",
@@ -7335,7 +7335,7 @@
     ],
     [
       "Acacia species",
-      "Opiods"
+      "Opioids"
     ],
     [
       "Acacia species",
@@ -7355,7 +7355,7 @@
     ],
     [
       "Mimosa tenuiflora",
-      "Opiods"
+      "Opioids"
     ],
     [
       "Mimosa tenuiflora",
@@ -7375,7 +7375,7 @@
     ],
     [
       "Panaelous cyanescens",
-      "Opiods"
+      "Opioids"
     ],
     [
       "Panaelous cyanescens",
@@ -7395,7 +7395,7 @@
     ],
     [
       "Argyreia nervosa",
-      "Opiods"
+      "Opioids"
     ],
     [
       "Argyreia nervosa",
@@ -7419,7 +7419,7 @@
     ],
     [
       "Ipomea violacea",
-      "Opiods"
+      "Opioids"
     ],
     [
       "Ipomea violacea",
@@ -7443,7 +7443,7 @@
     ],
     [
       "Rivea corymbosa",
-      "Opiods"
+      "Opioids"
     ],
     [
       "Rivea corymbosa",
@@ -7563,7 +7563,7 @@
     ],
     [
       "Trichocereus species",
-      "Opiods"
+      "Opioids"
     ],
     [
       "Trichocereus species",
@@ -7583,7 +7583,7 @@
     ],
     [
       "Lophpopra willamsii",
-      "Opiods"
+      "Opioids"
     ],
     [
       "Lophpopra willamsii",
@@ -7603,7 +7603,7 @@
     ],
     [
       "Incillius alvarius",
-      "Opiods"
+      "Opioids"
     ],
     [
       "Incillius alvarius",
