@@ -50,8 +50,6 @@ let data = entry.data
   import 'chartjs-adapter-luxon';
   const now = DateTime.fromISO('12:00')
   const ctx = document.getElementById('myChart');
-  // console.debug(window.data)
-  // duration_chart: { onset: '60m', coming_up: '22m', plateau: '3h', coming_down: '90m' }
   let duration_chart = window.data.duration_chart
   let onset = Duration.fromISO("PT"+duration_chart.onset.toUpperCase())
   let coming_up = Duration.fromISO("PT"+duration_chart.coming_up.toUpperCase())
