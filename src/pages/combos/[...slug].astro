@@ -1,5 +1,5 @@
 ---
-import { getCollection } from 'astro:content';
+import { getCollection, getEntry } from 'astro:content';
 // 1. Generate a new path for every collection entry
 export async function getStaticPaths() {
   const pages = await getCollection('combos');
@@ -19,11 +19,18 @@ let visible = false
 if (entry.data.display_grid){
   visible = true
 }
+import Drugimage from '../../components/drugimage.astro';
 import Disclaimer from '../../components/disclaimer.astro';
+let [drug1, drug2] = entry.data.slug.split('_')
+
+const drug1_info = await getEntry('substances', drug1);
+const drug2_info = await getEntry('substances', drug2);
 ---
 <BaseLayout pageTitle={entry.data.title}>
   <article class="prose lg:prose-xl mx-auto">
     <h2> {entry.data.title} </h2>
+    <Drugimage entry={drug1_info} />
+    <Drugimage entry={drug2_info} />
     <Content />
   </article>
 <Disclaimer />

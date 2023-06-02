@@ -1,0 +1,9 @@
+---
+const { entry } = Astro.props;
+---
+{entry &&
+<span>
+<img src={"/safety_matrix"+entry.data.image_location} />
+    {entry.data.image_caption}
+  </span>
+  }

@@ -20,13 +20,13 @@ if (entry.data.display_grid){
   visible = true
 }
 import Disclaimer from '../../components/disclaimer.astro';
+import Drugimage from '../../components/drugimage.astro';
 let data = entry.data
 ---
 <BaseLayout pageTitle={entry.data.title}>
   <article class="prose lg:prose-xl mx-auto">
     <h2> {entry.data.title} </h2>
-    <img src={"/safety_matrix"+entry.data.image_location} />
-    {entry.data.image_caption}
+    <Drugimage entry={entry} />
     <h3>Commonly Known as: </h3>
       <ul >
     {entry.data.aka.map((name) => (
