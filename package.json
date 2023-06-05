@@ -9,6 +9,7 @@
     "preview": "astro preview",
     "astro": "astro",
     "ingest": "node ./src/ingest.js",
+    "ingestconf": "node ./src/confidence_ingest.js",
     "add": "node ./src/add_substances.js"
   },
   "dependencies": {
