@@ -2,7 +2,7 @@
 
 const { page, data } = Astro.props;
 let drugs = data["drugs"].filter(item => item !== page)
-import { combo, risk,risk_css_prefix, drug_css_prefix } from '../util';
+import { combo, risk,risk_css_prefix, drug_css_prefix, confidence } from '../util';
 import '../style.css';
 import Druglink from './druglink.astro';
 ---
@@ -57,6 +57,21 @@ window.onload = (event) => {
  <h5 class="text-xl font-bold"> Key </h5>
  <p>In this chart ‘risk’ refers to danger or hazard. ‘Synergy’ refers to increased subjective effects (or in some cases, the creation of an additional subjective effect), while ‘decrease’ refers to reduced subjective effects.
  </p>
+ <div class="flex space-x-4">
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    viewBox="0 0 24 24"
+    stroke-width="1.5"
+    stroke="currentColor"
+    class="h-8 w-8">
+    <path
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126zM12 15.75h.007v.008H12v-.008z" />
+  </svg>
+  This icon indicates that there's low confidence in the risk rating
+</div>
  <span class="grid grid-cols-3">
     <span class = "risk_SR text-m font-medium m-2 px-2.5 py-0.5 rounded"> Significant Risk</span>
     <span class = "risk_GR text-m font-medium m-2 px-2.5 py-0.5 rounded"> Greater Risk</span>
@@ -79,7 +94,7 @@ window.onload = (event) => {
       <tr class:list={drug_css_prefix(drugrow)}>
         <td class:list={drug_css_prefix(drugrow)}>{drugrow}</td>
         {drugs.map((drugcell) => (
-          <td class:list={[risk_css_prefix(risk([page,drugrow,drugcell], data)),drug_css_prefix(drugrow),drug_css_prefix(drugcell)]}><Druglink drug={combo([page,drugrow,drugcell])} /></td>
+          <td class:list={[risk_css_prefix(risk([page,drugrow,drugcell], data)),drug_css_prefix(drugrow),drug_css_prefix(drugcell)]}><Druglink drug={combo([page,drugrow,drugcell])} conf={confidence([page,drugrow,drugcell], data)} /></td>
          ))}
       </tr>
      ))}

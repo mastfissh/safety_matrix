@@ -21,6 +21,22 @@ export function risk(list, data){
   }
   return "unknown"
 }
+
+export function confidence(list, data){
+  let canon = combo(list)
+  for (let conf of data['conf_levels']) {
+    for (let candidate of data[conf]){
+      if (combo(candidate) == canon){
+        return conf
+      }
+    }
+  }
+  if (!((""+canon).includes('+'))){
+    return "na"
+  }
+  return "unknown"
+
+}
 function strip_weird_chars(str){
   return str.replaceAll('/', '-').replaceAll(' ', '-')
 }
