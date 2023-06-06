@@ -38,7 +38,7 @@ If there is a psychoactive product that is not listed but should be, or if you h
     <h3>Substance pages: </h3>
       <ul >
     {substances.map((substance) => (
-      <li><a class="font-medium text-blue-600 underline dark:text-blue-900 hover:no-underline" href={'/safety_matrix/substances/' + substance.data.slug}> {substance.data.title} </a></li>
+      <li><a class="font-medium text-blue-600 underline dark:text-blue-900 hover:no-underline" href={`${import.meta.env.BASE_URL}substances/` + substance.data.slug}> {substance.data.title} </a></li>
       ))}</ul>
 
 </BaseLayout>
