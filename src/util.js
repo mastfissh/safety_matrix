@@ -11,7 +11,7 @@ export function risk(list, data){
   let canon = combo(list)
   for (let risk of data['risk_levels']) {
     for (let candidate of data[risk]){
-      if (combo(candidate) == canon){
+      if (linkify(combo(candidate)) == linkify(canon)){
         return risk
       }
     }
@@ -26,7 +26,7 @@ export function confidence(list, data){
   let canon = combo(list)
   for (let conf of data['conf_levels']) {
     for (let candidate of data[conf]){
-      if (combo(candidate) == canon){
+      if (linkify(combo(candidate)) == linkify(canon)){
         return conf
       }
     }
