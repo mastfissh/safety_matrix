@@ -20,6 +20,9 @@ if (entry.data.display_grid){
   visible = true
 }
 import Disclaimer from '../../components/disclaimer.astro';
+import ConfidencePanel from '../../components/confidence_panel.astro';
+import RiskPanel from '../../components/risk_panel.astro';
+import Disclaimer from '../../components/disclaimer.astro';
 import Drugimage from '../../components/drugimage.astro';
 let data = entry.data
 ---
@@ -35,6 +38,8 @@ let data = entry.data
       </li>
       ))
     }</ul>
+     <ConfidencePanel conf={entry.data.confidence}/>
+     <RiskPanel risk={entry.data.risk}/>
     <Content />
   </article>
   <div class="block rounded-lg my-6 bg-slate-100 p-6 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] max-w-2xl mx-auto">

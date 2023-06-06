@@ -1,0 +1,14 @@
+---
+const { risk } = Astro.props;
+let risk_map = {
+SR : "Significant Risk",
+GR : "Greater Risk",
+MR : "Minor Risk",
+LRS : "Low Risk Synergy",
+LRD : "Low Risk Decrease",
+LRNS : "Low Risk No Synergy",
+}
+---
+<div>
+The risk is {risk_map[risk]}
+</div>
