@@ -5,8 +5,6 @@ import { getCollection } from 'astro:content';
 const substances = await getCollection('substances');
 const combos = await getCollection('combos');
 
-
-const substances = await getCollection('substances');
 let idx = {}
 for (let sub of substances){
   idx[sub['slug']] = sub
