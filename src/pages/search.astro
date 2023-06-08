@@ -1,0 +1,83 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+const pageTitle = "Search";
+import { getCollection } from 'astro:content';
+const substances = await getCollection('substances');
+const combos = await getCollection('combos');
+
+
+
+let idx = {}
+for (let sub of substances){
+  idx[sub['slug']] = sub
+}
+
+function combo_to_keywords(entry){
+  let [drug1, drug2] = entry.data.slug.split('_')
+  const drug1_info = idx[drug1];
+  const drug2_info = idx[drug2];
+  let out = []
+  if (drug1_info){
+    out = out.concat(entry_to_key_arr(drug1_info))
+  } else {
+    out = out.concat([drug1])
+  }
+  if (drug2_info){
+    out = out.concat(entry_to_key_arr(drug2_info))
+  } else {
+    out = out.concat([drug2])
+  }
+  return out.join(',')
+}
+
+function entry_to_key_arr(entry) {
+  return [entry.data.slug].concat(entry.data.aka)
+}
+
+function drug_to_keywords(entry){
+  return entry_to_key_arr(entry).join(',')
+}
+
+---
+<script>
+window.onload = (event) => {
+  const search = document.getElementById('search')
+  const items = document.querySelectorAll('.searchable');
+  search.addEventListener("input", (event) => {
+    items.forEach((item) => {
+      if (item.dataset.keywords.toLowerCase().search(search.value.toLowerCase()) != -1){
+        item.style.display = '';
+      } else {
+        item.style.display = 'none';
+      }
+    })
+  });
+}
+</script>
+<BaseLayout pageTitle={pageTitle}>
+<div class="container px-6 mx-auto">
+  <form>
+    <label for="search" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
+    <div class="relative">
+        <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+            <svg aria-hidden="true" class="w-5 h-5 text-gray-500 dark:text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+        </div>
+        <input type="search" id="search" class="block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search" required>
+
+    </div>
+</form>
+
+  <h3>Substance pages: </h3>
+      <ul >
+    {substances.map((substance) => (
+      <li class="searchable" data-keywords={drug_to_keywords(substance)}><a class="font-medium text-blue-600 underline dark:text-blue-900 hover:no-underline" href={`${import.meta.env.BASE_URL}substances/` + substance.data.slug}> {substance.data.title} </a></li>
+      ))}</ul>
+
+  <h3>Combo pages: </h3>
+      <ul >
+    {combos.map((combo) => (
+      <li class="searchable" data-keywords={ combo_to_keywords(combo)}><a class="font-medium text-blue-600 underline dark:text-blue-900 hover:no-underline" href={`${import.meta.env.BASE_URL}combos/` + combo.data.slug}> {combo.data.title} </a></li>
+      ))}</ul>
+</div>
+</BaseLayout>
+
