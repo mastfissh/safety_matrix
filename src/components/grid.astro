@@ -2,9 +2,25 @@
 
 const { page, data } = Astro.props;
 let drugs = data["drugs"].filter(item => item !== page)
-import { combo, risk,risk_css_prefix, drug_css_prefix, confidence } from '../util';
+import { combo, risk,risk_css_prefix, drug_css_prefix, confidence, linkify } from '../util';
 import '../style.css';
 import Druglink from './druglink.astro';
+import { getCollection } from 'astro:content';
+const substances = await getCollection('substances');
+let idx = {}
+for (let sub of substances){
+  idx[sub['slug']] = sub
+}
+
+function drug_to_keywords(drug){
+  drug = linkify(drug)
+  const drug_info = idx[drug];
+  let out = [drug]
+  if (drug_info){
+    out = out.concat(drug_info.data.aka)
+  }
+  return out.join(',')
+}
 ---
 <script>
 window.onload = (event) => {
@@ -49,6 +65,18 @@ window.onload = (event) => {
     outerbox.addEventListener('click', (event) => {
       compute_visibility()
     });
+  });
+
+  const search = document.getElementById('search')
+  const items = document.querySelectorAll('.searchable');
+  search.addEventListener("input", (event) => {
+    items.forEach((item) => {
+      if (item.dataset.keywords.toLowerCase().search(search.value.toLowerCase()) != -1){
+        item.style.display = '';
+      } else {
+        item.style.display = 'none';
+      }
+    })
   });
 };
 </script>
@@ -100,10 +128,20 @@ window.onload = (event) => {
      ))}
 </table>
 </div>
+<div clas="container">
+<form>
+    <label for="search" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
+    <div class="relative">
+        <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+            <svg aria-hidden="true" class="w-5 h-5 text-gray-500 dark:text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+        </div>
+        <input type="search" id="search" class="block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search" required>
 
+    </div>
+  </form>
 <ul class="grid w-full gap-6 grid-cols-3 md:grid-cols-5">
   {drugs.map((drug) => (
-    <li>
+    <li class="searchable" data-keywords={drug_to_keywords(drug)}>
         <input type="checkbox" class="filter_check hidden peer" id={drug_css_prefix(drug)} name={drug_css_prefix(drug)} value={drug_css_prefix(drug)} >
         <label for={drug_css_prefix(drug)} class="inline-flex items-center justify-between w-full p-5  bg-white border-2 border-gray-200 rounded-lg cursor-pointer hover:text-gray-300 border-gray-700 peer-checked:border-blue-600 peer-checked:text-gray-300  peer-checked:bg-gray-600 peer-checked:text-gray-50 text-gray-1000 ">
             <div class="block">
@@ -113,3 +151,4 @@ window.onload = (event) => {
     </li>
   ))}
 </ul>
+</div>
