@@ -11,7 +11,7 @@ export async function getStaticPaths() {
 const { entry } = Astro.props;
 const { Content } = await entry.render();
 import data from '../../data.json';
-let value = entry.data.slug
+let value = entry.slug
 
 import Grid from '../../components/grid.astro';
 import BaseLayout from '../../layouts/BaseLayout.astro';
@@ -23,7 +23,7 @@ import Drugimage from '../../components/drugimage.astro';
 import Disclaimer from '../../components/disclaimer.astro';
 import ConfidencePanel from '../../components/confidence_panel.astro';
 import RiskPanel from '../../components/risk_panel.astro';
-let [drug1, drug2] = entry.data.slug.split('_')
+let [drug1, drug2] = entry.slug.split('_')
 const drug1_info = await getEntry('substances', drug1);
 const drug2_info = await getEntry('substances', drug2);
 import { risk, confidence } from '../../util';
@@ -39,5 +39,5 @@ import { risk, confidence } from '../../util';
     <Content />
   </article>
 <Disclaimer />
-{visible && <Grid page={entry.data.slug} data={data} />}
+{visible && <Grid page={entry.slug} data={data} />}
 </BaseLayout>
