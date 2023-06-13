@@ -11,7 +11,7 @@ export async function getStaticPaths() {
 const { entry } = Astro.props;
 const { Content } = await entry.render();
 import data from '../../data.json';
-let value = entry.data.slug
+let value = entry.slug
 
 import Grid from '../../components/grid.astro';
 import BaseLayout from '../../layouts/BaseLayout.astro';
@@ -108,5 +108,5 @@ let data = entry.data
 </script>
 
 <Disclaimer />
-{visible && <Grid page={entry.data.slug} data={data} />}
+{visible && <Grid page={entry.slug} data={data} />}
 </BaseLayout>
