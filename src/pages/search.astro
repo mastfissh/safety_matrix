@@ -11,7 +11,7 @@ for (let sub of substances){
 }
 
 function combo_to_keywords(entry){
-  let [drug1, drug2] = entry.data.slug.split('_')
+  let [drug1, drug2] = entry.slug.split('_')
   const drug1_info = idx[drug1];
   const drug2_info = idx[drug2];
   let out = []
@@ -29,7 +29,7 @@ function combo_to_keywords(entry){
 }
 
 function entry_to_key_arr(entry) {
-  return [entry.data.slug].concat(entry.data.aka)
+  return [entry.slug].concat(entry.data.aka)
 }
 
 function drug_to_keywords(entry){
@@ -68,13 +68,13 @@ window.onload = (event) => {
   <h3>Substance pages: </h3>
       <ul >
     {substances.map((substance) => (
-      <li class="searchable" data-keywords={drug_to_keywords(substance)}><a class="font-medium text-blue-600 underline dark:text-blue-900 hover:no-underline" href={`${import.meta.env.BASE_URL}substances/` + substance.data.slug}> {substance.data.title} </a></li>
+      <li class="searchable" data-keywords={drug_to_keywords(substance)}><a class="font-medium text-blue-600 underline dark:text-blue-900 hover:no-underline" href={`${import.meta.env.BASE_URL}substances/` + substance.slug}> {substance.data.title} </a></li>
       ))}</ul>
 
   <h3>Combo pages: </h3>
       <ul >
     {combos.map((combo) => (
-      <li class="searchable" data-keywords={ combo_to_keywords(combo)}><a class="font-medium text-blue-600 underline dark:text-blue-900 hover:no-underline" href={`${import.meta.env.BASE_URL}combos/` + combo.data.slug}> {combo.data.title} </a></li>
+      <li class="searchable" data-keywords={ combo_to_keywords(combo)}><a class="font-medium text-blue-600 underline dark:text-blue-900 hover:no-underline" href={`${import.meta.env.BASE_URL}combos/` + combo.slug}> {combo.data.title} </a></li>
       ))}</ul>
 </div>
 </BaseLayout>
