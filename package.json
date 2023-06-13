@@ -10,7 +10,8 @@
     "astro": "astro",
     "ingest": "node ./src/ingest.js",
     "ingestconf": "node ./src/confidence_ingest.js",
-    "add": "node ./src/add_substances.js"
+    "add": "node ./src/add_substances.js",
+    "test" : "node ./src/test.js"
   },
   "dependencies": {
     "@astrojs/mdx": "^0.19.1",
