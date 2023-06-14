@@ -35,20 +35,28 @@ function entry_to_key_arr(entry) {
 function drug_to_keywords(entry){
   return entry_to_key_arr(entry).join(',')
 }
-
 ---
 <script>
 window.onload = (event) => {
   const search = document.getElementById('search')
   const items = document.querySelectorAll('.searchable');
-  search.addEventListener("input", (event) => {
+  function compute() {
     items.forEach((item) => {
-      if (item.dataset.keywords.toLowerCase().search(search.value.toLowerCase()) != -1){
+      let visible = (item.dataset.keywords.toLowerCase().search(search.value.toLowerCase()) != -1)
+      let wip = (item.dataset.wip == 'true')
+      if (window.location.hash == "#wip"){
+        visible = visible && wip
+      }
+      if (visible){
         item.style.display = '';
       } else {
         item.style.display = 'none';
       }
     })
+  }
+  compute()
+  search.addEventListener("input", (event) => {
+    compute()
   });
 }
 </script>
@@ -74,7 +82,7 @@ window.onload = (event) => {
   <h3>Combo pages: </h3>
       <ul >
     {combos.map((combo) => (
-      <li class="searchable" data-keywords={ combo_to_keywords(combo)}><a class="font-medium text-blue-600 underline dark:text-blue-900 hover:no-underline" href={`${import.meta.env.BASE_URL}combos/` + combo.slug}> {combo.data.title} </a></li>
+      <li class="searchable" data-keywords={ combo_to_keywords(combo)} data-wip={"" + !!combo.data.wip}><a class="font-medium text-blue-600 underline dark:text-blue-900 hover:no-underline" href={`${import.meta.env.BASE_URL}combos/` + combo.slug}> {combo.data.title}  </a></li>
       ))}</ul>
 </div>
 </BaseLayout>
