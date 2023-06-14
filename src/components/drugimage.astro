@@ -2,8 +2,13 @@
 const { entry } = Astro.props;
 ---
 {entry &&
-<span>
-<img src={`${import.meta.env.BASE_URL}${entry.data.image_location}`} />
+<figure class="mb-4 inline-block max-w-2-xl">
+  <img
+    src={`${import.meta.env.BASE_URL}${entry.data.image_location}`}
+    class="mb-4 h-auto max-w-full rounded-lg align-middle leading-none shadow-lg"
+    alt="Taking up Water with a Spoon" />
+  <figcaption class="text-sm text-neutral-600 dark:text-neutral-400">
     {entry.data.image_caption}
-  </span>
-  }
+  </figcaption>
+</figure>
+}
