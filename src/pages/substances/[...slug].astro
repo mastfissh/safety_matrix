@@ -28,10 +28,11 @@ import Drugimage from '../../components/drugimage.astro';
 let data = entry.data
 ---
 <BaseLayout pageTitle={entry.data.title}>
+
   <article class="prose lg:prose-xl mx-auto">
     <h2> {entry.data.title} </h2>
     <Drugimage entry={entry} />
-    <h3>Commonly Known as: </h3>
+    <h2>Commonly Known as: </h2>
       <ul >
     {entry.data.aka.map((name) => (
       <li>
