@@ -18,7 +18,6 @@ let main = async function(){
   })
   for (let combodata of combos){
     if (!pages.includes(combodata.slug)){
-      console.debug("missing",combodata)
       let content = placeholder.replace('#TITLE#', combodata.title)
       fs.writeFileSync('./src/content/combos/'+combodata.slug, content);
     }
