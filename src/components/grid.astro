@@ -100,7 +100,7 @@ window.onload = (event) => {
   </svg>
   This icon indicates that there's low confidence in the risk rating
 </div>
- <span class="grid grid-cols-3">
+ <span class="grid grid-cols-2 lg:grid-cols-3">
     <span class = "risk_SR text-m font-medium m-2 px-2.5 py-0.5 rounded"> Significant Risk</span>
     <span class = "risk_GR text-m font-medium m-2 px-2.5 py-0.5 rounded"> Greater Risk</span>
     <span class = "risk_MR text-m font-medium m-2 px-2.5 py-0.5 rounded"> Minor Risk</span>
@@ -110,19 +110,19 @@ window.onload = (event) => {
   </span>
 </div>
 <div>
-<table id="safety_grid" style="display: none;">
-  <tr class:list={"topkey"}>
-    <td></td>
+<table id="safety_grid" class="w-full table-fixed border-collapse border-2 border-slate-900 text-sm md:text-md lg:text-lg" style="display: none;">
+  <tr class:list={"topkey"} class="border-grey-500 border p-1 overflow-hidden">
+    <td class="border-grey-500 border"></td>
     {drugs.map((drug) => (
-      <td class:list={drug_css_prefix(drug)} >{drug}</td>
+      <td class:list={drug_css_prefix(drug)} class="border-grey-500 border p-1 overflow-hidden">{drug}</td>
     ))
   }
   </tr>
     {drugs.map((drugrow) => (
-      <tr class:list={drug_css_prefix(drugrow)}>
-        <td class:list={drug_css_prefix(drugrow)}>{drugrow}</td>
+      <tr class:list={drug_css_prefix(drugrow)} >
+        <td class:list={drug_css_prefix(drugrow)} class="border-grey-500 border p-1 overflow-hidden">{drugrow}</td>
         {drugs.map((drugcell) => (
-          <td class:list={[risk_css_prefix(risk([page,drugrow,drugcell], data)),drug_css_prefix(drugrow),drug_css_prefix(drugcell)]}><Druglink drug={combo([page,drugrow,drugcell])} conf={confidence([page,drugrow,drugcell], data)} /></td>
+          <td class="border-grey-500 border p-1 overflow-hidden" class:list={[risk_css_prefix(risk([page,drugrow,drugcell], data)),drug_css_prefix(drugrow),drug_css_prefix(drugcell)]}><Druglink drug={combo([page,drugrow,drugcell])} conf={confidence([page,drugrow,drugcell], data)} /></td>
          ))}
       </tr>
      ))}
@@ -139,13 +139,13 @@ window.onload = (event) => {
 
     </div>
   </form>
-<ul class="grid w-full gap-6 grid-cols-3 md:grid-cols-5">
+<ul class="grid w-full gap-6 grid-cols-2 md:grid-cols-4 lg:grid-cols-5">
   {drugs.map((drug) => (
     <li class="searchable" data-keywords={drug_to_keywords(drug)}>
         <input type="checkbox" class="filter_check hidden peer" id={drug_css_prefix(drug)} name={drug_css_prefix(drug)} value={drug_css_prefix(drug)} >
         <label for={drug_css_prefix(drug)} class="inline-flex items-center justify-between w-full p-5  bg-white border-2 border-gray-200 rounded-lg cursor-pointer hover:text-gray-300 border-gray-700 peer-checked:border-blue-600 peer-checked:text-gray-300  peer-checked:bg-gray-600 peer-checked:text-gray-50 text-gray-1000 ">
             <div class="block">
-                <div class="w-full text-lg font-semibold">{drug}</div>
+                <div class="w-full text-md lg:text-lg font-semibold">{drug}</div>
             </div>
         </label>
     </li>
