@@ -1,5 +1,5 @@
 import * as fs from 'fs';
-import { combo, risk,risk_css_prefix, drug_css_prefix, confidence, linkify } from '../src/util.js';
+import { combo, risk, drug_css_prefix, confidence, linkify } from '../src/util.js';
 let main = async function(){
   let output = 0
   const input = fs.readFileSync('./src/data.json', 'utf8')
