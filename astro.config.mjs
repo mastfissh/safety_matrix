@@ -8,13 +8,4 @@ export default defineConfig({
   site: 'https://mastfissh.github.io',
   base: '/safety_matrix',
   integrations: [mdx(), tailwind()],
-  vite: {
-    server: {
-      watch: {
-        usePolling: true,
-        ignored: ['./src/content/**'],
-        interval: 2000
-      },
-    },
-  },
 });
