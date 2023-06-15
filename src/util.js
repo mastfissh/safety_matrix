@@ -44,10 +44,6 @@ export function linkify(str){
   return strip_weird_chars(str).replaceAll('-+-', '_').toLowerCase()
 }
 
-export function risk_css_prefix(str) {
-  return 'risk_'+strip_weird_chars(str)
-}
-
 export function drug_css_prefix(str) {
   return 'drug_'+strip_weird_chars(str)
 }

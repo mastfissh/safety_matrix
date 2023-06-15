@@ -2,14 +2,26 @@
 
 const { page, data } = Astro.props;
 let drugs = data["drugs"].filter(item => item !== page)
-import { combo, risk,risk_css_prefix, drug_css_prefix, confidence, linkify } from '../util';
-import '../style.css';
+import { combo, risk, drug_css_prefix, confidence, linkify } from '../util';
 import Druglink from './druglink.astro';
 import { getCollection } from 'astro:content';
 const substances = await getCollection('substances');
 let idx = {}
 for (let sub of substances){
   idx[sub['slug']] = sub
+}
+
+function risk_to_bg(risk){
+  const map = {
+    'SR' : 'bg-red-200',
+    'GR' : 'bg-orange-200',
+    'MR' : 'bg-amber-200',
+    'LRS' : 'bg-cyan-200',
+    'LRD' : 'bg-violet-200',
+    'LRNS' : 'bg-blue-200',
+    'unknown' : 'bg-slate-200',
+  }
+  return map[risk]
 }
 
 function drug_to_keywords(drug){
@@ -101,12 +113,12 @@ window.onload = (event) => {
   This icon indicates that there's low confidence in the risk rating
 </div>
  <span class="grid grid-cols-2 lg:grid-cols-3">
-    <span class = "risk_SR text-m font-medium m-2 px-2.5 py-0.5 rounded"> Significant Risk</span>
-    <span class = "risk_GR text-m font-medium m-2 px-2.5 py-0.5 rounded"> Greater Risk</span>
-    <span class = "risk_MR text-m font-medium m-2 px-2.5 py-0.5 rounded"> Minor Risk</span>
-    <span class = "risk_LRS text-m font-medium m-2 px-2.5 py-0.5 rounded"> Low Risk Synergy</span>
-    <span class = "risk_LRD text-m font-medium m-2 px-2.5 py-0.5 rounded"> Low Risk Decrease</span>
-    <span class = "risk_LRNS text-m font-medium m-2 px-2.5 py-0.5 rounded"> Low Risk No Synergy</span>
+    <span class:list={risk_to_bg('SR')} class = "text-m font-medium m-2 px-2.5 py-0.5 rounded"> Significant Risk</span>
+    <span class:list={risk_to_bg('GR')} class = "text-m font-medium m-2 px-2.5 py-0.5 rounded"> Greater Risk</span>
+    <span class:list={risk_to_bg('MR')} class = "text-m font-medium m-2 px-2.5 py-0.5 rounded"> Minor Risk</span>
+    <span class:list={risk_to_bg('LRS')} class = "text-m font-medium m-2 px-2.5 py-0.5 rounded"> Low Risk Synergy</span>
+    <span class:list={risk_to_bg('LRD')} class = "text-m font-medium m-2 px-2.5 py-0.5 rounded"> Low Risk Decrease</span>
+    <span class:list={risk_to_bg('LRNS')} class = "text-m font-medium m-2 px-2.5 py-0.5 rounded"> Low Risk No Synergy</span>
   </span>
 </div>
 <div>
@@ -122,7 +134,7 @@ window.onload = (event) => {
       <tr class:list={drug_css_prefix(drugrow)} >
         <td class:list={drug_css_prefix(drugrow)} class="border-grey-500 border p-1 overflow-hidden">{drugrow}</td>
         {drugs.map((drugcell) => (
-          <td class="border-grey-500 border p-1 overflow-hidden" class:list={[risk_css_prefix(risk([page,drugrow,drugcell], data)),drug_css_prefix(drugrow),drug_css_prefix(drugcell)]}><Druglink drug={combo([page,drugrow,drugcell])} conf={confidence([page,drugrow,drugcell], data)} /></td>
+          <td class="border-grey-500 border p-1 overflow-hidden" class:list={[risk_to_bg(risk([page,drugrow,drugcell], data)),drug_css_prefix(drugrow),drug_css_prefix(drugcell)]}><Druglink drug={combo([page,drugrow,drugcell])} conf={confidence([page,drugrow,drugcell], data)} /></td>
          ))}
       </tr>
      ))}
