@@ -2,7 +2,7 @@
   "drugs": [
     "LSD",
     "Psilocybin",
-    "Cathinone",
+    "Cathinones",
     "Psilocybe Species",
     "DMT",
     "Mescaline",
@@ -675,18 +675,18 @@
     ],
     [
       "Tramadol",
-      "Cathinone"
+      "Cathinones"
     ],
     [
       "MAOIs",
-      "Cathinone"
+      "Cathinones"
     ],
     [
-      "Cathinone",
+      "Cathinones",
       "Tramadol"
     ],
     [
-      "Cathinone",
+      "Cathinones",
       "MAOIs"
     ]
   ],
@@ -1305,23 +1305,23 @@
     ],
     [
       "DOx",
-      "Cathinone"
+      "Cathinones"
     ],
     [
       "NBOMes",
-      "Cathinone"
+      "Cathinones"
     ],
     [
       "2C-T-x",
-      "Cathinone"
+      "Cathinones"
     ],
     [
       "5-MeO-xxT",
-      "Cathinone"
+      "Cathinones"
     ],
     [
       "DXM",
-      "Cathinone"
+      "Cathinones"
     ],
     [
       "Tramadol",
@@ -1329,43 +1329,43 @@
     ],
     [
       "Banisteriopsis caapi",
-      "Cathinone"
+      "Cathinones"
     ],
     [
       "Piper methysticum",
-      "Cathinone"
+      "Cathinones"
     ],
     [
-      "Cathinone",
+      "Cathinones",
       "DOx"
     ],
     [
-      "Cathinone",
+      "Cathinones",
       "NBOMes"
     ],
     [
-      "Cathinone",
+      "Cathinones",
       "2C-T-x"
     ],
     [
-      "Cathinone",
+      "Cathinones",
       "5-MeO-xxT"
     ],
     [
-      "Cathinone",
+      "Cathinones",
       "DXM"
     ],
     [
-      "Cathinone",
+      "Cathinones",
       "Banisteriopsis caapi"
     ],
     [
-      "Cathinone",
+      "Cathinones",
       "Piper methysticum"
     ],
     [
       "Eroxythylum coca",
-      "Cathinone"
+      "Cathinones"
     ]
   ],
   "MR": [
@@ -3627,7 +3627,7 @@
     ],
     [
       "LSD",
-      "Cathinone"
+      "Cathinones"
     ],
     [
       "Psilocybe Species",
@@ -3647,7 +3647,7 @@
     ],
     [
       "Psilocybe Species",
-      "Cathinone"
+      "Cathinones"
     ],
     [
       "Psilocybe Species",
@@ -3663,15 +3663,15 @@
     ],
     [
       "DMT",
-      "Cathinone"
+      "Cathinones"
     ],
     [
       "Mescaline",
-      "Cathinone"
+      "Cathinones"
     ],
     [
       "2C-x",
-      "Cathinone"
+      "Cathinones"
     ],
     [
       "Cannabis",
@@ -3679,15 +3679,15 @@
     ],
     [
       "Cannabis",
-      "Cathinone"
+      "Cathinones"
     ],
     [
       "Ketamine",
-      "Cathinone"
+      "Cathinones"
     ],
     [
       "MXE",
-      "Cathinone"
+      "Cathinones"
     ],
     [
       "Amphetamines",
@@ -3695,7 +3695,7 @@
     ],
     [
       "Amphetamines",
-      "Cathinone"
+      "Cathinones"
     ],
     [
       "Cocaine",
@@ -3703,178 +3703,178 @@
     ],
     [
       "Cocaine",
-      "Cathinone"
+      "Cathinones"
     ],
     [
       "Caffeine",
-      "Cathinone"
+      "Cathinones"
     ],
     [
       "Alcohol",
-      "Cathinone"
+      "Cathinones"
     ],
     [
       "GHB/GBL",
-      "Cathinone"
+      "Cathinones"
     ],
     [
       "Opioids",
-      "Cathinone"
+      "Cathinones"
     ],
     [
       "Salvia divonorum",
-      "Cathinone"
+      "Cathinones"
     ],
     [
       "Acacia species",
-      "Cathinone"
+      "Cathinones"
     ],
     [
       "Mimosa tenuiflora",
-      "Cathinone"
+      "Cathinones"
     ],
     [
       "Panaelous cyanescens",
-      "Cathinone"
+      "Cathinones"
     ],
     [
       "Argyreia nervosa",
-      "Cathinone"
+      "Cathinones"
     ],
     [
       "Ipomea violacea",
-      "Cathinone"
+      "Cathinones"
     ],
     [
       "Rivea corymbosa",
-      "Cathinone"
+      "Cathinones"
     ],
     [
       "Trichocereus species",
-      "Cathinone"
+      "Cathinones"
     ],
     [
       "Lophpopra willamsii",
-      "Cathinone"
+      "Cathinones"
     ],
     [
       "Incillius alvarius",
-      "Cathinone"
+      "Cathinones"
     ],
     [
-      "Cathinone",
+      "Cathinones",
       "LSD"
     ],
     [
-      "Cathinone",
+      "Cathinones",
       "Psilocybin"
     ],
     [
-      "Cathinone",
+      "Cathinones",
       "Psilocybe Species"
     ],
     [
-      "Cathinone",
+      "Cathinones",
       "DMT"
     ],
     [
-      "Cathinone",
+      "Cathinones",
       "Mescaline"
     ],
     [
-      "Cathinone",
+      "Cathinones",
       "2C-x"
     ],
     [
-      "Cathinone",
+      "Cathinones",
       "Cannabis"
     ],
     [
-      "Cathinone",
+      "Cathinones",
       "Ketamine"
     ],
     [
-      "Cathinone",
+      "Cathinones",
       "MXE"
     ],
     [
-      "Cathinone",
+      "Cathinones",
       "Amphetamines"
     ],
     [
-      "Cathinone",
+      "Cathinones",
       "Cocaine"
     ],
     [
-      "Cathinone",
+      "Cathinones",
       "Caffeine"
     ],
     [
-      "Cathinone",
+      "Cathinones",
       "Alcohol"
     ],
     [
-      "Cathinone",
+      "Cathinones",
       "GHB/GBL"
     ],
     [
-      "Cathinone",
+      "Cathinones",
       "Opioids"
     ],
     [
-      "Cathinone",
+      "Cathinones",
       "Salvia divonorum"
     ],
     [
-      "Cathinone",
+      "Cathinones",
       "Acacia species"
     ],
     [
-      "Cathinone",
+      "Cathinones",
       "Mimosa tenuiflora"
     ],
     [
-      "Cathinone",
+      "Cathinones",
       "Panaelous cyanescens"
     ],
     [
-      "Cathinone",
+      "Cathinones",
       "Argyreia nervosa"
     ],
     [
-      "Cathinone",
+      "Cathinones",
       "Ipomea violacea"
     ],
     [
-      "Cathinone",
+      "Cathinones",
       "Rivea corymbosa"
     ],
     [
-      "Cathinone",
+      "Cathinones",
       "Trichocereus species"
     ],
     [
-      "Cathinone",
+      "Cathinones",
       "Lophpopra willamsii"
     ],
     [
-      "Cathinone",
+      "Cathinones",
       "Incillius alvarius"
     ],
     [
-      "Cathinone",
+      "Cathinones",
       "Ephedra sinica"
     ],
     [
-      "Cathinone",
+      "Cathinones",
       "Eroxythylum coca"
     ],
     [
-      "Cathinone",
+      "Cathinones",
       "Phyllomedusa bicolor"
     ],
     [
-      "Cathinone",
+      "Cathinones",
       "Tabernathe iboga"
     ],
     [
@@ -3883,7 +3883,7 @@
     ],
     [
       "Ephedra sinica",
-      "Cathinone"
+      "Cathinones"
     ],
     [
       "Eroxythylum coca",
@@ -3891,7 +3891,7 @@
     ],
     [
       "Phyllomedusa bicolor",
-      "Cathinone"
+      "Cathinones"
     ],
     [
       "Tabernathe iboga",
@@ -3899,14 +3899,14 @@
     ],
     [
       "Tabernathe iboga",
-      "Cathinone"
+      "Cathinones"
     ],
     [
       "Psilocybe Species",
-      "Cathinone"
+      "Cathinones"
     ],
     [
-      "Cathinone",
+      "Cathinones",
       "Psilocybe Species"
     ]
   ],
@@ -3917,7 +3917,7 @@
     ],
     [
       "Catha edulis",
-      "Cathinone"
+      "Cathinones"
     ],
     [
       "Psilocybe Species",
@@ -6409,7 +6409,7 @@
     ],
     [
       "Nitrous",
-      "Cathinone"
+      "Cathinones"
     ],
     [
       "MDMA",
@@ -6417,7 +6417,7 @@
     ],
     [
       "MDMA",
-      "Cathinone"
+      "Cathinones"
     ],
     [
       "MAOIs",
@@ -6472,11 +6472,11 @@
       "Psilocybe Species"
     ],
     [
-      "Cathinone",
+      "Cathinones",
       "Nitrous"
     ],
     [
-      "Cathinone",
+      "Cathinones",
       "MDMA"
     ]
   ],
@@ -7327,7 +7327,7 @@
     ],
     [
       "Benzodiazepine",
-      "Cathinone"
+      "Cathinones"
     ],
     [
       "SSRIs",
@@ -7335,30 +7335,30 @@
     ],
     [
       "Amanita muscaria",
-      "Cathinone"
+      "Cathinones"
     ],
     [
       "Mitragyna speciosa",
-      "Cathinone"
+      "Cathinones"
     ],
     [
       "Papaver somnifarem",
-      "Cathinone"
+      "Cathinones"
     ],
     [
-      "Cathinone",
+      "Cathinones",
       "Benzodiazepine"
     ],
     [
-      "Cathinone",
+      "Cathinones",
       "Amanita muscaria"
     ],
     [
-      "Cathinone",
+      "Cathinones",
       "Mitragyna speciosa"
     ],
     [
-      "Cathinone",
+      "Cathinones",
       "Papaver somnifarem"
     ]
   ],
@@ -8665,7 +8665,7 @@
     ],
     [
       "SSRIs",
-      "Cathinone"
+      "Cathinones"
     ],
     [
       "Amanita muscaria",
@@ -8680,7 +8680,7 @@
       "Psilocybe Species"
     ],
     [
-      "Cathinone",
+      "Cathinones",
       "SSRIs"
     ],
     [
