@@ -24,6 +24,7 @@ import Disclaimer from '../../components/disclaimer.astro';
 import ConfidencePanel from '../../components/confidence_panel.astro';
 import EditPage from '../../components/edit_page.astro';
 import RiskPanel from '../../components/risk_panel.astro';
+import SubstanceLink from '../../components/substancelink.astro';
 let [drug1, drug2] = entry.slug.split('_')
 const drug1_info = await getEntry('substances', drug1);
 const drug2_info = await getEntry('substances', drug2);
@@ -40,6 +41,8 @@ import { risk, confidence } from '../../util';
     <ConfidencePanel conf={confidence([drug1, drug2], data)}/>
     <RiskPanel risk={risk([drug1, drug2], data)}/>
     <Content />
+    <SubstanceLink drug={drug1} />
+    <SubstanceLink drug={drug2} />
     <EditPage slug={entry.slug} type={"combos"} />
   </article>
 <Disclaimer />
