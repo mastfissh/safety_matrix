@@ -42,7 +42,7 @@ window.onload = (event) => {
   const items = document.querySelectorAll('.searchable');
   function compute() {
     items.forEach((item) => {
-      let searchwords = search.value.toLowerCase().split(' ')
+      let searchwords = search.value.toLowerCase().replace(' and ', ' ').split(' ')
       let visible = true
       for (let searchword of searchwords){
         visible = visible &&  (item.dataset.keywords.toLowerCase().search(searchword) != -1)
