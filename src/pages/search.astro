@@ -54,19 +54,27 @@ window.onload = (event) => {
       }
       if (visible){
         item.style.display = '';
-        let title_is_found = (item.dataset.title.toLowerCase().search(search.value.toLowerCase()) != -1)
-        if (!title_is_found){
-          let keywords = item.dataset.keywords.split(',')
-          let aka = ''
-          for (let word of keywords) {
-            if (word.toLowerCase().search(search.value.toLowerCase()) != -1){
-              aka = ` (${word})`
+        let aka = ''
+        let title_is_found = true
+        for (let searchword of searchwords){
+          let search_title_is_found = (item.dataset.title.toLowerCase().search(searchword) != -1)
+          title_is_found = title_is_found && search_title_is_found
+          if (!search_title_is_found){
+            let keywords = item.dataset.keywords.split(',')
+            for (let word of keywords) {
+              if (word.toLowerCase().search(searchword) != -1){
+                aka = aka + `${word} `
+              }
             }
           }
+        }
+        aka = ` (${aka})`
+        if (!title_is_found){
           item.firstChild.innerHTML = item.dataset.title  + aka
-        } else{
+        } else {
           item.firstChild.innerHTML = item.dataset.title
         }
+
       } else {
         item.style.display = 'none';
       }
