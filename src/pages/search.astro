@@ -42,7 +42,12 @@ window.onload = (event) => {
   const items = document.querySelectorAll('.searchable');
   function compute() {
     items.forEach((item) => {
-      let visible = (item.dataset.keywords.toLowerCase().search(search.value.toLowerCase()) != -1)
+      let searchwords = search.value.toLowerCase().split(' ')
+      let visible = true
+      for (let searchword of searchwords){
+        visible = visible &&  (item.dataset.keywords.toLowerCase().search(searchword) != -1)
+      }
+
       let wip = (item.dataset.wip == 'true')
       if (window.location.hash == "#wip"){
         visible = visible && wip
@@ -52,13 +57,13 @@ window.onload = (event) => {
         let title_is_found = (item.dataset.title.toLowerCase().search(search.value.toLowerCase()) != -1)
         if (!title_is_found){
           let keywords = item.dataset.keywords.split(',')
-          let aka = 'test'
+          let aka = ''
           for (let word of keywords) {
             if (word.toLowerCase().search(search.value.toLowerCase()) != -1){
-              aka = word
+              aka = ` (${word})`
             }
           }
-          item.firstChild.innerHTML = item.dataset.title + ' (' + aka + ')'
+          item.firstChild.innerHTML = item.dataset.title  + aka
         } else{
           item.firstChild.innerHTML = item.dataset.title
         }
