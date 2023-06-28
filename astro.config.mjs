@@ -5,7 +5,6 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://mastfissh.github.io',
-  base: '/safety_matrix',
+  site: 'https://psychcombo.com',
   integrations: [mdx(), tailwind()],
 });
