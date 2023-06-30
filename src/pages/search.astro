@@ -47,11 +47,6 @@ window.onload = (event) => {
       for (let searchword of searchwords){
         visible = visible &&  (item.dataset.keywords.toLowerCase().search(searchword) != -1)
       }
-
-      let wip = (item.dataset.wip == 'true')
-      if (window.location.hash == "#wip"){
-        visible = visible && wip
-      }
       if (visible){
         item.style.display = '';
         let aka = ''
@@ -108,7 +103,7 @@ window.onload = (event) => {
   <h3>Combo pages: </h3>
       <ul >
     {combos.map((combo) => (
-      <li class="searchable" data-title={combo.data.title} data-keywords={ combo_to_keywords(combo)} data-wip={"" + !!combo.data.wip}><a class="font-medium text-blue-600 underline dark:text-blue-900 hover:no-underline" href={`${import.meta.env.BASE_URL}combos/` + combo.slug}> {combo.data.title}  </a></li>
+      <li class="searchable" data-title={combo.data.title} data-keywords={ combo_to_keywords(combo)} ><a class="font-medium text-blue-600 underline dark:text-blue-900 hover:no-underline" href={`${import.meta.env.BASE_URL}combos/` + combo.slug}> {combo.data.title}  </a></li>
       ))}</ul>
 </div>
 </BaseLayout>
