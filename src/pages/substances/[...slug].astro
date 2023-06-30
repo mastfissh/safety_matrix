@@ -32,6 +32,16 @@ let data = entry.data
   <article class="prose lg:prose-xl mx-auto">
     <h2> {entry.data.title} </h2>
     <Drugimage entry={entry} />
+    {entry.data.family_members &&
+    <h2>This is a family of psychoactives: </h2>
+      <ul >
+    {entry.data.family_members.map((name) => (
+      <li>
+      {name}
+      </li>
+      ))
+    }</ul>}
+
     <h2>Commonly Known as: </h2>
       <ul >
     {entry.data.aka.map((name) => (

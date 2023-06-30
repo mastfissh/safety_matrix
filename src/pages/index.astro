@@ -5,10 +5,8 @@ import Disclaimer from '../components/disclaimer.astro';
 import BaseLayout from '../layouts/BaseLayout.astro';
 const pageTitle = "Combos";
 ---
-
 <BaseLayout pageTitle={pageTitle}>
 <div class="container px-6 mx-auto">
-
   <section class="mb-2 text-gray-800">
     <div class="grow-0 shrink-0 basis-auto ">
           <div class="max-w-2xl mx-auto">
@@ -25,14 +23,7 @@ If there is a psychoactive product that is not listed but should be, or if you h
           </div>
         </div>
   </section>
-
-
 </div>
-
-
-		<Disclaimer />
-
 		<Grid page={""} data={data} />
-
-
+<Disclaimer />
 </BaseLayout>
