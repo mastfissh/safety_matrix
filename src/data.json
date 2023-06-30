@@ -46,7 +46,8 @@
     "Ephedra sinica",
     "Eroxythylum coca",
     "Phyllomedusa bicolor",
-    "Tabernathe iboga"
+    "Tabernathe iboga",
+    "Meditation"
   ],
   "risk_levels": [
     "SR",
@@ -6478,6 +6479,194 @@
     [
       "Cathinones",
       "MDMA"
+    ],
+    [
+      "Meditation",
+      "LSD"
+    ],
+    [
+      "Meditation",
+      "Psilocybin"
+    ],
+    [
+      "Meditation",
+      "Cathinones"
+    ],
+    [
+      "Meditation",
+      "Psilocybe Species"
+    ],
+    [
+      "Meditation",
+      "DMT"
+    ],
+    [
+      "Meditation",
+      "Mescaline"
+    ],
+    [
+      "Meditation",
+      "DOx"
+    ],
+    [
+      "Meditation",
+      "NBOMes"
+    ],
+    [
+      "Meditation",
+      "2C-x"
+    ],
+    [
+      "Meditation",
+      "2C-T-x"
+    ],
+    [
+      "Meditation",
+      "5-MeO-xxT"
+    ],
+    [
+      "Meditation",
+      "Cannabis"
+    ],
+    [
+      "Meditation",
+      "Ketamine"
+    ],
+    [
+      "Meditation",
+      "MXE"
+    ],
+    [
+      "Meditation",
+      "DXM"
+    ],
+    [
+      "Meditation",
+      "Nitrous"
+    ],
+    [
+      "Meditation",
+      "Amphetamines"
+    ],
+    [
+      "Meditation",
+      "MDMA"
+    ],
+    [
+      "Meditation",
+      "Cocaine"
+    ],
+    [
+      "Meditation",
+      "Caffeine"
+    ],
+    [
+      "Meditation",
+      "Alcohol"
+    ],
+    [
+      "Meditation",
+      "GHB/GBL"
+    ],
+    [
+      "Meditation",
+      "Opioids"
+    ],
+    [
+      "Meditation",
+      "Tramadol"
+    ],
+    [
+      "Meditation",
+      "Benzodiazepine"
+    ],
+    [
+      "Meditation",
+      "MAOIs"
+    ],
+    [
+      "Meditation",
+      "SSRIs"
+    ],
+    [
+      "Meditation",
+      "Salvia divonorum"
+    ],
+    [
+      "Meditation",
+      "Acacia species"
+    ],
+    [
+      "Meditation",
+      "Mimosa tenuiflora"
+    ],
+    [
+      "Meditation",
+      "Panaelous cyanescens"
+    ],
+    [
+      "Meditation",
+      "Argyreia nervosa"
+    ],
+    [
+      "Meditation",
+      "Ipomea violacea"
+    ],
+    [
+      "Meditation",
+      "Rivea corymbosa"
+    ],
+    [
+      "Meditation",
+      "Amanita muscaria"
+    ],
+    [
+      "Meditation",
+      "Trichocereus species"
+    ],
+    [
+      "Meditation",
+      "Lophpopra willamsii"
+    ],
+    [
+      "Meditation",
+      "Incillius alvarius"
+    ],
+    [
+      "Meditation",
+      "Mitragyna speciosa"
+    ],
+    [
+      "Meditation",
+      "Papaver somnifarem"
+    ],
+    [
+      "Meditation",
+      "Banisteriopsis caapi"
+    ],
+    [
+      "Meditation",
+      "Piper methysticum"
+    ],
+    [
+      "Meditation",
+      "Catha edulis"
+    ],
+    [
+      "Meditation",
+      "Ephedra sinica"
+    ],
+    [
+      "Meditation",
+      "Eroxythylum coca"
+    ],
+    [
+      "Meditation",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "Meditation",
+      "Tabernathe iboga"
     ]
   ],
   "LRD": [
@@ -16569,6 +16758,194 @@
     [
       "SSRIs",
       "MAOIs"
+    ],
+    [
+      "Meditation",
+      "LSD"
+    ],
+    [
+      "Meditation",
+      "Psilocybin"
+    ],
+    [
+      "Meditation",
+      "Cathinones"
+    ],
+    [
+      "Meditation",
+      "Psilocybe Species"
+    ],
+    [
+      "Meditation",
+      "DMT"
+    ],
+    [
+      "Meditation",
+      "Mescaline"
+    ],
+    [
+      "Meditation",
+      "DOx"
+    ],
+    [
+      "Meditation",
+      "NBOMes"
+    ],
+    [
+      "Meditation",
+      "2C-x"
+    ],
+    [
+      "Meditation",
+      "2C-T-x"
+    ],
+    [
+      "Meditation",
+      "5-MeO-xxT"
+    ],
+    [
+      "Meditation",
+      "Cannabis"
+    ],
+    [
+      "Meditation",
+      "Ketamine"
+    ],
+    [
+      "Meditation",
+      "MXE"
+    ],
+    [
+      "Meditation",
+      "DXM"
+    ],
+    [
+      "Meditation",
+      "Nitrous"
+    ],
+    [
+      "Meditation",
+      "Amphetamines"
+    ],
+    [
+      "Meditation",
+      "MDMA"
+    ],
+    [
+      "Meditation",
+      "Cocaine"
+    ],
+    [
+      "Meditation",
+      "Caffeine"
+    ],
+    [
+      "Meditation",
+      "Alcohol"
+    ],
+    [
+      "Meditation",
+      "GHB/GBL"
+    ],
+    [
+      "Meditation",
+      "Opioids"
+    ],
+    [
+      "Meditation",
+      "Tramadol"
+    ],
+    [
+      "Meditation",
+      "Benzodiazepine"
+    ],
+    [
+      "Meditation",
+      "MAOIs"
+    ],
+    [
+      "Meditation",
+      "SSRIs"
+    ],
+    [
+      "Meditation",
+      "Salvia divonorum"
+    ],
+    [
+      "Meditation",
+      "Acacia species"
+    ],
+    [
+      "Meditation",
+      "Mimosa tenuiflora"
+    ],
+    [
+      "Meditation",
+      "Panaelous cyanescens"
+    ],
+    [
+      "Meditation",
+      "Argyreia nervosa"
+    ],
+    [
+      "Meditation",
+      "Ipomea violacea"
+    ],
+    [
+      "Meditation",
+      "Rivea corymbosa"
+    ],
+    [
+      "Meditation",
+      "Amanita muscaria"
+    ],
+    [
+      "Meditation",
+      "Trichocereus species"
+    ],
+    [
+      "Meditation",
+      "Lophpopra willamsii"
+    ],
+    [
+      "Meditation",
+      "Incillius alvarius"
+    ],
+    [
+      "Meditation",
+      "Mitragyna speciosa"
+    ],
+    [
+      "Meditation",
+      "Papaver somnifarem"
+    ],
+    [
+      "Meditation",
+      "Banisteriopsis caapi"
+    ],
+    [
+      "Meditation",
+      "Piper methysticum"
+    ],
+    [
+      "Meditation",
+      "Catha edulis"
+    ],
+    [
+      "Meditation",
+      "Ephedra sinica"
+    ],
+    [
+      "Meditation",
+      "Eroxythylum coca"
+    ],
+    [
+      "Meditation",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "Meditation",
+      "Tabernathe iboga"
     ]
   ]
 }
