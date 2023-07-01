@@ -1,0 +1,14 @@
+---
+const { entry } = Astro.props;
+---
+{entry &&
+<figure class="mb-1 max-w-2-xl relative ">
+  <img
+    src={`${import.meta.env.BASE_URL}${entry.data.image_location}`}
+    class="mb-4 h-auto max-w-full rounded-lg align-middle leading-none shadow-lg"
+     />
+  <figcaption class="text-sm absolute mb-4 bottom-0 z-90 rounded-lg bg-black/75 px-5 py-2 text-white">
+    {entry.data.image_caption}
+  </figcaption>
+</figure>
+}
