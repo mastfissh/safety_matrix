@@ -2,7 +2,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 const pageTitle = "Psychs";
 import { getCollection } from 'astro:content';
-const substances = await getCollection('substances');
+const substances = await getCollection('psychoactives');
 ---
 
 <BaseLayout pageTitle={pageTitle}>
@@ -10,7 +10,7 @@ const substances = await getCollection('substances');
   <h3>Psychoactive pages: </h3>
       <ul >
     {substances.map((substance) => (
-      <li><a class="font-medium text-blue-600 underline dark:text-blue-900 hover:no-underline" href={`${import.meta.env.BASE_URL}substances/` + substance.slug}> {substance.data.title} </a></li>
+      <li><a class="font-medium text-blue-600 underline dark:text-blue-900 hover:no-underline" href={`${import.meta.env.BASE_URL}psychoactives/` + substance.slug}> {substance.data.title} </a></li>
       ))}</ul>
 
 </div>

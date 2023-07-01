@@ -2,7 +2,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 const pageTitle = "Search";
 import { getCollection } from 'astro:content';
-const substances = await getCollection('substances');
+const substances = await getCollection('psychoactives');
 const combos = await getCollection('combos');
 
 let idx = {}
@@ -97,7 +97,7 @@ window.onload = (event) => {
   <h3>Psychoactive pages: </h3>
       <ul >
     {substances.map((substance) => (
-      <li class="searchable" data-title={substance.data.title} data-keywords={drug_to_keywords(substance)}><a class="font-medium text-blue-600 underline dark:text-blue-900 hover:no-underline" href={`${import.meta.env.BASE_URL}substances/` + substance.slug}> {substance.data.title} </a></li>
+      <li class="searchable" data-title={substance.data.title} data-keywords={drug_to_keywords(substance)}><a class="font-medium text-blue-600 underline dark:text-blue-900 hover:no-underline" href={`${import.meta.env.BASE_URL}psychoactives/` + substance.slug}> {substance.data.title} </a></li>
       ))}</ul>
 
   <h3>Combo pages: </h3>
