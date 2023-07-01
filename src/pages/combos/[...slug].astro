@@ -19,15 +19,15 @@ let visible = false
 if (entry.data.display_grid){
   visible = true
 }
-import Drugimage from '../../components/drugimage.astro';
+import Psychimage from '../../components/psychimage.astro';
 import Disclaimer from '../../components/disclaimer.astro';
 import ConfidencePanel from '../../components/confidence_panel.astro';
 import EditPage from '../../components/edit_page.astro';
 import RiskPanel from '../../components/risk_panel.astro';
-import SubstanceLink from '../../components/substancelink.astro';
-let [drug1, drug2] = entry.slug.split('_')
-const drug1_info = await getEntry('psychoactives', drug1);
-const drug2_info = await getEntry('psychoactives', drug2);
+import PsychLink from '../../components/psychlink.astro';
+let [psych1, psych2] = entry.slug.split('_')
+const psych1_info = await getEntry('psychoactives', psych1);
+const psych2_info = await getEntry('psychoactives', psych2);
 import { risk, confidence } from '../../util';
 
 ---
@@ -35,14 +35,14 @@ import { risk, confidence } from '../../util';
   <article class="prose lg:prose-xl mx-auto">
     <h2> {entry.data.title} </h2>
     <span class="grid w-full gap-2 sm:grid-cols-2">
-      <Drugimage entry={drug1_info} />
-      <Drugimage entry={drug2_info} />
+      <Psychimage entry={psych1_info} />
+      <Psychimage entry={psych2_info} />
     </span>
-    <ConfidencePanel conf={confidence([drug1, drug2], data)}/>
-    <RiskPanel risk={risk([drug1, drug2], data)}/>
+    <ConfidencePanel conf={confidence([psych1, psych2], data)}/>
+    <RiskPanel risk={risk([psych1, psych2], data)}/>
     <Content />
-    <SubstanceLink drug={drug1} />
-    <SubstanceLink drug={drug2} />
+    <PsychLink psych={psych1} />
+    <PsychLink psych={psych2} />
     <EditPage slug={entry.slug} type={"combos"} />
   </article>
 <Disclaimer />

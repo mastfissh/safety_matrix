@@ -134,7 +134,7 @@ window.onload = (event) => {
       <tr class:list={drug_css_prefix(drugrow)} >
         <td class:list={drug_css_prefix(drugrow)} class="border-grey-500 border p-1 overflow-hidden">{drugrow}</td>
         {drugs.map((drugcell) => (
-          <td class="border-grey-500 border p-1 overflow-hidden" class:list={[risk_to_bg(risk([page,drugrow,drugcell], data)),drug_css_prefix(drugrow),drug_css_prefix(drugcell)]}><Combolink drug={combo([page,drugrow,drugcell])} conf={confidence([page,drugrow,drugcell], data)} /></td>
+          <td class="border-grey-500 border p-1 overflow-hidden" class:list={[risk_to_bg(risk([page,drugrow,drugcell], data)),drug_css_prefix(drugrow),drug_css_prefix(drugcell)]}><Combolink combo={combo([page,drugrow,drugcell])} conf={confidence([page,drugrow,drugcell], data)} /></td>
          ))}
       </tr>
      ))}

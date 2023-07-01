@@ -24,14 +24,14 @@ import Disclaimer from '../../components/disclaimer.astro';
 import ConfidencePanel from '../../components/confidence_panel.astro';
 import RiskPanel from '../../components/risk_panel.astro';
 import Disclaimer from '../../components/disclaimer.astro';
-import Drugimage from '../../components/drugimage.astro';
+import Psychimage from '../../components/psychimage.astro';
 let data = entry.data
 ---
 <BaseLayout pageTitle={entry.data.title}>
 
   <article class="prose lg:prose-xl mx-auto">
     <h2> {entry.data.title} </h2>
-    <Drugimage entry={entry} />
+    <Psychimage entry={entry} />
     {entry.data.family_members &&
     <h2>This is a family of psychoactives: </h2>
       <ul >
@@ -53,7 +53,7 @@ let data = entry.data
      <ConfidencePanel conf={entry.data.confidence}/>
      <RiskPanel risk={entry.data.risk}/>
     <Content />
-    <EditPage slug={entry.slug} type={"substances"} />
+    <EditPage slug={entry.slug} type={"psychoactives"} />
   </article>
   <div class="block rounded-lg my-6 bg-slate-100 p-6 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] max-w-2xl mx-auto">
       <h2>{entry.data.duration_chart_title} </h2>

@@ -1,9 +1,0 @@
----
-import { getEntryBySlug } from 'astro:content';
-import { linkify } from '../util';
-const { drug } = Astro.props;
-let slug = linkify(drug)
-const page = await getEntryBySlug('psychoactives', slug);
-let link = (!!page)
----
-{link && <span> See also: <a class="font-medium text-blue-600 underline dark:text-blue-900 hover:no-underline" href={`${import.meta.env.BASE_URL}psychoactives/` + slug}> {drug} </a> </span>}
