@@ -26,8 +26,8 @@ import EditPage from '../../components/edit_page.astro';
 import RiskPanel from '../../components/risk_panel.astro';
 import SubstanceLink from '../../components/substancelink.astro';
 let [drug1, drug2] = entry.slug.split('_')
-const drug1_info = await getEntry('substances', drug1);
-const drug2_info = await getEntry('substances', drug2);
+const drug1_info = await getEntry('psychoactives', drug1);
+const drug2_info = await getEntry('psychoactives', drug2);
 import { risk, confidence } from '../../util';
 
 ---

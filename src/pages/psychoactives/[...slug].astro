@@ -2,7 +2,7 @@
 import { getCollection } from 'astro:content';
 // 1. Generate a new path for every collection entry
 export async function getStaticPaths() {
-  const pages = await getCollection('substances');
+  const pages = await getCollection('psychoactives');
   return pages.map(entry => ({
     params: { slug: entry.slug }, props: { entry },
   }));
