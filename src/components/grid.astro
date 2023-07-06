@@ -5,6 +5,7 @@ let drugs = data["drugs"].filter(item => item !== page)
 import { combo, risk, drug_css_prefix, confidence, linkify } from '../util';
 import Combolink from './combolink.astro';
 import { getCollection } from 'astro:content';
+import Icon from "heroicons-astro/Heroicon.astro";
 const substances = await getCollection('psychoactives');
 let idx = {}
 for (let sub of substances){
@@ -98,18 +99,7 @@ window.onload = (event) => {
  <p>In this chart ‘risk’ refers to danger or hazard. ‘Synergy’ refers to increased subjective effects (or in some cases, the creation of an additional subjective effect), while ‘decrease’ refers to reduced subjective effects.
  </p>
  <div class="flex space-x-4">
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    fill="none"
-    viewBox="0 0 24 24"
-    stroke-width="1.5"
-    stroke="currentColor"
-    class="h-8 w-8">
-    <path
-      stroke-linecap="round"
-      stroke-linejoin="round"
-      d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126zM12 15.75h.007v.008H12v-.008z" />
-  </svg>
+  <Icon iconCode="exclamation-circle" iconStyle="outline" customClasses="h-7 w-7 inline" />
   This icon indicates that there's low confidence in the risk rating
 </div>
  <span class="grid grid-cols-2 lg:grid-cols-3">
@@ -144,8 +134,9 @@ window.onload = (event) => {
 <form class="my-6">
     <label for="search" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
     <div class="relative">
+
         <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
-            <svg aria-hidden="true" class="w-5 h-5 text-gray-500 dark:text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+          <Icon iconCode="search" iconStyle="outline" customClasses="w-5 h-5 stroke-gray-500" />
         </div>
         <input type="search" id="search" class="block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500  dark:border-gray-600 dark:placeholder-gray-400 text-black dark:focus:ring-blue-500 dark:focus:border-blue-50" placeholder="Search" required>
 
