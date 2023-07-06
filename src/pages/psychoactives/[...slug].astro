@@ -55,11 +55,13 @@ let data = entry.data
 
     <EditPage slug={entry.slug} type={"psychoactives"} />
   </article>
-  {entry.data.duration_chart_title &&
+
+  <span class={!entry.data.duration_chart_title && "hidden"}>
     <div class="block rounded-lg my-6 bg-slate-100 p-6 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] max-w-2xl mx-auto">
       <h2>{entry.data.duration_chart_title} </h2>
       <canvas id="myChart"></canvas>
     </div>
+  </span>
     <script define:vars={{ data }}>
       window.data = data
     </script>
@@ -74,14 +76,42 @@ let data = entry.data
   let coming_up = Duration.fromISO("PT"+duration_chart.coming_up.toUpperCase())
   let plateau = Duration.fromISO("PT"+duration_chart.plateau.toUpperCase())
   let coming_down = Duration.fromISO("PT"+duration_chart.coming_down.toUpperCase())
+  let max = now.plus(onset).plus(coming_up).plus(plateau).plus(coming_down)
   let chart_data = [
     {x:now, y:0},
     {x:now.plus(onset), y:0},
     {x:now.plus(onset).plus(coming_up), y:1},
     {x:now.plus(onset).plus(coming_up).plus(plateau), y:1},
-    {x:now.plus(onset).plus(coming_up).plus(plateau).plus(coming_down), y:0},
+    {x:max, y:0},
   ]
   Duration.fromISO('PT23H')
+  let total_duration_in_seconds = (max - now)/1000
+  function x_label_seconds(seconds) {
+    return `${seconds} secs`
+  }
+  function x_label_minutes(seconds) {
+    let display = Math.floor(seconds / 60)
+    return `${display} mins`
+  }
+  function x_label_hours(seconds) {
+    let display = Math.floor(seconds / 3600)
+    return `${display} hrs`
+  }
+  function x_label(timestamp) {
+    let diff = (timestamp - now.toMillis())/1000
+    if (total_duration_in_seconds < 400){
+      return x_label_seconds(diff)
+    }
+    if (total_duration_in_seconds < 20000){
+      return x_label_minutes(diff)
+    }
+    return x_label_hours(diff)
+  }
+  let seen = []
+  function cleaned_x_label(timestamp, idx) {
+    let result = x_label(timestamp)
+    return idx % 4 === 0 ? result : ''
+  }
   new Chart(ctx, {
     type: 'line',
     data: {
@@ -108,6 +138,14 @@ let data = entry.data
           type: 'time',
           grid: {
             display: false
+          },
+          ticks: {
+            callback: function(val, index, ticks) {
+              return cleaned_x_label(val, index);
+            },
+            major :{
+              enabled: true
+            }
           }
         }
       },
@@ -120,7 +158,7 @@ let data = entry.data
   });
 
 </script>
-}
+
 <Disclaimer />
 {visible && <Grid page={entry.slug} data={data} />}
 </BaseLayout>
