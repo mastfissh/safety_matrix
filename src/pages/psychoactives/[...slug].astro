@@ -25,6 +25,7 @@ import ConfidencePanel from '../../components/confidence_panel.astro';
 import RiskPanel from '../../components/risk_panel.astro';
 import Disclaimer from '../../components/disclaimer.astro';
 import Psychimage from '../../components/psychimage.astro';
+import Icon from "heroicons-astro/Heroicon.astro";
 let data = entry.data
 ---
 <BaseLayout pageTitle={entry.data.title}>
@@ -52,7 +53,12 @@ let data = entry.data
     }</ul>
      <ConfidencePanel conf={entry.data.confidence}/>
      <RiskPanel risk={entry.data.risk}/>
+     <h2> Effects </h2>
+     <div><Icon iconCode="chevron-up" iconStyle="outline" customClasses="h-8 w-8 stroke-green-300 inline" /> {entry.data.positive_effects}</div>
+     <div><Icon iconCode="exclamation-circle" iconStyle="outline" customClasses="h-8 w-8 stroke-gray-300 inline" /> {entry.data.neutral_effects}</div>
+     <div><Icon iconCode="chevron-down" iconStyle="outline" customClasses="h-8 w-8 stroke-red-300 inline" /> {entry.data.negative_effects}</div>
     <Content />
+
     <EditPage slug={entry.slug} type={"psychoactives"} />
   </article>
   <div class="block rounded-lg my-6 bg-slate-100 p-6 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] max-w-2xl mx-auto">
