@@ -1,7 +1,7 @@
 ---
 const { entry } = Astro.props;
 ---
-{entry &&
+{entry && entry.data && entry.data.image_location && entry.data.image_caption &&
 <figure class="mb-1 max-w-2-xl relative ">
   <img
     src={`${import.meta.env.BASE_URL}${entry.data.image_location}`}
