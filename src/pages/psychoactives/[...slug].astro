@@ -34,14 +34,8 @@ let data = entry.data
     <h2> {entry.data.title} </h2>
     <Psychimage entry={entry} />
     {entry.data.family_members &&
-    <h2>This is a family of psychoactives: </h2>
-      <ul >
-    {entry.data.family_members.map((name) => (
-      <li>
-      {name}
-      </li>
-      ))
-    }</ul>}
+    <p>{entry.data.title} is not just one drug; {entry.data.title} is a group of drugs. Drugs in this group include {entry.data.family_members.join(', ')}. Drugs within the same group can have very different dosages and very different effects.</p>
+  }
 
     <h2>Commonly Known as: </h2>
       <ul >
