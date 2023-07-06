@@ -108,17 +108,9 @@ let data = entry.data
     return x_label_hours(diff)
   }
   let seen = []
-  function deduped_x_label(timestamp, idx) {
-
+  function cleaned_x_label(timestamp, idx) {
     let result = x_label(timestamp)
-    // console.debug(result, seen, idx)
-    // if (!seen.includes(result)){
-      // seen.push(result)
-    // return result
     return idx % 4 === 0 ? result : ''
-    // } else {
-      // return idx
-    // }
   }
   new Chart(ctx, {
     type: 'line',
@@ -148,9 +140,8 @@ let data = entry.data
             display: false
           },
           ticks: {
-            callback: function(val, index, t, t2, t3) {
-              console.debug(val, index, t, t2, t3)
-              return deduped_x_label(val, index);
+            callback: function(val, index, ticks) {
+              return cleaned_x_label(val, index);
             },
             major :{
               enabled: true
