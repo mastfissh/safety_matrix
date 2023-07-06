@@ -55,11 +55,13 @@ let data = entry.data
 
     <EditPage slug={entry.slug} type={"psychoactives"} />
   </article>
-  {entry.data.duration_chart_title &&
+
+  <span class={!entry.data.duration_chart_title && "hidden"}>
     <div class="block rounded-lg my-6 bg-slate-100 p-6 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] max-w-2xl mx-auto">
       <h2>{entry.data.duration_chart_title} </h2>
       <canvas id="myChart"></canvas>
     </div>
+  </span>
     <script define:vars={{ data }}>
       window.data = data
     </script>
@@ -120,7 +122,7 @@ let data = entry.data
   });
 
 </script>
-}
+
 <Disclaimer />
 {visible && <Grid page={entry.slug} data={data} />}
 </BaseLayout>
