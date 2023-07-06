@@ -9,6 +9,9 @@ LRD : "Low Risk Decrease",
 LRNS : "Low Risk No Synergy",
 }
 ---
-<div>
-The risk is {risk_map[risk]}
-</div>
+{risk &&
+  <div>
+  The risk is {risk_map[risk]}
+  </div>
+}
+

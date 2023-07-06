@@ -61,7 +61,8 @@ let data = entry.data
 
     <EditPage slug={entry.slug} type={"psychoactives"} />
   </article>
-  <div class="block rounded-lg my-6 bg-slate-100 p-6 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] max-w-2xl mx-auto">
+  {entry.data.duration_chart_title &&
+    <div class="block rounded-lg my-6 bg-slate-100 p-6 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] max-w-2xl mx-auto">
       <h2>{entry.data.duration_chart_title} </h2>
       <canvas id="myChart"></canvas>
     </div>
@@ -125,7 +126,7 @@ let data = entry.data
   });
 
 </script>
-
+}
 <Disclaimer />
 {visible && <Grid page={entry.slug} data={data} />}
 </BaseLayout>
