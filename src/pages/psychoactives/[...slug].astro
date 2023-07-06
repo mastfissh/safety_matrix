@@ -76,14 +76,50 @@ let data = entry.data
   let coming_up = Duration.fromISO("PT"+duration_chart.coming_up.toUpperCase())
   let plateau = Duration.fromISO("PT"+duration_chart.plateau.toUpperCase())
   let coming_down = Duration.fromISO("PT"+duration_chart.coming_down.toUpperCase())
+  let max = now.plus(onset).plus(coming_up).plus(plateau).plus(coming_down)
   let chart_data = [
     {x:now, y:0},
     {x:now.plus(onset), y:0},
     {x:now.plus(onset).plus(coming_up), y:1},
     {x:now.plus(onset).plus(coming_up).plus(plateau), y:1},
-    {x:now.plus(onset).plus(coming_up).plus(plateau).plus(coming_down), y:0},
+    {x:max, y:0},
   ]
   Duration.fromISO('PT23H')
+  let total_duration_in_seconds = (max - now)/1000
+  function x_label_seconds(seconds) {
+    return `${seconds} secs`
+  }
+  function x_label_minutes(seconds) {
+    let display = Math.floor(seconds / 60)
+    return `${display} mins`
+  }
+  function x_label_hours(seconds) {
+    let display = Math.floor(seconds / 3600)
+    return `${display} hrs`
+  }
+  function x_label(timestamp) {
+    let diff = (timestamp - now.toMillis())/1000
+    if (total_duration_in_seconds < 400){
+      return x_label_seconds(diff)
+    }
+    if (total_duration_in_seconds < 20000){
+      return x_label_minutes(diff)
+    }
+    return x_label_hours(diff)
+  }
+  let seen = []
+  function deduped_x_label(timestamp, idx) {
+
+    let result = x_label(timestamp)
+    // console.debug(result, seen, idx)
+    // if (!seen.includes(result)){
+      // seen.push(result)
+    // return result
+    return idx % 4 === 0 ? result : ''
+    // } else {
+      // return idx
+    // }
+  }
   new Chart(ctx, {
     type: 'line',
     data: {
@@ -110,6 +146,15 @@ let data = entry.data
           type: 'time',
           grid: {
             display: false
+          },
+          ticks: {
+            callback: function(val, index, t, t2, t3) {
+              console.debug(val, index, t, t2, t3)
+              return deduped_x_label(val, index);
+            },
+            major :{
+              enabled: true
+            }
           }
         }
       },
