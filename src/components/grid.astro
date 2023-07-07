@@ -14,13 +14,13 @@ for (let sub of substances){
 
 function risk_to_bg(risk){
   const map = {
-    'SR' : 'bg-red-200',
-    'GR' : 'bg-orange-200',
-    'MR' : 'bg-amber-200',
-    'LRS' : 'bg-cyan-200',
-    'LRD' : 'bg-violet-200',
-    'LRNS' : 'bg-blue-200',
-    'unknown' : 'bg-slate-200',
+    'SR' : 'bg-red-100',
+    'GR' : 'bg-orange-100',
+    'MR' : 'bg-amber-100',
+    'LRS' : 'bg-cyan-100',
+    'LRD' : 'bg-violet-100',
+    'LRNS' : 'bg-blue-100',
+    'unknown' : 'bg-slate-100',
   }
   return map[risk]
 }
@@ -95,7 +95,7 @@ window.onload = (event) => {
 </script>
 
 <div class="block rounded-lg my-6 bg-gray-50 p-6 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] max-w-2xl mx-auto">
- <h5 class="text-xl font-bold"> Key </h5>
+ <h3 class="text-xl font-bold"> Key </h3>
  <p>In this chart ‘risk’ refers to danger or hazard. ‘Synergy’ refers to increased subjective effects (or in some cases, the creation of an additional subjective effect), while ‘decrease’ refers to reduced subjective effects.
  </p>
  <div class="flex space-x-4">
