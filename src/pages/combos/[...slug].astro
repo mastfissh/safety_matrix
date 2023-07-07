@@ -31,7 +31,7 @@ const psych2_info = await getEntry('psychoactives', psych2);
 import { risk, confidence } from '../../util';
 
 ---
-<BaseLayout pageTitle={entry.data.title}>
+<BaseLayout pageTitle={entry.data.title} metaDescription={`Psychoactives information. This is the page for harm reduction to learn about safety risks for the combination of ${entry.data.title}`}>
   <article class="prose lg:prose-xl mx-auto">
     <h2> {entry.data.title} </h2>
     <span class="grid w-full gap-2 sm:grid-cols-2">
