@@ -11,4 +11,4 @@ let warn = (conf == 'Low confidence')
 {warn && <Icon iconCode="exclamation-circle" iconStyle="outline" customClasses="h-6 w-6 inline" />}
 
 {!link && combo}
-{link && <a class="font-medium text-black underline hover:no-underline" href={`${import.meta.env.BASE_URL}combos/` + slug}> {combo} </a>}
+{link && <a class="font-medium text-black underline hover:no-underline w-full h-full block" href={`${import.meta.env.BASE_URL}combos/` + slug}> {combo} </a>}
