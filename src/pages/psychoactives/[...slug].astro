@@ -21,8 +21,6 @@ if (entry.data.display_grid){
 }
 import EditPage from '../../components/edit_page.astro';
 import Disclaimer from '../../components/disclaimer.astro';
-import ConfidencePanel from '../../components/confidence_panel.astro';
-import RiskPanel from '../../components/risk_panel.astro';
 import Disclaimer from '../../components/disclaimer.astro';
 import Psychimage from '../../components/psychimage.astro';
 import Icon from "heroicons-astro/Heroicon.astro";
@@ -45,8 +43,6 @@ let data = entry.data
       </li>
       ))
     }</ul>
-     <ConfidencePanel conf={entry.data.confidence}/>
-     <RiskPanel risk={entry.data.risk}/>
      <h2> Effects </h2>
      <div><Icon iconCode="chevron-up" iconStyle="outline" customClasses="h-8 w-8 stroke-green-300 inline" /> {entry.data.positive_effects}</div>
      <div><Icon iconCode="exclamation-circle" iconStyle="outline" customClasses="h-8 w-8 stroke-gray-300 inline" /> {entry.data.neutral_effects}</div>
