@@ -1,12 +1,16 @@
 ---
 const { entry } = Astro.props;
+import { Picture } from '@astrojs/image/components';
 ---
 {entry && entry.data && entry.data.image_location && entry.data.image_caption &&
 <figure class="mb-1 max-w-2-xl relative ">
-  <img
-    src={`${import.meta.env.BASE_URL}${entry.data.image_location}`}
-    class="mb-4 h-auto max-w-full rounded-lg align-middle leading-none shadow-lg"
-     />
+<Picture
+  class="mb-4 h-auto max-w-full rounded-lg align-middle leading-none shadow-lg"
+  src={'../../' + entry.data.image_location}
+  widths={[640]}
+  aspectRatio={"4:3"}
+  alt={entry.data.image_caption}
+/>
   <figcaption class="text-sm absolute mb-4 bottom-0 z-90 rounded-lg bg-black/75 px-5 py-2 text-white">
     {entry.data.image_caption}
   </figcaption>
