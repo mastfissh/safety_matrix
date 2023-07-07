@@ -5,7 +5,7 @@ import { getCollection } from 'astro:content';
 const substances = await getCollection('psychoactives');
 ---
 
-<BaseLayout pageTitle={pageTitle}>
+<BaseLayout pageTitle={pageTitle} metaDescription={"Psychoactives information. This is a resource for harm reduction to learn about safety risks of drugs, substances, entheogens and other psychoactives"}>
 <div class="container px-6 mx-auto">
   <h3>Psychoactive pages: </h3>
       <ul >

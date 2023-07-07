@@ -28,7 +28,7 @@ import Psychimage from '../../components/psychimage.astro';
 import Icon from "heroicons-astro/Heroicon.astro";
 let data = entry.data
 ---
-<BaseLayout pageTitle={entry.data.title}>
+<BaseLayout pageTitle={entry.data.title} metaDescription={`Psychoactives information. This is the page for harm reduction to learn about safety risks for ${entry.data.title}, ${(entry.data.family_members||[]).concat(entry.data.aka||[]).join(', ')}`}>
 
   <article class="prose lg:prose-xl mx-auto">
     <h2> {entry.data.title} </h2>
