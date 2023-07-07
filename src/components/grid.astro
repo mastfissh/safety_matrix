@@ -114,9 +114,9 @@ window.onload = (event) => {
 <div>
 <table id="safety_grid" class="w-full table-fixed border-collapse border-2 border-slate-900 text-sm md:text-md lg:text-lg" style="display: none;">
   <tr class:list={"topkey"} class="border-grey-500 border p-1 overflow-hidden">
-    <td class="border-grey-500 border"></td>
+    <th class="border-grey-500 border"></th>
     {drugs.map((drug) => (
-      <td class:list={drug_css_prefix(drug)} class="border-grey-500 border p-1 overflow-hidden">{drug}</td>
+      <th class:list={drug_css_prefix(drug)} class="border-grey-500 border p-1 overflow-hidden">{drug}</th>
     ))
   }
   </tr>
