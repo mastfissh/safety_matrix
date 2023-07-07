@@ -1,13 +1,12 @@
 ---
 const { entry } = Astro.props;
 import { Picture } from '@astrojs/image/components';
-let str = '../' + entry.data.image_location
 ---
 {entry && entry.data && entry.data.image_location && entry.data.image_caption &&
 <figure class="mb-1 max-w-2-xl relative ">
 <Picture
   class="mb-4 h-auto max-w-full rounded-lg align-middle leading-none shadow-lg"
-  src={str}
+  src={'../' + entry.data.image_location}
   widths={[640]}
   aspectRatio={"4:3"}
   alt={entry.data.image_caption}
