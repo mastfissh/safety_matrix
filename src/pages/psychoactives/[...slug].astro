@@ -35,7 +35,7 @@ let data = entry.data
     <p>{entry.data.title} is not just one drug; {entry.data.title} is a group of drugs. Drugs in this group include {entry.data.family_members.join(', ')}. Drugs within the same group can have very different dosages and very different effects.</p>
   }
 
-    {entry.data.aka && <h2>Commonly Known as: </h2>
+    {entry.data.aka && <h2>Commonly known as: </h2>
       <ul >
     {entry.data.aka.map((name) => (
       <li>

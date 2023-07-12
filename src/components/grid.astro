@@ -96,11 +96,13 @@ window.onload = (event) => {
 
 <div class="block rounded-lg my-6 bg-gray-50 p-6 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] max-w-2xl mx-auto">
  <h3 class="text-xl font-bold"> Key </h3>
- <p>In this chart ‘risk’ refers to danger or hazard. ‘Synergy’ refers to increased subjective effects (or in some cases, the creation of an additional subjective effect), while ‘decrease’ refers to reduced subjective effects.
+ <p>Risk = danger or hazard.</p>
+<p>Synergy = increased effects, or new effects</p>
+<p>Decrease = reduced effects</p>
  </p>
  <div class="flex space-x-4">
   <Icon iconCode="exclamation-circle" iconStyle="outline" customClasses="h-7 w-7 inline" />
-  This icon indicates that there's low confidence in the risk rating
+  low confidence in the risk rating
 </div>
  <span class="grid grid-cols-2 lg:grid-cols-3">
     <span class:list={risk_to_bg('SR')} class = "text-m font-medium m-2 px-2.5 py-0.5 rounded"> Significant Risk</span>
