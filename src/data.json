@@ -47,7 +47,8 @@
     "Eroxythylum coca",
     "Phyllomedusa bicolor",
     "Tabernathe iboga",
-    "Meditation"
+    "Meditation",
+    "Kava"
   ],
   "risk_levels": [
     "SR",
@@ -689,6 +690,118 @@
     [
       "Cathinones",
       "MAOIs"
+    ],
+    [
+      "5-MeO-xxT",
+      "Kava"
+    ],
+    [
+      "DXM",
+      "Kava"
+    ],
+    [
+      "Amphetamines",
+      "Kava"
+    ],
+    [
+      "MDMA",
+      "Kava"
+    ],
+    [
+      "Cocaine",
+      "Kava"
+    ],
+    [
+      "Tramadol",
+      "Kava"
+    ],
+    [
+      "SSRIs",
+      "Kava"
+    ],
+    [
+      "Incillius alvarius",
+      "Kava"
+    ],
+    [
+      "Kava",
+      "Cannabis"
+    ],
+    [
+      "Kava",
+      "Opioids"
+    ],
+    [
+      "Kava",
+      "SSRIs"
+    ],
+    [
+      "Kava",
+      "Incillius alvarius"
+    ],
+    [
+      "Kava",
+      "Tabernathe iboga"
+    ],
+    [
+      "Tabernathe iboga",
+      "Kava"
+    ],
+    [
+      "5-MeO-xxT",
+      "Kava"
+    ],
+    [
+      "DXM",
+      "Kava"
+    ],
+    [
+      "Amphetamines",
+      "Kava"
+    ],
+    [
+      "MDMA",
+      "Kava"
+    ],
+    [
+      "Cocaine",
+      "Kava"
+    ],
+    [
+      "Tramadol",
+      "Kava"
+    ],
+    [
+      "SSRIs",
+      "Kava"
+    ],
+    [
+      "Incillius alvarius",
+      "Kava"
+    ],
+    [
+      "Kava",
+      "Cannabis"
+    ],
+    [
+      "Kava",
+      "Opioids"
+    ],
+    [
+      "Kava",
+      "SSRIs"
+    ],
+    [
+      "Kava",
+      "Incillius alvarius"
+    ],
+    [
+      "Kava",
+      "Tabernathe iboga"
+    ],
+    [
+      "Tabernathe iboga",
+      "Kava"
     ]
   ],
   "GR": [
@@ -1367,6 +1480,86 @@
     [
       "Eroxythylum coca",
       "Cathinones"
+    ],
+    [
+      "MXE",
+      "Kava"
+    ],
+    [
+      "Alcohol",
+      "Kava"
+    ],
+    [
+      "Kava",
+      "Catha edulis"
+    ],
+    [
+      "Kava",
+      "Ephedra sinica"
+    ],
+    [
+      "Kava",
+      "Eroxythylum coca"
+    ],
+    [
+      "Catha edulis",
+      "Kava"
+    ],
+    [
+      "Ephedra sinica",
+      "Kava"
+    ],
+    [
+      "Eroxythylum coca",
+      "Kava"
+    ],
+    [
+      "Kava",
+      "Cathinones"
+    ],
+    [
+      "Cathinones",
+      "Kava"
+    ],
+    [
+      "MXE",
+      "Kava"
+    ],
+    [
+      "Alcohol",
+      "Kava"
+    ],
+    [
+      "Kava",
+      "Catha edulis"
+    ],
+    [
+      "Kava",
+      "Ephedra sinica"
+    ],
+    [
+      "Kava",
+      "Eroxythylum coca"
+    ],
+    [
+      "Catha edulis",
+      "Kava"
+    ],
+    [
+      "Ephedra sinica",
+      "Kava"
+    ],
+    [
+      "Eroxythylum coca",
+      "Kava"
+    ],
+    [
+      "Kava",
+      "Cathinones"
+    ],
+    [
+      "Cathinones",
+      "Kava"
     ]
   ],
   "MR": [
@@ -3909,6 +4102,206 @@
     [
       "Cathinones",
       "Psilocybe Species"
+    ],
+    [
+      "Mescaline",
+      "Kava"
+    ],
+    [
+      "DOx",
+      "Kava"
+    ],
+    [
+      "NBOMes",
+      "Kava"
+    ],
+    [
+      "2C-x",
+      "Kava"
+    ],
+    [
+      "2C-T-x",
+      "Kava"
+    ],
+    [
+      "Ketamine",
+      "Kava"
+    ],
+    [
+      "Opioids",
+      "Kava"
+    ],
+    [
+      "Trichocereus species",
+      "Kava"
+    ],
+    [
+      "Lophpopra willamsii",
+      "Kava"
+    ],
+    [
+      "Kava",
+      "Mescaline"
+    ],
+    [
+      "Kava",
+      "DOx"
+    ],
+    [
+      "Kava",
+      "NBOMes"
+    ],
+    [
+      "Kava",
+      "2C-x"
+    ],
+    [
+      "Kava",
+      "2C-T-x"
+    ],
+    [
+      "Kava",
+      "Ketamine"
+    ],
+    [
+      "Kava",
+      "Alcohol"
+    ],
+    [
+      "Kava",
+      "GHB/GBL"
+    ],
+    [
+      "Kava",
+      "Tramadol"
+    ],
+    [
+      "Kava",
+      "Benzodiazepine"
+    ],
+    [
+      "Kava",
+      "Trichocereus species"
+    ],
+    [
+      "Kava",
+      "Lophpopra willamsii"
+    ],
+    [
+      "Kava",
+      "Piper methysticum"
+    ],
+    [
+      "Kava",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "Piper methysticum",
+      "Kava"
+    ],
+    [
+      "Phyllomedusa bicolor",
+      "Kava"
+    ],
+    [
+      "Mescaline",
+      "Kava"
+    ],
+    [
+      "DOx",
+      "Kava"
+    ],
+    [
+      "NBOMes",
+      "Kava"
+    ],
+    [
+      "2C-x",
+      "Kava"
+    ],
+    [
+      "2C-T-x",
+      "Kava"
+    ],
+    [
+      "Ketamine",
+      "Kava"
+    ],
+    [
+      "Opioids",
+      "Kava"
+    ],
+    [
+      "Trichocereus species",
+      "Kava"
+    ],
+    [
+      "Lophpopra willamsii",
+      "Kava"
+    ],
+    [
+      "Kava",
+      "Mescaline"
+    ],
+    [
+      "Kava",
+      "DOx"
+    ],
+    [
+      "Kava",
+      "NBOMes"
+    ],
+    [
+      "Kava",
+      "2C-x"
+    ],
+    [
+      "Kava",
+      "2C-T-x"
+    ],
+    [
+      "Kava",
+      "Ketamine"
+    ],
+    [
+      "Kava",
+      "Alcohol"
+    ],
+    [
+      "Kava",
+      "GHB/GBL"
+    ],
+    [
+      "Kava",
+      "Tramadol"
+    ],
+    [
+      "Kava",
+      "Benzodiazepine"
+    ],
+    [
+      "Kava",
+      "Trichocereus species"
+    ],
+    [
+      "Kava",
+      "Lophpopra willamsii"
+    ],
+    [
+      "Kava",
+      "Piper methysticum"
+    ],
+    [
+      "Kava",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "Piper methysticum",
+      "Kava"
+    ],
+    [
+      "Phyllomedusa bicolor",
+      "Kava"
     ]
   ],
   "LRS": [
@@ -4110,6 +4503,10 @@
     ],
     [
       "Psilocybin",
+      "Banisteriopsis caapi"
+    ],
+    [
+      "Kava",
       "Banisteriopsis caapi"
     ],
     [
@@ -6667,6 +7064,226 @@
     [
       "Meditation",
       "Tabernathe iboga"
+    ],
+    [
+      "Psilocybin",
+      "Kava"
+    ],
+    [
+      "DMT",
+      "Kava"
+    ],
+    [
+      "Cannabis",
+      "Kava"
+    ],
+    [
+      "GHB/GBL",
+      "Kava"
+    ],
+    [
+      "Benzodiazepine",
+      "Kava"
+    ],
+    [
+      "MAOIs",
+      "Kava"
+    ],
+    [
+      "Acacia species",
+      "Kava"
+    ],
+    [
+      "Mimosa tenuiflora",
+      "Kava"
+    ],
+    [
+      "Panaelous cyanescens",
+      "Kava"
+    ],
+    [
+      "Argyreia nervosa",
+      "Kava"
+    ],
+    [
+      "Ipomea violacea",
+      "Kava"
+    ],
+    [
+      "Rivea corymbosa",
+      "Kava"
+    ],
+    [
+      "Kava",
+      "Psilocybin"
+    ],
+    [
+      "Kava",
+      "DMT"
+    ],
+    [
+      "Kava",
+      "MXE"
+    ],
+    [
+      "Kava",
+      "DXM"
+    ],
+    [
+      "Kava",
+      "Nitrous"
+    ],
+    [
+      "Kava",
+      "MAOIs"
+    ],
+    [
+      "Kava",
+      "Acacia species"
+    ],
+    [
+      "Kava",
+      "Mimosa tenuiflora"
+    ],
+    [
+      "Kava",
+      "Panaelous cyanescens"
+    ],
+    [
+      "Kava",
+      "Argyreia nervosa"
+    ],
+    [
+      "Kava",
+      "Ipomea violacea"
+    ],
+    [
+      "Kava",
+      "Rivea corymbosa"
+    ],
+    [
+      "Psilocybe Species",
+      "Kava"
+    ],
+    [
+      "Kava",
+      "Psilocybe Species"
+    ],
+    [
+      "Meditation",
+      "Kava"
+    ],
+    [
+      "Psilocybin",
+      "Kava"
+    ],
+    [
+      "Kava",
+      "Kava"
+    ],
+    [
+      "DMT",
+      "Kava"
+    ],
+    [
+      "Cannabis",
+      "Kava"
+    ],
+    [
+      "GHB/GBL",
+      "Kava"
+    ],
+    [
+      "Benzodiazepine",
+      "Kava"
+    ],
+    [
+      "MAOIs",
+      "Kava"
+    ],
+    [
+      "Acacia species",
+      "Kava"
+    ],
+    [
+      "Mimosa tenuiflora",
+      "Kava"
+    ],
+    [
+      "Panaelous cyanescens",
+      "Kava"
+    ],
+    [
+      "Argyreia nervosa",
+      "Kava"
+    ],
+    [
+      "Ipomea violacea",
+      "Kava"
+    ],
+    [
+      "Rivea corymbosa",
+      "Kava"
+    ],
+    [
+      "Kava",
+      "Psilocybin"
+    ],
+    [
+      "Kava",
+      "DMT"
+    ],
+    [
+      "Kava",
+      "MXE"
+    ],
+    [
+      "Kava",
+      "DXM"
+    ],
+    [
+      "Kava",
+      "Nitrous"
+    ],
+    [
+      "Kava",
+      "MAOIs"
+    ],
+    [
+      "Kava",
+      "Acacia species"
+    ],
+    [
+      "Kava",
+      "Mimosa tenuiflora"
+    ],
+    [
+      "Kava",
+      "Panaelous cyanescens"
+    ],
+    [
+      "Kava",
+      "Argyreia nervosa"
+    ],
+    [
+      "Kava",
+      "Ipomea violacea"
+    ],
+    [
+      "Kava",
+      "Rivea corymbosa"
+    ],
+    [
+      "Psilocybe Species",
+      "Kava"
+    ],
+    [
+      "Kava",
+      "Psilocybe Species"
+    ],
+    [
+      "Meditation",
+      "Kava"
     ]
   ],
   "LRD": [
@@ -7549,6 +8166,46 @@
     [
       "Cathinones",
       "Papaver somnifarem"
+    ],
+    [
+      "LSD",
+      "Kava"
+    ],
+    [
+      "Kava",
+      "LSD"
+    ],
+    [
+      "Kava",
+      "Amphetamines"
+    ],
+    [
+      "Kava",
+      "MDMA"
+    ],
+    [
+      "Kava",
+      "Cocaine"
+    ],
+    [
+      "LSD",
+      "Kava"
+    ],
+    [
+      "Kava",
+      "LSD"
+    ],
+    [
+      "Kava",
+      "Amphetamines"
+    ],
+    [
+      "Kava",
+      "MDMA"
+    ],
+    [
+      "Kava",
+      "Cocaine"
     ]
   ],
   "LRNS": [
@@ -8875,6 +9532,94 @@
     [
       "Phyllomedusa bicolor",
       "Psilocybe Species"
+    ],
+    [
+      "Nitrous",
+      "Kava"
+    ],
+    [
+      "Caffeine",
+      "Kava"
+    ],
+    [
+      "Salvia divonorum",
+      "Kava"
+    ],
+    [
+      "Amanita muscaria",
+      "Kava"
+    ],
+    [
+      "Mitragyna speciosa",
+      "Kava"
+    ],
+    [
+      "Papaver somnifarem",
+      "Kava"
+    ],
+    [
+      "Kava",
+      "Caffeine"
+    ],
+    [
+      "Kava",
+      "Salvia divonorum"
+    ],
+    [
+      "Kava",
+      "Amanita muscaria"
+    ],
+    [
+      "Kava",
+      "Mitragyna speciosa"
+    ],
+    [
+      "Kava",
+      "Papaver somnifarem"
+    ],
+    [
+      "Nitrous",
+      "Kava"
+    ],
+    [
+      "Caffeine",
+      "Kava"
+    ],
+    [
+      "Salvia divonorum",
+      "Kava"
+    ],
+    [
+      "Amanita muscaria",
+      "Kava"
+    ],
+    [
+      "Mitragyna speciosa",
+      "Kava"
+    ],
+    [
+      "Papaver somnifarem",
+      "Kava"
+    ],
+    [
+      "Kava",
+      "Caffeine"
+    ],
+    [
+      "Kava",
+      "Salvia divonorum"
+    ],
+    [
+      "Kava",
+      "Amanita muscaria"
+    ],
+    [
+      "Kava",
+      "Mitragyna speciosa"
+    ],
+    [
+      "Kava",
+      "Papaver somnifarem"
     ]
   ],
   "conf_levels": [
@@ -14686,6 +15431,242 @@
     [
       "Tabernathe iboga",
       "Phyllomedusa bicolor"
+    ],
+    [
+      "DOx",
+      "Kava"
+    ],
+    [
+      "NBOMes",
+      "Kava"
+    ],
+    [
+      "2C-x",
+      "Kava"
+    ],
+    [
+      "2C-T-x",
+      "Kava"
+    ],
+    [
+      "5-MeO-xxT",
+      "Kava"
+    ],
+    [
+      "Ketamine",
+      "Kava"
+    ],
+    [
+      "MXE",
+      "Kava"
+    ],
+    [
+      "DXM",
+      "Kava"
+    ],
+    [
+      "Nitrous",
+      "Kava"
+    ],
+    [
+      "Amphetamines",
+      "Kava"
+    ],
+    [
+      "MDMA",
+      "Kava"
+    ],
+    [
+      "Cocaine",
+      "Kava"
+    ],
+    [
+      "Caffeine",
+      "Kava"
+    ],
+    [
+      "Alcohol",
+      "Kava"
+    ],
+    [
+      "GHB/GBL",
+      "Kava"
+    ],
+    [
+      "Opioids",
+      "Kava"
+    ],
+    [
+      "Tramadol",
+      "Kava"
+    ],
+    [
+      "Benzodiazepine",
+      "Kava"
+    ],
+    [
+      "MAOIs",
+      "Kava"
+    ],
+    [
+      "SSRIs",
+      "Kava"
+    ],
+    [
+      "Salvia divonorum",
+      "Kava"
+    ],
+    [
+      "Incillius alvarius",
+      "Kava"
+    ],
+    [
+      "Mitragyna speciosa",
+      "Kava"
+    ],
+    [
+      "Papaver somnifarem",
+      "Kava"
+    ],
+    [
+      "Kava",
+      "DOx"
+    ],
+    [
+      "Kava",
+      "NBOMes"
+    ],
+    [
+      "Kava",
+      "2C-x"
+    ],
+    [
+      "Kava",
+      "2C-T-x"
+    ],
+    [
+      "Kava",
+      "5-MeO-xxT"
+    ],
+    [
+      "Kava",
+      "Ketamine"
+    ],
+    [
+      "Kava",
+      "MXE"
+    ],
+    [
+      "Kava",
+      "DXM"
+    ],
+    [
+      "Kava",
+      "Nitrous"
+    ],
+    [
+      "Kava",
+      "Amphetamines"
+    ],
+    [
+      "Kava",
+      "MDMA"
+    ],
+    [
+      "Kava",
+      "Cocaine"
+    ],
+    [
+      "Kava",
+      "Caffeine"
+    ],
+    [
+      "Kava",
+      "Alcohol"
+    ],
+    [
+      "Kava",
+      "GHB/GBL"
+    ],
+    [
+      "Kava",
+      "Opioids"
+    ],
+    [
+      "Kava",
+      "Tramadol"
+    ],
+    [
+      "Kava",
+      "Benzodiazepine"
+    ],
+    [
+      "Kava",
+      "MAOIs"
+    ],
+    [
+      "Kava",
+      "SSRIs"
+    ],
+    [
+      "Kava",
+      "Salvia divonorum"
+    ],
+    [
+      "Kava",
+      "Incillius alvarius"
+    ],
+    [
+      "Kava",
+      "Mitragyna speciosa"
+    ],
+    [
+      "Kava",
+      "Papaver somnifarem"
+    ],
+    [
+      "Kava",
+      "Catha edulis"
+    ],
+    [
+      "Kava",
+      "Ephedra sinica"
+    ],
+    [
+      "Kava",
+      "Eroxythylum coca"
+    ],
+    [
+      "Kava",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "Kava",
+      "Tabernathe iboga"
+    ],
+    [
+      "Piper methysticum",
+      "Kava"
+    ],
+    [
+      "Catha edulis",
+      "Kava"
+    ],
+    [
+      "Ephedra sinica",
+      "Kava"
+    ],
+    [
+      "Eroxythylum coca",
+      "Kava"
+    ],
+    [
+      "Phyllomedusa bicolor",
+      "Kava"
+    ],
+    [
+      "Tabernathe iboga",
+      "Kava"
     ]
   ],
   "Medium confidence": [
@@ -16440,6 +17421,118 @@
     [
       "Eroxythylum coca",
       "Cannabis"
+    ],
+    [
+      "LSD",
+      "Kava"
+    ],
+    [
+      "Psilocybin",
+      "Kava"
+    ],
+    [
+      "DMT",
+      "Kava"
+    ],
+    [
+      "Mescaline",
+      "Kava"
+    ],
+    [
+      "Cannabis",
+      "Kava"
+    ],
+    [
+      "Acacia species",
+      "Kava"
+    ],
+    [
+      "Mimosa tenuiflora",
+      "Kava"
+    ],
+    [
+      "Panaelous cyanescens",
+      "Kava"
+    ],
+    [
+      "Argyreia nervosa",
+      "Kava"
+    ],
+    [
+      "Ipomea violacea",
+      "Kava"
+    ],
+    [
+      "Rivea corymbosa",
+      "Kava"
+    ],
+    [
+      "Amanita muscaria",
+      "Kava"
+    ],
+    [
+      "Trichocereus species",
+      "Kava"
+    ],
+    [
+      "Lophpopra willamsii",
+      "Kava"
+    ],
+    [
+      "Kava",
+      "LSD"
+    ],
+    [
+      "Kava",
+      "Psilocybin"
+    ],
+    [
+      "Kava",
+      "DMT"
+    ],
+    [
+      "Kava",
+      "Mescaline"
+    ],
+    [
+      "Kava",
+      "Cannabis"
+    ],
+    [
+      "Kava",
+      "Acacia species"
+    ],
+    [
+      "Kava",
+      "Mimosa tenuiflora"
+    ],
+    [
+      "Kava",
+      "Panaelous cyanescens"
+    ],
+    [
+      "Kava",
+      "Argyreia nervosa"
+    ],
+    [
+      "Kava",
+      "Ipomea violacea"
+    ],
+    [
+      "Kava",
+      "Rivea corymbosa"
+    ],
+    [
+      "Kava",
+      "Amanita muscaria"
+    ],
+    [
+      "Kava",
+      "Trichocereus species"
+    ],
+    [
+      "Kava",
+      "Lophpopra willamsii"
     ]
   ],
   "High confidence": [
@@ -16946,6 +18039,10 @@
     [
       "Meditation",
       "Tabernathe iboga"
+    ],
+    [
+      "Meditation",
+      "Kava"
     ]
   ]
 }
