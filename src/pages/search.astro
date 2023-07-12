@@ -98,13 +98,13 @@ window.onload = (event) => {
   <h3>Psychoactive pages: </h3>
       <ul >
     {substances.map((substance) => (
-      <li class="searchable" data-title={substance.data.title} data-keywords={drug_to_keywords(substance)}><a class="font-medium text-blue-600 underline dark:text-blue-900 hover:no-underline" href={`${import.meta.env.BASE_URL}psychoactives/` + substance.slug}> {substance.data.title} </a></li>
+      <li class="searchable" data-title={substance.data.title} data-keywords={drug_to_keywords(substance)}><a class="font-medium text-blue-600 underline dark:text-blue-900 hover:no-underline" href={`${import.meta.env.BASE_URL}psychoactives/` + substance.slug + '/'}> {substance.data.title} </a></li>
       ))}</ul>
 
   <h3>Combo pages: </h3>
       <ul >
     {combos.map((combo) => (
-      <li class="searchable" data-title={combo.data.title} data-keywords={ combo_to_keywords(combo)} ><a class="font-medium text-blue-600 underline dark:text-blue-900 hover:no-underline" href={`${import.meta.env.BASE_URL}combos/` + combo.slug}> {combo.data.title}  </a></li>
+      <li class="searchable" data-title={combo.data.title} data-keywords={ combo_to_keywords(combo)} ><a class="font-medium text-blue-600 underline dark:text-blue-900 hover:no-underline" href={`${import.meta.env.BASE_URL}combos/` + combo.slug + '/'}> {combo.data.title}  </a></li>
       ))}</ul>
 </div>
 </BaseLayout>
