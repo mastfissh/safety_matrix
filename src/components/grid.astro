@@ -34,6 +34,17 @@ function drug_to_keywords(drug){
   }
   return out.join(',')
 }
+
+function drug_to_title(i){
+  let drug = linkify(i)
+  const drug_info = idx[drug];
+  if (drug_info){
+    return drug_info.data.title
+  }
+  // Note! If we get here, there are missing individual pages
+  return i
+}
+
 ---
 <script>
 window.onload = (event) => {
@@ -150,7 +161,7 @@ window.onload = (event) => {
         <input type="checkbox" class="filter_check hidden peer" id={drug_css_prefix(drug)} name={drug_css_prefix(drug)} value={drug_css_prefix(drug)} >
         <label for={drug_css_prefix(drug)} class="inline-flex items-center justify-between w-full p-5  bg-white border-2 border-gray-200 rounded-lg cursor-pointer hover:text-gray-300 border-gray-700 peer-checked:border-blue-600 peer-checked:text-gray-300  peer-checked:bg-gray-600 peer-checked:text-gray-50 text-gray-1000 ">
             <div class="block">
-                <div class="w-full text-md lg:text-lg font-semibold">{drug}</div>
+                <div class="w-full text-md lg:text-lg font-semibold">{drug_to_title(drug)}</div>
             </div>
         </label>
     </li>
