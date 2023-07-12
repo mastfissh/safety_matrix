@@ -2,7 +2,6 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 const pageTitle = "Psychs";
 import { getCollection } from 'astro:content';
-import Psychimage from '../components/psychimage.astro';
 import { Picture } from '@astrojs/image/components';
 const substances = await getCollection('psychoactives');
 ---
@@ -11,7 +10,7 @@ const substances = await getCollection('psychoactives');
 <div class="container px-6 mx-auto">
   <span class="grid w-full gap-6 grid-cols-2 md:grid-cols-4 lg:grid-cols-5">
   {substances.map((substance) => (
-    <a href={`${import.meta.env.BASE_URL}psychoactives/` + substance.slug + '/'} class="bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 h-auto">
+    <a href={`${import.meta.env.BASE_URL}psychoactives/` +  substance.slug + '/'} class="bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 h-auto">
       <div class="p-4 h-24">
           <h3 class=" text-2xl font-bold tracking-tight text-gray-600">{substance.data.title}</h3>
       </div>
