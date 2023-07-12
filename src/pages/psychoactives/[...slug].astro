@@ -12,18 +12,15 @@ const { entry } = Astro.props;
 const { Content } = await entry.render();
 import data from '../../data.json';
 let value = entry.slug
-
-import Grid from '../../components/grid.astro';
+const substances = await getCollection('psychoactives');
 import BaseLayout from '../../layouts/BaseLayout.astro';
-let visible = false
-if (entry.data.display_grid){
-  visible = true
-}
 import EditPage from '../../components/edit_page.astro';
 import Disclaimer from '../../components/disclaimer.astro';
 import Disclaimer from '../../components/disclaimer.astro';
 import Psychimage from '../../components/psychimage.astro';
 import Icon from "heroicons-astro/Heroicon.astro";
+import { Picture } from '@astrojs/image/components';
+import { combo, risk, drug_css_prefix, confidence, linkify } from '../../util';
 let data = entry.data
 ---
 <BaseLayout pageTitle={entry.data.title} metaDescription={`Psychoactives information. This is the page for harm reduction to learn about safety risks for ${entry.data.title}, ${(entry.data.family_members||[]).concat(entry.data.aka||[]).join(', ')}`}>
@@ -155,6 +152,25 @@ let data = entry.data
 
 </script>
 
+<h2 class="text-xl font-bold mb-4">Combinations with: </h2>
+<div class="container px-6 mx-auto">
+  <span class="grid w-full gap-6 grid-cols-2 md:grid-cols-4 lg:grid-cols-5">
+  {substances.map((substance) => (
+    <a href={`${import.meta.env.BASE_URL}combos/` + linkify(combo([substance.slug,value])) + '/'} class="bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 h-auto">
+      <div class="p-4 h-24">
+          <h3 class=" text-2xl font-bold tracking-tight text-gray-600">{substance.data.title}</h3>
+      </div>
+      <Picture
+        class="h-auto max-w-full rounded-lg align-middle leading-none shadow-lg"
+        src={'../../' + substance.data.image_location}
+        widths={[320]}
+        aspectRatio={"4:3"}
+        alt={substance.data.image_caption}
+      />
+    </a>
+
+  ))}
+  </span>
+</div>
 <Disclaimer />
-{visible && <Grid page={entry.slug} data={data} />}
 </BaseLayout>
