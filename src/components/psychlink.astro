@@ -6,4 +6,4 @@ let slug = linkify(psych)
 const page = await getEntryBySlug('psychoactives', slug);
 let link = (!!page)
 ---
-{link && <span> See also: <a class="font-medium text-blue-600 underline dark:text-blue-900 hover:no-underline" href={`${import.meta.env.BASE_URL}psychoactives/` + slug + '/'}> {psych} </a> </span>}
+{link && <span> See also: <a class="font-medium underline text-blue-900 hover:no-underline" href={`${import.meta.env.BASE_URL}psychoactives/` + slug + '/'}> {psych} </a> </span>}
