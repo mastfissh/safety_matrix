@@ -38,7 +38,7 @@ function drug_to_keywords(entry){
 }
 ---
 <script>
-window.onload = (event) => {
+window.addEventListener("load", (event) => {
   const search = document.getElementById('search')
   const items = document.querySelectorAll('.searchable');
   function compute() {
@@ -80,7 +80,7 @@ window.onload = (event) => {
   search.addEventListener("input", (event) => {
     compute()
   });
-}
+});
 </script>
 <BaseLayout pageTitle={pageTitle} metaDescription={"Search for Psychoactives information. This is the search page for harm reduction to learn about safety risks of drugs, substances, entheogens and other psychoactives"}>
 <div class="container px-6 mx-auto">
