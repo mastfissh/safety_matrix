@@ -5,6 +5,7 @@ import { combo, risk, drug_css_prefix, confidence, linkify } from '../util';
 import Combolink from './combolink.astro';
 import { getCollection } from 'astro:content';
 import Icon from "heroicons-astro/Heroicon.astro";
+import { Picture } from '@astrojs/image/components';
 const substances = await getCollection('psychoactives');
 let idx = {}
 for (let sub of substances){
@@ -165,7 +166,15 @@ window.onload = (event) => {
         <label for={drug_css_prefix(drug.key)} class="inline-flex items-center justify-between w-full p-5  bg-white border-2 border-gray-200 rounded-lg cursor-pointer hover:text-gray-300 border-gray-700 peer-checked:border-blue-600 peer-checked:text-gray-300  peer-checked:bg-gray-600 peer-checked:text-gray-50 text-gray-1000 ">
             <div class="block">
                 <div class="w-full text-md lg:text-lg font-semibold">{drug_to_title(drug.key)}</div>
+                <Picture
+        class="h-auto w-36 rounded-lg align-middle leading-none shadow-lg"
+        src={'../../' + drug.data.image_location}
+        widths={[80, 160, 320]}
+        aspectRatio={"4:3"}
+        alt={drug.data.image_caption}
+      />
             </div>
+
         </label>
     </li>
   ))}
