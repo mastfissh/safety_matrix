@@ -46,7 +46,8 @@ let data = entry.data
      <div><Icon iconCode="exclamation-circle" iconStyle="outline" customClasses="h-8 w-8 stroke-gray-300 inline" /> {entry.data.neutral_effects}</div>
      <div><Icon iconCode="chevron-down" iconStyle="outline" customClasses="h-8 w-8 stroke-red-300 inline" /> {entry.data.negative_effects}</div>
     <Content />
-    <Chart title={entry.data.duration_chart_title} data={data.duration_chart} />
+
+    {!entry.data.inline_chart && <Chart title={entry.data.duration_chart_title} data={data.duration_chart} />}
     <EditPage slug={entry.slug} type={"psychoactives"} />
   </article>
 
