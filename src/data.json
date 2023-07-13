@@ -1,5 +1,15 @@
 {
   "drugs": [
+    "Alcohol",
+    "Cannabis",
+    "Meditation",
+    "Amphetamines",
+    "Cocaine",
+    "Ketamine",
+    "MDMA",
+    "Opioids",
+    "SSRIs",
+    "Trichocereus species",
     "LSD",
     "Psilocybin",
     "Cathinones",
@@ -11,22 +21,14 @@
     "2C-x",
     "2C-T-x",
     "5-MeO-xxT",
-    "Cannabis",
-    "Ketamine",
     "MXE",
     "DXM",
     "Nitrous",
-    "Amphetamines",
-    "MDMA",
-    "Cocaine",
     "Caffeine",
-    "Alcohol",
     "GHB/GBL",
-    "Opioids",
     "Tramadol",
-    "Benzodiazepine",
+    "Benzodiazepines",
     "MAOIs",
-    "SSRIs",
     "Salvia divonorum",
     "Acacia species",
     "Mimosa tenuiflora",
@@ -35,19 +37,16 @@
     "Ipomea violacea",
     "Rivea corymbosa",
     "Amanita muscaria",
-    "Trichocereus species",
     "Lophpopra willamsii",
     "Incillius alvarius",
     "Mitragyna speciosa",
     "Papaver somnifarem",
     "Banisteriopsis caapi",
-    "Piper methysticum",
     "Catha edulis",
     "Ephedra sinica",
     "Eroxythylum coca",
     "Phyllomedusa bicolor",
     "Tabernathe iboga",
-    "Meditation",
     "Kava"
   ],
   "risk_levels": [
@@ -269,7 +268,7 @@
     ],
     [
       "Alcohol",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "Alcohol",
@@ -309,7 +308,7 @@
     ],
     [
       "GHB/GBL",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "GHB/GBL",
@@ -353,7 +352,7 @@
     ],
     [
       "Opioids",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "Opioids",
@@ -397,7 +396,7 @@
     ],
     [
       "Tramadol",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "Tramadol",
@@ -440,31 +439,31 @@
       "Phyllomedusa bicolor"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "Alcohol"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "GHB/GBL"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "Opioids"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "Tramadol"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "Mitragyna speciosa"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "Papaver somnifarem"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "Phyllomedusa bicolor"
     ],
     [
@@ -553,7 +552,7 @@
     ],
     [
       "Mitragyna speciosa",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "Mitragyna speciosa",
@@ -569,7 +568,7 @@
     ],
     [
       "Papaver somnifarem",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "Papaver somnifarem",
@@ -649,7 +648,7 @@
     ],
     [
       "Phyllomedusa bicolor",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "Phyllomedusa bicolor",
@@ -2109,7 +2108,7 @@
     ],
     [
       "Ketamine",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "Ketamine",
@@ -2157,7 +2156,7 @@
     ],
     [
       "MXE",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "MXE",
@@ -2181,7 +2180,7 @@
     ],
     [
       "DXM",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "DXM",
@@ -2632,23 +2631,23 @@
       "Amanita muscaria"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "Ketamine"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "MXE"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "DXM"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "Amanita muscaria"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "Tabernathe iboga"
     ],
     [
@@ -2961,7 +2960,7 @@
     ],
     [
       "Amanita muscaria",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "Amanita muscaria",
@@ -3217,7 +3216,7 @@
     ],
     [
       "Banisteriopsis caapi",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "Banisteriopsis caapi",
@@ -3773,7 +3772,7 @@
     ],
     [
       "Tabernathe iboga",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "Tabernathe iboga",
@@ -4177,7 +4176,7 @@
     ],
     [
       "Kava",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "Kava",
@@ -4277,7 +4276,7 @@
     ],
     [
       "Kava",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "Kava",
@@ -5510,15 +5509,15 @@
       "Cannabis"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "MAOIs"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "Banisteriopsis caapi"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "Piper methysticum"
     ],
     [
@@ -5539,7 +5538,7 @@
     ],
     [
       "MAOIs",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "MAOIs",
@@ -6587,7 +6586,7 @@
     ],
     [
       "Piper methysticum",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "Piper methysticum",
@@ -6975,7 +6974,7 @@
     ],
     [
       "Meditation",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "Meditation",
@@ -7082,7 +7081,7 @@
       "Kava"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "Kava"
     ],
     [
@@ -7194,7 +7193,7 @@
       "Kava"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "Kava"
     ],
     [
@@ -7297,7 +7296,7 @@
     ],
     [
       "LSD",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "LSD",
@@ -7325,7 +7324,7 @@
     ],
     [
       "Psilocybin",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "Psilocybin",
@@ -7341,7 +7340,7 @@
     ],
     [
       "DMT",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "DMT",
@@ -7357,7 +7356,7 @@
     ],
     [
       "Mescaline",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "Mescaline",
@@ -7373,7 +7372,7 @@
     ],
     [
       "DOx",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "DOx",
@@ -7389,7 +7388,7 @@
     ],
     [
       "NBOMes",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "NBOMes",
@@ -7405,7 +7404,7 @@
     ],
     [
       "2C-x",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "2C-x",
@@ -7421,7 +7420,7 @@
     ],
     [
       "2C-T-x",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "2C-T-x",
@@ -7437,7 +7436,7 @@
     ],
     [
       "5-MeO-xxT",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "5-MeO-xxT",
@@ -7445,15 +7444,15 @@
     ],
     [
       "Cannabis",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "Nitrous",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "Amphetamines",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "Amphetamines",
@@ -7461,7 +7460,7 @@
     ],
     [
       "MDMA",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "MDMA",
@@ -7473,7 +7472,7 @@
     ],
     [
       "Cocaine",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "Cocaine",
@@ -7481,7 +7480,7 @@
     ],
     [
       "Caffeine",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "Caffeine",
@@ -7632,111 +7631,111 @@
       "Incillius alvarius"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "LSD"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "Psilocybin"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "DMT"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "Mescaline"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "DOx"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "NBOMes"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "2C-x"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "2C-T-x"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "5-MeO-xxT"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "Cannabis"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "Nitrous"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "Amphetamines"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "MDMA"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "Cocaine"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "Caffeine"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "Acacia species"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "Mimosa tenuiflora"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "Panaelous cyanescens"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "Argyreia nervosa"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "Ipomea violacea"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "Rivea corymbosa"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "Trichocereus species"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "Lophpopra willamsii"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "Incillius alvarius"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "Catha edulis"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "Ephedra sinica"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "Eroxythylum coca"
     ],
     [
@@ -7853,7 +7852,7 @@
     ],
     [
       "Acacia species",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "Acacia species",
@@ -7869,7 +7868,7 @@
     ],
     [
       "Mimosa tenuiflora",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "Mimosa tenuiflora",
@@ -7885,7 +7884,7 @@
     ],
     [
       "Panaelous cyanescens",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "Panaelous cyanescens",
@@ -7901,7 +7900,7 @@
     ],
     [
       "Argyreia nervosa",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "Argyreia nervosa",
@@ -7921,7 +7920,7 @@
     ],
     [
       "Ipomea violacea",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "Ipomea violacea",
@@ -7941,7 +7940,7 @@
     ],
     [
       "Rivea corymbosa",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "Rivea corymbosa",
@@ -7989,7 +7988,7 @@
     ],
     [
       "Trichocereus species",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "Trichocereus species",
@@ -8005,7 +8004,7 @@
     ],
     [
       "Lophpopra willamsii",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "Lophpopra willamsii",
@@ -8021,7 +8020,7 @@
     ],
     [
       "Incillius alvarius",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "Incillius alvarius",
@@ -8073,7 +8072,7 @@
     ],
     [
       "Catha edulis",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "Catha edulis",
@@ -8089,7 +8088,7 @@
     ],
     [
       "Ephedra sinica",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "Ephedra sinica",
@@ -8101,7 +8100,7 @@
     ],
     [
       "Eroxythylum coca",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "Psilocybe Species",
@@ -8113,7 +8112,7 @@
     ],
     [
       "Psilocybe Species",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "Psilocybe Species",
@@ -8128,11 +8127,11 @@
       "Psilocybe Species"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "Psilocybe Species"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "Cathinones"
     ],
     [
@@ -8153,7 +8152,7 @@
     ],
     [
       "Cathinones",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "Cathinones",
@@ -8750,11 +8749,11 @@
       "Caffeine"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "SSRIs"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "Salvia divonorum"
     ],
     [
@@ -8799,7 +8798,7 @@
     ],
     [
       "SSRIs",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "SSRIs",
@@ -8831,7 +8830,7 @@
     ],
     [
       "Salvia divonorum",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "Salvia divonorum",
@@ -9910,7 +9909,7 @@
     ],
     [
       "DOx",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "DOx",
@@ -10086,7 +10085,7 @@
     ],
     [
       "NBOMes",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "NBOMes",
@@ -10362,7 +10361,7 @@
     ],
     [
       "2C-T-x",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "2C-T-x",
@@ -10538,7 +10537,7 @@
     ],
     [
       "5-MeO-xxT",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "5-MeO-xxT",
@@ -10842,7 +10841,7 @@
     ],
     [
       "MXE",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "MXE",
@@ -11997,103 +11996,103 @@
       "Tabernathe iboga"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "DOx"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "NBOMes"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "2C-T-x"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "5-MeO-xxT"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "MXE"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "Salvia divonorum"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "Acacia species"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "Mimosa tenuiflora"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "Panaelous cyanescens"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "Argyreia nervosa"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "Ipomea violacea"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "Rivea corymbosa"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "Amanita muscaria"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "Trichocereus species"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "Lophpopra willamsii"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "Incillius alvarius"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "Mitragyna speciosa"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "Papaver somnifarem"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "Banisteriopsis caapi"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "Piper methysticum"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "Catha edulis"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "Ephedra sinica"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "Eroxythylum coca"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "Phyllomedusa bicolor"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "Tabernathe iboga"
     ],
     [
@@ -12374,7 +12373,7 @@
     ],
     [
       "Salvia divonorum",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "Salvia divonorum",
@@ -12530,7 +12529,7 @@
     ],
     [
       "Acacia species",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "Acacia species",
@@ -12682,7 +12681,7 @@
     ],
     [
       "Mimosa tenuiflora",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "Mimosa tenuiflora",
@@ -12834,7 +12833,7 @@
     ],
     [
       "Panaelous cyanescens",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "Panaelous cyanescens",
@@ -12986,7 +12985,7 @@
     ],
     [
       "Argyreia nervosa",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "Argyreia nervosa",
@@ -13134,7 +13133,7 @@
     ],
     [
       "Ipomea violacea",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "Ipomea violacea",
@@ -13286,7 +13285,7 @@
     ],
     [
       "Rivea corymbosa",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "Rivea corymbosa",
@@ -13454,7 +13453,7 @@
     ],
     [
       "Amanita muscaria",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "Amanita muscaria",
@@ -13606,7 +13605,7 @@
     ],
     [
       "Trichocereus species",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "Trichocereus species",
@@ -13758,7 +13757,7 @@
     ],
     [
       "Lophpopra willamsii",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "Lophpopra willamsii",
@@ -13926,7 +13925,7 @@
     ],
     [
       "Incillius alvarius",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "Incillius alvarius",
@@ -14098,7 +14097,7 @@
     ],
     [
       "Mitragyna speciosa",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "Mitragyna speciosa",
@@ -14254,7 +14253,7 @@
     ],
     [
       "Papaver somnifarem",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "Papaver somnifarem",
@@ -14410,7 +14409,7 @@
     ],
     [
       "Banisteriopsis caapi",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "Banisteriopsis caapi",
@@ -14526,7 +14525,7 @@
     ],
     [
       "Piper methysticum",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "Piper methysticum",
@@ -14682,7 +14681,7 @@
     ],
     [
       "Catha edulis",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "Catha edulis",
@@ -14838,7 +14837,7 @@
     ],
     [
       "Ephedra sinica",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "Ephedra sinica",
@@ -14994,7 +14993,7 @@
     ],
     [
       "Eroxythylum coca",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "Eroxythylum coca",
@@ -15170,7 +15169,7 @@
     ],
     [
       "Phyllomedusa bicolor",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "Phyllomedusa bicolor",
@@ -15346,7 +15345,7 @@
     ],
     [
       "Tabernathe iboga",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "Tabernathe iboga",
@@ -15501,7 +15500,7 @@
       "Kava"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "Kava"
     ],
     [
@@ -15598,7 +15597,7 @@
     ],
     [
       "Kava",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "Kava",
@@ -15724,7 +15723,7 @@
     ],
     [
       "LSD",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "LSD",
@@ -15844,7 +15843,7 @@
     ],
     [
       "Psilocybin",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "Psilocybin",
@@ -15964,7 +15963,7 @@
     ],
     [
       "DMT",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "DMT",
@@ -16084,7 +16083,7 @@
     ],
     [
       "Mescaline",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "Mescaline",
@@ -16204,7 +16203,7 @@
     ],
     [
       "2C-x",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "2C-x",
@@ -16408,7 +16407,7 @@
     ],
     [
       "DXM",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "DXM",
@@ -16476,7 +16475,7 @@
     ],
     [
       "Nitrous",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "Nitrous",
@@ -16544,7 +16543,7 @@
     ],
     [
       "Amphetamines",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "Amphetamines",
@@ -16620,7 +16619,7 @@
     ],
     [
       "MDMA",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "MDMA",
@@ -16692,7 +16691,7 @@
     ],
     [
       "Cocaine",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "Cocaine",
@@ -16836,7 +16835,7 @@
     ],
     [
       "GHB/GBL",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "GHB/GBL",
@@ -16915,47 +16914,47 @@
       "GHB/GBL"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "LSD"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "Psilocybin"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "DMT"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "Mescaline"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "2C-x"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "DXM"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "Nitrous"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "Amphetamines"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "MDMA"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "Cocaine"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "GHB/GBL"
     ],
     [
@@ -17566,7 +17565,7 @@
     ],
     [
       "Cannabis",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "Cannabis",
@@ -17602,7 +17601,7 @@
     ],
     [
       "Ketamine",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "Ketamine",
@@ -17650,7 +17649,7 @@
     ],
     [
       "Caffeine",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "Caffeine",
@@ -17682,7 +17681,7 @@
     ],
     [
       "Alcohol",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "Alcohol",
@@ -17714,7 +17713,7 @@
     ],
     [
       "Opioids",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "Opioids",
@@ -17746,7 +17745,7 @@
     ],
     [
       "Tramadol",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "Tramadol",
@@ -17757,35 +17756,35 @@
       "SSRIs"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "Cannabis"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "Ketamine"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "Caffeine"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "Alcohol"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "Opioids"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "Tramadol"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "MAOIs"
     ],
     [
-      "Benzodiazepine",
+      "Benzodiazepines",
       "SSRIs"
     ],
     [
@@ -17814,7 +17813,7 @@
     ],
     [
       "MAOIs",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "MAOIs",
@@ -17846,7 +17845,7 @@
     ],
     [
       "SSRIs",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "SSRIs",
@@ -17950,7 +17949,7 @@
     ],
     [
       "Meditation",
-      "Benzodiazepine"
+      "Benzodiazepines"
     ],
     [
       "Meditation",

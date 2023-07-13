@@ -1,9 +1,20 @@
 ---
+import data from '../data.json';
+import { combo, risk, drug_css_prefix, confidence, linkify } from '../util';
 import BaseLayout from '../layouts/BaseLayout.astro';
 const pageTitle = "Psychs";
 import { getCollection } from 'astro:content';
 import { Picture } from '@astrojs/image/components';
-const substances = await getCollection('psychoactives');
+const unsorted_substances = await getCollection('psychoactives');
+let idx = {}
+for (let sub of unsorted_substances){
+  idx[sub['slug']] = sub
+}
+let substances = []
+for (let drug of data["drugs"]) {
+  let item = idx[linkify(drug)]
+  substances.push(item)
+}
 ---
 
 <BaseLayout pageTitle={pageTitle} metaDescription={"Psychoactives information. This is a resource for harm reduction to learn about safety risks of drugs, substances, entheogens and other psychoactives"}>
