@@ -15,6 +15,7 @@ let value = entry.slug
 const substances = await getCollection('psychoactives');
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import EditPage from '../../components/edit_page.astro';
+import Chart from '../../components/chart.astro';
 import Disclaimer from '../../components/disclaimer.astro';
 import Disclaimer from '../../components/disclaimer.astro';
 import Psychimage from '../../components/psychimage.astro';
@@ -45,112 +46,10 @@ let data = entry.data
      <div><Icon iconCode="exclamation-circle" iconStyle="outline" customClasses="h-8 w-8 stroke-gray-300 inline" /> {entry.data.neutral_effects}</div>
      <div><Icon iconCode="chevron-down" iconStyle="outline" customClasses="h-8 w-8 stroke-red-300 inline" /> {entry.data.negative_effects}</div>
     <Content />
-
+    <Chart title={entry.data.duration_chart_title} data={data.duration_chart} />
     <EditPage slug={entry.slug} type={"psychoactives"} />
   </article>
 
-  <span class={!entry.data.duration_chart_title && "hidden"}>
-    <div class="block rounded-lg my-6 bg-slate-100 p-6 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] max-w-2xl mx-auto">
-      <h2>{entry.data.duration_chart_title} </h2>
-      <canvas id="myChart"></canvas>
-    </div>
-  </span>
-    <script define:vars={{ data }}>
-      window.data = data
-    </script>
-<script>
-  import Chart from 'chart.js/auto';
-  import { DateTime, Duration } from 'luxon';
-  import 'chartjs-adapter-luxon';
-  const now = DateTime.fromISO('12:00')
-  const ctx = document.getElementById('myChart');
-  let duration_chart = window.data.duration_chart
-  let onset = Duration.fromISO("PT"+duration_chart.onset.toUpperCase())
-  let coming_up = Duration.fromISO("PT"+duration_chart.coming_up.toUpperCase())
-  let plateau = Duration.fromISO("PT"+duration_chart.plateau.toUpperCase())
-  let coming_down = Duration.fromISO("PT"+duration_chart.coming_down.toUpperCase())
-  let max = now.plus(onset).plus(coming_up).plus(plateau).plus(coming_down)
-  let chart_data = [
-    {x:now, y:0},
-    {x:now.plus(onset), y:0},
-    {x:now.plus(onset).plus(coming_up), y:1},
-    {x:now.plus(onset).plus(coming_up).plus(plateau), y:1},
-    {x:max, y:0},
-  ]
-  Duration.fromISO('PT23H')
-  let total_duration_in_seconds = (max - now)/1000
-  function x_label_seconds(seconds) {
-    return `${seconds} secs`
-  }
-  function x_label_minutes(seconds) {
-    let display = Math.floor(seconds / 60)
-    return `${display} mins`
-  }
-  function x_label_hours(seconds) {
-    let display = Math.floor(seconds / 3600)
-    return `${display} hrs`
-  }
-  function x_label(timestamp) {
-    let diff = (timestamp - now.toMillis())/1000
-    if (total_duration_in_seconds < 400){
-      return x_label_seconds(diff)
-    }
-    if (total_duration_in_seconds < 20000){
-      return x_label_minutes(diff)
-    }
-    return x_label_hours(diff)
-  }
-  let seen = []
-  function cleaned_x_label(timestamp, idx) {
-    let result = x_label(timestamp)
-    return idx % 4 === 0 ? result : ''
-  }
-  new Chart(ctx, {
-    type: 'line',
-    data: {
-      datasets: [
-      {
-        label: "Typical",
-        data: chart_data,
-        fill: false,
-        borderColor: 'rgb(75, 192, 192)',
-        cubicInterpolationMode: 'monotone',
-        tension: 0.4
-      }
-      ]
-    },
-    options : {
-      scales: {
-        y: {
-          display: false,
-          grid: {
-            display: false
-          }
-        },
-        x: {
-          type: 'time',
-          grid: {
-            display: false
-          },
-          ticks: {
-            callback: function(val, index, ticks) {
-              return cleaned_x_label(val, index);
-            },
-            major :{
-              enabled: true
-            }
-          }
-        }
-      },
-      plugins: {
-        legend: {
-          display: false
-        }
-      }
-    }
-  });
-
-</script>
 
 <h2 class="text-xl font-bold mb-4">Combinations with: </h2>
 <div class="container px-6 mx-auto">
