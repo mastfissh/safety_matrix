@@ -38,6 +38,7 @@ function drug_to_keywords(drug){
   let out = [drug]
   if (drug_info){
     out = out.concat(drug_info.data.aka)
+    out = out.concat(drug_info.data.family_members)
   }
   return out.join(',')
 }
@@ -98,8 +99,35 @@ window.addEventListener("load", (event) => {
   const items = document.querySelectorAll('.searchable');
   search.addEventListener("input", (event) => {
     items.forEach((item) => {
-      if (item.dataset.keywords.toLowerCase().search(search.value.toLowerCase()) != -1){
+      let searchwords = search.value.toLowerCase().replace(' and ', ' ').split(' ')
+      let visible = true
+      for (let searchword of searchwords){
+        visible = visible &&  (item.dataset.keywords.toLowerCase().search(searchword) != -1)
+      }
+      if (visible){
         item.style.display = '';
+        let aka = ''
+        let title_is_found = true
+        for (let searchword of searchwords){
+          let search_title_is_found = (item.dataset.title.toLowerCase().search(searchword) != -1)
+          title_is_found = title_is_found && search_title_is_found
+          if (!search_title_is_found){
+            let keywords = item.dataset.keywords.split(',')
+            for (let word of keywords) {
+              if (word.toLowerCase().search(searchword) != -1){
+                aka = aka + `${word} `
+              }
+            }
+          }
+        }
+        aka = ` (${aka})`
+        // console.debug(item)
+        if (!title_is_found){
+          item.querySelector('.searchable-title').innerText = item.dataset.title  + aka
+        } else {
+          item.querySelector('.searchable-title').innerText = item.dataset.title
+        }
+
       } else {
         item.style.display = 'none';
       }
@@ -160,11 +188,11 @@ window.addEventListener("load", (event) => {
   </form>
 <ul class="grid w-full gap-6 grid-cols-2 md:grid-cols-4 lg:grid-cols-5">
   {drugs.map((drug) => (
-    <li class="searchable" data-keywords={drug_to_keywords(drug.key)}>
+    <li class="searchable" data-title={drug_to_title(drug.key)} data-keywords={drug_to_keywords(drug.key)}>
         <input type="checkbox" class="filter_check hidden peer" id={drug_css_prefix(drug.key)} name={drug_css_prefix(drug.key)} value={drug_css_prefix(drug.key)} >
         <label for={drug_css_prefix(drug.key)} class="inline-flex items-center justify-between w-full p-5  bg-white border-2 border-gray-200 rounded-lg cursor-pointer hover:text-gray-300 border-gray-700 peer-checked:border-blue-600 peer-checked:text-gray-300  peer-checked:bg-gray-600 peer-checked:text-gray-50 text-gray-1000 ">
             <div class="block">
-                <div class="w-full text-md lg:text-lg font-semibold">{drug_to_title(drug.key)}</div>
+                <div class="searchable-title w-full text-md lg:text-lg font-semibold">{drug_to_title(drug.key)}</div>
                 <Picture
         class="h-auto w-36 rounded-lg align-middle leading-none shadow-lg"
         src={'../../' + drug.data.image_location}
