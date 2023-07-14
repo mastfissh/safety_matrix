@@ -19,6 +19,7 @@ positive_effects: euphoria, relaxation, analgesia
 negative_effects: nausea, itching, constipation, respiratory depression
 neutral_effects: disinhibition
 ---
+import Chart from '../../components/chart.astro';
 
 ## Oral Dosage of Oxycodone
 | Effect | Dose |
@@ -28,6 +29,9 @@ neutral_effects: disinhibition
 | Common | 10-25 mg |
 | Strong | 25-40 mg |
 | Heavy | 40+ mg |
+
+
+<Chart title={frontmatter.duration_chart_title} data={frontmatter.duration_chart} />
 
 ## Oral Duration of Oxycodone
 | | Duration |

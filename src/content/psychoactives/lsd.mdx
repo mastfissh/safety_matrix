@@ -16,6 +16,7 @@ positive_effects: euphoria, empathy, stimulation
 negative_effects: nausea, muscle tension, confusion, anxiety
 neutral_effects: visuals
 ---
+import Chart from '../../components/chart.astro';
 
 ## Oral Dosage of LSD
 | Effect | Dose |
@@ -25,6 +26,9 @@ neutral_effects: visuals
 | Common | 50-150 ug |
 | Strong | 150-400 ug |
 | Heavy | 400+ ug |
+
+
+<Chart title={frontmatter.duration_chart_title} data={frontmatter.duration_chart} />
 
 ## Oral Duration of LSD
 |  | Duration |

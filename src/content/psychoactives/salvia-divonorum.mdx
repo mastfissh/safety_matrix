@@ -16,6 +16,7 @@ positive_effects: euphoria, empathy, stimulation
 negative_effects: nausea, muscle tension, confusion, anxiety
 neutral_effects: visuals
 ---
+import Chart from '../../components/chart.astro';
 
 ## Smoked Dosage of Salvia divinorum leaves
 | Effect | Dose |
@@ -25,6 +26,9 @@ neutral_effects: visuals
 | Common | 150-300 mg |
 | Strong | 300-600 mg |
 | Heavy | 600+ mg |
+
+
+<Chart title={frontmatter.duration_chart_title} data={frontmatter.duration_chart} />
 
 ## Smoked Duration of Salvia divonorum
 |  | Duration |

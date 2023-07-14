@@ -16,6 +16,7 @@ positive_effects: euphoria, empathy, stimulation
 negative_effects: nausea, muscle tension, confusion, anxiety
 neutral_effects: visuals
 ---
+import Chart from '../../components/chart.astro';
 
 ## Oral Dosage of 2C-T-2
 | Effect | Dose |
@@ -25,6 +26,9 @@ neutral_effects: visuals
 | Common | 15-22 mg |
 | Strong | 26-40 mg |
 | Heavy | 40+ mg |
+
+
+<Chart title={frontmatter.duration_chart_title} data={frontmatter.duration_chart} />
 
 ## Oral Duration of 2C-T-2
 |  | Duration |

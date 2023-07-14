@@ -18,6 +18,8 @@ positive_effects: euphoria, empathy, stimulation
 negative_effects: nausea, muscle tension, confusion, anxiety, lethal at high doses
 neutral_effects: visuals
 ---
+import Chart from '../../components/chart.astro';
+
 ## Oral Dosage of 25I-NBOMe
 | Effect | Dose |
 | --- | --- |
@@ -26,6 +28,9 @@ neutral_effects: visuals
 | Common | 500-700 ug |
 | Strong | 700-1000 ug |
 | Heavy | 1000+ ug |
+
+
+<Chart title={frontmatter.duration_chart_title} data={frontmatter.duration_chart} />
 
 ## Oral Duration of 25I-NBOMe
 | | Duration |

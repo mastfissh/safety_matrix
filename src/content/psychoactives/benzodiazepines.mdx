@@ -20,6 +20,7 @@ positive_effects: euphoria, relaxation, increased sociability
 negative_effects: nausea, reduced coordination, memory impairment
 neutral_effects: slurred speech, flushed skin
 ---
+import Chart from '../../components/chart.astro';
 
 ## Oral Dosage of Diazepam
 | Effect | Dose |
@@ -29,6 +30,9 @@ neutral_effects: slurred speech, flushed skin
 | Common | 5-15 mg |
 | Strong | 15-30 mg |
 | Heavy | 30+ mg |
+
+
+<Chart title={frontmatter.duration_chart_title} data={frontmatter.duration_chart} />
 
 ## Oral Duration of Diazepam
 | | Duration |

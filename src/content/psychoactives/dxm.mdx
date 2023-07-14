@@ -15,6 +15,7 @@ positive_effects: euphoria, relaxation
 negative_effects: reduced coordination, confusion, respiratory and cardiovascular depression
 neutral_effects: visuals, dissasociation
 ---
+import Chart from '../../components/chart.astro';
 
 ## Oral Dosage of DXM
 | Effect | Dose |
@@ -25,8 +26,10 @@ neutral_effects: visuals, dissasociation
 | Strong | 400-600 mg |
 | Heavy | 600+ mg |
 
-## Oral Duration of DXM
 
+<Chart title={frontmatter.duration_chart_title} data={frontmatter.duration_chart} />
+
+## Oral Duration of DXM
 | | Duration |
 | --- | --- |
 | Total | 8-12 hr |

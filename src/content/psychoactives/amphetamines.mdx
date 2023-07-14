@@ -18,6 +18,7 @@ positive_effects: euphoria, stimulation, increased sociability
 negative_effects: muscle tension, insomnia, anxiety
 neutral_effects: decreased appetite, increased heart rate
 ---
+import Chart from '../../components/chart.astro';
 
 ## Oral Dosage of Methamphetamine
 | Effect | Dose |
@@ -27,6 +28,9 @@ neutral_effects: decreased appetite, increased heart rate
 | Common | 10-25 mg |
 | Strong | 25-50 mg |
 | Heavy | 50+ mg |
+
+
+<Chart title={frontmatter.duration_chart_title} data={frontmatter.duration_chart} />
 
 ## Oral Duration of Methamphetamine
 | | Duration |

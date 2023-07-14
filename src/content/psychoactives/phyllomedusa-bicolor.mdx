@@ -16,6 +16,7 @@ positive_effects: euphoria, sensory heightening
 negative_effects: nausea, vomiting, diarrhea
 neutral_effects: increased heart rate
 ---
+import Chart from '../../components/chart.astro';
 
 ## Topical Wound Dosage of Phyllomedusa bicolor Secretions
 | Effect | Dose |
@@ -25,6 +26,9 @@ neutral_effects: increased heart rate
 | Common | 30-70 mg |
 | Strong | 70-100 mg |
 | Heavy | 100+ mg |
+
+
+<Chart title={frontmatter.duration_chart_title} data={frontmatter.duration_chart} />
 
 ## Topical Wound Duration of Phyllomedusa bicolor Secretions
 |  | Duration |

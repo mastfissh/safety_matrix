@@ -15,6 +15,7 @@ duration_chart:
   plateau: 24h
   coming_down: 6h
 ---
+import Chart from '../../components/chart.astro';
 
 ## Oral Dosage of Dried Iboga Root
 | Effect | Dose |
@@ -26,8 +27,10 @@ duration_chart:
 | Heavy | 25+ g |
 
 
-## Oral Duration of Iboga
+<Chart title={frontmatter.duration_chart_title} data={frontmatter.duration_chart} />
 
+
+## Oral Duration of Iboga
 | | Duration |
 | --- | --- |
 | Total | 20-40 hr |

@@ -17,6 +17,7 @@ positive_effects: euphoria, stimulation
 negative_effects: unconsciousness, nausea, muscle tension, confusion, anxiety
 neutral_effects: visuals
 ---
+import Chart from '../../components/chart.astro';
 
 ## Smoked Dosage of 5-MeO-DMT
 | Effect | Dose |
@@ -26,6 +27,9 @@ neutral_effects: visuals
 | Common | 6-12 mg |
 | Strong | 12-20 mg |
 | Heavy | 20+ mg |
+
+
+<Chart title={frontmatter.duration_chart_title} data={frontmatter.duration_chart} />
 
 ## Smoked Duration of 5-MeO-DMT
 | | Duration |

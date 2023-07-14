@@ -18,6 +18,7 @@ positive_effects: reduced anxiety, improved mood
 negative_effects: reduced sexual function, focus, dreaming and emotion
 neutral_effects: changes in energy and appetite
 ---
+import Chart from '../../components/chart.astro';
 
 ## Oral Dosage of Fluoxetine
 | Effect | Dose |
@@ -27,6 +28,9 @@ neutral_effects: changes in energy and appetite
 | Common | 50-100 g |
 | Strong | 100-150 g |
 | Heavy | 150+ g |
+
+
+<Chart title={frontmatter.duration_chart_title} data={frontmatter.duration_chart} />
 
 ## Oral Duration of Fluoxetine
 | | Duration |

@@ -15,7 +15,6 @@ duration_chart:
 positive_effects: euphoria, relaxation, increased sociability
 negative_effects: nausea, reduced coordination, memory impairment
 neutral_effects: slurred speech, flushed skin
-inline_chart: true
 ---
 import Chart from '../../components/chart.astro';
 
@@ -27,7 +26,9 @@ import Chart from '../../components/chart.astro';
 | Common | 0.4-0.8 l |
 | Strong | 0.8-1.6 l |
 | Heavy | 1.6+ l |
+
 <Chart title={frontmatter.duration_chart_title} data={frontmatter.duration_chart} />
+
 ## Oral Duration of Alcohol
 |  | Duration |
 | --- | --- |

@@ -15,6 +15,7 @@ positive_effects: euphoria, relaxation
 negative_effects: reduced coordination, confusion, respiratory and cardiovascular depression
 neutral_effects: visuals, dissasociation
 ---
+import Chart from '../../components/chart.astro';
 
 ## Nasal Dosage of Ketamine
 | Effect | Dose |
@@ -24,6 +25,9 @@ neutral_effects: visuals, dissasociation
 | Common | 30-60 mg |
 | Strong | 60-100 mg |
 | Heavy | 100+ mg |
+
+
+<Chart title={frontmatter.duration_chart_title} data={frontmatter.duration_chart} />
 
 ## Nasal Duration of Ketamine
 |  | Duration |

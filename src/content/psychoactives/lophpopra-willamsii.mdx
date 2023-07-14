@@ -17,6 +17,7 @@ positive_effects: euphoria, empathy, stimulation
 negative_effects: nausea, muscle tension, confusion, anxiety
 neutral_effects: visuals
 ---
+import Chart from '../../components/chart.astro';
 
 ## Oral Dosage of Mescaline Hydrocholoride
 | Effect | Dose |
@@ -26,6 +27,9 @@ neutral_effects: visuals
 | Common | 200-400 mg |
 | Strong | 400-800 mg |
 | Heavy | 800+ mg |
+
+
+<Chart title={frontmatter.duration_chart_title} data={frontmatter.duration_chart} />
 
 ## Oral Duration of Mescaline Hydrochloride
 |  | Duration |

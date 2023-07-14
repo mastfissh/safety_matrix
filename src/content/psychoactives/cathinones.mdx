@@ -18,6 +18,7 @@ positive_effects: euphoria, stimulation, increased sociability
 negative_effects: muscle tension, insomnia, anxiety
 neutral_effects: decreased appetite, increased heart rate
 ---
+import Chart from '../../components/chart.astro';
 
 ## Oral Dosage of Mephedrone
 | Effect | Dose |
@@ -27,6 +28,9 @@ neutral_effects: decreased appetite, increased heart rate
 | Common | 8-14 mg |
 | Strong | 14-25 mg |
 | Heavy | 25+ mg |
+
+
+<Chart title={frontmatter.duration_chart_title} data={frontmatter.duration_chart} />
 
 
 ## Oral Duration of Mephedrone

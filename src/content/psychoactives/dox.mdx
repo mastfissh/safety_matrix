@@ -19,6 +19,7 @@ positive_effects: euphoria, empathy, stimulation
 negative_effects: nausea, muscle tension, confusion, anxiety, lethal at high doses
 neutral_effects: visuals
 ---
+import Chart from '../../components/chart.astro';
 
 ## Oral Dosage of DOM
 | Effect | Dose |
@@ -28,6 +29,9 @@ neutral_effects: visuals
 | Common | 3-5 mg |
 | Strong | 5-10 mg |
 | Heavy | 10+ mg |
+
+
+<Chart title={frontmatter.duration_chart_title} data={frontmatter.duration_chart} />
 
 ## Oral Duration of DOM
 | | Duration |
