@@ -16,6 +16,7 @@ positive_effects: euphoria, relaxation, analgesia
 negative_effects: nausea, itching, constipation, respiratory depression
 neutral_effects: disinhibition
 ---
+import Chart from '../../components/chart.astro';
 
 ## Oral Dosage of Papaver somniferum seeds
 | Effect | Dose |
@@ -25,6 +26,9 @@ neutral_effects: disinhibition
 | Common | 10-20 g |
 | Strong | 20-30 g |
 | Heavy | 30+ g |
+
+
+<Chart title={frontmatter.duration_chart_title} data={frontmatter.duration_chart} />
 
 ## Oral Duration of Papaver somniferum
 |  | Duration |

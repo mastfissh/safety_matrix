@@ -15,6 +15,7 @@ positive_effects: euphoria, stimulation, increased sociability
 negative_effects: muscle tension, anxiety, insomnia
 neutral_effects: decreased appetite, increased heart rate, local anaesthesia
 ---
+import Chart from '../../components/chart.astro';
 
 ## Nasal Dosage of Cocaine
 | Effect | Dose |
@@ -24,6 +25,9 @@ neutral_effects: decreased appetite, increased heart rate, local anaesthesia
 | Common | 30-60 mg |
 | Strong | 60-90 mg |
 | Heavy | 90+ mg |
+
+
+<Chart title={frontmatter.duration_chart_title} data={frontmatter.duration_chart} />
 
 ## Nasal Duration of Cocaine
 |  | Duration |

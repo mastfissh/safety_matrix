@@ -16,6 +16,7 @@ positive_effects: euphoria, relaxation, analgesia
 negative_effects: nausea, itching, constipation, respiratory depression
 neutral_effects: disinhibition
 ---
+import Chart from '../../components/chart.astro';
 
 ## Oral Dosage of Tramadol
 | Effect | Dose |
@@ -25,6 +26,9 @@ neutral_effects: disinhibition
 | Common | 100-250 mg |
 | Strong | 250-300 mg |
 | Heavy | 300+ mg |
+
+
+<Chart title={frontmatter.duration_chart_title} data={frontmatter.duration_chart} />
 
 ## Oral Duration of Tramadol
 |  | Duration |

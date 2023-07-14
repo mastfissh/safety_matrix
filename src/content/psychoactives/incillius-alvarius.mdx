@@ -18,6 +18,7 @@ positive_effects: euphoria, empathy, stimulation
 negative_effects: nausea, muscle tension, confusion, anxiety
 neutral_effects: visuals
 ---
+import Chart from '../../components/chart.astro';
 
 ## Smoked Dosage of Incillius alvarius Venom
 | Effect | Dose |
@@ -27,6 +28,9 @@ neutral_effects: visuals
 | Common | 30-75 mg |
 | Strong | 75-150 mg |
 | Heavy | 150+ mg |
+
+
+<Chart title={frontmatter.duration_chart_title} data={frontmatter.duration_chart} />
 
 ## Smoked Duration of Incillius alvarius
 |  | Duration |

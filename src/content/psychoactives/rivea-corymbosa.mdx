@@ -16,6 +16,7 @@ positive_effects: euphoria, empathy, stimulation
 negative_effects: nausea, muscle tension, confusion, anxiety
 neutral_effects: visuals
 ---
+import Chart from '../../components/chart.astro';
 
 ## Oral Dosage of Rivea corymbosa seeds
 | Effect | Dose |
@@ -25,6 +26,9 @@ neutral_effects: visuals
 | Common | 50-75 seeds |
 | Strong | 75-150 seeds |
 | Heavy | 150+ seeds |
+
+
+<Chart title={frontmatter.duration_chart_title} data={frontmatter.duration_chart} />
 
 ## Oral Duration of Rivea corymbosa
 |  | Duration |

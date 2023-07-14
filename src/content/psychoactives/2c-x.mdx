@@ -20,6 +20,7 @@ positive_effects: euphoria, empathy, stimulation
 negative_effects: nausea, muscle tension, confusion, anxiety
 neutral_effects: visuals
 ---
+import Chart from '../../components/chart.astro';
 
 ## Oral Dosage of 2C-B
 | Effect | Dose |
@@ -29,6 +30,9 @@ neutral_effects: visuals
 | Common | 15-25 mg |
 | Strong | 25-50 mg |
 | Heavy | 50+ mg |
+
+
+<Chart title={frontmatter.duration_chart_title} data={frontmatter.duration_chart} />
 
 ## Oral Duration of 2C-B
 | | Duration |

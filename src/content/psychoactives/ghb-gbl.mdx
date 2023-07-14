@@ -16,6 +16,7 @@ positive_effects: euphoria, relaxation, increased sociability
 negative_effects: nausea, reduced coordination, memory impairment
 neutral_effects: slurred speech, flushed skin
 ---
+import Chart from '../../components/chart.astro';
 
 ## Oral Dosage of GHB
 | Effect | Dose |
@@ -25,6 +26,9 @@ neutral_effects: slurred speech, flushed skin
 | Common | 1-2.5 g |
 | Strong | 2.5-4 g |
 | Heavy | 4+ g |
+
+
+<Chart title={frontmatter.duration_chart_title} data={frontmatter.duration_chart} />
 
 ## Oral Duration of GHB
 | | Duration |

@@ -16,6 +16,7 @@ duration_chart:
   plateau: 90m
   coming_down: 90m
 ---
+import Chart from '../../components/chart.astro';
 
 ## Oral Dosage of Mimosa tenuiflora root bark (+ MAOI)
 | Effect | Dose |
@@ -25,6 +26,9 @@ duration_chart:
 | Common | 5-8 mg |
 | Strong | 8-12 mg |
 | Heavy | 12+ mg |
+
+
+<Chart title={frontmatter.duration_chart_title} data={frontmatter.duration_chart} />
 
 ## Oral Duration of Mimosa tenuiflora root bark (+ MAOI)
 | | Duration |

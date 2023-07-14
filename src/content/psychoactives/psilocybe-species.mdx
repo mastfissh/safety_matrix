@@ -21,6 +21,7 @@ positive_effects: euphoria, empathy, stimulation
 negative_effects: nausea, muscle tension, confusion, anxiety
 neutral_effects: visuals
 ---
+import Chart from '../../components/chart.astro';
 
 ## Oral Dosage of dried Psilocybe cubensis mushrooms
 | Effect | Dose |
@@ -30,6 +31,9 @@ neutral_effects: visuals
 | Common | 1-2.5 g |
 | Strong | 2.5-5 g |
 | Heavy | 5+ g |
+
+
+<Chart title={frontmatter.duration_chart_title} data={frontmatter.duration_chart} />
 
 ## Oral Duration of psilocybin mushrooms
 | | Duration |

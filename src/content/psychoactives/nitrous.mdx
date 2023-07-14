@@ -18,6 +18,7 @@ positive_effects: euphoria, relaxation
 negative_effects: reduced coordination, confusion, respiratory and cardiovascular depression
 neutral_effects: visuals, dissasociation
 ---
+import Chart from '../../components/chart.astro';
 
 ## Inhaled Dosage of Nitrous Cartridges
 | Effect | Dose |
@@ -27,6 +28,9 @@ neutral_effects: visuals, dissasociation
 | Common | 2-4 cartridges |
 | Strong | 4-6 cartridges |
 | Heavy | 6+ cartridges |
+
+
+<Chart title={frontmatter.duration_chart_title} data={frontmatter.duration_chart} />
 
 ## Inhaled Duration of MXE
 |  | Duration |

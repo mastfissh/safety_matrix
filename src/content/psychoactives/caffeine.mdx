@@ -16,6 +16,7 @@ positive_effects: euphoria, stimulation, increased sociability
 negative_effects: muscle tension, insomnia, anxiety
 neutral_effects: decreased appetite, increased heart rate
 ---
+import Chart from '../../components/chart.astro';
 
 ## Oral Dosage of Caffeine
 | Effect | Dose |
@@ -25,6 +26,9 @@ neutral_effects: decreased appetite, increased heart rate
 | Common | 25-50 mg |
 | Strong | 50-150 mg |
 | Heavy | 150+ mg |
+
+
+<Chart title={frontmatter.duration_chart_title} data={frontmatter.duration_chart} />
 
 ## Oral Duration of Caffeine
 |  | Duration |

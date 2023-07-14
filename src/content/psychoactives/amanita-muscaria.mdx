@@ -15,6 +15,7 @@ positive_effects: euphoria, relaxation, increased sociability
 negative_effects: nausea, reduced coordination, memory impairment
 neutral_effects: slurred speech, flushed skin
 ---
+import Chart from '../../components/chart.astro';
 
 ## Oral Dosage of Dried Amanita muscaria
 | Effect | Dose |
@@ -24,6 +25,9 @@ neutral_effects: slurred speech, flushed skin
 | Common | 5-10 g |
 | Strong | 10-30 g |
 | Heavy | 30+ g |
+
+
+<Chart title={frontmatter.duration_chart_title} data={frontmatter.duration_chart} />
 
 ## Oral Duration of Amanita muscaria
 |  | Duration |

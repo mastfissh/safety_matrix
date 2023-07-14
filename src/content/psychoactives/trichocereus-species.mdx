@@ -23,6 +23,7 @@ positive_effects: euphoria, empathy, stimulation
 negative_effects: nausea, muscle tension, confusion, anxiety
 neutral_effects: visuals
 ---
+import Chart from '../../components/chart.astro';
 
 ## Oral Dosage of Dried San Pedro
 | Effect | Dose |
@@ -32,6 +33,9 @@ neutral_effects: visuals
 | Common | 30-60 g |
 | Strong | 60-120 g |
 | Heavy | 120+ g |
+
+
+<Chart title={frontmatter.duration_chart_title} data={frontmatter.duration_chart} />
 
 ## Oral Duration of San Pedro
 | | Duration |

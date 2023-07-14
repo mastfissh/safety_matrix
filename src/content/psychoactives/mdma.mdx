@@ -15,6 +15,7 @@ positive_effects: euphoria, relaxation, stimulation, empathy
 negative_effects: nausea, muscle tension, confusion, anxiety, bruxia
 neutral_effects: decreased appetite, change in body temperature
 ---
+import Chart from '../../components/chart.astro';
 
 ## Oral Dosage of MDMA
 | Effect | Dose |
@@ -24,6 +25,9 @@ neutral_effects: decreased appetite, change in body temperature
 | Common | 75-125 mg |
 | Strong | 125-200 mg |
 | Heavy | 200+ mg |
+
+
+<Chart title={frontmatter.duration_chart_title} data={frontmatter.duration_chart} />
 
 ## Oral Duration of MDMA
 |  | Duration |

@@ -15,6 +15,7 @@ positive_effects: euphoria, relaxation
 negative_effects: reduced coordination, confusion, respiratory and cardiovascular depression
 neutral_effects: visuals, dissasociation
 ---
+import Chart from '../../components/chart.astro';
 
 ## Nasal Dosage of MXE
 | Effect | Dose |
@@ -24,6 +25,9 @@ neutral_effects: visuals, dissasociation
 | Common | 20-35 mg |
 | Strong | 35-50 mg |
 | Heavy | 50+ mg |
+
+
+<Chart title={frontmatter.duration_chart_title} data={frontmatter.duration_chart} />
 
 ## Nasal Duration of MXE
 |  | Duration |
