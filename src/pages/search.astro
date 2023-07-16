@@ -2,7 +2,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Icon from "heroicons-astro/Heroicon.astro";
 import Disclaimer from '../components/disclaimer.astro';
-import Counter from '../components/counter.tsx';
+import Search from '../components/search.tsx';
 
 import { signal } from '@preact/signals';
 const count = signal(0);
@@ -90,9 +90,9 @@ window.addEventListener("load", (event) => {
 <BaseLayout pageTitle={pageTitle} metaDescription={"Search for Psychoactives information. This is the search page for harm reduction to learn about safety risks of drugs, substances, entheogens and other psychoactives"}>
 <div class="container px-6 mx-auto">
 
-  <Counter count={count} client:visible>
+  <Search count={count} data={idx} client:visible>
     <h1>Hello, Preact 1!</h1>
-  </Counter>
+  </Search>
 
 
   <form>
