@@ -19,15 +19,18 @@ function search(data, query, limit) {
   let q1 = segments[0]
   let q2 = segments[1]
   let out = []
-  for (let datum of data){
-    datum['terms'] = [datum.title].concat(datum.family_members ||[]).concat(datum.aka ||[]).join(',')
-    let q = q1
-    if (datum.terms.toLowerCase().search(q) != -1){
-      datum['url'] = '/psychoactives/' + datum.slug
-      datum['displayname'] = displayname(datum, q)
-      out.push(datum)
+  if (q1){
+    for (let datum of data){
+      datum['terms'] = [datum.title].concat(datum.family_members ||[]).concat(datum.aka ||[]).join(',')
+      let q = q1
+      if (datum.terms.toLowerCase().search(q) != -1){
+        datum['url'] = '/psychoactives/' + datum.slug
+        datum['displayname'] = displayname(datum, q)
+        out.push(datum)
+      }
     }
   }
+
   if (q2) {
     let q = q2
     for (let datum of data){
