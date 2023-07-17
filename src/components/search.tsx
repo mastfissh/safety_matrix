@@ -15,7 +15,7 @@ function displayname(entry, q) {
 }
 
 function search(data, query, limit) {
-  let segments = query.split(' ')
+  let segments = query.replace(' and ', ' ').replace(' & ', ' ').replace(' + ', ' ').split(' ')
   let q1 = segments[0]
   let q2 = segments[1]
   let out = []
