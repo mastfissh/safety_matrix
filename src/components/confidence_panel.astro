@@ -1,10 +1,15 @@
 ---
 const { conf } = Astro.props;
----
-{conf &&
-  <div>
-  There is {conf} in this assesment
-  </div>
+let explainer = {
+  "Low confidence" : "Low confidence: Watch out! There isn't a lot of information about risks and synergies for this combination, so proceed with caution.",
+  "Medium confidence": "Medium confidence: We've got some information about risks and synergies for this combination - some experience reports maybe, but some uncertainty.",
+  "High confidence" : "High confidence: We're pretty sure about risks and synergies for this combination."
 }
 
+---
 
+{conf &&
+<p>
+    {explainer[conf]}
+    </p>
+}

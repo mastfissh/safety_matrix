@@ -1,17 +1,17 @@
 ---
 const { risk } = Astro.props;
 let risk_map = {
-SR : "Significant Risk",
-GR : "Greater Risk",
-MR : "Minor Risk",
-LRS : "Low Risk Synergy",
-LRD : "Low Risk Decrease",
-LRNS : "Low Risk No Synergy",
+SR : "Significant risk: Be careful, we've identified significant risks for this combination.",
+GR : "Greater risk: Danger! Maybe avoid this combination entirely. Definitely be very careful.",
+MR : "Minor risk: Watch out - there is some risk here.",
+LRS : "Low risk synergy: This combination will enhance the effects of each psychoactive, or sometimes give new effects.",
+LRD : "Low risk decrease: This combination will decrease the effects of one or both of these psychoactives.",
+LRNS : "Low risk no synergy: This combination won't do much more than the individual effects of the psychoactives involved.",
 }
 ---
-{risk &&
-  <div>
-  The risk is {risk_map[risk]}
-  </div>
-}
 
+{risk &&
+<p>
+    {risk_map[risk]}
+    </p>
+}
