@@ -47,3 +47,16 @@ export function linkify(str){
 export function drug_css_prefix(str) {
   return 'drug_'+strip_weird_chars(str)
 }
+
+export function risk_to_bg(risk){
+  const map = {
+    'SR' : 'bg-red-100',
+    'GR' : 'bg-orange-100',
+    'MR' : 'bg-amber-100',
+    'LRS' : 'bg-cyan-100',
+    'LRD' : 'bg-violet-100',
+    'LRNS' : 'bg-blue-100',
+    'unknown' : 'bg-slate-100',
+  }
+  return map[risk]
+}

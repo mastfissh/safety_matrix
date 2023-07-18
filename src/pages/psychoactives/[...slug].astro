@@ -19,8 +19,8 @@ import Disclaimer from '../../components/disclaimer.astro';
 import Psychimage from '../../components/psychimage.astro';
 import Icon from "heroicons-astro/Heroicon.astro";
 import { Picture } from '@astrojs/image/components';
-import { combo, risk, drug_css_prefix, confidence, linkify } from '../../util';
-let data = entry.data
+import { combo, risk, drug_css_prefix, confidence, linkify, risk_to_bg } from '../../util';
+
 ---
 <BaseLayout pageTitle={entry.data.title} metaDescription={`Psychoactives information. This is the page for harm reduction to learn about safety risks for ${entry.data.title}, ${(entry.data.family_members||[]).concat(entry.data.aka||[]).join(', ')}`}>
 
@@ -48,13 +48,21 @@ let data = entry.data
   </article>
 
 
-<h2 class="text-xl font-bold mb-4">Combinations with: </h2>
+<h2 class=" mx-auto text-xl  mb-4">Combined with: </h2>
+<span class="grid grid-cols-2 lg:grid-cols-3">
+    <span class:list={risk_to_bg('SR')} class = "text-m font-medium m-2 px-2.5 py-0.5 rounded"> Significant Risk</span>
+    <span class:list={risk_to_bg('GR')} class = "text-m font-medium m-2 px-2.5 py-0.5 rounded"> Greater Risk</span>
+    <span class:list={risk_to_bg('MR')} class = "text-m font-medium m-2 px-2.5 py-0.5 rounded"> Minor Risk</span>
+    <span class:list={risk_to_bg('LRS')} class = "text-m font-medium m-2 px-2.5 py-0.5 rounded"> Low Risk Synergy</span>
+    <span class:list={risk_to_bg('LRD')} class = "text-m font-medium m-2 px-2.5 py-0.5 rounded"> Low Risk Decrease</span>
+    <span class:list={risk_to_bg('LRNS')} class = "text-m font-medium m-2 px-2.5 py-0.5 rounded"> Low Risk No Synergy</span>
+  </span>
 <div class="container px-6 mx-auto">
   <span class="grid w-full gap-6 grid-cols-2 md:grid-cols-4 lg:grid-cols-5">
   {substances.map((substance) => (
   (substance.slug != value) && <a href={`${import.meta.env.BASE_URL}combos/` + linkify(combo([substance.slug,value])) + '/'} class="bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 h-auto">
       <div class="p-4 h-24">
-          <h3 class=" text-2xl font-bold tracking-tight text-gray-600">{substance.data.title}</h3>
+          <h3 class=" text-2xl font-bold tracking-tight text-gray-600 rounded-lg" class:list={risk_to_bg(risk([entry.slug,substance.slug], data))} >{substance.data.title}</h3>
       </div>
       <Picture
         class="h-auto max-w-full rounded-lg align-middle leading-none shadow-lg"
