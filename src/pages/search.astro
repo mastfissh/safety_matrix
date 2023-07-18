@@ -1,111 +1,27 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Icon from "heroicons-astro/Heroicon.astro";
+import Search from '../components/search.tsx';
+
 const pageTitle = "Search";
 import { getCollection } from 'astro:content';
 const substances = await getCollection('psychoactives');
-const combos = await getCollection('combos');
 
-let idx = {}
+let preact_data = []
 for (let sub of substances){
-  idx[sub['slug']] = sub
-}
-
-function combo_to_keywords(entry){
-  let [drug1, drug2] = entry.slug.split('_')
-  const drug1_info = idx[drug1];
-  const drug2_info = idx[drug2];
-  let out = []
-  if (drug1_info){
-    out = out.concat(entry_to_key_arr(drug1_info))
-  } else {
-    out = out.concat([drug1])
+  let item = {
+    title : sub.data.title,
+    slug : sub.slug,
+    aka : sub.data.aka,
+    fam : sub.data.family_members
   }
-  if (drug2_info){
-    out = out.concat(entry_to_key_arr(drug2_info))
-  } else {
-    out = out.concat([drug2])
-  }
-  return out.join(',')
-}
-
-function entry_to_key_arr(entry) {
-  return [entry.slug].concat(entry.data.aka).concat(entry.data.family_members)
-}
-
-function drug_to_keywords(entry){
-  return entry_to_key_arr(entry).join(',')
+  preact_data.push(item)
 }
 ---
-<script>
-window.addEventListener("load", (event) => {
-  const search = document.getElementById('search')
-  const items = document.querySelectorAll('.searchable');
-  function compute() {
-    items.forEach((item) => {
-      let searchwords = search.value.toLowerCase().replace(' and ', ' ').split(' ')
-      let visible = true
-      for (let searchword of searchwords){
-        visible = visible &&  (item.dataset.keywords.toLowerCase().search(searchword) != -1)
-      }
-      if (visible){
-        item.style.display = '';
-        let aka = ''
-        let title_is_found = true
-        for (let searchword of searchwords){
-          let search_title_is_found = (item.dataset.title.toLowerCase().search(searchword) != -1)
-          title_is_found = title_is_found && search_title_is_found
-          if (!search_title_is_found){
-            let keywords = item.dataset.keywords.split(',')
-            for (let word of keywords) {
-              if (word.toLowerCase().search(searchword) != -1){
-                aka = aka + `${word} `
-              }
-            }
-          }
-        }
-        aka = ` (${aka})`
-        if (!title_is_found){
-          item.firstChild.innerHTML = item.dataset.title  + aka
-        } else {
-          item.firstChild.innerHTML = item.dataset.title
-        }
 
-      } else {
-        item.style.display = 'none';
-      }
-    })
-  }
-  compute()
-  search.addEventListener("input", (event) => {
-    compute()
-  });
-});
-</script>
 <BaseLayout pageTitle={pageTitle} metaDescription={"Search for Psychoactives information. This is the search page for harm reduction to learn about safety risks of drugs, substances, entheogens and other psychoactives"}>
 <div class="container px-6 mx-auto">
-  <form>
-    <label for="search" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
-    <div class="relative">
-        <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
-            <Icon iconCode="search" iconStyle="outline" customClasses="w-5 h-5 stroke-gray-500" />
-        </div>
-        <input type="search" id="search" class="block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500  dark:border-gray-600 dark:placeholder-gray-400 text-black dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search" required>
-
-    </div>
-  </form>
-
-  <h3>Psychoactive pages: </h3>
-      <ul >
-    {substances.map((substance) => (
-      <li class="searchable" data-title={substance.data.title} data-keywords={drug_to_keywords(substance)}><a class="font-medium text-blue-600 underline dark:text-blue-900 hover:no-underline" href={`${import.meta.env.BASE_URL}psychoactives/` + substance.slug + '/'}> {substance.data.title} </a></li>
-      ))}</ul>
-
-  <h3>Combo pages: </h3>
-      <ul >
-    {combos.map((combo) => (
-      <li class="searchable" data-title={combo.data.title} data-keywords={ combo_to_keywords(combo)} ><a class="font-medium text-blue-600 underline dark:text-blue-900 hover:no-underline" href={`${import.meta.env.BASE_URL}combos/` + combo.slug + '/'}> {combo.data.title}  </a></li>
-      ))}</ul>
+  <Search data={preact_data} client:visible />
 </div>
 </BaseLayout>
 
