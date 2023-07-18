@@ -70,24 +70,25 @@ export default class Search extends Component {
 
   render(i, { value }) {
     let query = this.state.value
-    let psychs = search(i.data, query, 50)
+    let psychs = search(i.data, query, 25)
     return (
 <Fragment >
   <form onSubmit={this.onSubmit}>
-    <label for="search" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
-    <div class="relative">
-        <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+    <label for="search" class="mb-2 text-sm font-medium
+    text-gray-900 sr-only text-white">Search</label>
+    <div class="relative w-full">
+        <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none ">
           <svg class="w-5 h-5 stroke-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
           </svg>
         </div>
-        <input value={value} onInput={this.onInput} type="search" id="search" class="block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500  dark:border-gray-600 dark:placeholder-gray-400 text-black dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search" required />
+        <input value={value} onInput={this.onInput} type="search" id="search" class="block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-700 focus:ring-blue-500 focus:border-blue-500  border-gray-600 placeholder-gray-400 text-white focus:ring-blue-500 focus:border-blue-500" placeholder="Search" required />
     </div>
   </form>
-  <ul>
+  <ul class="absolute z-10 block rounded-lg bg-gray-100 text-gray-100 mt-6">
     {psychs.map(item => (
       <Fragment key={item.url}>
-        <li><a class="font-medium text-black underline hover:no-underline" href={item.url}>{item.displayname}</a></li>
+        <li class="p-1" ><a class="font-medium text-black underline hover:no-underline" href={item.url}>{item.displayname}</a></li>
       </Fragment>
     ))}
   </ul>
