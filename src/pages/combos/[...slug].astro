@@ -13,7 +13,6 @@ const { Content } = await entry.render();
 import data from '../../data.json';
 let value = entry.slug
 
-import Grid from '../../components/grid.astro';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 let visible = false
 if (entry.data.display_grid){
@@ -28,7 +27,7 @@ import PsychLink from '../../components/psychlink.astro';
 let [psych1, psych2] = entry.slug.split('_')
 const psych1_info = await getEntry('psychoactives', psych1);
 const psych2_info = await getEntry('psychoactives', psych2);
-import { risk, confidence } from '../../util';
+import { risk, confidence, risk_to_bg } from '../../util';
 
 ---
 <BaseLayout pageTitle={entry.data.title} metaDescription={`Psychoactives information. This is the page for harm reduction to learn about safety risks for the combination of ${entry.data.title}`}>
@@ -46,5 +45,4 @@ import { risk, confidence } from '../../util';
     <EditPage slug={entry.slug} type={"combos"} />
   </article>
 <Disclaimer />
-{visible && <Grid page={entry.slug} data={data} />}
 </BaseLayout>
