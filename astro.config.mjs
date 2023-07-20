@@ -10,7 +10,7 @@ import preact from "@astrojs/preact";
 // https://astro.build/config
 export default defineConfig({
   site: 'https://psychcombo.com',
-  integrations: [mdx(), tailwind(), sitemap(), image({
+  integrations: [serviceWorker(), mdx(), tailwind(), sitemap(), image({
     serviceEntryPoint: '@astrojs/image/sharp'
-  }), preact(), compress(), serviceWorker()]
+  }), preact(), compress()]
 });
