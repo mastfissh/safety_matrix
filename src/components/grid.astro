@@ -144,7 +144,7 @@ window.addEventListener("load", (event) => {
 <div>
 <table id="safety_grid" class="w-full table-fixed border-collapse border-2 border-slate-900 text-sm md:text-md lg:text-lg" style="display: none;">
   <tr class:list={"topkey"} class="border-grey-500 border p-1 overflow-hidden">
-    <th class="border-grey-500 border font-normal">Grid</th>
+    <th class="border-grey-500 border font-normal h-12">Grid</th>
     {drugs.map((drug) => (
       <th class:list={drug_css_prefix(drug.key)} class="border-grey-500 border p-1 overflow-hidden font-normal"><a class="font-medium text-black underline hover:no-underline w-full h-full block" href={`${import.meta.env.BASE_URL}psychoactives/` + drug.slug + '/'}> {drug.title} </a></th>
     ))
@@ -152,7 +152,7 @@ window.addEventListener("load", (event) => {
   </tr>
     {drugs.map((drugrow) => (
       <tr class:list={drug_css_prefix(drugrow.key)} >
-        <td class:list={drug_css_prefix(drugrow.key)} class="border-grey-500 border p-1 overflow-hidden"><a class="font-medium text-black underline hover:no-underline w-full h-full block" href={`${import.meta.env.BASE_URL}psychoactives/` + drugrow.slug + '/'}> {drugrow.title}</a></td>
+        <td class:list={drug_css_prefix(drugrow.key)} class="border-grey-500 border p-1 overflow-hidden h-12"><a class="font-medium text-black underline hover:no-underline w-full h-full block" href={`${import.meta.env.BASE_URL}psychoactives/` + drugrow.slug + '/'}> {drugrow.title}</a></td>
         {drugs.map((drugcell) => (
           <td class="border-grey-500 border p-1 overflow-hidden" class:list={[risk_to_bg(risk([drugrow.key,drugcell.key], data)),drug_css_prefix(drugrow.key),drug_css_prefix(drugcell.key)]}><Combolink drug1={drugrow} drug2={drugcell} combo={combo([drugrow.key,drugcell.key])} conf={confidence([drugrow.key,drugcell.key], data)} /></td>
          ))}
