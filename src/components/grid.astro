@@ -82,7 +82,7 @@ window.addEventListener("load", (event) => {
     });
   });
 
-  const search = document.getElementById('search')
+  const search = document.getElementById('search-grid')
   const items = document.querySelectorAll('.searchable');
   search.addEventListener("input", (event) => {
     items.forEach((item) => {
@@ -162,13 +162,13 @@ window.addEventListener("load", (event) => {
 </div>
 <div clas="container">
 <form class="my-6">
-    <label for="search" class="mb-2 text-sm font-medium text-gray-900 sr-only">Search</label>
+    <label for="search-grid" class="mb-2 text-sm font-medium text-gray-900 sr-only">Search</label>
     <div class="relative">
 
         <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
           <Icon iconCode="search" iconStyle="outline" customClasses="w-5 h-5 stroke-gray-500" />
         </div>
-        <input type="search" id="search" class="block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500  border-gray-600 placeholder-gray-400 text-black focus:ring-blue-500 focus:border-blue-50" placeholder="Search" required>
+        <input type="search" id="search-grid" class="block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500  border-gray-600 placeholder-gray-400 text-black focus:ring-blue-500 focus:border-blue-50" placeholder="Search" required>
 
     </div>
   </form>
