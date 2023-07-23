@@ -24,7 +24,7 @@ function search(data, query, limit) {
       datum['terms'] = [datum.title].concat(datum.family_members ||[]).concat(datum.aka ||[]).join(',')
       let q = q1
       if (datum.terms.toLowerCase().search(q) != -1){
-        datum['url'] = '/psychoactives/' + datum.slug
+        datum['url'] = '/psychoactives/' + datum.slug + '/'
         datum['displayname'] = displayname(datum, q)
         out.push(datum)
       }
@@ -44,7 +44,7 @@ function search(data, query, limit) {
           if (existing.slug != datum.slug) {
             let combined = JSON.parse(JSON.stringify(existing))
             let slug = linkify(combo([existing.slug,datum.slug]))
-            combined['url'] = '/combos/' + slug
+            combined['url'] = '/combos/' + slug + '/'
             combined['displayname'] = `${existing.displayname} + ${displayname(datum, q)}`
             out.push(combined)
           }
