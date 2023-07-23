@@ -34,14 +34,16 @@ import { risk, confidence, risk_to_bg } from '../../util';
   <article class="prose lg:prose-xl mx-auto">
     <h2> {entry.data.title} </h2>
     <span class="grid w-full gap-2 sm:grid-cols-2">
+      <a href={`${import.meta.env.BASE_URL}psychoactives/` + psych1_info.slug + '/'} class="bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 p-2">
       <Psychimage entry={psych1_info} />
+    </a>
+    <a href={`${import.meta.env.BASE_URL}psychoactives/` + psych2_info.slug + '/'} class="bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 p-2">
       <Psychimage entry={psych2_info} />
+    </a>
     </span>
     <ConfidencePanel conf={confidence([psych1, psych2], data)}/>
     <RiskPanel risk={risk([psych1, psych2], data)}/>
     <Content />
-    <PsychLink psych={psych1} />
-    <PsychLink psych={psych2} />
     <EditPage slug={entry.slug} type={"combos"} />
   </article>
 <Disclaimer />
