@@ -9,9 +9,6 @@ import preact from "@astrojs/preact";
 
 // https://astro.build/config
 export default defineConfig({
-  redirects: {
-    '/': '/grid/'
-  },
   site: 'https://psychcombo.com/',
   integrations: [serviceWorker(), mdx(), tailwind(), sitemap(), image({
     serviceEntryPoint: '@astrojs/image/sharp'
