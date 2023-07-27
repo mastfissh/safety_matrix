@@ -3,12 +3,12 @@
   "name": "Psychoactive combination safety",
   "icons": [
     {
-      "src": "/assets/tmg_logo no back ground.png",
+      "src": "/logo.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "/assets/tmg_logo no back ground.png",
+      "src": "/logo.png",
       "type": "image/png",
       "sizes": "512x512"
     }
