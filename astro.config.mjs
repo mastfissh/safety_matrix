@@ -7,6 +7,21 @@ import image from "@astrojs/image";
 import serviceWorker from "astrojs-service-worker";
 import preact from "@astrojs/preact";
 
+let workbox_config = {
+  workbox: {
+    inlineWorkboxRuntime: true,
+    additionalManifestEntries: ['', '/'],
+    runtimeCaching: [
+      {
+        urlPattern: /https:\/\/*/,
+        handler: 'StaleWhileRevalidate',
+      }
+    ],
+    publicExcludes: ['!robots.txt']
+  }
+}
+
+
 // https://astro.build/config
 export default defineConfig({
   site: 'https://psychcombo.com/',
