@@ -10,6 +10,12 @@ import preact from "@astrojs/preact";
 let workbox_config = {
   workbox: {
     inlineWorkboxRuntime: true,
+    runtimeCaching: [
+      {
+        urlPattern: /https:\/\/*/,
+        handler: 'StaleWhileRevalidate',
+      }
+    ],
     publicExcludes: ['!robots.txt', '!sitemap-index.xml']
   }
 }
