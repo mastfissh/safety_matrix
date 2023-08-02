@@ -11,7 +11,6 @@ let workbox_config = {
   workbox: {
     inlineWorkboxRuntime: true,
     additionalManifestEntries: ['', '/'],
-    additionalManifestEntries: ['', ''],
     runtimeCaching: [
       {
         urlPattern: /https:\/\/*/,
