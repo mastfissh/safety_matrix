@@ -10,13 +10,6 @@ import preact from "@astrojs/preact";
 let workbox_config = {
   workbox: {
     inlineWorkboxRuntime: true,
-    // additionalManifestEntries: ['', '/'],
-    // runtimeCaching: [
-    //   {
-    //     urlPattern: /https:\/\/*/,
-    //     handler: 'StaleWhileRevalidate',
-    //   }
-    // ],
   }
 }
 
