@@ -10,21 +10,26 @@ import preact from "@astrojs/preact";
 let workbox_config = {
   workbox: {
     inlineWorkboxRuntime: true,
+    additionalManifestEntries: ['', '/'],
+    additionalManifestEntries: ['', ''],
     runtimeCaching: [
       {
         urlPattern: /https:\/\/*/,
         handler: 'StaleWhileRevalidate',
       }
     ],
-    publicExcludes: ['!robots.txt', '!sitemap-index.xml']
   }
 }
 
-
-// https://astro.build/config
 export default defineConfig({
   site: 'https://psychcombo.com/',
-  integrations: [serviceWorker(), mdx(), tailwind(), sitemap(), image({
-    serviceEntryPoint: '@astrojs/image/sharp'
-  }), preact(), compress()]
+  integrations: [
+    serviceWorker(workbox_config),
+    mdx(),
+    tailwind(),
+    sitemap(),
+    image({ serviceEntryPoint: '@astrojs/image/sharp' }),
+    preact(),
+    compress()
+  ]
 });
