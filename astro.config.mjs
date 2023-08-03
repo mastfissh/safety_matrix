@@ -16,7 +16,7 @@ let workbox_config = {
 export default defineConfig({
   site: 'https://psychcombo.com/',
   integrations: [
-    serviceWorker(workbox_config),
+    // serviceWorker(workbox_config),
     mdx(),
     tailwind(),
     sitemap(),
