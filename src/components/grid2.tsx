@@ -43,6 +43,10 @@ function title(items, psych_data) {
   }
 }
 
+function warn(i1, i2, data) {
+  return (confidence([i1,i2], data) == 'Low confidence')
+}
+
 class GridTable extends Component {
   render(i, { value }) {
     let chosen = i.chosen
@@ -86,6 +90,10 @@ class GridTable extends Component {
       {psychs.map(col => (
         <Fragment key={col}>
           <td class={"border border-grey-500 overflow-hidden p-1 " + risk_to_bg(risk([row,col], data))}>
+          {warn(row,col, data) && <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6, inline">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m9-.75a9 9 0 11-18 0 9 9 0 0118 0zm-9 3.75h.008v.008H12v-.008z" />
+</svg>
+}
               <a href={href([row,col])} class="w-full block text-black font-medium h-full hover:no-underline underline">
                   {title([row,col], psych_data)}
                 </a>
