@@ -1,9 +1,0 @@
----
-import { linkify } from '../util';
-import Icon from "heroicons-astro/Heroicon.astro";
-const { combo, conf, drug1, drug2 } = Astro.props;
-let slug = linkify(combo)
-let warn = (conf == 'Low confidence')
----
-{warn && <Icon iconCode="exclamation-circle" iconStyle="outline" customClasses="h-6 w-6 inline" />}
-<a class="font-medium text-black underline hover:no-underline w-full h-full block" href={`${import.meta.env.BASE_URL}combos/` + slug + '/'}> {`${drug1.title} + ${drug2.title}`} </a>
