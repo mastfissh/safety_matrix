@@ -1,9 +1,27 @@
 ---
 import data from '../data.json';
-import Grid from '../components/grid.astro';
+import Grid2 from '../components/grid2.tsx';
 import Disclaimer from '../components/disclaimer.astro';
 import BaseLayout from '../layouts/BaseLayout.astro';
 const pageTitle = "Combos";
+import { getCollection } from 'astro:content';
+const substances = await getCollection('psychoactives');
+import Icon from "heroicons-astro/Heroicon.astro";
+import { combo, risk, drug_css_prefix, confidence, linkify, risk_to_bg } from '../util';
+
+let preact_data = {}
+for (let sub of substances){
+  let item = {
+    title : sub.data.title,
+    slug : sub.slug,
+    aka : sub.data.aka,
+    fam : sub.data.family_members,
+    img : "/" + sub.data.image_location,
+    img_capt : sub.data.image_caption
+  }
+  preact_data[sub.slug] = item
+}
+
 ---
 <BaseLayout pageTitle={pageTitle} metaDescription={"Psychoactive Combination Safety Matrix. This is a resource for harm reduction to learn about safety risks of combining drugs, substances, entheogens and other psychoactives"}>
 <div class="container px-6 mx-auto">
@@ -20,6 +38,25 @@ const pageTitle = "Combos";
         </div>
   </section>
 </div>
-		<Grid page={""} data={data} />
+<div class="block rounded-lg my-6 bg-gray-50 p-6 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] max-w-2xl mx-auto">
+ <h3 class="text-xl font-bold"> Key </h3>
+ <p>Risk = danger or hazard.</p>
+<p>Synergy = increased effects, or new effects</p>
+<p>Decrease = reduced effects</p>
+ </p>
+ <div class="flex space-x-4">
+  <Icon iconCode="exclamation-circle" iconStyle="outline" customClasses="h-7 w-7 inline" />
+   = low confidence in the risk rating
+</div>
+ <span class="grid grid-cols-2 lg:grid-cols-3">
+    <span class:list={risk_to_bg('SR')} class = "text-m font-medium m-2 px-2.5 py-0.5 rounded"> Significant Risk</span>
+    <span class:list={risk_to_bg('GR')} class = "text-m font-medium m-2 px-2.5 py-0.5 rounded"> Greater Risk</span>
+    <span class:list={risk_to_bg('MR')} class = "text-m font-medium m-2 px-2.5 py-0.5 rounded"> Minor Risk</span>
+    <span class:list={risk_to_bg('LRS')} class = "text-m font-medium m-2 px-2.5 py-0.5 rounded"> Low Risk Synergy</span>
+    <span class:list={risk_to_bg('LRD')} class = "text-m font-medium m-2 px-2.5 py-0.5 rounded"> Low Risk Decrease</span>
+    <span class:list={risk_to_bg('LRNS')} class = "text-m font-medium m-2 px-2.5 py-0.5 rounded"> Low Risk No Synergy</span>
+  </span>
+</div>
+    <Grid2 psych_data={preact_data} data={data} client:visible />
 <Disclaimer />
 </BaseLayout>
