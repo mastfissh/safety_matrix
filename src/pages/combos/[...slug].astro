@@ -18,7 +18,7 @@ let visible = false
 if (entry.data.display_grid){
   visible = true
 }
-import Psychimage from '../../components/psychimage.astro';
+import { getImage } from "astro:assets";
 import Disclaimer from '../../components/disclaimer.astro';
 import ConfidencePanel from '../../components/confidence_panel.astro';
 import EditPage from '../../components/edit_page.astro';
@@ -28,17 +28,37 @@ let [psych1, psych2] = entry.slug.split('_')
 const psych1_info = await getEntry('psychoactives', psych1);
 const psych2_info = await getEntry('psychoactives', psych2);
 import { risk, confidence, risk_to_bg } from '../../util';
-
+let psych1_info_img = await getImage({src: psych1_info.data.image_location, width: 700})
+let psych2_info_img = await getImage({src: psych2_info.data.image_location, width: 700})
 ---
 <BaseLayout pageTitle={entry.data.title} metaDescription={`Psychoactives information. This is the page for harm reduction to learn about safety risks for the combination of ${entry.data.title}`}>
   <article class="prose lg:prose-xl mx-auto">
     <h2> {entry.data.title} </h2>
     <span class="grid w-full gap-2 sm:grid-cols-2">
       <a href={`${import.meta.env.BASE_URL}psychoactives/` + psych1_info.slug + '/'} class="bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 p-2">
-      <Psychimage entry={psych1_info} />
+  <figure class="mb-1 max-w-2-xl relative ">
+<img
+      class="mb-4 h-auto max-w-full rounded-lg align-middle leading-none shadow-lg"
+      src={psych1_info_img.src}
+      alt={psych1_info.data.image_caption}
+    />
+  <figcaption class="text-sm absolute mb-4 bottom-0 z-90 rounded-lg bg-black/75 px-5 py-2 text-white">
+    {psych1_info.data.image_caption}
+  </figcaption>
+</figure>
     </a>
     <a href={`${import.meta.env.BASE_URL}psychoactives/` + psych2_info.slug + '/'} class="bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 p-2">
-      <Psychimage entry={psych2_info} />
+<figure class="mb-1 max-w-2-xl relative ">
+<img
+      class="mb-4 h-auto max-w-full rounded-lg align-middle leading-none shadow-lg"
+      src={psych2_info_img.src}
+      alt={psych2_info.data.image_caption}
+    />
+  <figcaption class="text-sm absolute mb-4 bottom-0 z-90 rounded-lg bg-black/75 px-5 py-2 text-white">
+    {psych2_info.data.image_caption}
+  </figcaption>
+</figure>
+
     </a>
     </span>
     <ConfidencePanel conf={confidence([psych1, psych2], data)}/>

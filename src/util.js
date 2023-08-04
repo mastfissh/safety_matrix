@@ -60,3 +60,16 @@ export function risk_to_bg(risk){
   }
   return map[risk]
 }
+
+
+export function displayname(entry, query) {
+  if (entry.title.toLowerCase().search(query) != -1){
+    return entry.title
+  } else {
+    for (let word of entry['terms'].split(',')) {
+      if (word.toLowerCase().search(query) != -1){
+        return entry.title + ` (${word})`
+      }
+    }
+  }
+}

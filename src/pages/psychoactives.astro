@@ -4,7 +4,7 @@ import { combo, risk, drug_css_prefix, confidence, linkify } from '../util';
 import BaseLayout from '../layouts/BaseLayout.astro';
 const pageTitle = "Psychs";
 import { getCollection } from 'astro:content';
-import { Picture } from '@astrojs/image/components';
+import { Image } from 'astro:assets'
 const unsorted_substances = await getCollection('psychoactives');
 let idx = {}
 for (let sub of unsorted_substances){
@@ -25,11 +25,10 @@ for (let drug of data["drugs"]) {
       <div class="p-4 h-24">
           <h3 class=" text-2xl font-bold tracking-tight text-gray-600">{substance.data.title}</h3>
       </div>
-      <Picture
+      <Image
         class="h-auto max-w-full rounded-lg align-middle leading-none shadow-lg"
-        src={'../../' + substance.data.image_location}
-        widths={[320]}
-        aspectRatio={"4:3"}
+        src={substance.data.image_location}
+        width="300"
         alt={substance.data.image_caption}
       />
     </a>

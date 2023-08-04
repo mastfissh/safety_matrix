@@ -15,7 +15,6 @@
     "gen": "node ./src/gen_placeholders.js"
   },
   "dependencies": {
-    "@astrojs/image": "^0.17.2",
     "@astrojs/mdx": "^0.19.1",
     "@astrojs/preact": "^2.2.1",
     "@astrojs/sitemap": "^1.3.3",

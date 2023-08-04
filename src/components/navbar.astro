@@ -1,9 +1,9 @@
 ---
-import { Picture } from '@astrojs/image/components';
+import { Image } from 'astro:assets'
 import Search from '../components/search.tsx';
 import { getCollection } from 'astro:content';
 const substances = await getCollection('psychoactives');
-
+import logo from '/src/assets/logo.png'
 let preact_data = []
 for (let sub of substances){
   let item = {
@@ -20,11 +20,10 @@ for (let sub of substances){
     <div class="w-full w-auto" id="navbar-default">
       <ul class="font-medium flex p-0 border border-gray-100 rounded-lg flex-row space-x-2 mt-0 border-0 border-gray-700">
         <li class="h-12 w-12">
-          <Picture
+          <Image
               class="block h-auto w-full rounded-lg align-middle leading-none shadow-lg"
-              src={'../../logo.png'}
-              widths={[96]}
-              aspectRatio={"1:1"}
+              src={logo}
+              width="96"
               alt={'psych combos logo'}
             />
         </li>
