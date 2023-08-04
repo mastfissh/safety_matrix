@@ -1,9 +1,8 @@
-import { defineConfig } from 'astro/config';
+import { defineConfig, sharpImageService  } from 'astro/config';
 import mdx from "@astrojs/mdx";
 import tailwind from "@astrojs/tailwind";
 import sitemap from "@astrojs/sitemap";
 import compress from "astro-compress";
-import image from "@astrojs/image";
 import serviceWorker from "astrojs-service-worker";
 import preact from "@astrojs/preact";
 
