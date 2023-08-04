@@ -150,7 +150,7 @@ export default class Grid extends Component {
 <Fragment >
   <GridTable chosen={this.state.checked_boxes} psych_data={i.psych_data} data={i.data} ordering={ordering} />
   <form class="my-6" onSubmit={this.onSubmit}>
-    <label for="search" class="mb-2 text-sm font-medium
+    <label for="search-grid" class="mb-2 text-sm font-medium
     text-gray-900 sr-only text-white">Search</label>
     <div class="relative w-full">
         {value == "" && <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none ">
@@ -165,7 +165,7 @@ export default class Grid extends Component {
           </svg>
 
         </div>}
-        <input value={value} onInput={this.onInput} autocomplete="off" type="search" id="search"
+        <input value={value} onInput={this.onInput} autocomplete="off" type="search" id="search-grid"
         class="w-full block text-black focus:ring-blue-500 focus:ring-blue-500 bg-gray-50 border border-gray-300 border-gray-600 focus:border-blue-50 focus:border-blue-500 p-4 pl-10 placeholder-gray-400 rounded-lg text-gray-900 text-sm" placeholder="Search" required />
     </div>
   </form>
