@@ -28,8 +28,8 @@ let [psych1, psych2] = entry.slug.split('_')
 const psych1_info = await getEntry('psychoactives', psych1);
 const psych2_info = await getEntry('psychoactives', psych2);
 import { risk, confidence, risk_to_bg } from '../../util';
-let psych1_info_img = await getImage({src: psych1_info.data.image_location, width: "700"})
-let psych2_info_img = await getImage({src: psych2_info.data.image_location, width: "700"})
+let psych1_info_img = await getImage({src: psych1_info.data.image_location, width: 700})
+let psych2_info_img = await getImage({src: psych2_info.data.image_location, width: 700})
 ---
 <BaseLayout pageTitle={entry.data.title} metaDescription={`Psychoactives information. This is the page for harm reduction to learn about safety risks for the combination of ${entry.data.title}`}>
   <article class="prose lg:prose-xl mx-auto">
