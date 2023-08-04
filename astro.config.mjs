@@ -28,7 +28,7 @@ let transform = function(list){
 let workbox_config = {
   workbox: {
     additionalManifestEntries: ['/', 'index.html', '/index.html'],
-    manifestTransforms: [transform],
+    // manifestTransforms: [transform],
     // importScripts: ['worker.js'],
     // runtimeCaching: [
     //   {
