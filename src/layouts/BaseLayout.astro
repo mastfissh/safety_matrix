@@ -1,12 +1,15 @@
 ---
+import { getImage } from "astro:assets";
 import Navbar from '../components/navbar.astro';
 import Footer from '../components/footer.astro';
 const { pageTitle, metaDescription } = Astro.props;
+import logo from '/src/assets/logo.png'
+let logo_data = await getImage({src: logo, width: "32", format: 'png'})
 ---
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" type="image/png" href="/logo.png" />
+    <link rel="icon" type="image/png" href={logo_data.src} />
     <link rel="manifest" href="/manifest.json" />
     <meta name="theme-color" content="4B0082" />
     <meta name="viewport" content="width=device-width" />
