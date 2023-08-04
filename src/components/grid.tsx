@@ -59,10 +59,6 @@ class GridTable extends Component {
         psychs.push(ord)
       }
     }
-    function link(){
-
-    }
-
     return (
       <Fragment >
       <table class="w-full border-2 border-collapse border-slate-900 lg:text-lg md:text-md table-fixed text-sm" id="safety_grid">
@@ -182,7 +178,7 @@ export default class Grid extends Component {
           <label class="w-full rounded-lg bg-white border-2 border-gray-200 border-gray-700 cursor-pointer hover:text-gray-300 inline-flex items-center justify-between p-5 peer-checked:bg-gray-600 peer-checked:border-blue-600 peer-checked:text-gray-300 peer-checked:text-gray-50 text-gray-1000" for={item.slug}>
           <div class="block">
             <div class="w-full lg:text-lg font-semibold searchable-title text-md">{item.displayname}</div>
-            <img alt={item.img_capt} class="rounded-lg align-middle h-auto leading-none shadow-lg w-36" decoding="async" loading="lazy" src={item.img} />
+            <img alt={item.img_capt} class="rounded-lg align-middle h-auto leading-none shadow-lg" decoding="async" loading="lazy" src={item.img.src} />
           </div>
         </label>
       </li>

@@ -1,4 +1,5 @@
 ---
+import { getImage } from "astro:assets";
 import data from '../data.json';
 import Grid from '../components/grid.tsx';
 import Disclaimer from '../components/disclaimer.astro';
@@ -16,7 +17,7 @@ for (let sub of substances){
     slug : sub.slug,
     aka : sub.data.aka,
     fam : sub.data.family_members,
-    img : "/" + sub.data.image_location,
+    img : await getImage({src: sub.data.image_location, width: "300"}),
     img_capt : sub.data.image_caption
   }
   preact_data[sub.slug] = item
