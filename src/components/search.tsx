@@ -1,7 +1,6 @@
 import { Component, Fragment } from 'preact';
 import { combo, linkify } from '../util';
 
-
 function displayname(entry, q) {
   if (entry.title.toLowerCase().search(q) != -1){
     return entry.title

@@ -1,11 +1,6 @@
 import { Component, Fragment } from 'preact';
 import { combo, linkify, displayname, risk, risk_to_bg, confidence } from '../util';
 
-// logic:
-// if no query, bubble chosen to top
-// if query, hide all chosen
-
-
 function search(data, query, slugs, chosen) {
 
   function populate_item(datum){
