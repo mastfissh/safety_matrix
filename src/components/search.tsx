@@ -68,6 +68,12 @@ export default class Search extends Component {
     this.setState({ value })
   }
 
+  clearInput = e => {
+    console.log('HERE')
+    const value = "";
+    this.setState({ value })
+  }
+
   render(i, { value }) {
     let query = this.state.value
     let psychs = search(i.data, query, 25)
@@ -77,11 +83,16 @@ export default class Search extends Component {
     <label for="search" class="mb-2 text-sm font-medium
     text-gray-900 sr-only text-white">Search</label>
     <div class="relative w-full">
-        <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none ">
+        {value=="" &&<div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none ">
           <svg class="w-5 h-5 stroke-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
           </svg>
-        </div>
+        </div>}
+        {value!="" && <div onClick={this.clearInput} class="absolute inset-y-0 left-0 flex items-center pl-3 ">
+          <svg class="w-6 h-6 stroke-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </div>}
         <input value={value} onInput={this.onInput} type="search" id="search" class="block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-700 focus:ring-blue-500 focus:border-blue-500  border-gray-600 placeholder-gray-400 text-white focus:ring-blue-500 focus:border-blue-500" placeholder="Search" required />
     </div>
   </form>
