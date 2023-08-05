@@ -1,7 +1,7 @@
 import { getImage } from "astro:assets";
 import logo from '../assets/logo.png';
-let logo_192 = await getImage({src: logo, width: 192, height: 192})
-let logo_512 = await getImage({src: logo, width: 512, height: 512})
+let logo_192 = await getImage({src: logo, width: 192, height: 192, format: 'png'})
+let logo_512 = await getImage({src: logo, width: 512, height: 512, format: 'png'})
 export async function get({params, request}) {
   let out = {
     "short_name": "PsychCombos",
@@ -9,12 +9,12 @@ export async function get({params, request}) {
     "icons": [
       {
         "src": logo_192.src,
-        "type": "image/webp",
+        "type": "image/png",
         "sizes": "192x192"
       },
       {
         "src": logo_512.src,
-        "type": "image/webp",
+        "type": "image/png",
         "sizes": "512x512",
         "purpose": "any maskable"
       }
