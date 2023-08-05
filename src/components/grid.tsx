@@ -177,7 +177,12 @@ export default class Grid extends Component {
           <label class="w-full rounded-lg bg-white border-2 border-gray-400 cursor-pointer hover:text-gray-300 inline-flex items-center justify-between p-5 peer-checked:bg-gray-600 peer-checked:border-blue-600 peer-checked:text-gray-300 peer-checked:text-gray-50 text-gray-1000" for={item.slug}>
           <div class="block">
             <div class="w-full lg:text-lg font-semibold searchable-title text-md">{item.displayname}</div>
-            <img alt={item.img_capt} class="rounded-lg align-middle h-auto leading-none shadow-lg" decoding="async" loading="lazy" src={item.img.src} />
+            <img alt={item.img_capt}
+              class="rounded-lg align-middle h-auto leading-none shadow-lg"
+              decoding="async" loading="lazy" src={item.img.src}
+              width={item.img.attributes.width}
+              height={item.img.attributes.height}
+               />
           </div>
         </label>
       </li>
