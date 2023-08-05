@@ -46,7 +46,6 @@ export default defineConfig({
     mdx(),
     tailwind(),
     sitemap(),
-    // image({ serviceEntryPoint: '@astrojs/image/sharp' }),
     preact(),
     compress(),
   ],

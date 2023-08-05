@@ -1,15 +1,34 @@
 import { Component, Fragment } from 'preact';
 import { combo, linkify, displayname, risk, risk_to_bg, confidence } from '../util';
 
-function search(data, query, slugs) {
+// logic:
+// if no query, bubble chosen to top
+// if query, hide all chosen
+
+
+function search(data, query, slugs, chosen) {
+
+  function populate_item(datum){
+    datum['url'] = '/psychoactives/' + datum.slug + '/'
+    datum['displayname'] = displayname(datum, query)
+  }
+
   let out = []
-  for (let slug of slugs){
-    let datum = data[slug]
-    datum['terms'] = [datum.title].concat(datum.family_members ||[]).concat(datum.aka ||[]).join(',')
-    if (datum.terms.toLowerCase().search(query) != -1){
-      datum['url'] = '/psychoactives/' + datum.slug + '/'
-      datum['displayname'] = displayname(datum, query)
+  if (query == ""){
+    for (let choice of chosen){
+      let datum = data[choice]
+      populate_item(datum)
       out.push(datum)
+    }
+  }
+  for (let slug of slugs){
+    if (!chosen.includes(slug) || query != ""){
+      let datum = data[slug]
+      datum['terms'] = [datum.title].concat(datum.family_members ||[]).concat(datum.aka ||[]).join(',')
+      if (datum.terms.toLowerCase().search(query) != -1){
+        populate_item(datum)
+        out.push(datum)
+      }
     }
   }
   return out
@@ -145,7 +164,7 @@ export default class Grid extends Component {
   render(i, { value, checked }) {
     let query = this.state.value
     let ordering = slugs(i.data)
-    let psychs = search(i.psych_data, query, ordering)
+    let psychs = search(i.psych_data, query, ordering, this.state.checked_boxes)
     return (
 <Fragment >
   <GridTable chosen={this.state.checked_boxes} psych_data={i.psych_data} data={i.data} ordering={ordering} />
