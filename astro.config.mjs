@@ -57,6 +57,6 @@ export default defineConfig({
     service: sharpImageService(),
   },
   build: {
-    inlineStylesheets: 'auto'
+    inlineStylesheets: 'always'
   }
 });
