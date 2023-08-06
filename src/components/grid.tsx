@@ -123,7 +123,7 @@ class GridTable extends Component {
 export default class Grid extends Component {
   state = {
     value: '',
-    checked_boxes: ['alcohol', 'cannabis'],
+    checked_boxes: ['alcohol', 'cannabis', 'cocaine', 'ketamine'],
   };
 
   isChecked = target => {
