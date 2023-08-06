@@ -50,13 +50,13 @@ export function drug_css_prefix(str) {
 
 export function risk_to_bg(risk){
   const map = {
-    'SR' : 'bg-red-100',
-    'GR' : 'bg-orange-100',
-    'MR' : 'bg-amber-100',
-    'LRS' : 'bg-cyan-100',
-    'LRD' : 'bg-violet-100',
-    'LRNS' : 'bg-blue-100',
-    'unknown' : 'bg-slate-100',
+    'SR' : 'bg-red-200',
+    'GR' : 'bg-orange-200',
+    'MR' : 'bg-amber-200',
+    'LRS' : 'bg-cyan-200',
+    'LRD' : 'bg-violet-200',
+    'LRNS' : 'bg-blue-200',
+    'unknown' : 'bg-slate-200',
   }
   return map[risk]
 }
