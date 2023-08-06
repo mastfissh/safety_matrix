@@ -2,7 +2,7 @@ import { defineConfig, sharpImageService  } from 'astro/config';
 import mdx from "@astrojs/mdx";
 import tailwind from "@astrojs/tailwind";
 import sitemap from "@astrojs/sitemap";
-import compress from "astro-compress";
+// import compress from "astro-compress";
 import serviceWorker from "astrojs-service-worker";
 import preact from "@astrojs/preact";
 
@@ -47,7 +47,7 @@ export default defineConfig({
     tailwind(),
     sitemap(),
     preact(),
-    compress(),
+    // compress(),
   ],
   experimental: {
     assets: true,
