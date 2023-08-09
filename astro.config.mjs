@@ -11,13 +11,14 @@ let transform = function(list){
   let allow
   for (let item of list){
     allow = true
-    if (item.url.includes('combos')){
-      allow = false
-    }
-    if (item.url.includes('assets')){
-      allow = false
-    }
+    // if (item.url.includes('combos')){
+    //   allow = false
+    // }
+    // if (item.url.includes('assets')){
+    //   allow = false
+    // }
     if (allow){
+      item.url = item.url.replace('/index.html', '/')
       out.push(item)
     }
   }
@@ -27,7 +28,7 @@ let transform = function(list){
 let workbox_config = {
   workbox: {
     additionalManifestEntries: ['/'],
-    // manifestTransforms: [transform],
+    manifestTransforms: [transform],
     // importScripts: ['worker.js'],
     // runtimeCaching: [
     //   {
