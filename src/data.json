@@ -805,6 +805,18 @@
   ],
   "GR": [
     [
+      "Mitragyna speciosa",
+      "Papaver somnifarem"
+    ],
+    [
+      "Opioids",
+      "Papaver somnifarem"
+    ],
+    [
+      "Mitragyna speciosa",
+      "Opioids"
+    ],
+    [
       "LSD",
       "Tramadol"
     ],
@@ -1215,10 +1227,6 @@
     [
       "Incillius alvarius",
       "Tabernathe iboga"
-    ],
-    [
-      "Mitragyna speciosa",
-      "Papaver somnifarem"
     ],
     [
       "Mitragyna speciosa",
@@ -5498,10 +5506,6 @@
     ],
     [
       "Opioids",
-      "Papaver somnifarem"
-    ],
-    [
-      "Opioids",
       "Phyllomedusa bicolor"
     ],
     [
@@ -6495,10 +6499,6 @@
     [
       "Mitragyna speciosa",
       "Cannabis"
-    ],
-    [
-      "Mitragyna speciosa",
-      "Opioids"
     ],
     [
       "Mitragyna speciosa",
