@@ -68,15 +68,15 @@ export default class Offline extends Component {
 
     // We've cached more files than we manifested, all good
     if (this.state.count > this.state.total){
-      return "stroke-green-100 fill-green-100"
+      return "stroke-green-300 fill-green-300"
     }
 
     // Caching is continuing
-    return "stroke-yellow-100 fill-yellow-100"
+    return "stroke-yellow-300 fill-yellow-300"
   }
 
   classNames() {
-    return `w-8 h-6 ${this.color()}}`
+    return `w-10 h-10 ${this.color()}}`
   }
 
   render(i, { count }) {
