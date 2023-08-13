@@ -29,7 +29,7 @@ export default class Offline extends Component {
   state = {
     count: 0,
     total: 0,
-    offline: true,
+    offline: false,
   };
   timer;
 
@@ -49,6 +49,7 @@ export default class Offline extends Component {
     } catch (e) {
       offline = true
     }
+    await this.updateCacheCount()
     this.setState({ total, offline })
   }
 
