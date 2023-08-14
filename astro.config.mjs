@@ -34,7 +34,7 @@ let transform = function(list){
 
 let workbox_config = {
   workbox: {
-    additionalManifestEntries: ['/', '/index.html', ''],
+    additionalManifestEntries: ['/'],
     manifestTransforms: [transform],
     // runtimeCaching: [
     //   {

@@ -68,7 +68,7 @@ export default class Offline extends Component {
     }
 
     // We've cached more files than we manifested, all good
-    if (this.state.count > this.state.total){
+    if (this.state.count > (this.state.total ) ){
       return "stroke-green-300 fill-green-300"
     }
 
