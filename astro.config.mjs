@@ -25,6 +25,7 @@ let transform = function(list){
       out.push(item)
     }
   }
+  out.reverse()
   let count = {"file_count" : out.length}
   const __filename = fileURLToPath(import.meta.url);
   const __dirname = dirname(__filename);
