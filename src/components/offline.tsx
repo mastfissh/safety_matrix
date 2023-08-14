@@ -64,7 +64,7 @@ export default class Offline extends Component {
 
   color() {
     if (this.state.total == 0){
-      return "stroke-gray-300 fill-gray-300"
+      return "stroke-gray-400 fill-gray-400"
     }
 
     // We've cached more files than we manifested, all good
@@ -73,7 +73,7 @@ export default class Offline extends Component {
     }
 
     // Caching is continuing
-    return "stroke-yellow-300 fill-yellow-300"
+    return "stroke-gray-300 fill-gray-300"
   }
 
   classNames() {
