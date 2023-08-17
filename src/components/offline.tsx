@@ -98,6 +98,11 @@ export default class Offline extends Component {
     return "stroke-gray-300 fill-gray-300"
   }
 
+  explainerText(){
+    let explain = `Progress ${this.state.count} / ${this.state.total}`
+    return explain
+  }
+
   classNames() {
     return `w-10 h-10 ${this.color()}}`
   }
@@ -105,7 +110,7 @@ export default class Offline extends Component {
   render(i, { count }) {
     let classname = this.classNames()
     return (
-<span ref={this.ref}>
+<span class="cursor-pointer" ref={this.ref}>
 
   {this.state.offline &&
 <svg onClick={this.handleClick} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className={classname}>
@@ -118,9 +123,7 @@ export default class Offline extends Component {
 </svg>
 }
   {this.state.open &&
-  <div class="w-12 h-12 absolute z-10 block rounded-lg bg-gray-600 text-gray-100 mt-6">
-    <h1 class="text-white">{this.state.count} / {this.state.total} </h1>
-  </div>
+    <h1 class="absolute z-10 block rounded-lg bg-gray-600 text-gray-100 mt-6 text-white">{this.explainerText()} </h1>
   }
 
 </span>
