@@ -99,8 +99,27 @@ export default class Offline extends Component {
   }
 
   explainerText(){
-    let explain = `Progress ${this.state.count} / ${this.state.total}`
-    return explain
+    let percent = Math.floor(((this.state.count * 100) / this.state.total))
+    if  (this.state.count > (this.state.total ) ){
+      if (this.state.offline){
+        return "Offline, fully loaded. All site info should be available"
+      } else {
+        return "Online, fully loaded. If you go offline, all info should be available"
+      }
+    }
+    if (this.state.offline && this.state.total == 0){
+      return `Offline, not loaded`
+    }
+    if (this.state.offline){
+      return `Offline, not fully loaded. ${percent}% loaded`
+    }
+    if (this.state.total == 0){
+      return "Still loading for offline"
+    }
+    if (this.state.total > 0){
+      return `Still loading for offline, ${percent}%`
+    }
+    return "Offline functionality not working - try using chrome"
   }
 
   classNames() {
@@ -108,9 +127,9 @@ export default class Offline extends Component {
   }
 
   render(i, { count }) {
-    let classname = this.classNames()
+    let classname = this.classNames() + " cursor-pointer"
     return (
-<span class="cursor-pointer" ref={this.ref}>
+<span ref={this.ref}>
 
   {this.state.offline &&
 <svg onClick={this.handleClick} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className={classname}>
@@ -123,7 +142,7 @@ export default class Offline extends Component {
 </svg>
 }
   {this.state.open &&
-    <h1 class="absolute z-10 block rounded-lg bg-gray-600 text-gray-100 mt-6 text-white">{this.explainerText()} </h1>
+    <h2 class="absolute z-10 block p-4 text-sm rounded-lg bg-gray-800 text-gray-100 mt-6 text-white">{this.explainerText()} </h2>
   }
 
 </span>
