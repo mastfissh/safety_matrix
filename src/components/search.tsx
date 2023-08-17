@@ -68,7 +68,6 @@ export default class Search extends Component {
   }
 
   clearInput = e => {
-    console.log('HERE')
     const value = "";
     this.setState({ value })
   }
