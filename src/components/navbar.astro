@@ -1,6 +1,7 @@
 ---
 import { Image } from 'astro:assets'
 import Search from '../components/search.tsx';
+import Offline from '../components/offline.tsx';
 import { getCollection } from 'astro:content';
 const substances = await getCollection('psychoactives');
 import logo from '/src/assets/logo.png'
@@ -28,11 +29,14 @@ for (let sub of substances){
             />
         </li>
         <li>
-          <a href='/' class="block py-2 pr-2 text-white  rounded bg-transparent p-0">
+          <a href='/' class="block py-2 text-white  rounded bg-transparent p-0">
           Combos</a>
         </li>
         <li>
-          <a href={`${import.meta.env.BASE_URL}psychoactives/`}  class="block py-2 pl-2 pr-2 text-gray-900 rounded hover:bg-gray-100 hover:bg-transparent border-0 hover:text-blue-700 p-0 text-white hover:text-blue-500 hover:bg-gray-700 hover:text-white hover:bg-transparent">Psychoactives</a>
+          <a href={`${import.meta.env.BASE_URL}psychoactives/`}  class="block py-2 text-gray-900 rounded hover:bg-gray-100 hover:bg-transparent border-0 hover:text-blue-700 p-0 text-white hover:text-blue-500 hover:bg-gray-700 hover:text-white hover:bg-transparent">Psychoactives</a>
+        </li>
+        <li>
+          <Offline client:visible />
         </li>
         <li>
           <Search data={preact_data} client:visible />

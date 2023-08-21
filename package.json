@@ -6,7 +6,7 @@
     "dev": "astro dev --port 3333",
     "start": "astro dev",
     "build": "astro build",
-    "preview": "astro preview --port 3333",
+    "preview": "astro preview --port 3334",
     "astro": "astro",
     "ingest": "node ./src/ingest.js",
     "ingestconf": "node ./src/confidence_ingest.js",
