@@ -39,7 +39,10 @@ export default defineConfig({
     tailwind(),
     sitemap(),
     preact(),
-    compress(),
+    compress({
+      HTML: false,
+      JavaScript: false,
+    }),
   ],
   image: {
     service: sharpImageService(),
