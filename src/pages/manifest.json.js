@@ -2,7 +2,7 @@ import { getImage } from "astro:assets";
 import logo from '../assets/logo.png';
 let logo_192 = await getImage({src: logo, width: 192, height: 192, format: 'png'})
 let logo_512 = await getImage({src: logo, width: 512, height: 512, format: 'png'})
-export async function get({params, request}) {
+export async function GET({params, request}) {
   let out = {
     "short_name": "PsychCombos",
     "name": "Psychoactive combination safety",
@@ -27,7 +27,6 @@ export async function get({params, request}) {
     "theme_color": "#3367D6",
     "description": "Psychoactive safety"
   }
-  return {
+  return new Response({
     body: JSON.stringify(out),
-  };
-}
+  })}
