@@ -13,17 +13,8 @@ let transform = function(list){
   let out = []
   let allow
   for (let item of list){
-    allow = true
-    // if (item.url.includes('combos')){
-    //   allow = false
-    // }
-    // if (item.url.includes('assets')){
-    //   allow = false
-    // }
-    if (allow){
-      item.url = item.url.replace('/index.html', '/')
-      out.push(item)
-    }
+    item.url = item.url.replace('/index.html', '/')
+    out.push(item)
   }
   out.reverse()
   let count = {"file_count" : out.length}
@@ -37,13 +28,6 @@ let workbox_config = {
   workbox: {
     additionalManifestEntries: ['/'],
     manifestTransforms: [transform],
-    // runtimeCaching: [
-    //   {
-    //     urlPattern: /combos/,
-    //     handler: 'StaleWhileRevalidate',
-    //     // navigateFallback: '/offline/',
-    //   },
-    // ]
   }
 }
 
