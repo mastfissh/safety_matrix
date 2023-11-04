@@ -17,9 +17,9 @@
   "dependencies": {
     "@astrojs/mdx": "^1.0.0",
     "@astrojs/preact": "^3.0.0",
-    "@astrojs/sitemap": "^3.0.0",
+    "@astrojs/sitemap": "^3.0.3",
     "@astrojs/tailwind": "^5.0.0",
-    "astro": "^3.0.7",
+    "astro": "^3.4.3",
     "astro-compress": "^2.0.12",
     "astrojs-service-worker": "^1.0.0",
     "chart.js": "^4.3.0",
