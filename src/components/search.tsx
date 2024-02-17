@@ -13,7 +13,7 @@ function displayname(entry, q) {
   }
 }
 
-function search(data, query = "", limit = 25) {
+function search(data, query, limit) {
   let segments = query
     .replace(" and ", " ")
     .replace(" & ", " ")

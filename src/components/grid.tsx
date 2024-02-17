@@ -72,13 +72,13 @@ function warn(i1, i2, data) {
 
 class GridTable extends Component {
   render(i, { value }) {
-    let chosen = i.chosen || [];
+    let chosen = i.chosen;
     let ordering = i.ordering;
     let data = i.data;
     let psych_data = i.psych_data;
     let psychs = [];
     for (let ord of ordering) {
-      if (chosen.includes(ord)) {
+      if (chosen?.includes(ord)) {
         psychs.push(ord);
       }
     }
@@ -165,7 +165,7 @@ export default class Grid extends Component {
   };
 
   isChecked = (target) => {
-    return (this.state.checked_boxes || "").includes(target);
+    return this.state.checked_boxes.includes(target);
   };
 
   onSubmit = (e) => {
