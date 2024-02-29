@@ -4,5 +4,9 @@
     "jsx": "react-jsx",
     "jsxImportSource": "preact",
     "allowJs" : true
-  }
+  },
+  "ts-node": {
+    "esm": true,
+    "experimentalSpecifierResolution": "node"
+ },
 }
