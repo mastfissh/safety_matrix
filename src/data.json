@@ -59,6 +59,14 @@
   ],
   "SR": [
     [
+      "Catha edulis",
+      "Tabernathe iboga"
+    ],
+    [
+      "Cathinones",
+      "Tabernathe iboga"
+    ],
+    [
       "5-MeO-xxT",
       "MAOIs"
     ],
@@ -3407,10 +3415,6 @@
       "Phyllomedusa bicolor"
     ],
     [
-      "Catha edulis",
-      "Tabernathe iboga"
-    ],
-    [
       "Ephedra sinica",
       "LSD"
     ],
@@ -4073,10 +4077,6 @@
     [
       "Cathinones",
       "Phyllomedusa bicolor"
-    ],
-    [
-      "Cathinones",
-      "Tabernathe iboga"
     ],
     [
       "Ephedra sinica",
@@ -14764,10 +14764,6 @@
       "Phyllomedusa bicolor"
     ],
     [
-      "Catha edulis",
-      "Tabernathe iboga"
-    ],
-    [
       "Ephedra sinica",
       "DOx"
     ],
@@ -15414,10 +15410,6 @@
     [
       "Tabernathe iboga",
       "Piper methysticum"
-    ],
-    [
-      "Tabernathe iboga",
-      "Catha edulis"
     ],
     [
       "Tabernathe iboga",
@@ -15669,6 +15661,14 @@
     ]
   ],
   "Medium confidence": [
+    [
+      "Cathinones",
+      "Tabernathe iboga"
+    ],
+    [
+      "Catha edulis",
+      "Tabernathe iboga"
+    ],
     [
       "LSD",
       "Psilocybin"
