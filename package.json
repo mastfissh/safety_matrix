@@ -28,7 +28,7 @@
     "heroicons-astro": "^1.0.4",
     "luxon": "^3.4.4",
     "preact": "^10.20.1",
-    "sharp": "^0.33.2",
+    "sharp": "^0.33.5",
     "tailwindcss": "^3.4.10"
   },
   "devDependencies": {
