@@ -27,6 +27,4 @@ export async function GET({params, request}) {
     "theme_color": "#3367D6",
     "description": "Psychoactive safety"
   }
-  return new Response({
-    body: JSON.stringify(out),
-  })}
+  return new Response(JSON.stringify(out))}

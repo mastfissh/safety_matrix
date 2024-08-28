@@ -12,6 +12,7 @@
     "ingestconf": "node ./src/confidence_ingest.js",
     "add": "node ./src/add_substances.js",
     "test": "node ./src/test.js",
+    "export": "node ./src/export_data.js",
     "gen": "node ./src/gen_placeholders.js"
   },
   "dependencies": {
