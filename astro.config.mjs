@@ -44,9 +44,6 @@ export default defineConfig({
       JavaScript: false,
     }),
   ],
-  image: {
-    service: squooshImageService(),
-  },
   build: {
     inlineStylesheets: 'always'
   }
