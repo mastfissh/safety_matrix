@@ -29,6 +29,6 @@
   },
   "devDependencies": {
     "tsx": "^4.19.0",
-    "@tailwindcss/typography": "^0.5.14"
+    "@tailwindcss/typography": "^0.5.15"
   }
 }
