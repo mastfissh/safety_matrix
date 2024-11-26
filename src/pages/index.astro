@@ -17,7 +17,7 @@ for (let sub of substances) {
     slug: sub.slug,
     aka: sub.data.aka,
     fam: sub.data.family_members,
-    img: await getImage({ src: sub.data.image_location, width: 220 }),
+    img: sub.data.image_location,
     img_capt: sub.data.image_caption,
   };
   preact_data[sub.slug] = item;
@@ -106,6 +106,7 @@ for (let sub of substances) {
       Low Risk No Synergy</span
     >
   </span>
+
+  <Grid psych_data={preact_data} data={data} client:visible />
+  <Disclaimer />
 </BaseLayout>
-<Grid psych_data={preact_data} data={data} client:visible />
-<Disclaimer />

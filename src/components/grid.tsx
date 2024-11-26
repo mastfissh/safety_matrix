@@ -127,7 +127,12 @@ class GridTable extends Component<GridTableProps> {
   }
 }
 
-export default class Grid extends Component {
+interface GridProps {
+  data: object;
+  psych_data: object;
+}
+
+export default class Grid extends Component<GridProps> {
   state = {
     value: '',
     checked_boxes: ['alcohol', 'cannabis', 'cocaine', 'ketamine'],
@@ -200,9 +205,8 @@ export default class Grid extends Component {
                   <div class="w-full lg:text-lg font-semibold searchable-title text-md">{item.displayname}</div>
                   <img alt={item.img_capt}
                     class="rounded-lg align-middle h-auto leading-none shadow-lg"
-                    decoding="async" loading="lazy" src={item.img.src}
-                    width={item.img.attributes.width}
-                    height={item.img.attributes.height}
+                    decoding="async" loading="lazy" 
+                    {...item.img}
                     />
                 </div>
               </label>
