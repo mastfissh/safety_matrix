@@ -55,7 +55,11 @@ function search(data, query, limit) {
   return out
 }
 
-export default class Search extends Component {
+interface SearchProps {
+  data: any[];
+}
+
+export default class Search extends Component<SearchProps> {
   state = { value: '' };
 
   onSubmit = e => {

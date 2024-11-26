@@ -1,40 +1,50 @@
 ---
-import data from '../data.json';
-import { combo, risk, drug_css_prefix, confidence, linkify } from '../util';
-import BaseLayout from '../layouts/BaseLayout.astro';
+import data from "../data.json";
+import { combo, risk, drug_css_prefix, confidence, linkify } from "../util";
+import BaseLayout from "../layouts/BaseLayout.astro";
 const pageTitle = "Psychs";
-import { getCollection } from 'astro:content';
-import { Image } from 'astro:assets'
-const unsorted_substances = await getCollection('psychoactives');
-let idx = {}
-for (let sub of unsorted_substances){
-  idx[sub['slug']] = sub
+import { getCollection } from "astro:content";
+import { Image } from "astro:assets";
+const unsorted_substances = await getCollection("psychoactives");
+let idx = {};
+for (let sub of unsorted_substances) {
+  idx[sub["slug"]] = sub;
 }
-let substances = []
+let substances = [];
 for (let drug of data["drugs"]) {
-  let item = idx[linkify(drug)]
-  substances.push(item)
+  let item = idx[linkify(drug)];
+  substances.push(item);
 }
 ---
 
-<BaseLayout pageTitle={pageTitle} metaDescription={"Psychoactives information. This is a resource for harm reduction to learn about safety risks of drugs, substances, entheogens and other psychoactives"}>
-<div class="container px-6 mx-auto">
-  <span class="grid w-full gap-6 grid-cols-2 md:grid-cols-4 lg:grid-cols-5">
-  {substances.map((substance) => (
-    <a href={`${import.meta.env.BASE_URL}psychoactives/` +  substance.slug + '/'} class="bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 h-auto">
-      <div class="p-4 h-24">
-          <h3 class=" text-2xl font-bold tracking-tight text-gray-600">{substance.data.title}</h3>
-      </div>
-      <Image
-        class="h-auto max-w-full rounded-lg align-middle leading-none shadow-lg"
-        src={substance.data.image_location}
-        width="300"
-        alt={substance.data.image_caption}
-      />
-    </a>
-
-  ))}
-</span>
-</div>
+<BaseLayout
+  pageTitle={pageTitle}
+  metaDescription={"Psychoactives information. This is a resource for harm reduction to learn about safety risks of drugs, substances, entheogens and other psychoactives"}
+>
+  <div class="container px-6 mx-auto">
+    <span class="grid w-full gap-6 grid-cols-2 md:grid-cols-4 lg:grid-cols-5">
+      {
+        substances.map((substance) => (
+          <a
+            href={
+              `${import.meta.env.BASE_URL}psychoactives/` + substance.slug + "/"
+            }
+            class="bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 h-auto"
+          >
+            <div class="p-4 h-24">
+              <h3 class=" text-2xl font-bold tracking-tight text-gray-600">
+                {substance.data.title}
+              </h3>
+            </div>
+            <Image
+              class="h-auto max-w-full rounded-lg align-middle leading-none shadow-lg"
+              src={substance.data.image_location}
+              width="300"
+              alt={substance.data.image_caption}
+            />
+          </a>
+        ))
+      }
+    </span>
+  </div>
 </BaseLayout>
-

@@ -17,7 +17,8 @@ async function getTotalFiles(){
   const response = await fetch("/file_count.json");
   const total = await response.json();
   return total.file_count
-}
+} 
+
 // Available states:
 // We're on the server : grey signal
 // We're on an unspported browser : grey no-signal

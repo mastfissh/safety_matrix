@@ -1,109 +1,116 @@
 ---
 const { title, data } = Astro.props;
-import crypto from 'crypto'
-let id = crypto.randomBytes(20).toString('hex');
+import crypto from "crypto";
+let id = crypto.randomBytes(20).toString("hex");
 ---
+
 <span class={!title && "hidden"}>
-  <div class="block rounded-lg my-6 bg-slate-100 p-6 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] max-w-2xl mx-auto">
-    <h2>{title} </h2>
+  <div
+    class="block rounded-lg my-6 bg-slate-100 p-6 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] max-w-2xl mx-auto"
+  >
+    <h2>{title}</h2>
     <canvas id={id}></canvas>
   </div>
 </span>
 <script define:vars={{ data, id }}>
   window.addEventListener("load", (event) => {
-    window.drawChart(id,data)
+    window.drawChart(id, data);
   });
 </script>
 <script>
-import Chart from 'chart.js/auto';
-import { DateTime, Duration } from 'luxon';
-import 'chartjs-adapter-luxon';
-window.drawChart = function(targetId,duration_chart){
-  const now = DateTime.fromISO('12:00')
-  const ctx = document.getElementById(targetId);
-  let onset = Duration.fromISO("PT"+duration_chart.onset.toUpperCase())
-  let coming_up = Duration.fromISO("PT"+duration_chart.coming_up.toUpperCase())
-  let plateau = Duration.fromISO("PT"+duration_chart.plateau.toUpperCase())
-  let coming_down = Duration.fromISO("PT"+duration_chart.coming_down.toUpperCase())
-  let max = now.plus(onset).plus(coming_up).plus(plateau).plus(coming_down)
-  let chart_data = [
-    {x:now, y:0},
-    {x:now.plus(onset), y:0},
-    {x:now.plus(onset).plus(coming_up), y:1},
-    {x:now.plus(onset).plus(coming_up).plus(plateau), y:1},
-    {x:max, y:0},
-  ]
-  Duration.fromISO('PT23H')
-  let total_duration_in_seconds = (max - now)/1000
-  function x_label_seconds(seconds) {
-    return `${seconds} secs`
-  }
-  function x_label_minutes(seconds) {
-    let display = Math.floor(seconds / 60)
-    return `${display} mins`
-  }
-  function x_label_hours(seconds) {
-    let display = Math.floor(seconds / 3600)
-    return `${display} hrs`
-  }
-  function x_label(timestamp) {
-    let diff = (timestamp - now.toMillis())/1000
-    if (total_duration_in_seconds < 400){
-      return x_label_seconds(diff)
+  import Chart from "chart.js/auto";
+  import { DateTime, Duration } from "luxon";
+  import "chartjs-adapter-luxon";
+  window.drawChart = function (targetId, duration_chart) {
+    const now = DateTime.fromISO("12:00");
+    const ctx = document.getElementById(targetId);
+    let onset = Duration.fromISO("PT" + duration_chart.onset.toUpperCase());
+    let coming_up = Duration.fromISO(
+      "PT" + duration_chart.coming_up.toUpperCase(),
+    );
+    let plateau = Duration.fromISO("PT" + duration_chart.plateau.toUpperCase());
+    let coming_down = Duration.fromISO(
+      "PT" + duration_chart.coming_down.toUpperCase(),
+    );
+    let max = now.plus(onset).plus(coming_up).plus(plateau).plus(coming_down);
+    let chart_data = [
+      { x: now, y: 0 },
+      { x: now.plus(onset), y: 0 },
+      { x: now.plus(onset).plus(coming_up), y: 1 },
+      { x: now.plus(onset).plus(coming_up).plus(plateau), y: 1 },
+      { x: max, y: 0 },
+    ];
+    Duration.fromISO("PT23H");
+    let total_duration_in_seconds = (max - now) / 1000;
+    function x_label_seconds(seconds) {
+      return `${seconds} secs`;
     }
-    if (total_duration_in_seconds < 20000){
-      return x_label_minutes(diff)
+    function x_label_minutes(seconds) {
+      let display = Math.floor(seconds / 60);
+      return `${display} mins`;
     }
-    return x_label_hours(diff)
-  }
-  let seen = []
-  function cleaned_x_label(timestamp, idx) {
-    let result = x_label(timestamp)
-    return idx % 4 === 0 ? result : ''
-  }
-  new Chart(ctx, {
-    type: 'line',
-    data: {
-      datasets: [
-      {
-        label: "Typical",
-        data: chart_data,
-        fill: false,
-        borderColor: 'rgb(75, 192, 192)',
-        cubicInterpolationMode: 'monotone',
-        tension: 0.4
+    function x_label_hours(seconds) {
+      let display = Math.floor(seconds / 3600);
+      return `${display} hrs`;
+    }
+    function x_label(timestamp) {
+      let diff = (timestamp - now.toMillis()) / 1000;
+      if (total_duration_in_seconds < 400) {
+        return x_label_seconds(diff);
       }
-      ]
-    },
-    options : {
-      scales: {
-        y: {
-          display: false,
-          grid: {
-            display: false
-          }
-        },
-        x: {
-          type: 'time',
-          grid: {
-            display: false
+      if (total_duration_in_seconds < 20000) {
+        return x_label_minutes(diff);
+      }
+      return x_label_hours(diff);
+    }
+    let seen = [];
+    function cleaned_x_label(timestamp, idx) {
+      let result = x_label(timestamp);
+      return idx % 4 === 0 ? result : "";
+    }
+    new Chart(ctx, {
+      type: "line",
+      data: {
+        datasets: [
+          {
+            label: "Typical",
+            data: chart_data,
+            fill: false,
+            borderColor: "rgb(75, 192, 192)",
+            cubicInterpolationMode: "monotone",
+            tension: 0.4,
           },
-          ticks: {
-            callback: function(val, index, ticks) {
-              return cleaned_x_label(val, index);
-            },
-            major :{
-              enabled: true
-            }
-          }
-        }
+        ],
       },
-      plugins: {
-        legend: {
-          display: false
-        }
-      }
-    }
-  });
-}
+      options: {
+        scales: {
+          y: {
+            display: false,
+            grid: {
+              display: false,
+            },
+          },
+          x: {
+            type: "time",
+            grid: {
+              display: false,
+            },
+            ticks: {
+              callback: function (val, index, ticks) {
+                return cleaned_x_label(val, index);
+              },
+              major: {
+                enabled: true,
+              },
+            },
+          },
+        },
+        plugins: {
+          legend: {
+            display: false,
+          },
+        },
+      },
+    });
+  };
 </script>
