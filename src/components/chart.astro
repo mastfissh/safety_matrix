@@ -2,6 +2,11 @@
 const { title, data } = Astro.props;
 import crypto from "crypto";
 let id = crypto.randomBytes(20).toString("hex");
+declare global {
+  interface Window {
+    drawChart: any;
+  }
+}
 ---
 
 <span class={!title && "hidden"}>
@@ -23,7 +28,7 @@ let id = crypto.randomBytes(20).toString("hex");
   import "chartjs-adapter-luxon";
   window.drawChart = function (targetId, duration_chart) {
     const now = DateTime.fromISO("12:00");
-    const ctx = document.getElementById(targetId);
+    const ctx: any = document.getElementById(targetId);
     let onset = Duration.fromISO("PT" + duration_chart.onset.toUpperCase());
     let coming_up = Duration.fromISO(
       "PT" + duration_chart.coming_up.toUpperCase(),
