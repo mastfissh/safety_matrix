@@ -1,39 +1,49 @@
 ---
-import { Image } from 'astro:assets'
-import Search from '../components/search.tsx';
-import Offline from '../components/offline.tsx';
-import { getCollection } from 'astro:content';
-const substances = await getCollection('psychoactives');
-import logo from '/src/assets/logo.png'
-let preact_data = []
-for (let sub of substances){
+import { Image } from "astro:assets";
+import Search from "../components/search.tsx";
+import Offline from "../components/offline.tsx";
+import { getCollection } from "astro:content";
+const substances = await getCollection("psychoactives");
+import logo from "/src/assets/logo.png";
+let preact_data = [];
+for (let sub of substances) {
   let item = {
-    title : sub.data.title,
-    slug : sub.slug,
-    aka : sub.data.aka,
-    fam : sub.data.family_members
-  }
-  preact_data.push(item)
+    title: sub.data.title,
+    slug: sub.slug,
+    aka: sub.data.aka,
+    fam: sub.data.family_members,
+  };
+  preact_data.push(item);
 }
 ---
+
 <nav class="border-gray-200 bg-gray-900">
-  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+  <div
+    class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
+  >
     <div class="w-full w-auto" id="navbar-default">
-      <ul class="font-medium flex p-0 border border-gray-100 rounded-lg flex-row space-x-2 mt-0 border-0 border-gray-700">
+      <ul
+        class="font-medium flex p-0 border border-gray-100 rounded-lg flex-row space-x-2 mt-0 border-0 border-gray-700"
+      >
         <li class="h-12 w-12">
           <Image
-              class="block h-auto w-full rounded-lg align-middle leading-none shadow-lg"
-              src={logo}
-              width="96"
-              alt={'psych combos logo'}
-            />
+            class="block h-auto w-full rounded-lg align-middle leading-none shadow-lg"
+            src={logo}
+            width="96"
+            alt={"psych combos logo"}
+          />
         </li>
         <li>
-          <a href='/' class="block py-2 text-white  rounded bg-transparent p-0">
-          Combos</a>
+          <a href="/" class="block py-2 text-white rounded bg-transparent p-0">
+            Combos</a
+          >
         </li>
         <li>
-          <a href={`${import.meta.env.BASE_URL}psychoactives/`}  class="block py-2 text-gray-900 rounded hover:bg-gray-100 hover:bg-transparent border-0 hover:text-blue-700 p-0 text-white hover:text-blue-500 hover:bg-gray-700 hover:text-white hover:bg-transparent">Psychoactives</a>
+          <a
+            href={`${import.meta.env.BASE_URL}psychoactives/`}
+            class="block py-2 text-gray-900 rounded hover:bg-gray-100 hover:bg-transparent border-0 hover:text-blue-700 p-0 text-white hover:text-blue-500 hover:bg-gray-700 hover:text-white hover:bg-transparent"
+            >Psychoactives</a
+          >
         </li>
         <li>
           <Offline client:visible />
@@ -45,4 +55,3 @@ for (let sub of substances){
     </div>
   </div>
 </nav>
-

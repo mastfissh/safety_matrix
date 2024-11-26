@@ -13,15 +13,11 @@ const { Content } = await entry.render();
 import data from '../../data.json';
 let value = entry.slug
 const substances = await getCollection('psychoactives');
-import { getImage } from "astro:assets";
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import EditPage from '../../components/edit_page.astro';
 import Disclaimer from '../../components/disclaimer.astro';
-import Psychimage from '../../components/psychimage.astro';
 import Icon from "heroicons-astro/Heroicon.astro";
-import { Image } from 'astro:assets'
 import { combo, risk, drug_css_prefix, confidence, linkify, risk_to_bg } from '../../util';
-let info_img = await getImage({src: entry.data.image_location, width: 700})
 ---
 <BaseLayout pageTitle={entry.data.title} metaDescription={`Psychoactives information. This is the page for harm reduction to learn about safety risks for ${entry.data.title}, ${(entry.data.family_members||[]).concat(entry.data.aka||[]).join(', ')}`}>
 
@@ -30,8 +26,8 @@ let info_img = await getImage({src: entry.data.image_location, width: 700})
     <figure class="mb-1 max-w-2-xl relative ">
     <img
       class="mb-4 h-auto max-w-full rounded-lg align-middle leading-none shadow-lg"
-      src={info_img.src}
       alt={entry.data.image_caption}
+      {...entry.data.image_location}
     />
       <figcaption class="text-sm absolute mb-4 bottom-0 z-90 rounded-lg bg-black/75 px-5 py-2 text-white">
         {entry.data.image_caption}
@@ -74,11 +70,11 @@ let info_img = await getImage({src: entry.data.image_location, width: 700})
       <div class="p-4 h-24">
           <h3 class=" text-2xl font-bold tracking-tight text-gray-600 rounded-lg" class:list={risk_to_bg(risk([entry.slug,substance.slug], data))} >{substance.data.title}</h3>
       </div>
-      <Image
+      <img
         class="h-auto max-w-full rounded-lg align-middle leading-none shadow-lg"
-        src={substance.data.image_location}
         width="300"
         alt={substance.data.image_caption}
+        {...substance.data.image_location}
       />
     </a>
 
