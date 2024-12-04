@@ -15,7 +15,7 @@
     "@astrojs/preact": "^3.5.4",
     "@astrojs/sitemap": "^3.2.1",
     "@astrojs/tailwind": "^5.1.2",
-    "astro": "^4.16.16",
+    "astro": "^5.0.2",
     "astro-compress": "^2.3.5",
     "astrojs-service-worker": "^2.0.0",
     "chart.js": "^4.4.7",
