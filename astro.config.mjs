@@ -1,4 +1,4 @@
-import { defineConfig, squooshImageService  } from 'astro/config';
+import { defineConfig } from 'astro/config';
 import mdx from "@astrojs/mdx";
 import tailwind from "@astrojs/tailwind";
 import sitemap from "@astrojs/sitemap";
@@ -9,19 +9,18 @@ import fs from 'fs';
 import { fileURLToPath } from 'url';
 import { dirname } from 'path';
 
-let transform = function(list){
+let transform = function (list) {
   let out = []
-  let allow
-  for (let item of list){
+  for (let item of list) {
     item.url = item.url.replace('/index.html', '/')
     out.push(item)
   }
   out.reverse()
-  let count = {"file_count" : out.length}
+  let count = { "file_count": out.length }
   const __filename = fileURLToPath(import.meta.url);
   const __dirname = dirname(__filename);
   fs.writeFileSync(__dirname + '/dist/file_count.json', JSON.stringify(count));
-  return {'manifest': out}
+  return { 'manifest': out }
 }
 
 let workbox_config = {

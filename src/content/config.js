@@ -10,6 +10,7 @@ const psychoactivesCollection = defineCollection({
     neutral_effects: z.string(),
     image_caption: z.string(),
     family_members: z.any().optional(),
+    duration_chart: z.any(),
   })
 });
 
