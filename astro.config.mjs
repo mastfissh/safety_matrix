@@ -1,6 +1,6 @@
 import { defineConfig } from 'astro/config';
 import mdx from "@astrojs/mdx";
-import tailwind from "@astrojs/tailwind";
+import tailwindcss from "@tailwindcss/vite";
 import sitemap from "@astrojs/sitemap";
 import compress from "astro-compress";
 import serviceWorker from "astrojs-service-worker";
@@ -32,10 +32,10 @@ let workbox_config = {
 
 export default defineConfig({
   site: 'https://psychcombo.com/',
+  vite: {    plugins: [tailwindcss()],  },
   integrations: [
     serviceWorker(workbox_config),
     mdx(),
-    tailwind(),
     sitemap(),
     preact(),
     compress({
