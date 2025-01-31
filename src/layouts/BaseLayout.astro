@@ -6,6 +6,7 @@ import { ViewTransitions } from "astro:transitions";
 const { pageTitle, metaDescription } = Astro.props;
 import logo from "/src/assets/logo.png";
 let logo_data = await getImage({ src: logo, width: 32, format: "png" });
+import "../styles/global.css";
 ---
 
 <html lang="en">
