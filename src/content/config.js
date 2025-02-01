@@ -14,6 +14,13 @@ const psychoactivesCollection = defineCollection({
   })
 });
 
+const combosCollection = defineCollection({
+  schema: () => z.object({
+    title: z.string(),
+  })
+});
+
 export const collections = {
   psychoactives: psychoactivesCollection,
+  combos: combosCollection
 };
