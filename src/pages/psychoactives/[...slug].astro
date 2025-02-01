@@ -18,6 +18,7 @@ import EditPage from '../../components/edit_page.astro';
 import Disclaimer from '../../components/disclaimer.astro';
 import Icon from "heroicons-astro/Heroicon.astro";
 import { combo, risk, drug_css_prefix, confidence, linkify, risk_to_bg } from '../../util';
+import "../../styles/global.css";
 ---
 <BaseLayout pageTitle={entry.data.title} metaDescription={`Psychoactives information. This is the page for harm reduction to learn about safety risks for ${entry.data.title}, ${(entry.data.family_members||[]).concat(entry.data.aka||[]).join(', ')}`}>
 
