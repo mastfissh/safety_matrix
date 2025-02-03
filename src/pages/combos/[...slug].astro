@@ -11,7 +11,7 @@ export async function getStaticPaths() {
 // 2. When it's time to render, you can get the entry directly from the prop
 const { entry } = Astro.props;
 const { Content } = await entry.render();
-import data from "../../data.json";
+import data from "../../../public/data.json";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 let visible = false;
 if (entry.data.display_grid) {
