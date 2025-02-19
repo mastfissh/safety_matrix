@@ -3,7 +3,7 @@ import { getCollection } from "astro:content";
 import { createHash } from "crypto";
 
 function hashObject(obj) {
-  const hash = createHash("sha256");
+  const hash = createHash("md5");
   hash.update(JSON.stringify(obj));
   return hash.digest("hex");
 }
