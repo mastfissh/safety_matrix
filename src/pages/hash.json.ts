@@ -2,11 +2,14 @@ import data from "@public/data.json";
 import { getCollection } from "astro:content";
 import { createHash } from "crypto";
 
-export async function GET({ params, request }) {
+function hashObject(obj) {
   const hash = createHash("sha256");
+  hash.update(JSON.stringify(obj));
+  return hash.digest("hex");
+}
+
+export async function GET({ params, request }) {
   const psychoactives = await getCollection("psychoactives");
   const combos = await getCollection("combos");
-  const everything = { psychoactives, combos, data };
-  hash.update(JSON.stringify(everything));
-  return new Response(JSON.stringify({ hash: hash.digest("hex") }));
+  return new Response(JSON.stringify({ risks: hashObject(data), psychoactives: hashObject(psychoactives), combos : hashObject(combos) })); 
 }
