@@ -1,10 +1,10 @@
 ---
-import data from "../../public/data.json";
-import { combo, risk, drug_css_prefix, confidence, linkify } from "../util";
-import BaseLayout from "../layouts/BaseLayout.astro";
-const pageTitle = "Psychs";
-import { getCollection } from "astro:content";
+import data from "@public/data.json";
+import BaseLayout from "@src/layouts/BaseLayout.astro";
+import { linkify } from "@src/util";
 import { Image } from "astro:assets";
+import { getCollection } from "astro:content";
+const pageTitle = "Psychs";
 const unsorted_substances = await getCollection("psychoactives");
 let idx = {};
 for (let sub of unsorted_substances) {

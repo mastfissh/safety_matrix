@@ -31,11 +31,11 @@ declare global {
     const ctx: any = document.getElementById(targetId);
     let onset = Duration.fromISO("PT" + duration_chart.onset.toUpperCase());
     let coming_up = Duration.fromISO(
-      "PT" + duration_chart.coming_up.toUpperCase(),
+      "PT" + duration_chart.coming_up.toUpperCase()
     );
     let plateau = Duration.fromISO("PT" + duration_chart.plateau.toUpperCase());
     let coming_down = Duration.fromISO(
-      "PT" + duration_chart.coming_down.toUpperCase(),
+      "PT" + duration_chart.coming_down.toUpperCase()
     );
     let max = now.plus(onset).plus(coming_up).plus(plateau).plus(coming_down);
     let chart_data = [
