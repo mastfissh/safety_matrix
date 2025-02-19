@@ -10,15 +10,15 @@ export async function getStaticPaths() {
 // 2. When it's time to render, you can get the entry directly from the prop
 const { entry } = Astro.props;
 const { Content } = await entry.render();
-import data from '../../../public/data.json';
+import data from '@public/data.json';
 let value = entry.slug
 const substances = await getCollection('psychoactives');
-import BaseLayout from '../../layouts/BaseLayout.astro';
-import EditPage from '../../components/edit_page.astro';
-import Disclaimer from '../../components/disclaimer.astro';
+import BaseLayout from '@src/layouts/BaseLayout.astro';
+import EditPage from '@src/components/edit_page.astro';
+import Disclaimer from '@src/components/disclaimer.astro';
 import Icon from "heroicons-astro/Heroicon.astro";
-import { combo, risk, drug_css_prefix, confidence, linkify, risk_to_bg } from '../../util';
-import "../../styles/global.css";
+import { combo, risk, linkify, risk_to_bg } from '@src/util';
+import "@src/styles/global.css";
 ---
 <BaseLayout pageTitle={entry.data.title} metaDescription={`Psychoactives information. This is the page for harm reduction to learn about safety risks for ${entry.data.title}, ${(entry.data.family_members||[]).concat(entry.data.aka||[]).join(', ')}`}>
 

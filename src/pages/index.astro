@@ -1,13 +1,13 @@
 ---
-import data from "../../public/data.json";
-import Grid from "../components/grid.tsx";
-import Disclaimer from "../components/disclaimer.astro";
-import BaseLayout from "../layouts/BaseLayout.astro";
-const pageTitle = "Combos";
+import data from "@public/data.json";
+import Disclaimer from "@src/components/disclaimer.astro";
+import Grid from "@src/components/grid.tsx";
+import BaseLayout from "@src/layouts/BaseLayout.astro";
+import { risk_to_bg } from "@src/util";
 import { getCollection } from "astro:content";
-const substances = await getCollection("psychoactives");
 import Icon from "heroicons-astro/Heroicon.astro";
-import { risk_to_bg } from "../util";
+const pageTitle = "Combos";
+const substances = await getCollection("psychoactives");
 
 let preact_data = {};
 for (let sub of substances) {

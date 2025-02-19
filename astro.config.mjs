@@ -1,13 +1,13 @@
-import { defineConfig } from 'astro/config';
 import mdx from "@astrojs/mdx";
-import tailwindcss from "@tailwindcss/vite";
-import sitemap from "@astrojs/sitemap";
-import compress from "astro-compress";
-import serviceWorker from "astrojs-service-worker";
 import preact from "@astrojs/preact";
+import sitemap from "@astrojs/sitemap";
+import tailwindcss from "@tailwindcss/vite";
+import compress from "astro-compress";
+import { defineConfig } from 'astro/config';
+import serviceWorker from "astrojs-service-worker";
 import fs from 'fs';
+import { dirname, path } from 'path';
 import { fileURLToPath } from 'url';
-import { dirname } from 'path';
 
 let transform = function (list) {
   let out = []
@@ -32,7 +32,9 @@ let workbox_config = {
 
 export default defineConfig({
   site: 'https://psychcombo.com/',
-  vite: {    plugins: [tailwindcss()],  },
+  vite: {
+    plugins: [tailwindcss()],
+  },
   integrations: [
     serviceWorker(workbox_config),
     mdx(),

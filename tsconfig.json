@@ -3,6 +3,15 @@
   "compilerOptions": {
     "jsx": "react-jsx",
     "jsxImportSource": "preact",
-    "allowJs": true
+    "allowJs": true,
+    "baseUrl": ".",
+    "paths": {
+      "@public/*": [
+        "public/*"
+      ],
+      "@src/*": [
+        "src/*"
+      ]
+    }
   }
 }

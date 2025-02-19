@@ -1,4 +1,11 @@
 ---
+import data from "@public/data.json";
+import ConfidencePanel from "@src/components/confidence_panel.astro";
+import Disclaimer from "@src/components/disclaimer.astro";
+import EditPage from "@src/components/edit_page.astro";
+import RiskPanel from "@src/components/risk_panel.astro";
+import BaseLayout from "@src/layouts/BaseLayout.astro";
+import { confidence, risk } from "@src/util";
 import { getCollection, getEntry } from "astro:content";
 // 1. Generate a new path for every collection entry
 export async function getStaticPaths() {
@@ -11,16 +18,9 @@ export async function getStaticPaths() {
 // 2. When it's time to render, you can get the entry directly from the prop
 const { entry } = Astro.props;
 const { Content } = await entry.render();
-import data from "../../../public/data.json";
-import BaseLayout from "../../layouts/BaseLayout.astro";
-import Disclaimer from "../../components/disclaimer.astro";
-import ConfidencePanel from "../../components/confidence_panel.astro";
-import EditPage from "../../components/edit_page.astro";
-import RiskPanel from "../../components/risk_panel.astro";
 let [psych1, psych2] = entry.slug.split("_");
 const psych1_info = await getEntry("psychoactives", psych1);
 const psych2_info = await getEntry("psychoactives", psych2);
-import { risk, confidence } from "../../util";
 ---
 
 <BaseLayout

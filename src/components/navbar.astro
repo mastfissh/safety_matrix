@@ -1,10 +1,10 @@
 ---
+import logo from "@src/assets/logo.png";
+import Offline from "@src/components/offline.tsx";
+import Search from "@src/components/search.tsx";
 import { Image } from "astro:assets";
-import Search from "../components/search.tsx";
-import Offline from "../components/offline.tsx";
 import { getCollection } from "astro:content";
 const substances = await getCollection("psychoactives");
-import logo from "/src/assets/logo.png";
 let preact_data = [];
 for (let sub of substances) {
   let item = {

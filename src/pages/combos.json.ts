@@ -1,5 +1,4 @@
-import { getCollection, getEntry } from 'astro:content';
-
+import { getCollection } from 'astro:content';
 
 export async function GET({params, request}) {
   const combos = await getCollection('combos');

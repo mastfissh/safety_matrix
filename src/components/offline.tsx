@@ -1,5 +1,4 @@
-import  { Component, Fragment, createRef } from 'preact';
-import { combo, linkify } from '../util';
+import { Component, createRef } from 'preact';
 
 async function getCacheEntries() {
   let topcache_keys = await caches.keys()
