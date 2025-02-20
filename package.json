@@ -23,7 +23,7 @@
     "csv-parse": "^5.6.0",
     "heroicons-astro": "^1.0.4",
     "luxon": "^3.5.0",
-    "preact": "^10.26.1",
+    "preact": "^10.26.2",
     "sharp": "^0.33.5",
     "tailwindcss": "4.0.7"
   },
