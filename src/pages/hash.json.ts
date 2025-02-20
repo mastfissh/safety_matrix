@@ -1,4 +1,4 @@
-import data from "@public/data.json";
+import data from "@public/risks.json";
 import { getCollection } from "astro:content";
 import { createHash } from "crypto";
 
