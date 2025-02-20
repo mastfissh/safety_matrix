@@ -2,7 +2,7 @@ import * as fs from "fs";
 import { combo, linkify } from "./util.ts";
 let main = async function () {
   let output = 0;
-  const input = fs.readFileSync("./public/data.json", "utf8");
+  const input = fs.readFileSync("./public/risks.json", "utf8");
   let data = JSON.parse(input);
   let drugs = data["drugs"];
   const pages = fs.readdirSync("./src/content/combos/");
