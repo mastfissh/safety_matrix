@@ -1,3 +1,8 @@
+---
+import play from "@src/assets/GetItOnGooglePlay_Badge_Web_color_English.png";
+import { Image } from "astro:assets";
+---
+
 <footer class="bg-gray-900">
   <div class="mx-auto w-full max-w-screen-xl">
     <div class="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
@@ -40,6 +45,21 @@
               href="https://www.themescalinegarden.com/"
               class="hover:underline">The Mescaline Garden</a
             >
+          </li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li class="mb-4">
+            <a
+              href="https://play.google.com/store/apps/details?id=com.mastfish.psychcombo&pli=1"
+            >
+              <Image
+                class="block h-auto w-full rounded-lg align-middle leading-none shadow-lg"
+                src={play}
+                alt={"psych combos logo"}
+              />
+            </a>
           </li>
         </ul>
       </div>
