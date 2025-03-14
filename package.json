@@ -28,7 +28,7 @@
     "luxon": "^3.5.0",
     "preact": "^10.26.4",
     "sharp": "^0.33.5",
-    "tailwindcss": "4.0.13",
+    "tailwindcss": "4.0.14",
     "typescript": "^5.8.2"
   },
   "devDependencies": {
