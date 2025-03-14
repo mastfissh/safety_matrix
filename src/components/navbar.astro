@@ -1,6 +1,5 @@
 ---
 import logo from "@src/assets/logo.png";
-import Offline from "@src/components/offline.tsx";
 import Search from "@src/components/search.tsx";
 import { Image } from "astro:assets";
 import { getCollection } from "astro:content";
@@ -44,9 +43,6 @@ for (let sub of substances) {
             class="block py-2 text-gray-900 rounded hover:bg-gray-100 hover:bg-transparent border-0 hover:text-blue-700 p-0 text-white hover:text-blue-500 hover:bg-gray-700 hover:text-white hover:bg-transparent"
             >Psychoactives</a
           >
-        </li>
-        <li>
-          <Offline client:visible />
         </li>
         <li>
           <Search data={preact_data} client:visible />
