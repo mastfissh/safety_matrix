@@ -1,4 +1,4 @@
-import data from "@public/risks.json";
+import risks from "@public/risks.json";
 import { getCollection } from "astro:content";
 import { createHash } from "crypto";
 
@@ -11,5 +11,5 @@ function hashObject(obj) {
 export async function GET({ params, request }) {
   const psychoactives = await getCollection("psychoactives");
   const combos = await getCollection("combos");
-  return new Response(JSON.stringify({ risks: hashObject(data), psychoactives: hashObject(psychoactives), combos : hashObject(combos) })); 
+  return new Response(JSON.stringify({ risks: hashObject(risks), psychoactives: hashObject(psychoactives), combos : hashObject(combos) })); 
 }

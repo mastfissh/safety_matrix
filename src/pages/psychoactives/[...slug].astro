@@ -18,6 +18,7 @@ import EditPage from '@src/components/edit_page.astro';
 import Disclaimer from '@src/components/disclaimer.astro';
 import Icon from "heroicons-astro/Heroicon.astro";
 import { combo, risk, linkify, risk_to_bg } from '@src/util';
+import Chart from '@src/components/chart.astro';
 import "@src/styles/global.css";
 ---
 <BaseLayout pageTitle={entry.data.title} metaDescription={`Psychoactives information. This is the page for harm reduction to learn about safety risks for ${entry.data.title}, ${(entry.data.family_members||[]).concat(entry.data.aka||[]).join(', ')}`}>
@@ -50,7 +51,30 @@ import "@src/styles/global.css";
      <div><Icon iconCode="chevron-up" iconStyle="outline" customClasses="h-8 w-8 stroke-green-300 inline" /> {entry.data.positive_effects}</div>
      <div><Icon iconCode="exclamation-circle" iconStyle="outline" customClasses="h-8 w-8 stroke-gray-300 inline" /> {entry.data.neutral_effects}</div>
      <div><Icon iconCode="chevron-down" iconStyle="outline" customClasses="h-8 w-8 stroke-red-300 inline" /> {entry.data.negative_effects}</div>
-    <Content />
+     <h2 >{entry.data.dosage_table.title}</h2>
+     <table><thead><tr>
+      <th>Effect</th>
+      <th>Dose</th></tr></thead>
+      <tbody>
+        <tr><td>Threshold</td><td>{entry.data.dosage_table.threshold}</td></tr>
+        <tr><td>Light</td><td>{entry.data.dosage_table.light}</td></tr>
+        <tr><td>Common</td><td>{entry.data.dosage_table.common}</td></tr>
+        <tr><td>Strong</td><td>{entry.data.dosage_table.strong}</td></tr>
+        <tr><td>Heavy</td><td>{entry.data.dosage_table.heavy}</td></tr></tbody>
+    </table>
+    <Chart title={entry.data.duration_chart_title} data={entry.data.duration_chart} />
+    <h2 >{entry.data.duration_chart_title}</h2>
+    <table><thead><tr>
+     <th></th>
+     <th>Duration</th></tr></thead>
+     <tbody>
+       <tr><td>Total</td><td>{entry.data.duration_chart.total}</td></tr>
+       <tr><td>Onset</td><td>{entry.data.duration_chart.onset}</td></tr>
+       <tr><td>Coming Up</td><td>{entry.data.duration_chart.coming_up}</td></tr>
+       <tr><td>Plateau</td><td>{entry.data.duration_chart.plateau}</td></tr>
+       <tr><td>Coming Down</td><td>{entry.data.duration_chart.coming_down}</td></tr></tbody>
+   </table>
+   <Content />
     <EditPage slug={entry.slug} type={"psychoactives"} />
   </article>
 
