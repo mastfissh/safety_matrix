@@ -8,6 +8,7 @@ aka:
   - Diviners’ sage
 duration_chart_title: Smoked Duration of Salvia divinorum
 duration_chart:
+  total:30-60 m
   onset: 45s
   coming_up: 90s
   plateau: 390s
@@ -15,31 +16,11 @@ duration_chart:
 positive_effects: euphoria, empathy, stimulation
 negative_effects: nausea, muscle tension, confusion, anxiety
 neutral_effects: visuals
+dosage_table:
+  title:Smoked Dosage of Salvia divinorum leaves
+  threshold: 50 mg
+  light: 75-150 mg
+  common:150-300 mg
+  strong:300-600 mg
+  heavy:600+ mg
 ---
-import Chart from '../../components/chart.astro';
-
-## Smoked Dosage of Salvia divinorum leaves
-| Effect | Dose |
-| --- | --- |
-| Threshold | 50 mg |
-| Light | 75-150 mg |
-| Common | 150-300 mg |
-| Strong | 300-600 mg |
-| Heavy | 600+ mg |
-
-
-<Chart title={frontmatter.duration_chart_title} data={frontmatter.duration_chart} />
-
-## Smoked Duration of Salvia divonorum
-|  | Duration |
-| --- | --- |
-| Total | 30-60 min |
-| Onset | 45 sec |
-| Coming Up | 1 min 30 sec |
-| Plateau | 6 min 30 sec |
-| Coming Down | 25 min |
-
-
-
-
-

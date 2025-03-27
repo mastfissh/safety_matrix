@@ -10,6 +10,7 @@ aka:
   - Blue meanies
 duration_chart_title: Oral Duration of psilocybin mushrooms
 duration_chart:
+  total:4-6 h
   onset: 30m
   coming_up: 2h
   plateau: 150m
@@ -17,31 +18,11 @@ duration_chart:
 positive_effects: euphoria, empathy, stimulation
 negative_effects: nausea, muscle tension, confusion, anxiety
 neutral_effects: visuals
+dosage_table:
+  title:Oral Dosage of Panaelous cyanescens
+  threshold: .12 g
+  light: 0.12-0.5 g 
+  common: 0.5-1.2 g 
+  strong: 1.2-2.5 g
+  heavy:2.5+ g
 ---
-import Chart from '../../components/chart.astro';
-
-## Oral Dosage of Panaelous cyanescens
-| Effect | Dose |
-| --- | --- |
-| Threshold | .12 g |
-| Light | 0.12-0.5 g |
-| Common | 0.5-1.2 g |
-| Strong | 1.2-2.5 g |
-| Heavy | 2.5+ g |
-
-
-<Chart title={frontmatter.duration_chart_title} data={frontmatter.duration_chart} />
-
-## Oral Duration of psilocybin mushrooms
-|  | Duration |
-| --- | --- |
-| Total | 4-6 hr |
-| Onset | 30 min |
-| Coming Up | 2 hr |
-| Plateau | 2 hr 30 min |
-| Coming Down | 1 hr 30 min |
-
-
-
-
-

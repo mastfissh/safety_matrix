@@ -11,30 +11,16 @@ negative_effects: nausea, muscle tension, confusion, anxiety
 neutral_effects: visuals
 duration_chart_title: Oral Duration of Mimosa tenuiflora root bark (+ MAOI)
 duration_chart:
+  total:4-8 h
   onset: 45m
   coming_up: 40m
   plateau: 90m
   coming_down: 90m
+dosage_table:
+  title:Oral Dosage of Mimosa tenuiflora root bark (+ MAOI)
+  threshold: 2 mg
+  light: 3-5 mg
+  common:5-8 mg
+  strong:8-12 mg
+  heavy:12+ mg
 ---
-import Chart from '../../components/chart.astro';
-
-## Oral Dosage of Mimosa tenuiflora root bark (+ MAOI)
-| Effect | Dose |
-| --- | --- |
-| Threshold | 2 g |
-| Light | 3-5 mg |
-| Common | 5-8 mg |
-| Strong | 8-12 mg |
-| Heavy | 12+ mg |
-
-
-<Chart title={frontmatter.duration_chart_title} data={frontmatter.duration_chart} />
-
-## Oral Duration of Mimosa tenuiflora root bark (+ MAOI)
-| | Duration |
-| --- | --- |
-| Total | 4-8 hr |
-| Onset | 45 min |
-| Coming Up | 40 min |
-| Plateau | 1 hr 30 min |
-| Coming Down | 1 hr 30 min |
