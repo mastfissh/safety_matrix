@@ -10,6 +10,7 @@ aka:
   - Whippits
 duration_chart_title: Inhaled Duration of Nitrous oxide
 duration_chart:
+  total: 1-5 m
   onset: 5s
   coming_up: 5s
   plateau: 30s
@@ -17,31 +18,11 @@ duration_chart:
 positive_effects: euphoria, relaxation
 negative_effects: reduced coordination, confusion, respiratory and cardiovascular depression
 neutral_effects: visuals, dissasociation
+dosage_table:
+  title: Inhaled Dosage of Nitrous Cartridges
+  threshold: 1/2 cartridge
+  light: 1-2 cartridges
+  common: 2-4 cartridges
+  strong: 4-6 cartridges
+  heavy: 6+ cartridges
 ---
-import Chart from '../../components/chart.astro';
-
-## Inhaled Dosage of Nitrous Cartridges
-| Effect | Dose |
-| --- | --- |
-| Threshold | 1/2 cartridge |
-| Light | 1-2 cartridges |
-| Common | 2-4 cartridges |
-| Strong | 4-6 cartridges |
-| Heavy | 6+ cartridges |
-
-
-<Chart title={frontmatter.duration_chart_title} data={frontmatter.duration_chart} />
-
-## Inhaled Duration of Nitrous oxide
-|  | Duration |
-| --- | --- |
-| Total | 1-5 min |
-| Onset | 5 sec |
-| Coming Up | 5 sec |
-| Plateau | 30 sec |
-| Coming Down | 3 min |
-
-
-
-
-

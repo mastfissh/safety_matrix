@@ -8,6 +8,7 @@ aka:
   - PST
 duration_chart_title: Oral Duration of Papaver somniferum
 duration_chart:
+  total: 8-12 h
   onset: 1h
   coming_up: 2h
   plateau: 4h
@@ -15,31 +16,11 @@ duration_chart:
 positive_effects: euphoria, relaxation, analgesia
 negative_effects: nausea, itching, constipation, respiratory depression
 neutral_effects: disinhibition
+dosage_table:
+  title: Oral Dosage of Papaver somniferum seeds
+  threshold: 2.5 g
+  light: 5-10 g
+  common: 10-20 g
+  strong: 20-30 g 
+  heavy: 30+ g
 ---
-import Chart from '../../components/chart.astro';
-
-## Oral Dosage of Papaver somniferum seeds
-| Effect | Dose |
-| --- | --- |
-| Threshold | 2.5 g |
-| Light | 5-10 g |
-| Common | 10-20 g |
-| Strong | 20-30 g |
-| Heavy | 30+ g |
-
-
-<Chart title={frontmatter.duration_chart_title} data={frontmatter.duration_chart} />
-
-## Oral Duration of Papaver somniferum
-|  | Duration |
-| --- | --- |
-| Total | 8-12 hr |
-| Onset | 1 hr |
-| Coming Up | 2 hr |
-| Plateau | 4 hr |
-| Coming Down | 2 hr |
-
-
-
-
-

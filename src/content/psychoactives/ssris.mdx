@@ -10,6 +10,7 @@ family_members:
   - Citalopram; Celexa
 duration_chart_title: Oral Duration of Fluoxetine
 duration_chart:
+  total: 12-24 h
   onset: 2h
   coming_up: 6h
   plateau: 4h
@@ -17,26 +18,11 @@ duration_chart:
 positive_effects: reduced anxiety, improved mood
 negative_effects: reduced sexual function, focus, dreaming and emotion
 neutral_effects: changes in energy and appetite
+dosage_table:
+  title: Oral Dosage of Fluoxetine
+  threshold: 20 g
+  light: 30-50 g
+  common: 50-100 g
+  strong: 100-150 g
+  heavy: 150+ g
 ---
-import Chart from '../../components/chart.astro';
-
-## Oral Dosage of Fluoxetine
-| Effect | Dose |
-| --- | --- |
-| Threshold | 20 g |
-| Light | 30-50 g |
-| Common | 50-100 g |
-| Strong | 100-150 g |
-| Heavy | 150+ g |
-
-
-<Chart title={frontmatter.duration_chart_title} data={frontmatter.duration_chart} />
-
-## Oral Duration of Fluoxetine
-| | Duration |
-| --- | --- |
-| Total | 12-24 hr |
-| Onset | 2 hr |
-| Coming Up | 6 hr |
-| Plateau | 4 hr |
-| Coming Down | 2 hr |

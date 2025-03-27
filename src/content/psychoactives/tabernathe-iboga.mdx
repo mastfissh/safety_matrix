@@ -10,31 +10,16 @@ negative_effects: nausea, muscle tension, confusion, anxiety
 neutral_effects: visuals
 duration_chart_title: Oral Duration of Iboga
 duration_chart:
+  total: 20-40 h
   onset: 2h
   coming_up: 2h
   plateau: 24h
   coming_down: 6h
+dosage_table:
+  title: Oral Dosage of Dried Iboga Root
+  threshold: 0.5 g
+  light: 1-5 g
+  common: 5-15 g
+  strong: 15-25 g
+  heavy: 25+ g
 ---
-import Chart from '../../components/chart.astro';
-
-## Oral Dosage of Dried Iboga Root
-| Effect | Dose |
-| --- | --- |
-| Threshold | 0.5 g |
-| Light | 1-5 g |
-| Common | 5-15 g |
-| Strong | 15-25 g |
-| Heavy | 25+ g |
-
-
-<Chart title={frontmatter.duration_chart_title} data={frontmatter.duration_chart} />
-
-
-## Oral Duration of Iboga
-| | Duration |
-| --- | --- |
-| Total | 20-40 hr |
-| Onset | 2 hr |
-| Coming Up | 2 hr |
-| Plateau | 24 hr 30 |
-| Coming Down | 6 hr |

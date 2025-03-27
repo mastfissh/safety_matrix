@@ -7,6 +7,7 @@ aka:
   - Ephedra sinica
 duration_chart_title: Oral Duration of Ephedra sinica
 duration_chart:
+  total: 2-5 h
   onset: 1h
   coming_up:  1h
   plateau: 1h
@@ -14,31 +15,11 @@ duration_chart:
 positive_effects: euphoria, stimulation, increased sociability
 negative_effects: muscle tension, insomnia, anxiety
 neutral_effects: decreased appetite, increased heart rate
+dosage_table:
+  title: Oral Dosage of dried Ephedra sinica
+  threshold: 0.5 g
+  light: 1-2 g
+  common: 2-4 g
+  strong: 4-6 g
+  heavy: 6+ g
 ---
-import Chart from '../../components/chart.astro';
-
-## Oral Dosage of dried Ephedra sinica
-| Effect | Dose |
-| --- | --- |
-| Threshold | 0.5 g |
-| Light | 1-2 g |
-| Common | 2-4 g |
-| Strong | 4-6 g |
-| Heavy | 6+ g |
-
-
-<Chart title={frontmatter.duration_chart_title} data={frontmatter.duration_chart} />
-
-## Oral Duration of Ephedra sinica
-| Effect | Dose |
-| --- | --- |
-| Total | 2-5 hr |
-| Onset | 1 hr |
-| Coming Up | 1 hr |
-| Plateau | 1 hr |
-| Coming Down | 1 hr |
-
-
-
-
-

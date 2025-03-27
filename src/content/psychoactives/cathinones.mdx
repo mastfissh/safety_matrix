@@ -10,6 +10,7 @@ family_members:
 
 duration_chart_title: Oral Duration of Mephedrone
 duration_chart:
+  total: 2-7 h
   onset: 20m
   coming_up: 90m
   plateau: 2h
@@ -17,27 +18,11 @@ duration_chart:
 positive_effects: euphoria, stimulation, increased sociability
 negative_effects: muscle tension, insomnia, anxiety
 neutral_effects: decreased appetite, increased heart rate
+dosage_table:
+  title: Oral Dosage of Mephedrone
+  threshold: 2 mg
+  light: 4-8 mg
+  common: 8-14 mg 
+  strong: 14-25 mg
+  heavy: 25+ mg
 ---
-import Chart from '../../components/chart.astro';
-
-## Oral Dosage of Mephedrone
-| Effect | Dose |
-| --- | --- |
-| Threshold | 2 mg |
-| Light | 4-8 mg |
-| Common | 8-14 mg |
-| Strong | 14-25 mg |
-| Heavy | 25+ mg |
-
-
-<Chart title={frontmatter.duration_chart_title} data={frontmatter.duration_chart} />
-
-
-## Oral Duration of Mephedrone
-| | Duration |
-| --- | --- |
-| Total | 2-7 hr |
-| Onset | 20 min |
-| Coming Up | 1 hr 30 min |
-| Plateau | 2 hr |
-| Coming Down | 1 hr 15 min |

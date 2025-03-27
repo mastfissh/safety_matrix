@@ -7,6 +7,7 @@ aka:
   - K
 duration_chart_title: Nasal Duration of Ketamine
 duration_chart:
+  total: 45-60 m
   onset: 10m
   coming_up: 15m
   plateau: 30m
@@ -14,31 +15,11 @@ duration_chart:
 positive_effects: euphoria, relaxation
 negative_effects: reduced coordination, confusion, respiratory and cardiovascular depression
 neutral_effects: visuals, dissasociation
+dosage_table:
+  title: Nasal Dosage of Ketamine
+  threshold: 10 mg
+  light: 15-30 mg
+  common: 30-60 mg
+  strong: 60-100 mg
+  heavy: 100+ mg
 ---
-import Chart from '../../components/chart.astro';
-
-## Nasal Dosage of Ketamine
-| Effect | Dose |
-| --- | --- |
-| Threshold | 10 mg |
-| Light | 15-30 mg |
-| Common | 30-60 mg |
-| Strong | 60-100 mg |
-| Heavy | 100+ mg |
-
-
-<Chart title={frontmatter.duration_chart_title} data={frontmatter.duration_chart} />
-
-## Nasal Duration of Ketamine
-|  | Duration |
-| --- | --- |
-| Total | 45-60 min |
-| Onset | 10 min |
-| Coming Up | 15 min |
-| Plateau | 30 min |
-| Coming Down | 45 min |
-
-
-
-
-

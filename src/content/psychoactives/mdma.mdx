@@ -7,6 +7,7 @@ aka:
   - Ecstasy
 duration_chart_title: Oral Duration of MDMA
 duration_chart:
+  total: 3-5 h
   onset: 1h
   coming_up: 15m
   plateau: 150m
@@ -14,31 +15,11 @@ duration_chart:
 positive_effects: euphoria, relaxation, stimulation, empathy
 negative_effects: nausea, muscle tension, confusion, anxiety, bruxia
 neutral_effects: decreased appetite, change in body temperature
+dosage_table:
+  title: Oral Dosage of MDMA
+  threshold: 30 mg
+  light: 40-75 mg 
+  common: 75-125 mg
+  strong: 125-200 mg
+  heavy: 200+ mg
 ---
-import Chart from '../../components/chart.astro';
-
-## Oral Dosage of MDMA
-| Effect | Dose |
-| --- | --- |
-| Threshold | 30 mg |
-| Light | 40-75 mg |
-| Common | 75-125 mg |
-| Strong | 125-200 mg |
-| Heavy | 200+ mg |
-
-
-<Chart title={frontmatter.duration_chart_title} data={frontmatter.duration_chart} />
-
-## Oral Duration of MDMA
-|  | Duration |
-| --- | --- |
-| Total | 3-5 hr |
-| Onset | 1 hr |
-| Coming Up | 15 min |
-| Plateau | 2 hr 30 min |
-| Coming Down | 1 hr 30 min |
-
-
-
-
-
