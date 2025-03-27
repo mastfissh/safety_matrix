@@ -20,7 +20,7 @@ const psychoactivesCollection = defineCollection({
     neutral_effects: z.string(),
     dosage_table: z.object({
       title: z.string(),
-      threshold: z.number(),
+      threshold: z.string(),
       light: z.string(),
       common: z.string(),
       strong: z.string(),
