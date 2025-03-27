@@ -10,6 +10,7 @@ family_members:
   - Dexamphetamine
 duration_chart_title: Oral Duration of Methamphetamine
 duration_chart:
+  total: 8-12 h
   onset: 30m
   coming_up: 2h
   plateau: 4h
@@ -17,26 +18,12 @@ duration_chart:
 positive_effects: euphoria, stimulation, increased sociability
 negative_effects: muscle tension, insomnia, anxiety
 neutral_effects: decreased appetite, increased heart rate
+dosage_table:
+  title: Oral Dosage of Methamphetamine
+  threshold: 2 mg
+  light: 5-10 mg
+  common: 10-25 mg
+  strong: 25-50 mg
+  heavy: 50+ mg
 ---
-import Chart from '../../components/chart.astro';
 
-## Oral Dosage of Methamphetamine
-| Effect | Dose |
-| --- | --- |
-| Threshold | 2 mg |
-| Light | 5-10 mg |
-| Common | 10-25 mg |
-| Strong | 25-50 mg |
-| Heavy | 50+ mg |
-
-
-<Chart title={frontmatter.duration_chart_title} data={frontmatter.duration_chart} />
-
-## Oral Duration of Methamphetamine
-| | Duration |
-| --- | --- |
-| Total | 8-12 hr |
-| Onset | 30 min |
-| Coming Up | 2 hr |
-| Plateau | 4 hr |
-| Coming Down | 3 hr 30 min |

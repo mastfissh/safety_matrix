@@ -6,8 +6,9 @@ aka:
   - Beer
   - Wine
   - Liquor
-duration_chart_title: Oral Duration of Alcohol
+duration_chart_title: Oral Duration of Alcohol (beer)
 duration_chart:
+  total: 1.5-2 h
   onset: 20m
   coming_up: 15m
   plateau: 1h
@@ -15,30 +16,11 @@ duration_chart:
 positive_effects: euphoria, relaxation, increased sociability
 negative_effects: nausea, reduced coordination, memory impairment
 neutral_effects: slurred speech, flushed skin
+dosage_table:
+  title: Oral Dosage of Alcohol (beer)
+  threshold: 0.2 l
+  light: 0.25-0.4 l
+  common: 0.4-0.8 l
+  strong: 0.8-1.6 l
+  heavy: 1.6+ l
 ---
-import Chart from '../../components/chart.astro';
-
-## Oral Dosage of Alcohol (beer)
-| Effect | Dose |
-| --- | --- |
-| Threshold | 0.2 l |
-| Light | 0.25-0.4 l |
-| Common | 0.4-0.8 l |
-| Strong | 0.8-1.6 l |
-| Heavy | 1.6+ l |
-
-<Chart title={frontmatter.duration_chart_title} data={frontmatter.duration_chart} />
-
-## Oral Duration of Alcohol
-|  | Duration |
-| --- | --- |
-| Total | 1.5-2 hr |
-| Onset | 20 min |
-| Coming Up | 15 min |
-| Plateau | 1 hr |
-| Coming Down | 45 min |
-
-
-
-
-
