@@ -71,10 +71,9 @@ async function writeChart(slug, duration_chart): Promise<void> {
     }
     return x_label_hours(diff);
   }
-  let seen = [];
   function cleaned_x_label(timestamp, idx) {
     let result = x_label(timestamp);
-    return idx % 4 === 0 ? result : "";
+    return idx % 3 === 0 ? result : "";
   }
   const width = 900;
   const height = 450;
@@ -94,6 +93,7 @@ async function writeChart(slug, duration_chart): Promise<void> {
     },
     options: {
       scales: {
+        
         y: {
           display: false,
           grid: {
@@ -104,7 +104,9 @@ async function writeChart(slug, duration_chart): Promise<void> {
           type: "time",
           grid: {
             display: false,
+            
           },
+          
           ticks: {
             callback: function (val, index, ticks) {
               return cleaned_x_label(val, index);
@@ -112,9 +114,23 @@ async function writeChart(slug, duration_chart): Promise<void> {
             major: {
               enabled: true,
             },
+            font: {
+              size: 24
+          },
           },
         },
       },
+      plugins: {
+        legend: {
+            labels: {
+                // This more specific font property overrides the global property
+                font: {
+                    size: 36
+                }
+            }
+        },
+
+    }
     },
     plugins: [
       {
@@ -139,9 +155,6 @@ async function writeChart(slug, duration_chart): Promise<void> {
     height,
     plugins: {
       requireLegacy: ["chartjs-adapter-luxon"],
-      globalVariableLegacy: ["chartjs-adapter-luxon"],
-      requireChartJSLegacy: ["chartjs-adapter-luxon"],
-      modern: ["chartjs-adapter-luxon"],
     },
     chartCallback,
   });
