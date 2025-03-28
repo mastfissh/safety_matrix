@@ -5,9 +5,7 @@ import path from "path";
 import { promises as fs } from "fs";
 import { DateTime, Duration } from "luxon";
 import YAML from 'yaml'
-// import { getCollection } from "astro:content";
-// import fs from 'fs/promises';
-// import path from 'path';
+
 
 const contentPath = path.join(process.cwd(),'src', 'content', 'psychoactives');
 
@@ -49,7 +47,7 @@ async function writeChart(slug, duration_chart): Promise<void> {
   ];
   Duration.fromISO("PT23H");
   let total_duration_in_seconds = (max.toMillis() - now.toMillis()) / 1000;
-  // let total_duration_in_seconds = 1;
+
   function x_label_seconds(seconds) {
     return `${seconds} secs`;
   }
@@ -71,9 +69,8 @@ async function writeChart(slug, duration_chart): Promise<void> {
     }
     return x_label_hours(diff);
   }
-  function cleaned_x_label(timestamp, idx) {
-    let result = x_label(timestamp);
-    return idx % 3 === 0 ? result : "";
+  function cleaned_x_label(timestamp, idx, ticks) {
+    return x_label(timestamp);
   }
   const width = 900;
   const height = 450;
@@ -109,8 +106,9 @@ async function writeChart(slug, duration_chart): Promise<void> {
           
           ticks: {
             callback: function (val, index, ticks) {
-              return cleaned_x_label(val, index);
+              return cleaned_x_label(val, index, ticks);
             },
+            maxTicksLimit: 10,
             major: {
               enabled: true,
             },
@@ -123,7 +121,6 @@ async function writeChart(slug, duration_chart): Promise<void> {
       plugins: {
         legend: {
             labels: {
-                // This more specific font property overrides the global property
                 font: {
                     size: 36
                 }
