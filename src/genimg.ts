@@ -146,6 +146,7 @@ async function writeChart(slug, duration_chart): Promise<void> {
     chartCallback,
   });
   const buffer = await chartJSNodeCanvas.renderToBuffer(configuration);
+  await fs.mkdir(path.join(process.cwd(), "src", "assets", "charts"),{ recursive: true });
   await fs.writeFile(`./src/assets/charts/${slug}.png`, buffer, "base64");
 }
 
