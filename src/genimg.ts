@@ -76,8 +76,8 @@ async function writeChart(slug, duration_chart): Promise<void> {
     let result = x_label(timestamp);
     return idx % 4 === 0 ? result : "";
   }
-  const width = 1200;
-  const height = 600;
+  const width = 900;
+  const height = 450;
   const configuration: ChartConfiguration = {
     type: "line",
     data: {
