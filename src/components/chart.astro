@@ -69,11 +69,9 @@ declare global {
       }
       return x_label_hours(diff);
     }
-    let seen = [];
-    function cleaned_x_label(timestamp, idx) {
-      let result = x_label(timestamp);
-      return idx % 4 === 0 ? result : "";
-    }
+  function cleaned_x_label(timestamp, idx, ticks) {
+    return x_label(timestamp);
+  }
     new Chart(ctx, {
       type: "line",
       data: {
@@ -103,8 +101,9 @@ declare global {
             },
             ticks: {
               callback: function (val, index, ticks) {
-                return cleaned_x_label(val, index);
+                return cleaned_x_label(val, index,ticks);
               },
+              maxTicksLimit: 10,
               major: {
                 enabled: true,
               },
