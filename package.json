@@ -18,7 +18,7 @@
     "@astrojs/mdx": "^4.2.2",
     "@astrojs/preact": "^4.0.7",
     "@astrojs/sitemap": "^3.3.0",
-    "@tailwindcss/vite": "^4.0.15",
+    "@tailwindcss/vite": "^4.0.17",
     "astro": "^5.5.4",
     "astro-compress": "^2.3.6",
     "astrojs-service-worker": "^2.0.0",
