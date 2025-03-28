@@ -45,8 +45,9 @@ declare global {
       { x: now.plus(onset).plus(coming_up).plus(plateau), y: 1 },
       { x: max, y: 0 },
     ];
+    console.debug("chart_data", chart_data);
     Duration.fromISO("PT23H");
-    let total_duration_in_seconds = (max - now) / 1000;
+    let total_duration_in_seconds = (max.toMillis() - now.toMillis()) / 1000;
     function x_label_seconds(seconds) {
       return `${seconds} secs`;
     }
