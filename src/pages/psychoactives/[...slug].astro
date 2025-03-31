@@ -62,6 +62,7 @@ import "@src/styles/global.css";
         <tr><td>Strong</td><td>{entry.data.dosage_table.strong}</td></tr>
         <tr><td>Heavy</td><td>{entry.data.dosage_table.heavy}</td></tr></tbody>
     </table>
+    <span class="print:break-after-page"></span>
     <Chart title={entry.data.duration_chart_title} data={entry.data.duration_chart} />
     <h2 >{entry.data.duration_chart_title}</h2>
     <table><thead><tr>
@@ -75,12 +76,13 @@ import "@src/styles/global.css";
        <tr><td>Coming Down</td><td>{entry.data.duration_chart.coming_down}</td></tr></tbody>
    </table>
    <Content />
+   <span class="print:break-after-page"></span>
     <EditPage slug={entry.slug} type={"psychoactives"} />
   </article>
 
-
+  <span class="print:break-after-page"></span>
 <h2 class=" mx-auto text-xl  mb-4">Combined with: </h2>
-<span class="grid grid-cols-2 lg:grid-cols-3">
+<span class="grid grid-cols-2 lg:grid-cols-3 print:my-4">
     <span class:list={risk_to_bg('SR')} class = "text-m font-medium m-2 px-2.5 py-0.5 rounded"> Significant Risk</span>
     <span class:list={risk_to_bg('GR')} class = "text-m font-medium m-2 px-2.5 py-0.5 rounded"> Greater Risk</span>
     <span class:list={risk_to_bg('MR')} class = "text-m font-medium m-2 px-2.5 py-0.5 rounded"> Minor Risk</span>

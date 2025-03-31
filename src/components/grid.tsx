@@ -216,6 +216,7 @@ export default class Grid extends Component<GridProps> {
     );
     return (
       <Fragment>
+        <span class="print:break-after-page"></span>
         <GridTable
           chosen={this.state.checked_boxes}
           psych_data={i.psych_data}
@@ -232,7 +233,7 @@ export default class Grid extends Component<GridProps> {
           </label>
           <div class="relative w-full">
             {value == "" && (
-              <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none ">
+              <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none  print:hidden">
                 <svg
                   class="w-5 h-5 stroke-gray-500"
                   xmlns="http://www.w3.org/2000/svg"
@@ -253,7 +254,7 @@ export default class Grid extends Component<GridProps> {
             {value != "" && (
               <div
                 onClick={this.clearInput}
-                class="absolute inset-y-0 left-0 flex items-center pl-3"
+                class="absolute inset-y-0 left-0 flex items-center pl-3 print:hidden"
               >
                 <svg
                   class="w-6 h-6 stroke-gray-500"
@@ -277,13 +278,13 @@ export default class Grid extends Component<GridProps> {
               autocomplete="off"
               type="search"
               id="search-grid"
-              class="w-full block text-black focus:ring-blue-500 focus:ring-blue-500 bg-gray-50 border border-gray-300 border-gray-600 focus:border-blue-50 focus:border-blue-500 p-4 pl-10 placeholder-gray-400 rounded-lg text-gray-900 text-sm"
+              class="w-full block text-black focus:ring-blue-500 focus:ring-blue-500 bg-gray-50 border border-gray-300 border-gray-600 focus:border-blue-50 focus:border-blue-500 p-4 pl-10 placeholder-gray-400 rounded-lg text-gray-900 text-sm print:hidden"
               placeholder="Search"
               required
             />
           </div>
         </form>
-        <ul class="w-full gap-6 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 md:grid-cols-4 xl:grid-cols-7 2xl:grid-cols-8">
+        <ul class="w-full gap-6 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 md:grid-cols-4 xl:grid-cols-7 2xl:grid-cols-8 print:hidden">
           {psychs.map((item) => (
             <Fragment key={item.slug}>
               <li>
@@ -317,6 +318,7 @@ export default class Grid extends Component<GridProps> {
             </Fragment>
           ))}
         </ul>
+        <span class="print:break-after-page"></span>
       </Fragment>
     );
   }
