@@ -2,12 +2,13 @@
 import data from "@public/risks.json";
 import ConfidencePanel from "@src/components/confidence_panel.astro";
 import Disclaimer from "@src/components/disclaimer.astro";
+import Fallback from "@src/components/fallback_combo.astro";
 import EditPage from "@src/components/edit_page.astro";
 import RiskPanel from "@src/components/risk_panel.astro";
 import BaseLayout from "@src/layouts/BaseLayout.astro";
 import { confidence, risk } from "@src/util";
 import { getCollection, getEntry } from "astro:content";
-// 1. Generate a new path for every collection entry
+
 export async function getStaticPaths() {
   const psychs = await getCollection("psychoactives");
   const out = [];
@@ -22,27 +23,27 @@ export async function getStaticPaths() {
     }
   }
   return out;
-  // const pages = await getCollection("combos");
-  // return pages.map((entry) => ({
-  //   params: { slug: entry.slug },
-  //   props: { entry },
-  // }));
 }
-// 2. When it's time to render, you can get the entry directly from the prop
+
 const { entry } = Astro.props;
-console.debug(entry);
-const { Content } = await entry.render();
-let [psych1, psych2] = entry.slug.split("_");
+const { slug } = Astro.params;
+let Content = Fallback;
+if (entry){
+  Content = (await entry.render()).Content
+}
+let [psych1, psych2] = slug.split("_");
+
 const psych1_info = await getEntry("psychoactives", psych1);
 const psych2_info = await getEntry("psychoactives", psych2);
+const title = `${psych1_info.data.title} + ${psych2_info.data.title}`;
 ---
 
 <BaseLayout
-  pageTitle={entry.data.title}
-  metaDescription={`Psychoactives information. This is the page for harm reduction to learn about safety risks for the combination of ${entry.data.title}`}
+  pageTitle={title}
+  metaDescription={`Psychoactives information. This is the page for harm reduction to learn about safety risks for the combination of ${title}`}
 >
   <article class="prose lg:prose-xl mx-auto">
-    <h2>{entry.data.title}</h2>
+    <h2>{title}</h2>
     <span class="grid w-full gap-2 sm:grid-cols-2">
       <a
         href={`${import.meta.env.BASE_URL}psychoactives/` +
@@ -86,7 +87,7 @@ const psych2_info = await getEntry("psychoactives", psych2);
     <ConfidencePanel conf={confidence([psych1, psych2], data)} />
     <RiskPanel risk={risk([psych1, psych2], data)} />
     <Content />
-    <EditPage slug={entry.slug} type={"combos"} />
+    <EditPage slug={slug} type={"combos"} />
   </article>
   <Disclaimer />
 </BaseLayout>
