@@ -30,8 +30,10 @@ export async function getStaticPaths() {
 const { entry } = Astro.props;
 const { slug } = Astro.params;
 let Content = Fallback;
+let editAction = "create"
 if (entry) {
   Content = (await entry.render()).Content;
+  editAction = "edit"
 }
 let [psych1, psych2] = slug.split("_");
 
@@ -89,7 +91,7 @@ const title = `${psych1_info.data.title} + ${psych2_info.data.title}`;
     <ConfidencePanel conf={confidence([psych1, psych2], data)} />
     <RiskPanel risk={risk([psych1, psych2], data)} />
     <Content />
-    <EditPage slug={slug} type={"combos"} />
+    <EditPage slug={slug} type={"combos"} action={editAction} />
   </article>
   <Disclaimer />
 </BaseLayout>

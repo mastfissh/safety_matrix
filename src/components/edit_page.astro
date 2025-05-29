@@ -1,11 +1,18 @@
 ---
-const { slug, type } = Astro.props;
+const { slug, type, action = "edit" } = Astro.props;
+let url
+if (action === "edit"){
+  url = `https://github.com/mastfissh/safety_matrix/edit/main/src/content/${type}/${slug}.mdx`
+} else if(action === "create"){
+  url = `https://github.com/mastfissh/safety_matrix/new/main/src/content/${type}?filename=${slug}.mdx&value=%23%23%20Reports%20of%20people%20trying%20this%20psychoactive%20combination%0A%0A%23%23%20Related%20research%20publications`
+}
+
 ---
 
 <p>
   Disagree? Found a typo? Got more info? <a
     class="font-medium text-blue-600 underline dark:text-blue-900 hover:no-underline"
-    href={`https://github.com/mastfissh/safety_matrix/edit/main/src/content/${type}/${slug}.mdx`}
+    href={url}
   >
     Edit this page
   </a> or <a href="mailto:liam@themescalinegarden.com">email us</a>
