@@ -14,12 +14,14 @@ export async function getStaticPaths() {
   const out = [];
   for (const psych1 of psychs) {
     for (const psych2 of psychs) {
-      const slug = `${psych1.slug}_${psych2.slug}`;
-      const entry = await getEntry("combos", slug);
-      out.push({
-        params: { slug: slug },
-        props: { entry },
-      });
+      if (psych1.slug < psych2.slug) {
+        const slug = `${psych1.slug}_${psych2.slug}`;
+        const entry = await getEntry("combos", slug);
+        out.push({
+          params: { slug: slug },
+          props: { entry },
+        });
+      }
     }
   }
   return out;
@@ -28,8 +30,8 @@ export async function getStaticPaths() {
 const { entry } = Astro.props;
 const { slug } = Astro.params;
 let Content = Fallback;
-if (entry){
-  Content = (await entry.render()).Content
+if (entry) {
+  Content = (await entry.render()).Content;
 }
 let [psych1, psych2] = slug.split("_");
 
