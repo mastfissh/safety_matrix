@@ -1,0 +1,17 @@
+---
+import BaseLayout from "@src/layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+const pageTitle = "Combos";
+const psychs = await getCollection("psychoactives");
+---
+
+<BaseLayout
+  pageTitle={pageTitle}
+  metaDescription={"Psychoactive Combination Safety Matrix. This is a resource for harm reduction to learn about safety risks of combining drugs, substances, entheogens and other psychoactives"}
+>
+  {
+    psychs.map((item) => (
+      <Fragment key={item}><div>{item.data.image_caption}</div></Fragment>
+    ))
+  }
+</BaseLayout>

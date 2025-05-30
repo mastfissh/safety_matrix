@@ -31,9 +31,7 @@ import "@src/styles/global.css";
       alt={entry.data.image_caption}
       {...entry.data.image_location}
     />
-      <figcaption class="text-sm absolute mb-4 bottom-0 z-90 rounded-lg bg-black/75 px-5 py-2 text-white">
-        {entry.data.image_caption}
-      </figcaption>
+
     </figure>
     {entry.data.family_members &&
     <p>{entry.data.title} is not just one drug; {entry.data.title} is a group of drugs. Drugs in this group include {entry.data.family_members.join(', ')}. Drugs within the same group can have very different dosages and very different effects.</p>
