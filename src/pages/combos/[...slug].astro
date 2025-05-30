@@ -30,10 +30,10 @@ export async function getStaticPaths() {
 const { entry } = Astro.props;
 const { slug } = Astro.params;
 let Content = Fallback;
-let editAction = "create"
+let editAction = "create";
 if (entry) {
   Content = (await entry.render()).Content;
-  editAction = "edit"
+  editAction = "edit";
 }
 let [psych1, psych2] = slug.split("_");
 
@@ -61,11 +61,6 @@ const title = `${psych1_info.data.title} + ${psych2_info.data.title}`;
             alt={psych1_info.data.image_caption}
             {...psych1_info.data.image_location}
           />
-          <figcaption
-            class="text-sm absolute mb-4 bottom-0 z-90 rounded-lg bg-black/75 px-5 py-2 text-white"
-          >
-            {psych1_info.data.image_caption}
-          </figcaption>
         </figure>
       </a>
       <a
@@ -80,11 +75,6 @@ const title = `${psych1_info.data.title} + ${psych2_info.data.title}`;
             alt={psych2_info.data.image_caption}
             {...psych2_info.data.image_location}
           />
-          <figcaption
-            class="text-sm absolute mb-4 bottom-0 z-90 rounded-lg bg-black/75 px-5 py-2 text-white"
-          >
-            {psych2_info.data.image_caption}
-          </figcaption>
         </figure>
       </a>
     </span>
