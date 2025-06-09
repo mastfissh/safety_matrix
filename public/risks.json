@@ -44,7 +44,7 @@
     "Banisteriopsis caapi",
     "Catha edulis",
     "Ephedra species",
-    "Erythroxylum coca",
+    "Erythroxylum species",
     "Phyllomedusa bicolor",
     "Tabernathe iboga",
     "Kava"
@@ -364,7 +364,7 @@
     ],
     [
       "Opioids",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "Tramadol",
@@ -440,7 +440,7 @@
     ],
     [
       "Tramadol",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "Tramadol",
@@ -516,7 +516,7 @@
     ],
     [
       "MAOIs",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "MAOIs",
@@ -564,7 +564,7 @@
     ],
     [
       "Mitragyna speciosa",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "Mitragyna speciosa",
@@ -631,19 +631,19 @@
       "MAOIs"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "Opioids"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "Tramadol"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "MAOIs"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "Papaver species"
     ],
     [
@@ -866,7 +866,7 @@
     ],
     [
       "DOx",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "NBOMes",
@@ -894,7 +894,7 @@
     ],
     [
       "NBOMes",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "2C-x",
@@ -926,7 +926,7 @@
     ],
     [
       "2C-T-x",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "5-MeO-xxT",
@@ -954,7 +954,7 @@
     ],
     [
       "5-MeO-xxT",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "5-MeO-xxT",
@@ -1010,7 +1010,7 @@
     ],
     [
       "DXM",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "Amphetamines",
@@ -1086,7 +1086,7 @@
     ],
     [
       "Alcohol",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "Tramadol",
@@ -1250,7 +1250,7 @@
     ],
     [
       "Papaver species",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "Papaver species",
@@ -1266,7 +1266,7 @@
     ],
     [
       "Banisteriopsis caapi",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "Piper methysticum",
@@ -1290,7 +1290,7 @@
     ],
     [
       "Piper methysticum",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "Piper methysticum",
@@ -1357,39 +1357,39 @@
       "Piper methysticum"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "DOx"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "NBOMes"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "2C-T-x"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "5-MeO-xxT"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "DXM"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "Alcohol"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "Banisteriopsis caapi"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "Piper methysticum"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "Catha edulis"
     ],
     [
@@ -1493,7 +1493,7 @@
       "Piper methysticum"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "Cathinones"
     ],
     [
@@ -1514,7 +1514,7 @@
     ],
     [
       "Kava",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "Catha edulis",
@@ -1525,7 +1525,7 @@
       "Kava"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "Kava"
     ],
     [
@@ -1554,7 +1554,7 @@
     ],
     [
       "Kava",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "Catha edulis",
@@ -1565,7 +1565,7 @@
       "Kava"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "Kava"
     ],
     [
@@ -1600,7 +1600,7 @@
     ],
     [
       "LSD",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "LSD",
@@ -1628,7 +1628,7 @@
     ],
     [
       "Psilocybin",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "Psilocybin",
@@ -1656,7 +1656,7 @@
     ],
     [
       "DMT",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "DMT",
@@ -1720,7 +1720,7 @@
     ],
     [
       "Mescaline",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "Mescaline",
@@ -1912,7 +1912,7 @@
     ],
     [
       "2C-x",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "2C-x",
@@ -2108,7 +2108,7 @@
     ],
     [
       "Cannabis species",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "Cannabis species",
@@ -2148,7 +2148,7 @@
     ],
     [
       "Ketamine",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "Ketamine",
@@ -2188,7 +2188,7 @@
     ],
     [
       "MXE",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "MXE",
@@ -2336,7 +2336,7 @@
     ],
     [
       "Amphetamines",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "Amphetamines",
@@ -2388,7 +2388,7 @@
     ],
     [
       "MDMA",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "Cocaine",
@@ -2516,7 +2516,7 @@
     ],
     [
       "Caffeine",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "Caffeine",
@@ -2592,7 +2592,7 @@
     ],
     [
       "GHB/GBL",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "GHB/GBL",
@@ -2760,7 +2760,7 @@
     ],
     [
       "Salvia divinorum",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "Salvia divinorum",
@@ -2788,7 +2788,7 @@
     ],
     [
       "Acacia species",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "Acacia species",
@@ -2820,7 +2820,7 @@
     ],
     [
       "Mimosa species",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "Mimosa species",
@@ -2852,7 +2852,7 @@
     ],
     [
       "Panaelous species",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "Panaelous species",
@@ -2884,7 +2884,7 @@
     ],
     [
       "Argyreia nervosa",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "Argyreia nervosa",
@@ -2916,7 +2916,7 @@
     ],
     [
       "Ipomoea violacea",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "Ipomoea violacea",
@@ -2948,7 +2948,7 @@
     ],
     [
       "Turbina corymbosa",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "Turbina corymbosa",
@@ -3052,7 +3052,7 @@
     ],
     [
       "Trichocereus species",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "Trichocereus species",
@@ -3116,7 +3116,7 @@
     ],
     [
       "Lophophora williamsii",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "Lophophora williamsii",
@@ -3164,7 +3164,7 @@
     ],
     [
       "Incillius alvarius",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "Incillius alvarius",
@@ -3408,7 +3408,7 @@
     ],
     [
       "Catha edulis",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "Catha edulis",
@@ -3516,7 +3516,7 @@
     ],
     [
       "Ephedra species",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "Ephedra species",
@@ -3527,103 +3527,103 @@
       "Tabernathe iboga"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "LSD"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "Psilocybin"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "DMT"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "Mescaline"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "2C-x"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "Cannabis species"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "Ketamine"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "MXE"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "Amphetamines"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "MDMA"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "Caffeine"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "GHB/GBL"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "Salvia divinorum"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "Acacia species"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "Mimosa species"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "Panaelous species"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "Argyreia nervosa"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "Ipomoea violacea"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "Turbina corymbosa"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "Trichocereus species"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "Lophophora williamsii"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "Incillius alvarius"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "Mitragyna speciosa"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "Ephedra species"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "Tabernathe iboga"
     ],
     [
@@ -3828,7 +3828,7 @@
     ],
     [
       "Tabernathe iboga",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "LSD",
@@ -3860,7 +3860,7 @@
     ],
     [
       "Psilocybe Species",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "Psilocybe Species",
@@ -4072,7 +4072,7 @@
     ],
     [
       "Cathinones",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "Cathinones",
@@ -4087,7 +4087,7 @@
       "Cathinones"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "Psilocybe Species"
     ],
     [
@@ -5378,7 +5378,7 @@
     ],
     [
       "Nitrous Oxide",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "Amphetamines",
@@ -5470,7 +5470,7 @@
     ],
     [
       "Cocaine",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "Alcohol",
@@ -6629,11 +6629,11 @@
       "MDMA"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "Nitrous Oxide"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "Cocaine"
     ],
     [
@@ -7054,7 +7054,7 @@
     ],
     [
       "Meditation",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "Meditation",
@@ -7736,7 +7736,7 @@
     ],
     [
       "Benzodiazepines",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "MAOIs",
@@ -8099,7 +8099,7 @@
       "Papaver species"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "Benzodiazepines"
     ],
     [
@@ -8818,7 +8818,7 @@
     ],
     [
       "SSRIs",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "SSRIs",
@@ -9066,7 +9066,7 @@
     ],
     [
       "Amanita muscaria",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "Trichocereus species",
@@ -9405,15 +9405,15 @@
       "SSRIs"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "SSRIs"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "Amanita muscaria"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "Phyllomedusa bicolor"
     ],
     [
@@ -9474,7 +9474,7 @@
     ],
     [
       "Phyllomedusa bicolor",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "Psilocybe Species",
@@ -9989,7 +9989,7 @@
     ],
     [
       "DOx",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "DOx",
@@ -10165,7 +10165,7 @@
     ],
     [
       "NBOMes",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "NBOMes",
@@ -10265,7 +10265,7 @@
     ],
     [
       "2C-x",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "2C-x",
@@ -10441,7 +10441,7 @@
     ],
     [
       "2C-T-x",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "2C-T-x",
@@ -10617,7 +10617,7 @@
     ],
     [
       "5-MeO-xxT",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "5-MeO-xxT",
@@ -10745,7 +10745,7 @@
     ],
     [
       "Ketamine",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "Ketamine",
@@ -10921,7 +10921,7 @@
     ],
     [
       "MXE",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "MXE",
@@ -11041,7 +11041,7 @@
     ],
     [
       "DXM",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "DXM",
@@ -11141,7 +11141,7 @@
     ],
     [
       "Nitrous Oxide",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "Nitrous Oxide",
@@ -11241,7 +11241,7 @@
     ],
     [
       "Amphetamines",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "Amphetamines",
@@ -11341,7 +11341,7 @@
     ],
     [
       "MDMA",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "MDMA",
@@ -11445,7 +11445,7 @@
     ],
     [
       "Cocaine",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "Cocaine",
@@ -11545,7 +11545,7 @@
     ],
     [
       "Caffeine",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "Caffeine",
@@ -11645,7 +11645,7 @@
     ],
     [
       "Alcohol",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "Alcohol",
@@ -11765,7 +11765,7 @@
     ],
     [
       "GHB/GBL",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "GHB/GBL",
@@ -11865,7 +11865,7 @@
     ],
     [
       "Opioids",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "Opioids",
@@ -11985,7 +11985,7 @@
     ],
     [
       "Tramadol",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "Tramadol",
@@ -12085,7 +12085,7 @@
     ],
     [
       "Benzodiazepines",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "Benzodiazepines",
@@ -12189,7 +12189,7 @@
     ],
     [
       "MAOIs",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "MAOIs",
@@ -12293,7 +12293,7 @@
     ],
     [
       "SSRIs",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "SSRIs",
@@ -12449,7 +12449,7 @@
     ],
     [
       "Salvia divinorum",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "Salvia divinorum",
@@ -12601,7 +12601,7 @@
     ],
     [
       "Acacia species",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "Acacia species",
@@ -12753,7 +12753,7 @@
     ],
     [
       "Mimosa species",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "Mimosa species",
@@ -12905,7 +12905,7 @@
     ],
     [
       "Panaelous species",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "Panaelous species",
@@ -13053,7 +13053,7 @@
     ],
     [
       "Argyreia nervosa",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "Argyreia nervosa",
@@ -13205,7 +13205,7 @@
     ],
     [
       "Ipomoea violacea",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "Ipomoea violacea",
@@ -13357,7 +13357,7 @@
     ],
     [
       "Turbina corymbosa",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "Turbina corymbosa",
@@ -13525,7 +13525,7 @@
     ],
     [
       "Amanita muscaria",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "Amanita muscaria",
@@ -13677,7 +13677,7 @@
     ],
     [
       "Trichocereus species",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "Trichocereus species",
@@ -13829,7 +13829,7 @@
     ],
     [
       "Lophophora williamsii",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "Lophophora williamsii",
@@ -14001,7 +14001,7 @@
     ],
     [
       "Incillius alvarius",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "Incillius alvarius",
@@ -14173,7 +14173,7 @@
     ],
     [
       "Mitragyna speciosa",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "Mitragyna speciosa",
@@ -14329,7 +14329,7 @@
     ],
     [
       "Papaver species",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "Papaver species",
@@ -14445,7 +14445,7 @@
     ],
     [
       "Banisteriopsis caapi",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "Banisteriopsis caapi",
@@ -14601,7 +14601,7 @@
     ],
     [
       "Piper methysticum",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "Piper methysticum",
@@ -14757,7 +14757,7 @@
     ],
     [
       "Catha edulis",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "Catha edulis",
@@ -14909,7 +14909,7 @@
     ],
     [
       "Ephedra species",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "Ephedra species",
@@ -14920,159 +14920,159 @@
       "Tabernathe iboga"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "DOx"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "NBOMes"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "2C-x"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "2C-T-x"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "5-MeO-xxT"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "Ketamine"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "MXE"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "DXM"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "Nitrous Oxide"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "Amphetamines"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "MDMA"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "Cocaine"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "Caffeine"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "Alcohol"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "GHB/GBL"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "Opioids"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "Tramadol"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "Benzodiazepines"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "MAOIs"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "SSRIs"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "Salvia divinorum"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "Acacia species"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "Mimosa species"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "Panaelous species"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "Argyreia nervosa"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "Ipomoea violacea"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "Turbina corymbosa"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "Amanita muscaria"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "Trichocereus species"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "Lophophora williamsii"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "Incillius alvarius"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "Mitragyna speciosa"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "Papaver species"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "Banisteriopsis caapi"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "Piper methysticum"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "Catha edulis"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "Ephedra species"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "Phyllomedusa bicolor"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "Tabernathe iboga"
     ],
     [
@@ -15245,7 +15245,7 @@
     ],
     [
       "Phyllomedusa bicolor",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "Phyllomedusa bicolor",
@@ -15417,7 +15417,7 @@
     ],
     [
       "Tabernathe iboga",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "Tabernathe iboga",
@@ -15625,7 +15625,7 @@
     ],
     [
       "Kava",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "Kava",
@@ -15648,7 +15648,7 @@
       "Kava"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "Kava"
     ],
     [
@@ -15791,7 +15791,7 @@
     ],
     [
       "LSD",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "Psilocybin",
@@ -15911,7 +15911,7 @@
     ],
     [
       "Psilocybin",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "DMT",
@@ -16031,7 +16031,7 @@
     ],
     [
       "DMT",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "Mescaline",
@@ -16151,7 +16151,7 @@
     ],
     [
       "Mescaline",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "2C-x",
@@ -16319,7 +16319,7 @@
     ],
     [
       "Cannabis species",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "Ketamine",
@@ -17402,23 +17402,23 @@
       "Cannabis species"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "LSD"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "Psilocybin"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "DMT"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "Mescaline"
     ],
     [
-      "Erythroxylum coca",
+      "Erythroxylum species",
       "Cannabis species"
     ],
     [
@@ -18029,7 +18029,7 @@
     ],
     [
       "Meditation",
-      "Erythroxylum coca"
+      "Erythroxylum species"
     ],
     [
       "Meditation",
