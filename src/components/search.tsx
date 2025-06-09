@@ -1,5 +1,5 @@
-import { Component, Fragment } from "preact";
 import { combo, linkify } from "@src/util";
+import { Component, h, Fragment } from "preact";
 
 function displayname(entry, q) {
   if (entry.title.toLowerCase().search(q) != -1) {
@@ -67,12 +67,14 @@ function search(data, query, limit) {
 
   return out;
 }
-
+interface SearchState {
+  value: string;
+}
 interface SearchProps {
   data: any[];
 }
 
-export default class Search extends Component<SearchProps> {
+export default class Search extends Component<SearchProps,SearchState> {
   state = { value: "" };
 
   onSubmit = (e) => {

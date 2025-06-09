@@ -1,4 +1,4 @@
-import { Component, Fragment } from "preact";
+import { Component, h, Fragment } from "preact";
 import {
   confidence,
   displayname,
@@ -172,9 +172,12 @@ interface GridProps {
   data: object;
   psych_data: object;
 }
-
-export default class Grid extends Component<GridProps> {
-  state = {
+interface GridState {
+  value: string
+  checked_boxes: string[]
+}
+export default class Grid extends Component<GridProps,GridState> {
+  state : GridState = {
     value: "",
     checked_boxes: ["alcohol", "cannabis-species", "cocaine", "ketamine"],
   };
