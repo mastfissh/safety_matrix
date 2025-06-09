@@ -17,8 +17,12 @@ function search(data, query, slugs, chosen) {
   if (query == "") {
     for (let choice of chosen) {
       let datum = data[choice];
-      populate_item(datum);
-      out.push(datum);
+      if (!datum){
+        console.debug(choice)
+      } else {
+        populate_item(datum);
+        out.push(datum);
+      }
     }
   }
   for (let slug of slugs) {
@@ -172,7 +176,7 @@ interface GridProps {
 export default class Grid extends Component<GridProps> {
   state = {
     value: "",
-    checked_boxes: ["alcohol", "cannabis", "cocaine", "ketamine"],
+    checked_boxes: ["alcohol", "cannabis-species", "cocaine", "ketamine"],
   };
 
   isChecked = (target) => {
