@@ -1,7 +1,7 @@
 import { combo, linkify } from "@src/util";
 import { Component, Fragment } from "preact";
 
-function displayname(entry, q) {
+function displayname(entry: SearchDatum, q: string): string | undefined {
   if (entry.title.toLowerCase().search(q) != -1) {
     return entry.title;
   } else {
@@ -13,7 +13,21 @@ function displayname(entry, q) {
   }
 }
 
-function search(data, query, limit) {
+interface SearchDatum {
+  title: string;
+  slug: string;
+  family_members?: string[];
+  aka?: string[];
+  terms?: string;
+  url?: string;
+  displayname?: string;
+}
+
+function search(
+  data: SearchDatum[],
+  query: string,
+  limit: number
+): SearchDatum[] {
   let segments = query
     .replace(" and ", " ")
     .replace(" & ", " ")
@@ -21,7 +35,7 @@ function search(data, query, limit) {
     .split(" ");
   let q1 = segments[0];
   let q2 = segments[1];
-  let out = [];
+  let out: SearchDatum[] = [];
   if (q1) {
     for (let datum of data) {
       datum["terms"] = [datum.title]
@@ -47,11 +61,11 @@ function search(data, query, limit) {
       if (out.length > limit) {
         return out;
       }
-      let singles = JSON.parse(JSON.stringify(out));
+      let singles: SearchDatum[] = JSON.parse(JSON.stringify(out));
       if (datum.terms.toLowerCase().search(q) != -1) {
         for (let existing of singles) {
           if (existing.slug != datum.slug) {
-            let combined = JSON.parse(JSON.stringify(existing));
+            let combined: SearchDatum = JSON.parse(JSON.stringify(existing));
             let slug = linkify(combo([existing.slug, datum.slug]));
             combined["url"] = "/combos/" + slug + "/";
             combined["displayname"] = `${existing.displayname} + ${displayname(
@@ -77,21 +91,25 @@ interface SearchProps {
 export default class Search extends Component<SearchProps,SearchState> {
   state = { value: "" };
 
-  onSubmit = (e) => {
+  onSubmit = (e: Event) => {
     e.preventDefault();
   };
 
-  onInput = (e) => {
-    const { value } = e.target;
+  onInput = (e: Event) => {
+    const target = e.target as HTMLInputElement;
+    const { value } = target;
     this.setState({ value });
   };
 
-  clearInput = (e) => {
-    const value = "";
+  clearInput = (): void => {
+    const value: string = "";
     this.setState({ value });
   };
 
-  render(i, { value }) {
+  render(
+    i: Readonly<SearchProps>,
+    { value }: Readonly<SearchState>
+  ): preact.ComponentChild {
     let query = this.state.value;
     let psychs = search(i.data, query, 25);
     return (
@@ -157,7 +175,7 @@ export default class Search extends Component<SearchProps,SearchState> {
           </div>
         </form>
         <ul class="absolute z-10 block rounded-lg bg-gray-100 text-gray-100 mt-6">
-          {psychs.map((item) => (
+          {psychs.map((item: SearchDatum) => (
             <Fragment key={item.url}>
               <li class="p-1">
                 <a

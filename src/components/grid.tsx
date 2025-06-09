@@ -1,24 +1,34 @@
 import { Component, Fragment } from "preact";
-import {
-  confidence,
-  displayname,
-  linkify,
-  risk,
-  risk_to_bg
-} from "../util";
+import { confidence, displayname, linkify, risk, risk_to_bg } from "../util";
 
-function search(data, query, slugs, chosen) {
-  function populate_item(datum) {
+interface Datum {
+  [key: string]: any;
+  slug: string;
+  title: string;
+  family_members?: string[];
+  aka?: string[];
+  url?: string;
+  displayname?: string;
+  terms?: string;
+}
+
+function search(
+  data: { [key: string]: Datum },
+  query: string,
+  slugs: string[],
+  chosen: string[]
+): Datum[] {
+  function populate_item(datum: Datum): void {
     datum["url"] = "/psychoactives/" + datum.slug + "/";
     datum["displayname"] = displayname(datum, query);
   }
 
-  let out = [];
+  let out: Datum[] = [];
   if (query == "") {
     for (let choice of chosen) {
       let datum = data[choice];
-      if (!datum){
-        console.debug(choice)
+      if (!datum) {
+        console.debug(choice);
       } else {
         populate_item(datum);
         out.push(datum);
@@ -41,16 +51,24 @@ function search(data, query, slugs, chosen) {
   return out;
 }
 
-function slugs(data) {
-  let slugs = [];
+interface Data {
+  drugs: string[];
+}
+
+function slugs(data: Data): string[] {
+  let slugs: string[] = [];
   for (let sub of data["drugs"]) {
     slugs.push(linkify(sub));
   }
   return slugs;
 }
 
-function href(items) {
-  let subs = [...new Set(items)];
+interface HrefProps {
+  items: string[];
+}
+
+function href(items: HrefProps["items"]): string {
+  let subs: string[] = [...new Set(items)];
   subs.sort();
   if (subs.length == 1) {
     return `/psychoactives/${subs[0]}/`;
@@ -59,8 +77,16 @@ function href(items) {
   }
 }
 
-function title(items, psych_data) {
-  let subs: any[] = [...new Set(items)];
+interface TitleProps {
+  items: string[];
+  psych_data: { [key: string]: { title: string } };
+}
+
+function title(
+  items: TitleProps["items"],
+  psych_data: TitleProps["psych_data"]
+): string {
+  let subs: string[] = [...new Set(items)];
   subs.sort();
   if (subs.length == 1) {
     return psych_data[subs[0]].title;
@@ -69,7 +95,11 @@ function title(items, psych_data) {
   }
 }
 
-function warn(i1, i2, data) {
+interface WarnData {
+  [key: string]: any;
+}
+
+function warn(i1: string, i2: string, data: WarnData): boolean {
   return confidence([i1, i2], data) == "Low confidence";
 }
 
@@ -81,12 +111,20 @@ interface GridTableProps {
 }
 
 class GridTable extends Component<GridTableProps> {
-  render(i, { value }) {
-    let chosen = i.chosen;
-    let ordering = i.ordering;
-    let data = i.data;
-    let psych_data = i.psych_data;
-    let psychs = [];
+  render(
+    i: {
+      chosen: string[];
+      ordering: string[];
+      data: { [key: string]: any };
+      psych_data: { [key: string]: any };
+    },
+    {}: {}
+  ): preact.ComponentChild {
+    let chosen: string[] = i.chosen;
+    let ordering: string[] = i.ordering;
+    let data: { [key: string]: any } = i.data;
+    let psych_data: { [key: string]: any } = i.psych_data;
+    let psychs: string[] = [];
     for (let ord of ordering) {
       if (chosen.includes(ord)) {
         psychs.push(ord);
@@ -101,7 +139,7 @@ class GridTable extends Component<GridTableProps> {
           <tbody>
             <tr class="border border-grey-500 overflow-hidden p-1 topkey">
               <th class="border border-grey-500 font-normal h-12">Grid</th>
-              {psychs.map((item) => (
+              {psychs.map((item: string) => (
                 <Fragment key={item}>
                   <th class="border border-grey-500 overflow-hidden p-1 font-normal">
                     <a
@@ -114,7 +152,7 @@ class GridTable extends Component<GridTableProps> {
                 </Fragment>
               ))}
             </tr>
-            {psychs.map((row) => (
+            {psychs.map((row: string) => (
               <Fragment key={row}>
                 <tr>
                   <td class="border border-grey-500 overflow-hidden p-1 h-12 ">
@@ -125,7 +163,7 @@ class GridTable extends Component<GridTableProps> {
                       {title([row], psych_data)}
                     </a>
                   </td>
-                  {psychs.map((col) => (
+                  {psychs.map((col: string) => (
                     <Fragment key={col}>
                       <td
                         class={
@@ -173,41 +211,44 @@ interface GridProps {
   psych_data: object;
 }
 interface GridState {
-  value: string
-  checked_boxes: string[]
+  value: string;
+  checked_boxes: string[];
 }
-export default class Grid extends Component<GridProps,GridState> {
-  state : GridState = {
+
+export default class Grid extends Component<GridProps, GridState> {
+  state: GridState = {
     value: "",
     checked_boxes: ["alcohol", "cannabis-species", "cocaine", "ketamine"],
   };
 
-  isChecked = (target) => {
+  isChecked = (target: string): boolean => {
     return this.state.checked_boxes.includes(target);
   };
 
-  onSubmit = (e) => {
+  onSubmit = (e: Event) => {
     e.preventDefault();
   };
 
-  onInput = (e) => {
-    const { value } = e.target;
+  onInput = (e: Event): void => {
+    const { value } = e.target as HTMLInputElement;
     this.setState({ value });
   };
 
-  clearInput = (e) => {
+  clearInput = (): void => {
     const value = "";
     this.setState({ value });
   };
 
-  toggle = (e) => {
-    let target = e.target.id;
-    let checked = !this.state.checked_boxes.includes(target);
-    let checked_boxes = JSON.parse(JSON.stringify(this.state.checked_boxes));
+  toggle = (e: Event): void => {
+    let target: string = (e.target as HTMLElement).id;
+    let checked: boolean = !this.state.checked_boxes.includes(target);
+    let checked_boxes: string[] = JSON.parse(
+      JSON.stringify(this.state.checked_boxes)
+    );
     if (checked) {
       checked_boxes.push(target);
     } else {
-      checked_boxes = checked_boxes.filter((item) => item !== target);
+      checked_boxes = checked_boxes.filter((item: string) => item !== target);
     }
     this.setState({ checked_boxes });
   };
