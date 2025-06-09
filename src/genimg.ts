@@ -69,7 +69,7 @@ async function writeChart(slug, duration_chart): Promise<void> {
     }
     return x_label_hours(diff);
   }
-  function cleaned_x_label(timestamp, idx, ticks) {
+  function cleaned_x_label(timestamp) {
     return x_label(timestamp);
   }
   const width = 900;
@@ -105,8 +105,8 @@ async function writeChart(slug, duration_chart): Promise<void> {
           },
           
           ticks: {
-            callback: function (val, index, ticks) {
-              return cleaned_x_label(val, index, ticks);
+            callback: function (val) {
+              return cleaned_x_label(val);
             },
             maxTicksLimit: 10,
             major: {

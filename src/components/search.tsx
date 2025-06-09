@@ -1,5 +1,5 @@
 import { combo, linkify } from "@src/util";
-import { Component, h, Fragment } from "preact";
+import { Component, Fragment } from "preact";
 
 function displayname(entry, q) {
   if (entry.title.toLowerCase().search(q) != -1) {

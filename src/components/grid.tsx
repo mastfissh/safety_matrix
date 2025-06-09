@@ -1,4 +1,4 @@
-import { Component, h, Fragment } from "preact";
+import { Component, Fragment } from "preact";
 import {
   confidence,
   displayname,
@@ -212,7 +212,7 @@ export default class Grid extends Component<GridProps,GridState> {
     this.setState({ checked_boxes });
   };
 
-  render(i, { value, checked }) {
+  render(i, { value }) {
     let query = this.state.value;
     let ordering = slugs(i.data);
     let psychs = search(
