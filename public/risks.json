@@ -1,7 +1,7 @@
 {
   "drugs": [
     "Alcohol",
-    "Cannabis",
+    "Cannabis species",
     "Meditation",
     "Amphetamines",
     "Cocaine",
@@ -584,7 +584,7 @@
     ],
     [
       "Banisteriopsis caapi",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "Banisteriopsis caapi",
@@ -732,7 +732,7 @@
     ],
     [
       "Kava",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "Kava",
@@ -788,7 +788,7 @@
     ],
     [
       "Kava",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "Kava",
@@ -1580,7 +1580,7 @@
   "MR": [
     [
       "LSD",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "LSD",
@@ -1608,7 +1608,7 @@
     ],
     [
       "Psilocybin",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "Psilocybin",
@@ -1636,7 +1636,7 @@
     ],
     [
       "DMT",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "DMT",
@@ -1684,7 +1684,7 @@
     ],
     [
       "Mescaline",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "Mescaline",
@@ -1748,7 +1748,7 @@
     ],
     [
       "DOx",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "DOx",
@@ -1808,7 +1808,7 @@
     ],
     [
       "NBOMes",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "NBOMes",
@@ -1868,7 +1868,7 @@
     ],
     [
       "2C-x",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "2C-x",
@@ -1940,7 +1940,7 @@
     ],
     [
       "2C-T-x",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "2C-T-x",
@@ -2000,7 +2000,7 @@
     ],
     [
       "5-MeO-xxT",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "5-MeO-xxT",
@@ -2015,103 +2015,103 @@
       "Lophpopra willamsii"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "LSD"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "Psilocybin"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "DMT"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "Mescaline"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "DOx"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "NBOMes"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "2C-x"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "2C-T-x"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "5-MeO-xxT"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "Amphetamines"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "Cocaine"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "Salvia divonorum"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "Acacia species"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "Mimosa tenuiflora"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "Panaelous cyanescens"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "Argyreia nervosa"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "Ipomea violacea"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "Rivea corymbosa"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "Trichocereus species"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "Lophpopra willamsii"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "Incillius alvarius"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "Catha edulis"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "Ephedra sinica"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "Erythroxylum coca"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "Tabernathe iboga"
     ],
     [
@@ -2256,7 +2256,7 @@
     ],
     [
       "Amphetamines",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "Amphetamines",
@@ -2412,7 +2412,7 @@
     ],
     [
       "Cocaine",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "Cocaine",
@@ -2728,7 +2728,7 @@
     ],
     [
       "Salvia divonorum",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "Salvia divonorum",
@@ -2768,7 +2768,7 @@
     ],
     [
       "Acacia species",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "Acacia species",
@@ -2800,7 +2800,7 @@
     ],
     [
       "Mimosa tenuiflora",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "Mimosa tenuiflora",
@@ -2832,7 +2832,7 @@
     ],
     [
       "Panaelous cyanescens",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "Panaelous cyanescens",
@@ -2864,7 +2864,7 @@
     ],
     [
       "Argyreia nervosa",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "Argyreia nervosa",
@@ -2896,7 +2896,7 @@
     ],
     [
       "Ipomea violacea",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "Ipomea violacea",
@@ -2928,7 +2928,7 @@
     ],
     [
       "Rivea corymbosa",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "Rivea corymbosa",
@@ -3020,7 +3020,7 @@
     ],
     [
       "Trichocereus species",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "Trichocereus species",
@@ -3084,7 +3084,7 @@
     ],
     [
       "Lophpopra willamsii",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "Lophpopra willamsii",
@@ -3148,7 +3148,7 @@
     ],
     [
       "Incillius alvarius",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "Incillius alvarius",
@@ -3328,7 +3328,7 @@
     ],
     [
       "Catha edulis",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "Catha edulis",
@@ -3436,7 +3436,7 @@
     ],
     [
       "Ephedra sinica",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "Ephedra sinica",
@@ -3548,7 +3548,7 @@
     ],
     [
       "Erythroxylum coca",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "Erythroxylum coca",
@@ -3628,7 +3628,7 @@
     ],
     [
       "Phyllomedusa bicolor",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "Phyllomedusa bicolor",
@@ -3740,7 +3740,7 @@
     ],
     [
       "Tabernathe iboga",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "Tabernathe iboga",
@@ -3836,7 +3836,7 @@
     ],
     [
       "Psilocybe Species",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "Psilocybe Species",
@@ -3879,11 +3879,11 @@
       "Cathinones"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "Psilocybe Species"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "Cathinones"
     ],
     [
@@ -3992,7 +3992,7 @@
     ],
     [
       "Cathinones",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "Cathinones",
@@ -4961,67 +4961,67 @@
       "Incillius alvarius"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "Ketamine"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "MXE"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "DXM"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "Nitrous Oxide"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "MDMA"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "Alcohol"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "GHB/GBL"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "Opioids"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "Tramadol"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "MAOIs"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "Amanita muscaria"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "Mitragyna speciosa"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "Papaver somnifarem"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "Banisteriopsis caapi"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "Piper methysticum"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "Phyllomedusa bicolor"
     ],
     [
@@ -5062,7 +5062,7 @@
     ],
     [
       "Ketamine",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "Ketamine",
@@ -5150,7 +5150,7 @@
     ],
     [
       "MXE",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "MXE",
@@ -5222,7 +5222,7 @@
     ],
     [
       "DXM",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "DXM",
@@ -5302,7 +5302,7 @@
     ],
     [
       "Nitrous Oxide",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "Nitrous Oxide",
@@ -5474,11 +5474,11 @@
     ],
     [
       "Alcohol",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "GHB/GBL",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "GHB/GBL",
@@ -5494,7 +5494,7 @@
     ],
     [
       "Opioids",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "Opioids",
@@ -5510,7 +5510,7 @@
     ],
     [
       "Tramadol",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "Benzodiazepines",
@@ -5534,7 +5534,7 @@
     ],
     [
       "MAOIs",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "MAOIs",
@@ -6286,7 +6286,7 @@
     ],
     [
       "Amanita muscaria",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "Trichocereus species",
@@ -6498,7 +6498,7 @@
     ],
     [
       "Mitragyna speciosa",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "Mitragyna speciosa",
@@ -6574,7 +6574,7 @@
     ],
     [
       "Piper methysticum",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "Piper methysticum",
@@ -6922,7 +6922,7 @@
     ],
     [
       "Meditation",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "Meditation",
@@ -7073,7 +7073,7 @@
       "Kava"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "Kava"
     ],
     [
@@ -7185,7 +7185,7 @@
       "Kava"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "Kava"
     ],
     [
@@ -7443,7 +7443,7 @@
       "SSRIs"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "Benzodiazepines"
     ],
     [
@@ -7668,7 +7668,7 @@
     ],
     [
       "Benzodiazepines",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "Benzodiazepines",
@@ -8417,11 +8417,11 @@
       "Phyllomedusa bicolor"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "Caffeine"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "SSRIs"
     ],
     [
@@ -8546,7 +8546,7 @@
     ],
     [
       "Caffeine",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "Caffeine",
@@ -8766,7 +8766,7 @@
     ],
     [
       "SSRIs",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "SSRIs",
@@ -9278,7 +9278,7 @@
     ],
     [
       "Papaver somnifarem",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "Papaver somnifarem",
@@ -10033,7 +10033,7 @@
     ],
     [
       "NBOMes",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "NBOMes",
@@ -10309,7 +10309,7 @@
     ],
     [
       "2C-T-x",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "2C-T-x",
@@ -10485,7 +10485,7 @@
     ],
     [
       "5-MeO-xxT",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "5-MeO-xxT",
@@ -10628,31 +10628,31 @@
       "Tabernathe iboga"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "DOx"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "NBOMes"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "2C-T-x"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "5-MeO-xxT"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "MXE"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "Phyllomedusa bicolor"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "Tabernathe iboga"
     ],
     [
@@ -10793,7 +10793,7 @@
     ],
     [
       "MXE",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "MXE",
@@ -15113,7 +15113,7 @@
     ],
     [
       "Phyllomedusa bicolor",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "Phyllomedusa bicolor",
@@ -15289,7 +15289,7 @@
     ],
     [
       "Tabernathe iboga",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "Tabernathe iboga",
@@ -15687,7 +15687,7 @@
     ],
     [
       "LSD",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "LSD",
@@ -16171,7 +16171,7 @@
     ],
     [
       "2C-x",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "2C-x",
@@ -16214,111 +16214,111 @@
       "Lophpopra willamsii"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "LSD"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "Psilocybin"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "DMT"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "Mescaline"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "2C-x"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "DXM"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "MDMA"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "Cocaine"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "GHB/GBL"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "Salvia divonorum"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "Acacia species"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "Mimosa tenuiflora"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "Panaelous cyanescens"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "Argyreia nervosa"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "Ipomea violacea"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "Rivea corymbosa"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "Amanita muscaria"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "Trichocereus species"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "Lophpopra willamsii"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "Incillius alvarius"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "Mitragyna speciosa"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "Papaver somnifarem"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "Banisteriopsis caapi"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "Piper methysticum"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "Catha edulis"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "Ephedra sinica"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "Erythroxylum coca"
     ],
     [
@@ -16343,7 +16343,7 @@
     ],
     [
       "Ketamine",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "Ketamine",
@@ -16363,7 +16363,7 @@
     ],
     [
       "DXM",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "DXM",
@@ -16575,7 +16575,7 @@
     ],
     [
       "MDMA",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "MDMA",
@@ -16647,7 +16647,7 @@
     ],
     [
       "Cocaine",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "Cocaine",
@@ -16791,7 +16791,7 @@
     ],
     [
       "GHB/GBL",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "GHB/GBL",
@@ -17055,7 +17055,7 @@
     ],
     [
       "Salvia divonorum",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "Acacia species",
@@ -17075,7 +17075,7 @@
     ],
     [
       "Acacia species",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "Acacia species",
@@ -17099,7 +17099,7 @@
     ],
     [
       "Mimosa tenuiflora",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "Mimosa tenuiflora",
@@ -17123,7 +17123,7 @@
     ],
     [
       "Panaelous cyanescens",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "Panaelous cyanescens",
@@ -17147,7 +17147,7 @@
     ],
     [
       "Argyreia nervosa",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "Argyreia nervosa",
@@ -17171,7 +17171,7 @@
     ],
     [
       "Ipomea violacea",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "Ipomea violacea",
@@ -17195,7 +17195,7 @@
     ],
     [
       "Rivea corymbosa",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "Rivea corymbosa",
@@ -17203,7 +17203,7 @@
     ],
     [
       "Amanita muscaria",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "Amanita muscaria",
@@ -17227,7 +17227,7 @@
     ],
     [
       "Trichocereus species",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "Trichocereus species",
@@ -17251,7 +17251,7 @@
     ],
     [
       "Lophpopra willamsii",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "Lophpopra willamsii",
@@ -17259,11 +17259,11 @@
     ],
     [
       "Incillius alvarius",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "Mitragyna speciosa",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "Papaver somnifarem",
@@ -17283,7 +17283,7 @@
     ],
     [
       "Papaver somnifarem",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "Banisteriopsis caapi",
@@ -17303,7 +17303,7 @@
     ],
     [
       "Banisteriopsis caapi",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "Banisteriopsis caapi",
@@ -17359,7 +17359,7 @@
     ],
     [
       "Piper methysticum",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "Catha edulis",
@@ -17379,7 +17379,7 @@
     ],
     [
       "Catha edulis",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "Ephedra sinica",
@@ -17399,7 +17399,7 @@
     ],
     [
       "Ephedra sinica",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "Erythroxylum coca",
@@ -17419,7 +17419,7 @@
     ],
     [
       "Erythroxylum coca",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "LSD",
@@ -17438,7 +17438,7 @@
       "Kava"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "Kava"
     ],
     [
@@ -17495,7 +17495,7 @@
     ],
     [
       "Kava",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "Kava",
@@ -17536,43 +17536,43 @@
   ],
   "High confidence": [
     [
-      "Cannabis",
+      "Cannabis species",
       "Ketamine"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "Nitrous Oxide"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "Amphetamines"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "Caffeine"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "Alcohol"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "Opioids"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "Tramadol"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "Benzodiazepines"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "MAOIs"
     ],
     [
-      "Cannabis",
+      "Cannabis species",
       "SSRIs"
     ],
     [
@@ -17613,7 +17613,7 @@
     ],
     [
       "Nitrous Oxide",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "Nitrous Oxide",
@@ -17621,7 +17621,7 @@
     ],
     [
       "Amphetamines",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "Amphetamines",
@@ -17629,7 +17629,7 @@
     ],
     [
       "Caffeine",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "Caffeine",
@@ -17661,7 +17661,7 @@
     ],
     [
       "Alcohol",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "Alcohol",
@@ -17693,7 +17693,7 @@
     ],
     [
       "Opioids",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "Opioids",
@@ -17725,7 +17725,7 @@
     ],
     [
       "Tramadol",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "Tramadol",
@@ -17757,7 +17757,7 @@
     ],
     [
       "Benzodiazepines",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "Benzodiazepines",
@@ -17789,7 +17789,7 @@
     ],
     [
       "MAOIs",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "MAOIs",
@@ -17821,7 +17821,7 @@
     ],
     [
       "SSRIs",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "SSRIs",
@@ -17897,7 +17897,7 @@
     ],
     [
       "Meditation",
-      "Cannabis"
+      "Cannabis species"
     ],
     [
       "Meditation",
