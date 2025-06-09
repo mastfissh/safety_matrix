@@ -29,21 +29,21 @@
     "Tramadol",
     "Benzodiazepines",
     "MAOIs",
-    "Salvia divonorum",
+    "Salvia divinorum",
     "Acacia species",
-    "Mimosa tenuiflora",
-    "Panaelous cyanescens",
+    "Mimosa species",
+    "Panaelous species",
     "Argyreia nervosa",
-    "Ipomea violacea",
+    "Ipomoea violacea",
     "Turbina corymbosa",
     "Amanita muscaria",
     "Lophophora williamsii",
     "Incillius alvarius",
     "Mitragyna speciosa",
-    "Papaver somnifarem",
+    "Papaver species",
     "Banisteriopsis caapi",
     "Catha edulis",
-    "Ephedra sinica",
+    "Ephedra species",
     "Erythroxylum coca",
     "Phyllomedusa bicolor",
     "Tabernathe iboga",
@@ -100,7 +100,7 @@
     ],
     [
       "Ketamine",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "Ketamine",
@@ -128,7 +128,7 @@
     ],
     [
       "MXE",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "MXE",
@@ -168,7 +168,7 @@
     ],
     [
       "DXM",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "DXM",
@@ -236,7 +236,7 @@
     ],
     [
       "Cocaine",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "Cocaine",
@@ -284,7 +284,7 @@
     ],
     [
       "Alcohol",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "Alcohol",
@@ -324,7 +324,7 @@
     ],
     [
       "GHB/GBL",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "GHB/GBL",
@@ -420,7 +420,7 @@
     ],
     [
       "Tramadol",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "Tramadol",
@@ -436,7 +436,7 @@
     ],
     [
       "Tramadol",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "Tramadol",
@@ -468,7 +468,7 @@
     ],
     [
       "Benzodiazepines",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "Benzodiazepines",
@@ -512,7 +512,7 @@
     ],
     [
       "MAOIs",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "MAOIs",
@@ -571,15 +571,15 @@
       "Tabernathe iboga"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "Tramadol"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "Benzodiazepines"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "Tabernathe iboga"
     ],
     [
@@ -623,11 +623,11 @@
       "MAOIs"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "Tramadol"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "MAOIs"
     ],
     [
@@ -644,7 +644,7 @@
     ],
     [
       "Erythroxylum coca",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "Phyllomedusa bicolor",
@@ -672,7 +672,7 @@
     ],
     [
       "Tabernathe iboga",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "Tabernathe iboga",
@@ -814,11 +814,11 @@
   "GR": [
     [
       "Mitragyna speciosa",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "Opioids",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "Mitragyna speciosa",
@@ -862,7 +862,7 @@
     ],
     [
       "DOx",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "DOx",
@@ -890,7 +890,7 @@
     ],
     [
       "NBOMes",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "NBOMes",
@@ -922,7 +922,7 @@
     ],
     [
       "2C-T-x",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "2C-T-x",
@@ -950,7 +950,7 @@
     ],
     [
       "5-MeO-xxT",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "5-MeO-xxT",
@@ -1006,7 +1006,7 @@
     ],
     [
       "DXM",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "DXM",
@@ -1130,11 +1130,11 @@
     ],
     [
       "Tramadol",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "Tramadol",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "Tramadol",
@@ -1142,7 +1142,7 @@
     ],
     [
       "Tramadol",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "Tramadol",
@@ -1181,11 +1181,11 @@
       "Tramadol"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "Tramadol"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "Tramadol"
     ],
     [
@@ -1193,7 +1193,7 @@
       "Tramadol"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "Tramadol"
     ],
     [
@@ -1241,19 +1241,19 @@
       "Piper methysticum"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "Mitragyna speciosa"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "Piper methysticum"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "Erythroxylum coca"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "Phyllomedusa bicolor"
     ],
     [
@@ -1262,7 +1262,7 @@
     ],
     [
       "Banisteriopsis caapi",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "Banisteriopsis caapi",
@@ -1278,7 +1278,7 @@
     ],
     [
       "Piper methysticum",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "Piper methysticum",
@@ -1286,7 +1286,7 @@
     ],
     [
       "Piper methysticum",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "Piper methysticum",
@@ -1329,31 +1329,31 @@
       "Piper methysticum"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "DOx"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "NBOMes"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "2C-T-x"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "5-MeO-xxT"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "DXM"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "Banisteriopsis caapi"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "Piper methysticum"
     ],
     [
@@ -1394,7 +1394,7 @@
     ],
     [
       "Phyllomedusa bicolor",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "Phyllomedusa bicolor",
@@ -1510,7 +1510,7 @@
     ],
     [
       "Kava",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "Kava",
@@ -1521,7 +1521,7 @@
       "Kava"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "Kava"
     ],
     [
@@ -1550,7 +1550,7 @@
     ],
     [
       "Kava",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "Kava",
@@ -1561,7 +1561,7 @@
       "Kava"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "Kava"
     ],
     [
@@ -1596,7 +1596,7 @@
     ],
     [
       "LSD",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "LSD",
@@ -1624,7 +1624,7 @@
     ],
     [
       "Psilocybin",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "Psilocybin",
@@ -1652,7 +1652,7 @@
     ],
     [
       "DMT",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "DMT",
@@ -1716,7 +1716,7 @@
     ],
     [
       "Mescaline",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "Mescaline",
@@ -1908,7 +1908,7 @@
     ],
     [
       "2C-x",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "2C-x",
@@ -2060,7 +2060,7 @@
     ],
     [
       "Cannabis species",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "Cannabis species",
@@ -2068,11 +2068,11 @@
     ],
     [
       "Cannabis species",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "Cannabis species",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "Cannabis species",
@@ -2080,7 +2080,7 @@
     ],
     [
       "Cannabis species",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "Cannabis species",
@@ -2104,7 +2104,7 @@
     ],
     [
       "Cannabis species",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "Cannabis species",
@@ -2144,7 +2144,7 @@
     ],
     [
       "Ketamine",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "Ketamine",
@@ -2184,7 +2184,7 @@
     ],
     [
       "MXE",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "MXE",
@@ -2224,7 +2224,7 @@
     ],
     [
       "Nitrous Oxide",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "Nitrous Oxide",
@@ -2288,7 +2288,7 @@
     ],
     [
       "Amphetamines",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "Amphetamines",
@@ -2296,11 +2296,11 @@
     ],
     [
       "Amphetamines",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "Amphetamines",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "Amphetamines",
@@ -2308,7 +2308,7 @@
     ],
     [
       "Amphetamines",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "Amphetamines",
@@ -2328,7 +2328,7 @@
     ],
     [
       "Amphetamines",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "Amphetamines",
@@ -2440,7 +2440,7 @@
     ],
     [
       "Cocaine",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "Cocaine",
@@ -2448,11 +2448,11 @@
     ],
     [
       "Cocaine",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "Cocaine",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "Cocaine",
@@ -2460,7 +2460,7 @@
     ],
     [
       "Cocaine",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "Cocaine",
@@ -2480,7 +2480,7 @@
     ],
     [
       "Cocaine",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "Cocaine",
@@ -2512,7 +2512,7 @@
     ],
     [
       "Caffeine",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "Caffeine",
@@ -2540,7 +2540,7 @@
     ],
     [
       "Alcohol",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "Alcohol",
@@ -2552,7 +2552,7 @@
     ],
     [
       "Alcohol",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "Alcohol",
@@ -2576,7 +2576,7 @@
     ],
     [
       "GHB/GBL",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "GHB/GBL",
@@ -2588,7 +2588,7 @@
     ],
     [
       "GHB/GBL",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "GHB/GBL",
@@ -2628,7 +2628,7 @@
     ],
     [
       "Opioids",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "Opioids",
@@ -2640,7 +2640,7 @@
     ],
     [
       "Tramadol",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "Tramadol",
@@ -2712,7 +2712,7 @@
     ],
     [
       "MAOIs",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "MAOIs",
@@ -2727,43 +2727,43 @@
       "Alcohol"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "Cannabis species"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "Amphetamines"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "Cocaine"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "Alcohol"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "GHB/GBL"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "Tramadol"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "Catha edulis"
     ],
     [
-      "Salvia divonorum",
-      "Ephedra sinica"
+      "Salvia divinorum",
+      "Ephedra species"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "Erythroxylum coca"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "Phyllomedusa bicolor"
     ],
     [
@@ -2784,7 +2784,7 @@
     ],
     [
       "Acacia species",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "Acacia species",
@@ -2799,67 +2799,67 @@
       "Tabernathe iboga"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "Cannabis species"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "Amphetamines"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "Cocaine"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "Catha edulis"
     ],
     [
-      "Mimosa tenuiflora",
-      "Ephedra sinica"
+      "Mimosa species",
+      "Ephedra species"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "Erythroxylum coca"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "Phyllomedusa bicolor"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "Tabernathe iboga"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "Cannabis species"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "Amphetamines"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "Cocaine"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "Catha edulis"
     ],
     [
-      "Panaelous cyanescens",
-      "Ephedra sinica"
+      "Panaelous species",
+      "Ephedra species"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "Erythroxylum coca"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "Phyllomedusa bicolor"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "Tabernathe iboga"
     ],
     [
@@ -2880,7 +2880,7 @@
     ],
     [
       "Argyreia nervosa",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "Argyreia nervosa",
@@ -2895,35 +2895,35 @@
       "Tabernathe iboga"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "Cannabis species"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "Amphetamines"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "Cocaine"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "Catha edulis"
     ],
     [
-      "Ipomea violacea",
-      "Ephedra sinica"
+      "Ipomoea violacea",
+      "Ephedra species"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "Erythroxylum coca"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "Phyllomedusa bicolor"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "Tabernathe iboga"
     ],
     [
@@ -2944,7 +2944,7 @@
     ],
     [
       "Turbina corymbosa",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "Turbina corymbosa",
@@ -2988,7 +2988,7 @@
     ],
     [
       "Amanita muscaria",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "Amanita muscaria",
@@ -3048,7 +3048,7 @@
     ],
     [
       "Trichocereus species",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "Trichocereus species",
@@ -3112,7 +3112,7 @@
     ],
     [
       "Lophophora williamsii",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "Lophophora williamsii",
@@ -3160,7 +3160,7 @@
     ],
     [
       "Incillius alvarius",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "Incillius alvarius",
@@ -3180,18 +3180,18 @@
     ],
     [
       "Mitragyna speciosa",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "Mitragyna speciosa",
       "Phyllomedusa bicolor"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "MAOIs"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "Amanita muscaria"
     ],
     [
@@ -3364,7 +3364,7 @@
     ],
     [
       "Catha edulis",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "Catha edulis",
@@ -3372,11 +3372,11 @@
     ],
     [
       "Catha edulis",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "Catha edulis",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "Catha edulis",
@@ -3384,7 +3384,7 @@
     ],
     [
       "Catha edulis",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "Catha edulis",
@@ -3404,7 +3404,7 @@
     ],
     [
       "Catha edulis",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "Catha edulis",
@@ -3415,115 +3415,115 @@
       "Phyllomedusa bicolor"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "LSD"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "Psilocybin"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "DMT"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "Mescaline"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "2C-x"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "Cannabis species"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "Ketamine"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "MXE"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "Cocaine"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "Caffeine"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "Alcohol"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "GHB/GBL"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "Opioids"
     ],
     [
-      "Ephedra sinica",
-      "Salvia divonorum"
+      "Ephedra species",
+      "Salvia divinorum"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "Acacia species"
     ],
     [
-      "Ephedra sinica",
-      "Mimosa tenuiflora"
+      "Ephedra species",
+      "Mimosa species"
     ],
     [
-      "Ephedra sinica",
-      "Panaelous cyanescens"
+      "Ephedra species",
+      "Panaelous species"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "Argyreia nervosa"
     ],
     [
-      "Ephedra sinica",
-      "Ipomea violacea"
+      "Ephedra species",
+      "Ipomoea violacea"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "Turbina corymbosa"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "Trichocereus species"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "Lophophora williamsii"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "Incillius alvarius"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "Mitragyna speciosa"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "Catha edulis"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "Erythroxylum coca"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "Phyllomedusa bicolor"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "Tabernathe iboga"
     ],
     [
@@ -3576,7 +3576,7 @@
     ],
     [
       "Erythroxylum coca",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "Erythroxylum coca",
@@ -3584,11 +3584,11 @@
     ],
     [
       "Erythroxylum coca",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "Erythroxylum coca",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "Erythroxylum coca",
@@ -3596,7 +3596,7 @@
     ],
     [
       "Erythroxylum coca",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "Erythroxylum coca",
@@ -3620,7 +3620,7 @@
     ],
     [
       "Erythroxylum coca",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "Erythroxylum coca",
@@ -3648,7 +3648,7 @@
     ],
     [
       "Phyllomedusa bicolor",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "Phyllomedusa bicolor",
@@ -3656,11 +3656,11 @@
     ],
     [
       "Phyllomedusa bicolor",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "Phyllomedusa bicolor",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "Phyllomedusa bicolor",
@@ -3668,7 +3668,7 @@
     ],
     [
       "Phyllomedusa bicolor",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "Phyllomedusa bicolor",
@@ -3704,7 +3704,7 @@
     ],
     [
       "Phyllomedusa bicolor",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "Tabernathe iboga",
@@ -3792,11 +3792,11 @@
     ],
     [
       "Tabernathe iboga",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "Tabernathe iboga",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "Tabernathe iboga",
@@ -3804,7 +3804,7 @@
     ],
     [
       "Tabernathe iboga",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "Tabernathe iboga",
@@ -3824,7 +3824,7 @@
     ],
     [
       "Tabernathe iboga",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "Tabernathe iboga",
@@ -3856,7 +3856,7 @@
     ],
     [
       "Psilocybe Species",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "Psilocybe Species",
@@ -3927,7 +3927,7 @@
       "Cathinones"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "Cathinones"
     ],
     [
@@ -3935,11 +3935,11 @@
       "Cathinones"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "Cathinones"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "Cathinones"
     ],
     [
@@ -3947,7 +3947,7 @@
       "Cathinones"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "Cathinones"
     ],
     [
@@ -4028,7 +4028,7 @@
     ],
     [
       "Cathinones",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "Cathinones",
@@ -4036,11 +4036,11 @@
     ],
     [
       "Cathinones",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "Cathinones",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "Cathinones",
@@ -4048,7 +4048,7 @@
     ],
     [
       "Cathinones",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "Cathinones",
@@ -4068,7 +4068,7 @@
     ],
     [
       "Cathinones",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "Cathinones",
@@ -4079,11 +4079,11 @@
       "Phyllomedusa bicolor"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "Psilocybe Species"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "Cathinones"
     ],
     [
@@ -4374,7 +4374,7 @@
     ],
     [
       "LSD",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "LSD",
@@ -4382,11 +4382,11 @@
     ],
     [
       "LSD",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "LSD",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "LSD",
@@ -4394,7 +4394,7 @@
     ],
     [
       "LSD",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "LSD",
@@ -4470,7 +4470,7 @@
     ],
     [
       "Psilocybin",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "Psilocybin",
@@ -4478,11 +4478,11 @@
     ],
     [
       "Psilocybin",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "Psilocybin",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "Psilocybin",
@@ -4490,7 +4490,7 @@
     ],
     [
       "Psilocybin",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "Psilocybin",
@@ -4578,7 +4578,7 @@
     ],
     [
       "DMT",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "DMT",
@@ -4586,11 +4586,11 @@
     ],
     [
       "DMT",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "DMT",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "DMT",
@@ -4598,7 +4598,7 @@
     ],
     [
       "DMT",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "DMT",
@@ -4658,7 +4658,7 @@
     ],
     [
       "Mescaline",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "Mescaline",
@@ -4666,11 +4666,11 @@
     ],
     [
       "Mescaline",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "Mescaline",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "Mescaline",
@@ -4678,7 +4678,7 @@
     ],
     [
       "Mescaline",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "Mescaline",
@@ -4718,7 +4718,7 @@
     ],
     [
       "DOx",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "DOx",
@@ -4726,11 +4726,11 @@
     ],
     [
       "DOx",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "DOx",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "DOx",
@@ -4738,7 +4738,7 @@
     ],
     [
       "DOx",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "DOx",
@@ -4770,7 +4770,7 @@
     ],
     [
       "NBOMes",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "NBOMes",
@@ -4778,11 +4778,11 @@
     ],
     [
       "NBOMes",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "NBOMes",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "NBOMes",
@@ -4790,7 +4790,7 @@
     ],
     [
       "NBOMes",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "NBOMes",
@@ -4830,7 +4830,7 @@
     ],
     [
       "2C-x",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "2C-x",
@@ -4838,11 +4838,11 @@
     ],
     [
       "2C-x",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "2C-x",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "2C-x",
@@ -4850,7 +4850,7 @@
     ],
     [
       "2C-x",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "2C-x",
@@ -4878,7 +4878,7 @@
     ],
     [
       "2C-T-x",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "2C-T-x",
@@ -4886,11 +4886,11 @@
     ],
     [
       "2C-T-x",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "2C-T-x",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "2C-T-x",
@@ -4898,7 +4898,7 @@
     ],
     [
       "2C-T-x",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "2C-T-x",
@@ -4930,7 +4930,7 @@
     ],
     [
       "5-MeO-xxT",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "5-MeO-xxT",
@@ -4938,11 +4938,11 @@
     ],
     [
       "5-MeO-xxT",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "5-MeO-xxT",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "5-MeO-xxT",
@@ -4950,7 +4950,7 @@
     ],
     [
       "5-MeO-xxT",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "5-MeO-xxT",
@@ -5010,7 +5010,7 @@
     ],
     [
       "Cannabis species",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "Cannabis species",
@@ -5078,7 +5078,7 @@
     ],
     [
       "Ketamine",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "Ketamine",
@@ -5086,11 +5086,11 @@
     ],
     [
       "Ketamine",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "Ketamine",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "Ketamine",
@@ -5098,7 +5098,7 @@
     ],
     [
       "Ketamine",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "Ketamine",
@@ -5162,7 +5162,7 @@
     ],
     [
       "MXE",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "MXE",
@@ -5170,11 +5170,11 @@
     ],
     [
       "MXE",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "MXE",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "MXE",
@@ -5182,7 +5182,7 @@
     ],
     [
       "MXE",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "MXE",
@@ -5230,7 +5230,7 @@
     ],
     [
       "DXM",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "DXM",
@@ -5238,11 +5238,11 @@
     ],
     [
       "DXM",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "DXM",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "DXM",
@@ -5250,7 +5250,7 @@
     ],
     [
       "DXM",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "DXM",
@@ -5330,7 +5330,7 @@
     ],
     [
       "Nitrous Oxide",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "Nitrous Oxide",
@@ -5338,11 +5338,11 @@
     ],
     [
       "Nitrous Oxide",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "Nitrous Oxide",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "Nitrous Oxide",
@@ -5350,7 +5350,7 @@
     ],
     [
       "Nitrous Oxide",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "Nitrous Oxide",
@@ -5374,7 +5374,7 @@
     ],
     [
       "Nitrous Oxide",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "Nitrous Oxide",
@@ -5390,7 +5390,7 @@
     ],
     [
       "Amphetamines",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "MDMA",
@@ -5422,7 +5422,7 @@
     ],
     [
       "MDMA",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "MDMA",
@@ -5430,11 +5430,11 @@
     ],
     [
       "MDMA",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "MDMA",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "MDMA",
@@ -5442,7 +5442,7 @@
     ],
     [
       "MDMA",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "MDMA",
@@ -5462,7 +5462,7 @@
     ],
     [
       "MDMA",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "Cocaine",
@@ -5498,7 +5498,7 @@
     ],
     [
       "Opioids",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "Opioids",
@@ -5546,7 +5546,7 @@
     ],
     [
       "MAOIs",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "MAOIs",
@@ -5554,11 +5554,11 @@
     ],
     [
       "MAOIs",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "MAOIs",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "MAOIs",
@@ -5569,119 +5569,119 @@
       "Piper methysticum"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "LSD"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "Psilocybin"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "DMT"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "Mescaline"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "DOx"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "NBOMes"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "2C-x"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "2C-T-x"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "5-MeO-xxT"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "Ketamine"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "MXE"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "DXM"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "Nitrous Oxide"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "MDMA"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "Opioids"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "MAOIs"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "Acacia species"
     ],
     [
-      "Salvia divonorum",
-      "Mimosa tenuiflora"
+      "Salvia divinorum",
+      "Mimosa species"
     ],
     [
-      "Salvia divonorum",
-      "Panaelous cyanescens"
+      "Salvia divinorum",
+      "Panaelous species"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "Argyreia nervosa"
     ],
     [
-      "Salvia divonorum",
-      "Ipomea violacea"
+      "Salvia divinorum",
+      "Ipomoea violacea"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "Turbina corymbosa"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "Trichocereus species"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "Lophophora williamsii"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "Incillius alvarius"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "Mitragyna speciosa"
     ],
     [
-      "Salvia divonorum",
-      "Papaver somnifarem"
+      "Salvia divinorum",
+      "Papaver species"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "Piper methysticum"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "Tabernathe iboga"
     ],
     [
@@ -5746,15 +5746,15 @@
     ],
     [
       "Acacia species",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "Acacia species",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "Acacia species",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "Acacia species",
@@ -5762,7 +5762,7 @@
     ],
     [
       "Acacia species",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "Acacia species",
@@ -5789,211 +5789,211 @@
       "Piper methysticum"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "LSD"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "Psilocybin"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "DMT"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "Mescaline"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "DOx"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "NBOMes"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "2C-x"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "2C-T-x"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "5-MeO-xxT"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "Ketamine"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "MXE"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "DXM"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "Nitrous Oxide"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "MDMA"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "MAOIs"
     ],
     [
-      "Mimosa tenuiflora",
-      "Salvia divonorum"
+      "Mimosa species",
+      "Salvia divinorum"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "Acacia species"
     ],
     [
-      "Mimosa tenuiflora",
-      "Panaelous cyanescens"
+      "Mimosa species",
+      "Panaelous species"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "Argyreia nervosa"
     ],
     [
-      "Mimosa tenuiflora",
-      "Ipomea violacea"
+      "Mimosa species",
+      "Ipomoea violacea"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "Turbina corymbosa"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "Trichocereus species"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "Lophophora williamsii"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "Incillius alvarius"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "Banisteriopsis caapi"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "Piper methysticum"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "LSD"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "Psilocybin"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "DMT"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "Mescaline"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "DOx"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "NBOMes"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "2C-x"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "2C-T-x"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "5-MeO-xxT"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "Ketamine"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "MXE"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "DXM"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "Nitrous Oxide"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "MDMA"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "MAOIs"
     ],
     [
-      "Panaelous cyanescens",
-      "Salvia divonorum"
+      "Panaelous species",
+      "Salvia divinorum"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "Acacia species"
     ],
     [
-      "Panaelous cyanescens",
-      "Mimosa tenuiflora"
+      "Panaelous species",
+      "Mimosa species"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "Argyreia nervosa"
     ],
     [
-      "Panaelous cyanescens",
-      "Ipomea violacea"
+      "Panaelous species",
+      "Ipomoea violacea"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "Turbina corymbosa"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "Trichocereus species"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "Lophophora williamsii"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "Incillius alvarius"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "Banisteriopsis caapi"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "Piper methysticum"
     ],
     [
@@ -6054,7 +6054,7 @@
     ],
     [
       "Argyreia nervosa",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "Argyreia nervosa",
@@ -6062,15 +6062,15 @@
     ],
     [
       "Argyreia nervosa",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "Argyreia nervosa",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "Argyreia nervosa",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "Argyreia nervosa",
@@ -6093,99 +6093,99 @@
       "Banisteriopsis caapi"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "LSD"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "Psilocybin"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "DMT"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "Mescaline"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "DOx"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "NBOMes"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "2C-x"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "2C-T-x"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "5-MeO-xxT"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "Ketamine"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "MXE"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "DXM"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "Nitrous Oxide"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "MDMA"
     ],
     [
-      "Ipomea violacea",
-      "Salvia divonorum"
+      "Ipomoea violacea",
+      "Salvia divinorum"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "Acacia species"
     ],
     [
-      "Ipomea violacea",
-      "Mimosa tenuiflora"
+      "Ipomoea violacea",
+      "Mimosa species"
     ],
     [
-      "Ipomea violacea",
-      "Panaelous cyanescens"
+      "Ipomoea violacea",
+      "Panaelous species"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "Argyreia nervosa"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "Turbina corymbosa"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "Trichocereus species"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "Lophophora williamsii"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "Incillius alvarius"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "Banisteriopsis caapi"
     ],
     [
@@ -6246,7 +6246,7 @@
     ],
     [
       "Turbina corymbosa",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "Turbina corymbosa",
@@ -6254,11 +6254,11 @@
     ],
     [
       "Turbina corymbosa",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "Turbina corymbosa",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "Turbina corymbosa",
@@ -6266,7 +6266,7 @@
     ],
     [
       "Turbina corymbosa",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "Turbina corymbosa",
@@ -6326,7 +6326,7 @@
     ],
     [
       "Trichocereus species",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "Trichocereus species",
@@ -6334,11 +6334,11 @@
     ],
     [
       "Trichocereus species",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "Trichocereus species",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "Trichocereus species",
@@ -6346,7 +6346,7 @@
     ],
     [
       "Trichocereus species",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "Trichocereus species",
@@ -6398,7 +6398,7 @@
     ],
     [
       "Lophophora williamsii",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "Lophophora williamsii",
@@ -6406,11 +6406,11 @@
     ],
     [
       "Lophophora williamsii",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "Lophophora williamsii",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "Lophophora williamsii",
@@ -6418,7 +6418,7 @@
     ],
     [
       "Lophophora williamsii",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "Lophophora williamsii",
@@ -6462,7 +6462,7 @@
     ],
     [
       "Incillius alvarius",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "Incillius alvarius",
@@ -6470,11 +6470,11 @@
     ],
     [
       "Incillius alvarius",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "Incillius alvarius",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "Incillius alvarius",
@@ -6482,7 +6482,7 @@
     ],
     [
       "Incillius alvarius",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "Incillius alvarius",
@@ -6502,19 +6502,19 @@
     ],
     [
       "Mitragyna speciosa",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "GHB/GBL"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "Opioids"
     ],
     [
-      "Papaver somnifarem",
-      "Salvia divonorum"
+      "Papaver species",
+      "Salvia divinorum"
     ],
     [
       "Banisteriopsis caapi",
@@ -6546,11 +6546,11 @@
     ],
     [
       "Banisteriopsis caapi",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "Banisteriopsis caapi",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "Banisteriopsis caapi",
@@ -6558,7 +6558,7 @@
     ],
     [
       "Banisteriopsis caapi",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "Banisteriopsis caapi",
@@ -6594,7 +6594,7 @@
     ],
     [
       "Piper methysticum",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "Piper methysticum",
@@ -6602,11 +6602,11 @@
     ],
     [
       "Piper methysticum",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "Piper methysticum",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "Catha edulis",
@@ -6617,15 +6617,15 @@
       "MDMA"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "Nitrous Oxide"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "Amphetamines"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "MDMA"
     ],
     [
@@ -6650,7 +6650,7 @@
     ],
     [
       "Tabernathe iboga",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "LSD",
@@ -6714,7 +6714,7 @@
     ],
     [
       "Psilocybe Species",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "Psilocybe Species",
@@ -6722,11 +6722,11 @@
     ],
     [
       "Psilocybe Species",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "Psilocybe Species",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "Psilocybe Species",
@@ -6734,7 +6734,7 @@
     ],
     [
       "Psilocybe Species",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "Psilocybe Species",
@@ -6821,7 +6821,7 @@
       "Psilocybe Species"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "Psilocybe Species"
     ],
     [
@@ -6829,11 +6829,11 @@
       "Psilocybe Species"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "Psilocybe Species"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "Psilocybe Species"
     ],
     [
@@ -6841,7 +6841,7 @@
       "Psilocybe Species"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "Psilocybe Species"
     ],
     [
@@ -6986,7 +6986,7 @@
     ],
     [
       "Meditation",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "Meditation",
@@ -6994,11 +6994,11 @@
     ],
     [
       "Meditation",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "Meditation",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "Meditation",
@@ -7006,7 +7006,7 @@
     ],
     [
       "Meditation",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "Meditation",
@@ -7034,7 +7034,7 @@
     ],
     [
       "Meditation",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "Meditation",
@@ -7050,7 +7050,7 @@
     ],
     [
       "Meditation",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "Meditation",
@@ -7093,11 +7093,11 @@
       "Kava"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "Kava"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "Kava"
     ],
     [
@@ -7105,7 +7105,7 @@
       "Kava"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "Kava"
     ],
     [
@@ -7142,11 +7142,11 @@
     ],
     [
       "Kava",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "Kava",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "Kava",
@@ -7154,7 +7154,7 @@
     ],
     [
       "Kava",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "Kava",
@@ -7205,11 +7205,11 @@
       "Kava"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "Kava"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "Kava"
     ],
     [
@@ -7217,7 +7217,7 @@
       "Kava"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "Kava"
     ],
     [
@@ -7254,11 +7254,11 @@
     ],
     [
       "Kava",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "Kava",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "Kava",
@@ -7266,7 +7266,7 @@
     ],
     [
       "Kava",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "Kava",
@@ -7528,11 +7528,11 @@
     ],
     [
       "Alcohol",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "Alcohol",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "Alcohol",
@@ -7540,7 +7540,7 @@
     ],
     [
       "Alcohol",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "Alcohol",
@@ -7600,11 +7600,11 @@
     ],
     [
       "GHB/GBL",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "GHB/GBL",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "GHB/GBL",
@@ -7612,7 +7612,7 @@
     ],
     [
       "GHB/GBL",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "GHB/GBL",
@@ -7696,11 +7696,11 @@
     ],
     [
       "Benzodiazepines",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "Benzodiazepines",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "Benzodiazepines",
@@ -7708,7 +7708,7 @@
     ],
     [
       "Benzodiazepines",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "Benzodiazepines",
@@ -7732,7 +7732,7 @@
     ],
     [
       "Benzodiazepines",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "Benzodiazepines",
@@ -7748,7 +7748,7 @@
     ],
     [
       "MAOIs",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "MAOIs",
@@ -7796,7 +7796,7 @@
     ],
     [
       "SSRIs",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "SSRIs",
@@ -7804,11 +7804,11 @@
     ],
     [
       "SSRIs",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "SSRIs",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "SSRIs",
@@ -7816,7 +7816,7 @@
     ],
     [
       "SSRIs",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "SSRIs",
@@ -7839,7 +7839,7 @@
       "Incillius alvarius"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "SSRIs"
     ],
     [
@@ -7859,35 +7859,35 @@
       "SSRIs"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "Alcohol"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "GHB/GBL"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "Benzodiazepines"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "SSRIs"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "Alcohol"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "GHB/GBL"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "Benzodiazepines"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "SSRIs"
     ],
     [
@@ -7911,23 +7911,23 @@
       "SSRIs"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "Alcohol"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "GHB/GBL"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "Benzodiazepines"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "MAOIs"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "SSRIs"
     ],
     [
@@ -7976,7 +7976,7 @@
     ],
     [
       "Amanita muscaria",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "Trichocereus species",
@@ -8031,12 +8031,12 @@
       "Catha edulis"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "Catha edulis"
     ],
     [
-      "Papaver somnifarem",
-      "Ephedra sinica"
+      "Papaver species",
+      "Ephedra species"
     ],
     [
       "Banisteriopsis caapi",
@@ -8084,19 +8084,19 @@
     ],
     [
       "Catha edulis",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "Benzodiazepines"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "Amanita muscaria"
     ],
     [
-      "Ephedra sinica",
-      "Papaver somnifarem"
+      "Ephedra species",
+      "Papaver species"
     ],
     [
       "Erythroxylum coca",
@@ -8147,7 +8147,7 @@
       "Cathinones"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "Cathinones"
     ],
     [
@@ -8164,7 +8164,7 @@
     ],
     [
       "Cathinones",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "LSD",
@@ -8226,7 +8226,7 @@
     ],
     [
       "LSD",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "LSD",
@@ -8250,7 +8250,7 @@
     ],
     [
       "Psilocybin",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "Psilocybin",
@@ -8274,7 +8274,7 @@
     ],
     [
       "DMT",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "DMT",
@@ -8298,7 +8298,7 @@
     ],
     [
       "Mescaline",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "Mescaline",
@@ -8318,7 +8318,7 @@
     ],
     [
       "DOx",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "DOx",
@@ -8338,7 +8338,7 @@
     ],
     [
       "NBOMes",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "NBOMes",
@@ -8362,7 +8362,7 @@
     ],
     [
       "2C-x",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "2C-x",
@@ -8386,7 +8386,7 @@
     ],
     [
       "2C-T-x",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "2C-T-x",
@@ -8410,7 +8410,7 @@
     ],
     [
       "5-MeO-xxT",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "5-MeO-xxT",
@@ -8506,7 +8506,7 @@
     ],
     [
       "MDMA",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "MDMA",
@@ -8590,7 +8590,7 @@
     ],
     [
       "Caffeine",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "Caffeine",
@@ -8598,11 +8598,11 @@
     ],
     [
       "Caffeine",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "Caffeine",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "Caffeine",
@@ -8610,7 +8610,7 @@
     ],
     [
       "Caffeine",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "Caffeine",
@@ -8634,7 +8634,7 @@
     ],
     [
       "Caffeine",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "Caffeine",
@@ -8714,11 +8714,11 @@
     ],
     [
       "Opioids",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "Opioids",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "Opioids",
@@ -8726,7 +8726,7 @@
     ],
     [
       "Opioids",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "Opioids",
@@ -8754,7 +8754,7 @@
     ],
     [
       "Benzodiazepines",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "MAOIs",
@@ -8806,7 +8806,7 @@
     ],
     [
       "SSRIs",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "SSRIs",
@@ -8814,7 +8814,7 @@
     ],
     [
       "SSRIs",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "SSRIs",
@@ -8825,19 +8825,19 @@
       "Phyllomedusa bicolor"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "Caffeine"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "Benzodiazepines"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "Amanita muscaria"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "Banisteriopsis caapi"
     ],
     [
@@ -8858,47 +8858,47 @@
     ],
     [
       "Acacia species",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "Caffeine"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "Opioids"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "Amanita muscaria"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "Mitragyna speciosa"
     ],
     [
-      "Mimosa tenuiflora",
-      "Papaver somnifarem"
+      "Mimosa species",
+      "Papaver species"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "Caffeine"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "Opioids"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "Amanita muscaria"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "Mitragyna speciosa"
     ],
     [
-      "Panaelous cyanescens",
-      "Papaver somnifarem"
+      "Panaelous species",
+      "Papaver species"
     ],
     [
       "Argyreia nervosa",
@@ -8918,34 +8918,34 @@
     ],
     [
       "Argyreia nervosa",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "Argyreia nervosa",
       "Piper methysticum"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "Caffeine"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "Opioids"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "Amanita muscaria"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "Mitragyna speciosa"
     ],
     [
-      "Ipomea violacea",
-      "Papaver somnifarem"
+      "Ipomoea violacea",
+      "Papaver species"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "Piper methysticum"
     ],
     [
@@ -8966,7 +8966,7 @@
     ],
     [
       "Turbina corymbosa",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "Turbina corymbosa",
@@ -9026,7 +9026,7 @@
     ],
     [
       "Amanita muscaria",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "Amanita muscaria",
@@ -9034,11 +9034,11 @@
     ],
     [
       "Amanita muscaria",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "Amanita muscaria",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "Amanita muscaria",
@@ -9046,7 +9046,7 @@
     ],
     [
       "Amanita muscaria",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "Amanita muscaria",
@@ -9086,7 +9086,7 @@
     ],
     [
       "Trichocereus species",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "Lophophora williamsii",
@@ -9106,7 +9106,7 @@
     ],
     [
       "Lophophora williamsii",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "Incillius alvarius",
@@ -9122,7 +9122,7 @@
     ],
     [
       "Incillius alvarius",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "Mitragyna speciosa",
@@ -9206,11 +9206,11 @@
     ],
     [
       "Mitragyna speciosa",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "Mitragyna speciosa",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "Mitragyna speciosa",
@@ -9218,7 +9218,7 @@
     ],
     [
       "Mitragyna speciosa",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "Mitragyna speciosa",
@@ -9241,123 +9241,123 @@
       "Banisteriopsis caapi"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "LSD"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "Psilocybin"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "DMT"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "Mescaline"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "DOx"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "NBOMes"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "2C-x"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "2C-T-x"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "5-MeO-xxT"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "Cannabis species"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "Ketamine"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "MXE"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "DXM"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "Nitrous Oxide"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "Amphetamines"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "MDMA"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "Cocaine"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "Caffeine"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "Alcohol"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "SSRIs"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "Acacia species"
     ],
     [
-      "Papaver somnifarem",
-      "Mimosa tenuiflora"
+      "Papaver species",
+      "Mimosa species"
     ],
     [
-      "Papaver somnifarem",
-      "Panaelous cyanescens"
+      "Papaver species",
+      "Panaelous species"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "Argyreia nervosa"
     ],
     [
-      "Papaver somnifarem",
-      "Ipomea violacea"
+      "Papaver species",
+      "Ipomoea violacea"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "Turbina corymbosa"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "Trichocereus species"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "Lophophora williamsii"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "Incillius alvarius"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "Banisteriopsis caapi"
     ],
     [
@@ -9366,7 +9366,7 @@
     ],
     [
       "Banisteriopsis caapi",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "Banisteriopsis caapi",
@@ -9378,7 +9378,7 @@
     ],
     [
       "Banisteriopsis caapi",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "Piper methysticum",
@@ -9390,7 +9390,7 @@
     ],
     [
       "Piper methysticum",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "Piper methysticum",
@@ -9401,7 +9401,7 @@
       "SSRIs"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "SSRIs"
     ],
     [
@@ -9494,7 +9494,7 @@
     ],
     [
       "Psilocybe Species",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "Psilocybe Species",
@@ -9521,7 +9521,7 @@
       "Psilocybe Species"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "Psilocybe Species"
     ],
     [
@@ -9541,7 +9541,7 @@
       "Kava"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "Kava"
     ],
     [
@@ -9553,7 +9553,7 @@
       "Kava"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "Kava"
     ],
     [
@@ -9562,7 +9562,7 @@
     ],
     [
       "Kava",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "Kava",
@@ -9574,7 +9574,7 @@
     ],
     [
       "Kava",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "Nitrous Oxide",
@@ -9585,7 +9585,7 @@
       "Kava"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "Kava"
     ],
     [
@@ -9597,7 +9597,7 @@
       "Kava"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "Kava"
     ],
     [
@@ -9606,7 +9606,7 @@
     ],
     [
       "Kava",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "Kava",
@@ -9618,7 +9618,7 @@
     ],
     [
       "Kava",
-      "Papaver somnifarem"
+      "Papaver species"
     ]
   ],
   "conf_levels": [
@@ -9921,7 +9921,7 @@
     ],
     [
       "DOx",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "DOx",
@@ -9929,11 +9929,11 @@
     ],
     [
       "DOx",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "DOx",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "DOx",
@@ -9941,7 +9941,7 @@
     ],
     [
       "DOx",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "DOx",
@@ -9969,7 +9969,7 @@
     ],
     [
       "DOx",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "DOx",
@@ -9985,7 +9985,7 @@
     ],
     [
       "DOx",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "DOx",
@@ -10097,7 +10097,7 @@
     ],
     [
       "NBOMes",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "NBOMes",
@@ -10105,11 +10105,11 @@
     ],
     [
       "NBOMes",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "NBOMes",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "NBOMes",
@@ -10117,7 +10117,7 @@
     ],
     [
       "NBOMes",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "NBOMes",
@@ -10145,7 +10145,7 @@
     ],
     [
       "NBOMes",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "NBOMes",
@@ -10161,7 +10161,7 @@
     ],
     [
       "NBOMes",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "NBOMes",
@@ -10205,7 +10205,7 @@
     ],
     [
       "2C-x",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "2C-x",
@@ -10213,11 +10213,11 @@
     ],
     [
       "2C-x",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "2C-x",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "2C-x",
@@ -10225,7 +10225,7 @@
     ],
     [
       "2C-x",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "2C-x",
@@ -10245,7 +10245,7 @@
     ],
     [
       "2C-x",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "2C-x",
@@ -10261,7 +10261,7 @@
     ],
     [
       "2C-x",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "2C-x",
@@ -10373,7 +10373,7 @@
     ],
     [
       "2C-T-x",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "2C-T-x",
@@ -10381,11 +10381,11 @@
     ],
     [
       "2C-T-x",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "2C-T-x",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "2C-T-x",
@@ -10393,7 +10393,7 @@
     ],
     [
       "2C-T-x",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "2C-T-x",
@@ -10421,7 +10421,7 @@
     ],
     [
       "2C-T-x",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "2C-T-x",
@@ -10437,7 +10437,7 @@
     ],
     [
       "2C-T-x",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "2C-T-x",
@@ -10549,7 +10549,7 @@
     ],
     [
       "5-MeO-xxT",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "5-MeO-xxT",
@@ -10557,11 +10557,11 @@
     ],
     [
       "5-MeO-xxT",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "5-MeO-xxT",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "5-MeO-xxT",
@@ -10569,7 +10569,7 @@
     ],
     [
       "5-MeO-xxT",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "5-MeO-xxT",
@@ -10597,7 +10597,7 @@
     ],
     [
       "5-MeO-xxT",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "5-MeO-xxT",
@@ -10613,7 +10613,7 @@
     ],
     [
       "5-MeO-xxT",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "5-MeO-xxT",
@@ -10677,7 +10677,7 @@
     ],
     [
       "Ketamine",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "Ketamine",
@@ -10685,11 +10685,11 @@
     ],
     [
       "Ketamine",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "Ketamine",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "Ketamine",
@@ -10697,7 +10697,7 @@
     ],
     [
       "Ketamine",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "Ketamine",
@@ -10725,7 +10725,7 @@
     ],
     [
       "Ketamine",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "Ketamine",
@@ -10741,7 +10741,7 @@
     ],
     [
       "Ketamine",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "Ketamine",
@@ -10853,7 +10853,7 @@
     ],
     [
       "MXE",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "MXE",
@@ -10861,11 +10861,11 @@
     ],
     [
       "MXE",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "MXE",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "MXE",
@@ -10873,7 +10873,7 @@
     ],
     [
       "MXE",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "MXE",
@@ -10901,7 +10901,7 @@
     ],
     [
       "MXE",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "MXE",
@@ -10917,7 +10917,7 @@
     ],
     [
       "MXE",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "MXE",
@@ -10973,7 +10973,7 @@
     ],
     [
       "DXM",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "DXM",
@@ -10981,11 +10981,11 @@
     ],
     [
       "DXM",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "DXM",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "DXM",
@@ -10993,7 +10993,7 @@
     ],
     [
       "DXM",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "DXM",
@@ -11021,7 +11021,7 @@
     ],
     [
       "DXM",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "DXM",
@@ -11037,7 +11037,7 @@
     ],
     [
       "DXM",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "DXM",
@@ -11073,7 +11073,7 @@
     ],
     [
       "Nitrous Oxide",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "Nitrous Oxide",
@@ -11081,11 +11081,11 @@
     ],
     [
       "Nitrous Oxide",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "Nitrous Oxide",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "Nitrous Oxide",
@@ -11093,7 +11093,7 @@
     ],
     [
       "Nitrous Oxide",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "Nitrous Oxide",
@@ -11121,7 +11121,7 @@
     ],
     [
       "Nitrous Oxide",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "Nitrous Oxide",
@@ -11137,7 +11137,7 @@
     ],
     [
       "Nitrous Oxide",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "Nitrous Oxide",
@@ -11173,7 +11173,7 @@
     ],
     [
       "Amphetamines",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "Amphetamines",
@@ -11181,11 +11181,11 @@
     ],
     [
       "Amphetamines",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "Amphetamines",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "Amphetamines",
@@ -11193,7 +11193,7 @@
     ],
     [
       "Amphetamines",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "Amphetamines",
@@ -11221,7 +11221,7 @@
     ],
     [
       "Amphetamines",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "Amphetamines",
@@ -11237,7 +11237,7 @@
     ],
     [
       "Amphetamines",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "Amphetamines",
@@ -11273,7 +11273,7 @@
     ],
     [
       "MDMA",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "MDMA",
@@ -11281,11 +11281,11 @@
     ],
     [
       "MDMA",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "MDMA",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "MDMA",
@@ -11293,7 +11293,7 @@
     ],
     [
       "MDMA",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "MDMA",
@@ -11321,7 +11321,7 @@
     ],
     [
       "MDMA",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "MDMA",
@@ -11337,7 +11337,7 @@
     ],
     [
       "MDMA",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "MDMA",
@@ -11377,7 +11377,7 @@
     ],
     [
       "Cocaine",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "Cocaine",
@@ -11385,11 +11385,11 @@
     ],
     [
       "Cocaine",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "Cocaine",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "Cocaine",
@@ -11397,7 +11397,7 @@
     ],
     [
       "Cocaine",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "Cocaine",
@@ -11425,7 +11425,7 @@
     ],
     [
       "Cocaine",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "Cocaine",
@@ -11441,7 +11441,7 @@
     ],
     [
       "Cocaine",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "Cocaine",
@@ -11477,7 +11477,7 @@
     ],
     [
       "Caffeine",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "Caffeine",
@@ -11485,11 +11485,11 @@
     ],
     [
       "Caffeine",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "Caffeine",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "Caffeine",
@@ -11497,7 +11497,7 @@
     ],
     [
       "Caffeine",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "Caffeine",
@@ -11525,7 +11525,7 @@
     ],
     [
       "Caffeine",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "Caffeine",
@@ -11541,7 +11541,7 @@
     ],
     [
       "Caffeine",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "Caffeine",
@@ -11577,7 +11577,7 @@
     ],
     [
       "Alcohol",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "Alcohol",
@@ -11585,11 +11585,11 @@
     ],
     [
       "Alcohol",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "Alcohol",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "Alcohol",
@@ -11597,7 +11597,7 @@
     ],
     [
       "Alcohol",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "Alcohol",
@@ -11625,7 +11625,7 @@
     ],
     [
       "Alcohol",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "Alcohol",
@@ -11641,7 +11641,7 @@
     ],
     [
       "Alcohol",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "Alcohol",
@@ -11697,7 +11697,7 @@
     ],
     [
       "GHB/GBL",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "GHB/GBL",
@@ -11705,11 +11705,11 @@
     ],
     [
       "GHB/GBL",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "GHB/GBL",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "GHB/GBL",
@@ -11717,7 +11717,7 @@
     ],
     [
       "GHB/GBL",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "GHB/GBL",
@@ -11745,7 +11745,7 @@
     ],
     [
       "GHB/GBL",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "GHB/GBL",
@@ -11761,7 +11761,7 @@
     ],
     [
       "GHB/GBL",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "GHB/GBL",
@@ -11797,7 +11797,7 @@
     ],
     [
       "Opioids",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "Opioids",
@@ -11805,11 +11805,11 @@
     ],
     [
       "Opioids",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "Opioids",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "Opioids",
@@ -11817,7 +11817,7 @@
     ],
     [
       "Opioids",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "Opioids",
@@ -11845,7 +11845,7 @@
     ],
     [
       "Opioids",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "Opioids",
@@ -11861,7 +11861,7 @@
     ],
     [
       "Opioids",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "Opioids",
@@ -11917,7 +11917,7 @@
     ],
     [
       "Tramadol",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "Tramadol",
@@ -11925,11 +11925,11 @@
     ],
     [
       "Tramadol",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "Tramadol",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "Tramadol",
@@ -11937,7 +11937,7 @@
     ],
     [
       "Tramadol",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "Tramadol",
@@ -11965,7 +11965,7 @@
     ],
     [
       "Tramadol",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "Tramadol",
@@ -11981,7 +11981,7 @@
     ],
     [
       "Tramadol",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "Tramadol",
@@ -12017,7 +12017,7 @@
     ],
     [
       "Benzodiazepines",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "Benzodiazepines",
@@ -12025,11 +12025,11 @@
     ],
     [
       "Benzodiazepines",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "Benzodiazepines",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "Benzodiazepines",
@@ -12037,7 +12037,7 @@
     ],
     [
       "Benzodiazepines",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "Benzodiazepines",
@@ -12065,7 +12065,7 @@
     ],
     [
       "Benzodiazepines",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "Benzodiazepines",
@@ -12081,7 +12081,7 @@
     ],
     [
       "Benzodiazepines",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "Benzodiazepines",
@@ -12121,7 +12121,7 @@
     ],
     [
       "MAOIs",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "MAOIs",
@@ -12129,11 +12129,11 @@
     ],
     [
       "MAOIs",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "MAOIs",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "MAOIs",
@@ -12141,7 +12141,7 @@
     ],
     [
       "MAOIs",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "MAOIs",
@@ -12169,7 +12169,7 @@
     ],
     [
       "MAOIs",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "MAOIs",
@@ -12185,7 +12185,7 @@
     ],
     [
       "MAOIs",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "MAOIs",
@@ -12225,7 +12225,7 @@
     ],
     [
       "SSRIs",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "SSRIs",
@@ -12233,11 +12233,11 @@
     ],
     [
       "SSRIs",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "SSRIs",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "SSRIs",
@@ -12245,7 +12245,7 @@
     ],
     [
       "SSRIs",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "SSRIs",
@@ -12273,7 +12273,7 @@
     ],
     [
       "SSRIs",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "SSRIs",
@@ -12289,7 +12289,7 @@
     ],
     [
       "SSRIs",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "SSRIs",
@@ -12304,159 +12304,159 @@
       "Tabernathe iboga"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "DOx"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "NBOMes"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "2C-x"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "2C-T-x"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "5-MeO-xxT"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "Ketamine"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "MXE"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "DXM"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "Nitrous Oxide"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "Amphetamines"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "MDMA"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "Cocaine"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "Caffeine"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "Alcohol"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "GHB/GBL"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "Opioids"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "Tramadol"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "Benzodiazepines"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "MAOIs"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "SSRIs"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "Acacia species"
     ],
     [
-      "Salvia divonorum",
-      "Mimosa tenuiflora"
+      "Salvia divinorum",
+      "Mimosa species"
     ],
     [
-      "Salvia divonorum",
-      "Panaelous cyanescens"
+      "Salvia divinorum",
+      "Panaelous species"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "Argyreia nervosa"
     ],
     [
-      "Salvia divonorum",
-      "Ipomea violacea"
+      "Salvia divinorum",
+      "Ipomoea violacea"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "Turbina corymbosa"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "Amanita muscaria"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "Trichocereus species"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "Lophophora williamsii"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "Incillius alvarius"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "Mitragyna speciosa"
     ],
     [
-      "Salvia divonorum",
-      "Papaver somnifarem"
+      "Salvia divinorum",
+      "Papaver species"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "Banisteriopsis caapi"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "Piper methysticum"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "Catha edulis"
     ],
     [
-      "Salvia divonorum",
-      "Ephedra sinica"
+      "Salvia divinorum",
+      "Ephedra species"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "Erythroxylum coca"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "Phyllomedusa bicolor"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "Tabernathe iboga"
     ],
     [
@@ -12541,15 +12541,15 @@
     ],
     [
       "Acacia species",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "Acacia species",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "Acacia species",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "Acacia species",
@@ -12557,7 +12557,7 @@
     ],
     [
       "Acacia species",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "Acacia species",
@@ -12585,7 +12585,7 @@
     ],
     [
       "Acacia species",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "Acacia species",
@@ -12597,7 +12597,7 @@
     ],
     [
       "Acacia species",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "Acacia species",
@@ -12612,307 +12612,307 @@
       "Tabernathe iboga"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "DOx"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "NBOMes"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "2C-x"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "2C-T-x"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "5-MeO-xxT"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "Ketamine"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "MXE"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "DXM"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "Nitrous Oxide"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "Amphetamines"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "MDMA"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "Cocaine"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "Caffeine"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "Alcohol"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "GHB/GBL"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "Opioids"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "Tramadol"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "Benzodiazepines"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "MAOIs"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "SSRIs"
     ],
     [
-      "Mimosa tenuiflora",
-      "Salvia divonorum"
+      "Mimosa species",
+      "Salvia divinorum"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "Acacia species"
     ],
     [
-      "Mimosa tenuiflora",
-      "Panaelous cyanescens"
+      "Mimosa species",
+      "Panaelous species"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "Argyreia nervosa"
     ],
     [
-      "Mimosa tenuiflora",
-      "Ipomea violacea"
+      "Mimosa species",
+      "Ipomoea violacea"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "Turbina corymbosa"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "Amanita muscaria"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "Trichocereus species"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "Lophophora williamsii"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "Incillius alvarius"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "Mitragyna speciosa"
     ],
     [
-      "Mimosa tenuiflora",
-      "Papaver somnifarem"
+      "Mimosa species",
+      "Papaver species"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "Piper methysticum"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "Catha edulis"
     ],
     [
-      "Mimosa tenuiflora",
-      "Ephedra sinica"
+      "Mimosa species",
+      "Ephedra species"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "Erythroxylum coca"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "Phyllomedusa bicolor"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "Tabernathe iboga"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "DOx"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "NBOMes"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "2C-x"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "2C-T-x"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "5-MeO-xxT"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "Ketamine"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "MXE"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "DXM"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "Nitrous Oxide"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "Amphetamines"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "MDMA"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "Cocaine"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "Caffeine"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "Alcohol"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "GHB/GBL"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "Opioids"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "Tramadol"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "Benzodiazepines"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "MAOIs"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "SSRIs"
     ],
     [
-      "Panaelous cyanescens",
-      "Salvia divonorum"
+      "Panaelous species",
+      "Salvia divinorum"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "Acacia species"
     ],
     [
-      "Panaelous cyanescens",
-      "Mimosa tenuiflora"
+      "Panaelous species",
+      "Mimosa species"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "Argyreia nervosa"
     ],
     [
-      "Panaelous cyanescens",
-      "Ipomea violacea"
+      "Panaelous species",
+      "Ipomoea violacea"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "Turbina corymbosa"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "Amanita muscaria"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "Trichocereus species"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "Lophophora williamsii"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "Incillius alvarius"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "Mitragyna speciosa"
     ],
     [
-      "Panaelous cyanescens",
-      "Papaver somnifarem"
+      "Panaelous species",
+      "Papaver species"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "Piper methysticum"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "Catha edulis"
     ],
     [
-      "Panaelous cyanescens",
-      "Ephedra sinica"
+      "Panaelous species",
+      "Ephedra species"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "Erythroxylum coca"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "Phyllomedusa bicolor"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "Tabernathe iboga"
     ],
     [
@@ -12997,7 +12997,7 @@
     ],
     [
       "Argyreia nervosa",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "Argyreia nervosa",
@@ -13005,11 +13005,11 @@
     ],
     [
       "Argyreia nervosa",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "Argyreia nervosa",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "Argyreia nervosa",
@@ -13037,7 +13037,7 @@
     ],
     [
       "Argyreia nervosa",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "Argyreia nervosa",
@@ -13049,7 +13049,7 @@
     ],
     [
       "Argyreia nervosa",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "Argyreia nervosa",
@@ -13064,155 +13064,155 @@
       "Tabernathe iboga"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "DOx"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "NBOMes"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "2C-x"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "2C-T-x"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "5-MeO-xxT"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "Ketamine"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "MXE"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "DXM"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "Nitrous Oxide"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "Amphetamines"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "MDMA"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "Cocaine"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "Caffeine"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "Alcohol"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "GHB/GBL"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "Opioids"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "Tramadol"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "Benzodiazepines"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "MAOIs"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "SSRIs"
     ],
     [
-      "Ipomea violacea",
-      "Salvia divonorum"
+      "Ipomoea violacea",
+      "Salvia divinorum"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "Acacia species"
     ],
     [
-      "Ipomea violacea",
-      "Mimosa tenuiflora"
+      "Ipomoea violacea",
+      "Mimosa species"
     ],
     [
-      "Ipomea violacea",
-      "Panaelous cyanescens"
+      "Ipomoea violacea",
+      "Panaelous species"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "Argyreia nervosa"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "Turbina corymbosa"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "Amanita muscaria"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "Trichocereus species"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "Lophophora williamsii"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "Incillius alvarius"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "Mitragyna speciosa"
     ],
     [
-      "Ipomea violacea",
-      "Papaver somnifarem"
+      "Ipomoea violacea",
+      "Papaver species"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "Piper methysticum"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "Catha edulis"
     ],
     [
-      "Ipomea violacea",
-      "Ephedra sinica"
+      "Ipomoea violacea",
+      "Ephedra species"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "Erythroxylum coca"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "Phyllomedusa bicolor"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "Tabernathe iboga"
     ],
     [
@@ -13297,7 +13297,7 @@
     ],
     [
       "Turbina corymbosa",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "Turbina corymbosa",
@@ -13305,11 +13305,11 @@
     ],
     [
       "Turbina corymbosa",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "Turbina corymbosa",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "Turbina corymbosa",
@@ -13317,7 +13317,7 @@
     ],
     [
       "Turbina corymbosa",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "Turbina corymbosa",
@@ -13341,7 +13341,7 @@
     ],
     [
       "Turbina corymbosa",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "Turbina corymbosa",
@@ -13353,7 +13353,7 @@
     ],
     [
       "Turbina corymbosa",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "Turbina corymbosa",
@@ -13465,7 +13465,7 @@
     ],
     [
       "Amanita muscaria",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "Amanita muscaria",
@@ -13473,11 +13473,11 @@
     ],
     [
       "Amanita muscaria",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "Amanita muscaria",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "Amanita muscaria",
@@ -13485,7 +13485,7 @@
     ],
     [
       "Amanita muscaria",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "Amanita muscaria",
@@ -13509,7 +13509,7 @@
     ],
     [
       "Amanita muscaria",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "Amanita muscaria",
@@ -13521,7 +13521,7 @@
     ],
     [
       "Amanita muscaria",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "Amanita muscaria",
@@ -13617,7 +13617,7 @@
     ],
     [
       "Trichocereus species",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "Trichocereus species",
@@ -13625,11 +13625,11 @@
     ],
     [
       "Trichocereus species",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "Trichocereus species",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "Trichocereus species",
@@ -13637,7 +13637,7 @@
     ],
     [
       "Trichocereus species",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "Trichocereus species",
@@ -13661,7 +13661,7 @@
     ],
     [
       "Trichocereus species",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "Trichocereus species",
@@ -13673,7 +13673,7 @@
     ],
     [
       "Trichocereus species",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "Trichocereus species",
@@ -13769,7 +13769,7 @@
     ],
     [
       "Lophophora williamsii",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "Lophophora williamsii",
@@ -13777,11 +13777,11 @@
     ],
     [
       "Lophophora williamsii",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "Lophophora williamsii",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "Lophophora williamsii",
@@ -13789,7 +13789,7 @@
     ],
     [
       "Lophophora williamsii",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "Lophophora williamsii",
@@ -13813,7 +13813,7 @@
     ],
     [
       "Lophophora williamsii",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "Lophophora williamsii",
@@ -13825,7 +13825,7 @@
     ],
     [
       "Lophophora williamsii",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "Lophophora williamsii",
@@ -13937,7 +13937,7 @@
     ],
     [
       "Incillius alvarius",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "Incillius alvarius",
@@ -13945,11 +13945,11 @@
     ],
     [
       "Incillius alvarius",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "Incillius alvarius",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "Incillius alvarius",
@@ -13957,7 +13957,7 @@
     ],
     [
       "Incillius alvarius",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "Incillius alvarius",
@@ -13981,7 +13981,7 @@
     ],
     [
       "Incillius alvarius",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "Incillius alvarius",
@@ -13997,7 +13997,7 @@
     ],
     [
       "Incillius alvarius",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "Incillius alvarius",
@@ -14109,7 +14109,7 @@
     ],
     [
       "Mitragyna speciosa",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "Mitragyna speciosa",
@@ -14117,11 +14117,11 @@
     ],
     [
       "Mitragyna speciosa",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "Mitragyna speciosa",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "Mitragyna speciosa",
@@ -14129,7 +14129,7 @@
     ],
     [
       "Mitragyna speciosa",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "Mitragyna speciosa",
@@ -14153,7 +14153,7 @@
     ],
     [
       "Mitragyna speciosa",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "Mitragyna speciosa",
@@ -14169,7 +14169,7 @@
     ],
     [
       "Mitragyna speciosa",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "Mitragyna speciosa",
@@ -14184,159 +14184,159 @@
       "Tabernathe iboga"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "DOx"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "NBOMes"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "2C-x"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "2C-T-x"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "5-MeO-xxT"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "Ketamine"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "MXE"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "DXM"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "Nitrous Oxide"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "Amphetamines"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "MDMA"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "Cocaine"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "Caffeine"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "Alcohol"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "GHB/GBL"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "Opioids"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "Tramadol"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "Benzodiazepines"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "MAOIs"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "SSRIs"
     ],
     [
-      "Papaver somnifarem",
-      "Salvia divonorum"
+      "Papaver species",
+      "Salvia divinorum"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "Acacia species"
     ],
     [
-      "Papaver somnifarem",
-      "Mimosa tenuiflora"
+      "Papaver species",
+      "Mimosa species"
     ],
     [
-      "Papaver somnifarem",
-      "Panaelous cyanescens"
+      "Papaver species",
+      "Panaelous species"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "Argyreia nervosa"
     ],
     [
-      "Papaver somnifarem",
-      "Ipomea violacea"
+      "Papaver species",
+      "Ipomoea violacea"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "Turbina corymbosa"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "Amanita muscaria"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "Trichocereus species"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "Lophophora williamsii"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "Incillius alvarius"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "Mitragyna speciosa"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "Banisteriopsis caapi"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "Piper methysticum"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "Catha edulis"
     ],
     [
-      "Papaver somnifarem",
-      "Ephedra sinica"
+      "Papaver species",
+      "Ephedra species"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "Erythroxylum coca"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "Phyllomedusa bicolor"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "Tabernathe iboga"
     ],
     [
@@ -14421,7 +14421,7 @@
     ],
     [
       "Banisteriopsis caapi",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "Banisteriopsis caapi",
@@ -14433,7 +14433,7 @@
     ],
     [
       "Banisteriopsis caapi",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "Banisteriopsis caapi",
@@ -14441,7 +14441,7 @@
     ],
     [
       "Banisteriopsis caapi",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "Banisteriopsis caapi",
@@ -14537,7 +14537,7 @@
     ],
     [
       "Piper methysticum",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "Piper methysticum",
@@ -14545,11 +14545,11 @@
     ],
     [
       "Piper methysticum",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "Piper methysticum",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "Piper methysticum",
@@ -14557,7 +14557,7 @@
     ],
     [
       "Piper methysticum",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "Piper methysticum",
@@ -14585,7 +14585,7 @@
     ],
     [
       "Piper methysticum",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "Piper methysticum",
@@ -14597,7 +14597,7 @@
     ],
     [
       "Piper methysticum",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "Piper methysticum",
@@ -14693,7 +14693,7 @@
     ],
     [
       "Catha edulis",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "Catha edulis",
@@ -14701,11 +14701,11 @@
     ],
     [
       "Catha edulis",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "Catha edulis",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "Catha edulis",
@@ -14713,7 +14713,7 @@
     ],
     [
       "Catha edulis",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "Catha edulis",
@@ -14741,7 +14741,7 @@
     ],
     [
       "Catha edulis",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "Catha edulis",
@@ -14753,7 +14753,7 @@
     ],
     [
       "Catha edulis",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "Catha edulis",
@@ -14764,159 +14764,159 @@
       "Phyllomedusa bicolor"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "DOx"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "NBOMes"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "2C-x"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "2C-T-x"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "5-MeO-xxT"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "Ketamine"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "MXE"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "DXM"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "Nitrous Oxide"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "Amphetamines"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "MDMA"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "Cocaine"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "Caffeine"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "Alcohol"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "GHB/GBL"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "Opioids"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "Tramadol"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "Benzodiazepines"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "MAOIs"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "SSRIs"
     ],
     [
-      "Ephedra sinica",
-      "Salvia divonorum"
+      "Ephedra species",
+      "Salvia divinorum"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "Acacia species"
     ],
     [
-      "Ephedra sinica",
-      "Mimosa tenuiflora"
+      "Ephedra species",
+      "Mimosa species"
     ],
     [
-      "Ephedra sinica",
-      "Panaelous cyanescens"
+      "Ephedra species",
+      "Panaelous species"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "Argyreia nervosa"
     ],
     [
-      "Ephedra sinica",
-      "Ipomea violacea"
+      "Ephedra species",
+      "Ipomoea violacea"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "Turbina corymbosa"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "Amanita muscaria"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "Trichocereus species"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "Lophophora williamsii"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "Incillius alvarius"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "Mitragyna speciosa"
     ],
     [
-      "Ephedra sinica",
-      "Papaver somnifarem"
+      "Ephedra species",
+      "Papaver species"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "Banisteriopsis caapi"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "Piper methysticum"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "Catha edulis"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "Erythroxylum coca"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "Phyllomedusa bicolor"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "Tabernathe iboga"
     ],
     [
@@ -15001,7 +15001,7 @@
     ],
     [
       "Erythroxylum coca",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "Erythroxylum coca",
@@ -15009,11 +15009,11 @@
     ],
     [
       "Erythroxylum coca",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "Erythroxylum coca",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "Erythroxylum coca",
@@ -15021,7 +15021,7 @@
     ],
     [
       "Erythroxylum coca",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "Erythroxylum coca",
@@ -15049,7 +15049,7 @@
     ],
     [
       "Erythroxylum coca",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "Erythroxylum coca",
@@ -15065,7 +15065,7 @@
     ],
     [
       "Erythroxylum coca",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "Erythroxylum coca",
@@ -15177,7 +15177,7 @@
     ],
     [
       "Phyllomedusa bicolor",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "Phyllomedusa bicolor",
@@ -15185,11 +15185,11 @@
     ],
     [
       "Phyllomedusa bicolor",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "Phyllomedusa bicolor",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "Phyllomedusa bicolor",
@@ -15197,7 +15197,7 @@
     ],
     [
       "Phyllomedusa bicolor",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "Phyllomedusa bicolor",
@@ -15225,7 +15225,7 @@
     ],
     [
       "Phyllomedusa bicolor",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "Phyllomedusa bicolor",
@@ -15241,7 +15241,7 @@
     ],
     [
       "Phyllomedusa bicolor",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "Phyllomedusa bicolor",
@@ -15353,7 +15353,7 @@
     ],
     [
       "Tabernathe iboga",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "Tabernathe iboga",
@@ -15361,11 +15361,11 @@
     ],
     [
       "Tabernathe iboga",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "Tabernathe iboga",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "Tabernathe iboga",
@@ -15373,7 +15373,7 @@
     ],
     [
       "Tabernathe iboga",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "Tabernathe iboga",
@@ -15401,7 +15401,7 @@
     ],
     [
       "Tabernathe iboga",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "Tabernathe iboga",
@@ -15413,7 +15413,7 @@
     ],
     [
       "Tabernathe iboga",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "Tabernathe iboga",
@@ -15504,7 +15504,7 @@
       "Kava"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "Kava"
     ],
     [
@@ -15516,7 +15516,7 @@
       "Kava"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "Kava"
     ],
     [
@@ -15601,7 +15601,7 @@
     ],
     [
       "Kava",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "Kava",
@@ -15613,7 +15613,7 @@
     ],
     [
       "Kava",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "Kava",
@@ -15621,7 +15621,7 @@
     ],
     [
       "Kava",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "Kava",
@@ -15644,7 +15644,7 @@
       "Kava"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "Kava"
     ],
     [
@@ -15735,7 +15735,7 @@
     ],
     [
       "LSD",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "LSD",
@@ -15743,11 +15743,11 @@
     ],
     [
       "LSD",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "LSD",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "LSD",
@@ -15755,7 +15755,7 @@
     ],
     [
       "LSD",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "LSD",
@@ -15771,7 +15771,7 @@
     ],
     [
       "LSD",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "LSD",
@@ -15787,7 +15787,7 @@
     ],
     [
       "LSD",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "LSD",
@@ -15855,7 +15855,7 @@
     ],
     [
       "Psilocybin",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "Psilocybin",
@@ -15863,11 +15863,11 @@
     ],
     [
       "Psilocybin",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "Psilocybin",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "Psilocybin",
@@ -15875,7 +15875,7 @@
     ],
     [
       "Psilocybin",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "Psilocybin",
@@ -15891,7 +15891,7 @@
     ],
     [
       "Psilocybin",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "Psilocybin",
@@ -15907,7 +15907,7 @@
     ],
     [
       "Psilocybin",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "Psilocybin",
@@ -15975,7 +15975,7 @@
     ],
     [
       "DMT",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "DMT",
@@ -15983,11 +15983,11 @@
     ],
     [
       "DMT",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "DMT",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "DMT",
@@ -15995,7 +15995,7 @@
     ],
     [
       "DMT",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "DMT",
@@ -16011,7 +16011,7 @@
     ],
     [
       "DMT",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "DMT",
@@ -16027,7 +16027,7 @@
     ],
     [
       "DMT",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "DMT",
@@ -16095,7 +16095,7 @@
     ],
     [
       "Mescaline",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "Mescaline",
@@ -16103,11 +16103,11 @@
     ],
     [
       "Mescaline",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "Mescaline",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "Mescaline",
@@ -16115,7 +16115,7 @@
     ],
     [
       "Mescaline",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "Mescaline",
@@ -16131,7 +16131,7 @@
     ],
     [
       "Mescaline",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "Mescaline",
@@ -16147,7 +16147,7 @@
     ],
     [
       "Mescaline",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "Mescaline",
@@ -16251,7 +16251,7 @@
     ],
     [
       "Cannabis species",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "Cannabis species",
@@ -16259,11 +16259,11 @@
     ],
     [
       "Cannabis species",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "Cannabis species",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "Cannabis species",
@@ -16271,7 +16271,7 @@
     ],
     [
       "Cannabis species",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "Cannabis species",
@@ -16299,7 +16299,7 @@
     ],
     [
       "Cannabis species",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "Cannabis species",
@@ -16315,7 +16315,7 @@
     ],
     [
       "Cannabis species",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "Cannabis species",
@@ -17038,23 +17038,23 @@
       "GHB/GBL"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "LSD"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "Psilocybin"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "DMT"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "Mescaline"
     ],
     [
-      "Salvia divonorum",
+      "Salvia divinorum",
       "Cannabis species"
     ],
     [
@@ -17082,51 +17082,51 @@
       "Banisteriopsis caapi"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "LSD"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "Psilocybin"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "DMT"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "Mescaline"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "Cannabis species"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "Banisteriopsis caapi"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "LSD"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "Psilocybin"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "DMT"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "Mescaline"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "Cannabis species"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "Banisteriopsis caapi"
     ],
     [
@@ -17154,27 +17154,27 @@
       "Banisteriopsis caapi"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "LSD"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "Psilocybin"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "DMT"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "Mescaline"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "Cannabis species"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "Banisteriopsis caapi"
     ],
     [
@@ -17266,23 +17266,23 @@
       "Cannabis species"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "LSD"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "Psilocybin"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "DMT"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "Mescaline"
     ],
     [
-      "Papaver somnifarem",
+      "Papaver species",
       "Cannabis species"
     ],
     [
@@ -17311,11 +17311,11 @@
     ],
     [
       "Banisteriopsis caapi",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "Banisteriopsis caapi",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "Banisteriopsis caapi",
@@ -17323,7 +17323,7 @@
     ],
     [
       "Banisteriopsis caapi",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "Banisteriopsis caapi",
@@ -17382,23 +17382,23 @@
       "Cannabis species"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "LSD"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "Psilocybin"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "DMT"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "Mescaline"
     ],
     [
-      "Ephedra sinica",
+      "Ephedra species",
       "Cannabis species"
     ],
     [
@@ -17446,11 +17446,11 @@
       "Kava"
     ],
     [
-      "Mimosa tenuiflora",
+      "Mimosa species",
       "Kava"
     ],
     [
-      "Panaelous cyanescens",
+      "Panaelous species",
       "Kava"
     ],
     [
@@ -17458,7 +17458,7 @@
       "Kava"
     ],
     [
-      "Ipomea violacea",
+      "Ipomoea violacea",
       "Kava"
     ],
     [
@@ -17503,11 +17503,11 @@
     ],
     [
       "Kava",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "Kava",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "Kava",
@@ -17515,7 +17515,7 @@
     ],
     [
       "Kava",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "Kava",
@@ -17961,7 +17961,7 @@
     ],
     [
       "Meditation",
-      "Salvia divonorum"
+      "Salvia divinorum"
     ],
     [
       "Meditation",
@@ -17969,11 +17969,11 @@
     ],
     [
       "Meditation",
-      "Mimosa tenuiflora"
+      "Mimosa species"
     ],
     [
       "Meditation",
-      "Panaelous cyanescens"
+      "Panaelous species"
     ],
     [
       "Meditation",
@@ -17981,7 +17981,7 @@
     ],
     [
       "Meditation",
-      "Ipomea violacea"
+      "Ipomoea violacea"
     ],
     [
       "Meditation",
@@ -18009,7 +18009,7 @@
     ],
     [
       "Meditation",
-      "Papaver somnifarem"
+      "Papaver species"
     ],
     [
       "Meditation",
@@ -18025,7 +18025,7 @@
     ],
     [
       "Meditation",
-      "Ephedra sinica"
+      "Ephedra species"
     ],
     [
       "Meditation",
