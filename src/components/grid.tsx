@@ -1,29 +1,13 @@
 import { Component, Fragment } from "preact";
 import { confidence, displayname, linkify, risk, risk_to_bg } from "../util";
 
-interface Datum {
-  [key: string]: any;
-  slug: string;
-  title: string;
-  family_members?: string[];
-  aka?: string[];
-  url?: string;
-  displayname?: string;
-  terms?: string;
-}
-
-function search(
-  data: { [key: string]: Datum },
-  query: string,
-  slugs: string[],
-  chosen: string[]
-): Datum[] {
-  function populate_item(datum: Datum): void {
+function search(data, query: string, slugs: string[], chosen: string[]) {
+  function populate_item(datum): void {
     datum["url"] = "/psychoactives/" + datum.slug + "/";
     datum["displayname"] = displayname(datum, query);
   }
 
-  let out: Datum[] = [];
+  let out = [];
   if (query == "") {
     for (let choice of chosen) {
       let datum = data[choice];
@@ -51,11 +35,7 @@ function search(
   return out;
 }
 
-interface Data {
-  drugs: string[];
-}
-
-function slugs(data: Data): string[] {
+function slugs(data): string[] {
   let slugs: string[] = [];
   for (let sub of data["drugs"]) {
     slugs.push(linkify(sub));
@@ -63,12 +43,8 @@ function slugs(data: Data): string[] {
   return slugs;
 }
 
-interface HrefProps {
-  items: string[];
-}
-
-function href(items: HrefProps["items"]): string {
-  let subs: string[] = [...new Set(items)];
+function href(items): string {
+  let subs = [...new Set(items)];
   subs.sort();
   if (subs.length == 1) {
     return `/psychoactives/${subs[0]}/`;
@@ -77,29 +53,17 @@ function href(items: HrefProps["items"]): string {
   }
 }
 
-interface TitleProps {
-  items: string[];
-  psych_data: { [key: string]: { title: string } };
-}
-
-function title(
-  items: TitleProps["items"],
-  psych_data: TitleProps["psych_data"]
-): string {
-  let subs: string[] = [...new Set(items)];
+function title(items, psych_data): string {
+  let subs = [...new Set(items)];
   subs.sort();
   if (subs.length == 1) {
-    return psych_data[subs[0]].title;
+    return psych_data[subs[0] as any].title;
   } else {
     return `${psych_data[items[0]].title} + ${psych_data[items[1]].title}`;
   }
 }
 
-interface WarnData {
-  [key: string]: any;
-}
-
-function warn(i1: string, i2: string, data: WarnData): boolean {
+function warn(i1: string, i2: string, data): boolean {
   return confidence([i1, i2], data) == "Low confidence";
 }
 
