@@ -31,6 +31,7 @@ interface SearchDatum extends Entry {
 
 function search(data: Entry[], query: string, limit: number): SearchDatum[] {
   let segments = query
+    .toLowerCase()
     .replace(" and ", " ")
     .replace(" & ", " ")
     .replace(" + ", " ")
