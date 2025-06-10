@@ -1,5 +1,5 @@
 ---
-import * as data from "@public/risks.json" assert { type: "json" };
+import data from "@public/risks.json";
 import Disclaimer from "@src/components/disclaimer.astro";
 import Grid from "@src/components/grid";
 import BaseLayout from "@src/layouts/BaseLayout.astro";
@@ -106,6 +106,6 @@ for (let sub of substances) {
     >
   </span>
 
-  <Grid psych_data={preact_data} data={data} />
+  <Grid psych_data={preact_data} data={data} client:visible />
   <Disclaimer />
 </BaseLayout>
