@@ -23,6 +23,7 @@ function search(
   slugs: string[],
   chosen: string[]
 ): SearchDatum[] {
+  query = query.toLowerCase();
   function populate_item(datum: SearchDatum): void {
     datum["url"] = "/psychoactives/" + datum.slug + "/";
     datum["displayname"] = displayname(datum, query);

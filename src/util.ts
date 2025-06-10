@@ -27,7 +27,6 @@ export function risk(list: string[], data: RisksData): string {
 }
 
 export function confidence(list: string[], data: RisksData): string {
-  console.debug(Object.keys(data));
   let canon = combo(list);
   for (let conf of data["conf_levels"]) {
     for (let candidate of data[conf] as string[][]) {
