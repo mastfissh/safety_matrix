@@ -30,7 +30,7 @@ export interface RiskData {
 }
 
 export interface ConfidenceData {
-  conf_levels: string[];
+  conf_levels?: string[];
   [conf: string]: string[][] | string[];
 }
 
@@ -73,8 +73,8 @@ export function risk_to_bg(risk: string) {
 }
 
 export interface Entry {
-  title: string;
-  terms: string;
+  title?: string;
+  terms?: string;
 }
 
 export function displayname(entry: Entry, query: string): string | undefined {

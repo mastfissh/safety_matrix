@@ -2,7 +2,14 @@ import { Component, Fragment } from "preact";
 import { confidence, displayname, linkify, risk, risk_to_bg } from "../util";
 
 function search(data, query: string, slugs: string[], chosen: string[]) {
-  function populate_item(datum): void {
+  interface Datum {
+    slug: string;
+    [key: string]: any;
+    title?: string;
+    terms?: string;
+  }
+
+  function populate_item(datum: Datum): void {
     datum["url"] = "/psychoactives/" + datum.slug + "/";
     datum["displayname"] = displayname(datum, query);
   }
@@ -35,7 +42,12 @@ function search(data, query: string, slugs: string[], chosen: string[]) {
   return out;
 }
 
-function slugs(data): string[] {
+interface DrugData {
+  drugs: string[];
+  [key: string]: any;
+}
+
+function slugs(data: DrugData): string[] {
   let slugs: string[] = [];
   for (let sub of data["drugs"]) {
     slugs.push(linkify(sub));
@@ -43,8 +55,10 @@ function slugs(data): string[] {
   return slugs;
 }
 
-function href(items): string {
-  let subs = [...new Set(items)];
+interface HrefItems extends Array<string> {}
+
+function href(items: HrefItems): string {
+  let subs: string[] = [...new Set(items)];
   subs.sort();
   if (subs.length == 1) {
     return `/psychoactives/${subs[0]}/`;
@@ -53,28 +67,44 @@ function href(items): string {
   }
 }
 
-function title(items, psych_data): string {
+interface PsychDataItem {
+  title: string;
+  [key: string]: any;
+}
+
+interface PsychDataMap {
+  [slug: string]: PsychDataItem;
+}
+
+function title(items: string[], psych_data: PsychDataMap): string {
   let subs = [...new Set(items)];
   subs.sort();
   if (subs.length == 1) {
-    return psych_data[subs[0] as any].title;
+    return psych_data[subs[0] as string].title;
   } else {
     return `${psych_data[items[0]].title} + ${psych_data[items[1]].title}`;
   }
 }
 
-function warn(i1: string, i2: string, data): boolean {
+interface DataMap {
+  [key: string]: any;
+}
+
+function warn(i1: string, i2: string, data: DataMap): boolean {
   return confidence([i1, i2], data) == "Low confidence";
 }
-
 interface GridTableProps {
-  data: any[];
-  chosen: any[];
-  psych_data: any[];
-  ordering: any[];
+  chosen: string[];
+  ordering: string[];
+  data: { [key: string]: any };
+  psych_data: { [key: string]: any };
+}
+interface GridTableState {
+  value: string;
+  checked_boxes: string[];
 }
 
-class GridTable extends Component<GridTableProps> {
+class GridTable extends Component<GridTableProps, GridTableState> {
   render(
     i: {
       chosen: string[];
@@ -217,10 +247,17 @@ export default class Grid extends Component<GridProps, GridState> {
     this.setState({ checked_boxes });
   };
 
-  render(i, { value }) {
+  render(i: GridProps, { value }: GridState): preact.ComponentChild {
+    interface PsychItem {
+      slug: string;
+      displayname: string;
+      img_capt: string;
+      img: Record<string, any>;
+    }
+
     let query = this.state.value;
-    let ordering = slugs(i.data);
-    let psychs = search(
+    let ordering = slugs(i.data as DrugData);
+    let psychs: PsychItem[] = search(
       i.psych_data,
       query,
       ordering,
@@ -297,7 +334,7 @@ export default class Grid extends Component<GridProps, GridState> {
           </div>
         </form>
         <ul class="w-full gap-6 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 md:grid-cols-4 xl:grid-cols-7 2xl:grid-cols-8 print:hidden">
-          {psychs.map((item) => (
+          {psychs.map((item: PsychItem) => (
             <Fragment key={item.slug}>
               <li>
                 <input
