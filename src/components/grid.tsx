@@ -2,14 +2,7 @@ import { Component, Fragment } from "preact";
 import { confidence, displayname, linkify, risk, risk_to_bg } from "../util";
 
 function search(data, query: string, slugs: string[], chosen: string[]) {
-  interface Datum {
-    slug: string;
-    [key: string]: any;
-    title?: string;
-    terms?: string;
-  }
-
-  function populate_item(datum: Datum): void {
+  function populate_item(datum): void {
     datum["url"] = "/psychoactives/" + datum.slug + "/";
     datum["displayname"] = displayname(datum, query);
   }
