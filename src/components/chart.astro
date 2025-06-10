@@ -17,7 +17,7 @@ declare global {
     <canvas id={id}></canvas>
   </div>
 </span>
-<script define:vars={{ data, id }}>
+<script is:inline define:vars={{ data, id }}>
   window.addEventListener("load", (event) => {
     window.drawChart(id, data);
   });
@@ -26,7 +26,7 @@ declare global {
   import Chart from "chart.js/auto";
   import { DateTime, Duration } from "luxon";
   import "chartjs-adapter-luxon";
-  window.drawChart = function (targetId, duration_chart) {
+  window.drawChart = function (targetId: string, duration_chart) {
     const now = DateTime.fromISO("12:00");
     const ctx: any = document.getElementById(targetId);
     let onset = Duration.fromISO("PT" + duration_chart.onset.toUpperCase());
@@ -69,9 +69,7 @@ declare global {
       }
       return x_label_hours(diff);
     }
-  function cleaned_x_label(timestamp, idx, ticks) {
-    return x_label(timestamp);
-  }
+
     new Chart(ctx, {
       type: "line",
       data: {
@@ -100,8 +98,8 @@ declare global {
               display: false,
             },
             ticks: {
-              callback: function (val, index, ticks) {
-                return cleaned_x_label(val, index,ticks);
+              callback: function (val) {
+                return x_label(val);
               },
               maxTicksLimit: 10,
               major: {

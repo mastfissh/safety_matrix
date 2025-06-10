@@ -12,7 +12,7 @@ let logo_512 = await getImage({
   height: 512,
   format: "png",
 });
-export async function GET({ params, request }) {
+export async function GET({}) {
   let out = {
     short_name: "PsychCombos",
     name: "Psychoactive combination safety",

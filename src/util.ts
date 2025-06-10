@@ -36,18 +36,18 @@ export function confidence(list, data) {
   }
   return "unknown";
 }
-function strip_weird_chars(str) {
+function strip_weird_chars(str: string): string {
   return str.replaceAll("/", "-").replaceAll(" ", "-");
 }
-export function linkify(str) {
+export function linkify(str: string): string {
   return strip_weird_chars(str).replaceAll("-+-", "_").toLowerCase();
 }
 
-export function drug_css_prefix(str) {
+export function drug_css_prefix(str: string): string {
   return "drug_" + strip_weird_chars(str);
 }
 
-export function risk_to_bg(risk) {
+export function risk_to_bg(risk: string) {
   const map = {
     SR: "bg-red-200",
     GR: "bg-orange-200",
@@ -60,7 +60,7 @@ export function risk_to_bg(risk) {
   return map[risk];
 }
 
-export function displayname(entry, query) {
+export function displayname(entry, query: string) {
   if (entry.title.toLowerCase().search(query) != -1) {
     return entry.title;
   } else {

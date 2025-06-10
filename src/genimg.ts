@@ -3,29 +3,30 @@ import type { ChartConfiguration } from "chart.js/auto";
 import path from "path";
 import { promises as fs } from "fs";
 import { DateTime, Duration } from "luxon";
-import YAML from 'yaml'
+import YAML from "yaml";
 
-
-const contentPath = path.join(process.cwd(),'src', 'content', 'psychoactives');
+const contentPath = path.join(process.cwd(), "src", "content", "psychoactives");
 
 async function readContent() {
   try {
     const files = await fs.readdir(contentPath);
-    const entries = await Promise.all(files.map(async (file) => {
-      const filePath = path.join(contentPath, file);
-      const content = await fs.readFile(filePath, 'utf-8');
-      const data = content.split('---')[1];
-      const parsed = YAML.parse(data);
-      parsed.slug = file.replace('.mdx', '');
-      return parsed;
-    }));
+    const entries = await Promise.all(
+      files.map(async (file) => {
+        const filePath = path.join(contentPath, file);
+        const content = await fs.readFile(filePath, "utf-8");
+        const data = content.split("---")[1];
+        const parsed = YAML.parse(data);
+        parsed.slug = file.replace(".mdx", "");
+        return parsed;
+      })
+    );
     return entries;
   } catch (error) {
-    console.error('Error reading content:', error);
+    console.error("Error reading content:", error);
   }
 }
 
-async function writeChart(slug, duration_chart): Promise<void> {
+async function writeChart(slug: string, duration_chart): Promise<void> {
   const now = DateTime.fromISO("12:00");
   let onset = Duration.fromISO("PT" + duration_chart.onset.toUpperCase());
   let coming_up = Duration.fromISO(
@@ -47,17 +48,18 @@ async function writeChart(slug, duration_chart): Promise<void> {
   Duration.fromISO("PT23H");
   let total_duration_in_seconds = (max.toMillis() - now.toMillis()) / 1000;
 
-  function x_label_seconds(seconds) {
+  function x_label_seconds(seconds: number): string {
     return `${seconds} secs`;
   }
-  function x_label_minutes(seconds) {
+  function x_label_minutes(seconds: number): string {
     let display = Math.floor(seconds / 60);
     return `${display} mins`;
   }
-  function x_label_hours(seconds) {
+  function x_label_hours(seconds: number): string {
     let display = Math.floor(seconds / 3600);
     return `${display} hrs`;
   }
+
   function x_label(timestamp) {
     let diff = (timestamp - now.toMillis()) / 1000;
     if (total_duration_in_seconds < 400) {
@@ -68,9 +70,7 @@ async function writeChart(slug, duration_chart): Promise<void> {
     }
     return x_label_hours(diff);
   }
-  function cleaned_x_label(timestamp) {
-    return x_label(timestamp);
-  }
+
   const width = 900;
   const height = 450;
   const configuration: ChartConfiguration = {
@@ -89,7 +89,6 @@ async function writeChart(slug, duration_chart): Promise<void> {
     },
     options: {
       scales: {
-        
         y: {
           display: false,
           grid: {
@@ -100,33 +99,31 @@ async function writeChart(slug, duration_chart): Promise<void> {
           type: "time",
           grid: {
             display: false,
-            
           },
-          
+
           ticks: {
             callback: function (val) {
-              return cleaned_x_label(val);
+              return x_label(val);
             },
             maxTicksLimit: 10,
             major: {
               enabled: true,
             },
             font: {
-              size: 24
-          },
+              size: 24,
+            },
           },
         },
       },
       plugins: {
         legend: {
-            labels: {
-                font: {
-                    size: 36
-                }
-            }
+          labels: {
+            font: {
+              size: 36,
+            },
+          },
         },
-
-    }
+      },
     },
     plugins: [
       {
@@ -155,7 +152,9 @@ async function writeChart(slug, duration_chart): Promise<void> {
     chartCallback,
   });
   const buffer = await chartJSNodeCanvas.renderToBuffer(configuration);
-  await fs.mkdir(path.join(process.cwd(), "public", "charts"),{ recursive: true });
+  await fs.mkdir(path.join(process.cwd(), "public", "charts"), {
+    recursive: true,
+  });
   await fs.writeFile(`./public/charts/${slug}.png`, buffer, "base64");
 }
 
