@@ -1,6 +1,6 @@
 ---
 const { slug, type, action = "edit" } = Astro.props;
-let url
+let url: string
 if (action === "edit"){
   url = `https://github.com/mastfissh/safety_matrix/edit/main/src/content/${type}/${slug}.mdx`
 } else if(action === "create"){

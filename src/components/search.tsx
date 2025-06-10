@@ -1,7 +1,7 @@
-import { Component, Fragment } from "preact";
 import { combo, linkify } from "@src/util";
+import { Component, Fragment } from "preact";
 
-function displayname(entry, q) {
+function displayname(entry, q: string): string | undefined {
   if (entry.title.toLowerCase().search(q) != -1) {
     return entry.title;
   } else {
@@ -13,7 +13,7 @@ function displayname(entry, q) {
   }
 }
 
-function search(data, query, limit) {
+function search(data, query: string, limit: number) {
   let segments = query
     .replace(" and ", " ")
     .replace(" & ", " ")
@@ -67,29 +67,35 @@ function search(data, query, limit) {
 
   return out;
 }
-
+interface SearchState {
+  value: string;
+}
 interface SearchProps {
   data: any[];
 }
 
-export default class Search extends Component<SearchProps> {
+export default class Search extends Component<SearchProps, SearchState> {
   state = { value: "" };
 
-  onSubmit = (e) => {
+  onSubmit = (e: Event) => {
     e.preventDefault();
   };
 
-  onInput = (e) => {
-    const { value } = e.target;
+  onInput = (e: Event) => {
+    const target = e.target as HTMLInputElement;
+    const { value } = target;
     this.setState({ value });
   };
 
-  clearInput = (e) => {
-    const value = "";
+  clearInput = (): void => {
+    const value: string = "";
     this.setState({ value });
   };
 
-  render(i, { value }) {
+  render(
+    i: Readonly<SearchProps>,
+    { value }: Readonly<SearchState>
+  ): preact.ComponentChild {
     let query = this.state.value;
     let psychs = search(i.data, query, 25);
     return (
