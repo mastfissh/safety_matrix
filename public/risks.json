@@ -25,7 +25,7 @@
     "DXM",
     "Nitrous Oxide",
     "Caffeine",
-    "GHB/GBL",
+    "GHB",
     "Tramadol",
     "Benzodiazepines",
     "MAOIs",
@@ -47,7 +47,7 @@
     "Erythroxylum species",
     "Phyllomedusa bicolor",
     "Tabernathe iboga",
-    "Kava"
+    "Piper methysticum"
   ],
   "risk_levels": [
     "SR",
@@ -84,7 +84,7 @@
     ],
     [
       "Ketamine",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "Ketamine",
@@ -112,7 +112,7 @@
     ],
     [
       "MXE",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "MXE",
@@ -144,7 +144,7 @@
     ],
     [
       "DXM",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "DXM",
@@ -264,7 +264,7 @@
     ],
     [
       "Alcohol",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "Alcohol",
@@ -291,43 +291,43 @@
       "Phyllomedusa bicolor"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "Ketamine"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "MXE"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "DXM"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "Alcohol"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "Opioids"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "Tramadol"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "Benzodiazepines"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "Mitragyna speciosa"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "Papaver species"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "Phyllomedusa bicolor"
     ],
     [
@@ -352,7 +352,7 @@
     ],
     [
       "Opioids",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "Opioids",
@@ -396,7 +396,7 @@
     ],
     [
       "Tramadol",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "Tramadol",
@@ -452,7 +452,7 @@
     ],
     [
       "Benzodiazepines",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "Benzodiazepines",
@@ -608,7 +608,7 @@
     ],
     [
       "Piper methysticum",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "Piper methysticum",
@@ -648,7 +648,7 @@
     ],
     [
       "Phyllomedusa bicolor",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "Phyllomedusa bicolor",
@@ -700,115 +700,115 @@
     ],
     [
       "5-MeO-xxT",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "DXM",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "Amphetamines",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "MDMA",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "Cocaine",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "Tramadol",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "SSRIs",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "Incillius alvarius",
-      "Kava"
+      "Piper methysticum"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Cannabis species"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Opioids"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "SSRIs"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Incillius alvarius"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Tabernathe iboga"
     ],
     [
       "Tabernathe iboga",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "5-MeO-xxT",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "DXM",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "Amphetamines",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "MDMA",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "Cocaine",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "Tramadol",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "SSRIs",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "Incillius alvarius",
-      "Kava"
+      "Piper methysticum"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Cannabis species"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Opioids"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "SSRIs"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Incillius alvarius"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Tabernathe iboga"
     ],
     [
       "Tabernathe iboga",
-      "Kava"
+      "Piper methysticum"
     ]
   ],
   "GR": [
@@ -1498,83 +1498,83 @@
     ],
     [
       "MXE",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "Alcohol",
-      "Kava"
+      "Piper methysticum"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Catha edulis"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Ephedra species"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Erythroxylum species"
     ],
     [
       "Catha edulis",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "Ephedra species",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "Erythroxylum species",
-      "Kava"
+      "Piper methysticum"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Cathinones"
     ],
     [
       "Cathinones",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "MXE",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "Alcohol",
-      "Kava"
+      "Piper methysticum"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Catha edulis"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Ephedra species"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Erythroxylum species"
     ],
     [
       "Catha edulis",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "Ephedra species",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "Erythroxylum species",
-      "Kava"
+      "Piper methysticum"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Cathinones"
     ],
     [
       "Cathinones",
-      "Kava"
+      "Piper methysticum"
     ]
   ],
   "MR": [
@@ -2208,7 +2208,7 @@
     ],
     [
       "Nitrous Oxide",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "Nitrous Oxide",
@@ -2280,7 +2280,7 @@
     ],
     [
       "Amphetamines",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "Amphetamines",
@@ -2380,7 +2380,7 @@
     ],
     [
       "MDMA",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "MDMA",
@@ -2436,7 +2436,7 @@
     ],
     [
       "Cocaine",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "Cocaine",
@@ -2559,43 +2559,43 @@
       "Tabernathe iboga"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "Nitrous Oxide"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "Amphetamines"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "MDMA"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "Cocaine"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "Salvia divinorum"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "Amanita muscaria"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "Catha edulis"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "Ephedra species"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "Erythroxylum species"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "Tabernathe iboga"
     ],
     [
@@ -2744,7 +2744,7 @@
     ],
     [
       "Salvia divinorum",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "Salvia divinorum",
@@ -2964,7 +2964,7 @@
     ],
     [
       "Amanita muscaria",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "Amanita muscaria",
@@ -3224,7 +3224,7 @@
     ],
     [
       "Banisteriopsis caapi",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "Banisteriopsis caapi",
@@ -3356,7 +3356,7 @@
     ],
     [
       "Catha edulis",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "Catha edulis",
@@ -3460,7 +3460,7 @@
     ],
     [
       "Ephedra species",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "Ephedra species",
@@ -3572,7 +3572,7 @@
     ],
     [
       "Erythroxylum species",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "Erythroxylum species",
@@ -3776,7 +3776,7 @@
     ],
     [
       "Tabernathe iboga",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "Tabernathe iboga",
@@ -3919,7 +3919,7 @@
       "Cathinones"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "Cathinones"
     ],
     [
@@ -4020,7 +4020,7 @@
     ],
     [
       "Cathinones",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "Cathinones",
@@ -4112,203 +4112,203 @@
     ],
     [
       "Mescaline",
-      "Kava"
-    ],
-    [
-      "DOx",
-      "Kava"
-    ],
-    [
-      "NBOMes",
-      "Kava"
-    ],
-    [
-      "2C-x",
-      "Kava"
-    ],
-    [
-      "2C-T-x",
-      "Kava"
-    ],
-    [
-      "Ketamine",
-      "Kava"
-    ],
-    [
-      "Opioids",
-      "Kava"
-    ],
-    [
-      "Trichocereus species",
-      "Kava"
-    ],
-    [
-      "Lophophora williamsii",
-      "Kava"
-    ],
-    [
-      "Kava",
-      "Mescaline"
-    ],
-    [
-      "Kava",
-      "DOx"
-    ],
-    [
-      "Kava",
-      "NBOMes"
-    ],
-    [
-      "Kava",
-      "2C-x"
-    ],
-    [
-      "Kava",
-      "2C-T-x"
-    ],
-    [
-      "Kava",
-      "Ketamine"
-    ],
-    [
-      "Kava",
-      "Alcohol"
-    ],
-    [
-      "Kava",
-      "GHB/GBL"
-    ],
-    [
-      "Kava",
-      "Tramadol"
-    ],
-    [
-      "Kava",
-      "Benzodiazepines"
-    ],
-    [
-      "Kava",
-      "Trichocereus species"
-    ],
-    [
-      "Kava",
-      "Lophophora williamsii"
-    ],
-    [
-      "Kava",
       "Piper methysticum"
     ],
     [
-      "Kava",
+      "DOx",
+      "Piper methysticum"
+    ],
+    [
+      "NBOMes",
+      "Piper methysticum"
+    ],
+    [
+      "2C-x",
+      "Piper methysticum"
+    ],
+    [
+      "2C-T-x",
+      "Piper methysticum"
+    ],
+    [
+      "Ketamine",
+      "Piper methysticum"
+    ],
+    [
+      "Opioids",
+      "Piper methysticum"
+    ],
+    [
+      "Trichocereus species",
+      "Piper methysticum"
+    ],
+    [
+      "Lophophora williamsii",
+      "Piper methysticum"
+    ],
+    [
+      "Piper methysticum",
+      "Mescaline"
+    ],
+    [
+      "Piper methysticum",
+      "DOx"
+    ],
+    [
+      "Piper methysticum",
+      "NBOMes"
+    ],
+    [
+      "Piper methysticum",
+      "2C-x"
+    ],
+    [
+      "Piper methysticum",
+      "2C-T-x"
+    ],
+    [
+      "Piper methysticum",
+      "Ketamine"
+    ],
+    [
+      "Piper methysticum",
+      "Alcohol"
+    ],
+    [
+      "Piper methysticum",
+      "GHB"
+    ],
+    [
+      "Piper methysticum",
+      "Tramadol"
+    ],
+    [
+      "Piper methysticum",
+      "Benzodiazepines"
+    ],
+    [
+      "Piper methysticum",
+      "Trichocereus species"
+    ],
+    [
+      "Piper methysticum",
+      "Lophophora williamsii"
+    ],
+    [
+      "Piper methysticum",
+      "Piper methysticum"
+    ],
+    [
+      "Piper methysticum",
       "Phyllomedusa bicolor"
     ],
     [
       "Piper methysticum",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "Phyllomedusa bicolor",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "Mescaline",
-      "Kava"
-    ],
-    [
-      "DOx",
-      "Kava"
-    ],
-    [
-      "NBOMes",
-      "Kava"
-    ],
-    [
-      "2C-x",
-      "Kava"
-    ],
-    [
-      "2C-T-x",
-      "Kava"
-    ],
-    [
-      "Ketamine",
-      "Kava"
-    ],
-    [
-      "Opioids",
-      "Kava"
-    ],
-    [
-      "Trichocereus species",
-      "Kava"
-    ],
-    [
-      "Lophophora williamsii",
-      "Kava"
-    ],
-    [
-      "Kava",
-      "Mescaline"
-    ],
-    [
-      "Kava",
-      "DOx"
-    ],
-    [
-      "Kava",
-      "NBOMes"
-    ],
-    [
-      "Kava",
-      "2C-x"
-    ],
-    [
-      "Kava",
-      "2C-T-x"
-    ],
-    [
-      "Kava",
-      "Ketamine"
-    ],
-    [
-      "Kava",
-      "Alcohol"
-    ],
-    [
-      "Kava",
-      "GHB/GBL"
-    ],
-    [
-      "Kava",
-      "Tramadol"
-    ],
-    [
-      "Kava",
-      "Benzodiazepines"
-    ],
-    [
-      "Kava",
-      "Trichocereus species"
-    ],
-    [
-      "Kava",
-      "Lophophora williamsii"
-    ],
-    [
-      "Kava",
       "Piper methysticum"
     ],
     [
-      "Kava",
+      "DOx",
+      "Piper methysticum"
+    ],
+    [
+      "NBOMes",
+      "Piper methysticum"
+    ],
+    [
+      "2C-x",
+      "Piper methysticum"
+    ],
+    [
+      "2C-T-x",
+      "Piper methysticum"
+    ],
+    [
+      "Ketamine",
+      "Piper methysticum"
+    ],
+    [
+      "Opioids",
+      "Piper methysticum"
+    ],
+    [
+      "Trichocereus species",
+      "Piper methysticum"
+    ],
+    [
+      "Lophophora williamsii",
+      "Piper methysticum"
+    ],
+    [
+      "Piper methysticum",
+      "Mescaline"
+    ],
+    [
+      "Piper methysticum",
+      "DOx"
+    ],
+    [
+      "Piper methysticum",
+      "NBOMes"
+    ],
+    [
+      "Piper methysticum",
+      "2C-x"
+    ],
+    [
+      "Piper methysticum",
+      "2C-T-x"
+    ],
+    [
+      "Piper methysticum",
+      "Ketamine"
+    ],
+    [
+      "Piper methysticum",
+      "Alcohol"
+    ],
+    [
+      "Piper methysticum",
+      "GHB"
+    ],
+    [
+      "Piper methysticum",
+      "Tramadol"
+    ],
+    [
+      "Piper methysticum",
+      "Benzodiazepines"
+    ],
+    [
+      "Piper methysticum",
+      "Trichocereus species"
+    ],
+    [
+      "Piper methysticum",
+      "Lophophora williamsii"
+    ],
+    [
+      "Piper methysticum",
+      "Piper methysticum"
+    ],
+    [
+      "Piper methysticum",
       "Phyllomedusa bicolor"
     ],
     [
       "Piper methysticum",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "Phyllomedusa bicolor",
-      "Kava"
+      "Piper methysticum"
     ]
   ],
   "LRS": [
@@ -4513,7 +4513,7 @@
       "Banisteriopsis caapi"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Banisteriopsis caapi"
     ],
     [
@@ -4986,7 +4986,7 @@
     ],
     [
       "Cannabis species",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "Cannabis species",
@@ -5477,19 +5477,19 @@
       "Cannabis species"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "Cannabis species"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "MAOIs"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "Banisteriopsis caapi"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "Piper methysticum"
     ],
     [
@@ -5538,7 +5538,7 @@
     ],
     [
       "MAOIs",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "MAOIs",
@@ -6506,7 +6506,7 @@
     ],
     [
       "Papaver species",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "Papaver species",
@@ -6962,7 +6962,7 @@
     ],
     [
       "Meditation",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "Meditation",
@@ -7066,223 +7066,223 @@
     ],
     [
       "Psilocybin",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "DMT",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "Cannabis species",
-      "Kava"
+      "Piper methysticum"
     ],
     [
-      "GHB/GBL",
-      "Kava"
+      "GHB",
+      "Piper methysticum"
     ],
     [
       "Benzodiazepines",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "MAOIs",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "Acacia species",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "Mimosa species",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "Panaelous species",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "Argyreia nervosa",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "Ipomoea violacea",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "Turbina corymbosa",
-      "Kava"
+      "Piper methysticum"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Psilocybin"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "DMT"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "MXE"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "DXM"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Nitrous Oxide"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "MAOIs"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Acacia species"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Mimosa species"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Panaelous species"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Argyreia nervosa"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Ipomoea violacea"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Turbina corymbosa"
     ],
     [
       "Psilocybe Species",
-      "Kava"
+      "Piper methysticum"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Psilocybe Species"
     ],
     [
       "Meditation",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "Psilocybin",
-      "Kava"
+      "Piper methysticum"
     ],
     [
-      "Kava",
-      "Kava"
+      "Piper methysticum",
+      "Piper methysticum"
     ],
     [
       "DMT",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "Cannabis species",
-      "Kava"
+      "Piper methysticum"
     ],
     [
-      "GHB/GBL",
-      "Kava"
+      "GHB",
+      "Piper methysticum"
     ],
     [
       "Benzodiazepines",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "MAOIs",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "Acacia species",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "Mimosa species",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "Panaelous species",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "Argyreia nervosa",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "Ipomoea violacea",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "Turbina corymbosa",
-      "Kava"
+      "Piper methysticum"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Psilocybin"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "DMT"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "MXE"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "DXM"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Nitrous Oxide"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "MAOIs"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Acacia species"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Mimosa species"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Panaelous species"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Argyreia nervosa"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Ipomoea violacea"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Turbina corymbosa"
     ],
     [
       "Psilocybe Species",
-      "Kava"
+      "Piper methysticum"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Psilocybe Species"
     ],
     [
       "Meditation",
-      "Kava"
+      "Piper methysticum"
     ]
   ],
   "LRD": [
@@ -7292,7 +7292,7 @@
     ],
     [
       "LSD",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "LSD",
@@ -7320,7 +7320,7 @@
     ],
     [
       "Psilocybin",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "Psilocybin",
@@ -7336,7 +7336,7 @@
     ],
     [
       "DMT",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "DMT",
@@ -7352,7 +7352,7 @@
     ],
     [
       "Mescaline",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "Mescaline",
@@ -7368,7 +7368,7 @@
     ],
     [
       "DOx",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "DOx",
@@ -7384,7 +7384,7 @@
     ],
     [
       "NBOMes",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "NBOMes",
@@ -7400,7 +7400,7 @@
     ],
     [
       "2C-x",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "2C-x",
@@ -7416,7 +7416,7 @@
     ],
     [
       "2C-T-x",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "2C-T-x",
@@ -7432,7 +7432,7 @@
     ],
     [
       "5-MeO-xxT",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "5-MeO-xxT",
@@ -7559,75 +7559,75 @@
       "Incillius alvarius"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "LSD"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "Psilocybin"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "DMT"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "Mescaline"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "DOx"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "NBOMes"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "2C-x"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "2C-T-x"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "5-MeO-xxT"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "Acacia species"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "Mimosa species"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "Panaelous species"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "Argyreia nervosa"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "Ipomoea violacea"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "Turbina corymbosa"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "Trichocereus species"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "Lophophora williamsii"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "Incillius alvarius"
     ],
     [
@@ -7848,7 +7848,7 @@
     ],
     [
       "Acacia species",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "Acacia species",
@@ -7864,7 +7864,7 @@
     ],
     [
       "Mimosa species",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "Mimosa species",
@@ -7880,7 +7880,7 @@
     ],
     [
       "Panaelous species",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "Panaelous species",
@@ -7896,7 +7896,7 @@
     ],
     [
       "Argyreia nervosa",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "Argyreia nervosa",
@@ -7916,7 +7916,7 @@
     ],
     [
       "Ipomoea violacea",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "Ipomoea violacea",
@@ -7936,7 +7936,7 @@
     ],
     [
       "Turbina corymbosa",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "Turbina corymbosa",
@@ -7984,7 +7984,7 @@
     ],
     [
       "Trichocereus species",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "Trichocereus species",
@@ -8000,7 +8000,7 @@
     ],
     [
       "Lophophora williamsii",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "Lophophora williamsii",
@@ -8016,7 +8016,7 @@
     ],
     [
       "Incillius alvarius",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "Incillius alvarius",
@@ -8108,7 +8108,7 @@
     ],
     [
       "Psilocybe Species",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "Psilocybe Species",
@@ -8123,7 +8123,7 @@
       "Psilocybe Species"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "Psilocybe Species"
     ],
     [
@@ -8168,42 +8168,42 @@
     ],
     [
       "LSD",
-      "Kava"
+      "Piper methysticum"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "LSD"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Amphetamines"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "MDMA"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Cocaine"
     ],
     [
       "LSD",
-      "Kava"
+      "Piper methysticum"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "LSD"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Amphetamines"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "MDMA"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Cocaine"
     ]
   ],
@@ -8570,7 +8570,7 @@
     ],
     [
       "Caffeine",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "Caffeine",
@@ -8653,11 +8653,11 @@
       "Caffeine"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "Caffeine"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "SSRIs"
     ],
     [
@@ -8790,7 +8790,7 @@
     ],
     [
       "SSRIs",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "SSRIs",
@@ -9194,7 +9194,7 @@
     ],
     [
       "Mitragyna speciosa",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "Mitragyna speciosa",
@@ -9534,90 +9534,90 @@
     ],
     [
       "Nitrous Oxide",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "Caffeine",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "Salvia divinorum",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "Amanita muscaria",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "Mitragyna speciosa",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "Papaver species",
-      "Kava"
+      "Piper methysticum"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Caffeine"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Salvia divinorum"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Amanita muscaria"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Mitragyna speciosa"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Papaver species"
     ],
     [
       "Nitrous Oxide",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "Caffeine",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "Salvia divinorum",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "Amanita muscaria",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "Mitragyna speciosa",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "Papaver species",
-      "Kava"
+      "Piper methysticum"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Caffeine"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Salvia divinorum"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Amanita muscaria"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Mitragyna speciosa"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Papaver species"
     ]
   ],
@@ -9653,7 +9653,7 @@
     ],
     [
       "LSD",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "LSD",
@@ -9705,7 +9705,7 @@
     ],
     [
       "Psilocybin",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "Psilocybin",
@@ -9757,7 +9757,7 @@
     ],
     [
       "DMT",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "DMT",
@@ -9805,7 +9805,7 @@
     ],
     [
       "Mescaline",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "Mescaline",
@@ -9897,7 +9897,7 @@
     ],
     [
       "DOx",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "DOx",
@@ -10073,7 +10073,7 @@
     ],
     [
       "NBOMes",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "NBOMes",
@@ -10349,7 +10349,7 @@
     ],
     [
       "2C-T-x",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "2C-T-x",
@@ -10525,7 +10525,7 @@
     ],
     [
       "5-MeO-xxT",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "5-MeO-xxT",
@@ -10829,7 +10829,7 @@
     ],
     [
       "MXE",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "MXE",
@@ -11656,123 +11656,123 @@
       "Tabernathe iboga"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "LSD"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "Psilocybin"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "DMT"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "Mescaline"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "DOx"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "NBOMes"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "2C-x"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "2C-T-x"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "5-MeO-xxT"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "MXE"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "Salvia divinorum"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "Acacia species"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "Mimosa species"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "Panaelous species"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "Argyreia nervosa"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "Ipomoea violacea"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "Turbina corymbosa"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "Amanita muscaria"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "Trichocereus species"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "Lophophora williamsii"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "Incillius alvarius"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "Mitragyna speciosa"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "Papaver species"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "Banisteriopsis caapi"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "Piper methysticum"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "Catha edulis"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "Ephedra species"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "Erythroxylum species"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "Phyllomedusa bicolor"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "Tabernathe iboga"
     ],
     [
@@ -12361,7 +12361,7 @@
     ],
     [
       "Salvia divinorum",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "Salvia divinorum",
@@ -12517,7 +12517,7 @@
     ],
     [
       "Acacia species",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "Acacia species",
@@ -12669,7 +12669,7 @@
     ],
     [
       "Mimosa species",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "Mimosa species",
@@ -12821,7 +12821,7 @@
     ],
     [
       "Panaelous species",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "Panaelous species",
@@ -12973,7 +12973,7 @@
     ],
     [
       "Argyreia nervosa",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "Argyreia nervosa",
@@ -13121,7 +13121,7 @@
     ],
     [
       "Ipomoea violacea",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "Ipomoea violacea",
@@ -13273,7 +13273,7 @@
     ],
     [
       "Turbina corymbosa",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "Turbina corymbosa",
@@ -13441,7 +13441,7 @@
     ],
     [
       "Amanita muscaria",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "Amanita muscaria",
@@ -13593,7 +13593,7 @@
     ],
     [
       "Trichocereus species",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "Trichocereus species",
@@ -13745,7 +13745,7 @@
     ],
     [
       "Lophophora williamsii",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "Lophophora williamsii",
@@ -13913,7 +13913,7 @@
     ],
     [
       "Incillius alvarius",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "Incillius alvarius",
@@ -14085,7 +14085,7 @@
     ],
     [
       "Mitragyna speciosa",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "Mitragyna speciosa",
@@ -14241,7 +14241,7 @@
     ],
     [
       "Papaver species",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "Papaver species",
@@ -14397,7 +14397,7 @@
     ],
     [
       "Banisteriopsis caapi",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "Banisteriopsis caapi",
@@ -14513,7 +14513,7 @@
     ],
     [
       "Piper methysticum",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "Piper methysticum",
@@ -14669,7 +14669,7 @@
     ],
     [
       "Catha edulis",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "Catha edulis",
@@ -14821,7 +14821,7 @@
     ],
     [
       "Ephedra species",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "Ephedra species",
@@ -14977,7 +14977,7 @@
     ],
     [
       "Erythroxylum species",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "Erythroxylum species",
@@ -15153,7 +15153,7 @@
     ],
     [
       "Phyllomedusa bicolor",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "Phyllomedusa bicolor",
@@ -15329,7 +15329,7 @@
     ],
     [
       "Tabernathe iboga",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "Tabernathe iboga",
@@ -15425,239 +15425,239 @@
     ],
     [
       "DOx",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "NBOMes",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "2C-x",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "2C-T-x",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "5-MeO-xxT",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "Ketamine",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "MXE",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "DXM",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "Nitrous Oxide",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "Amphetamines",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "MDMA",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "Cocaine",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "Caffeine",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "Alcohol",
-      "Kava"
+      "Piper methysticum"
     ],
     [
-      "GHB/GBL",
-      "Kava"
+      "GHB",
+      "Piper methysticum"
     ],
     [
       "Opioids",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "Tramadol",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "Benzodiazepines",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "MAOIs",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "SSRIs",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "Salvia divinorum",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "Incillius alvarius",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "Mitragyna speciosa",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "Papaver species",
-      "Kava"
+      "Piper methysticum"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "DOx"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "NBOMes"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "2C-x"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "2C-T-x"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "5-MeO-xxT"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Ketamine"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "MXE"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "DXM"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Nitrous Oxide"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Amphetamines"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "MDMA"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Cocaine"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Caffeine"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Alcohol"
     ],
     [
-      "Kava",
-      "GHB/GBL"
+      "Piper methysticum",
+      "GHB"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Opioids"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Tramadol"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Benzodiazepines"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "MAOIs"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "SSRIs"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Salvia divinorum"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Incillius alvarius"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Mitragyna speciosa"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Papaver species"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Catha edulis"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Ephedra species"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Erythroxylum species"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Phyllomedusa bicolor"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Tabernathe iboga"
     ],
     [
       "Piper methysticum",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "Catha edulis",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "Ephedra species",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "Erythroxylum species",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "Phyllomedusa bicolor",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "Tabernathe iboga",
-      "Kava"
+      "Piper methysticum"
     ]
   ],
   "Medium confidence": [
@@ -16247,7 +16247,7 @@
     ],
     [
       "Cannabis species",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "Cannabis species",
@@ -16359,7 +16359,7 @@
     ],
     [
       "Ketamine",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "DXM",
@@ -16395,7 +16395,7 @@
     ],
     [
       "DXM",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "DXM",
@@ -16463,7 +16463,7 @@
     ],
     [
       "Nitrous Oxide",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "Nitrous Oxide",
@@ -16531,7 +16531,7 @@
     ],
     [
       "Amphetamines",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "Amphetamines",
@@ -16607,7 +16607,7 @@
     ],
     [
       "MDMA",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "MDMA",
@@ -16679,7 +16679,7 @@
     ],
     [
       "Cocaine",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "Cocaine",
@@ -16743,7 +16743,7 @@
     ],
     [
       "Caffeine",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "Alcohol",
@@ -16787,62 +16787,62 @@
     ],
     [
       "Alcohol",
-      "GHB/GBL"
+      "GHB"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "Cannabis species"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "Ketamine"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "DXM"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "Nitrous Oxide"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "Amphetamines"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "MDMA"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "Cocaine"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "Caffeine"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "Alcohol"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "Opioids"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "Tramadol"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "Benzodiazepines"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "MAOIs"
     ],
     [
-      "GHB/GBL",
+      "GHB",
       "SSRIs"
     ],
     [
@@ -16887,7 +16887,7 @@
     ],
     [
       "Opioids",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "Tramadol",
@@ -16911,7 +16911,7 @@
     ],
     [
       "Tramadol",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "Benzodiazepines",
@@ -16955,7 +16955,7 @@
     ],
     [
       "Benzodiazepines",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "MAOIs",
@@ -16995,7 +16995,7 @@
     ],
     [
       "MAOIs",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "SSRIs",
@@ -17035,7 +17035,7 @@
     ],
     [
       "SSRIs",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "Salvia divinorum",
@@ -17423,114 +17423,114 @@
     ],
     [
       "LSD",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "Psilocybin",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "DMT",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "Mescaline",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "Cannabis species",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "Acacia species",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "Mimosa species",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "Panaelous species",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "Argyreia nervosa",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "Ipomoea violacea",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "Turbina corymbosa",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "Amanita muscaria",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "Trichocereus species",
-      "Kava"
+      "Piper methysticum"
     ],
     [
       "Lophophora williamsii",
-      "Kava"
+      "Piper methysticum"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "LSD"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Psilocybin"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "DMT"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Mescaline"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Cannabis species"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Acacia species"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Mimosa species"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Panaelous species"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Argyreia nervosa"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Ipomoea violacea"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Turbina corymbosa"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Amanita muscaria"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Trichocereus species"
     ],
     [
-      "Kava",
+      "Piper methysticum",
       "Lophophora williamsii"
     ]
   ],
@@ -17937,7 +17937,7 @@
     ],
     [
       "Meditation",
-      "GHB/GBL"
+      "GHB"
     ],
     [
       "Meditation",
@@ -18041,7 +18041,7 @@
     ],
     [
       "Meditation",
-      "Kava"
+      "Piper methysticum"
     ]
   ]
 }
