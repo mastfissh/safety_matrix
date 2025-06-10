@@ -26,19 +26,31 @@ async function readContent() {
   }
 }
 
-async function writeChart(slug: string, duration_chart): Promise<void> {
+interface DurationChart {
+  onset: string;
+  coming_up: string;
+  plateau: string;
+  coming_down: string;
+}
+
+interface ChartDataPoint {
+  x: number;
+  y: number;
+}
+
+async function writeChart(slug: string, duration_chart: DurationChart): Promise<void> {
   const now = DateTime.fromISO("12:00");
-  let onset = Duration.fromISO("PT" + duration_chart.onset.toUpperCase());
-  let coming_up = Duration.fromISO(
+  let onset: Duration = Duration.fromISO("PT" + duration_chart.onset.toUpperCase());
+  let coming_up: Duration = Duration.fromISO(
     "PT" + duration_chart.coming_up.toUpperCase()
   );
-  let plateau = Duration.fromISO("PT" + duration_chart.plateau.toUpperCase());
-  let coming_down = Duration.fromISO(
+  let plateau: Duration = Duration.fromISO("PT" + duration_chart.plateau.toUpperCase());
+  let coming_down: Duration = Duration.fromISO(
     "PT" + duration_chart.coming_down.toUpperCase()
   );
-  let max = now.plus(onset).plus(coming_up).plus(plateau).plus(coming_down);
+  let max: DateTime = now.plus(onset).plus(coming_up).plus(plateau).plus(coming_down);
 
-  let chart_data = [
+  let chart_data: ChartDataPoint[] = [
     { x: now.toMillis(), y: 0 },
     { x: now.plus(onset).toMillis(), y: 0 },
     { x: now.plus(onset).plus(coming_up).toMillis(), y: 1 },
@@ -46,7 +58,7 @@ async function writeChart(slug: string, duration_chart): Promise<void> {
     { x: max.toMillis(), y: 0 },
   ];
   Duration.fromISO("PT23H");
-  let total_duration_in_seconds = (max.toMillis() - now.toMillis()) / 1000;
+  let total_duration_in_seconds: number = (max.toMillis() - now.toMillis()) / 1000;
 
   function x_label_seconds(seconds: number): string {
     return `${seconds} secs`;
@@ -60,7 +72,7 @@ async function writeChart(slug: string, duration_chart): Promise<void> {
     return `${display} hrs`;
   }
 
-  function x_label(timestamp) {
+  function x_label(timestamp: number): string {
     let diff = (timestamp - now.toMillis()) / 1000;
     if (total_duration_in_seconds < 400) {
       return x_label_seconds(diff);
@@ -102,7 +114,7 @@ async function writeChart(slug: string, duration_chart): Promise<void> {
           },
 
           ticks: {
-            callback: function (val) {
+            callback: function (val: number) {
               return x_label(val);
             },
             maxTicksLimit: 10,
@@ -128,7 +140,7 @@ async function writeChart(slug: string, duration_chart): Promise<void> {
     plugins: [
       {
         id: "background-colour",
-        beforeDraw: (chart) => {
+        beforeDraw: (chart: any) => {
           const ctx = chart.ctx;
           ctx.save();
           ctx.fillStyle = "white";
@@ -138,7 +150,7 @@ async function writeChart(slug: string, duration_chart): Promise<void> {
       },
     ],
   };
-  const chartCallback: ChartCallback = (ChartJS) => {
+  const chartCallback: ChartCallback = (ChartJS: any) => {
     ChartJS.defaults.responsive = true;
     ChartJS.defaults.maintainAspectRatio = false;
   };
@@ -151,7 +163,7 @@ async function writeChart(slug: string, duration_chart): Promise<void> {
     },
     chartCallback,
   });
-  const buffer = await chartJSNodeCanvas.renderToBuffer(configuration);
+  const buffer: Buffer = await chartJSNodeCanvas.renderToBuffer(configuration);
   await fs.mkdir(path.join(process.cwd(), "public", "charts"), {
     recursive: true,
   });
