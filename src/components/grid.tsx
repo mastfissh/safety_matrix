@@ -1,5 +1,6 @@
 import { Component, Fragment } from "preact";
-import { confidence, displayname, linkify, risk, risk_to_bg } from "../util";
+import type { RisksData } from "@src/risks";
+import { confidence, displayname, linkify, risk, risk_to_bg } from "@src/util";
 
 interface SearchDatum {
   slug: string;
@@ -8,7 +9,7 @@ interface SearchDatum {
   aka?: string[];
   url?: string;
   displayname?: string;
-  terms?: string;
+  terms: string;
   [key: string]: any;
 }
 
@@ -99,17 +100,13 @@ function title(items: string[], psych_data: PsychDataMap): string {
   }
 }
 
-interface DataMap {
-  [key: string]: any;
-}
-
-function warn(i1: string, i2: string, data: DataMap): boolean {
+function warn(i1: string, i2: string, data: RisksData): boolean {
   return confidence([i1, i2], data) == "Low confidence";
 }
 interface GridTableProps {
   chosen: string[];
   ordering: string[];
-  data: { [key: string]: any };
+  data: RisksData;
   psych_data: { [key: string]: any };
 }
 interface GridTableState {
@@ -122,14 +119,14 @@ class GridTable extends Component<GridTableProps, GridTableState> {
     i: {
       chosen: string[];
       ordering: string[];
-      data: { [key: string]: any };
+      data: RisksData;
       psych_data: { [key: string]: any };
     },
     {}: {}
   ): preact.ComponentChild {
     let chosen: string[] = i.chosen;
     let ordering: string[] = i.ordering;
-    let data: { [key: string]: any } = i.data;
+    let data: RisksData = i.data;
     let psych_data: { [key: string]: any } = i.psych_data;
     let psychs: string[] = [];
     for (let ord of ordering) {
@@ -214,7 +211,7 @@ class GridTable extends Component<GridTableProps, GridTableState> {
 }
 
 interface GridProps {
-  data: DrugData;
+  data: RisksData;
   psych_data: SearchDataMap;
 }
 interface GridState {

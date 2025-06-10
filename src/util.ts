@@ -1,3 +1,5 @@
+import type { RisksData } from "@src/risks";
+
 export interface ComboList extends Array<string> {}
 
 export function combo(list: ComboList): string {
@@ -9,7 +11,7 @@ export function combo(list: ComboList): string {
   return subs.join(" + ");
 }
 
-export function risk(list: string[], data: RiskData): string {
+export function risk(list: string[], data: RisksData): string {
   let canon = combo(list);
   for (let risk of data["risk_levels"]) {
     for (let candidate of data[risk] as string[][]) {
@@ -24,17 +26,8 @@ export function risk(list: string[], data: RiskData): string {
   return "unknown";
 }
 
-export interface RiskData {
-  risk_levels?: string[];
-  [risk: string]: string[][] | string[];
-}
-
-export interface ConfidenceData {
-  conf_levels?: string[];
-  [conf: string]: string[][] | string[];
-}
-
-export function confidence(list: string[], data: ConfidenceData): string {
+export function confidence(list: string[], data: RisksData): string {
+  console.debug(Object.keys(data));
   let canon = combo(list);
   for (let conf of data["conf_levels"]) {
     for (let candidate of data[conf] as string[][]) {
@@ -73,8 +66,8 @@ export function risk_to_bg(risk: string) {
 }
 
 export interface Entry {
-  title?: string;
-  terms?: string;
+  title: string;
+  terms: string;
 }
 
 export function displayname(entry: Entry, query: string): string | undefined {
