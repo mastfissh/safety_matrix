@@ -1,13 +1,33 @@
 import { Component, Fragment } from "preact";
 import { confidence, displayname, linkify, risk, risk_to_bg } from "../util";
 
-function search(data, query: string, slugs: string[], chosen: string[]) {
-  function populate_item(datum): void {
+interface SearchDatum {
+  slug: string;
+  title: string;
+  family_members?: string[];
+  aka?: string[];
+  url?: string;
+  displayname?: string;
+  terms?: string;
+  [key: string]: any;
+}
+
+interface SearchDataMap {
+  [slug: string]: SearchDatum;
+}
+
+function search(
+  data: SearchDataMap,
+  query: string,
+  slugs: string[],
+  chosen: string[]
+): SearchDatum[] {
+  function populate_item(datum: SearchDatum): void {
     datum["url"] = "/psychoactives/" + datum.slug + "/";
     datum["displayname"] = displayname(datum, query);
   }
 
-  let out = [];
+  let out: SearchDatum[] = [];
   if (query == "") {
     for (let choice of chosen) {
       let datum = data[choice];
@@ -194,8 +214,8 @@ class GridTable extends Component<GridTableProps, GridTableState> {
 }
 
 interface GridProps {
-  data: object;
-  psych_data: object;
+  data: DrugData;
+  psych_data: SearchDataMap;
 }
 interface GridState {
   value: string;
@@ -241,16 +261,9 @@ export default class Grid extends Component<GridProps, GridState> {
   };
 
   render(i: GridProps, { value }: GridState): preact.ComponentChild {
-    interface PsychItem {
-      slug: string;
-      displayname: string;
-      img_capt: string;
-      img: Record<string, any>;
-    }
-
     let query = this.state.value;
     let ordering = slugs(i.data as DrugData);
-    let psychs: PsychItem[] = search(
+    let psychs: SearchDatum[] = search(
       i.psych_data,
       query,
       ordering,
@@ -327,7 +340,7 @@ export default class Grid extends Component<GridProps, GridState> {
           </div>
         </form>
         <ul class="w-full gap-6 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 md:grid-cols-4 xl:grid-cols-7 2xl:grid-cols-8 print:hidden">
-          {psychs.map((item: PsychItem) => (
+          {psychs.map((item: SearchDatum) => (
             <Fragment key={item.slug}>
               <li>
                 <input
