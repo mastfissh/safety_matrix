@@ -1,11 +1,21 @@
 import { combo, linkify } from "@src/util";
 import { Component, Fragment } from "preact";
 
-function displayname(entry, q: string): string | undefined {
+interface Entry {
+  title: string;
+  slug: string;
+  family_members?: string[];
+  aka?: string[];
+  terms?: string;
+  url?: string;
+  displayname?: string;
+}
+
+function displayname(entry: Entry, q: string): string | undefined {
   if (entry.title.toLowerCase().search(q) != -1) {
     return entry.title;
   } else {
-    for (let word of entry["terms"].split(",")) {
+    for (let word of (entry["terms"] as string).split(",")) {
       if (word.toLowerCase().search(q) != -1) {
         return entry.title + ` (${word})`;
       }
@@ -13,26 +23,33 @@ function displayname(entry, q: string): string | undefined {
   }
 }
 
-function search(data, query: string, limit: number) {
+interface SearchDatum extends Entry {
+  terms: string;
+  url: string;
+  displayname: string;
+}
+
+function search(data: Entry[], query: string, limit: number): SearchDatum[] {
   let segments = query
+    .toLowerCase()
     .replace(" and ", " ")
     .replace(" & ", " ")
     .replace(" + ", " ")
     .split(" ");
   let q1 = segments[0];
   let q2 = segments[1];
-  let out = [];
+  let out: SearchDatum[] = [];
   if (q1) {
     for (let datum of data) {
-      datum["terms"] = [datum.title]
+      (datum as any)["terms"] = [datum.title]
         .concat(datum.family_members || [])
         .concat(datum.aka || [])
         .join(",");
       let q = q1;
-      if (datum.terms.toLowerCase().search(q) != -1) {
-        datum["url"] = "/psychoactives/" + datum.slug + "/";
-        datum["displayname"] = displayname(datum, q);
-        out.push(datum);
+      if ((datum as any).terms.toLowerCase().search(q) != -1) {
+        (datum as any)["url"] = "/psychoactives/" + datum.slug + "/";
+        (datum as any)["displayname"] = displayname(datum, q);
+        out.push(datum as SearchDatum);
       }
     }
   }
@@ -40,18 +57,18 @@ function search(data, query: string, limit: number) {
   if (q2) {
     let q = q2;
     for (let datum of data) {
-      datum["terms"] = [datum.title]
+      (datum as any)["terms"] = [datum.title]
         .concat(datum.family_members || [])
         .concat(datum.aka || [])
         .join(",");
       if (out.length > limit) {
         return out;
       }
-      let singles = JSON.parse(JSON.stringify(out));
-      if (datum.terms.toLowerCase().search(q) != -1) {
+      let singles: SearchDatum[] = JSON.parse(JSON.stringify(out));
+      if ((datum as any).terms.toLowerCase().search(q) != -1) {
         for (let existing of singles) {
           if (existing.slug != datum.slug) {
-            let combined = JSON.parse(JSON.stringify(existing));
+            let combined: SearchDatum = JSON.parse(JSON.stringify(existing));
             let slug = linkify(combo([existing.slug, datum.slug]));
             combined["url"] = "/combos/" + slug + "/";
             combined["displayname"] = `${existing.displayname} + ${displayname(

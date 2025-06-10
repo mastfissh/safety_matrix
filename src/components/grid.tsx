@@ -1,13 +1,35 @@
 import { Component, Fragment } from "preact";
-import { confidence, displayname, linkify, risk, risk_to_bg } from "../util";
+import type { RisksData } from "@src/risks";
+import { confidence, displayname, linkify, risk, risk_to_bg } from "@src/util";
 
-function search(data, query: string, slugs: string[], chosen: string[]) {
-  function populate_item(datum): void {
+interface SearchDatum {
+  slug: string;
+  title: string;
+  family_members?: string[];
+  aka?: string[];
+  url?: string;
+  displayname?: string;
+  terms: string;
+  [key: string]: any;
+}
+
+interface SearchDataMap {
+  [slug: string]: SearchDatum;
+}
+
+function search(
+  data: SearchDataMap,
+  query: string,
+  slugs: string[],
+  chosen: string[]
+): SearchDatum[] {
+  query = query.toLowerCase();
+  function populate_item(datum: SearchDatum): void {
     datum["url"] = "/psychoactives/" + datum.slug + "/";
     datum["displayname"] = displayname(datum, query);
   }
 
-  let out = [];
+  let out: SearchDatum[] = [];
   if (query == "") {
     for (let choice of chosen) {
       let datum = data[choice];
@@ -35,7 +57,12 @@ function search(data, query: string, slugs: string[], chosen: string[]) {
   return out;
 }
 
-function slugs(data): string[] {
+interface DrugData {
+  drugs: string[];
+  [key: string]: any;
+}
+
+function slugs(data: DrugData): string[] {
   let slugs: string[] = [];
   for (let sub of data["drugs"]) {
     slugs.push(linkify(sub));
@@ -43,8 +70,10 @@ function slugs(data): string[] {
   return slugs;
 }
 
-function href(items): string {
-  let subs = [...new Set(items)];
+interface HrefItems extends Array<string> {}
+
+function href(items: HrefItems): string {
+  let subs: string[] = [...new Set(items)];
   subs.sort();
   if (subs.length == 1) {
     return `/psychoactives/${subs[0]}/`;
@@ -53,40 +82,52 @@ function href(items): string {
   }
 }
 
-function title(items, psych_data): string {
+interface PsychDataItem {
+  title: string;
+  [key: string]: any;
+}
+
+interface PsychDataMap {
+  [slug: string]: PsychDataItem;
+}
+
+function title(items: string[], psych_data: PsychDataMap): string {
   let subs = [...new Set(items)];
   subs.sort();
   if (subs.length == 1) {
-    return psych_data[subs[0] as any].title;
+    return psych_data[subs[0] as string].title;
   } else {
     return `${psych_data[items[0]].title} + ${psych_data[items[1]].title}`;
   }
 }
 
-function warn(i1: string, i2: string, data): boolean {
+function warn(i1: string, i2: string, data: RisksData): boolean {
   return confidence([i1, i2], data) == "Low confidence";
 }
-
 interface GridTableProps {
-  data: any[];
-  chosen: any[];
-  psych_data: any[];
-  ordering: any[];
+  chosen: string[];
+  ordering: string[];
+  data: RisksData;
+  psych_data: { [key: string]: any };
+}
+interface GridTableState {
+  value: string;
+  checked_boxes: string[];
 }
 
-class GridTable extends Component<GridTableProps> {
+class GridTable extends Component<GridTableProps, GridTableState> {
   render(
     i: {
       chosen: string[];
       ordering: string[];
-      data: { [key: string]: any };
+      data: RisksData;
       psych_data: { [key: string]: any };
     },
     {}: {}
   ): preact.ComponentChild {
     let chosen: string[] = i.chosen;
     let ordering: string[] = i.ordering;
-    let data: { [key: string]: any } = i.data;
+    let data: RisksData = i.data;
     let psych_data: { [key: string]: any } = i.psych_data;
     let psychs: string[] = [];
     for (let ord of ordering) {
@@ -171,8 +212,8 @@ class GridTable extends Component<GridTableProps> {
 }
 
 interface GridProps {
-  data: object;
-  psych_data: object;
+  data: RisksData;
+  psych_data: SearchDataMap;
 }
 interface GridState {
   value: string;
@@ -217,10 +258,10 @@ export default class Grid extends Component<GridProps, GridState> {
     this.setState({ checked_boxes });
   };
 
-  render(i, { value }) {
+  render(i: GridProps, { value }: GridState): preact.ComponentChild {
     let query = this.state.value;
-    let ordering = slugs(i.data);
-    let psychs = search(
+    let ordering = slugs(i.data as DrugData);
+    let psychs: SearchDatum[] = search(
       i.psych_data,
       query,
       ordering,
@@ -297,7 +338,7 @@ export default class Grid extends Component<GridProps, GridState> {
           </div>
         </form>
         <ul class="w-full gap-6 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 md:grid-cols-4 xl:grid-cols-7 2xl:grid-cols-8 print:hidden">
-          {psychs.map((item) => (
+          {psychs.map((item: SearchDatum) => (
             <Fragment key={item.slug}>
               <li>
                 <input

@@ -3,6 +3,7 @@
   "include": [".astro/types.d.ts", "**/*"],
   "exclude": ["dist"],
   "compilerOptions": {
+    "resolveJsonModule": true,
     "plugins": [
       {
         "name": "@astrojs/ts-plugin"

@@ -1,5 +1,6 @@
-import { getCollection } from 'astro:content';
+import { getCollection } from "astro:content";
 
-export async function GET({params, request}) {
-  const combos = await getCollection('combos');
-  return new Response(JSON.stringify(combos))}
+export async function GET({}) {
+  const combos = await getCollection("combos");
+  return new Response(JSON.stringify(combos));
+}
