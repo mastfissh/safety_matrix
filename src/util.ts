@@ -1,5 +1,7 @@
-export function combo(list) {
-  let subs = [...new Set(list)];
+export interface ComboList extends Array<string> {}
+
+export function combo(list: ComboList): string {
+  let subs: string[] = [...new Set(list)];
   subs.sort();
   if (subs[0] == "") {
     subs.shift();
@@ -7,10 +9,10 @@ export function combo(list) {
   return subs.join(" + ");
 }
 
-export function risk(list, data) {
+export function risk(list: string[], data: RiskData): string {
   let canon = combo(list);
   for (let risk of data["risk_levels"]) {
-    for (let candidate of data[risk]) {
+    for (let candidate of data[risk] as string[][]) {
       if (linkify(combo(candidate)) == linkify(canon)) {
         return risk;
       }
@@ -22,10 +24,20 @@ export function risk(list, data) {
   return "unknown";
 }
 
-export function confidence(list, data) {
+export interface RiskData {
+  risk_levels?: string[];
+  [risk: string]: string[][] | string[];
+}
+
+export interface ConfidenceData {
+  conf_levels: string[];
+  [conf: string]: string[][] | string[];
+}
+
+export function confidence(list: string[], data: ConfidenceData): string {
   let canon = combo(list);
   for (let conf of data["conf_levels"]) {
-    for (let candidate of data[conf]) {
+    for (let candidate of data[conf] as string[][]) {
       if (linkify(combo(candidate)) == linkify(canon)) {
         return conf;
       }
@@ -60,11 +72,16 @@ export function risk_to_bg(risk: string) {
   return map[risk];
 }
 
-export function displayname(entry, query: string) {
+export interface Entry {
+  title: string;
+  terms: string;
+}
+
+export function displayname(entry: Entry, query: string): string | undefined {
   if (entry.title.toLowerCase().search(query) != -1) {
     return entry.title;
   } else {
-    for (let word of entry["terms"].split(",")) {
+    for (let word of entry.terms.split(",")) {
       if (word.toLowerCase().search(query) != -1) {
         return entry.title + ` (${word})`;
       }
