@@ -28,7 +28,7 @@
     "chartjs-node-canvas": "^5.0.0",
     "csv-parse": "^5.6.0",
     "heroicons-astro": "^1.0.4",
-    "luxon": "^3.6.1",
+    "luxon": "^3.7.1",
     "preact": "^10.26.9",
     "sharp": "^0.34.3",
     "tailwindcss": "4.1.11",
