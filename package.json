@@ -29,7 +29,7 @@
     "csv-parse": "^6.1.0",
     "heroicons-astro": "^1.0.4",
     "luxon": "^3.7.1",
-    "preact": "^10.26.9",
+    "preact": "^10.27.0",
     "sharp": "^0.34.3",
     "tailwindcss": "4.1.11",
     "typescript": "^5.8.3",
