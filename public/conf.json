@@ -1,0 +1,13564 @@
+{
+  "drugs": [
+    "Metformin",
+    "Antibiotics",
+    "Proton pump inhibitors",
+    "Ibuprofen",
+    "Paracetemol",
+    "Beta blockers",
+    "ACE inhibitors / ARBs",
+    "Statins",
+    "Meditation",
+    "Salvinorin A",
+    "Salvia divinorum",
+    "DMT",
+    "Acacia species",
+    "LSD",
+    "Ergine",
+    "Argyreia nervosa",
+    "Diplopterys cabrerana",
+    "Psilocybin",
+    "Psilocin",
+    "Gymnopilus species",
+    "Ipomoea violacea",
+    "2C-T-x",
+    "2C-x",
+    "Mescaline",
+    "Lophophora williamsii",
+    "Mimosa species",
+    "Panaeolus species",
+    "Psilocybe species",
+    "Psychotria species",
+    "Turbina corymbosa",
+    "Virola species",
+    "Trichocereus species",
+    "DOx",
+    "DOI",
+    "25I-NBOMe",
+    "NBOMes",
+    "Benzodiazipines",
+    "Alprazolam",
+    "Diazepam",
+    "GBL",
+    "GHB",
+    "Alcohol",
+    "Amanita muscaria",
+    "Bufotenine",
+    "Anadenanthera species",
+    "5-MeO-xxT",
+    "5-MeO-DMT",
+    "Incillius alvarius",
+    "Phalaris species",
+    "Phyllomedusa bicolor",
+    "Tramadol",
+    "Mitragynine",
+    "Mitragyna speciosa",
+    "Opioids",
+    "Codeine",
+    "Heroin",
+    "Papaver species",
+    "Nitrous oxide",
+    "MXE",
+    "DXM",
+    "Ketamine",
+    "Cannabis species",
+    "Arecoline",
+    "Areca catechu",
+    "Caffeine",
+    "Camellia sinensis",
+    "Coffea species",
+    "Cola species",
+    "Duboisia hopwoodii",
+    "Ilex paraguariensis",
+    "Nicotine",
+    "Nicotiana species",
+    "Mesembrine",
+    "Sceletium species",
+    "Eugenol",
+    "Piper betle",
+    "MDMA",
+    "MDA",
+    "Safrole",
+    "Sassafras species",
+    "Myristicin",
+    "Myristica species",
+    "SSRIs",
+    "MAOIs",
+    "Harmalas",
+    "Harmaline",
+    "Harmine",
+    "Banisteriopsis caapi",
+    "Peganum harmala",
+    "Passiflora species",
+    "Kavalactones",
+    "Piper methysticum",
+    "Methcathinone",
+    "Mephedrone",
+    "Cathinones",
+    "Catha edulis",
+    "Methamphetamine",
+    "Amphetamines",
+    "Ephedrine",
+    "Ephedra species",
+    "Cocaine",
+    "Erythroxylum species",
+    "Levodopa",
+    "Mucuna pruriens",
+    "Ibogaine",
+    "Tabernanthe iboga",
+    "Tropanes",
+    "Hyoscyamine",
+    "Scopolamine",
+    "Brugmansia species",
+    "Datura species",
+    ""
+  ],
+  "risk_levels": [
+    "HC",
+    "LC",
+    "MC",
+    "Insulin",
+    "Metformin",
+    "Antibiotics",
+    "Proton pump inhibitors",
+    "Ibuprofen",
+    "Paracetemol",
+    "Beta blockers",
+    "ACE Inhibitors / ARBs",
+    "Statins",
+    "Meditation",
+    "Salvinorin A",
+    "Salvia divinorum",
+    "DMT",
+    "Acacia species",
+    "LSD",
+    "Ergine",
+    "Argyreia nervosa",
+    "Diplopterys cabrerana",
+    "Psilocybin",
+    "Psilocin",
+    "Gymnopilus species",
+    "Ipomoea violacea",
+    "2C-T-x",
+    "2C-x",
+    "Mescaline",
+    "Lophophora williamsii",
+    "Mimosa species",
+    "Panaeolus species",
+    "Psilocybe species",
+    "Psychotria species",
+    "Turbina corymbosa",
+    "Virola species",
+    "Trichocereus species",
+    "DOx",
+    "DOI",
+    "25I-NBOMe",
+    "NBOMes",
+    "Benzodiazipines",
+    "Alprazolam",
+    "Diazepam",
+    "GBL",
+    "GHB",
+    "Alcohol",
+    "Amanita muscaria",
+    "Bufotenine",
+    "Anadenanthera species",
+    "5-MeO-xxT",
+    "5-MeO-DMT",
+    "Incillius alvarius",
+    "Phalaris species",
+    "Phyllomedusa bicolor",
+    "Tramadol",
+    "Mitragynine",
+    "Mitragyna speciosa",
+    "Opioids",
+    "Codeine",
+    "Heroin",
+    "Papaver species",
+    "Nitrous oxide",
+    "MXE",
+    "DXM",
+    "Ketamine",
+    "Cannabis species",
+    "Arecoline",
+    "Areca catechu",
+    "Caffeine",
+    "Camellia sinensis",
+    "Coffea species",
+    "Cola species",
+    "Duboisia hopwoodii",
+    "Ilex paraguariensis",
+    "Nicotine",
+    "Nicotiana species",
+    "Mesembrine",
+    "Sceletium species",
+    "Eugenol",
+    "Piper betle",
+    "MDMA",
+    "MDA",
+    "Safrole",
+    "Sassafras species",
+    "Myristicin",
+    "Myristica species",
+    "SSRIs",
+    "MAOIs",
+    "Harmalas",
+    "Harmaline",
+    "Harmine",
+    "Banisteriopsis caapi",
+    "Peganum harmala",
+    "Passiflora species",
+    "Kavalactones",
+    "Piper methysticum",
+    "Methcathinone",
+    "Mephedrone",
+    "Cathinones",
+    "Catha edulis",
+    "Methamphetamine",
+    "Amphetamines",
+    "Ephedrine",
+    "Ephedra species",
+    "Cocaine",
+    "Erythroxylum species",
+    "Levodopa",
+    "Mucuna pruriens",
+    "Ibogaine",
+    "Tabernanthe iboga",
+    "Tropanes",
+    "Hyoscyamine",
+    "Scopolamine",
+    "Brugmansia species",
+    "Datura species"
+  ],
+  "HC": [
+    [
+      "Insulin",
+      "Proton pump inhibitors"
+    ],
+    [
+      "Insulin",
+      "Paracetemol"
+    ],
+    [
+      "Insulin",
+      "Statins"
+    ],
+    [
+      "Insulin",
+      "Meditation"
+    ],
+    [
+      "Insulin",
+      "Salvinorin A"
+    ],
+    [
+      "Insulin",
+      "Psilocin"
+    ],
+    [
+      "Insulin",
+      "Mitragynine"
+    ],
+    [
+      "Insulin",
+      "Papaver species"
+    ],
+    [
+      "Insulin",
+      "MXE"
+    ],
+    [
+      "Insulin",
+      "Nicotine"
+    ],
+    [
+      "Insulin",
+      "Nicotiana species"
+    ],
+    [
+      "Insulin",
+      "Mesembrine"
+    ],
+    [
+      "Insulin",
+      "MDMA"
+    ],
+    [
+      "Insulin",
+      "MAOIs"
+    ],
+    [
+      "Insulin",
+      "Methcathinone"
+    ],
+    [
+      "Insulin",
+      "Mucuna pruriens"
+    ],
+    [
+      "Metformin",
+      "Proton pump inhibitors"
+    ],
+    [
+      "Metformin",
+      "Paracetemol"
+    ],
+    [
+      "Metformin",
+      "Statins"
+    ],
+    [
+      "Metformin",
+      "Salvinorin A"
+    ],
+    [
+      "Metformin",
+      "Psilocin"
+    ],
+    [
+      "Metformin",
+      "Mitragynine"
+    ],
+    [
+      "Metformin",
+      "Papaver species"
+    ],
+    [
+      "Metformin",
+      "Nicotine"
+    ],
+    [
+      "Metformin",
+      "Nicotiana species"
+    ],
+    [
+      "Metformin",
+      "Methcathinone"
+    ],
+    [
+      "Metformin",
+      "Mucuna pruriens"
+    ],
+    [
+      "Antibiotics",
+      "Ibuprofen"
+    ],
+    [
+      "Antibiotics",
+      "Paracetemol"
+    ],
+    [
+      "Antibiotics",
+      "Beta blockers"
+    ],
+    [
+      "Antibiotics",
+      "Statins"
+    ],
+    [
+      "Antibiotics",
+      "Meditation"
+    ],
+    [
+      "Antibiotics",
+      "Salvinorin A"
+    ],
+    [
+      "Antibiotics",
+      "Psilocin"
+    ],
+    [
+      "Antibiotics",
+      "Gymnopilus species"
+    ],
+    [
+      "Antibiotics",
+      "Diazepam"
+    ],
+    [
+      "Antibiotics",
+      "GBL"
+    ],
+    [
+      "Antibiotics",
+      "Mitragynine"
+    ],
+    [
+      "Antibiotics",
+      "Codeine"
+    ],
+    [
+      "Antibiotics",
+      "Heroin"
+    ],
+    [
+      "Antibiotics",
+      "Papaver species"
+    ],
+    [
+      "Antibiotics",
+      "MXE"
+    ],
+    [
+      "Antibiotics",
+      "Cannabis species"
+    ],
+    [
+      "Antibiotics",
+      "Arecoline"
+    ],
+    [
+      "Antibiotics",
+      "Areca catechu"
+    ],
+    [
+      "Antibiotics",
+      "Caffeine"
+    ],
+    [
+      "Antibiotics",
+      "Camellia sinensis"
+    ],
+    [
+      "Antibiotics",
+      "Coffea species"
+    ],
+    [
+      "Antibiotics",
+      "Cola species"
+    ],
+    [
+      "Antibiotics",
+      "Duboisia hopwoodii"
+    ],
+    [
+      "Antibiotics",
+      "Nicotine"
+    ],
+    [
+      "Antibiotics",
+      "Nicotiana species"
+    ],
+    [
+      "Antibiotics",
+      "Mesembrine"
+    ],
+    [
+      "Antibiotics",
+      "MDMA"
+    ],
+    [
+      "Antibiotics",
+      "MAOIs"
+    ],
+    [
+      "Antibiotics",
+      "Harmalas"
+    ],
+    [
+      "Antibiotics",
+      "Methcathinone"
+    ],
+    [
+      "Antibiotics",
+      "Mucuna pruriens"
+    ],
+    [
+      "Proton pump inhibitors",
+      "Statins"
+    ],
+    [
+      "Proton pump inhibitors",
+      "Salvinorin A"
+    ],
+    [
+      "Proton pump inhibitors",
+      "Psilocin"
+    ],
+    [
+      "Ibuprofen",
+      "Statins"
+    ],
+    [
+      "Ibuprofen",
+      "Meditation"
+    ],
+    [
+      "Ibuprofen",
+      "Salvinorin A"
+    ],
+    [
+      "Ibuprofen",
+      "Psilocin"
+    ],
+    [
+      "Ibuprofen",
+      "Mitragynine"
+    ],
+    [
+      "Ibuprofen",
+      "Papaver species"
+    ],
+    [
+      "Ibuprofen",
+      "MXE"
+    ],
+    [
+      "Ibuprofen",
+      "Nicotine"
+    ],
+    [
+      "Ibuprofen",
+      "Nicotiana species"
+    ],
+    [
+      "Ibuprofen",
+      "Mesembrine"
+    ],
+    [
+      "Ibuprofen",
+      "MDMA"
+    ],
+    [
+      "Ibuprofen",
+      "MAOIs"
+    ],
+    [
+      "Ibuprofen",
+      "Methcathinone"
+    ],
+    [
+      "Ibuprofen",
+      "Mucuna pruriens"
+    ],
+    [
+      "Paracetemol",
+      "Statins"
+    ],
+    [
+      "Paracetemol",
+      "Salvinorin A"
+    ],
+    [
+      "Paracetemol",
+      "Psilocin"
+    ],
+    [
+      "Beta blockers",
+      "Statins"
+    ],
+    [
+      "Beta blockers",
+      "Meditation"
+    ],
+    [
+      "Beta blockers",
+      "Salvinorin A"
+    ],
+    [
+      "Beta blockers",
+      "Psilocin"
+    ],
+    [
+      "Beta blockers",
+      "Gymnopilus species"
+    ],
+    [
+      "Beta blockers",
+      "Diazepam"
+    ],
+    [
+      "Beta blockers",
+      "GBL"
+    ],
+    [
+      "Beta blockers",
+      "Mitragynine"
+    ],
+    [
+      "Beta blockers",
+      "Codeine"
+    ],
+    [
+      "Beta blockers",
+      "Heroin"
+    ],
+    [
+      "Beta blockers",
+      "Papaver species"
+    ],
+    [
+      "Beta blockers",
+      "MXE"
+    ],
+    [
+      "Beta blockers",
+      "Cannabis species"
+    ],
+    [
+      "Beta blockers",
+      "Caffeine"
+    ],
+    [
+      "Beta blockers",
+      "Camellia sinensis"
+    ],
+    [
+      "Beta blockers",
+      "Coffea species"
+    ],
+    [
+      "Beta blockers",
+      "Cola species"
+    ],
+    [
+      "Beta blockers",
+      "Duboisia hopwoodii"
+    ],
+    [
+      "Beta blockers",
+      "Nicotine"
+    ],
+    [
+      "Beta blockers",
+      "Nicotiana species"
+    ],
+    [
+      "Beta blockers",
+      "Mesembrine"
+    ],
+    [
+      "Beta blockers",
+      "MDMA"
+    ],
+    [
+      "Beta blockers",
+      "MAOIs"
+    ],
+    [
+      "Beta blockers",
+      "Harmalas"
+    ],
+    [
+      "Beta blockers",
+      "Methcathinone"
+    ],
+    [
+      "Beta blockers",
+      "Mucuna pruriens"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Meditation"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Salvinorin A"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Psilocin"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Gymnopilus species"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Alprazolam"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Diazepam"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "GBL"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Amanita muscaria"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Mitragynine"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Codeine"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Heroin"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Papaver species"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "MXE"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Cannabis species"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Arecoline"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Areca catechu"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Caffeine"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Camellia sinensis"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Coffea species"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Cola species"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Duboisia hopwoodii"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Nicotine"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Nicotiana species"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Mesembrine"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "MDMA"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "MAOIs"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Harmalas"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Methcathinone"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Mucuna pruriens"
+    ],
+    [
+      "Meditation",
+      "Psilocin"
+    ],
+    [
+      "Meditation",
+      "Mimosa species"
+    ],
+    [
+      "Meditation",
+      "Panaeolus species"
+    ],
+    [
+      "Meditation",
+      "Psilocybe species"
+    ],
+    [
+      "Meditation",
+      "Psychotria species"
+    ],
+    [
+      "Meditation",
+      "Turbina corymbosa"
+    ],
+    [
+      "Meditation",
+      "Virola species"
+    ],
+    [
+      "Meditation",
+      "NBOMes"
+    ],
+    [
+      "Meditation",
+      "Mitragynine"
+    ],
+    [
+      "Meditation",
+      "Opioids"
+    ],
+    [
+      "Meditation",
+      "Papaver species"
+    ],
+    [
+      "Meditation",
+      "Nitrous oxide"
+    ],
+    [
+      "Meditation",
+      "Nicotine"
+    ],
+    [
+      "Meditation",
+      "Nicotiana species"
+    ],
+    [
+      "Meditation",
+      "Mesembrine"
+    ],
+    [
+      "Meditation",
+      "Safrole"
+    ],
+    [
+      "Meditation",
+      "Peganum harmala"
+    ],
+    [
+      "Meditation",
+      "Passiflora species"
+    ],
+    [
+      "Meditation",
+      "Piper methysticum"
+    ],
+    [
+      "Meditation",
+      "Methcathinone"
+    ],
+    [
+      "Meditation",
+      "Mephedrone"
+    ],
+    [
+      "Meditation",
+      "Methamphetamine"
+    ],
+    [
+      "Meditation",
+      "Mucuna pruriens"
+    ],
+    [
+      "Meditation",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Meditation",
+      "Tropanes"
+    ],
+    [
+      "Meditation",
+      "Scopolamine"
+    ],
+    [
+      "Benzodiazipines",
+      "MXE"
+    ],
+    [
+      "Alprazolam",
+      "MXE"
+    ],
+    [
+      "Alprazolam",
+      "Cannabis species"
+    ],
+    [
+      "Alprazolam",
+      "Arecoline"
+    ],
+    [
+      "Alprazolam",
+      "Camellia sinensis"
+    ],
+    [
+      "Alprazolam",
+      "Coffea species"
+    ],
+    [
+      "Alprazolam",
+      "Cola species"
+    ],
+    [
+      "Alprazolam",
+      "Duboisia hopwoodii"
+    ],
+    [
+      "Alprazolam",
+      "Nicotine"
+    ],
+    [
+      "Alprazolam",
+      "Nicotiana species"
+    ],
+    [
+      "Alprazolam",
+      "Mesembrine"
+    ],
+    [
+      "Alprazolam",
+      "Amphetamines"
+    ],
+    [
+      "Diazepam",
+      "MXE"
+    ],
+    [
+      "Diazepam",
+      "Duboisia hopwoodii"
+    ],
+    [
+      "Diazepam",
+      "Nicotine"
+    ],
+    [
+      "Diazepam",
+      "Nicotiana species"
+    ],
+    [
+      "Diazepam",
+      "Mesembrine"
+    ],
+    [
+      "GBL",
+      "MXE"
+    ],
+    [
+      "GHB",
+      "MXE"
+    ],
+    [
+      "Alcohol",
+      "MXE"
+    ],
+    [
+      "Alcohol",
+      "Cannabis species"
+    ],
+    [
+      "Alcohol",
+      "Arecoline"
+    ],
+    [
+      "Alcohol",
+      "Camellia sinensis"
+    ],
+    [
+      "Alcohol",
+      "Coffea species"
+    ],
+    [
+      "Alcohol",
+      "Cola species"
+    ],
+    [
+      "Alcohol",
+      "Duboisia hopwoodii"
+    ],
+    [
+      "Alcohol",
+      "Nicotine"
+    ],
+    [
+      "Alcohol",
+      "Nicotiana species"
+    ],
+    [
+      "Alcohol",
+      "Mesembrine"
+    ],
+    [
+      "Alcohol",
+      "Amphetamines"
+    ],
+    [
+      "Mitragyna speciosa",
+      "Nicotiana species"
+    ],
+    [
+      "Codeine",
+      "Papaver species"
+    ],
+    [
+      "Codeine",
+      "MXE"
+    ],
+    [
+      "Codeine",
+      "Coffea species"
+    ],
+    [
+      "Codeine",
+      "Cola species"
+    ],
+    [
+      "Codeine",
+      "Duboisia hopwoodii"
+    ],
+    [
+      "Codeine",
+      "Nicotine"
+    ],
+    [
+      "Codeine",
+      "Nicotiana species"
+    ],
+    [
+      "Codeine",
+      "Mesembrine"
+    ],
+    [
+      "Codeine",
+      "MAOIs"
+    ],
+    [
+      "Heroin",
+      "MXE"
+    ],
+    [
+      "Heroin",
+      "Nicotine"
+    ],
+    [
+      "Heroin",
+      "Nicotiana species"
+    ],
+    [
+      "Heroin",
+      "Mesembrine"
+    ],
+    [
+      "Heroin",
+      "MAOIs"
+    ],
+    [
+      "DXM",
+      "Nicotiana species"
+    ],
+    [
+      "DXM",
+      "Mesembrine"
+    ],
+    [
+      "DXM",
+      "MAOIs"
+    ],
+    [
+      "Ketamine",
+      "Nicotine"
+    ],
+    [
+      "Ketamine",
+      "Nicotiana species"
+    ],
+    [
+      "Ketamine",
+      "Mesembrine"
+    ],
+    [
+      "Ketamine",
+      "MDMA"
+    ],
+    [
+      "Ketamine",
+      "MAOIs"
+    ],
+    [
+      "Cannabis species",
+      "Coffea species"
+    ],
+    [
+      "Cannabis species",
+      "Cola species"
+    ],
+    [
+      "Cannabis species",
+      "Duboisia hopwoodii"
+    ],
+    [
+      "Cannabis species",
+      "Nicotine"
+    ],
+    [
+      "Cannabis species",
+      "Nicotiana species"
+    ],
+    [
+      "Cannabis species",
+      "Mesembrine"
+    ],
+    [
+      "Cannabis species",
+      "MDMA"
+    ],
+    [
+      "Cannabis species",
+      "MAOIs"
+    ],
+    [
+      "Cannabis species",
+      "Ephedra species"
+    ],
+    [
+      "Cannabis species",
+      "Erythroxylum species"
+    ],
+    [
+      "Arecoline",
+      "Camellia sinensis"
+    ],
+    [
+      "Arecoline",
+      "Coffea species"
+    ],
+    [
+      "Arecoline",
+      "Cola species"
+    ],
+    [
+      "Arecoline",
+      "Duboisia hopwoodii"
+    ],
+    [
+      "Arecoline",
+      "Nicotine"
+    ],
+    [
+      "Arecoline",
+      "Nicotiana species"
+    ],
+    [
+      "Arecoline",
+      "Mesembrine"
+    ],
+    [
+      "Arecoline",
+      "MDMA"
+    ],
+    [
+      "Arecoline",
+      "MAOIs"
+    ],
+    [
+      "Arecoline",
+      "Ephedra species"
+    ],
+    [
+      "Arecoline",
+      "Erythroxylum species"
+    ],
+    [
+      "Areca catechu",
+      "Camellia sinensis"
+    ],
+    [
+      "Areca catechu",
+      "Coffea species"
+    ],
+    [
+      "Areca catechu",
+      "Cola species"
+    ],
+    [
+      "Areca catechu",
+      "Duboisia hopwoodii"
+    ],
+    [
+      "Areca catechu",
+      "Nicotine"
+    ],
+    [
+      "Areca catechu",
+      "Nicotiana species"
+    ],
+    [
+      "Areca catechu",
+      "Mesembrine"
+    ],
+    [
+      "Areca catechu",
+      "MDMA"
+    ],
+    [
+      "Areca catechu",
+      "MAOIs"
+    ],
+    [
+      "Areca catechu",
+      "Ephedra species"
+    ],
+    [
+      "Areca catechu",
+      "Erythroxylum species"
+    ],
+    [
+      "Caffeine",
+      "Coffea species"
+    ],
+    [
+      "Caffeine",
+      "Cola species"
+    ],
+    [
+      "Caffeine",
+      "Duboisia hopwoodii"
+    ],
+    [
+      "Caffeine",
+      "Nicotine"
+    ],
+    [
+      "Caffeine",
+      "Nicotiana species"
+    ],
+    [
+      "Caffeine",
+      "Mesembrine"
+    ],
+    [
+      "Caffeine",
+      "MDMA"
+    ],
+    [
+      "Caffeine",
+      "MAOIs"
+    ],
+    [
+      "Caffeine",
+      "Ephedra species"
+    ],
+    [
+      "Caffeine",
+      "Erythroxylum species"
+    ],
+    [
+      "Camellia sinensis",
+      "Cola species"
+    ],
+    [
+      "Camellia sinensis",
+      "Duboisia hopwoodii"
+    ],
+    [
+      "Camellia sinensis",
+      "Nicotine"
+    ],
+    [
+      "Camellia sinensis",
+      "Nicotiana species"
+    ],
+    [
+      "Camellia sinensis",
+      "Mesembrine"
+    ],
+    [
+      "Camellia sinensis",
+      "MDMA"
+    ],
+    [
+      "Camellia sinensis",
+      "MAOIs"
+    ],
+    [
+      "Camellia sinensis",
+      "Ephedra species"
+    ],
+    [
+      "Camellia sinensis",
+      "Erythroxylum species"
+    ],
+    [
+      "Coffea species",
+      "Duboisia hopwoodii"
+    ],
+    [
+      "Coffea species",
+      "Nicotine"
+    ],
+    [
+      "Coffea species",
+      "Nicotiana species"
+    ],
+    [
+      "Coffea species",
+      "Mesembrine"
+    ],
+    [
+      "Coffea species",
+      "MDMA"
+    ],
+    [
+      "Coffea species",
+      "MAOIs"
+    ],
+    [
+      "Coffea species",
+      "Ephedra species"
+    ],
+    [
+      "Coffea species",
+      "Erythroxylum species"
+    ],
+    [
+      "Cola species",
+      "Nicotine"
+    ],
+    [
+      "Cola species",
+      "Nicotiana species"
+    ],
+    [
+      "Cola species",
+      "Mesembrine"
+    ],
+    [
+      "Cola species",
+      "MDMA"
+    ],
+    [
+      "Cola species",
+      "MAOIs"
+    ],
+    [
+      "Cola species",
+      "Ephedra species"
+    ],
+    [
+      "Cola species",
+      "Erythroxylum species"
+    ],
+    [
+      "Ilex paraguariensis",
+      "Nicotiana species"
+    ],
+    [
+      "Ilex paraguariensis",
+      "Mesembrine"
+    ],
+    [
+      "Ilex paraguariensis",
+      "MDMA"
+    ],
+    [
+      "Ilex paraguariensis",
+      "MAOIs"
+    ],
+    [
+      "Ilex paraguariensis",
+      "Mucuna pruriens"
+    ],
+    [
+      "Methamphetamine",
+      "Mucuna pruriens"
+    ],
+    [
+      "Ephedrine",
+      "Erythroxylum species"
+    ],
+    [
+      "Ephedrine",
+      "Mucuna pruriens"
+    ],
+    [
+      "Cocaine",
+      "Mucuna pruriens"
+    ]
+  ],
+  "LC": [
+    [
+      "Insulin",
+      "Salvia divinorum"
+    ],
+    [
+      "Insulin",
+      "LSD"
+    ],
+    [
+      "Insulin",
+      "Psilocybin"
+    ],
+    [
+      "Insulin",
+      "Ipomoea violacea"
+    ],
+    [
+      "Insulin",
+      "Mescaline"
+    ],
+    [
+      "Insulin",
+      "Trichocereus species"
+    ],
+    [
+      "Insulin",
+      "Phalaris species"
+    ],
+    [
+      "Insulin",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "Insulin",
+      "Tramadol"
+    ],
+    [
+      "Insulin",
+      "Mitragyna speciosa"
+    ],
+    [
+      "Insulin",
+      "Sceletium species"
+    ],
+    [
+      "Insulin",
+      "Piper betle"
+    ],
+    [
+      "Insulin",
+      "Sassafras species"
+    ],
+    [
+      "Insulin",
+      "Myristicin"
+    ],
+    [
+      "Insulin",
+      "Myristica species"
+    ],
+    [
+      "Insulin",
+      "SSRIs"
+    ],
+    [
+      "Insulin",
+      "Kavalactones"
+    ],
+    [
+      "Metformin",
+      "Salvia divinorum"
+    ],
+    [
+      "Metformin",
+      "Psilocybin"
+    ],
+    [
+      "Metformin",
+      "Trichocereus species"
+    ],
+    [
+      "Metformin",
+      "Phalaris species"
+    ],
+    [
+      "Metformin",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "Metformin",
+      "Tramadol"
+    ],
+    [
+      "Metformin",
+      "Mitragyna speciosa"
+    ],
+    [
+      "Metformin",
+      "Sceletium species"
+    ],
+    [
+      "Metformin",
+      "Piper betle"
+    ],
+    [
+      "Metformin",
+      "Sassafras species"
+    ],
+    [
+      "Metformin",
+      "Myristicin"
+    ],
+    [
+      "Metformin",
+      "Myristica species"
+    ],
+    [
+      "Metformin",
+      "SSRIs"
+    ],
+    [
+      "Antibiotics",
+      "Salvia divinorum"
+    ],
+    [
+      "Antibiotics",
+      "LSD"
+    ],
+    [
+      "Antibiotics",
+      "Psilocybin"
+    ],
+    [
+      "Antibiotics",
+      "Ipomoea violacea"
+    ],
+    [
+      "Antibiotics",
+      "Mescaline"
+    ],
+    [
+      "Antibiotics",
+      "Trichocereus species"
+    ],
+    [
+      "Antibiotics",
+      "DOI"
+    ],
+    [
+      "Antibiotics",
+      "Benzodiazipines"
+    ],
+    [
+      "Antibiotics",
+      "Bufotenine"
+    ],
+    [
+      "Antibiotics",
+      "Phalaris species"
+    ],
+    [
+      "Antibiotics",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "Antibiotics",
+      "Tramadol"
+    ],
+    [
+      "Antibiotics",
+      "Mitragyna speciosa"
+    ],
+    [
+      "Antibiotics",
+      "Ilex paraguariensis"
+    ],
+    [
+      "Antibiotics",
+      "Sceletium species"
+    ],
+    [
+      "Antibiotics",
+      "Eugenol"
+    ],
+    [
+      "Antibiotics",
+      "Piper betle"
+    ],
+    [
+      "Antibiotics",
+      "Sassafras species"
+    ],
+    [
+      "Antibiotics",
+      "Myristicin"
+    ],
+    [
+      "Antibiotics",
+      "Myristica species"
+    ],
+    [
+      "Antibiotics",
+      "SSRIs"
+    ],
+    [
+      "Antibiotics",
+      "Kavalactones"
+    ],
+    [
+      "Antibiotics",
+      "Catha edulis"
+    ],
+    [
+      "Antibiotics",
+      "Ibogaine"
+    ],
+    [
+      "Antibiotics",
+      "Hyoscyamine"
+    ],
+    [
+      "Proton pump inhibitors",
+      "Salvia divinorum"
+    ],
+    [
+      "Proton pump inhibitors",
+      "Psilocybin"
+    ],
+    [
+      "Proton pump inhibitors",
+      "Trichocereus species"
+    ],
+    [
+      "Proton pump inhibitors",
+      "Tramadol"
+    ],
+    [
+      "Proton pump inhibitors",
+      "Sceletium species"
+    ],
+    [
+      "Proton pump inhibitors",
+      "Sassafras species"
+    ],
+    [
+      "Proton pump inhibitors",
+      "SSRIs"
+    ],
+    [
+      "Ibuprofen",
+      "Salvia divinorum"
+    ],
+    [
+      "Ibuprofen",
+      "LSD"
+    ],
+    [
+      "Ibuprofen",
+      "Psilocybin"
+    ],
+    [
+      "Ibuprofen",
+      "Ipomoea violacea"
+    ],
+    [
+      "Ibuprofen",
+      "Mescaline"
+    ],
+    [
+      "Ibuprofen",
+      "Trichocereus species"
+    ],
+    [
+      "Ibuprofen",
+      "Phalaris species"
+    ],
+    [
+      "Ibuprofen",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "Ibuprofen",
+      "Tramadol"
+    ],
+    [
+      "Ibuprofen",
+      "Mitragyna speciosa"
+    ],
+    [
+      "Ibuprofen",
+      "Ilex paraguariensis"
+    ],
+    [
+      "Ibuprofen",
+      "Sceletium species"
+    ],
+    [
+      "Ibuprofen",
+      "Piper betle"
+    ],
+    [
+      "Ibuprofen",
+      "Sassafras species"
+    ],
+    [
+      "Ibuprofen",
+      "Myristicin"
+    ],
+    [
+      "Ibuprofen",
+      "Myristica species"
+    ],
+    [
+      "Ibuprofen",
+      "SSRIs"
+    ],
+    [
+      "Ibuprofen",
+      "Kavalactones"
+    ],
+    [
+      "Paracetemol",
+      "Salvia divinorum"
+    ],
+    [
+      "Paracetemol",
+      "Psilocybin"
+    ],
+    [
+      "Paracetemol",
+      "Trichocereus species"
+    ],
+    [
+      "Paracetemol",
+      "Phalaris species"
+    ],
+    [
+      "Paracetemol",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "Paracetemol",
+      "Tramadol"
+    ],
+    [
+      "Paracetemol",
+      "Sceletium species"
+    ],
+    [
+      "Paracetemol",
+      "Piper betle"
+    ],
+    [
+      "Paracetemol",
+      "Sassafras species"
+    ],
+    [
+      "Paracetemol",
+      "SSRIs"
+    ],
+    [
+      "Beta blockers",
+      "Salvia divinorum"
+    ],
+    [
+      "Beta blockers",
+      "LSD"
+    ],
+    [
+      "Beta blockers",
+      "Psilocybin"
+    ],
+    [
+      "Beta blockers",
+      "Ipomoea violacea"
+    ],
+    [
+      "Beta blockers",
+      "Mescaline"
+    ],
+    [
+      "Beta blockers",
+      "Trichocereus species"
+    ],
+    [
+      "Beta blockers",
+      "DOI"
+    ],
+    [
+      "Beta blockers",
+      "Bufotenine"
+    ],
+    [
+      "Beta blockers",
+      "Phalaris species"
+    ],
+    [
+      "Beta blockers",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "Beta blockers",
+      "Tramadol"
+    ],
+    [
+      "Beta blockers",
+      "Mitragyna speciosa"
+    ],
+    [
+      "Beta blockers",
+      "Ilex paraguariensis"
+    ],
+    [
+      "Beta blockers",
+      "Sceletium species"
+    ],
+    [
+      "Beta blockers",
+      "Eugenol"
+    ],
+    [
+      "Beta blockers",
+      "Piper betle"
+    ],
+    [
+      "Beta blockers",
+      "Sassafras species"
+    ],
+    [
+      "Beta blockers",
+      "Myristicin"
+    ],
+    [
+      "Beta blockers",
+      "Myristica species"
+    ],
+    [
+      "Beta blockers",
+      "SSRIs"
+    ],
+    [
+      "Beta blockers",
+      "Kavalactones"
+    ],
+    [
+      "Beta blockers",
+      "Catha edulis"
+    ],
+    [
+      "Beta blockers",
+      "Ibogaine"
+    ],
+    [
+      "Beta blockers",
+      "Hyoscyamine"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Salvia divinorum"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "LSD"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Psilocybin"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Ipomoea violacea"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Mescaline"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Trichocereus species"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "DOI"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Benzodiazipines"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Bufotenine"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Anadenanthera species"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Phalaris species"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Tramadol"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Mitragyna speciosa"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Ilex paraguariensis"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Sceletium species"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Eugenol"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Piper betle"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Sassafras species"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Myristicin"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Myristica species"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "SSRIs"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Kavalactones"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Catha edulis"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Ibogaine"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Hyoscyamine"
+    ],
+    [
+      "Statins",
+      "Trichocereus species"
+    ],
+    [
+      "Statins",
+      "Tramadol"
+    ],
+    [
+      "Meditation",
+      "Salvia divinorum"
+    ],
+    [
+      "Meditation",
+      "Psilocybin"
+    ],
+    [
+      "Meditation",
+      "Mescaline"
+    ],
+    [
+      "Meditation",
+      "Trichocereus species"
+    ],
+    [
+      "Meditation",
+      "Phalaris species"
+    ],
+    [
+      "Meditation",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "Meditation",
+      "Tramadol"
+    ],
+    [
+      "Meditation",
+      "Mitragyna speciosa"
+    ],
+    [
+      "Meditation",
+      "Sceletium species"
+    ],
+    [
+      "Meditation",
+      "Piper betle"
+    ],
+    [
+      "Meditation",
+      "Sassafras species"
+    ],
+    [
+      "Meditation",
+      "Myristicin"
+    ],
+    [
+      "Meditation",
+      "Myristica species"
+    ],
+    [
+      "Meditation",
+      "SSRIs"
+    ],
+    [
+      "Salvinorin A",
+      "Turbina corymbosa"
+    ],
+    [
+      "Salvinorin A",
+      "Virola species"
+    ],
+    [
+      "Salvinorin A",
+      "Trichocereus species"
+    ],
+    [
+      "Salvinorin A",
+      "Tramadol"
+    ],
+    [
+      "Salvinorin A",
+      "Sceletium species"
+    ],
+    [
+      "Salvinorin A",
+      "Sassafras species"
+    ],
+    [
+      "Salvinorin A",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Salvinorin A",
+      "Tropanes"
+    ],
+    [
+      "Salvinorin A",
+      "Scopolamine"
+    ],
+    [
+      "Salvia divinorum",
+      "Trichocereus species"
+    ],
+    [
+      "Salvia divinorum",
+      "Tramadol"
+    ],
+    [
+      "Salvia divinorum",
+      "Sceletium species"
+    ],
+    [
+      "Salvia divinorum",
+      "Sassafras species"
+    ],
+    [
+      "DMT",
+      "LSD"
+    ],
+    [
+      "DMT",
+      "Psilocybin"
+    ],
+    [
+      "DMT",
+      "Ipomoea violacea"
+    ],
+    [
+      "DMT",
+      "Mescaline"
+    ],
+    [
+      "DMT",
+      "Trichocereus species"
+    ],
+    [
+      "DMT",
+      "DOI"
+    ],
+    [
+      "DMT",
+      "Phalaris species"
+    ],
+    [
+      "DMT",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "DMT",
+      "Tramadol"
+    ],
+    [
+      "DMT",
+      "Mitragyna speciosa"
+    ],
+    [
+      "DMT",
+      "Ilex paraguariensis"
+    ],
+    [
+      "DMT",
+      "Sceletium species"
+    ],
+    [
+      "DMT",
+      "Eugenol"
+    ],
+    [
+      "DMT",
+      "Piper betle"
+    ],
+    [
+      "DMT",
+      "Sassafras species"
+    ],
+    [
+      "DMT",
+      "Myristicin"
+    ],
+    [
+      "DMT",
+      "Myristica species"
+    ],
+    [
+      "DMT",
+      "SSRIs"
+    ],
+    [
+      "DMT",
+      "Kavalactones"
+    ],
+    [
+      "DMT",
+      "Ibogaine"
+    ],
+    [
+      "DMT",
+      "Hyoscyamine"
+    ],
+    [
+      "Acacia species",
+      "Ergine"
+    ],
+    [
+      "Acacia species",
+      "Argyreia nervosa"
+    ],
+    [
+      "Acacia species",
+      "Diplopterys cabrerana"
+    ],
+    [
+      "Acacia species",
+      "Psilocybin"
+    ],
+    [
+      "Acacia species",
+      "Psilocin"
+    ],
+    [
+      "Acacia species",
+      "Gymnopilus species"
+    ],
+    [
+      "Acacia species",
+      "Ipomoea violacea"
+    ],
+    [
+      "Acacia species",
+      "Mescaline"
+    ],
+    [
+      "Acacia species",
+      "Lophophora williamsii"
+    ],
+    [
+      "Acacia species",
+      "Mimosa species"
+    ],
+    [
+      "Acacia species",
+      "Panaeolus species"
+    ],
+    [
+      "Acacia species",
+      "Psilocybe species"
+    ],
+    [
+      "Acacia species",
+      "Psychotria species"
+    ],
+    [
+      "Acacia species",
+      "Turbina corymbosa"
+    ],
+    [
+      "Acacia species",
+      "Virola species"
+    ],
+    [
+      "Acacia species",
+      "Trichocereus species"
+    ],
+    [
+      "Acacia species",
+      "DOx"
+    ],
+    [
+      "Acacia species",
+      "DOI"
+    ],
+    [
+      "Acacia species",
+      "NBOMes"
+    ],
+    [
+      "Acacia species",
+      "Benzodiazipines"
+    ],
+    [
+      "Acacia species",
+      "Alprazolam"
+    ],
+    [
+      "Acacia species",
+      "Diazepam"
+    ],
+    [
+      "Acacia species",
+      "GBL"
+    ],
+    [
+      "Acacia species",
+      "GHB"
+    ],
+    [
+      "Acacia species",
+      "Alcohol"
+    ],
+    [
+      "Acacia species",
+      "Amanita muscaria"
+    ],
+    [
+      "Acacia species",
+      "Bufotenine"
+    ],
+    [
+      "Acacia species",
+      "Anadenanthera species"
+    ],
+    [
+      "Acacia species",
+      "Incillius alvarius"
+    ],
+    [
+      "Acacia species",
+      "Phalaris species"
+    ],
+    [
+      "Acacia species",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "Acacia species",
+      "Tramadol"
+    ],
+    [
+      "Acacia species",
+      "Mitragynine"
+    ],
+    [
+      "Acacia species",
+      "Mitragyna speciosa"
+    ],
+    [
+      "Acacia species",
+      "Opioids"
+    ],
+    [
+      "Acacia species",
+      "Codeine"
+    ],
+    [
+      "Acacia species",
+      "Heroin"
+    ],
+    [
+      "Acacia species",
+      "Papaver species"
+    ],
+    [
+      "Acacia species",
+      "Nitrous oxide"
+    ],
+    [
+      "Acacia species",
+      "MXE"
+    ],
+    [
+      "Acacia species",
+      "DXM"
+    ],
+    [
+      "Acacia species",
+      "Ketamine"
+    ],
+    [
+      "Acacia species",
+      "Cannabis species"
+    ],
+    [
+      "Acacia species",
+      "Arecoline"
+    ],
+    [
+      "Acacia species",
+      "Areca catechu"
+    ],
+    [
+      "Acacia species",
+      "Caffeine"
+    ],
+    [
+      "Acacia species",
+      "Camellia sinensis"
+    ],
+    [
+      "Acacia species",
+      "Coffea species"
+    ],
+    [
+      "Acacia species",
+      "Cola species"
+    ],
+    [
+      "Acacia species",
+      "Duboisia hopwoodii"
+    ],
+    [
+      "Acacia species",
+      "Ilex paraguariensis"
+    ],
+    [
+      "Acacia species",
+      "Nicotine"
+    ],
+    [
+      "Acacia species",
+      "Nicotiana species"
+    ],
+    [
+      "Acacia species",
+      "Mesembrine"
+    ],
+    [
+      "Acacia species",
+      "Sceletium species"
+    ],
+    [
+      "Acacia species",
+      "Eugenol"
+    ],
+    [
+      "Acacia species",
+      "Piper betle"
+    ],
+    [
+      "Acacia species",
+      "MDMA"
+    ],
+    [
+      "Acacia species",
+      "MDA"
+    ],
+    [
+      "Acacia species",
+      "Safrole"
+    ],
+    [
+      "Acacia species",
+      "Sassafras species"
+    ],
+    [
+      "Acacia species",
+      "Myristicin"
+    ],
+    [
+      "Acacia species",
+      "Myristica species"
+    ],
+    [
+      "Acacia species",
+      "SSRIs"
+    ],
+    [
+      "Acacia species",
+      "MAOIs"
+    ],
+    [
+      "Acacia species",
+      "Harmalas"
+    ],
+    [
+      "Acacia species",
+      "Harmaline"
+    ],
+    [
+      "Acacia species",
+      "Harmine"
+    ],
+    [
+      "Acacia species",
+      "Banisteriopsis caapi"
+    ],
+    [
+      "Acacia species",
+      "Peganum harmala"
+    ],
+    [
+      "Acacia species",
+      "Passiflora species"
+    ],
+    [
+      "Acacia species",
+      "Kavalactones"
+    ],
+    [
+      "Acacia species",
+      "Piper methysticum"
+    ],
+    [
+      "Acacia species",
+      "Methcathinone"
+    ],
+    [
+      "Acacia species",
+      "Mephedrone"
+    ],
+    [
+      "Acacia species",
+      "Cathinones"
+    ],
+    [
+      "Acacia species",
+      "Catha edulis"
+    ],
+    [
+      "Acacia species",
+      "Methamphetamine"
+    ],
+    [
+      "Acacia species",
+      "Amphetamines"
+    ],
+    [
+      "Acacia species",
+      "Ephedrine"
+    ],
+    [
+      "Acacia species",
+      "Ephedra species"
+    ],
+    [
+      "Acacia species",
+      "Cocaine"
+    ],
+    [
+      "Acacia species",
+      "Erythroxylum species"
+    ],
+    [
+      "Acacia species",
+      "Levodopa"
+    ],
+    [
+      "Acacia species",
+      "Mucuna pruriens"
+    ],
+    [
+      "Acacia species",
+      "Ibogaine"
+    ],
+    [
+      "Acacia species",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Acacia species",
+      "Tropanes"
+    ],
+    [
+      "Acacia species",
+      "Hyoscyamine"
+    ],
+    [
+      "Acacia species",
+      "Scopolamine"
+    ],
+    [
+      "Acacia species",
+      "Brugmansia species"
+    ],
+    [
+      "Acacia species",
+      "Datura species"
+    ],
+    [
+      "LSD",
+      "Psilocybin"
+    ],
+    [
+      "LSD",
+      "Mescaline"
+    ],
+    [
+      "LSD",
+      "Trichocereus species"
+    ],
+    [
+      "LSD",
+      "Phalaris species"
+    ],
+    [
+      "LSD",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "LSD",
+      "Tramadol"
+    ],
+    [
+      "LSD",
+      "Mitragyna speciosa"
+    ],
+    [
+      "LSD",
+      "Sceletium species"
+    ],
+    [
+      "LSD",
+      "Piper betle"
+    ],
+    [
+      "LSD",
+      "Sassafras species"
+    ],
+    [
+      "LSD",
+      "Myristicin"
+    ],
+    [
+      "LSD",
+      "Myristica species"
+    ],
+    [
+      "LSD",
+      "SSRIs"
+    ],
+    [
+      "Ergine",
+      "Psilocybin"
+    ],
+    [
+      "Ergine",
+      "Ipomoea violacea"
+    ],
+    [
+      "Ergine",
+      "Mescaline"
+    ],
+    [
+      "Ergine",
+      "Trichocereus species"
+    ],
+    [
+      "Ergine",
+      "Phalaris species"
+    ],
+    [
+      "Ergine",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "Ergine",
+      "Tramadol"
+    ],
+    [
+      "Ergine",
+      "Mitragyna speciosa"
+    ],
+    [
+      "Ergine",
+      "Sceletium species"
+    ],
+    [
+      "Ergine",
+      "Eugenol"
+    ],
+    [
+      "Ergine",
+      "Piper betle"
+    ],
+    [
+      "Ergine",
+      "Sassafras species"
+    ],
+    [
+      "Ergine",
+      "Myristicin"
+    ],
+    [
+      "Ergine",
+      "Myristica species"
+    ],
+    [
+      "Ergine",
+      "SSRIs"
+    ],
+    [
+      "Ergine",
+      "Kavalactones"
+    ],
+    [
+      "Ergine",
+      "Ibogaine"
+    ],
+    [
+      "Ergine",
+      "Hyoscyamine"
+    ],
+    [
+      "Argyreia nervosa",
+      "Psilocybin"
+    ],
+    [
+      "Argyreia nervosa",
+      "Ipomoea violacea"
+    ],
+    [
+      "Argyreia nervosa",
+      "Mescaline"
+    ],
+    [
+      "Argyreia nervosa",
+      "Trichocereus species"
+    ],
+    [
+      "Argyreia nervosa",
+      "DOI"
+    ],
+    [
+      "Argyreia nervosa",
+      "Benzodiazipines"
+    ],
+    [
+      "Argyreia nervosa",
+      "Bufotenine"
+    ],
+    [
+      "Argyreia nervosa",
+      "Phalaris species"
+    ],
+    [
+      "Argyreia nervosa",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "Argyreia nervosa",
+      "Tramadol"
+    ],
+    [
+      "Argyreia nervosa",
+      "Mitragyna speciosa"
+    ],
+    [
+      "Argyreia nervosa",
+      "Ilex paraguariensis"
+    ],
+    [
+      "Argyreia nervosa",
+      "Sceletium species"
+    ],
+    [
+      "Argyreia nervosa",
+      "Eugenol"
+    ],
+    [
+      "Argyreia nervosa",
+      "Piper betle"
+    ],
+    [
+      "Argyreia nervosa",
+      "Sassafras species"
+    ],
+    [
+      "Argyreia nervosa",
+      "Myristicin"
+    ],
+    [
+      "Argyreia nervosa",
+      "Myristica species"
+    ],
+    [
+      "Argyreia nervosa",
+      "SSRIs"
+    ],
+    [
+      "Argyreia nervosa",
+      "Kavalactones"
+    ],
+    [
+      "Argyreia nervosa",
+      "Catha edulis"
+    ],
+    [
+      "Argyreia nervosa",
+      "Hyoscyamine"
+    ],
+    [
+      "Diplopterys cabrerana",
+      "Psilocin"
+    ],
+    [
+      "Diplopterys cabrerana",
+      "Gymnopilus species"
+    ],
+    [
+      "Diplopterys cabrerana",
+      "Ipomoea violacea"
+    ],
+    [
+      "Diplopterys cabrerana",
+      "Mescaline"
+    ],
+    [
+      "Diplopterys cabrerana",
+      "Lophophora williamsii"
+    ],
+    [
+      "Diplopterys cabrerana",
+      "Mimosa species"
+    ],
+    [
+      "Diplopterys cabrerana",
+      "Panaeolus species"
+    ],
+    [
+      "Diplopterys cabrerana",
+      "Psilocybe species"
+    ],
+    [
+      "Diplopterys cabrerana",
+      "Psychotria species"
+    ],
+    [
+      "Diplopterys cabrerana",
+      "Turbina corymbosa"
+    ],
+    [
+      "Diplopterys cabrerana",
+      "Virola species"
+    ],
+    [
+      "Diplopterys cabrerana",
+      "Trichocereus species"
+    ],
+    [
+      "Diplopterys cabrerana",
+      "NBOMes"
+    ],
+    [
+      "Diplopterys cabrerana",
+      "GBL"
+    ],
+    [
+      "Diplopterys cabrerana",
+      "GHB"
+    ],
+    [
+      "Diplopterys cabrerana",
+      "Incillius alvarius"
+    ],
+    [
+      "Diplopterys cabrerana",
+      "Phalaris species"
+    ],
+    [
+      "Diplopterys cabrerana",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "Diplopterys cabrerana",
+      "Tramadol"
+    ],
+    [
+      "Diplopterys cabrerana",
+      "Mitragynine"
+    ],
+    [
+      "Diplopterys cabrerana",
+      "Mitragyna speciosa"
+    ],
+    [
+      "Diplopterys cabrerana",
+      "Opioids"
+    ],
+    [
+      "Diplopterys cabrerana",
+      "Heroin"
+    ],
+    [
+      "Diplopterys cabrerana",
+      "Papaver species"
+    ],
+    [
+      "Diplopterys cabrerana",
+      "Nitrous oxide"
+    ],
+    [
+      "Diplopterys cabrerana",
+      "MXE"
+    ],
+    [
+      "Diplopterys cabrerana",
+      "Ketamine"
+    ],
+    [
+      "Diplopterys cabrerana",
+      "Duboisia hopwoodii"
+    ],
+    [
+      "Diplopterys cabrerana",
+      "Ilex paraguariensis"
+    ],
+    [
+      "Diplopterys cabrerana",
+      "Nicotine"
+    ],
+    [
+      "Diplopterys cabrerana",
+      "Nicotiana species"
+    ],
+    [
+      "Diplopterys cabrerana",
+      "Mesembrine"
+    ],
+    [
+      "Diplopterys cabrerana",
+      "Sceletium species"
+    ],
+    [
+      "Diplopterys cabrerana",
+      "Eugenol"
+    ],
+    [
+      "Diplopterys cabrerana",
+      "Piper betle"
+    ],
+    [
+      "Diplopterys cabrerana",
+      "MDMA"
+    ],
+    [
+      "Diplopterys cabrerana",
+      "MDA"
+    ],
+    [
+      "Diplopterys cabrerana",
+      "Safrole"
+    ],
+    [
+      "Diplopterys cabrerana",
+      "Sassafras species"
+    ],
+    [
+      "Diplopterys cabrerana",
+      "Myristicin"
+    ],
+    [
+      "Diplopterys cabrerana",
+      "Myristica species"
+    ],
+    [
+      "Diplopterys cabrerana",
+      "SSRIs"
+    ],
+    [
+      "Diplopterys cabrerana",
+      "MAOIs"
+    ],
+    [
+      "Diplopterys cabrerana",
+      "Harmalas"
+    ],
+    [
+      "Diplopterys cabrerana",
+      "Harmaline"
+    ],
+    [
+      "Diplopterys cabrerana",
+      "Harmine"
+    ],
+    [
+      "Diplopterys cabrerana",
+      "Peganum harmala"
+    ],
+    [
+      "Diplopterys cabrerana",
+      "Passiflora species"
+    ],
+    [
+      "Diplopterys cabrerana",
+      "Kavalactones"
+    ],
+    [
+      "Diplopterys cabrerana",
+      "Piper methysticum"
+    ],
+    [
+      "Diplopterys cabrerana",
+      "Methcathinone"
+    ],
+    [
+      "Diplopterys cabrerana",
+      "Mephedrone"
+    ],
+    [
+      "Diplopterys cabrerana",
+      "Methamphetamine"
+    ],
+    [
+      "Diplopterys cabrerana",
+      "Ephedrine"
+    ],
+    [
+      "Diplopterys cabrerana",
+      "Ephedra species"
+    ],
+    [
+      "Diplopterys cabrerana",
+      "Erythroxylum species"
+    ],
+    [
+      "Diplopterys cabrerana",
+      "Levodopa"
+    ],
+    [
+      "Diplopterys cabrerana",
+      "Mucuna pruriens"
+    ],
+    [
+      "Diplopterys cabrerana",
+      "Ibogaine"
+    ],
+    [
+      "Diplopterys cabrerana",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Diplopterys cabrerana",
+      "Tropanes"
+    ],
+    [
+      "Diplopterys cabrerana",
+      "Hyoscyamine"
+    ],
+    [
+      "Diplopterys cabrerana",
+      "Scopolamine"
+    ],
+    [
+      "Psilocybin",
+      "Trichocereus species"
+    ],
+    [
+      "Psilocybin",
+      "Tramadol"
+    ],
+    [
+      "Psilocybin",
+      "Sceletium species"
+    ],
+    [
+      "Psilocybin",
+      "Sassafras species"
+    ],
+    [
+      "Psilocybin",
+      "SSRIs"
+    ],
+    [
+      "Psilocin",
+      "Trichocereus species"
+    ],
+    [
+      "Psilocin",
+      "Tramadol"
+    ],
+    [
+      "Psilocin",
+      "Sceletium species"
+    ],
+    [
+      "Psilocin",
+      "Sassafras species"
+    ],
+    [
+      "Psilocin",
+      "SSRIs"
+    ],
+    [
+      "Gymnopilus species",
+      "Mescaline"
+    ],
+    [
+      "Gymnopilus species",
+      "Lophophora williamsii"
+    ],
+    [
+      "Gymnopilus species",
+      "Mimosa species"
+    ],
+    [
+      "Gymnopilus species",
+      "Panaeolus species"
+    ],
+    [
+      "Gymnopilus species",
+      "Psilocybe species"
+    ],
+    [
+      "Gymnopilus species",
+      "Psychotria species"
+    ],
+    [
+      "Gymnopilus species",
+      "Turbina corymbosa"
+    ],
+    [
+      "Gymnopilus species",
+      "Virola species"
+    ],
+    [
+      "Gymnopilus species",
+      "Trichocereus species"
+    ],
+    [
+      "Gymnopilus species",
+      "NBOMes"
+    ],
+    [
+      "Gymnopilus species",
+      "Incillius alvarius"
+    ],
+    [
+      "Gymnopilus species",
+      "Phalaris species"
+    ],
+    [
+      "Gymnopilus species",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "Gymnopilus species",
+      "Tramadol"
+    ],
+    [
+      "Gymnopilus species",
+      "Mitragynine"
+    ],
+    [
+      "Gymnopilus species",
+      "Mitragyna speciosa"
+    ],
+    [
+      "Gymnopilus species",
+      "Opioids"
+    ],
+    [
+      "Gymnopilus species",
+      "Heroin"
+    ],
+    [
+      "Gymnopilus species",
+      "Papaver species"
+    ],
+    [
+      "Gymnopilus species",
+      "Nitrous oxide"
+    ],
+    [
+      "Gymnopilus species",
+      "MXE"
+    ],
+    [
+      "Gymnopilus species",
+      "Ketamine"
+    ],
+    [
+      "Gymnopilus species",
+      "Ilex paraguariensis"
+    ],
+    [
+      "Gymnopilus species",
+      "Nicotine"
+    ],
+    [
+      "Gymnopilus species",
+      "Nicotiana species"
+    ],
+    [
+      "Gymnopilus species",
+      "Mesembrine"
+    ],
+    [
+      "Gymnopilus species",
+      "Sceletium species"
+    ],
+    [
+      "Gymnopilus species",
+      "Piper betle"
+    ],
+    [
+      "Gymnopilus species",
+      "MDMA"
+    ],
+    [
+      "Gymnopilus species",
+      "MDA"
+    ],
+    [
+      "Gymnopilus species",
+      "Safrole"
+    ],
+    [
+      "Gymnopilus species",
+      "Sassafras species"
+    ],
+    [
+      "Gymnopilus species",
+      "Myristicin"
+    ],
+    [
+      "Gymnopilus species",
+      "Myristica species"
+    ],
+    [
+      "Gymnopilus species",
+      "SSRIs"
+    ],
+    [
+      "Gymnopilus species",
+      "MAOIs"
+    ],
+    [
+      "Gymnopilus species",
+      "Harmalas"
+    ],
+    [
+      "Gymnopilus species",
+      "Harmaline"
+    ],
+    [
+      "Gymnopilus species",
+      "Harmine"
+    ],
+    [
+      "Gymnopilus species",
+      "Peganum harmala"
+    ],
+    [
+      "Gymnopilus species",
+      "Passiflora species"
+    ],
+    [
+      "Gymnopilus species",
+      "Kavalactones"
+    ],
+    [
+      "Gymnopilus species",
+      "Piper methysticum"
+    ],
+    [
+      "Gymnopilus species",
+      "Methcathinone"
+    ],
+    [
+      "Gymnopilus species",
+      "Mephedrone"
+    ],
+    [
+      "Gymnopilus species",
+      "Methamphetamine"
+    ],
+    [
+      "Gymnopilus species",
+      "Levodopa"
+    ],
+    [
+      "Gymnopilus species",
+      "Mucuna pruriens"
+    ],
+    [
+      "Gymnopilus species",
+      "Ibogaine"
+    ],
+    [
+      "Gymnopilus species",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Gymnopilus species",
+      "Tropanes"
+    ],
+    [
+      "Gymnopilus species",
+      "Hyoscyamine"
+    ],
+    [
+      "Gymnopilus species",
+      "Scopolamine"
+    ],
+    [
+      "Ipomoea violacea",
+      "Mescaline"
+    ],
+    [
+      "Ipomoea violacea",
+      "Trichocereus species"
+    ],
+    [
+      "Ipomoea violacea",
+      "Phalaris species"
+    ],
+    [
+      "Ipomoea violacea",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "Ipomoea violacea",
+      "Tramadol"
+    ],
+    [
+      "Ipomoea violacea",
+      "Mitragyna speciosa"
+    ],
+    [
+      "Ipomoea violacea",
+      "Sceletium species"
+    ],
+    [
+      "Ipomoea violacea",
+      "Piper betle"
+    ],
+    [
+      "Ipomoea violacea",
+      "Sassafras species"
+    ],
+    [
+      "Ipomoea violacea",
+      "Myristicin"
+    ],
+    [
+      "Ipomoea violacea",
+      "Myristica species"
+    ],
+    [
+      "Ipomoea violacea",
+      "SSRIs"
+    ],
+    [
+      "Ipomoea violacea",
+      "Kavalactones"
+    ],
+    [
+      "2C-T-x",
+      "Mescaline"
+    ],
+    [
+      "2C-T-x",
+      "Lophophora williamsii"
+    ],
+    [
+      "2C-T-x",
+      "Mimosa species"
+    ],
+    [
+      "2C-T-x",
+      "Panaeolus species"
+    ],
+    [
+      "2C-T-x",
+      "Psilocybe species"
+    ],
+    [
+      "2C-T-x",
+      "Psychotria species"
+    ],
+    [
+      "2C-T-x",
+      "Turbina corymbosa"
+    ],
+    [
+      "2C-T-x",
+      "Virola species"
+    ],
+    [
+      "2C-T-x",
+      "Trichocereus species"
+    ],
+    [
+      "2C-T-x",
+      "DOx"
+    ],
+    [
+      "2C-T-x",
+      "DOI"
+    ],
+    [
+      "2C-T-x",
+      "NBOMes"
+    ],
+    [
+      "2C-T-x",
+      "Benzodiazipines"
+    ],
+    [
+      "2C-T-x",
+      "Alprazolam"
+    ],
+    [
+      "2C-T-x",
+      "Diazepam"
+    ],
+    [
+      "2C-T-x",
+      "GBL"
+    ],
+    [
+      "2C-T-x",
+      "GHB"
+    ],
+    [
+      "2C-T-x",
+      "Alcohol"
+    ],
+    [
+      "2C-T-x",
+      "Amanita muscaria"
+    ],
+    [
+      "2C-T-x",
+      "Bufotenine"
+    ],
+    [
+      "2C-T-x",
+      "Anadenanthera species"
+    ],
+    [
+      "2C-T-x",
+      "5-MeO-xxT"
+    ],
+    [
+      "2C-T-x",
+      "5-MeO-DMT"
+    ],
+    [
+      "2C-T-x",
+      "Incillius alvarius"
+    ],
+    [
+      "2C-T-x",
+      "Phalaris species"
+    ],
+    [
+      "2C-T-x",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "2C-T-x",
+      "Tramadol"
+    ],
+    [
+      "2C-T-x",
+      "Mitragynine"
+    ],
+    [
+      "2C-T-x",
+      "Mitragyna speciosa"
+    ],
+    [
+      "2C-T-x",
+      "Opioids"
+    ],
+    [
+      "2C-T-x",
+      "Codeine"
+    ],
+    [
+      "2C-T-x",
+      "Heroin"
+    ],
+    [
+      "2C-T-x",
+      "Papaver species"
+    ],
+    [
+      "2C-T-x",
+      "Nitrous oxide"
+    ],
+    [
+      "2C-T-x",
+      "MXE"
+    ],
+    [
+      "2C-T-x",
+      "DXM"
+    ],
+    [
+      "2C-T-x",
+      "Ketamine"
+    ],
+    [
+      "2C-T-x",
+      "Cannabis species"
+    ],
+    [
+      "2C-T-x",
+      "Arecoline"
+    ],
+    [
+      "2C-T-x",
+      "Areca catechu"
+    ],
+    [
+      "2C-T-x",
+      "Caffeine"
+    ],
+    [
+      "2C-T-x",
+      "Camellia sinensis"
+    ],
+    [
+      "2C-T-x",
+      "Coffea species"
+    ],
+    [
+      "2C-T-x",
+      "Cola species"
+    ],
+    [
+      "2C-T-x",
+      "Duboisia hopwoodii"
+    ],
+    [
+      "2C-T-x",
+      "Ilex paraguariensis"
+    ],
+    [
+      "2C-T-x",
+      "Nicotine"
+    ],
+    [
+      "2C-T-x",
+      "Nicotiana species"
+    ],
+    [
+      "2C-T-x",
+      "Mesembrine"
+    ],
+    [
+      "2C-T-x",
+      "Sceletium species"
+    ],
+    [
+      "2C-T-x",
+      "Eugenol"
+    ],
+    [
+      "2C-T-x",
+      "Piper betle"
+    ],
+    [
+      "2C-T-x",
+      "MDMA"
+    ],
+    [
+      "2C-T-x",
+      "MDA"
+    ],
+    [
+      "2C-T-x",
+      "Safrole"
+    ],
+    [
+      "2C-T-x",
+      "Sassafras species"
+    ],
+    [
+      "2C-T-x",
+      "Myristicin"
+    ],
+    [
+      "2C-T-x",
+      "Myristica species"
+    ],
+    [
+      "2C-T-x",
+      "SSRIs"
+    ],
+    [
+      "2C-T-x",
+      "MAOIs"
+    ],
+    [
+      "2C-T-x",
+      "Harmalas"
+    ],
+    [
+      "2C-T-x",
+      "Harmaline"
+    ],
+    [
+      "2C-T-x",
+      "Harmine"
+    ],
+    [
+      "2C-T-x",
+      "Banisteriopsis caapi"
+    ],
+    [
+      "2C-T-x",
+      "Peganum harmala"
+    ],
+    [
+      "2C-T-x",
+      "Passiflora species"
+    ],
+    [
+      "2C-T-x",
+      "Kavalactones"
+    ],
+    [
+      "2C-T-x",
+      "Piper methysticum"
+    ],
+    [
+      "2C-T-x",
+      "Methcathinone"
+    ],
+    [
+      "2C-T-x",
+      "Mephedrone"
+    ],
+    [
+      "2C-T-x",
+      "Cathinones"
+    ],
+    [
+      "2C-T-x",
+      "Catha edulis"
+    ],
+    [
+      "2C-T-x",
+      "Methamphetamine"
+    ],
+    [
+      "2C-T-x",
+      "Amphetamines"
+    ],
+    [
+      "2C-T-x",
+      "Ephedrine"
+    ],
+    [
+      "2C-T-x",
+      "Ephedra species"
+    ],
+    [
+      "2C-T-x",
+      "Cocaine"
+    ],
+    [
+      "2C-T-x",
+      "Erythroxylum species"
+    ],
+    [
+      "2C-T-x",
+      "Levodopa"
+    ],
+    [
+      "2C-T-x",
+      "Mucuna pruriens"
+    ],
+    [
+      "2C-T-x",
+      "Ibogaine"
+    ],
+    [
+      "2C-T-x",
+      "Tabernanthe iboga"
+    ],
+    [
+      "2C-T-x",
+      "Tropanes"
+    ],
+    [
+      "2C-T-x",
+      "Hyoscyamine"
+    ],
+    [
+      "2C-T-x",
+      "Scopolamine"
+    ],
+    [
+      "2C-T-x",
+      "Brugmansia species"
+    ],
+    [
+      "2C-T-x",
+      "Datura species"
+    ],
+    [
+      "2C-x",
+      "Lophophora williamsii"
+    ],
+    [
+      "2C-x",
+      "Mimosa species"
+    ],
+    [
+      "2C-x",
+      "Panaeolus species"
+    ],
+    [
+      "2C-x",
+      "Psilocybe species"
+    ],
+    [
+      "2C-x",
+      "Psychotria species"
+    ],
+    [
+      "2C-x",
+      "Turbina corymbosa"
+    ],
+    [
+      "2C-x",
+      "Virola species"
+    ],
+    [
+      "2C-x",
+      "Trichocereus species"
+    ],
+    [
+      "2C-x",
+      "DOx"
+    ],
+    [
+      "2C-x",
+      "DOI"
+    ],
+    [
+      "2C-x",
+      "NBOMes"
+    ],
+    [
+      "2C-x",
+      "Benzodiazipines"
+    ],
+    [
+      "2C-x",
+      "Alprazolam"
+    ],
+    [
+      "2C-x",
+      "Diazepam"
+    ],
+    [
+      "2C-x",
+      "GBL"
+    ],
+    [
+      "2C-x",
+      "GHB"
+    ],
+    [
+      "2C-x",
+      "Alcohol"
+    ],
+    [
+      "2C-x",
+      "Amanita muscaria"
+    ],
+    [
+      "2C-x",
+      "Bufotenine"
+    ],
+    [
+      "2C-x",
+      "Anadenanthera species"
+    ],
+    [
+      "2C-x",
+      "5-MeO-xxT"
+    ],
+    [
+      "2C-x",
+      "5-MeO-DMT"
+    ],
+    [
+      "2C-x",
+      "Incillius alvarius"
+    ],
+    [
+      "2C-x",
+      "Phalaris species"
+    ],
+    [
+      "2C-x",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "2C-x",
+      "Tramadol"
+    ],
+    [
+      "2C-x",
+      "Mitragynine"
+    ],
+    [
+      "2C-x",
+      "Mitragyna speciosa"
+    ],
+    [
+      "2C-x",
+      "Opioids"
+    ],
+    [
+      "2C-x",
+      "Codeine"
+    ],
+    [
+      "2C-x",
+      "Heroin"
+    ],
+    [
+      "2C-x",
+      "Papaver species"
+    ],
+    [
+      "2C-x",
+      "Nitrous oxide"
+    ],
+    [
+      "2C-x",
+      "MXE"
+    ],
+    [
+      "2C-x",
+      "DXM"
+    ],
+    [
+      "2C-x",
+      "Ketamine"
+    ],
+    [
+      "2C-x",
+      "Cannabis species"
+    ],
+    [
+      "2C-x",
+      "Arecoline"
+    ],
+    [
+      "2C-x",
+      "Areca catechu"
+    ],
+    [
+      "2C-x",
+      "Caffeine"
+    ],
+    [
+      "2C-x",
+      "Camellia sinensis"
+    ],
+    [
+      "2C-x",
+      "Coffea species"
+    ],
+    [
+      "2C-x",
+      "Cola species"
+    ],
+    [
+      "2C-x",
+      "Duboisia hopwoodii"
+    ],
+    [
+      "2C-x",
+      "Ilex paraguariensis"
+    ],
+    [
+      "2C-x",
+      "Nicotine"
+    ],
+    [
+      "2C-x",
+      "Nicotiana species"
+    ],
+    [
+      "2C-x",
+      "Mesembrine"
+    ],
+    [
+      "2C-x",
+      "Sceletium species"
+    ],
+    [
+      "2C-x",
+      "Eugenol"
+    ],
+    [
+      "2C-x",
+      "Piper betle"
+    ],
+    [
+      "2C-x",
+      "MDMA"
+    ],
+    [
+      "2C-x",
+      "MDA"
+    ],
+    [
+      "2C-x",
+      "Safrole"
+    ],
+    [
+      "2C-x",
+      "Sassafras species"
+    ],
+    [
+      "2C-x",
+      "Myristicin"
+    ],
+    [
+      "2C-x",
+      "Myristica species"
+    ],
+    [
+      "2C-x",
+      "SSRIs"
+    ],
+    [
+      "2C-x",
+      "MAOIs"
+    ],
+    [
+      "2C-x",
+      "Harmalas"
+    ],
+    [
+      "2C-x",
+      "Harmaline"
+    ],
+    [
+      "2C-x",
+      "Harmine"
+    ],
+    [
+      "2C-x",
+      "Banisteriopsis caapi"
+    ],
+    [
+      "2C-x",
+      "Peganum harmala"
+    ],
+    [
+      "2C-x",
+      "Passiflora species"
+    ],
+    [
+      "2C-x",
+      "Kavalactones"
+    ],
+    [
+      "2C-x",
+      "Piper methysticum"
+    ],
+    [
+      "2C-x",
+      "Methcathinone"
+    ],
+    [
+      "2C-x",
+      "Mephedrone"
+    ],
+    [
+      "2C-x",
+      "Cathinones"
+    ],
+    [
+      "2C-x",
+      "Catha edulis"
+    ],
+    [
+      "2C-x",
+      "Methamphetamine"
+    ],
+    [
+      "2C-x",
+      "Amphetamines"
+    ],
+    [
+      "2C-x",
+      "Ephedrine"
+    ],
+    [
+      "2C-x",
+      "Ephedra species"
+    ],
+    [
+      "2C-x",
+      "Cocaine"
+    ],
+    [
+      "2C-x",
+      "Erythroxylum species"
+    ],
+    [
+      "2C-x",
+      "Levodopa"
+    ],
+    [
+      "2C-x",
+      "Mucuna pruriens"
+    ],
+    [
+      "2C-x",
+      "Ibogaine"
+    ],
+    [
+      "2C-x",
+      "Tabernanthe iboga"
+    ],
+    [
+      "2C-x",
+      "Tropanes"
+    ],
+    [
+      "2C-x",
+      "Hyoscyamine"
+    ],
+    [
+      "2C-x",
+      "Scopolamine"
+    ],
+    [
+      "2C-x",
+      "Brugmansia species"
+    ],
+    [
+      "2C-x",
+      "Datura species"
+    ],
+    [
+      "Mescaline",
+      "Trichocereus species"
+    ],
+    [
+      "Mescaline",
+      "Phalaris species"
+    ],
+    [
+      "Mescaline",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "Mescaline",
+      "Tramadol"
+    ],
+    [
+      "Mescaline",
+      "Mitragyna speciosa"
+    ],
+    [
+      "Mescaline",
+      "Sceletium species"
+    ],
+    [
+      "Mescaline",
+      "Piper betle"
+    ],
+    [
+      "Mescaline",
+      "Sassafras species"
+    ],
+    [
+      "Mescaline",
+      "Myristicin"
+    ],
+    [
+      "Mescaline",
+      "Myristica species"
+    ],
+    [
+      "Mescaline",
+      "SSRIs"
+    ],
+    [
+      "Lophophora williamsii",
+      "Trichocereus species"
+    ],
+    [
+      "Lophophora williamsii",
+      "Phalaris species"
+    ],
+    [
+      "Lophophora williamsii",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "Lophophora williamsii",
+      "Tramadol"
+    ],
+    [
+      "Lophophora williamsii",
+      "Mitragyna speciosa"
+    ],
+    [
+      "Lophophora williamsii",
+      "Sceletium species"
+    ],
+    [
+      "Lophophora williamsii",
+      "Piper betle"
+    ],
+    [
+      "Lophophora williamsii",
+      "Sassafras species"
+    ],
+    [
+      "Lophophora williamsii",
+      "Myristicin"
+    ],
+    [
+      "Lophophora williamsii",
+      "Myristica species"
+    ],
+    [
+      "Lophophora williamsii",
+      "SSRIs"
+    ],
+    [
+      "Mimosa species",
+      "Trichocereus species"
+    ],
+    [
+      "Mimosa species",
+      "Phalaris species"
+    ],
+    [
+      "Mimosa species",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "Mimosa species",
+      "Tramadol"
+    ],
+    [
+      "Mimosa species",
+      "Mitragyna speciosa"
+    ],
+    [
+      "Mimosa species",
+      "Sceletium species"
+    ],
+    [
+      "Mimosa species",
+      "Piper betle"
+    ],
+    [
+      "Mimosa species",
+      "Sassafras species"
+    ],
+    [
+      "Mimosa species",
+      "Myristicin"
+    ],
+    [
+      "Mimosa species",
+      "Myristica species"
+    ],
+    [
+      "Mimosa species",
+      "SSRIs"
+    ],
+    [
+      "Panaeolus species",
+      "Trichocereus species"
+    ],
+    [
+      "Panaeolus species",
+      "Phalaris species"
+    ],
+    [
+      "Panaeolus species",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "Panaeolus species",
+      "Tramadol"
+    ],
+    [
+      "Panaeolus species",
+      "Sceletium species"
+    ],
+    [
+      "Panaeolus species",
+      "Piper betle"
+    ],
+    [
+      "Panaeolus species",
+      "Sassafras species"
+    ],
+    [
+      "Panaeolus species",
+      "SSRIs"
+    ],
+    [
+      "Psilocybe species",
+      "Trichocereus species"
+    ],
+    [
+      "Psilocybe species",
+      "Tramadol"
+    ],
+    [
+      "Psilocybe species",
+      "Sceletium species"
+    ],
+    [
+      "Psilocybe species",
+      "Sassafras species"
+    ],
+    [
+      "Psilocybe species",
+      "SSRIs"
+    ],
+    [
+      "Psychotria species",
+      "Trichocereus species"
+    ],
+    [
+      "Psychotria species",
+      "Tramadol"
+    ],
+    [
+      "Psychotria species",
+      "Sceletium species"
+    ],
+    [
+      "Psychotria species",
+      "Sassafras species"
+    ],
+    [
+      "Psychotria species",
+      "SSRIs"
+    ],
+    [
+      "DOx",
+      "NBOMes"
+    ],
+    [
+      "DOx",
+      "Diazepam"
+    ],
+    [
+      "DOx",
+      "GBL"
+    ],
+    [
+      "DOx",
+      "GHB"
+    ],
+    [
+      "DOx",
+      "Incillius alvarius"
+    ],
+    [
+      "DOx",
+      "Phalaris species"
+    ],
+    [
+      "DOx",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "DOx",
+      "Tramadol"
+    ],
+    [
+      "DOx",
+      "Mitragynine"
+    ],
+    [
+      "DOx",
+      "Mitragyna speciosa"
+    ],
+    [
+      "DOx",
+      "Opioids"
+    ],
+    [
+      "DOx",
+      "Heroin"
+    ],
+    [
+      "DOx",
+      "Papaver species"
+    ],
+    [
+      "DOx",
+      "Nitrous oxide"
+    ],
+    [
+      "DOx",
+      "MXE"
+    ],
+    [
+      "DOx",
+      "DXM"
+    ],
+    [
+      "DOx",
+      "Ketamine"
+    ],
+    [
+      "DOx",
+      "Duboisia hopwoodii"
+    ],
+    [
+      "DOx",
+      "Ilex paraguariensis"
+    ],
+    [
+      "DOx",
+      "Nicotine"
+    ],
+    [
+      "DOx",
+      "Nicotiana species"
+    ],
+    [
+      "DOx",
+      "Mesembrine"
+    ],
+    [
+      "DOx",
+      "Sceletium species"
+    ],
+    [
+      "DOx",
+      "Eugenol"
+    ],
+    [
+      "DOx",
+      "Piper betle"
+    ],
+    [
+      "DOx",
+      "MDMA"
+    ],
+    [
+      "DOx",
+      "MDA"
+    ],
+    [
+      "DOx",
+      "Safrole"
+    ],
+    [
+      "DOx",
+      "Sassafras species"
+    ],
+    [
+      "DOx",
+      "Myristicin"
+    ],
+    [
+      "DOx",
+      "Myristica species"
+    ],
+    [
+      "DOx",
+      "SSRIs"
+    ],
+    [
+      "DOx",
+      "MAOIs"
+    ],
+    [
+      "DOx",
+      "Harmalas"
+    ],
+    [
+      "DOx",
+      "Harmaline"
+    ],
+    [
+      "DOx",
+      "Harmine"
+    ],
+    [
+      "DOx",
+      "Peganum harmala"
+    ],
+    [
+      "DOx",
+      "Passiflora species"
+    ],
+    [
+      "DOx",
+      "Kavalactones"
+    ],
+    [
+      "DOx",
+      "Piper methysticum"
+    ],
+    [
+      "DOx",
+      "Methcathinone"
+    ],
+    [
+      "DOx",
+      "Mephedrone"
+    ],
+    [
+      "DOx",
+      "Methamphetamine"
+    ],
+    [
+      "DOx",
+      "Ephedrine"
+    ],
+    [
+      "DOx",
+      "Ephedra species"
+    ],
+    [
+      "DOx",
+      "Erythroxylum species"
+    ],
+    [
+      "DOx",
+      "Levodopa"
+    ],
+    [
+      "DOx",
+      "Mucuna pruriens"
+    ],
+    [
+      "DOx",
+      "Ibogaine"
+    ],
+    [
+      "DOx",
+      "Tabernanthe iboga"
+    ],
+    [
+      "DOx",
+      "Tropanes"
+    ],
+    [
+      "DOx",
+      "Hyoscyamine"
+    ],
+    [
+      "DOx",
+      "Scopolamine"
+    ],
+    [
+      "DOx",
+      "Datura species"
+    ],
+    [
+      "DOI",
+      "NBOMes"
+    ],
+    [
+      "DOI",
+      "Diazepam"
+    ],
+    [
+      "DOI",
+      "GBL"
+    ],
+    [
+      "DOI",
+      "GHB"
+    ],
+    [
+      "DOI",
+      "Incillius alvarius"
+    ],
+    [
+      "DOI",
+      "Phalaris species"
+    ],
+    [
+      "DOI",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "DOI",
+      "Tramadol"
+    ],
+    [
+      "DOI",
+      "Mitragynine"
+    ],
+    [
+      "DOI",
+      "Mitragyna speciosa"
+    ],
+    [
+      "DOI",
+      "Opioids"
+    ],
+    [
+      "DOI",
+      "Heroin"
+    ],
+    [
+      "DOI",
+      "Papaver species"
+    ],
+    [
+      "DOI",
+      "Nitrous oxide"
+    ],
+    [
+      "DOI",
+      "MXE"
+    ],
+    [
+      "DOI",
+      "DXM"
+    ],
+    [
+      "DOI",
+      "Ketamine"
+    ],
+    [
+      "DOI",
+      "Duboisia hopwoodii"
+    ],
+    [
+      "DOI",
+      "Ilex paraguariensis"
+    ],
+    [
+      "DOI",
+      "Nicotine"
+    ],
+    [
+      "DOI",
+      "Nicotiana species"
+    ],
+    [
+      "DOI",
+      "Mesembrine"
+    ],
+    [
+      "DOI",
+      "Sceletium species"
+    ],
+    [
+      "DOI",
+      "Eugenol"
+    ],
+    [
+      "DOI",
+      "Piper betle"
+    ],
+    [
+      "DOI",
+      "MDMA"
+    ],
+    [
+      "DOI",
+      "MDA"
+    ],
+    [
+      "DOI",
+      "Safrole"
+    ],
+    [
+      "DOI",
+      "Sassafras species"
+    ],
+    [
+      "DOI",
+      "Myristicin"
+    ],
+    [
+      "DOI",
+      "Myristica species"
+    ],
+    [
+      "DOI",
+      "SSRIs"
+    ],
+    [
+      "DOI",
+      "MAOIs"
+    ],
+    [
+      "DOI",
+      "Harmalas"
+    ],
+    [
+      "DOI",
+      "Harmaline"
+    ],
+    [
+      "DOI",
+      "Harmine"
+    ],
+    [
+      "DOI",
+      "Peganum harmala"
+    ],
+    [
+      "DOI",
+      "Passiflora species"
+    ],
+    [
+      "DOI",
+      "Kavalactones"
+    ],
+    [
+      "DOI",
+      "Piper methysticum"
+    ],
+    [
+      "DOI",
+      "Methcathinone"
+    ],
+    [
+      "DOI",
+      "Mephedrone"
+    ],
+    [
+      "DOI",
+      "Methamphetamine"
+    ],
+    [
+      "DOI",
+      "Ephedrine"
+    ],
+    [
+      "DOI",
+      "Ephedra species"
+    ],
+    [
+      "DOI",
+      "Erythroxylum species"
+    ],
+    [
+      "DOI",
+      "Levodopa"
+    ],
+    [
+      "DOI",
+      "Mucuna pruriens"
+    ],
+    [
+      "DOI",
+      "Ibogaine"
+    ],
+    [
+      "DOI",
+      "Tabernanthe iboga"
+    ],
+    [
+      "DOI",
+      "Tropanes"
+    ],
+    [
+      "DOI",
+      "Hyoscyamine"
+    ],
+    [
+      "DOI",
+      "Scopolamine"
+    ],
+    [
+      "DOI",
+      "Datura species"
+    ],
+    [
+      "25I-NBOMe",
+      "Benzodiazipines"
+    ],
+    [
+      "25I-NBOMe",
+      "Bufotenine"
+    ],
+    [
+      "25I-NBOMe",
+      "Anadenanthera species"
+    ],
+    [
+      "25I-NBOMe",
+      "5-MeO-xxT"
+    ],
+    [
+      "25I-NBOMe",
+      "5-MeO-DMT"
+    ],
+    [
+      "25I-NBOMe",
+      "Phalaris species"
+    ],
+    [
+      "25I-NBOMe",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "25I-NBOMe",
+      "Tramadol"
+    ],
+    [
+      "25I-NBOMe",
+      "Mitragyna speciosa"
+    ],
+    [
+      "25I-NBOMe",
+      "Camellia sinensis"
+    ],
+    [
+      "25I-NBOMe",
+      "Coffea species"
+    ],
+    [
+      "25I-NBOMe",
+      "Cola species"
+    ],
+    [
+      "25I-NBOMe",
+      "Duboisia hopwoodii"
+    ],
+    [
+      "25I-NBOMe",
+      "Ilex paraguariensis"
+    ],
+    [
+      "25I-NBOMe",
+      "Nicotine"
+    ],
+    [
+      "25I-NBOMe",
+      "Nicotiana species"
+    ],
+    [
+      "25I-NBOMe",
+      "Mesembrine"
+    ],
+    [
+      "25I-NBOMe",
+      "Sceletium species"
+    ],
+    [
+      "25I-NBOMe",
+      "Eugenol"
+    ],
+    [
+      "25I-NBOMe",
+      "Piper betle"
+    ],
+    [
+      "25I-NBOMe",
+      "Sassafras species"
+    ],
+    [
+      "25I-NBOMe",
+      "Myristicin"
+    ],
+    [
+      "25I-NBOMe",
+      "Myristica species"
+    ],
+    [
+      "25I-NBOMe",
+      "SSRIs"
+    ],
+    [
+      "25I-NBOMe",
+      "Kavalactones"
+    ],
+    [
+      "25I-NBOMe",
+      "Catha edulis"
+    ],
+    [
+      "25I-NBOMe",
+      "Ibogaine"
+    ],
+    [
+      "25I-NBOMe",
+      "Hyoscyamine"
+    ],
+    [
+      "NBOMes",
+      "Phalaris species"
+    ],
+    [
+      "NBOMes",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "NBOMes",
+      "Tramadol"
+    ],
+    [
+      "NBOMes",
+      "Opioids"
+    ],
+    [
+      "NBOMes",
+      "Papaver species"
+    ],
+    [
+      "NBOMes",
+      "Nitrous oxide"
+    ],
+    [
+      "NBOMes",
+      "Nicotine"
+    ],
+    [
+      "NBOMes",
+      "Nicotiana species"
+    ],
+    [
+      "NBOMes",
+      "Sceletium species"
+    ],
+    [
+      "NBOMes",
+      "Piper betle"
+    ],
+    [
+      "NBOMes",
+      "Safrole"
+    ],
+    [
+      "NBOMes",
+      "Sassafras species"
+    ],
+    [
+      "NBOMes",
+      "SSRIs"
+    ],
+    [
+      "NBOMes",
+      "Peganum harmala"
+    ],
+    [
+      "NBOMes",
+      "Passiflora species"
+    ],
+    [
+      "NBOMes",
+      "Piper methysticum"
+    ],
+    [
+      "NBOMes",
+      "Tabernanthe iboga"
+    ],
+    [
+      "NBOMes",
+      "Tropanes"
+    ],
+    [
+      "NBOMes",
+      "Scopolamine"
+    ],
+    [
+      "Benzodiazipines",
+      "Bufotenine"
+    ],
+    [
+      "Benzodiazipines",
+      "Phalaris species"
+    ],
+    [
+      "Benzodiazipines",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "Benzodiazipines",
+      "Tramadol"
+    ],
+    [
+      "Benzodiazipines",
+      "Mitragyna speciosa"
+    ],
+    [
+      "Benzodiazipines",
+      "Ilex paraguariensis"
+    ],
+    [
+      "Benzodiazipines",
+      "Sceletium species"
+    ],
+    [
+      "Benzodiazipines",
+      "Eugenol"
+    ],
+    [
+      "Benzodiazipines",
+      "Piper betle"
+    ],
+    [
+      "Benzodiazipines",
+      "Sassafras species"
+    ],
+    [
+      "Benzodiazipines",
+      "Myristicin"
+    ],
+    [
+      "Benzodiazipines",
+      "Myristica species"
+    ],
+    [
+      "Benzodiazipines",
+      "SSRIs"
+    ],
+    [
+      "Benzodiazipines",
+      "Kavalactones"
+    ],
+    [
+      "Benzodiazipines",
+      "Catha edulis"
+    ],
+    [
+      "Benzodiazipines",
+      "Ibogaine"
+    ],
+    [
+      "Benzodiazipines",
+      "Hyoscyamine"
+    ],
+    [
+      "Alprazolam",
+      "Bufotenine"
+    ],
+    [
+      "Alprazolam",
+      "Anadenanthera species"
+    ],
+    [
+      "Alprazolam",
+      "Phalaris species"
+    ],
+    [
+      "Alprazolam",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "Alprazolam",
+      "Tramadol"
+    ],
+    [
+      "Alprazolam",
+      "Mitragyna speciosa"
+    ],
+    [
+      "Alprazolam",
+      "Ilex paraguariensis"
+    ],
+    [
+      "Alprazolam",
+      "Sceletium species"
+    ],
+    [
+      "Alprazolam",
+      "Eugenol"
+    ],
+    [
+      "Alprazolam",
+      "Piper betle"
+    ],
+    [
+      "Alprazolam",
+      "Sassafras species"
+    ],
+    [
+      "Alprazolam",
+      "Myristicin"
+    ],
+    [
+      "Alprazolam",
+      "Myristica species"
+    ],
+    [
+      "Alprazolam",
+      "SSRIs"
+    ],
+    [
+      "Alprazolam",
+      "Kavalactones"
+    ],
+    [
+      "Alprazolam",
+      "Catha edulis"
+    ],
+    [
+      "Alprazolam",
+      "Ibogaine"
+    ],
+    [
+      "Alprazolam",
+      "Hyoscyamine"
+    ],
+    [
+      "Diazepam",
+      "Phalaris species"
+    ],
+    [
+      "Diazepam",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "Diazepam",
+      "Tramadol"
+    ],
+    [
+      "Diazepam",
+      "Mitragyna speciosa"
+    ],
+    [
+      "Diazepam",
+      "Ilex paraguariensis"
+    ],
+    [
+      "Diazepam",
+      "Sceletium species"
+    ],
+    [
+      "Diazepam",
+      "Eugenol"
+    ],
+    [
+      "Diazepam",
+      "Piper betle"
+    ],
+    [
+      "Diazepam",
+      "Sassafras species"
+    ],
+    [
+      "Diazepam",
+      "Myristicin"
+    ],
+    [
+      "Diazepam",
+      "Myristica species"
+    ],
+    [
+      "Diazepam",
+      "SSRIs"
+    ],
+    [
+      "Diazepam",
+      "Kavalactones"
+    ],
+    [
+      "Diazepam",
+      "Ibogaine"
+    ],
+    [
+      "Diazepam",
+      "Hyoscyamine"
+    ],
+    [
+      "GBL",
+      "Phalaris species"
+    ],
+    [
+      "GBL",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "GBL",
+      "Tramadol"
+    ],
+    [
+      "GBL",
+      "Mitragyna speciosa"
+    ],
+    [
+      "GBL",
+      "Ilex paraguariensis"
+    ],
+    [
+      "GBL",
+      "Sceletium species"
+    ],
+    [
+      "GBL",
+      "Piper betle"
+    ],
+    [
+      "GBL",
+      "Sassafras species"
+    ],
+    [
+      "GBL",
+      "Myristicin"
+    ],
+    [
+      "GBL",
+      "Myristica species"
+    ],
+    [
+      "GBL",
+      "SSRIs"
+    ],
+    [
+      "GBL",
+      "Kavalactones"
+    ],
+    [
+      "GBL",
+      "Ibogaine"
+    ],
+    [
+      "GBL",
+      "Hyoscyamine"
+    ],
+    [
+      "GHB",
+      "Phalaris species"
+    ],
+    [
+      "GHB",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "GHB",
+      "Tramadol"
+    ],
+    [
+      "GHB",
+      "Mitragyna speciosa"
+    ],
+    [
+      "GHB",
+      "Ilex paraguariensis"
+    ],
+    [
+      "GHB",
+      "Sceletium species"
+    ],
+    [
+      "GHB",
+      "Piper betle"
+    ],
+    [
+      "GHB",
+      "Sassafras species"
+    ],
+    [
+      "GHB",
+      "Myristicin"
+    ],
+    [
+      "GHB",
+      "Myristica species"
+    ],
+    [
+      "GHB",
+      "SSRIs"
+    ],
+    [
+      "GHB",
+      "Kavalactones"
+    ],
+    [
+      "GHB",
+      "Ibogaine"
+    ],
+    [
+      "GHB",
+      "Hyoscyamine"
+    ],
+    [
+      "Alcohol",
+      "Bufotenine"
+    ],
+    [
+      "Alcohol",
+      "Anadenanthera species"
+    ],
+    [
+      "Alcohol",
+      "Phalaris species"
+    ],
+    [
+      "Alcohol",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "Alcohol",
+      "Tramadol"
+    ],
+    [
+      "Alcohol",
+      "Mitragyna speciosa"
+    ],
+    [
+      "Alcohol",
+      "Ilex paraguariensis"
+    ],
+    [
+      "Alcohol",
+      "Sceletium species"
+    ],
+    [
+      "Alcohol",
+      "Eugenol"
+    ],
+    [
+      "Alcohol",
+      "Piper betle"
+    ],
+    [
+      "Alcohol",
+      "Sassafras species"
+    ],
+    [
+      "Alcohol",
+      "Myristicin"
+    ],
+    [
+      "Alcohol",
+      "Myristica species"
+    ],
+    [
+      "Alcohol",
+      "SSRIs"
+    ],
+    [
+      "Alcohol",
+      "Kavalactones"
+    ],
+    [
+      "Alcohol",
+      "Catha edulis"
+    ],
+    [
+      "Alcohol",
+      "Ibogaine"
+    ],
+    [
+      "Alcohol",
+      "Hyoscyamine"
+    ],
+    [
+      "Amanita muscaria",
+      "Anadenanthera species"
+    ],
+    [
+      "Amanita muscaria",
+      "Incillius alvarius"
+    ],
+    [
+      "Amanita muscaria",
+      "Phalaris species"
+    ],
+    [
+      "Amanita muscaria",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "Amanita muscaria",
+      "Tramadol"
+    ],
+    [
+      "Amanita muscaria",
+      "Mitragynine"
+    ],
+    [
+      "Amanita muscaria",
+      "Mitragyna speciosa"
+    ],
+    [
+      "Amanita muscaria",
+      "Opioids"
+    ],
+    [
+      "Amanita muscaria",
+      "Codeine"
+    ],
+    [
+      "Amanita muscaria",
+      "Heroin"
+    ],
+    [
+      "Amanita muscaria",
+      "Papaver species"
+    ],
+    [
+      "Amanita muscaria",
+      "Nitrous oxide"
+    ],
+    [
+      "Amanita muscaria",
+      "MXE"
+    ],
+    [
+      "Amanita muscaria",
+      "DXM"
+    ],
+    [
+      "Amanita muscaria",
+      "Ketamine"
+    ],
+    [
+      "Amanita muscaria",
+      "Cannabis species"
+    ],
+    [
+      "Amanita muscaria",
+      "Arecoline"
+    ],
+    [
+      "Amanita muscaria",
+      "Areca catechu"
+    ],
+    [
+      "Amanita muscaria",
+      "Caffeine"
+    ],
+    [
+      "Amanita muscaria",
+      "Camellia sinensis"
+    ],
+    [
+      "Amanita muscaria",
+      "Coffea species"
+    ],
+    [
+      "Amanita muscaria",
+      "Cola species"
+    ],
+    [
+      "Amanita muscaria",
+      "Duboisia hopwoodii"
+    ],
+    [
+      "Amanita muscaria",
+      "Ilex paraguariensis"
+    ],
+    [
+      "Amanita muscaria",
+      "Nicotine"
+    ],
+    [
+      "Amanita muscaria",
+      "Nicotiana species"
+    ],
+    [
+      "Amanita muscaria",
+      "Mesembrine"
+    ],
+    [
+      "Amanita muscaria",
+      "Sceletium species"
+    ],
+    [
+      "Amanita muscaria",
+      "Eugenol"
+    ],
+    [
+      "Amanita muscaria",
+      "Piper betle"
+    ],
+    [
+      "Amanita muscaria",
+      "MDMA"
+    ],
+    [
+      "Amanita muscaria",
+      "MDA"
+    ],
+    [
+      "Amanita muscaria",
+      "Safrole"
+    ],
+    [
+      "Amanita muscaria",
+      "Sassafras species"
+    ],
+    [
+      "Amanita muscaria",
+      "Myristicin"
+    ],
+    [
+      "Amanita muscaria",
+      "Myristica species"
+    ],
+    [
+      "Amanita muscaria",
+      "SSRIs"
+    ],
+    [
+      "Amanita muscaria",
+      "MAOIs"
+    ],
+    [
+      "Amanita muscaria",
+      "Harmalas"
+    ],
+    [
+      "Amanita muscaria",
+      "Harmaline"
+    ],
+    [
+      "Amanita muscaria",
+      "Harmine"
+    ],
+    [
+      "Amanita muscaria",
+      "Banisteriopsis caapi"
+    ],
+    [
+      "Amanita muscaria",
+      "Peganum harmala"
+    ],
+    [
+      "Amanita muscaria",
+      "Passiflora species"
+    ],
+    [
+      "Amanita muscaria",
+      "Kavalactones"
+    ],
+    [
+      "Amanita muscaria",
+      "Piper methysticum"
+    ],
+    [
+      "Amanita muscaria",
+      "Methcathinone"
+    ],
+    [
+      "Amanita muscaria",
+      "Mephedrone"
+    ],
+    [
+      "Amanita muscaria",
+      "Cathinones"
+    ],
+    [
+      "Amanita muscaria",
+      "Catha edulis"
+    ],
+    [
+      "Amanita muscaria",
+      "Methamphetamine"
+    ],
+    [
+      "Amanita muscaria",
+      "Amphetamines"
+    ],
+    [
+      "Amanita muscaria",
+      "Ephedrine"
+    ],
+    [
+      "Amanita muscaria",
+      "Ephedra species"
+    ],
+    [
+      "Amanita muscaria",
+      "Cocaine"
+    ],
+    [
+      "Amanita muscaria",
+      "Erythroxylum species"
+    ],
+    [
+      "Amanita muscaria",
+      "Levodopa"
+    ],
+    [
+      "Amanita muscaria",
+      "Mucuna pruriens"
+    ],
+    [
+      "Amanita muscaria",
+      "Ibogaine"
+    ],
+    [
+      "Amanita muscaria",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Amanita muscaria",
+      "Tropanes"
+    ],
+    [
+      "Amanita muscaria",
+      "Hyoscyamine"
+    ],
+    [
+      "Amanita muscaria",
+      "Scopolamine"
+    ],
+    [
+      "Amanita muscaria",
+      "Brugmansia species"
+    ],
+    [
+      "Amanita muscaria",
+      "Datura species"
+    ],
+    [
+      "Bufotenine",
+      "Incillius alvarius"
+    ],
+    [
+      "Bufotenine",
+      "Phalaris species"
+    ],
+    [
+      "Bufotenine",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "Bufotenine",
+      "Tramadol"
+    ],
+    [
+      "Bufotenine",
+      "Mitragynine"
+    ],
+    [
+      "Bufotenine",
+      "Mitragyna speciosa"
+    ],
+    [
+      "Bufotenine",
+      "Opioids"
+    ],
+    [
+      "Bufotenine",
+      "Codeine"
+    ],
+    [
+      "Bufotenine",
+      "Heroin"
+    ],
+    [
+      "Bufotenine",
+      "Papaver species"
+    ],
+    [
+      "Bufotenine",
+      "Nitrous oxide"
+    ],
+    [
+      "Bufotenine",
+      "MXE"
+    ],
+    [
+      "Bufotenine",
+      "DXM"
+    ],
+    [
+      "Bufotenine",
+      "Ketamine"
+    ],
+    [
+      "Bufotenine",
+      "Cannabis species"
+    ],
+    [
+      "Bufotenine",
+      "Caffeine"
+    ],
+    [
+      "Bufotenine",
+      "Camellia sinensis"
+    ],
+    [
+      "Bufotenine",
+      "Coffea species"
+    ],
+    [
+      "Bufotenine",
+      "Cola species"
+    ],
+    [
+      "Bufotenine",
+      "Duboisia hopwoodii"
+    ],
+    [
+      "Bufotenine",
+      "Ilex paraguariensis"
+    ],
+    [
+      "Bufotenine",
+      "Nicotine"
+    ],
+    [
+      "Bufotenine",
+      "Nicotiana species"
+    ],
+    [
+      "Bufotenine",
+      "Mesembrine"
+    ],
+    [
+      "Bufotenine",
+      "Sceletium species"
+    ],
+    [
+      "Bufotenine",
+      "Eugenol"
+    ],
+    [
+      "Bufotenine",
+      "Piper betle"
+    ],
+    [
+      "Bufotenine",
+      "MDMA"
+    ],
+    [
+      "Bufotenine",
+      "MDA"
+    ],
+    [
+      "Bufotenine",
+      "Safrole"
+    ],
+    [
+      "Bufotenine",
+      "Sassafras species"
+    ],
+    [
+      "Bufotenine",
+      "Myristicin"
+    ],
+    [
+      "Bufotenine",
+      "Myristica species"
+    ],
+    [
+      "Bufotenine",
+      "SSRIs"
+    ],
+    [
+      "Bufotenine",
+      "MAOIs"
+    ],
+    [
+      "Bufotenine",
+      "Harmalas"
+    ],
+    [
+      "Bufotenine",
+      "Harmaline"
+    ],
+    [
+      "Bufotenine",
+      "Harmine"
+    ],
+    [
+      "Bufotenine",
+      "Peganum harmala"
+    ],
+    [
+      "Bufotenine",
+      "Passiflora species"
+    ],
+    [
+      "Bufotenine",
+      "Kavalactones"
+    ],
+    [
+      "Bufotenine",
+      "Piper methysticum"
+    ],
+    [
+      "Bufotenine",
+      "Methcathinone"
+    ],
+    [
+      "Bufotenine",
+      "Mephedrone"
+    ],
+    [
+      "Bufotenine",
+      "Cathinones"
+    ],
+    [
+      "Bufotenine",
+      "Catha edulis"
+    ],
+    [
+      "Bufotenine",
+      "Methamphetamine"
+    ],
+    [
+      "Bufotenine",
+      "Ephedrine"
+    ],
+    [
+      "Bufotenine",
+      "Ephedra species"
+    ],
+    [
+      "Bufotenine",
+      "Cocaine"
+    ],
+    [
+      "Bufotenine",
+      "Erythroxylum species"
+    ],
+    [
+      "Bufotenine",
+      "Levodopa"
+    ],
+    [
+      "Bufotenine",
+      "Mucuna pruriens"
+    ],
+    [
+      "Bufotenine",
+      "Ibogaine"
+    ],
+    [
+      "Bufotenine",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Bufotenine",
+      "Tropanes"
+    ],
+    [
+      "Bufotenine",
+      "Hyoscyamine"
+    ],
+    [
+      "Bufotenine",
+      "Scopolamine"
+    ],
+    [
+      "Bufotenine",
+      "Datura species"
+    ],
+    [
+      "Anadenanthera species",
+      "Incillius alvarius"
+    ],
+    [
+      "Anadenanthera species",
+      "Phalaris species"
+    ],
+    [
+      "Anadenanthera species",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "Anadenanthera species",
+      "Tramadol"
+    ],
+    [
+      "Anadenanthera species",
+      "Mitragynine"
+    ],
+    [
+      "Anadenanthera species",
+      "Mitragyna speciosa"
+    ],
+    [
+      "Anadenanthera species",
+      "Opioids"
+    ],
+    [
+      "Anadenanthera species",
+      "Codeine"
+    ],
+    [
+      "Anadenanthera species",
+      "Heroin"
+    ],
+    [
+      "Anadenanthera species",
+      "Papaver species"
+    ],
+    [
+      "Anadenanthera species",
+      "Nitrous oxide"
+    ],
+    [
+      "Anadenanthera species",
+      "MXE"
+    ],
+    [
+      "Anadenanthera species",
+      "DXM"
+    ],
+    [
+      "Anadenanthera species",
+      "Ketamine"
+    ],
+    [
+      "Anadenanthera species",
+      "Cannabis species"
+    ],
+    [
+      "Anadenanthera species",
+      "Arecoline"
+    ],
+    [
+      "Anadenanthera species",
+      "Areca catechu"
+    ],
+    [
+      "Anadenanthera species",
+      "Caffeine"
+    ],
+    [
+      "Anadenanthera species",
+      "Camellia sinensis"
+    ],
+    [
+      "Anadenanthera species",
+      "Coffea species"
+    ],
+    [
+      "Anadenanthera species",
+      "Cola species"
+    ],
+    [
+      "Anadenanthera species",
+      "Duboisia hopwoodii"
+    ],
+    [
+      "Anadenanthera species",
+      "Ilex paraguariensis"
+    ],
+    [
+      "Anadenanthera species",
+      "Nicotine"
+    ],
+    [
+      "Anadenanthera species",
+      "Nicotiana species"
+    ],
+    [
+      "Anadenanthera species",
+      "Mesembrine"
+    ],
+    [
+      "Anadenanthera species",
+      "Sceletium species"
+    ],
+    [
+      "Anadenanthera species",
+      "Eugenol"
+    ],
+    [
+      "Anadenanthera species",
+      "Piper betle"
+    ],
+    [
+      "Anadenanthera species",
+      "MDMA"
+    ],
+    [
+      "Anadenanthera species",
+      "MDA"
+    ],
+    [
+      "Anadenanthera species",
+      "Safrole"
+    ],
+    [
+      "Anadenanthera species",
+      "Sassafras species"
+    ],
+    [
+      "Anadenanthera species",
+      "Myristicin"
+    ],
+    [
+      "Anadenanthera species",
+      "Myristica species"
+    ],
+    [
+      "Anadenanthera species",
+      "SSRIs"
+    ],
+    [
+      "Anadenanthera species",
+      "MAOIs"
+    ],
+    [
+      "Anadenanthera species",
+      "Harmalas"
+    ],
+    [
+      "Anadenanthera species",
+      "Harmaline"
+    ],
+    [
+      "Anadenanthera species",
+      "Harmine"
+    ],
+    [
+      "Anadenanthera species",
+      "Banisteriopsis caapi"
+    ],
+    [
+      "Anadenanthera species",
+      "Peganum harmala"
+    ],
+    [
+      "Anadenanthera species",
+      "Passiflora species"
+    ],
+    [
+      "Anadenanthera species",
+      "Kavalactones"
+    ],
+    [
+      "Anadenanthera species",
+      "Piper methysticum"
+    ],
+    [
+      "Anadenanthera species",
+      "Methcathinone"
+    ],
+    [
+      "Anadenanthera species",
+      "Mephedrone"
+    ],
+    [
+      "Anadenanthera species",
+      "Cathinones"
+    ],
+    [
+      "Anadenanthera species",
+      "Catha edulis"
+    ],
+    [
+      "Anadenanthera species",
+      "Methamphetamine"
+    ],
+    [
+      "Anadenanthera species",
+      "Ephedrine"
+    ],
+    [
+      "Anadenanthera species",
+      "Ephedra species"
+    ],
+    [
+      "Anadenanthera species",
+      "Cocaine"
+    ],
+    [
+      "Anadenanthera species",
+      "Erythroxylum species"
+    ],
+    [
+      "Anadenanthera species",
+      "Levodopa"
+    ],
+    [
+      "Anadenanthera species",
+      "Mucuna pruriens"
+    ],
+    [
+      "Anadenanthera species",
+      "Ibogaine"
+    ],
+    [
+      "Anadenanthera species",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Anadenanthera species",
+      "Tropanes"
+    ],
+    [
+      "Anadenanthera species",
+      "Hyoscyamine"
+    ],
+    [
+      "Anadenanthera species",
+      "Scopolamine"
+    ],
+    [
+      "Anadenanthera species",
+      "Brugmansia species"
+    ],
+    [
+      "Anadenanthera species",
+      "Datura species"
+    ],
+    [
+      "5-MeO-xxT",
+      "Incillius alvarius"
+    ],
+    [
+      "5-MeO-xxT",
+      "Phalaris species"
+    ],
+    [
+      "5-MeO-xxT",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "5-MeO-xxT",
+      "Tramadol"
+    ],
+    [
+      "5-MeO-xxT",
+      "Mitragynine"
+    ],
+    [
+      "5-MeO-xxT",
+      "Mitragyna speciosa"
+    ],
+    [
+      "5-MeO-xxT",
+      "Opioids"
+    ],
+    [
+      "5-MeO-xxT",
+      "Codeine"
+    ],
+    [
+      "5-MeO-xxT",
+      "Heroin"
+    ],
+    [
+      "5-MeO-xxT",
+      "Papaver species"
+    ],
+    [
+      "5-MeO-xxT",
+      "Nitrous oxide"
+    ],
+    [
+      "5-MeO-xxT",
+      "MXE"
+    ],
+    [
+      "5-MeO-xxT",
+      "DXM"
+    ],
+    [
+      "5-MeO-xxT",
+      "Ketamine"
+    ],
+    [
+      "5-MeO-xxT",
+      "Cannabis species"
+    ],
+    [
+      "5-MeO-xxT",
+      "Arecoline"
+    ],
+    [
+      "5-MeO-xxT",
+      "Areca catechu"
+    ],
+    [
+      "5-MeO-xxT",
+      "Caffeine"
+    ],
+    [
+      "5-MeO-xxT",
+      "Camellia sinensis"
+    ],
+    [
+      "5-MeO-xxT",
+      "Coffea species"
+    ],
+    [
+      "5-MeO-xxT",
+      "Cola species"
+    ],
+    [
+      "5-MeO-xxT",
+      "Duboisia hopwoodii"
+    ],
+    [
+      "5-MeO-xxT",
+      "Ilex paraguariensis"
+    ],
+    [
+      "5-MeO-xxT",
+      "Nicotine"
+    ],
+    [
+      "5-MeO-xxT",
+      "Nicotiana species"
+    ],
+    [
+      "5-MeO-xxT",
+      "Mesembrine"
+    ],
+    [
+      "5-MeO-xxT",
+      "Sceletium species"
+    ],
+    [
+      "5-MeO-xxT",
+      "Eugenol"
+    ],
+    [
+      "5-MeO-xxT",
+      "Piper betle"
+    ],
+    [
+      "5-MeO-xxT",
+      "MDMA"
+    ],
+    [
+      "5-MeO-xxT",
+      "MDA"
+    ],
+    [
+      "5-MeO-xxT",
+      "Safrole"
+    ],
+    [
+      "5-MeO-xxT",
+      "Sassafras species"
+    ],
+    [
+      "5-MeO-xxT",
+      "Myristicin"
+    ],
+    [
+      "5-MeO-xxT",
+      "Myristica species"
+    ],
+    [
+      "5-MeO-xxT",
+      "SSRIs"
+    ],
+    [
+      "5-MeO-xxT",
+      "MAOIs"
+    ],
+    [
+      "5-MeO-xxT",
+      "Harmalas"
+    ],
+    [
+      "5-MeO-xxT",
+      "Harmaline"
+    ],
+    [
+      "5-MeO-xxT",
+      "Harmine"
+    ],
+    [
+      "5-MeO-xxT",
+      "Banisteriopsis caapi"
+    ],
+    [
+      "5-MeO-xxT",
+      "Peganum harmala"
+    ],
+    [
+      "5-MeO-xxT",
+      "Passiflora species"
+    ],
+    [
+      "5-MeO-xxT",
+      "Kavalactones"
+    ],
+    [
+      "5-MeO-xxT",
+      "Piper methysticum"
+    ],
+    [
+      "5-MeO-xxT",
+      "Methcathinone"
+    ],
+    [
+      "5-MeO-xxT",
+      "Mephedrone"
+    ],
+    [
+      "5-MeO-xxT",
+      "Cathinones"
+    ],
+    [
+      "5-MeO-xxT",
+      "Catha edulis"
+    ],
+    [
+      "5-MeO-xxT",
+      "Methamphetamine"
+    ],
+    [
+      "5-MeO-xxT",
+      "Amphetamines"
+    ],
+    [
+      "5-MeO-xxT",
+      "Ephedrine"
+    ],
+    [
+      "5-MeO-xxT",
+      "Ephedra species"
+    ],
+    [
+      "5-MeO-xxT",
+      "Cocaine"
+    ],
+    [
+      "5-MeO-xxT",
+      "Erythroxylum species"
+    ],
+    [
+      "5-MeO-xxT",
+      "Levodopa"
+    ],
+    [
+      "5-MeO-xxT",
+      "Mucuna pruriens"
+    ],
+    [
+      "5-MeO-xxT",
+      "Ibogaine"
+    ],
+    [
+      "5-MeO-xxT",
+      "Tabernanthe iboga"
+    ],
+    [
+      "5-MeO-xxT",
+      "Tropanes"
+    ],
+    [
+      "5-MeO-xxT",
+      "Hyoscyamine"
+    ],
+    [
+      "5-MeO-xxT",
+      "Scopolamine"
+    ],
+    [
+      "5-MeO-xxT",
+      "Brugmansia species"
+    ],
+    [
+      "5-MeO-xxT",
+      "Datura species"
+    ],
+    [
+      "5-MeO-DMT",
+      "Phalaris species"
+    ],
+    [
+      "5-MeO-DMT",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "5-MeO-DMT",
+      "Tramadol"
+    ],
+    [
+      "5-MeO-DMT",
+      "Mitragyna speciosa"
+    ],
+    [
+      "5-MeO-DMT",
+      "Ilex paraguariensis"
+    ],
+    [
+      "5-MeO-DMT",
+      "Sceletium species"
+    ],
+    [
+      "5-MeO-DMT",
+      "Eugenol"
+    ],
+    [
+      "5-MeO-DMT",
+      "Piper betle"
+    ],
+    [
+      "5-MeO-DMT",
+      "Sassafras species"
+    ],
+    [
+      "5-MeO-DMT",
+      "Myristicin"
+    ],
+    [
+      "5-MeO-DMT",
+      "Myristica species"
+    ],
+    [
+      "5-MeO-DMT",
+      "SSRIs"
+    ],
+    [
+      "5-MeO-DMT",
+      "Kavalactones"
+    ],
+    [
+      "5-MeO-DMT",
+      "Ibogaine"
+    ],
+    [
+      "Incillius alvarius",
+      "Phyllomedusa bicolor"
+    ],
+    [
+      "Incillius alvarius",
+      "Tramadol"
+    ],
+    [
+      "Incillius alvarius",
+      "Mitragynine"
+    ],
+    [
+      "Incillius alvarius",
+      "Mitragyna speciosa"
+    ],
+    [
+      "Incillius alvarius",
+      "Opioids"
+    ],
+    [
+      "Incillius alvarius",
+      "Papaver species"
+    ],
+    [
+      "Incillius alvarius",
+      "Nitrous oxide"
+    ],
+    [
+      "Incillius alvarius",
+      "MXE"
+    ],
+    [
+      "Incillius alvarius",
+      "Ketamine"
+    ],
+    [
+      "Incillius alvarius",
+      "Nicotine"
+    ],
+    [
+      "Incillius alvarius",
+      "Nicotiana species"
+    ],
+    [
+      "Incillius alvarius",
+      "Mesembrine"
+    ],
+    [
+      "Incillius alvarius",
+      "Sceletium species"
+    ],
+    [
+      "Incillius alvarius",
+      "Piper betle"
+    ],
+    [
+      "Incillius alvarius",
+      "MDMA"
+    ],
+    [
+      "Incillius alvarius",
+      "MDA"
+    ],
+    [
+      "Incillius alvarius",
+      "Safrole"
+    ],
+    [
+      "Incillius alvarius",
+      "Sassafras species"
+    ],
+    [
+      "Incillius alvarius",
+      "Myristicin"
+    ],
+    [
+      "Incillius alvarius",
+      "Myristica species"
+    ],
+    [
+      "Incillius alvarius",
+      "SSRIs"
+    ],
+    [
+      "Incillius alvarius",
+      "MAOIs"
+    ],
+    [
+      "Incillius alvarius",
+      "Peganum harmala"
+    ],
+    [
+      "Incillius alvarius",
+      "Passiflora species"
+    ],
+    [
+      "Incillius alvarius",
+      "Kavalactones"
+    ],
+    [
+      "Incillius alvarius",
+      "Piper methysticum"
+    ],
+    [
+      "Incillius alvarius",
+      "Methcathinone"
+    ],
+    [
+      "Incillius alvarius",
+      "Mephedrone"
+    ],
+    [
+      "Incillius alvarius",
+      "Methamphetamine"
+    ],
+    [
+      "Incillius alvarius",
+      "Levodopa"
+    ],
+    [
+      "Incillius alvarius",
+      "Mucuna pruriens"
+    ],
+    [
+      "Incillius alvarius",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Incillius alvarius",
+      "Tropanes"
+    ],
+    [
+      "Incillius alvarius",
+      "Scopolamine"
+    ],
+    [
+      "Phalaris species",
+      "Tramadol"
+    ],
+    [
+      "Phalaris species",
+      "Sceletium species"
+    ],
+    [
+      "Phalaris species",
+      "Piper betle"
+    ],
+    [
+      "Phalaris species",
+      "Safrole"
+    ],
+    [
+      "Phalaris species",
+      "Sassafras species"
+    ],
+    [
+      "Phalaris species",
+      "SSRIs"
+    ],
+    [
+      "Phalaris species",
+      "Piper methysticum"
+    ],
+    [
+      "Phalaris species",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Phalaris species",
+      "Tropanes"
+    ],
+    [
+      "Phalaris species",
+      "Scopolamine"
+    ],
+    [
+      "Phyllomedusa bicolor",
+      "Sceletium species"
+    ],
+    [
+      "Phyllomedusa bicolor",
+      "Piper betle"
+    ],
+    [
+      "Phyllomedusa bicolor",
+      "Safrole"
+    ],
+    [
+      "Phyllomedusa bicolor",
+      "Sassafras species"
+    ],
+    [
+      "Phyllomedusa bicolor",
+      "SSRIs"
+    ],
+    [
+      "Phyllomedusa bicolor",
+      "Piper methysticum"
+    ],
+    [
+      "Phyllomedusa bicolor",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Phyllomedusa bicolor",
+      "Tropanes"
+    ],
+    [
+      "Phyllomedusa bicolor",
+      "Scopolamine"
+    ],
+    [
+      "Mitragynine",
+      "Opioids"
+    ],
+    [
+      "Mitragynine",
+      "Papaver species"
+    ],
+    [
+      "Mitragynine",
+      "Nitrous oxide"
+    ],
+    [
+      "Mitragynine",
+      "Nicotine"
+    ],
+    [
+      "Mitragynine",
+      "Nicotiana species"
+    ],
+    [
+      "Mitragynine",
+      "Sceletium species"
+    ],
+    [
+      "Mitragynine",
+      "Piper betle"
+    ],
+    [
+      "Mitragynine",
+      "Safrole"
+    ],
+    [
+      "Mitragynine",
+      "Sassafras species"
+    ],
+    [
+      "Mitragynine",
+      "Myristicin"
+    ],
+    [
+      "Mitragynine",
+      "Myristica species"
+    ],
+    [
+      "Mitragynine",
+      "SSRIs"
+    ],
+    [
+      "Mitragynine",
+      "Peganum harmala"
+    ],
+    [
+      "Mitragynine",
+      "Passiflora species"
+    ],
+    [
+      "Mitragynine",
+      "Piper methysticum"
+    ],
+    [
+      "Mitragynine",
+      "Mucuna pruriens"
+    ],
+    [
+      "Mitragynine",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Mitragynine",
+      "Tropanes"
+    ],
+    [
+      "Mitragynine",
+      "Scopolamine"
+    ],
+    [
+      "Mitragyna speciosa",
+      "Sceletium species"
+    ],
+    [
+      "Mitragyna speciosa",
+      "Piper betle"
+    ],
+    [
+      "Mitragyna speciosa",
+      "Sassafras species"
+    ],
+    [
+      "Mitragyna speciosa",
+      "Myristicin"
+    ],
+    [
+      "Mitragyna speciosa",
+      "Myristica species"
+    ],
+    [
+      "Mitragyna speciosa",
+      "SSRIs"
+    ],
+    [
+      "Opioids",
+      "Sceletium species"
+    ],
+    [
+      "Opioids",
+      "Piper betle"
+    ],
+    [
+      "Opioids",
+      "Sassafras species"
+    ],
+    [
+      "Opioids",
+      "SSRIs"
+    ],
+    [
+      "Codeine",
+      "Ilex paraguariensis"
+    ],
+    [
+      "Codeine",
+      "Sceletium species"
+    ],
+    [
+      "Codeine",
+      "Eugenol"
+    ],
+    [
+      "Codeine",
+      "Piper betle"
+    ],
+    [
+      "Codeine",
+      "Sassafras species"
+    ],
+    [
+      "Codeine",
+      "Myristicin"
+    ],
+    [
+      "Codeine",
+      "Myristica species"
+    ],
+    [
+      "Codeine",
+      "SSRIs"
+    ],
+    [
+      "Codeine",
+      "Kavalactones"
+    ],
+    [
+      "Codeine",
+      "Ibogaine"
+    ],
+    [
+      "Codeine",
+      "Hyoscyamine"
+    ],
+    [
+      "Heroin",
+      "Ilex paraguariensis"
+    ],
+    [
+      "Heroin",
+      "Sceletium species"
+    ],
+    [
+      "Heroin",
+      "Piper betle"
+    ],
+    [
+      "Heroin",
+      "Sassafras species"
+    ],
+    [
+      "Heroin",
+      "Myristicin"
+    ],
+    [
+      "Heroin",
+      "Myristica species"
+    ],
+    [
+      "Heroin",
+      "SSRIs"
+    ],
+    [
+      "Heroin",
+      "Kavalactones"
+    ],
+    [
+      "Heroin",
+      "Ibogaine"
+    ],
+    [
+      "Heroin",
+      "Hyoscyamine"
+    ],
+    [
+      "Papaver species",
+      "Sceletium species"
+    ],
+    [
+      "Papaver species",
+      "Piper betle"
+    ],
+    [
+      "Papaver species",
+      "Sassafras species"
+    ],
+    [
+      "Papaver species",
+      "SSRIs"
+    ],
+    [
+      "Nitrous oxide",
+      "Sceletium species"
+    ],
+    [
+      "Nitrous oxide",
+      "Piper betle"
+    ],
+    [
+      "Nitrous oxide",
+      "Sassafras species"
+    ],
+    [
+      "Nitrous oxide",
+      "SSRIs"
+    ],
+    [
+      "MXE",
+      "Sceletium species"
+    ],
+    [
+      "MXE",
+      "Piper betle"
+    ],
+    [
+      "MXE",
+      "Sassafras species"
+    ],
+    [
+      "MXE",
+      "Myristicin"
+    ],
+    [
+      "MXE",
+      "Myristica species"
+    ],
+    [
+      "MXE",
+      "SSRIs"
+    ],
+    [
+      "DXM",
+      "Ilex paraguariensis"
+    ],
+    [
+      "DXM",
+      "Sceletium species"
+    ],
+    [
+      "DXM",
+      "Eugenol"
+    ],
+    [
+      "DXM",
+      "Piper betle"
+    ],
+    [
+      "DXM",
+      "Sassafras species"
+    ],
+    [
+      "DXM",
+      "Myristicin"
+    ],
+    [
+      "DXM",
+      "Myristica species"
+    ],
+    [
+      "DXM",
+      "SSRIs"
+    ],
+    [
+      "DXM",
+      "Kavalactones"
+    ],
+    [
+      "DXM",
+      "Ibogaine"
+    ],
+    [
+      "DXM",
+      "Hyoscyamine"
+    ],
+    [
+      "Ketamine",
+      "Sceletium species"
+    ],
+    [
+      "Ketamine",
+      "Piper betle"
+    ],
+    [
+      "Ketamine",
+      "Sassafras species"
+    ],
+    [
+      "Ketamine",
+      "Myristicin"
+    ],
+    [
+      "Ketamine",
+      "Myristica species"
+    ],
+    [
+      "Ketamine",
+      "SSRIs"
+    ],
+    [
+      "Cannabis species",
+      "Ilex paraguariensis"
+    ],
+    [
+      "Cannabis species",
+      "Sceletium species"
+    ],
+    [
+      "Cannabis species",
+      "Eugenol"
+    ],
+    [
+      "Cannabis species",
+      "Piper betle"
+    ],
+    [
+      "Cannabis species",
+      "Sassafras species"
+    ],
+    [
+      "Cannabis species",
+      "Myristicin"
+    ],
+    [
+      "Cannabis species",
+      "Myristica species"
+    ],
+    [
+      "Cannabis species",
+      "SSRIs"
+    ],
+    [
+      "Cannabis species",
+      "Kavalactones"
+    ],
+    [
+      "Cannabis species",
+      "Catha edulis"
+    ],
+    [
+      "Cannabis species",
+      "Ibogaine"
+    ],
+    [
+      "Cannabis species",
+      "Hyoscyamine"
+    ],
+    [
+      "Arecoline",
+      "Ilex paraguariensis"
+    ],
+    [
+      "Arecoline",
+      "Sceletium species"
+    ],
+    [
+      "Arecoline",
+      "Eugenol"
+    ],
+    [
+      "Arecoline",
+      "Piper betle"
+    ],
+    [
+      "Arecoline",
+      "Sassafras species"
+    ],
+    [
+      "Arecoline",
+      "Myristicin"
+    ],
+    [
+      "Arecoline",
+      "Myristica species"
+    ],
+    [
+      "Arecoline",
+      "SSRIs"
+    ],
+    [
+      "Arecoline",
+      "Kavalactones"
+    ],
+    [
+      "Arecoline",
+      "Catha edulis"
+    ],
+    [
+      "Arecoline",
+      "Ibogaine"
+    ],
+    [
+      "Arecoline",
+      "Hyoscyamine"
+    ],
+    [
+      "Areca catechu",
+      "Ilex paraguariensis"
+    ],
+    [
+      "Areca catechu",
+      "Sceletium species"
+    ],
+    [
+      "Areca catechu",
+      "Eugenol"
+    ],
+    [
+      "Areca catechu",
+      "Piper betle"
+    ],
+    [
+      "Areca catechu",
+      "Sassafras species"
+    ],
+    [
+      "Areca catechu",
+      "Myristicin"
+    ],
+    [
+      "Areca catechu",
+      "Myristica species"
+    ],
+    [
+      "Areca catechu",
+      "SSRIs"
+    ],
+    [
+      "Areca catechu",
+      "Kavalactones"
+    ],
+    [
+      "Areca catechu",
+      "Catha edulis"
+    ],
+    [
+      "Areca catechu",
+      "Ibogaine"
+    ],
+    [
+      "Areca catechu",
+      "Hyoscyamine"
+    ],
+    [
+      "Caffeine",
+      "Ilex paraguariensis"
+    ],
+    [
+      "Caffeine",
+      "Sceletium species"
+    ],
+    [
+      "Caffeine",
+      "Eugenol"
+    ],
+    [
+      "Caffeine",
+      "Piper betle"
+    ],
+    [
+      "Caffeine",
+      "Sassafras species"
+    ],
+    [
+      "Caffeine",
+      "Myristicin"
+    ],
+    [
+      "Caffeine",
+      "Myristica species"
+    ],
+    [
+      "Caffeine",
+      "SSRIs"
+    ],
+    [
+      "Caffeine",
+      "Kavalactones"
+    ],
+    [
+      "Caffeine",
+      "Catha edulis"
+    ],
+    [
+      "Caffeine",
+      "Ibogaine"
+    ],
+    [
+      "Caffeine",
+      "Hyoscyamine"
+    ],
+    [
+      "Camellia sinensis",
+      "Ilex paraguariensis"
+    ],
+    [
+      "Camellia sinensis",
+      "Sceletium species"
+    ],
+    [
+      "Camellia sinensis",
+      "Eugenol"
+    ],
+    [
+      "Camellia sinensis",
+      "Piper betle"
+    ],
+    [
+      "Camellia sinensis",
+      "Sassafras species"
+    ],
+    [
+      "Camellia sinensis",
+      "Myristicin"
+    ],
+    [
+      "Camellia sinensis",
+      "Myristica species"
+    ],
+    [
+      "Camellia sinensis",
+      "SSRIs"
+    ],
+    [
+      "Camellia sinensis",
+      "Kavalactones"
+    ],
+    [
+      "Camellia sinensis",
+      "Catha edulis"
+    ],
+    [
+      "Camellia sinensis",
+      "Ibogaine"
+    ],
+    [
+      "Camellia sinensis",
+      "Hyoscyamine"
+    ],
+    [
+      "Coffea species",
+      "Ilex paraguariensis"
+    ],
+    [
+      "Coffea species",
+      "Sceletium species"
+    ],
+    [
+      "Coffea species",
+      "Eugenol"
+    ],
+    [
+      "Coffea species",
+      "Piper betle"
+    ],
+    [
+      "Coffea species",
+      "Sassafras species"
+    ],
+    [
+      "Coffea species",
+      "Myristicin"
+    ],
+    [
+      "Coffea species",
+      "Myristica species"
+    ],
+    [
+      "Coffea species",
+      "SSRIs"
+    ],
+    [
+      "Coffea species",
+      "Kavalactones"
+    ],
+    [
+      "Coffea species",
+      "Ibogaine"
+    ],
+    [
+      "Coffea species",
+      "Hyoscyamine"
+    ],
+    [
+      "Cola species",
+      "Ilex paraguariensis"
+    ],
+    [
+      "Cola species",
+      "Sceletium species"
+    ],
+    [
+      "Cola species",
+      "Eugenol"
+    ],
+    [
+      "Cola species",
+      "Piper betle"
+    ],
+    [
+      "Cola species",
+      "Sassafras species"
+    ],
+    [
+      "Cola species",
+      "Myristicin"
+    ],
+    [
+      "Cola species",
+      "Myristica species"
+    ],
+    [
+      "Cola species",
+      "SSRIs"
+    ],
+    [
+      "Cola species",
+      "Kavalactones"
+    ],
+    [
+      "Cola species",
+      "Ibogaine"
+    ],
+    [
+      "Cola species",
+      "Hyoscyamine"
+    ],
+    [
+      "Duboisia hopwoodii",
+      "Nicotine"
+    ],
+    [
+      "Duboisia hopwoodii",
+      "Nicotiana species"
+    ],
+    [
+      "Duboisia hopwoodii",
+      "Mesembrine"
+    ],
+    [
+      "Duboisia hopwoodii",
+      "Sceletium species"
+    ],
+    [
+      "Duboisia hopwoodii",
+      "Eugenol"
+    ],
+    [
+      "Duboisia hopwoodii",
+      "Piper betle"
+    ],
+    [
+      "Duboisia hopwoodii",
+      "MDMA"
+    ],
+    [
+      "Duboisia hopwoodii",
+      "MDA"
+    ],
+    [
+      "Duboisia hopwoodii",
+      "Safrole"
+    ],
+    [
+      "Duboisia hopwoodii",
+      "Sassafras species"
+    ],
+    [
+      "Duboisia hopwoodii",
+      "Myristicin"
+    ],
+    [
+      "Duboisia hopwoodii",
+      "Myristica species"
+    ],
+    [
+      "Duboisia hopwoodii",
+      "SSRIs"
+    ],
+    [
+      "Duboisia hopwoodii",
+      "MAOIs"
+    ],
+    [
+      "Duboisia hopwoodii",
+      "Harmalas"
+    ],
+    [
+      "Duboisia hopwoodii",
+      "Harmaline"
+    ],
+    [
+      "Duboisia hopwoodii",
+      "Harmine"
+    ],
+    [
+      "Duboisia hopwoodii",
+      "Peganum harmala"
+    ],
+    [
+      "Duboisia hopwoodii",
+      "Passiflora species"
+    ],
+    [
+      "Duboisia hopwoodii",
+      "Kavalactones"
+    ],
+    [
+      "Duboisia hopwoodii",
+      "Piper methysticum"
+    ],
+    [
+      "Duboisia hopwoodii",
+      "Methcathinone"
+    ],
+    [
+      "Duboisia hopwoodii",
+      "Mephedrone"
+    ],
+    [
+      "Duboisia hopwoodii",
+      "Methamphetamine"
+    ],
+    [
+      "Duboisia hopwoodii",
+      "Ephedrine"
+    ],
+    [
+      "Duboisia hopwoodii",
+      "Ephedra species"
+    ],
+    [
+      "Duboisia hopwoodii",
+      "Erythroxylum species"
+    ],
+    [
+      "Duboisia hopwoodii",
+      "Levodopa"
+    ],
+    [
+      "Duboisia hopwoodii",
+      "Mucuna pruriens"
+    ],
+    [
+      "Duboisia hopwoodii",
+      "Ibogaine"
+    ],
+    [
+      "Duboisia hopwoodii",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Duboisia hopwoodii",
+      "Tropanes"
+    ],
+    [
+      "Duboisia hopwoodii",
+      "Hyoscyamine"
+    ],
+    [
+      "Duboisia hopwoodii",
+      "Scopolamine"
+    ],
+    [
+      "Ilex paraguariensis",
+      "Sceletium species"
+    ],
+    [
+      "Ilex paraguariensis",
+      "Piper betle"
+    ],
+    [
+      "Ilex paraguariensis",
+      "Sassafras species"
+    ],
+    [
+      "Ilex paraguariensis",
+      "Myristicin"
+    ],
+    [
+      "Ilex paraguariensis",
+      "Myristica species"
+    ],
+    [
+      "Ilex paraguariensis",
+      "SSRIs"
+    ],
+    [
+      "Ilex paraguariensis",
+      "Kavalactones"
+    ],
+    [
+      "Nicotine",
+      "Sceletium species"
+    ],
+    [
+      "Nicotine",
+      "Piper betle"
+    ],
+    [
+      "Nicotine",
+      "Sassafras species"
+    ],
+    [
+      "Nicotine",
+      "SSRIs"
+    ],
+    [
+      "Nicotiana species",
+      "Sceletium species"
+    ],
+    [
+      "Nicotiana species",
+      "Piper betle"
+    ],
+    [
+      "Nicotiana species",
+      "Sassafras species"
+    ],
+    [
+      "Nicotiana species",
+      "SSRIs"
+    ],
+    [
+      "Mesembrine",
+      "Piper betle"
+    ],
+    [
+      "Mesembrine",
+      "Safrole"
+    ],
+    [
+      "Mesembrine",
+      "Sassafras species"
+    ],
+    [
+      "Mesembrine",
+      "Myristicin"
+    ],
+    [
+      "Mesembrine",
+      "Myristica species"
+    ],
+    [
+      "Mesembrine",
+      "SSRIs"
+    ],
+    [
+      "Mesembrine",
+      "Peganum harmala"
+    ],
+    [
+      "Mesembrine",
+      "Passiflora species"
+    ],
+    [
+      "Mesembrine",
+      "Piper methysticum"
+    ],
+    [
+      "Mesembrine",
+      "Methcathinone"
+    ],
+    [
+      "Mesembrine",
+      "Methamphetamine"
+    ],
+    [
+      "Mesembrine",
+      "Mucuna pruriens"
+    ],
+    [
+      "Mesembrine",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Mesembrine",
+      "Tropanes"
+    ],
+    [
+      "Mesembrine",
+      "Scopolamine"
+    ],
+    [
+      "Sceletium species",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Sceletium species",
+      "Tropanes"
+    ],
+    [
+      "Sceletium species",
+      "Scopolamine"
+    ],
+    [
+      "Eugenol",
+      "MDMA"
+    ],
+    [
+      "Eugenol",
+      "MDA"
+    ],
+    [
+      "Eugenol",
+      "Safrole"
+    ],
+    [
+      "Eugenol",
+      "Sassafras species"
+    ],
+    [
+      "Eugenol",
+      "Myristicin"
+    ],
+    [
+      "Eugenol",
+      "Myristica species"
+    ],
+    [
+      "Eugenol",
+      "SSRIs"
+    ],
+    [
+      "Eugenol",
+      "MAOIs"
+    ],
+    [
+      "Eugenol",
+      "Harmalas"
+    ],
+    [
+      "Eugenol",
+      "Harmaline"
+    ],
+    [
+      "Eugenol",
+      "Harmine"
+    ],
+    [
+      "Eugenol",
+      "Peganum harmala"
+    ],
+    [
+      "Eugenol",
+      "Passiflora species"
+    ],
+    [
+      "Eugenol",
+      "Kavalactones"
+    ],
+    [
+      "Eugenol",
+      "Piper methysticum"
+    ],
+    [
+      "Eugenol",
+      "Methcathinone"
+    ],
+    [
+      "Eugenol",
+      "Mephedrone"
+    ],
+    [
+      "Eugenol",
+      "Methamphetamine"
+    ],
+    [
+      "Eugenol",
+      "Levodopa"
+    ],
+    [
+      "Eugenol",
+      "Mucuna pruriens"
+    ],
+    [
+      "Eugenol",
+      "Ibogaine"
+    ],
+    [
+      "Eugenol",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Eugenol",
+      "Tropanes"
+    ],
+    [
+      "Eugenol",
+      "Hyoscyamine"
+    ],
+    [
+      "Eugenol",
+      "Scopolamine"
+    ],
+    [
+      "Piper betle",
+      "Sassafras species"
+    ],
+    [
+      "Piper betle",
+      "SSRIs"
+    ],
+    [
+      "MDMA",
+      "Sassafras species"
+    ],
+    [
+      "MDMA",
+      "Myristicin"
+    ],
+    [
+      "MDMA",
+      "Myristica species"
+    ],
+    [
+      "MDMA",
+      "SSRIs"
+    ],
+    [
+      "MDA",
+      "Sassafras species"
+    ],
+    [
+      "MDA",
+      "Myristicin"
+    ],
+    [
+      "MDA",
+      "Myristica species"
+    ],
+    [
+      "MDA",
+      "SSRIs"
+    ],
+    [
+      "Safrole",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Safrole",
+      "Tropanes"
+    ],
+    [
+      "Safrole",
+      "Scopolamine"
+    ],
+    [
+      "Sassafras species",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Sassafras species",
+      "Tropanes"
+    ],
+    [
+      "Sassafras species",
+      "Scopolamine"
+    ],
+    [
+      "Myristicin",
+      "SSRIs"
+    ],
+    [
+      "Myristicin",
+      "Peganum harmala"
+    ],
+    [
+      "Myristicin",
+      "Passiflora species"
+    ],
+    [
+      "Myristicin",
+      "Piper methysticum"
+    ],
+    [
+      "Myristicin",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Myristicin",
+      "Tropanes"
+    ],
+    [
+      "Myristicin",
+      "Scopolamine"
+    ],
+    [
+      "Myristica species",
+      "Peganum harmala"
+    ],
+    [
+      "Myristica species",
+      "Passiflora species"
+    ],
+    [
+      "Myristica species",
+      "Piper methysticum"
+    ],
+    [
+      "Myristica species",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Myristica species",
+      "Tropanes"
+    ],
+    [
+      "Myristica species",
+      "Scopolamine"
+    ],
+    [
+      "Harmalas",
+      "Kavalactones"
+    ],
+    [
+      "Harmalas",
+      "Ibogaine"
+    ],
+    [
+      "Harmalas",
+      "Hyoscyamine"
+    ],
+    [
+      "Harmaline",
+      "Kavalactones"
+    ],
+    [
+      "Harmaline",
+      "Ibogaine"
+    ],
+    [
+      "Harmaline",
+      "Hyoscyamine"
+    ],
+    [
+      "Harmine",
+      "Kavalactones"
+    ],
+    [
+      "Harmine",
+      "Ibogaine"
+    ],
+    [
+      "Harmine",
+      "Hyoscyamine"
+    ],
+    [
+      "Banisteriopsis caapi",
+      "Kavalactones"
+    ],
+    [
+      "Banisteriopsis caapi",
+      "Catha edulis"
+    ],
+    [
+      "Banisteriopsis caapi",
+      "Ibogaine"
+    ],
+    [
+      "Banisteriopsis caapi",
+      "Hyoscyamine"
+    ],
+    [
+      "Passiflora species",
+      "Piper methysticum"
+    ],
+    [
+      "Passiflora species",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Passiflora species",
+      "Tropanes"
+    ],
+    [
+      "Passiflora species",
+      "Scopolamine"
+    ],
+    [
+      "Cathinones",
+      "Methamphetamine"
+    ],
+    [
+      "Cathinones",
+      "Ephedrine"
+    ],
+    [
+      "Cathinones",
+      "Ephedra species"
+    ],
+    [
+      "Cathinones",
+      "Cocaine"
+    ],
+    [
+      "Cathinones",
+      "Erythroxylum species"
+    ],
+    [
+      "Cathinones",
+      "Levodopa"
+    ],
+    [
+      "Cathinones",
+      "Mucuna pruriens"
+    ],
+    [
+      "Cathinones",
+      "Ibogaine"
+    ],
+    [
+      "Cathinones",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Cathinones",
+      "Tropanes"
+    ],
+    [
+      "Cathinones",
+      "Hyoscyamine"
+    ],
+    [
+      "Cathinones",
+      "Scopolamine"
+    ],
+    [
+      "Cathinones",
+      "Datura species"
+    ],
+    [
+      "Catha edulis",
+      "Ibogaine"
+    ],
+    [
+      "Catha edulis",
+      "Hyoscyamine"
+    ],
+    [
+      "Amphetamines",
+      "Ibogaine"
+    ],
+    [
+      "Amphetamines",
+      "Hyoscyamine"
+    ],
+    [
+      "Ephedrine",
+      "Ibogaine"
+    ],
+    [
+      "Ephedrine",
+      "Hyoscyamine"
+    ],
+    [
+      "Ephedra species",
+      "Ibogaine"
+    ],
+    [
+      "Ephedra species",
+      "Hyoscyamine"
+    ],
+    [
+      "Cocaine",
+      "Ibogaine"
+    ],
+    [
+      "Cocaine",
+      "Hyoscyamine"
+    ],
+    [
+      "Erythroxylum species",
+      "Ibogaine"
+    ],
+    [
+      "Erythroxylum species",
+      "Hyoscyamine"
+    ],
+    [
+      "Mucuna pruriens",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Mucuna pruriens",
+      "Tropanes"
+    ],
+    [
+      "Mucuna pruriens",
+      "Scopolamine"
+    ]
+  ],
+  "MC": [
+    [
+      "Insulin",
+      "Lophophora williamsii"
+    ],
+    [
+      "Insulin",
+      "Mimosa species"
+    ],
+    [
+      "Insulin",
+      "Panaeolus species"
+    ],
+    [
+      "Insulin",
+      "Psilocybe species"
+    ],
+    [
+      "Insulin",
+      "Psychotria species"
+    ],
+    [
+      "Insulin",
+      "Turbina corymbosa"
+    ],
+    [
+      "Insulin",
+      "Virola species"
+    ],
+    [
+      "Insulin",
+      "NBOMes"
+    ],
+    [
+      "Insulin",
+      "Opioids"
+    ],
+    [
+      "Insulin",
+      "Nitrous oxide"
+    ],
+    [
+      "Insulin",
+      "Ketamine"
+    ],
+    [
+      "Insulin",
+      "MDA"
+    ],
+    [
+      "Insulin",
+      "Safrole"
+    ],
+    [
+      "Insulin",
+      "Peganum harmala"
+    ],
+    [
+      "Insulin",
+      "Passiflora species"
+    ],
+    [
+      "Insulin",
+      "Piper methysticum"
+    ],
+    [
+      "Insulin",
+      "Mephedrone"
+    ],
+    [
+      "Insulin",
+      "Methamphetamine"
+    ],
+    [
+      "Insulin",
+      "Levodopa"
+    ],
+    [
+      "Insulin",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Insulin",
+      "Tropanes"
+    ],
+    [
+      "Insulin",
+      "Scopolamine"
+    ],
+    [
+      "Metformin",
+      "Mimosa species"
+    ],
+    [
+      "Metformin",
+      "Panaeolus species"
+    ],
+    [
+      "Metformin",
+      "Psilocybe species"
+    ],
+    [
+      "Metformin",
+      "Psychotria species"
+    ],
+    [
+      "Metformin",
+      "Turbina corymbosa"
+    ],
+    [
+      "Metformin",
+      "Virola species"
+    ],
+    [
+      "Metformin",
+      "NBOMes"
+    ],
+    [
+      "Metformin",
+      "Opioids"
+    ],
+    [
+      "Metformin",
+      "Nitrous oxide"
+    ],
+    [
+      "Metformin",
+      "Safrole"
+    ],
+    [
+      "Metformin",
+      "Peganum harmala"
+    ],
+    [
+      "Metformin",
+      "Passiflora species"
+    ],
+    [
+      "Metformin",
+      "Piper methysticum"
+    ],
+    [
+      "Metformin",
+      "Methamphetamine"
+    ],
+    [
+      "Metformin",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Metformin",
+      "Tropanes"
+    ],
+    [
+      "Metformin",
+      "Scopolamine"
+    ],
+    [
+      "Antibiotics",
+      "DMT"
+    ],
+    [
+      "Antibiotics",
+      "Ergine"
+    ],
+    [
+      "Antibiotics",
+      "Argyreia nervosa"
+    ],
+    [
+      "Antibiotics",
+      "Diplopterys cabrerana"
+    ],
+    [
+      "Antibiotics",
+      "Lophophora williamsii"
+    ],
+    [
+      "Antibiotics",
+      "Mimosa species"
+    ],
+    [
+      "Antibiotics",
+      "Panaeolus species"
+    ],
+    [
+      "Antibiotics",
+      "Psilocybe species"
+    ],
+    [
+      "Antibiotics",
+      "Psychotria species"
+    ],
+    [
+      "Antibiotics",
+      "Turbina corymbosa"
+    ],
+    [
+      "Antibiotics",
+      "Virola species"
+    ],
+    [
+      "Antibiotics",
+      "DOx"
+    ],
+    [
+      "Antibiotics",
+      "NBOMes"
+    ],
+    [
+      "Antibiotics",
+      "GHB"
+    ],
+    [
+      "Antibiotics",
+      "Incillius alvarius"
+    ],
+    [
+      "Antibiotics",
+      "Opioids"
+    ],
+    [
+      "Antibiotics",
+      "Nitrous oxide"
+    ],
+    [
+      "Antibiotics",
+      "DXM"
+    ],
+    [
+      "Antibiotics",
+      "Ketamine"
+    ],
+    [
+      "Antibiotics",
+      "MDA"
+    ],
+    [
+      "Antibiotics",
+      "Safrole"
+    ],
+    [
+      "Antibiotics",
+      "Harmaline"
+    ],
+    [
+      "Antibiotics",
+      "Harmine"
+    ],
+    [
+      "Antibiotics",
+      "Banisteriopsis caapi"
+    ],
+    [
+      "Antibiotics",
+      "Peganum harmala"
+    ],
+    [
+      "Antibiotics",
+      "Passiflora species"
+    ],
+    [
+      "Antibiotics",
+      "Piper methysticum"
+    ],
+    [
+      "Antibiotics",
+      "Mephedrone"
+    ],
+    [
+      "Antibiotics",
+      "Cathinones"
+    ],
+    [
+      "Antibiotics",
+      "Methamphetamine"
+    ],
+    [
+      "Antibiotics",
+      "Ephedrine"
+    ],
+    [
+      "Antibiotics",
+      "Ephedra species"
+    ],
+    [
+      "Antibiotics",
+      "Cocaine"
+    ],
+    [
+      "Antibiotics",
+      "Erythroxylum species"
+    ],
+    [
+      "Antibiotics",
+      "Levodopa"
+    ],
+    [
+      "Antibiotics",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Antibiotics",
+      "Tropanes"
+    ],
+    [
+      "Antibiotics",
+      "Scopolamine"
+    ],
+    [
+      "Antibiotics",
+      "Brugmansia species"
+    ],
+    [
+      "Antibiotics",
+      "Datura species"
+    ],
+    [
+      "Proton pump inhibitors",
+      "Psilocybe species"
+    ],
+    [
+      "Proton pump inhibitors",
+      "Psychotria species"
+    ],
+    [
+      "Proton pump inhibitors",
+      "Turbina corymbosa"
+    ],
+    [
+      "Proton pump inhibitors",
+      "Virola species"
+    ],
+    [
+      "Proton pump inhibitors",
+      "Safrole"
+    ],
+    [
+      "Proton pump inhibitors",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Proton pump inhibitors",
+      "Tropanes"
+    ],
+    [
+      "Proton pump inhibitors",
+      "Scopolamine"
+    ],
+    [
+      "Ibuprofen",
+      "Lophophora williamsii"
+    ],
+    [
+      "Ibuprofen",
+      "Mimosa species"
+    ],
+    [
+      "Ibuprofen",
+      "Panaeolus species"
+    ],
+    [
+      "Ibuprofen",
+      "Psilocybe species"
+    ],
+    [
+      "Ibuprofen",
+      "Psychotria species"
+    ],
+    [
+      "Ibuprofen",
+      "Turbina corymbosa"
+    ],
+    [
+      "Ibuprofen",
+      "Virola species"
+    ],
+    [
+      "Ibuprofen",
+      "NBOMes"
+    ],
+    [
+      "Ibuprofen",
+      "Incillius alvarius"
+    ],
+    [
+      "Ibuprofen",
+      "Opioids"
+    ],
+    [
+      "Ibuprofen",
+      "Nitrous oxide"
+    ],
+    [
+      "Ibuprofen",
+      "Ketamine"
+    ],
+    [
+      "Ibuprofen",
+      "MDA"
+    ],
+    [
+      "Ibuprofen",
+      "Safrole"
+    ],
+    [
+      "Ibuprofen",
+      "Peganum harmala"
+    ],
+    [
+      "Ibuprofen",
+      "Passiflora species"
+    ],
+    [
+      "Ibuprofen",
+      "Piper methysticum"
+    ],
+    [
+      "Ibuprofen",
+      "Mephedrone"
+    ],
+    [
+      "Ibuprofen",
+      "Methamphetamine"
+    ],
+    [
+      "Ibuprofen",
+      "Levodopa"
+    ],
+    [
+      "Ibuprofen",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Ibuprofen",
+      "Tropanes"
+    ],
+    [
+      "Ibuprofen",
+      "Scopolamine"
+    ],
+    [
+      "Paracetemol",
+      "Psilocybe species"
+    ],
+    [
+      "Paracetemol",
+      "Psychotria species"
+    ],
+    [
+      "Paracetemol",
+      "Turbina corymbosa"
+    ],
+    [
+      "Paracetemol",
+      "Virola species"
+    ],
+    [
+      "Paracetemol",
+      "Safrole"
+    ],
+    [
+      "Paracetemol",
+      "Peganum harmala"
+    ],
+    [
+      "Paracetemol",
+      "Passiflora species"
+    ],
+    [
+      "Paracetemol",
+      "Piper methysticum"
+    ],
+    [
+      "Paracetemol",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Paracetemol",
+      "Tropanes"
+    ],
+    [
+      "Paracetemol",
+      "Scopolamine"
+    ],
+    [
+      "Beta blockers",
+      "DMT"
+    ],
+    [
+      "Beta blockers",
+      "Ergine"
+    ],
+    [
+      "Beta blockers",
+      "Diplopterys cabrerana"
+    ],
+    [
+      "Beta blockers",
+      "Lophophora williamsii"
+    ],
+    [
+      "Beta blockers",
+      "Mimosa species"
+    ],
+    [
+      "Beta blockers",
+      "Panaeolus species"
+    ],
+    [
+      "Beta blockers",
+      "Psilocybe species"
+    ],
+    [
+      "Beta blockers",
+      "Psychotria species"
+    ],
+    [
+      "Beta blockers",
+      "Turbina corymbosa"
+    ],
+    [
+      "Beta blockers",
+      "Virola species"
+    ],
+    [
+      "Beta blockers",
+      "DOx"
+    ],
+    [
+      "Beta blockers",
+      "NBOMes"
+    ],
+    [
+      "Beta blockers",
+      "GHB"
+    ],
+    [
+      "Beta blockers",
+      "Incillius alvarius"
+    ],
+    [
+      "Beta blockers",
+      "Opioids"
+    ],
+    [
+      "Beta blockers",
+      "Nitrous oxide"
+    ],
+    [
+      "Beta blockers",
+      "DXM"
+    ],
+    [
+      "Beta blockers",
+      "Ketamine"
+    ],
+    [
+      "Beta blockers",
+      "MDA"
+    ],
+    [
+      "Beta blockers",
+      "Safrole"
+    ],
+    [
+      "Beta blockers",
+      "Harmaline"
+    ],
+    [
+      "Beta blockers",
+      "Harmine"
+    ],
+    [
+      "Beta blockers",
+      "Peganum harmala"
+    ],
+    [
+      "Beta blockers",
+      "Passiflora species"
+    ],
+    [
+      "Beta blockers",
+      "Piper methysticum"
+    ],
+    [
+      "Beta blockers",
+      "Mephedrone"
+    ],
+    [
+      "Beta blockers",
+      "Cathinones"
+    ],
+    [
+      "Beta blockers",
+      "Methamphetamine"
+    ],
+    [
+      "Beta blockers",
+      "Ephedrine"
+    ],
+    [
+      "Beta blockers",
+      "Ephedra species"
+    ],
+    [
+      "Beta blockers",
+      "Cocaine"
+    ],
+    [
+      "Beta blockers",
+      "Erythroxylum species"
+    ],
+    [
+      "Beta blockers",
+      "Levodopa"
+    ],
+    [
+      "Beta blockers",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Beta blockers",
+      "Tropanes"
+    ],
+    [
+      "Beta blockers",
+      "Scopolamine"
+    ],
+    [
+      "Beta blockers",
+      "Brugmansia species"
+    ],
+    [
+      "Beta blockers",
+      "Datura species"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "DMT"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Acacia species"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Ergine"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Argyreia nervosa"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Diplopterys cabrerana"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Lophophora williamsii"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Mimosa species"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Panaeolus species"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Psilocybe species"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Psychotria species"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Turbina corymbosa"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Virola species"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "DOx"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "NBOMes"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "GHB"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Alcohol"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Incillius alvarius"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Opioids"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Nitrous oxide"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "DXM"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Ketamine"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "MDA"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Safrole"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Harmaline"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Harmine"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Banisteriopsis caapi"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Peganum harmala"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Passiflora species"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Piper methysticum"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Mephedrone"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Cathinones"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Methamphetamine"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Amphetamines"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Ephedrine"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Ephedra species"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Cocaine"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Erythroxylum species"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Levodopa"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Tabernanthe iboga"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Tropanes"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Scopolamine"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Brugmansia species"
+    ],
+    [
+      "ACE Inhibitors / ARBs",
+      "Datura species"
+    ],
+    [
+      "Statins",
+      "Turbina corymbosa"
+    ],
+    [
+      "Statins",
+      "Virola species"
+    ],
+    [
+      "Statins",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Statins",
+      "Tropanes"
+    ],
+    [
+      "Salvia divinorum",
+      "Turbina corymbosa"
+    ],
+    [
+      "Salvia divinorum",
+      "Virola species"
+    ],
+    [
+      "Salvia divinorum",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Salvia divinorum",
+      "Tropanes"
+    ],
+    [
+      "Salvia divinorum",
+      "Scopolamine"
+    ],
+    [
+      "DMT",
+      "Ergine"
+    ],
+    [
+      "DMT",
+      "Diplopterys cabrerana"
+    ],
+    [
+      "DMT",
+      "Psilocin"
+    ],
+    [
+      "DMT",
+      "Gymnopilus species"
+    ],
+    [
+      "DMT",
+      "Lophophora williamsii"
+    ],
+    [
+      "DMT",
+      "Mimosa species"
+    ],
+    [
+      "DMT",
+      "Panaeolus species"
+    ],
+    [
+      "DMT",
+      "Psilocybe species"
+    ],
+    [
+      "DMT",
+      "Psychotria species"
+    ],
+    [
+      "DMT",
+      "Turbina corymbosa"
+    ],
+    [
+      "DMT",
+      "Virola species"
+    ],
+    [
+      "DMT",
+      "DOx"
+    ],
+    [
+      "DMT",
+      "NBOMes"
+    ],
+    [
+      "DMT",
+      "Diazepam"
+    ],
+    [
+      "DMT",
+      "GBL"
+    ],
+    [
+      "DMT",
+      "GHB"
+    ],
+    [
+      "DMT",
+      "Incillius alvarius"
+    ],
+    [
+      "DMT",
+      "Mitragynine"
+    ],
+    [
+      "DMT",
+      "Opioids"
+    ],
+    [
+      "DMT",
+      "Heroin"
+    ],
+    [
+      "DMT",
+      "Papaver species"
+    ],
+    [
+      "DMT",
+      "Nitrous oxide"
+    ],
+    [
+      "DMT",
+      "MXE"
+    ],
+    [
+      "DMT",
+      "DXM"
+    ],
+    [
+      "DMT",
+      "Ketamine"
+    ],
+    [
+      "DMT",
+      "Duboisia hopwoodii"
+    ],
+    [
+      "DMT",
+      "Nicotine"
+    ],
+    [
+      "DMT",
+      "Nicotiana species"
+    ],
+    [
+      "DMT",
+      "Mesembrine"
+    ],
+    [
+      "DMT",
+      "MDMA"
+    ],
+    [
+      "DMT",
+      "MDA"
+    ],
+    [
+      "DMT",
+      "Safrole"
+    ],
+    [
+      "DMT",
+      "MAOIs"
+    ],
+    [
+      "DMT",
+      "Harmalas"
+    ],
+    [
+      "DMT",
+      "Harmaline"
+    ],
+    [
+      "DMT",
+      "Harmine"
+    ],
+    [
+      "DMT",
+      "Peganum harmala"
+    ],
+    [
+      "DMT",
+      "Passiflora species"
+    ],
+    [
+      "DMT",
+      "Piper methysticum"
+    ],
+    [
+      "DMT",
+      "Methcathinone"
+    ],
+    [
+      "DMT",
+      "Mephedrone"
+    ],
+    [
+      "DMT",
+      "Methamphetamine"
+    ],
+    [
+      "DMT",
+      "Ephedrine"
+    ],
+    [
+      "DMT",
+      "Ephedra species"
+    ],
+    [
+      "DMT",
+      "Erythroxylum species"
+    ],
+    [
+      "DMT",
+      "Levodopa"
+    ],
+    [
+      "DMT",
+      "Mucuna pruriens"
+    ],
+    [
+      "DMT",
+      "Tabernanthe iboga"
+    ],
+    [
+      "DMT",
+      "Tropanes"
+    ],
+    [
+      "DMT",
+      "Scopolamine"
+    ],
+    [
+      "DMT",
+      "Datura species"
+    ],
+    [
+      "LSD",
+      "Psilocin"
+    ],
+    [
+      "LSD",
+      "Lophophora williamsii"
+    ],
+    [
+      "LSD",
+      "Mimosa species"
+    ],
+    [
+      "LSD",
+      "Panaeolus species"
+    ],
+    [
+      "LSD",
+      "Psilocybe species"
+    ],
+    [
+      "LSD",
+      "Psychotria species"
+    ],
+    [
+      "LSD",
+      "Turbina corymbosa"
+    ],
+    [
+      "LSD",
+      "Virola species"
+    ],
+    [
+      "LSD",
+      "NBOMes"
+    ],
+    [
+      "LSD",
+      "Mitragynine"
+    ],
+    [
+      "LSD",
+      "Opioids"
+    ],
+    [
+      "LSD",
+      "Papaver species"
+    ],
+    [
+      "LSD",
+      "Nitrous oxide"
+    ],
+    [
+      "LSD",
+      "MXE"
+    ],
+    [
+      "LSD",
+      "Nicotine"
+    ],
+    [
+      "LSD",
+      "Nicotiana species"
+    ],
+    [
+      "LSD",
+      "Mesembrine"
+    ],
+    [
+      "LSD",
+      "MDMA"
+    ],
+    [
+      "LSD",
+      "MDA"
+    ],
+    [
+      "LSD",
+      "Safrole"
+    ],
+    [
+      "LSD",
+      "MAOIs"
+    ],
+    [
+      "LSD",
+      "Peganum harmala"
+    ],
+    [
+      "LSD",
+      "Passiflora species"
+    ],
+    [
+      "LSD",
+      "Piper methysticum"
+    ],
+    [
+      "LSD",
+      "Methcathinone"
+    ],
+    [
+      "LSD",
+      "Mephedrone"
+    ],
+    [
+      "LSD",
+      "Methamphetamine"
+    ],
+    [
+      "LSD",
+      "Levodopa"
+    ],
+    [
+      "LSD",
+      "Mucuna pruriens"
+    ],
+    [
+      "LSD",
+      "Tabernanthe iboga"
+    ],
+    [
+      "LSD",
+      "Tropanes"
+    ],
+    [
+      "LSD",
+      "Scopolamine"
+    ],
+    [
+      "Ergine",
+      "Psilocin"
+    ],
+    [
+      "Ergine",
+      "Gymnopilus species"
+    ],
+    [
+      "Ergine",
+      "Lophophora williamsii"
+    ],
+    [
+      "Ergine",
+      "Mimosa species"
+    ],
+    [
+      "Ergine",
+      "Panaeolus species"
+    ],
+    [
+      "Ergine",
+      "Psilocybe species"
+    ],
+    [
+      "Ergine",
+      "Psychotria species"
+    ],
+    [
+      "Ergine",
+      "Turbina corymbosa"
+    ],
+    [
+      "Ergine",
+      "Virola species"
+    ],
+    [
+      "Ergine",
+      "NBOMes"
+    ],
+    [
+      "Ergine",
+      "GBL"
+    ],
+    [
+      "Ergine",
+      "GHB"
+    ],
+    [
+      "Ergine",
+      "Incillius alvarius"
+    ],
+    [
+      "Ergine",
+      "Mitragynine"
+    ],
+    [
+      "Ergine",
+      "Opioids"
+    ],
+    [
+      "Ergine",
+      "Heroin"
+    ],
+    [
+      "Ergine",
+      "Papaver species"
+    ],
+    [
+      "Ergine",
+      "Nitrous oxide"
+    ],
+    [
+      "Ergine",
+      "MXE"
+    ],
+    [
+      "Ergine",
+      "Ketamine"
+    ],
+    [
+      "Ergine",
+      "Ilex paraguariensis"
+    ],
+    [
+      "Ergine",
+      "Nicotine"
+    ],
+    [
+      "Ergine",
+      "Nicotiana species"
+    ],
+    [
+      "Ergine",
+      "Mesembrine"
+    ],
+    [
+      "Ergine",
+      "MDMA"
+    ],
+    [
+      "Ergine",
+      "MDA"
+    ],
+    [
+      "Ergine",
+      "Safrole"
+    ],
+    [
+      "Ergine",
+      "MAOIs"
+    ],
+    [
+      "Ergine",
+      "Harmalas"
+    ],
+    [
+      "Ergine",
+      "Harmaline"
+    ],
+    [
+      "Ergine",
+      "Harmine"
+    ],
+    [
+      "Ergine",
+      "Peganum harmala"
+    ],
+    [
+      "Ergine",
+      "Passiflora species"
+    ],
+    [
+      "Ergine",
+      "Piper methysticum"
+    ],
+    [
+      "Ergine",
+      "Methcathinone"
+    ],
+    [
+      "Ergine",
+      "Mephedrone"
+    ],
+    [
+      "Ergine",
+      "Methamphetamine"
+    ],
+    [
+      "Ergine",
+      "Erythroxylum species"
+    ],
+    [
+      "Ergine",
+      "Levodopa"
+    ],
+    [
+      "Ergine",
+      "Mucuna pruriens"
+    ],
+    [
+      "Ergine",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Ergine",
+      "Tropanes"
+    ],
+    [
+      "Ergine",
+      "Scopolamine"
+    ],
+    [
+      "Argyreia nervosa",
+      "Psilocin"
+    ],
+    [
+      "Argyreia nervosa",
+      "Gymnopilus species"
+    ],
+    [
+      "Argyreia nervosa",
+      "Lophophora williamsii"
+    ],
+    [
+      "Argyreia nervosa",
+      "Mimosa species"
+    ],
+    [
+      "Argyreia nervosa",
+      "Panaeolus species"
+    ],
+    [
+      "Argyreia nervosa",
+      "Psilocybe species"
+    ],
+    [
+      "Argyreia nervosa",
+      "Psychotria species"
+    ],
+    [
+      "Argyreia nervosa",
+      "Turbina corymbosa"
+    ],
+    [
+      "Argyreia nervosa",
+      "Virola species"
+    ],
+    [
+      "Argyreia nervosa",
+      "DOx"
+    ],
+    [
+      "Argyreia nervosa",
+      "NBOMes"
+    ],
+    [
+      "Argyreia nervosa",
+      "Diazepam"
+    ],
+    [
+      "Argyreia nervosa",
+      "GBL"
+    ],
+    [
+      "Argyreia nervosa",
+      "GHB"
+    ],
+    [
+      "Argyreia nervosa",
+      "Incillius alvarius"
+    ],
+    [
+      "Argyreia nervosa",
+      "Mitragynine"
+    ],
+    [
+      "Argyreia nervosa",
+      "Opioids"
+    ],
+    [
+      "Argyreia nervosa",
+      "Codeine"
+    ],
+    [
+      "Argyreia nervosa",
+      "Heroin"
+    ],
+    [
+      "Argyreia nervosa",
+      "Papaver species"
+    ],
+    [
+      "Argyreia nervosa",
+      "Nitrous oxide"
+    ],
+    [
+      "Argyreia nervosa",
+      "MXE"
+    ],
+    [
+      "Argyreia nervosa",
+      "DXM"
+    ],
+    [
+      "Argyreia nervosa",
+      "Ketamine"
+    ],
+    [
+      "Argyreia nervosa",
+      "Cannabis species"
+    ],
+    [
+      "Argyreia nervosa",
+      "Caffeine"
+    ],
+    [
+      "Argyreia nervosa",
+      "Camellia sinensis"
+    ],
+    [
+      "Argyreia nervosa",
+      "Coffea species"
+    ],
+    [
+      "Argyreia nervosa",
+      "Cola species"
+    ],
+    [
+      "Argyreia nervosa",
+      "Duboisia hopwoodii"
+    ],
+    [
+      "Argyreia nervosa",
+      "Nicotine"
+    ],
+    [
+      "Argyreia nervosa",
+      "Nicotiana species"
+    ],
+    [
+      "Argyreia nervosa",
+      "Mesembrine"
+    ],
+    [
+      "Argyreia nervosa",
+      "MDMA"
+    ],
+    [
+      "Argyreia nervosa",
+      "MDA"
+    ],
+    [
+      "Argyreia nervosa",
+      "Safrole"
+    ],
+    [
+      "Argyreia nervosa",
+      "MAOIs"
+    ],
+    [
+      "Argyreia nervosa",
+      "Harmalas"
+    ],
+    [
+      "Argyreia nervosa",
+      "Harmaline"
+    ],
+    [
+      "Argyreia nervosa",
+      "Harmine"
+    ],
+    [
+      "Argyreia nervosa",
+      "Banisteriopsis caapi"
+    ],
+    [
+      "Argyreia nervosa",
+      "Peganum harmala"
+    ],
+    [
+      "Argyreia nervosa",
+      "Passiflora species"
+    ],
+    [
+      "Argyreia nervosa",
+      "Piper methysticum"
+    ],
+    [
+      "Argyreia nervosa",
+      "Methcathinone"
+    ],
+    [
+      "Argyreia nervosa",
+      "Mephedrone"
+    ],
+    [
+      "Argyreia nervosa",
+      "Cathinones"
+    ],
+    [
+      "Argyreia nervosa",
+      "Methamphetamine"
+    ],
+    [
+      "Argyreia nervosa",
+      "Ephedrine"
+    ],
+    [
+      "Argyreia nervosa",
+      "Ephedra species"
+    ],
+    [
+      "Argyreia nervosa",
+      "Cocaine"
+    ],
+    [
+      "Argyreia nervosa",
+      "Erythroxylum species"
+    ],
+    [
+      "Argyreia nervosa",
+      "Levodopa"
+    ],
+    [
+      "Argyreia nervosa",
+      "Mucuna pruriens"
+    ],
+    [
+      "Argyreia nervosa",
+      "Ibogaine"
+    ],
+    [
+      "Argyreia nervosa",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Argyreia nervosa",
+      "Tropanes"
+    ],
+    [
+      "Argyreia nervosa",
+      "Scopolamine"
+    ],
+    [
+      "Argyreia nervosa",
+      "Brugmansia species"
+    ],
+    [
+      "Argyreia nervosa",
+      "Datura species"
+    ],
+    [
+      "Psilocybin",
+      "Psychotria species"
+    ],
+    [
+      "Psilocybin",
+      "Turbina corymbosa"
+    ],
+    [
+      "Psilocybin",
+      "Virola species"
+    ],
+    [
+      "Psilocybin",
+      "Safrole"
+    ],
+    [
+      "Psilocybin",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Psilocybin",
+      "Tropanes"
+    ],
+    [
+      "Psilocybin",
+      "Scopolamine"
+    ],
+    [
+      "Psilocin",
+      "Psilocybe species"
+    ],
+    [
+      "Psilocin",
+      "Psychotria species"
+    ],
+    [
+      "Psilocin",
+      "Turbina corymbosa"
+    ],
+    [
+      "Psilocin",
+      "Virola species"
+    ],
+    [
+      "Psilocin",
+      "Safrole"
+    ],
+    [
+      "Psilocin",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Psilocin",
+      "Tropanes"
+    ],
+    [
+      "Psilocin",
+      "Scopolamine"
+    ],
+    [
+      "Ipomoea violacea",
+      "Lophophora williamsii"
+    ],
+    [
+      "Ipomoea violacea",
+      "Mimosa species"
+    ],
+    [
+      "Ipomoea violacea",
+      "Panaeolus species"
+    ],
+    [
+      "Ipomoea violacea",
+      "Psilocybe species"
+    ],
+    [
+      "Ipomoea violacea",
+      "Psychotria species"
+    ],
+    [
+      "Ipomoea violacea",
+      "Turbina corymbosa"
+    ],
+    [
+      "Ipomoea violacea",
+      "Virola species"
+    ],
+    [
+      "Ipomoea violacea",
+      "NBOMes"
+    ],
+    [
+      "Ipomoea violacea",
+      "Mitragynine"
+    ],
+    [
+      "Ipomoea violacea",
+      "Opioids"
+    ],
+    [
+      "Ipomoea violacea",
+      "Papaver species"
+    ],
+    [
+      "Ipomoea violacea",
+      "Nitrous oxide"
+    ],
+    [
+      "Ipomoea violacea",
+      "MXE"
+    ],
+    [
+      "Ipomoea violacea",
+      "Ketamine"
+    ],
+    [
+      "Ipomoea violacea",
+      "Nicotine"
+    ],
+    [
+      "Ipomoea violacea",
+      "Nicotiana species"
+    ],
+    [
+      "Ipomoea violacea",
+      "Mesembrine"
+    ],
+    [
+      "Ipomoea violacea",
+      "MDMA"
+    ],
+    [
+      "Ipomoea violacea",
+      "MDA"
+    ],
+    [
+      "Ipomoea violacea",
+      "Safrole"
+    ],
+    [
+      "Ipomoea violacea",
+      "MAOIs"
+    ],
+    [
+      "Ipomoea violacea",
+      "Mephedrone"
+    ],
+    [
+      "Ipomoea violacea",
+      "Methamphetamine"
+    ],
+    [
+      "Ipomoea violacea",
+      "Levodopa"
+    ],
+    [
+      "Ipomoea violacea",
+      "Mucuna pruriens"
+    ],
+    [
+      "Ipomoea violacea",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Ipomoea violacea",
+      "Tropanes"
+    ],
+    [
+      "Ipomoea violacea",
+      "Scopolamine"
+    ],
+    [
+      "Mescaline",
+      "Mimosa species"
+    ],
+    [
+      "Mescaline",
+      "Panaeolus species"
+    ],
+    [
+      "Mescaline",
+      "Psilocybe species"
+    ],
+    [
+      "Mescaline",
+      "Psychotria species"
+    ],
+    [
+      "Mescaline",
+      "Turbina corymbosa"
+    ],
+    [
+      "Mescaline",
+      "Virola species"
+    ],
+    [
+      "Mescaline",
+      "NBOMes"
+    ],
+    [
+      "Mescaline",
+      "Mitragynine"
+    ],
+    [
+      "Mescaline",
+      "Opioids"
+    ],
+    [
+      "Mescaline",
+      "Papaver species"
+    ],
+    [
+      "Mescaline",
+      "Nitrous oxide"
+    ],
+    [
+      "Mescaline",
+      "Nicotine"
+    ],
+    [
+      "Mescaline",
+      "Nicotiana species"
+    ],
+    [
+      "Mescaline",
+      "Mesembrine"
+    ],
+    [
+      "Mescaline",
+      "Safrole"
+    ],
+    [
+      "Mescaline",
+      "Peganum harmala"
+    ],
+    [
+      "Mescaline",
+      "Passiflora species"
+    ],
+    [
+      "Mescaline",
+      "Piper methysticum"
+    ],
+    [
+      "Mescaline",
+      "Methcathinone"
+    ],
+    [
+      "Mescaline",
+      "Methamphetamine"
+    ],
+    [
+      "Mescaline",
+      "Mucuna pruriens"
+    ],
+    [
+      "Mescaline",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Mescaline",
+      "Tropanes"
+    ],
+    [
+      "Mescaline",
+      "Scopolamine"
+    ],
+    [
+      "Lophophora williamsii",
+      "Panaeolus species"
+    ],
+    [
+      "Lophophora williamsii",
+      "Psilocybe species"
+    ],
+    [
+      "Lophophora williamsii",
+      "Psychotria species"
+    ],
+    [
+      "Lophophora williamsii",
+      "Turbina corymbosa"
+    ],
+    [
+      "Lophophora williamsii",
+      "Virola species"
+    ],
+    [
+      "Lophophora williamsii",
+      "NBOMes"
+    ],
+    [
+      "Lophophora williamsii",
+      "Mitragynine"
+    ],
+    [
+      "Lophophora williamsii",
+      "Opioids"
+    ],
+    [
+      "Lophophora williamsii",
+      "Papaver species"
+    ],
+    [
+      "Lophophora williamsii",
+      "Nitrous oxide"
+    ],
+    [
+      "Lophophora williamsii",
+      "MXE"
+    ],
+    [
+      "Lophophora williamsii",
+      "Nicotine"
+    ],
+    [
+      "Lophophora williamsii",
+      "Nicotiana species"
+    ],
+    [
+      "Lophophora williamsii",
+      "Mesembrine"
+    ],
+    [
+      "Lophophora williamsii",
+      "MDMA"
+    ],
+    [
+      "Lophophora williamsii",
+      "MDA"
+    ],
+    [
+      "Lophophora williamsii",
+      "Safrole"
+    ],
+    [
+      "Lophophora williamsii",
+      "MAOIs"
+    ],
+    [
+      "Lophophora williamsii",
+      "Peganum harmala"
+    ],
+    [
+      "Lophophora williamsii",
+      "Passiflora species"
+    ],
+    [
+      "Lophophora williamsii",
+      "Piper methysticum"
+    ],
+    [
+      "Lophophora williamsii",
+      "Methcathinone"
+    ],
+    [
+      "Lophophora williamsii",
+      "Mephedrone"
+    ],
+    [
+      "Lophophora williamsii",
+      "Methamphetamine"
+    ],
+    [
+      "Lophophora williamsii",
+      "Mucuna pruriens"
+    ],
+    [
+      "Lophophora williamsii",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Lophophora williamsii",
+      "Tropanes"
+    ],
+    [
+      "Lophophora williamsii",
+      "Scopolamine"
+    ],
+    [
+      "Mimosa species",
+      "Psilocybe species"
+    ],
+    [
+      "Mimosa species",
+      "Psychotria species"
+    ],
+    [
+      "Mimosa species",
+      "Turbina corymbosa"
+    ],
+    [
+      "Mimosa species",
+      "Virola species"
+    ],
+    [
+      "Mimosa species",
+      "NBOMes"
+    ],
+    [
+      "Mimosa species",
+      "Mitragynine"
+    ],
+    [
+      "Mimosa species",
+      "Opioids"
+    ],
+    [
+      "Mimosa species",
+      "Papaver species"
+    ],
+    [
+      "Mimosa species",
+      "Nitrous oxide"
+    ],
+    [
+      "Mimosa species",
+      "Nicotine"
+    ],
+    [
+      "Mimosa species",
+      "Nicotiana species"
+    ],
+    [
+      "Mimosa species",
+      "Safrole"
+    ],
+    [
+      "Mimosa species",
+      "Peganum harmala"
+    ],
+    [
+      "Mimosa species",
+      "Passiflora species"
+    ],
+    [
+      "Mimosa species",
+      "Piper methysticum"
+    ],
+    [
+      "Mimosa species",
+      "Mucuna pruriens"
+    ],
+    [
+      "Mimosa species",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Mimosa species",
+      "Tropanes"
+    ],
+    [
+      "Mimosa species",
+      "Scopolamine"
+    ],
+    [
+      "Panaeolus species",
+      "Psychotria species"
+    ],
+    [
+      "Panaeolus species",
+      "Turbina corymbosa"
+    ],
+    [
+      "Panaeolus species",
+      "Virola species"
+    ],
+    [
+      "Panaeolus species",
+      "Papaver species"
+    ],
+    [
+      "Panaeolus species",
+      "Safrole"
+    ],
+    [
+      "Panaeolus species",
+      "Peganum harmala"
+    ],
+    [
+      "Panaeolus species",
+      "Passiflora species"
+    ],
+    [
+      "Panaeolus species",
+      "Piper methysticum"
+    ],
+    [
+      "Panaeolus species",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Panaeolus species",
+      "Tropanes"
+    ],
+    [
+      "Panaeolus species",
+      "Scopolamine"
+    ],
+    [
+      "Psilocybe species",
+      "Turbina corymbosa"
+    ],
+    [
+      "Psilocybe species",
+      "Virola species"
+    ],
+    [
+      "Psilocybe species",
+      "Safrole"
+    ],
+    [
+      "Psilocybe species",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Psilocybe species",
+      "Tropanes"
+    ],
+    [
+      "Psilocybe species",
+      "Scopolamine"
+    ],
+    [
+      "Psychotria species",
+      "Virola species"
+    ],
+    [
+      "Psychotria species",
+      "Safrole"
+    ],
+    [
+      "Psychotria species",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Psychotria species",
+      "Tropanes"
+    ],
+    [
+      "Psychotria species",
+      "Scopolamine"
+    ],
+    [
+      "Trichocereus species",
+      "Tropanes"
+    ],
+    [
+      "25I-NBOMe",
+      "Alprazolam"
+    ],
+    [
+      "25I-NBOMe",
+      "Diazepam"
+    ],
+    [
+      "25I-NBOMe",
+      "GBL"
+    ],
+    [
+      "25I-NBOMe",
+      "GHB"
+    ],
+    [
+      "25I-NBOMe",
+      "Alcohol"
+    ],
+    [
+      "25I-NBOMe",
+      "Amanita muscaria"
+    ],
+    [
+      "25I-NBOMe",
+      "Incillius alvarius"
+    ],
+    [
+      "25I-NBOMe",
+      "Mitragynine"
+    ],
+    [
+      "25I-NBOMe",
+      "Opioids"
+    ],
+    [
+      "25I-NBOMe",
+      "Codeine"
+    ],
+    [
+      "25I-NBOMe",
+      "Heroin"
+    ],
+    [
+      "25I-NBOMe",
+      "Papaver species"
+    ],
+    [
+      "25I-NBOMe",
+      "Nitrous oxide"
+    ],
+    [
+      "25I-NBOMe",
+      "MXE"
+    ],
+    [
+      "25I-NBOMe",
+      "DXM"
+    ],
+    [
+      "25I-NBOMe",
+      "Ketamine"
+    ],
+    [
+      "25I-NBOMe",
+      "Cannabis species"
+    ],
+    [
+      "25I-NBOMe",
+      "Arecoline"
+    ],
+    [
+      "25I-NBOMe",
+      "Areca catechu"
+    ],
+    [
+      "25I-NBOMe",
+      "Caffeine"
+    ],
+    [
+      "25I-NBOMe",
+      "MDMA"
+    ],
+    [
+      "25I-NBOMe",
+      "MDA"
+    ],
+    [
+      "25I-NBOMe",
+      "Safrole"
+    ],
+    [
+      "25I-NBOMe",
+      "MAOIs"
+    ],
+    [
+      "25I-NBOMe",
+      "Harmalas"
+    ],
+    [
+      "25I-NBOMe",
+      "Harmaline"
+    ],
+    [
+      "25I-NBOMe",
+      "Harmine"
+    ],
+    [
+      "25I-NBOMe",
+      "Banisteriopsis caapi"
+    ],
+    [
+      "25I-NBOMe",
+      "Peganum harmala"
+    ],
+    [
+      "25I-NBOMe",
+      "Passiflora species"
+    ],
+    [
+      "25I-NBOMe",
+      "Piper methysticum"
+    ],
+    [
+      "25I-NBOMe",
+      "Methcathinone"
+    ],
+    [
+      "25I-NBOMe",
+      "Tabernanthe iboga"
+    ],
+    [
+      "25I-NBOMe",
+      "Tropanes"
+    ],
+    [
+      "25I-NBOMe",
+      "Scopolamine"
+    ],
+    [
+      "25I-NBOMe",
+      "Brugmansia species"
+    ],
+    [
+      "25I-NBOMe",
+      "Datura species"
+    ],
+    [
+      "Benzodiazipines",
+      "Diazepam"
+    ],
+    [
+      "Benzodiazipines",
+      "GBL"
+    ],
+    [
+      "Benzodiazipines",
+      "GHB"
+    ],
+    [
+      "Benzodiazipines",
+      "Incillius alvarius"
+    ],
+    [
+      "Benzodiazipines",
+      "Mitragynine"
+    ],
+    [
+      "Benzodiazipines",
+      "Opioids"
+    ],
+    [
+      "Benzodiazipines",
+      "Codeine"
+    ],
+    [
+      "Benzodiazipines",
+      "Heroin"
+    ],
+    [
+      "Benzodiazipines",
+      "Papaver species"
+    ],
+    [
+      "Benzodiazipines",
+      "Nitrous oxide"
+    ],
+    [
+      "Benzodiazipines",
+      "DXM"
+    ],
+    [
+      "Benzodiazipines",
+      "Ketamine"
+    ],
+    [
+      "Benzodiazipines",
+      "Cannabis species"
+    ],
+    [
+      "Benzodiazipines",
+      "Caffeine"
+    ],
+    [
+      "Benzodiazipines",
+      "Camellia sinensis"
+    ],
+    [
+      "Benzodiazipines",
+      "Coffea species"
+    ],
+    [
+      "Benzodiazipines",
+      "Cola species"
+    ],
+    [
+      "Benzodiazipines",
+      "Duboisia hopwoodii"
+    ],
+    [
+      "Benzodiazipines",
+      "Nicotine"
+    ],
+    [
+      "Benzodiazipines",
+      "Nicotiana species"
+    ],
+    [
+      "Benzodiazipines",
+      "Mesembrine"
+    ],
+    [
+      "Benzodiazipines",
+      "MDMA"
+    ],
+    [
+      "Benzodiazipines",
+      "MDA"
+    ],
+    [
+      "Benzodiazipines",
+      "Safrole"
+    ],
+    [
+      "Benzodiazipines",
+      "MAOIs"
+    ],
+    [
+      "Benzodiazipines",
+      "Harmalas"
+    ],
+    [
+      "Benzodiazipines",
+      "Harmaline"
+    ],
+    [
+      "Benzodiazipines",
+      "Harmine"
+    ],
+    [
+      "Benzodiazipines",
+      "Peganum harmala"
+    ],
+    [
+      "Benzodiazipines",
+      "Passiflora species"
+    ],
+    [
+      "Benzodiazipines",
+      "Piper methysticum"
+    ],
+    [
+      "Benzodiazipines",
+      "Methcathinone"
+    ],
+    [
+      "Benzodiazipines",
+      "Mephedrone"
+    ],
+    [
+      "Benzodiazipines",
+      "Cathinones"
+    ],
+    [
+      "Benzodiazipines",
+      "Methamphetamine"
+    ],
+    [
+      "Benzodiazipines",
+      "Ephedrine"
+    ],
+    [
+      "Benzodiazipines",
+      "Ephedra species"
+    ],
+    [
+      "Benzodiazipines",
+      "Cocaine"
+    ],
+    [
+      "Benzodiazipines",
+      "Erythroxylum species"
+    ],
+    [
+      "Benzodiazipines",
+      "Levodopa"
+    ],
+    [
+      "Benzodiazipines",
+      "Mucuna pruriens"
+    ],
+    [
+      "Benzodiazipines",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Benzodiazipines",
+      "Tropanes"
+    ],
+    [
+      "Benzodiazipines",
+      "Scopolamine"
+    ],
+    [
+      "Benzodiazipines",
+      "Brugmansia species"
+    ],
+    [
+      "Benzodiazipines",
+      "Datura species"
+    ],
+    [
+      "Alprazolam",
+      "GBL"
+    ],
+    [
+      "Alprazolam",
+      "GHB"
+    ],
+    [
+      "Alprazolam",
+      "Amanita muscaria"
+    ],
+    [
+      "Alprazolam",
+      "Incillius alvarius"
+    ],
+    [
+      "Alprazolam",
+      "Mitragynine"
+    ],
+    [
+      "Alprazolam",
+      "Opioids"
+    ],
+    [
+      "Alprazolam",
+      "Codeine"
+    ],
+    [
+      "Alprazolam",
+      "Heroin"
+    ],
+    [
+      "Alprazolam",
+      "Papaver species"
+    ],
+    [
+      "Alprazolam",
+      "Nitrous oxide"
+    ],
+    [
+      "Alprazolam",
+      "DXM"
+    ],
+    [
+      "Alprazolam",
+      "Ketamine"
+    ],
+    [
+      "Alprazolam",
+      "Areca catechu"
+    ],
+    [
+      "Alprazolam",
+      "Caffeine"
+    ],
+    [
+      "Alprazolam",
+      "MDMA"
+    ],
+    [
+      "Alprazolam",
+      "MDA"
+    ],
+    [
+      "Alprazolam",
+      "Safrole"
+    ],
+    [
+      "Alprazolam",
+      "MAOIs"
+    ],
+    [
+      "Alprazolam",
+      "Harmalas"
+    ],
+    [
+      "Alprazolam",
+      "Harmaline"
+    ],
+    [
+      "Alprazolam",
+      "Harmine"
+    ],
+    [
+      "Alprazolam",
+      "Banisteriopsis caapi"
+    ],
+    [
+      "Alprazolam",
+      "Peganum harmala"
+    ],
+    [
+      "Alprazolam",
+      "Passiflora species"
+    ],
+    [
+      "Alprazolam",
+      "Piper methysticum"
+    ],
+    [
+      "Alprazolam",
+      "Methcathinone"
+    ],
+    [
+      "Alprazolam",
+      "Mephedrone"
+    ],
+    [
+      "Alprazolam",
+      "Cathinones"
+    ],
+    [
+      "Alprazolam",
+      "Methamphetamine"
+    ],
+    [
+      "Alprazolam",
+      "Ephedrine"
+    ],
+    [
+      "Alprazolam",
+      "Ephedra species"
+    ],
+    [
+      "Alprazolam",
+      "Cocaine"
+    ],
+    [
+      "Alprazolam",
+      "Erythroxylum species"
+    ],
+    [
+      "Alprazolam",
+      "Levodopa"
+    ],
+    [
+      "Alprazolam",
+      "Mucuna pruriens"
+    ],
+    [
+      "Alprazolam",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Alprazolam",
+      "Tropanes"
+    ],
+    [
+      "Alprazolam",
+      "Scopolamine"
+    ],
+    [
+      "Alprazolam",
+      "Brugmansia species"
+    ],
+    [
+      "Alprazolam",
+      "Datura species"
+    ],
+    [
+      "Diazepam",
+      "GHB"
+    ],
+    [
+      "Diazepam",
+      "Incillius alvarius"
+    ],
+    [
+      "Diazepam",
+      "Mitragynine"
+    ],
+    [
+      "Diazepam",
+      "Opioids"
+    ],
+    [
+      "Diazepam",
+      "Heroin"
+    ],
+    [
+      "Diazepam",
+      "Papaver species"
+    ],
+    [
+      "Diazepam",
+      "Nitrous oxide"
+    ],
+    [
+      "Diazepam",
+      "Ketamine"
+    ],
+    [
+      "Diazepam",
+      "MDMA"
+    ],
+    [
+      "Diazepam",
+      "MDA"
+    ],
+    [
+      "Diazepam",
+      "Safrole"
+    ],
+    [
+      "Diazepam",
+      "MAOIs"
+    ],
+    [
+      "Diazepam",
+      "Harmalas"
+    ],
+    [
+      "Diazepam",
+      "Harmaline"
+    ],
+    [
+      "Diazepam",
+      "Harmine"
+    ],
+    [
+      "Diazepam",
+      "Peganum harmala"
+    ],
+    [
+      "Diazepam",
+      "Passiflora species"
+    ],
+    [
+      "Diazepam",
+      "Piper methysticum"
+    ],
+    [
+      "Diazepam",
+      "Methcathinone"
+    ],
+    [
+      "Diazepam",
+      "Mephedrone"
+    ],
+    [
+      "Diazepam",
+      "Methamphetamine"
+    ],
+    [
+      "Diazepam",
+      "Ephedrine"
+    ],
+    [
+      "Diazepam",
+      "Ephedra species"
+    ],
+    [
+      "Diazepam",
+      "Erythroxylum species"
+    ],
+    [
+      "Diazepam",
+      "Levodopa"
+    ],
+    [
+      "Diazepam",
+      "Mucuna pruriens"
+    ],
+    [
+      "Diazepam",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Diazepam",
+      "Tropanes"
+    ],
+    [
+      "Diazepam",
+      "Scopolamine"
+    ],
+    [
+      "GBL",
+      "Incillius alvarius"
+    ],
+    [
+      "GBL",
+      "Mitragynine"
+    ],
+    [
+      "GBL",
+      "Opioids"
+    ],
+    [
+      "GBL",
+      "Heroin"
+    ],
+    [
+      "GBL",
+      "Papaver species"
+    ],
+    [
+      "GBL",
+      "Nitrous oxide"
+    ],
+    [
+      "GBL",
+      "Ketamine"
+    ],
+    [
+      "GBL",
+      "Nicotine"
+    ],
+    [
+      "GBL",
+      "Nicotiana species"
+    ],
+    [
+      "GBL",
+      "Mesembrine"
+    ],
+    [
+      "GBL",
+      "MDMA"
+    ],
+    [
+      "GBL",
+      "MDA"
+    ],
+    [
+      "GBL",
+      "Safrole"
+    ],
+    [
+      "GBL",
+      "MAOIs"
+    ],
+    [
+      "GBL",
+      "Harmalas"
+    ],
+    [
+      "GBL",
+      "Harmaline"
+    ],
+    [
+      "GBL",
+      "Harmine"
+    ],
+    [
+      "GBL",
+      "Peganum harmala"
+    ],
+    [
+      "GBL",
+      "Passiflora species"
+    ],
+    [
+      "GBL",
+      "Piper methysticum"
+    ],
+    [
+      "GBL",
+      "Methcathinone"
+    ],
+    [
+      "GBL",
+      "Mephedrone"
+    ],
+    [
+      "GBL",
+      "Methamphetamine"
+    ],
+    [
+      "GBL",
+      "Levodopa"
+    ],
+    [
+      "GBL",
+      "Mucuna pruriens"
+    ],
+    [
+      "GBL",
+      "Tabernanthe iboga"
+    ],
+    [
+      "GBL",
+      "Tropanes"
+    ],
+    [
+      "GBL",
+      "Scopolamine"
+    ],
+    [
+      "GHB",
+      "Incillius alvarius"
+    ],
+    [
+      "GHB",
+      "Mitragynine"
+    ],
+    [
+      "GHB",
+      "Opioids"
+    ],
+    [
+      "GHB",
+      "Heroin"
+    ],
+    [
+      "GHB",
+      "Papaver species"
+    ],
+    [
+      "GHB",
+      "Nitrous oxide"
+    ],
+    [
+      "GHB",
+      "Ketamine"
+    ],
+    [
+      "GHB",
+      "Nicotine"
+    ],
+    [
+      "GHB",
+      "Nicotiana species"
+    ],
+    [
+      "GHB",
+      "Mesembrine"
+    ],
+    [
+      "GHB",
+      "MDMA"
+    ],
+    [
+      "GHB",
+      "MDA"
+    ],
+    [
+      "GHB",
+      "Safrole"
+    ],
+    [
+      "GHB",
+      "MAOIs"
+    ],
+    [
+      "GHB",
+      "Harmalas"
+    ],
+    [
+      "GHB",
+      "Harmaline"
+    ],
+    [
+      "GHB",
+      "Harmine"
+    ],
+    [
+      "GHB",
+      "Peganum harmala"
+    ],
+    [
+      "GHB",
+      "Passiflora species"
+    ],
+    [
+      "GHB",
+      "Piper methysticum"
+    ],
+    [
+      "GHB",
+      "Methcathinone"
+    ],
+    [
+      "GHB",
+      "Mephedrone"
+    ],
+    [
+      "GHB",
+      "Methamphetamine"
+    ],
+    [
+      "GHB",
+      "Levodopa"
+    ],
+    [
+      "GHB",
+      "Mucuna pruriens"
+    ],
+    [
+      "GHB",
+      "Tabernanthe iboga"
+    ],
+    [
+      "GHB",
+      "Tropanes"
+    ],
+    [
+      "GHB",
+      "Scopolamine"
+    ],
+    [
+      "Alcohol",
+      "Incillius alvarius"
+    ],
+    [
+      "Alcohol",
+      "Mitragynine"
+    ],
+    [
+      "Alcohol",
+      "Opioids"
+    ],
+    [
+      "Alcohol",
+      "Codeine"
+    ],
+    [
+      "Alcohol",
+      "Heroin"
+    ],
+    [
+      "Alcohol",
+      "Papaver species"
+    ],
+    [
+      "Alcohol",
+      "Nitrous oxide"
+    ],
+    [
+      "Alcohol",
+      "DXM"
+    ],
+    [
+      "Alcohol",
+      "Ketamine"
+    ],
+    [
+      "Alcohol",
+      "Areca catechu"
+    ],
+    [
+      "Alcohol",
+      "Caffeine"
+    ],
+    [
+      "Alcohol",
+      "MDMA"
+    ],
+    [
+      "Alcohol",
+      "MDA"
+    ],
+    [
+      "Alcohol",
+      "Safrole"
+    ],
+    [
+      "Alcohol",
+      "MAOIs"
+    ],
+    [
+      "Alcohol",
+      "Harmalas"
+    ],
+    [
+      "Alcohol",
+      "Harmaline"
+    ],
+    [
+      "Alcohol",
+      "Harmine"
+    ],
+    [
+      "Alcohol",
+      "Banisteriopsis caapi"
+    ],
+    [
+      "Alcohol",
+      "Peganum harmala"
+    ],
+    [
+      "Alcohol",
+      "Passiflora species"
+    ],
+    [
+      "Alcohol",
+      "Piper methysticum"
+    ],
+    [
+      "Alcohol",
+      "Methcathinone"
+    ],
+    [
+      "Alcohol",
+      "Mephedrone"
+    ],
+    [
+      "Alcohol",
+      "Cathinones"
+    ],
+    [
+      "Alcohol",
+      "Methamphetamine"
+    ],
+    [
+      "Alcohol",
+      "Ephedrine"
+    ],
+    [
+      "Alcohol",
+      "Ephedra species"
+    ],
+    [
+      "Alcohol",
+      "Cocaine"
+    ],
+    [
+      "Alcohol",
+      "Erythroxylum species"
+    ],
+    [
+      "Alcohol",
+      "Levodopa"
+    ],
+    [
+      "Alcohol",
+      "Mucuna pruriens"
+    ],
+    [
+      "Alcohol",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Alcohol",
+      "Tropanes"
+    ],
+    [
+      "Alcohol",
+      "Scopolamine"
+    ],
+    [
+      "Alcohol",
+      "Brugmansia species"
+    ],
+    [
+      "Alcohol",
+      "Datura species"
+    ],
+    [
+      "5-MeO-DMT",
+      "Mitragynine"
+    ],
+    [
+      "5-MeO-DMT",
+      "Opioids"
+    ],
+    [
+      "5-MeO-DMT",
+      "Codeine"
+    ],
+    [
+      "5-MeO-DMT",
+      "Heroin"
+    ],
+    [
+      "5-MeO-DMT",
+      "Papaver species"
+    ],
+    [
+      "5-MeO-DMT",
+      "Nitrous oxide"
+    ],
+    [
+      "5-MeO-DMT",
+      "MXE"
+    ],
+    [
+      "5-MeO-DMT",
+      "DXM"
+    ],
+    [
+      "5-MeO-DMT",
+      "Ketamine"
+    ],
+    [
+      "5-MeO-DMT",
+      "Cannabis species"
+    ],
+    [
+      "5-MeO-DMT",
+      "Areca catechu"
+    ],
+    [
+      "5-MeO-DMT",
+      "Caffeine"
+    ],
+    [
+      "5-MeO-DMT",
+      "Camellia sinensis"
+    ],
+    [
+      "5-MeO-DMT",
+      "Coffea species"
+    ],
+    [
+      "5-MeO-DMT",
+      "Cola species"
+    ],
+    [
+      "5-MeO-DMT",
+      "Duboisia hopwoodii"
+    ],
+    [
+      "5-MeO-DMT",
+      "Nicotine"
+    ],
+    [
+      "5-MeO-DMT",
+      "Nicotiana species"
+    ],
+    [
+      "5-MeO-DMT",
+      "MDMA"
+    ],
+    [
+      "5-MeO-DMT",
+      "MDA"
+    ],
+    [
+      "5-MeO-DMT",
+      "Safrole"
+    ],
+    [
+      "5-MeO-DMT",
+      "MAOIs"
+    ],
+    [
+      "5-MeO-DMT",
+      "Harmalas"
+    ],
+    [
+      "5-MeO-DMT",
+      "Harmaline"
+    ],
+    [
+      "5-MeO-DMT",
+      "Harmine"
+    ],
+    [
+      "5-MeO-DMT",
+      "Banisteriopsis caapi"
+    ],
+    [
+      "5-MeO-DMT",
+      "Peganum harmala"
+    ],
+    [
+      "5-MeO-DMT",
+      "Passiflora species"
+    ],
+    [
+      "5-MeO-DMT",
+      "Piper methysticum"
+    ],
+    [
+      "5-MeO-DMT",
+      "Methcathinone"
+    ],
+    [
+      "5-MeO-DMT",
+      "Mephedrone"
+    ],
+    [
+      "5-MeO-DMT",
+      "Cathinones"
+    ],
+    [
+      "5-MeO-DMT",
+      "Catha edulis"
+    ],
+    [
+      "5-MeO-DMT",
+      "Methamphetamine"
+    ],
+    [
+      "5-MeO-DMT",
+      "Amphetamines"
+    ],
+    [
+      "5-MeO-DMT",
+      "Ephedrine"
+    ],
+    [
+      "5-MeO-DMT",
+      "Ephedra species"
+    ],
+    [
+      "5-MeO-DMT",
+      "Cocaine"
+    ],
+    [
+      "5-MeO-DMT",
+      "Erythroxylum species"
+    ],
+    [
+      "5-MeO-DMT",
+      "Levodopa"
+    ],
+    [
+      "5-MeO-DMT",
+      "Mucuna pruriens"
+    ],
+    [
+      "5-MeO-DMT",
+      "Tabernanthe iboga"
+    ],
+    [
+      "5-MeO-DMT",
+      "Tropanes"
+    ],
+    [
+      "5-MeO-DMT",
+      "Hyoscyamine"
+    ],
+    [
+      "5-MeO-DMT",
+      "Scopolamine"
+    ],
+    [
+      "5-MeO-DMT",
+      "Brugmansia species"
+    ],
+    [
+      "5-MeO-DMT",
+      "Datura species"
+    ],
+    [
+      "Tramadol",
+      "Tropanes"
+    ],
+    [
+      "Mitragyna speciosa",
+      "Papaver species"
+    ],
+    [
+      "Mitragyna speciosa",
+      "Nitrous oxide"
+    ],
+    [
+      "Mitragyna speciosa",
+      "Nicotine"
+    ],
+    [
+      "Mitragyna speciosa",
+      "Safrole"
+    ],
+    [
+      "Mitragyna speciosa",
+      "Peganum harmala"
+    ],
+    [
+      "Mitragyna speciosa",
+      "Passiflora species"
+    ],
+    [
+      "Mitragyna speciosa",
+      "Piper methysticum"
+    ],
+    [
+      "Mitragyna speciosa",
+      "Mucuna pruriens"
+    ],
+    [
+      "Mitragyna speciosa",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Mitragyna speciosa",
+      "Tropanes"
+    ],
+    [
+      "Mitragyna speciosa",
+      "Scopolamine"
+    ],
+    [
+      "Opioids",
+      "Papaver species"
+    ],
+    [
+      "Opioids",
+      "Safrole"
+    ],
+    [
+      "Opioids",
+      "Peganum harmala"
+    ],
+    [
+      "Opioids",
+      "Passiflora species"
+    ],
+    [
+      "Opioids",
+      "Piper methysticum"
+    ],
+    [
+      "Opioids",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Opioids",
+      "Tropanes"
+    ],
+    [
+      "Opioids",
+      "Scopolamine"
+    ],
+    [
+      "Codeine",
+      "Nitrous oxide"
+    ],
+    [
+      "Codeine",
+      "DXM"
+    ],
+    [
+      "Codeine",
+      "Ketamine"
+    ],
+    [
+      "Codeine",
+      "MDMA"
+    ],
+    [
+      "Codeine",
+      "MDA"
+    ],
+    [
+      "Codeine",
+      "Safrole"
+    ],
+    [
+      "Codeine",
+      "Harmalas"
+    ],
+    [
+      "Codeine",
+      "Harmaline"
+    ],
+    [
+      "Codeine",
+      "Harmine"
+    ],
+    [
+      "Codeine",
+      "Peganum harmala"
+    ],
+    [
+      "Codeine",
+      "Passiflora species"
+    ],
+    [
+      "Codeine",
+      "Piper methysticum"
+    ],
+    [
+      "Codeine",
+      "Methcathinone"
+    ],
+    [
+      "Codeine",
+      "Mephedrone"
+    ],
+    [
+      "Codeine",
+      "Methamphetamine"
+    ],
+    [
+      "Codeine",
+      "Ephedrine"
+    ],
+    [
+      "Codeine",
+      "Ephedra species"
+    ],
+    [
+      "Codeine",
+      "Erythroxylum species"
+    ],
+    [
+      "Codeine",
+      "Levodopa"
+    ],
+    [
+      "Codeine",
+      "Mucuna pruriens"
+    ],
+    [
+      "Codeine",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Codeine",
+      "Tropanes"
+    ],
+    [
+      "Codeine",
+      "Scopolamine"
+    ],
+    [
+      "Codeine",
+      "Datura species"
+    ],
+    [
+      "Heroin",
+      "Nitrous oxide"
+    ],
+    [
+      "Heroin",
+      "Ketamine"
+    ],
+    [
+      "Heroin",
+      "MDMA"
+    ],
+    [
+      "Heroin",
+      "MDA"
+    ],
+    [
+      "Heroin",
+      "Safrole"
+    ],
+    [
+      "Heroin",
+      "Peganum harmala"
+    ],
+    [
+      "Heroin",
+      "Passiflora species"
+    ],
+    [
+      "Heroin",
+      "Piper methysticum"
+    ],
+    [
+      "Heroin",
+      "Methcathinone"
+    ],
+    [
+      "Heroin",
+      "Mephedrone"
+    ],
+    [
+      "Heroin",
+      "Methamphetamine"
+    ],
+    [
+      "Heroin",
+      "Levodopa"
+    ],
+    [
+      "Heroin",
+      "Mucuna pruriens"
+    ],
+    [
+      "Heroin",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Heroin",
+      "Tropanes"
+    ],
+    [
+      "Heroin",
+      "Scopolamine"
+    ],
+    [
+      "Papaver species",
+      "Safrole"
+    ],
+    [
+      "Papaver species",
+      "Peganum harmala"
+    ],
+    [
+      "Papaver species",
+      "Passiflora species"
+    ],
+    [
+      "Papaver species",
+      "Piper methysticum"
+    ],
+    [
+      "Papaver species",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Papaver species",
+      "Tropanes"
+    ],
+    [
+      "Papaver species",
+      "Scopolamine"
+    ],
+    [
+      "Nitrous oxide",
+      "Safrole"
+    ],
+    [
+      "Nitrous oxide",
+      "Peganum harmala"
+    ],
+    [
+      "Nitrous oxide",
+      "Passiflora species"
+    ],
+    [
+      "Nitrous oxide",
+      "Piper methysticum"
+    ],
+    [
+      "Nitrous oxide",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Nitrous oxide",
+      "Tropanes"
+    ],
+    [
+      "Nitrous oxide",
+      "Scopolamine"
+    ],
+    [
+      "MXE",
+      "Nicotine"
+    ],
+    [
+      "MXE",
+      "Nicotiana species"
+    ],
+    [
+      "MXE",
+      "Mesembrine"
+    ],
+    [
+      "MXE",
+      "Safrole"
+    ],
+    [
+      "MXE",
+      "Peganum harmala"
+    ],
+    [
+      "MXE",
+      "Passiflora species"
+    ],
+    [
+      "MXE",
+      "Piper methysticum"
+    ],
+    [
+      "MXE",
+      "Methcathinone"
+    ],
+    [
+      "MXE",
+      "Mephedrone"
+    ],
+    [
+      "MXE",
+      "Methamphetamine"
+    ],
+    [
+      "MXE",
+      "Mucuna pruriens"
+    ],
+    [
+      "MXE",
+      "Tabernanthe iboga"
+    ],
+    [
+      "MXE",
+      "Tropanes"
+    ],
+    [
+      "MXE",
+      "Scopolamine"
+    ],
+    [
+      "DXM",
+      "Duboisia hopwoodii"
+    ],
+    [
+      "DXM",
+      "Nicotine"
+    ],
+    [
+      "DXM",
+      "MDMA"
+    ],
+    [
+      "DXM",
+      "MDA"
+    ],
+    [
+      "DXM",
+      "Safrole"
+    ],
+    [
+      "DXM",
+      "Harmalas"
+    ],
+    [
+      "DXM",
+      "Harmaline"
+    ],
+    [
+      "DXM",
+      "Harmine"
+    ],
+    [
+      "DXM",
+      "Peganum harmala"
+    ],
+    [
+      "DXM",
+      "Passiflora species"
+    ],
+    [
+      "DXM",
+      "Piper methysticum"
+    ],
+    [
+      "DXM",
+      "Methcathinone"
+    ],
+    [
+      "DXM",
+      "Mephedrone"
+    ],
+    [
+      "DXM",
+      "Methamphetamine"
+    ],
+    [
+      "DXM",
+      "Ephedrine"
+    ],
+    [
+      "DXM",
+      "Ephedra species"
+    ],
+    [
+      "DXM",
+      "Erythroxylum species"
+    ],
+    [
+      "DXM",
+      "Levodopa"
+    ],
+    [
+      "DXM",
+      "Mucuna pruriens"
+    ],
+    [
+      "DXM",
+      "Tabernanthe iboga"
+    ],
+    [
+      "DXM",
+      "Tropanes"
+    ],
+    [
+      "DXM",
+      "Scopolamine"
+    ],
+    [
+      "DXM",
+      "Datura species"
+    ],
+    [
+      "Ketamine",
+      "MDA"
+    ],
+    [
+      "Ketamine",
+      "Safrole"
+    ],
+    [
+      "Ketamine",
+      "Peganum harmala"
+    ],
+    [
+      "Ketamine",
+      "Passiflora species"
+    ],
+    [
+      "Ketamine",
+      "Piper methysticum"
+    ],
+    [
+      "Ketamine",
+      "Methcathinone"
+    ],
+    [
+      "Ketamine",
+      "Mephedrone"
+    ],
+    [
+      "Ketamine",
+      "Methamphetamine"
+    ],
+    [
+      "Ketamine",
+      "Levodopa"
+    ],
+    [
+      "Ketamine",
+      "Mucuna pruriens"
+    ],
+    [
+      "Ketamine",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Ketamine",
+      "Tropanes"
+    ],
+    [
+      "Ketamine",
+      "Scopolamine"
+    ],
+    [
+      "Cannabis species",
+      "MDA"
+    ],
+    [
+      "Cannabis species",
+      "Safrole"
+    ],
+    [
+      "Cannabis species",
+      "Harmalas"
+    ],
+    [
+      "Cannabis species",
+      "Harmaline"
+    ],
+    [
+      "Cannabis species",
+      "Harmine"
+    ],
+    [
+      "Cannabis species",
+      "Peganum harmala"
+    ],
+    [
+      "Cannabis species",
+      "Passiflora species"
+    ],
+    [
+      "Cannabis species",
+      "Piper methysticum"
+    ],
+    [
+      "Cannabis species",
+      "Methcathinone"
+    ],
+    [
+      "Cannabis species",
+      "Mephedrone"
+    ],
+    [
+      "Cannabis species",
+      "Cathinones"
+    ],
+    [
+      "Cannabis species",
+      "Methamphetamine"
+    ],
+    [
+      "Cannabis species",
+      "Ephedrine"
+    ],
+    [
+      "Cannabis species",
+      "Cocaine"
+    ],
+    [
+      "Cannabis species",
+      "Levodopa"
+    ],
+    [
+      "Cannabis species",
+      "Mucuna pruriens"
+    ],
+    [
+      "Cannabis species",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Cannabis species",
+      "Tropanes"
+    ],
+    [
+      "Cannabis species",
+      "Scopolamine"
+    ],
+    [
+      "Cannabis species",
+      "Datura species"
+    ],
+    [
+      "Arecoline",
+      "Caffeine"
+    ],
+    [
+      "Arecoline",
+      "MDA"
+    ],
+    [
+      "Arecoline",
+      "Safrole"
+    ],
+    [
+      "Arecoline",
+      "Harmalas"
+    ],
+    [
+      "Arecoline",
+      "Harmaline"
+    ],
+    [
+      "Arecoline",
+      "Harmine"
+    ],
+    [
+      "Arecoline",
+      "Banisteriopsis caapi"
+    ],
+    [
+      "Arecoline",
+      "Peganum harmala"
+    ],
+    [
+      "Arecoline",
+      "Passiflora species"
+    ],
+    [
+      "Arecoline",
+      "Piper methysticum"
+    ],
+    [
+      "Arecoline",
+      "Methcathinone"
+    ],
+    [
+      "Arecoline",
+      "Mephedrone"
+    ],
+    [
+      "Arecoline",
+      "Cathinones"
+    ],
+    [
+      "Arecoline",
+      "Methamphetamine"
+    ],
+    [
+      "Arecoline",
+      "Ephedrine"
+    ],
+    [
+      "Arecoline",
+      "Cocaine"
+    ],
+    [
+      "Arecoline",
+      "Levodopa"
+    ],
+    [
+      "Arecoline",
+      "Mucuna pruriens"
+    ],
+    [
+      "Arecoline",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Arecoline",
+      "Tropanes"
+    ],
+    [
+      "Arecoline",
+      "Scopolamine"
+    ],
+    [
+      "Arecoline",
+      "Brugmansia species"
+    ],
+    [
+      "Arecoline",
+      "Datura species"
+    ],
+    [
+      "Areca catechu",
+      "MDA"
+    ],
+    [
+      "Areca catechu",
+      "Safrole"
+    ],
+    [
+      "Areca catechu",
+      "Harmalas"
+    ],
+    [
+      "Areca catechu",
+      "Harmaline"
+    ],
+    [
+      "Areca catechu",
+      "Harmine"
+    ],
+    [
+      "Areca catechu",
+      "Banisteriopsis caapi"
+    ],
+    [
+      "Areca catechu",
+      "Peganum harmala"
+    ],
+    [
+      "Areca catechu",
+      "Passiflora species"
+    ],
+    [
+      "Areca catechu",
+      "Piper methysticum"
+    ],
+    [
+      "Areca catechu",
+      "Methcathinone"
+    ],
+    [
+      "Areca catechu",
+      "Mephedrone"
+    ],
+    [
+      "Areca catechu",
+      "Cathinones"
+    ],
+    [
+      "Areca catechu",
+      "Methamphetamine"
+    ],
+    [
+      "Areca catechu",
+      "Ephedrine"
+    ],
+    [
+      "Areca catechu",
+      "Cocaine"
+    ],
+    [
+      "Areca catechu",
+      "Levodopa"
+    ],
+    [
+      "Areca catechu",
+      "Mucuna pruriens"
+    ],
+    [
+      "Areca catechu",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Areca catechu",
+      "Tropanes"
+    ],
+    [
+      "Areca catechu",
+      "Scopolamine"
+    ],
+    [
+      "Areca catechu",
+      "Brugmansia species"
+    ],
+    [
+      "Areca catechu",
+      "Datura species"
+    ],
+    [
+      "Caffeine",
+      "MDA"
+    ],
+    [
+      "Caffeine",
+      "Safrole"
+    ],
+    [
+      "Caffeine",
+      "Harmalas"
+    ],
+    [
+      "Caffeine",
+      "Harmaline"
+    ],
+    [
+      "Caffeine",
+      "Harmine"
+    ],
+    [
+      "Caffeine",
+      "Peganum harmala"
+    ],
+    [
+      "Caffeine",
+      "Passiflora species"
+    ],
+    [
+      "Caffeine",
+      "Piper methysticum"
+    ],
+    [
+      "Caffeine",
+      "Methcathinone"
+    ],
+    [
+      "Caffeine",
+      "Mephedrone"
+    ],
+    [
+      "Caffeine",
+      "Cathinones"
+    ],
+    [
+      "Caffeine",
+      "Methamphetamine"
+    ],
+    [
+      "Caffeine",
+      "Ephedrine"
+    ],
+    [
+      "Caffeine",
+      "Cocaine"
+    ],
+    [
+      "Caffeine",
+      "Levodopa"
+    ],
+    [
+      "Caffeine",
+      "Mucuna pruriens"
+    ],
+    [
+      "Caffeine",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Caffeine",
+      "Tropanes"
+    ],
+    [
+      "Caffeine",
+      "Scopolamine"
+    ],
+    [
+      "Caffeine",
+      "Datura species"
+    ],
+    [
+      "Camellia sinensis",
+      "MDA"
+    ],
+    [
+      "Camellia sinensis",
+      "Safrole"
+    ],
+    [
+      "Camellia sinensis",
+      "Harmalas"
+    ],
+    [
+      "Camellia sinensis",
+      "Harmaline"
+    ],
+    [
+      "Camellia sinensis",
+      "Harmine"
+    ],
+    [
+      "Camellia sinensis",
+      "Peganum harmala"
+    ],
+    [
+      "Camellia sinensis",
+      "Passiflora species"
+    ],
+    [
+      "Camellia sinensis",
+      "Piper methysticum"
+    ],
+    [
+      "Camellia sinensis",
+      "Methcathinone"
+    ],
+    [
+      "Camellia sinensis",
+      "Mephedrone"
+    ],
+    [
+      "Camellia sinensis",
+      "Cathinones"
+    ],
+    [
+      "Camellia sinensis",
+      "Methamphetamine"
+    ],
+    [
+      "Camellia sinensis",
+      "Ephedrine"
+    ],
+    [
+      "Camellia sinensis",
+      "Cocaine"
+    ],
+    [
+      "Camellia sinensis",
+      "Levodopa"
+    ],
+    [
+      "Camellia sinensis",
+      "Mucuna pruriens"
+    ],
+    [
+      "Camellia sinensis",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Camellia sinensis",
+      "Tropanes"
+    ],
+    [
+      "Camellia sinensis",
+      "Scopolamine"
+    ],
+    [
+      "Camellia sinensis",
+      "Datura species"
+    ],
+    [
+      "Coffea species",
+      "MDA"
+    ],
+    [
+      "Coffea species",
+      "Safrole"
+    ],
+    [
+      "Coffea species",
+      "Harmalas"
+    ],
+    [
+      "Coffea species",
+      "Harmaline"
+    ],
+    [
+      "Coffea species",
+      "Harmine"
+    ],
+    [
+      "Coffea species",
+      "Peganum harmala"
+    ],
+    [
+      "Coffea species",
+      "Passiflora species"
+    ],
+    [
+      "Coffea species",
+      "Piper methysticum"
+    ],
+    [
+      "Coffea species",
+      "Methcathinone"
+    ],
+    [
+      "Coffea species",
+      "Mephedrone"
+    ],
+    [
+      "Coffea species",
+      "Methamphetamine"
+    ],
+    [
+      "Coffea species",
+      "Ephedrine"
+    ],
+    [
+      "Coffea species",
+      "Levodopa"
+    ],
+    [
+      "Coffea species",
+      "Mucuna pruriens"
+    ],
+    [
+      "Coffea species",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Coffea species",
+      "Tropanes"
+    ],
+    [
+      "Coffea species",
+      "Scopolamine"
+    ],
+    [
+      "Coffea species",
+      "Datura species"
+    ],
+    [
+      "Cola species",
+      "MDA"
+    ],
+    [
+      "Cola species",
+      "Safrole"
+    ],
+    [
+      "Cola species",
+      "Harmalas"
+    ],
+    [
+      "Cola species",
+      "Harmaline"
+    ],
+    [
+      "Cola species",
+      "Harmine"
+    ],
+    [
+      "Cola species",
+      "Peganum harmala"
+    ],
+    [
+      "Cola species",
+      "Passiflora species"
+    ],
+    [
+      "Cola species",
+      "Piper methysticum"
+    ],
+    [
+      "Cola species",
+      "Methcathinone"
+    ],
+    [
+      "Cola species",
+      "Mephedrone"
+    ],
+    [
+      "Cola species",
+      "Methamphetamine"
+    ],
+    [
+      "Cola species",
+      "Ephedrine"
+    ],
+    [
+      "Cola species",
+      "Levodopa"
+    ],
+    [
+      "Cola species",
+      "Mucuna pruriens"
+    ],
+    [
+      "Cola species",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Cola species",
+      "Tropanes"
+    ],
+    [
+      "Cola species",
+      "Scopolamine"
+    ],
+    [
+      "Cola species",
+      "Datura species"
+    ],
+    [
+      "Ilex paraguariensis",
+      "MDA"
+    ],
+    [
+      "Ilex paraguariensis",
+      "Safrole"
+    ],
+    [
+      "Ilex paraguariensis",
+      "Peganum harmala"
+    ],
+    [
+      "Ilex paraguariensis",
+      "Passiflora species"
+    ],
+    [
+      "Ilex paraguariensis",
+      "Piper methysticum"
+    ],
+    [
+      "Ilex paraguariensis",
+      "Methcathinone"
+    ],
+    [
+      "Ilex paraguariensis",
+      "Mephedrone"
+    ],
+    [
+      "Ilex paraguariensis",
+      "Methamphetamine"
+    ],
+    [
+      "Ilex paraguariensis",
+      "Levodopa"
+    ],
+    [
+      "Ilex paraguariensis",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Ilex paraguariensis",
+      "Tropanes"
+    ],
+    [
+      "Ilex paraguariensis",
+      "Scopolamine"
+    ],
+    [
+      "Nicotine",
+      "Safrole"
+    ],
+    [
+      "Nicotine",
+      "Peganum harmala"
+    ],
+    [
+      "Nicotine",
+      "Passiflora species"
+    ],
+    [
+      "Nicotine",
+      "Piper methysticum"
+    ],
+    [
+      "Nicotine",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Nicotine",
+      "Tropanes"
+    ],
+    [
+      "Nicotine",
+      "Scopolamine"
+    ],
+    [
+      "Nicotiana species",
+      "Safrole"
+    ],
+    [
+      "Nicotiana species",
+      "Peganum harmala"
+    ],
+    [
+      "Nicotiana species",
+      "Passiflora species"
+    ],
+    [
+      "Nicotiana species",
+      "Piper methysticum"
+    ],
+    [
+      "Nicotiana species",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Nicotiana species",
+      "Tropanes"
+    ],
+    [
+      "Nicotiana species",
+      "Scopolamine"
+    ],
+    [
+      "Piper betle",
+      "Safrole"
+    ],
+    [
+      "Piper betle",
+      "Piper methysticum"
+    ],
+    [
+      "Piper betle",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Piper betle",
+      "Tropanes"
+    ],
+    [
+      "Piper betle",
+      "Scopolamine"
+    ],
+    [
+      "MDMA",
+      "Safrole"
+    ],
+    [
+      "MDMA",
+      "Peganum harmala"
+    ],
+    [
+      "MDMA",
+      "Passiflora species"
+    ],
+    [
+      "MDMA",
+      "Piper methysticum"
+    ],
+    [
+      "MDMA",
+      "Methcathinone"
+    ],
+    [
+      "MDMA",
+      "Mephedrone"
+    ],
+    [
+      "MDMA",
+      "Methamphetamine"
+    ],
+    [
+      "MDMA",
+      "Mucuna pruriens"
+    ],
+    [
+      "MDMA",
+      "Tabernanthe iboga"
+    ],
+    [
+      "MDMA",
+      "Tropanes"
+    ],
+    [
+      "MDMA",
+      "Scopolamine"
+    ],
+    [
+      "MDA",
+      "Peganum harmala"
+    ],
+    [
+      "MDA",
+      "Passiflora species"
+    ],
+    [
+      "MDA",
+      "Piper methysticum"
+    ],
+    [
+      "MDA",
+      "Methcathinone"
+    ],
+    [
+      "MDA",
+      "Mephedrone"
+    ],
+    [
+      "MDA",
+      "Methamphetamine"
+    ],
+    [
+      "MDA",
+      "Mucuna pruriens"
+    ],
+    [
+      "MDA",
+      "Tabernanthe iboga"
+    ],
+    [
+      "MDA",
+      "Tropanes"
+    ],
+    [
+      "MDA",
+      "Scopolamine"
+    ],
+    [
+      "SSRIs",
+      "Tabernanthe iboga"
+    ],
+    [
+      "SSRIs",
+      "Tropanes"
+    ],
+    [
+      "SSRIs",
+      "Scopolamine"
+    ],
+    [
+      "MAOIs",
+      "Peganum harmala"
+    ],
+    [
+      "MAOIs",
+      "Piper methysticum"
+    ],
+    [
+      "MAOIs",
+      "Methcathinone"
+    ],
+    [
+      "MAOIs",
+      "Mephedrone"
+    ],
+    [
+      "MAOIs",
+      "Methamphetamine"
+    ],
+    [
+      "MAOIs",
+      "Mucuna pruriens"
+    ],
+    [
+      "MAOIs",
+      "Tabernanthe iboga"
+    ],
+    [
+      "MAOIs",
+      "Tropanes"
+    ],
+    [
+      "MAOIs",
+      "Scopolamine"
+    ],
+    [
+      "Harmalas",
+      "Harmine"
+    ],
+    [
+      "Harmalas",
+      "Peganum harmala"
+    ],
+    [
+      "Harmalas",
+      "Passiflora species"
+    ],
+    [
+      "Harmalas",
+      "Piper methysticum"
+    ],
+    [
+      "Harmalas",
+      "Methcathinone"
+    ],
+    [
+      "Harmalas",
+      "Mephedrone"
+    ],
+    [
+      "Harmalas",
+      "Methamphetamine"
+    ],
+    [
+      "Harmalas",
+      "Levodopa"
+    ],
+    [
+      "Harmalas",
+      "Mucuna pruriens"
+    ],
+    [
+      "Harmalas",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Harmalas",
+      "Tropanes"
+    ],
+    [
+      "Harmalas",
+      "Scopolamine"
+    ],
+    [
+      "Harmaline",
+      "Peganum harmala"
+    ],
+    [
+      "Harmaline",
+      "Passiflora species"
+    ],
+    [
+      "Harmaline",
+      "Piper methysticum"
+    ],
+    [
+      "Harmaline",
+      "Methcathinone"
+    ],
+    [
+      "Harmaline",
+      "Mephedrone"
+    ],
+    [
+      "Harmaline",
+      "Methamphetamine"
+    ],
+    [
+      "Harmaline",
+      "Levodopa"
+    ],
+    [
+      "Harmaline",
+      "Mucuna pruriens"
+    ],
+    [
+      "Harmaline",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Harmaline",
+      "Tropanes"
+    ],
+    [
+      "Harmaline",
+      "Scopolamine"
+    ],
+    [
+      "Harmine",
+      "Peganum harmala"
+    ],
+    [
+      "Harmine",
+      "Passiflora species"
+    ],
+    [
+      "Harmine",
+      "Piper methysticum"
+    ],
+    [
+      "Harmine",
+      "Methcathinone"
+    ],
+    [
+      "Harmine",
+      "Mephedrone"
+    ],
+    [
+      "Harmine",
+      "Methamphetamine"
+    ],
+    [
+      "Harmine",
+      "Levodopa"
+    ],
+    [
+      "Harmine",
+      "Mucuna pruriens"
+    ],
+    [
+      "Harmine",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Harmine",
+      "Tropanes"
+    ],
+    [
+      "Harmine",
+      "Scopolamine"
+    ],
+    [
+      "Banisteriopsis caapi",
+      "Passiflora species"
+    ],
+    [
+      "Banisteriopsis caapi",
+      "Piper methysticum"
+    ],
+    [
+      "Banisteriopsis caapi",
+      "Methcathinone"
+    ],
+    [
+      "Banisteriopsis caapi",
+      "Mephedrone"
+    ],
+    [
+      "Banisteriopsis caapi",
+      "Cathinones"
+    ],
+    [
+      "Banisteriopsis caapi",
+      "Methamphetamine"
+    ],
+    [
+      "Banisteriopsis caapi",
+      "Ephedrine"
+    ],
+    [
+      "Banisteriopsis caapi",
+      "Ephedra species"
+    ],
+    [
+      "Banisteriopsis caapi",
+      "Cocaine"
+    ],
+    [
+      "Banisteriopsis caapi",
+      "Erythroxylum species"
+    ],
+    [
+      "Banisteriopsis caapi",
+      "Levodopa"
+    ],
+    [
+      "Banisteriopsis caapi",
+      "Mucuna pruriens"
+    ],
+    [
+      "Banisteriopsis caapi",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Banisteriopsis caapi",
+      "Tropanes"
+    ],
+    [
+      "Banisteriopsis caapi",
+      "Scopolamine"
+    ],
+    [
+      "Banisteriopsis caapi",
+      "Brugmansia species"
+    ],
+    [
+      "Banisteriopsis caapi",
+      "Datura species"
+    ],
+    [
+      "Peganum harmala",
+      "Piper methysticum"
+    ],
+    [
+      "Peganum harmala",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Peganum harmala",
+      "Tropanes"
+    ],
+    [
+      "Peganum harmala",
+      "Scopolamine"
+    ],
+    [
+      "Kavalactones",
+      "Methcathinone"
+    ],
+    [
+      "Kavalactones",
+      "Mephedrone"
+    ],
+    [
+      "Kavalactones",
+      "Methamphetamine"
+    ],
+    [
+      "Kavalactones",
+      "Levodopa"
+    ],
+    [
+      "Kavalactones",
+      "Mucuna pruriens"
+    ],
+    [
+      "Kavalactones",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Kavalactones",
+      "Tropanes"
+    ],
+    [
+      "Kavalactones",
+      "Scopolamine"
+    ],
+    [
+      "Piper methysticum",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Piper methysticum",
+      "Tropanes"
+    ],
+    [
+      "Piper methysticum",
+      "Scopolamine"
+    ],
+    [
+      "Methcathinone",
+      "Mucuna pruriens"
+    ],
+    [
+      "Methcathinone",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Methcathinone",
+      "Tropanes"
+    ],
+    [
+      "Methcathinone",
+      "Scopolamine"
+    ],
+    [
+      "Mephedrone",
+      "Methamphetamine"
+    ],
+    [
+      "Mephedrone",
+      "Mucuna pruriens"
+    ],
+    [
+      "Mephedrone",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Mephedrone",
+      "Tropanes"
+    ],
+    [
+      "Mephedrone",
+      "Scopolamine"
+    ],
+    [
+      "Catha edulis",
+      "Ephedrine"
+    ],
+    [
+      "Catha edulis",
+      "Ephedra species"
+    ],
+    [
+      "Catha edulis",
+      "Cocaine"
+    ],
+    [
+      "Catha edulis",
+      "Erythroxylum species"
+    ],
+    [
+      "Catha edulis",
+      "Levodopa"
+    ],
+    [
+      "Catha edulis",
+      "Mucuna pruriens"
+    ],
+    [
+      "Catha edulis",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Catha edulis",
+      "Tropanes"
+    ],
+    [
+      "Catha edulis",
+      "Scopolamine"
+    ],
+    [
+      "Catha edulis",
+      "Datura species"
+    ],
+    [
+      "Methamphetamine",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Methamphetamine",
+      "Tropanes"
+    ],
+    [
+      "Methamphetamine",
+      "Scopolamine"
+    ],
+    [
+      "Amphetamines",
+      "Ephedra species"
+    ],
+    [
+      "Amphetamines",
+      "Cocaine"
+    ],
+    [
+      "Amphetamines",
+      "Erythroxylum species"
+    ],
+    [
+      "Amphetamines",
+      "Levodopa"
+    ],
+    [
+      "Amphetamines",
+      "Mucuna pruriens"
+    ],
+    [
+      "Amphetamines",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Amphetamines",
+      "Tropanes"
+    ],
+    [
+      "Amphetamines",
+      "Scopolamine"
+    ],
+    [
+      "Amphetamines",
+      "Brugmansia species"
+    ],
+    [
+      "Amphetamines",
+      "Datura species"
+    ],
+    [
+      "Ephedrine",
+      "Levodopa"
+    ],
+    [
+      "Ephedrine",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Ephedrine",
+      "Tropanes"
+    ],
+    [
+      "Ephedrine",
+      "Scopolamine"
+    ],
+    [
+      "Ephedra species",
+      "Erythroxylum species"
+    ],
+    [
+      "Ephedra species",
+      "Levodopa"
+    ],
+    [
+      "Ephedra species",
+      "Mucuna pruriens"
+    ],
+    [
+      "Ephedra species",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Ephedra species",
+      "Tropanes"
+    ],
+    [
+      "Ephedra species",
+      "Scopolamine"
+    ],
+    [
+      "Cocaine",
+      "Levodopa"
+    ],
+    [
+      "Cocaine",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Cocaine",
+      "Tropanes"
+    ],
+    [
+      "Cocaine",
+      "Scopolamine"
+    ],
+    [
+      "Cocaine",
+      "Datura species"
+    ],
+    [
+      "Erythroxylum species",
+      "Mucuna pruriens"
+    ],
+    [
+      "Erythroxylum species",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Erythroxylum species",
+      "Tropanes"
+    ],
+    [
+      "Erythroxylum species",
+      "Scopolamine"
+    ],
+    [
+      "Levodopa",
+      "Tabernanthe iboga"
+    ],
+    [
+      "Levodopa",
+      "Tropanes"
+    ],
+    [
+      "Levodopa",
+      "Scopolamine"
+    ],
+    [
+      "Ibogaine",
+      "Tropanes"
+    ],
+    [
+      "Ibogaine",
+      "Scopolamine"
+    ]
+  ],
+  "Insulin": [
+    [
+      "",
+      "Metformin"
+    ]
+  ],
+  "Metformin": [
+    [
+      "",
+      "Antibiotics"
+    ]
+  ],
+  "Antibiotics": [
+    [
+      "",
+      "Proton pump inhibitors"
+    ]
+  ],
+  "Proton pump inhibitors": [
+    [
+      "",
+      "Ibuprofen"
+    ]
+  ],
+  "Ibuprofen": [
+    [
+      "",
+      "Paracetemol"
+    ]
+  ],
+  "Paracetemol": [
+    [
+      "",
+      "Beta blockers"
+    ]
+  ],
+  "Beta blockers": [
+    [
+      "",
+      "ACE inhibitors / ARBs"
+    ]
+  ],
+  "ACE Inhibitors / ARBs": [
+    [
+      "",
+      "Statins"
+    ]
+  ],
+  "Statins": [
+    [
+      "",
+      "Meditation"
+    ]
+  ],
+  "Meditation": [
+    [
+      "",
+      "Salvinorin A"
+    ]
+  ],
+  "Salvinorin A": [
+    [
+      "",
+      "Salvia divinorum"
+    ]
+  ],
+  "Salvia divinorum": [
+    [
+      "",
+      "DMT"
+    ]
+  ],
+  "DMT": [
+    [
+      "",
+      "Acacia species"
+    ]
+  ],
+  "Acacia species": [
+    [
+      "",
+      "LSD"
+    ]
+  ],
+  "LSD": [
+    [
+      "",
+      "Ergine"
+    ]
+  ],
+  "Ergine": [
+    [
+      "",
+      "Argyreia nervosa"
+    ]
+  ],
+  "Argyreia nervosa": [
+    [
+      "",
+      "Diplopterys cabrerana"
+    ]
+  ],
+  "Diplopterys cabrerana": [
+    [
+      "",
+      "Psilocybin"
+    ]
+  ],
+  "Psilocybin": [
+    [
+      "",
+      "Psilocin"
+    ]
+  ],
+  "Psilocin": [
+    [
+      "",
+      "Gymnopilus species"
+    ]
+  ],
+  "Gymnopilus species": [
+    [
+      "",
+      "Ipomoea violacea"
+    ]
+  ],
+  "Ipomoea violacea": [
+    [
+      "",
+      "2C-T-x"
+    ]
+  ],
+  "2C-T-x": [
+    [
+      "",
+      "2C-x"
+    ]
+  ],
+  "2C-x": [
+    [
+      "",
+      "Mescaline"
+    ]
+  ],
+  "Mescaline": [
+    [
+      "",
+      "Lophophora williamsii"
+    ]
+  ],
+  "Lophophora williamsii": [
+    [
+      "",
+      "Mimosa species"
+    ]
+  ],
+  "Mimosa species": [
+    [
+      "",
+      "Panaeolus species"
+    ]
+  ],
+  "Panaeolus species": [
+    [
+      "",
+      "Psilocybe species"
+    ]
+  ],
+  "Psilocybe species": [
+    [
+      "",
+      "Psychotria species"
+    ]
+  ],
+  "Psychotria species": [
+    [
+      "",
+      "Turbina corymbosa"
+    ]
+  ],
+  "Turbina corymbosa": [
+    [
+      "",
+      "Virola species"
+    ]
+  ],
+  "Virola species": [
+    [
+      "",
+      "Trichocereus species"
+    ]
+  ],
+  "Trichocereus species": [
+    [
+      "",
+      "DOx"
+    ]
+  ],
+  "DOx": [
+    [
+      "",
+      "DOI"
+    ]
+  ],
+  "DOI": [
+    [
+      "",
+      "25I-NBOMe"
+    ]
+  ],
+  "25I-NBOMe": [
+    [
+      "",
+      "NBOMes"
+    ]
+  ],
+  "NBOMes": [
+    [
+      "",
+      "Benzodiazipines"
+    ]
+  ],
+  "Benzodiazipines": [
+    [
+      "",
+      "Alprazolam"
+    ]
+  ],
+  "Alprazolam": [
+    [
+      "",
+      "Diazepam"
+    ]
+  ],
+  "Diazepam": [
+    [
+      "",
+      "GBL"
+    ]
+  ],
+  "GBL": [
+    [
+      "",
+      "GHB"
+    ]
+  ],
+  "GHB": [
+    [
+      "",
+      "Alcohol"
+    ]
+  ],
+  "Alcohol": [
+    [
+      "",
+      "Amanita muscaria"
+    ]
+  ],
+  "Amanita muscaria": [
+    [
+      "",
+      "Bufotenine"
+    ]
+  ],
+  "Bufotenine": [
+    [
+      "",
+      "Anadenanthera species"
+    ]
+  ],
+  "Anadenanthera species": [
+    [
+      "",
+      "5-MeO-xxT"
+    ]
+  ],
+  "5-MeO-xxT": [
+    [
+      "",
+      "5-MeO-DMT"
+    ]
+  ],
+  "5-MeO-DMT": [
+    [
+      "",
+      "Incillius alvarius"
+    ]
+  ],
+  "Incillius alvarius": [
+    [
+      "",
+      "Phalaris species"
+    ]
+  ],
+  "Phalaris species": [
+    [
+      "",
+      "Phyllomedusa bicolor"
+    ]
+  ],
+  "Phyllomedusa bicolor": [
+    [
+      "",
+      "Tramadol"
+    ]
+  ],
+  "Tramadol": [
+    [
+      "",
+      "Mitragynine"
+    ]
+  ],
+  "Mitragynine": [
+    [
+      "",
+      "Mitragyna speciosa"
+    ]
+  ],
+  "Mitragyna speciosa": [
+    [
+      "",
+      "Opioids"
+    ]
+  ],
+  "Opioids": [
+    [
+      "",
+      "Codeine"
+    ]
+  ],
+  "Codeine": [
+    [
+      "",
+      "Heroin"
+    ]
+  ],
+  "Heroin": [
+    [
+      "",
+      "Papaver species"
+    ]
+  ],
+  "Papaver species": [
+    [
+      "",
+      "Nitrous oxide"
+    ]
+  ],
+  "Nitrous oxide": [
+    [
+      "",
+      "MXE"
+    ]
+  ],
+  "MXE": [
+    [
+      "",
+      "DXM"
+    ]
+  ],
+  "DXM": [
+    [
+      "",
+      "Ketamine"
+    ]
+  ],
+  "Ketamine": [
+    [
+      "",
+      "Cannabis species"
+    ]
+  ],
+  "Cannabis species": [
+    [
+      "",
+      "Arecoline"
+    ]
+  ],
+  "Arecoline": [
+    [
+      "",
+      "Areca catechu"
+    ]
+  ],
+  "Areca catechu": [
+    [
+      "",
+      "Caffeine"
+    ]
+  ],
+  "Caffeine": [
+    [
+      "",
+      "Camellia sinensis"
+    ]
+  ],
+  "Camellia sinensis": [
+    [
+      "",
+      "Coffea species"
+    ]
+  ],
+  "Coffea species": [
+    [
+      "",
+      "Cola species"
+    ]
+  ],
+  "Cola species": [
+    [
+      "",
+      "Duboisia hopwoodii"
+    ]
+  ],
+  "Duboisia hopwoodii": [
+    [
+      "",
+      "Ilex paraguariensis"
+    ]
+  ],
+  "Ilex paraguariensis": [
+    [
+      "",
+      "Nicotine"
+    ]
+  ],
+  "Nicotine": [
+    [
+      "",
+      "Nicotiana species"
+    ]
+  ],
+  "Nicotiana species": [
+    [
+      "",
+      "Mesembrine"
+    ]
+  ],
+  "Mesembrine": [
+    [
+      "",
+      "Sceletium species"
+    ]
+  ],
+  "Sceletium species": [
+    [
+      "",
+      "Eugenol"
+    ]
+  ],
+  "Eugenol": [
+    [
+      "",
+      "Piper betle"
+    ]
+  ],
+  "Piper betle": [
+    [
+      "",
+      "MDMA"
+    ]
+  ],
+  "MDMA": [
+    [
+      "",
+      "MDA"
+    ]
+  ],
+  "MDA": [
+    [
+      "",
+      "Safrole"
+    ]
+  ],
+  "Safrole": [
+    [
+      "",
+      "Sassafras species"
+    ]
+  ],
+  "Sassafras species": [
+    [
+      "",
+      "Myristicin"
+    ]
+  ],
+  "Myristicin": [
+    [
+      "",
+      "Myristica species"
+    ]
+  ],
+  "Myristica species": [
+    [
+      "",
+      "SSRIs"
+    ]
+  ],
+  "SSRIs": [
+    [
+      "",
+      "MAOIs"
+    ]
+  ],
+  "MAOIs": [
+    [
+      "",
+      "Harmalas"
+    ]
+  ],
+  "Harmalas": [
+    [
+      "",
+      "Harmaline"
+    ]
+  ],
+  "Harmaline": [
+    [
+      "",
+      "Harmine"
+    ]
+  ],
+  "Harmine": [
+    [
+      "",
+      "Banisteriopsis caapi"
+    ]
+  ],
+  "Banisteriopsis caapi": [
+    [
+      "",
+      "Peganum harmala"
+    ]
+  ],
+  "Peganum harmala": [
+    [
+      "",
+      "Passiflora species"
+    ]
+  ],
+  "Passiflora species": [
+    [
+      "",
+      "Kavalactones"
+    ]
+  ],
+  "Kavalactones": [
+    [
+      "",
+      "Piper methysticum"
+    ]
+  ],
+  "Piper methysticum": [
+    [
+      "",
+      "Methcathinone"
+    ]
+  ],
+  "Methcathinone": [
+    [
+      "",
+      "Mephedrone"
+    ]
+  ],
+  "Mephedrone": [
+    [
+      "",
+      "Cathinones"
+    ]
+  ],
+  "Cathinones": [
+    [
+      "",
+      "Catha edulis"
+    ]
+  ],
+  "Catha edulis": [
+    [
+      "",
+      "Methamphetamine"
+    ]
+  ],
+  "Methamphetamine": [
+    [
+      "",
+      "Amphetamines"
+    ]
+  ],
+  "Amphetamines": [
+    [
+      "",
+      "Ephedrine"
+    ]
+  ],
+  "Ephedrine": [
+    [
+      "",
+      "Ephedra species"
+    ]
+  ],
+  "Ephedra species": [
+    [
+      "",
+      "Cocaine"
+    ]
+  ],
+  "Cocaine": [
+    [
+      "",
+      "Erythroxylum species"
+    ]
+  ],
+  "Erythroxylum species": [
+    [
+      "",
+      "Levodopa"
+    ]
+  ],
+  "Levodopa": [
+    [
+      "",
+      "Mucuna pruriens"
+    ]
+  ],
+  "Mucuna pruriens": [
+    [
+      "",
+      "Ibogaine"
+    ]
+  ],
+  "Ibogaine": [
+    [
+      "",
+      "Tabernanthe iboga"
+    ]
+  ],
+  "Tabernanthe iboga": [
+    [
+      "",
+      "Tropanes"
+    ]
+  ],
+  "Tropanes": [
+    [
+      "",
+      "Hyoscyamine"
+    ]
+  ],
+  "Hyoscyamine": [
+    [
+      "",
+      "Scopolamine"
+    ]
+  ],
+  "Scopolamine": [
+    [
+      "",
+      "Brugmansia species"
+    ]
+  ],
+  "Brugmansia species": [
+    [
+      "",
+      "Datura species"
+    ]
+  ],
+  "Datura species": [],
+  "Low confidence": [
+    [
+      "LC",
+      "Metformin"
+    ]
+  ],
+  "Medium confience": [
+    [
+      "MC",
+      "Metformin"
+    ]
+  ],
+  "High confidence": [
+    [
+      "HC",
+      "Metformin"
+    ]
+  ]
+}
