@@ -1,7 +1,7 @@
 import * as fs from "fs";
 
 function main() {
-  const tsv = fs.readFileSync("./tsv/risks-full.tsv", "utf8").trim().split("\n").map(line => line.split("\t"));
+  const tsv = fs.readFileSync("./tsv/conf-full.tsv", "utf8").trim().split("\n").map(line => line.split("\t"));
 
   // First row and first column are headers
   const drugs = tsv[0].slice(1).map(s => s.trim());
@@ -29,7 +29,7 @@ function main() {
     ...riskPairs
   };
 
-  fs.writeFileSync("./public/risks.json", JSON.stringify(result, null, 2));
+  fs.writeFileSync("./public/conf.json", JSON.stringify(result, null, 2));
   console.log("Done! risks.json written.");
 }
 
