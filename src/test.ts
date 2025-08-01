@@ -8,6 +8,7 @@ let main = async function () {
   const psychs = [];
   drugs.map((drugrow) => {
     let slug = linkify(drugrow);
+    console.debug(slug);
     psychs.push(`${slug}.mdx`);
   });
   const errors = [];
