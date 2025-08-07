@@ -32,7 +32,7 @@
     "sharp": "^0.34.3",
     "tailwindcss": "4.1.11",
     "typescript": "^5.9.2",
-    "yaml": "^2.8.0"
+    "yaml": "^2.8.1"
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.16",
