@@ -20,6 +20,11 @@ import Icon from "heroicons-astro/Heroicon.astro";
 import { combo, risk, linkify, risk_to_bg } from '@src/util';
 import Chart from '@src/components/chart.astro';
 import "@src/styles/global.css";
+
+let family_copy = `${entry.data.title} is not just one drug; ${entry.data.title} is a group of drugs. Drugs in this group include ${entry.data.family_members.join(', ')}. Drugs within the same group can have very different dosages and very different effects.`
+if (entry.data.title.toLowerCase().endsWith('species')) {
+  family_copy = `${entry.data.title} is not just one species; ${entry.data.title} is a group of species. Species in this group include ${entry.data.family_members.join(', ')}. Species within the same group can have very different dosages and very different effects.`
+}
 ---
 <BaseLayout pageTitle={entry.data.title} metaDescription={`Psychoactives information. This is the page for harm reduction to learn about safety risks for ${entry.data.title}, ${(entry.data.family_members||[]).concat(entry.data.aka||[]).join(', ')}`}>
 
@@ -34,7 +39,7 @@ import "@src/styles/global.css";
 
     </figure>
     {entry.data.family_members &&
-    <p>{entry.data.title} is not just one drug; {entry.data.title} is a group of drugs. Drugs in this group include {entry.data.family_members.join(', ')}. Drugs within the same group can have very different dosages and very different effects.</p>
+    <p>{family_copy}</p>
   }
 
     {entry.data.aka && <h2>Commonly known as: </h2>
