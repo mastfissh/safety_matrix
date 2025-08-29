@@ -26,6 +26,7 @@ const psychoactivesCollection = defineCollection({
       strong: z.string(),
       heavy: z.string(),
     }),
+    warnings: z.string().optional()
   })
 });
 
