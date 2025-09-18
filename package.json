@@ -31,7 +31,7 @@
     "luxon": "^3.7.1",
     "preact": "^10.27.1",
     "sharp": "^0.34.3",
-    "tailwindcss": "4.1.12",
+    "tailwindcss": "4.1.13",
     "typescript": "^5.9.2",
     "yaml": "^2.8.1"
   },
