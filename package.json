@@ -19,7 +19,7 @@
     "@astrojs/preact": "^4.1.0",
     "@astrojs/sitemap": "^3.5.0",
     "@astrojs/ts-plugin": "^1.10.4",
-    "@tailwindcss/vite": "^4.1.12",
+    "@tailwindcss/vite": "^4.1.13",
     "astro": "^5.13.8",
     "astro-compress": "^2.3.8",
     "chart.js": "^4.5.0",
