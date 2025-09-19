@@ -3,7 +3,7 @@ import { defineCollection, z } from "astro:content";
 const psychoactivesCollection = defineCollection({
   schema: ({ image }) => z.object({
     title: z.string(),
-    image_caption: z.string(),
+    image_caption: z.string().optional(),
     image_location: image(),
     aka: z.array(z.string()).optional(),
     family_members: z.array(z.string()).optional(),
@@ -26,6 +26,7 @@ const psychoactivesCollection = defineCollection({
       strong: z.string(),
       heavy: z.string(),
     }),
+    warnings: z.string().optional()
   })
 });
 

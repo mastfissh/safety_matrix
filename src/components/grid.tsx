@@ -44,6 +44,9 @@ function search(
   for (let slug of slugs) {
     if (!chosen.includes(slug) || query != "") {
       let datum = data[slug];
+      if (!datum){
+        throw `missing: ${slug}`
+      }
       datum["terms"] = [datum.title]
         .concat(datum.family_members || [])
         .concat(datum.aka || [])
