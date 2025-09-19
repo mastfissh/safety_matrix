@@ -29,7 +29,7 @@
     "heroicons-astro": "^1.0.4",
     "luxon": "^3.7.1",
     "preact": "^10.27.2",
-    "sharp": "^0.34.3",
+    "sharp": "^0.34.4",
     "tailwindcss": "4.1.13",
     "typescript": "^5.9.2",
     "yaml": "^2.8.1"
