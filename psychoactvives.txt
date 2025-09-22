@@ -1,0 +1,1781 @@
+Metformin
+---
+title: Metformin
+aka:
+- Metformin hydrochloride
+duration_chart_title: Oral Duration of Metformin
+duration_chart:
+total: 6–12h
+onset: 1–2h
+coming_up: 2–3h
+plateau: 3–6h
+coming_down: 2–4h
+positive_effects: lowered blood glucose, improved insulin sensitivity, improved lipid
+profile, reduced hepatic glucose production
+negative_effects: nausea, stomach cramps, diarrhea, metallic taste, lactic acidosis
+(in overdose or renal impairment)
+neutral_effects: fatigue, flatulence, reduction in appetite
+dosage_table:
+title: Oral Dosage of Metformin
+threshold: 250 mg
+light: 250–500 mg
+common: 500–1000 mg
+strong: 1000–2000 mg
+heavy: 2000+ mg
+---
+
+Antibiotics
+---
+title: Antibiotics
+aka:
+- bug killer
+family_members:
+- Penicillins (e.g. amoxicillin)
+
+- Cephalosporins (e.g. cefalexin)
+- Macrolides (e.g. erythromycin)
+- Tetracyclines (e.g. doxycycline)
+- Fluoroquinolones (e.g. ciprofloxacin)
+- Sulfonamides (e.g. trimethoprim-sulfamethoxazole)
+- Nitroimidazoles (e.g. metronidazole)
+- Aminoglycosides (e.g. gentamicin)
+duration_chart_title: Oral Duration of Amoxicillin
+duration_chart:
+total: 6–8h
+onset: 30–60m
+coming_up: 1–2h
+plateau: 2–4h
+coming_down: 2h
+positive_effects: resolution of bacterial infection, reduced inflammation, restored
+immune function
+negative_effects: nausea, diarrhea, antibiotic-associated colitis, dizziness,
+neurotoxicity (in high doses or susceptible individuals), rash, serotonin syndrome
+(rare; mainly with linezolid), psychosis (fluoroquinolones, rarely)
+neutral_effects: changes in gut flora, fatigue, altered bowel function
+dosage_table:
+title: Oral Dosage of Amoxicillin
+threshold: 125 mg
+light: 250–500 mg
+common: 500–1000 mg
+strong: 1000–1500 mg
+heavy: 1500+ mg
+---
+Proton pump inhibitors
+---
+title: Proton Pump Inhibitors
+aka:
+- PPIs
+family_members:
+- Omeprazole
+- Esomeprazole
+- Lansoprazole
+- Pantoprazole
+- Rabeprazole
+- Dexlansoprazole
+duration_chart_title: Oral Duration of Omeprazole
+
+duration_chart:
+total: 18–24h
+onset: 1–3h
+coming_up: 2–4h
+plateau: 6–12h
+coming_down: 6–8h
+positive_effects: reduced stomach acid, reflux relief, ulcer healing
+negative_effects: headache, dizziness, gut microbiota disruption, anxiety, B12
+deficiency, infection risk
+neutral_effects: dry mouth, altered taste, digestive changes, fatigue
+dosage_table:
+title: Oral Dosage of Omeprazole
+threshold: 5 mg
+light: 10–20 mg
+common: 20–40 mg
+strong: 40–60 mg
+heavy: 60+ mg
+---
+
+Ibuprofen
+---
+title: Ibuprofen
+aka:
+- (±)-2-(4-isobutylphenyl)propionic acid
+duration_chart_title: Oral Duration of Ibuprofen
+duration_chart:
+total: 4–8h
+onset: 30–60m
+coming_up: 1–2h
+plateau: 2–4h
+coming_down: 1–2h
+positive_effects: pain relief, reduced inflammation, lowered fever, decreased muscle
+soreness
+negative_effects: stomach irritation, nausea, dizziness, bleeding risk, kidney strain,
+cardiovascular risk
+neutral_effects: dry mouth, fatigue
+dosage_table:
+title: Oral Dosage of Ibuprofen
+threshold: 100 mg
+light: 200–400 mg
+common: 400–600 mg
+strong: 600–800 mg
+
+heavy: 800+ mg
+---
+
+Paracetemol
+---
+Title: Paracetamol
+aka:
+- acetaminophen
+duration_chart_title: Oral Duration of Paracetamol
+duration_chart:
+total: 4–6h
+onset: 30–60m
+coming_up: 1–2h
+plateau: 2–4h
+coming_down: 1–2h
+positive_effects: pain relief, reduced fever, increased comfort during illness
+negative_effects: liver toxicity and disorientation (high doses), nausea, skin rash,
+neutral_effects: N/A
+dosage_table:
+title: Oral Dosage of Paracetamol
+threshold: 250 mg
+light: 500–1000 mg
+common: 1000–1500 mg
+strong: 1500–2000 mg
+heavy: 2000+ mg
+---
+
+Beta blockers
+---
+title: Beta Blockers
+aka:
+- beta-adrenergic blocking agents
+family_members:
+- Propranolol
+- Atenolol
+- Metoprolol
+- Bisoprolol
+- Carvedilol
+- Nadolol
+
+duration_chart_title: Oral Duration of Propranolol
+duration_chart:
+total: 6–12h
+onset: 1–2h
+coming_up: 2–3h
+plateau: 3–6h
+coming_down: 2–4h
+positive_effects: reduced heart rate, decreased anxiety, lowered blood pressure
+negative_effects: fatigue, dizziness, shortness of breath, cold extremities, emotional
+blunting, sleep disturbances
+neutral_effects: reduced arousal, slowed reaction time, lowered exercise tolerance
+dosage_table:
+title: Oral Dosage of Propranolol
+threshold: 5 mg
+light: 10–20 mg
+common: 20–40 mg
+strong: 40–80 mg
+heavy: 80+ mg
+---
+
+ACE Inhibitors / ARBs
+---
+title: ACE Inhibitors / ARBs
+aka:
+- renin–angiotensin system blockers
+- RAS inhibitors
+family_members:
+- Enalapril (ACE inhibitor)
+- Lisinopril (ACE inhibitor)
+- Ramipril (ACE inhibitor)
+- Captopril (ACE inhibitor)
+- Losartan (ARB)
+- Valsartan (ARB)
+- Irbesartan (ARB)
+- Candesartan (ARB)
+duration_chart_title: Oral Duration of Lisinopril
+duration_chart:
+total: 12–24h
+onset: 1–2h
+coming_up: 2–4h
+plateau: 6–12h
+coming_down: 4–6h
+
+positive_effects: reduced blood pressure, improved cardiovascular function, renal
+protection, relaxation
+negative_effects: dry cough (ACE inhibitors), dizziness, fatigue, hyperkalemia,
+hypotension, mood changes
+neutral_effects: reduced physical arousal, altered thirst or salt cravings
+dosage_table:
+title: Oral Dosage of Lisinopril
+threshold: 2.5 mg
+light: 5–10 mg
+common: 10–20 mg
+strong: 20–40 mg
+heavy: 40+ mg
+---
+Statins
+---
+title: Statins
+aka:
+- HMG-CoA reductase inhibitors
+family_members:
+- Atorvastatin
+- Simvastatin
+- Rosuvastatin
+- Pravastatin
+- Lovastatin
+- Fluvastatin
+- Pitavastatin
+duration_chart_title: Oral Duration of Atorvastatin
+duration_chart:
+total: 20–30h
+onset: 1–2h
+coming_up: 2–6h
+plateau: 6–24h
+coming_down: 4–6h
+positive_effects: lowered LDL cholesterol, reduced cardiovascular risk, improved
+endothelial function, mild anti-inflammatory effects
+negative_effects: myopathy, fatigue, liver enzyme elevation, sleep disturbances,
+cognitive fog, mood
+neutral_effects: little to no perceptual change
+dosage_table:
+title: Oral Dosage of Atorvastatin
+threshold: 5 mg
+light: 10–20 mg
+
+common: 20–40 mg
+strong: 40–60 mg
+heavy: 80+ mg
+---
+Salvinorin A
+---
+title: Salvinorin A
+
+duration_chart_title: Smoked Duration of Salvinorin A
+duration_chart:
+total: 30–60 m
+onset: 45s
+coming_up: 90s
+plateau: 390s
+coming_down: 25m
+positive_effects: euphoria, empathy, stimulation
+negative_effects: nausea, muscle tension, confusion, anxiety
+neutral_effects: visuals
+dosage_table:
+title: Smoked Dosage of Salvinorin A
+threshold: 0.1 mg
+light: 0.2 mg
+common: 0.3 mg
+strong: 0.4 mg
+heavy: 0.5+ mg
+---
+Ergine
+---
+title: Ergine
+aka:
+- LSA
+- d-lysergic acid amide
+- lysergamide
+duration_chart_title: Oral Duration of Ergine
+duration_chart:
+total: 5–8 h
+onset: 30m
+coming_up: 45m
+plateau: 5h
+coming_down: 90m
+
+positive_effects: euphoria, empathy, stimulation
+negative_effects: nausea, muscle tension, confusion, anxiety
+neutral_effects: visuals
+dosage_table:
+title: Oral Dosage of Ergine
+threshold: 0.25 mg
+light: 0.75 mg
+common: 1.5 mg
+strong: 2 mg
+heavy: 2.5+ mg
+---
+
+Diplopterys species
+---
+title: Diplopterys species
+aka:
+- Chaliponga
+- Chagropanga
+- Oco-yagé
+family_members:
+- Diplopterys cabrerana
+- Diplopterys longialata
+- Diplopterys involuta
+duration_chart_title: Oral Duration of Diplopterys cabrerana (with MAOI)
+duration_chart:
+total: 2–10 h
+onset: 20–60m
+coming_up: 30–60m
+plateau: 1–2h
+coming_down: 1–2h
+positive_effects: euphoria, empathy, stimulation
+negative_effects: nausea, muscle tension, confusion, anxiety
+neutral_effects: visuals
+dosage_table:
+title: Oral Dosage of dried Diplopterys cabrerana leaf (with MAOI)
+threshold: 300 mg
+light: 1.6 g
+common: 3.3 g
+strong: 6.6 g
+heavy: 10+ g
+
+---
+
+Gymopilus species
+---
+title: Gymnopilus species
+aka:
+- magic gym
+- laughing gym
+- owaraitake
+family_members:
+- Gymnopilus purpuratus
+- Gymnopilus junonius
+- Gymnopilus aeruginosus
+- Gymnopilus luteofolius
+- Gymnopilus luteus
+- Gymnopilus subpurpuratus
+- Gymnopilus braendlei
+- Gymnopilus intermedius
+- Gymnopilus luteoviridis
+- Gymnopilus validipes
+- Gymnopilus viridians
+duration_chart_title: Oral Duration of Gymnopilus purpuratus
+duration_chart:
+total: 4–6 h
+onset: 30m
+coming_up: 2h
+plateau: 2.5h
+coming_down: 90m
+positive_effects: euphoria, empathy, stimulation
+neutral_effects: visuals
+negative_effects: nausea, muscle tension, confusion, anxiety
+dosage_table:
+title: Oral Dosage of Dried Gymnopilus purpuratus
+threshold: 300 mg
+light: 800 mg
+common: 3 g
+strong: 8 g
+heavy: 16+ g
+---
+
+Psychotria species
+
+---
+title: Psychotria species
+aka:
+- chacruna
+- yagé
+- samiruka
+- rani appani
+family_members:
+- Psychotria viridis
+- Psychotria carthagenensis
+duration_chart_title: Oral Duration of Psychotria viridis (with MAOI)
+duration_chart:
+total: 4–6 h
+onset: 30m
+coming_up: 2h
+plateau: 2.5h
+coming_down: 90m
+positive_effects: euphoria, empathy, stimulation
+neutral_effects: visuals
+negative_effects: nausea, muscle tension, confusion, anxiety
+dosage_table:
+title: Oral Dosage of Dried Psychotria viridis Leaf (with MAOI)
+threshold: 400 mg
+light: 2 g
+common: 4 g
+strong: 8 g
+heavy: 12+ g
+---
+Virola species
+---
+title: Virola
+aka:
+- epeña
+- oo-koo-na
+- paricá
+- nyakwana
+family_members:
+- Virola theiodora
+- Virola rufula
+- Virola calophylla
+- Virola elongata
+
+- Virola calophylloidea
+duration_chart_title: Insufflated Duration of Virola theiodora
+duration_chart:
+total: 1–3 h
+onset: 1–10m
+coming_up: 5–10m
+plateau: 10–40m
+coming_down: 30–60m
+positive_effects: euphoria, empathy, stimulation
+neutral_effects: visuals
+negative_effects: nausea, muscle tension, confusion, anxiety
+dosage_table:
+title: Insufflated Dosage of Dried Virola theiodora Bark Resin
+threshold: 300 mg
+light: 500 mg
+common: 800 mg
+strong: 1.5 g
+heavy: 2.5+ g
+---
+
+Anadenanthera species
+---
+title: Anadenanthera species
+aka:
+- yopo
+- nopo
+- cebil
+- vilca
+- huilca
+- angico
+family_members:
+- Anadenanthera colubrina
+- Anadenanthera peregrina
+duration_chart_title: Insufflated Duration of Anadenanthera colubrina
+duration_chart:
+total: 1–10 min
+onset: 15–60s
+coming_up: 1–3m
+plateau: 1–5m
+coming_down: 5–10m
+after_effects: 10–60m
+
+positive_effects: euphoria, empathy, stimulation
+neutral_effects: visuals
+negative_effects: nausea, muscle tension, confusion, anxiety
+dosage_table:
+title: Insufflated Dosage of Dried Anadenanthera colubrina Seed
+threshold: 100 mg
+light: 250 mg
+common: 1 g
+strong: 2 g
+heavy: 3+ g
+---
+
+Areca catechu
+---
+title: Areca catechu
+aka:
+- areca nut
+- betel nut
+- pinang
+- bin lang
+- paan
+- chali
+- puwa
+duration_chart_title: Chewed Duration of Areca catechu
+duration_chart:
+total: 6–30m
+onset: 30s–2m
+coming_up: 2–6m
+plateau: 6–30m
+coming_down: 2–6m
+after_effects: 15–30m
+positive_effects: stimulation, enhanced focus
+neutral_effects: increased saliva, increased digestion, sweating
+negative_effects: nausea, dizziness
+dosage_table:
+title: Chewed Dosage of Dried Areca catechu Nut
+threshold: 0.5 g
+light: 1.25 g
+common: 2.5 g
+strong: 3.75 g
+heavy: 6.25+ g
+---
+
+Camellia species
+---
+title: Camellia species
+aka:
+- tea
+- cha
+- chai
+family_members:
+- Camellia sinensis
+- Camellia assamica
+- Camellia irrawadiensis
+- Camellia ptilophylla
+- Camellia taliensis
+duration_chart_title: Oral Duration of Camellia sinensis
+duration_chart:
+total: 6–10 h
+onset: 5–10m
+coming_up: 10–60m
+plateau: 1–2h
+coming_down: 2–4h
+after_effects: 2–4h
+positive_effects: focus, stamina, alertness
+neutral_effects: digestive discomfort, jitteriness
+negative_effects: nausea, anxiety, insomnia
+dosage_table:
+title: Oral Dosage of Dried Camellia sinensis Leaf
+threshold: 500 mg
+light: 2.5 g
+common: 7.5 g
+strong: 12.5 g
+heavy: 20+ g
+---
+
+Coffea species
+---
+title: Coffea species
+aka:
+- coffee
+- espresso
+
+- java
+- qahwah
+family_members:
+- Coffea arabica
+- Coffea canephora (C. robusta)
+- Coffea liberica
+- Coffea racemosa
+duration_chart_title: Oral Duration of Coffea arabica
+duration_chart:
+total: 6–10 h
+onset: 5–10m
+coming_up: 10–60m
+plateau: 1–2h
+coming_down: 2–4h
+after_effects: 2–4h
+positive_effects: focus, stamina, alertness
+neutral_effects: digestive discomfort, jitteriness
+negative_effects: nausea, anxiety, insomnia
+dosage_table:
+title: Oral Dosage of Dried Coffea arabica Bean
+threshold: 500 mg
+light: 2.5 g
+common: 7.5 g
+strong: 12.5 g
+heavy: 20+ g
+---
+
+Cola species
+---
+title: Cola species
+aka:
+- kola
+- kola nut
+family_members:
+- Cola acuminata
+- Cola anomala
+- Cola ballayi
+- Cola cordifolia
+- Cola nitida
+- Cola verticillata
+duration_chart_title: Chewed Duration of Cola acuminata
+
+duration_chart:
+total: 6–24 h
+onset: 30–120 s
+coming_up: 30–120 s
+plateau: 30–60 min
+coming_down: 6–10 h
+after_effects: 6–24 h
+positive_effects: focus, stamina, alertness
+neutral_effects: digestive discomfort, jitteriness
+negative_effects: nausea, anxiety, insomnia
+dosage_table:
+title: Chewed Dosage of Dried Cola acuminata Nut
+threshold: 400 mg
+light: 2 g
+common: 6 g
+strong: 10 g
+heavy: 16+ g
+---
+Ilex paraguensis
+---
+title: Ilex paraguariensis
+aka:
+- yerba maté
+- maté
+- Paraguay tea
+- Jesuit tea
+duration_chart_title: Oral Duration of Ilex paraguariensis
+duration_chart:
+total: 6–10 h
+onset: 5–10 minutes
+coming_up: 10–60 minutes
+plateau: 1–2 hours
+coming_down: 6–10 hours
+after_effects: 2–4 hours
+positive_effects: focus, stamina, alertness
+neutral_effects: digestive discomfort, jitteriness
+negative_effects: nausea, anxiety, insomnia
+dosage_table:
+title: Oral Dosage of Dried Ilex paraguariensis Leaf
+threshold: 800 mg
+light: 4 g
+common: 12 g
+
+strong: 20 g
+heavy: 32+ g
+---
+
+Nicotiana species
+---
+title: Nicotiana species
+aka:
+- tobacco
+- mapacho
+family_members:
+- Nicotiana tabacum
+- Nicotiana rustica
+- Nicotiana gossei
+- Nicotiana glauca
+- Nicotiana paniculata
+duration_chart_title: Smoked Duration of Nicotiana tabacum
+duration_chart:
+total: 1–2 hours
+onset: 3–15 minutes
+coming_up: 3–15 minutes
+plateau: 5–20 minutes
+coming_down: 1–2 hours
+after_effects: 2–6 hours
+positive_effects: mild stimulation, enhanced focus
+neutral_effects: increased saliva/digestion, sweating
+negative_effects: nausea, dizziness
+dosage_table:
+title: Smoked Dosage of Dried Nicotiana tabacum Leaf
+threshold: 60 mg
+light: 100 mg
+common: 250 mg
+strong: 500 mg
+heavy: 1.3+ g
+---
+
+Duboisia hopwoodii
+---
+title: Duboisia hopwoodii
+aka:
+
+- pituri
+- mingkulpa
+- emu plant
+- poison bush
+- corkwood
+duration_chart_title: Chewed Duration of Duboisia hopwoodii
+duration_chart:
+total: 3–6 hours
+onset: 2–15 minutes
+coming_up: 15–30 minutes
+plateau: 60–120 minutes
+coming_down: 30–60 minutes
+after_effects: 3–6 hours
+positive_effects: mild stimulation, enhanced focus
+neutral_effects: increased saliva/digestion, sweating
+negative_effects: nausea, dizziness
+dosage_table:
+title: Chewed Dosage of Dried Duboisia hopwoodii Leaf
+threshold: 11 mg
+light: 55 mg
+common: 160 mg
+strong: 270 mg
+heavy: 380+ mg
+---
+Sceletium species
+---
+title: Sceletium species
+aka:
+- kanna
+- kougoed
+family_members:
+- Sceletium tortuosum
+- Sceletium anatomicum
+- Sceletium expansum
+- Sceletium strictum
+duration_chart_title: Oral Duration of Sceletium tortuosum
+duration_chart:
+total: 4–6 hours
+onset: 15–60 minutes
+coming_up: 30–90 minutes
+plateau: 1–2 hours
+coming_down: 2–5 hours
+
+after_effects: 4–6 hours
+positive_effects: mood lift, increased energy, feelings of connection, sensory
+appreciation
+neutral_effects: appetite suppression, disinhibition
+negative_effects: increased heart rate, muscle tension
+dosage_table:
+title: Oral Dosage of Dried Sceletium tortuosum Leaf
+threshold: 50 mg
+light: 500 mg
+common: 750 mg
+strong: 1.5 g
+heavy: 2+ g
+---
+Piper betle
+---
+title: Piper betle
+aka:
+- betel
+- paan
+- tamboli
+family_members:
+- Piper betle
+- Piper auritum
+- Piper sarmentosum
+duration_chart_title: Chewed Duration of Piper betle
+duration_chart:
+total: 15–30 minutes
+onset: 2–5 minutes
+coming_up: 5–10 minutes
+plateau: 10–20 minutes
+coming_down: 5–10 minutes
+after_effects: 15–30 minutes
+positive_effects: mood lift, increased energy, feelings of connection, sensory
+appreciation
+neutral_effects: appetite suppression, disinhibition
+negative_effects: increased heart rate, muscle tension
+dosage_table:
+title: Chewed Dosage of Fresh Piper betle Leaf
+threshold: 160 mg
+light: 800 mg
+common: 1.6 g
+
+strong: 3 g
+heavy: 5+ g
+---
+
+Sassafras albidum
+---
+title: Sassafras albidum
+aka:
+- sass
+- fennel wood
+duration_chart_title: Oral Duration of Sassafras albidum
+duration_chart:
+total: 3–5 hours
+onset: 1–3 hours
+coming_up: 2–4 hours
+plateau: 4–8 hours
+coming_down: 2–4 hours
+after_effects: 3–5 hours
+positive_effects: mood lift, increased energy, feelings of connection, sensory
+appreciation
+neutral_effects: appetite suppression, disinhibition
+negative_effects: increased heart rate, muscle tension
+dosage_table:
+title: Oral Dosage of Dried Sassafras albidum Root
+threshold: 2 g
+light: 4 g
+common: 8 g
+strong: 12.5 g
+heavy: 20+ g
+---
+
+Myristica fragrans
+---
+title: Myristica species
+aka:
+- nutmeg
+- pala
+- jai patri
+family_members:
+
+- Myristica fragrans
+- Myristica succedanea
+duration_chart_title: Oral Duration of Myristica fragrans
+duration_chart:
+total: 1–3 days
+onset: 3–8 hours
+coming_up: 1–4 hours
+plateau: 9–12 hours
+coming_down: 12–48 hours
+after_effects: 1–3 days
+positive_effects: mood lift, increased energy, feelings of connection, sensory
+appreciation
+neutral_effects: appetite suppression, disinhibition
+negative_effects: increased heart rate, muscle tension, dangerous combinations,
+unpredictable or dangerous behaviour
+dosage_table:
+title: Oral Dosage of Dried Myristica fragrans Seed
+threshold: 25 mg
+light: 50 mg
+common: 200 mg
+strong: 500 mg
+heavy: 1+ g
+---
+
+Peganum harmala
+title: Peganum harmala
+aka:
+- rue
+- harmel
+- esfand
+duration_chart_title: Oral Duration of Peganum harmala
+duration_chart:
+total: 4–8 hours
+onset: 30–60 minutes
+coming_up: 60–150 minutes
+plateau: 90–150 minutes
+coming_down: 1–2 hours
+after_effects: 4–8 hours
+positive_effects: relaxation
+neutral_effects: sedation, increased duration of psychedelic effects
+negative_effects: nausea, dangerous combinations
+
+dosage_table:
+title: Oral Dosage of Dried Peganum harmala Seed
+threshold: 200 mg
+light: 500 mg
+common: 2 g
+strong: 4 g
+heavy: 6+ g
+---
+
+Passiflora incarnata
+---
+title: Passiflora species
+aka:
+- maypop
+- purple passionflower
+- maracuja
+- granadilla
+family_members:
+- Passiflora incarnata
+- Passiflora involucrata
+- Passiflora alata
+- Passiflora eichleriana
+duration_chart_title: Oral Duration of Passiflora incarnata
+duration_chart:
+total: 4–8 hours
+onset: 30–60 minutes
+coming_up: 60–150 minutes
+plateau: 90–150 minutes
+coming_down: 1–2 hours
+after_effects: 4–8 hours
+positive_effects: relaxation
+neutral_effects: sedation, increased duration of psychedelic effects
+negative_effects: nausea, dangerous combinations
+dosage_table:
+title: Oral Dosage of Dried Passiflora incarnata Leaf
+threshold: 200 g
+light: 500 g
+common: 700 g
+strong: 1 kg
+heavy: 1.5+ kg
+---
+
+Mucuna pruriens
+---
+title: Mucuna pruriens
+aka:
+- velvet bean
+- itching bean
+- cowhage
+duration_chart_title: Oral Duration of Mucuna pruriens
+duration_chart:
+total: 1–2 hours
+onset: 10–45 minutes
+coming_up: 45–75 minutes
+plateau: 1–3 hours
+coming_down: 1–2 hours
+after_effects: 1–2 hours
+positive_effects: euphoria, stimulation, increased sociability
+neutral_effects: decreased appetite, muscle tension
+negative_effects: increased heart rate, anxiety, insomnia
+dosage_table:
+title: Oral Dosage of Dried Mucuna pruriens Beans
+threshold: 500 mg
+light: 1 g
+common: 3 g
+strong: 6 g
+heavy: 12+ g
+---
+
+Brugmansia species
+---
+title: Brugmansia species
+aka:
+- angel’s trumpet
+family_members:
+- Brugmansia × candida
+- Brugmansia suaveolens
+- Brugmansia versicolor
+- Brugmansia sanguinea
+- Brugmansia arborea
+duration_chart_title: Smoked Duration of Brugmansia × candida
+
+duration_chart:
+total: 2–6 hours
+onset: 30 seconds – 2 minutes
+coming_up: 2–5 minutes
+plateau: 10–30 minutes
+coming_down: 30–60 minutes
+after_effects: 2–6 hours
+positive_effects: surreal experiences, hallucination
+neutral_effects: altered sense of time, dizziness, dryness
+negative_effects: delusion, nausea, loss of motor skills, anxiety, confusion,
+unpredictable or dangerous behaviour
+dosage_table:
+title: Smoked Dosage of Dried Brugmansia × candida Leaf
+threshold: 30 mg
+light: 300 mg
+common: 1 g
+strong: 1.6 g
+heavy: 2.6+ g
+---
+
+Datura species
+---
+title: Datura species
+aka:
+- thornapple
+- jimsonweed
+- devil’s apple
+- moonflower
+family_members:
+- Datura ceratocaula
+- Datura discolor
+- Datura ferox
+- Datura inoxia
+- Datura leichhardtii
+- Datura metel
+- Datura quercifolia
+- Datura stramonium
+- Datura wrightii
+duration_chart_title: Smoked Duration of Datura stramonium
+duration_chart:
+total: 2–6 hours
+onset: 30 seconds – 2 minutes
+coming_up: 2–5 minutes
+
+plateau: 10–30 minutes
+coming_down: 30–60 minutes
+after_effects: 2–6 hours
+positive_effects: surreal experiences, hallucination
+neutral_effects: altered sense of time, dizziness, dryness
+negative_effects: delusion, nausea, loss of motor skills, anxiety, confusion,
+unpredictable or dangerous behaviour
+dosage_table:
+title: Smoked Dosage of Dried Datura stramonium Leaf
+threshold: 16 mg
+light: 160 mg
+common: 500 mg
+strong: 800 mg
+heavy: 1.3+ g
+---
+
+Psilocin
+---
+title: Psilocin
+aka:
+- 4-HO-DMT
+duration_chart_title: Oral Duration of Psilocin
+duration_chart:
+total: 4–6 h
+onset: 15m
+coming_up: 2h
+plateau: 2.5h
+coming_down: 90m
+positive_effects: euphoria, empathy, stimulation
+neutral_effects: visuals
+negative_effects: nausea, muscle tension, confusion, anxiety
+dosage_table:
+title: Oral Dosage of Psilocin
+threshold: 1 mg
+light: 2.5 mg
+common: 10 mg
+strong: 25 mg
+heavy: 50+ mg
+---
+
+Phalaris species
+---
+title: Phalaris species
+aka:
+- canary grass
+family_members:
+- Phalaris aquatica
+- Phalaris arundinacea
+- Phalaris brachystachys
+- Phalaris canariensis
+- Phalaris coerulescens
+- Phalaris truncata
+duration_chart_title: Oral Duration of Phalaris aquatica (with MAOI)
+duration_chart:
+total: 1–8 hours
+onset: 20–60 minutes
+coming_up: 30–60 minutes
+plateau: 1–2 hours
+coming_down: 1–2 hours
+after_effects: 1–8 hours
+positive_effects: euphoria, empathy, stimulation
+neutral_effects: visuals
+negative_effects: nausea, muscle tension, confusion, anxiety
+dosage_table:
+title: Oral Dosage of Dried Phalaris aquatica Grass (with MAOI)
+threshold: 2 g
+light: 10 g
+common: 20 g
+strong: 40 g
+heavy: 60+ g
+---
+5-MeO-DMT
+---
+title: 5-MeO-DMT
+aka:
+- 5-methoxy-N,N-dimethyltryptamine
+duration_chart_title: Vaporised Duration of 5-MeO-DMT
+duration_chart:
+total: 20–40m
+onset: 30s
+
+coming_up: 15s
+plateau: 9m
+coming_down: 4m
+positive_effects: euphoria, stimulation
+neutral_effects: visuals
+negative_effects: unconsciousness, nausea, muscle tension, confusion, anxiety
+dosage_table:
+title: Vaporised Dosage of 5-MeO-DMT
+threshold: 1 mg
+light: 3–6 mg
+common: 6–12 mg
+strong: 12–20 mg
+heavy: 20+ mg
+---
+DOI
+---
+title: DOI
+aka:
+- 2,5-dimethoxy-4-iodoamphetamine
+duration_chart_title: Oral Duration of DOI
+duration_chart:
+total: 12–16 h
+onset: 90m
+coming_up: 150m
+plateau: 7h
+coming_down: 4h
+positive_effects: euphoria, empathy, stimulation
+neutral_effects: visuals
+negative_effects: nausea, muscle tension, confusion, anxiety, lethal at high doses
+dosage_table:
+title: Oral Dosage of DOI
+threshold: 0.5 mg
+light: 1–3 mg
+common: 3–5 mg
+strong: 5–10 mg
+heavy: 10+ mg
+---
+
+25I-NBOMe
+---
+
+title: 25I-NBOMe
+aka:
+- 2C-I-NBOMe
+- NBOMe-2C-I
+duration_chart_title: Oral Duration of 25I-NBOMe
+duration_chart:
+total: 6–10 h
+onset: 1h
+coming_up: 75m
+plateau: 3h
+coming_down: 150m
+positive_effects: euphoria, empathy, stimulation
+neutral_effects: visuals
+negative_effects: nausea, muscle tension, confusion, anxiety, lethal at high doses
+dosage_table:
+title: Oral Dosage of 25I-NBOMe
+threshold: 50 µg
+light: 200–500 µg
+common: 500–700 µg
+strong: 700–1000 µg
+heavy: 1000+ µg
+---
+
+Diazepam
+---
+title: Diazepam
+aka:
+- Valium
+duration_chart_title: Oral Duration of Diazepam
+duration_chart:
+total: 4–8 h
+onset: 30m
+coming_up: 15m
+plateau: 75m
+coming_down: 30m
+positive_effects: euphoria, relaxation, increased sociability
+neutral_effects: slurred speech, flushed skin
+negative_effects: nausea, reduced coordination, memory impairment
+dosage_table:
+
+title: Oral Dosage of Diazepam
+threshold: 1 mg
+light: 2.5–5 mg
+common: 5–15 mg
+strong: 15–30 mg
+heavy: 30+ mg
+---
+
+Mitragynine
+---
+title: Mitragynine
+duration_chart_title: Oral Duration of Mitragynine
+duration_chart:
+total: 3–6 hours
+onset: 15–30 minutes
+coming_up: 15–30 minutes
+plateau: 1–2 hours
+coming_down: 1–3 hours
+after_effects: 3–6 hours
+positive_effects: euphoria, relaxation, analgesia
+neutral_effects: disinhibition
+negative_effects: nausea, itching, constipation, respiratory depression
+dosage_table:
+title: Oral Dosage of Mitragynine
+threshold: 1.5 mg
+light: 3 mg
+common: 9 mg
+strong: 15 mg
+heavy: 24+ mg
+---
+
+Arecoline
+---
+title: Arecoline
+aka:
+- Arecaidine methyl ester
+duration_chart_title: Oral Duration of Arecoline
+duration_chart:
+total: 6–30m
+onset: 30s–2m
+
+coming_up: 2–6m
+plateau: 6–30m
+coming_down: 2–6m
+after_effects: 15–30m
+positive_effects: stimulation, enhanced focus
+neutral_effects: increased saliva, increased digestion, sweating
+negative_effects: nausea, dizziness
+dosage_table:
+title: Oral Dosage of Arecoline
+threshold: 2 mg
+light: 5 mg
+common: 10 mg
+strong: 15 mg
+heavy: 25+ mg
+---
+
+Nicotine
+---
+title: Nicotine
+aka:
+- 3-(1-Methyl-2-pyrrolidinyl)pyridine
+duration_chart_title: Smoked Duration of Nicotine
+duration_chart:
+total: 1–2 h
+onset: 3–15 minutes
+coming_up: 3–15 minutes
+plateau: 5–20 minutes
+coming_down: 1–2 hours
+after_effects: 2–6 hours
+positive_effects: mild stimulation, enhanced focus
+neutral_effects: increased saliva/digestion, sweating
+negative_effects: nausea, dizziness
+dosage_table:
+title: Smoked Dosage of Nicotine
+threshold: 0.2 mg
+light: 0.3 mg
+common: 0.8 mg
+strong: 1.5 mg
+heavy: 4+ mg
+---
+
+Mesembrine
+---
+title: Mesembrine
+aka:
+- (3aS,7aS)-3a-(3,4-dimethoxyphenyl)-1-methyl-3,3a,4,5,6,7-hexahydro-2H-indol-6-
+ol
+duration_chart_title: Oral Duration of Mesembrine
+duration_chart:
+total: 4–6 hours
+onset: 15–60 minutes
+coming_up: 30–90 minutes
+plateau: 1–2 hours
+coming_down: 2–5 hours
+after_effects: 4–6 hours
+positive_effects: mood lift, increased energy, feelings of connection, sensory
+appreciation
+neutral_effects: appetite suppression, disinhibition
+negative_effects: increased heart rate, muscle tension
+dosage_table:
+title: Oral Dosage of Mesembrine
+threshold: 0.15 mg
+light: 1.5 mg
+common: 2.25 mg
+strong: 4.5 mg
+heavy: 6+ mg
+---
+
+Eugenol
+---
+title: Eugenol
+aka:
+- 4-allyl-2-methoxyphenol
+duration_chart_title: Oral Duration of Eugenol
+duration_chart:
+total: 15–30 minutes
+onset: 2–5 minutes
+coming_up: 5–10 minutes
+plateau: 10–20 minutes
+coming_down: 5–10 minutes
+after_effects: 15–30 minutes
+
+positive_effects: mood lift, increased energy, feelings of connection, sensory
+appreciation
+neutral_effects: appetite suppression, disinhibition
+negative_effects: increased heart rate, muscle tension
+dosage_table:
+title: Oral Dosage of Eugenol
+threshold: 10 mg
+light: 50 mg
+common: 100 mg
+strong: 200 mg
+heavy: 300+ mg
+---
+Safrole
+---
+title: Safrole
+aka:
+- 5-(2-propenyl)-1,3-benzodioxole
+duration_chart_title: Oral Duration of Safrole
+duration_chart:
+total: 3–5 hours
+onset: 1–3 hours
+coming_up: 2–4 hours
+plateau: 4–8 hours
+coming_down: 2–4 hours
+after_effects: 3–5 hours
+positive_effects: mood lift, increased energy, feelings of connection, sensory
+appreciation
+neutral_effects: appetite suppression, disinhibition
+negative_effects: increased heart rate, muscle tension
+dosage_table:
+title: Oral Dosage of Safrole
+threshold: 50 mg
+light: 100 mg
+common: 200 mg
+strong: 300 mg
+heavy: 500+ mg
+---
+
+Harmalas
+---
+title: Harmalas
+
+aka:
+- β-carbolines
+family_members:
+- harmine
+- harmaline
+- harmol
+duration_chart_title: Oral Duration of Harmine
+duration_chart:
+total: 4–8 hours
+onset: 30–60 minutes
+coming_up: 60–150 minutes
+plateau: 90–150 minutes
+coming_down: 1–2 hours
+after_effects: 4–8 hours
+positive_effects: relaxation
+neutral_effects: sedation, increased duration of psychedelic effects
+negative_effects: nausea, dangerous combinations
+dosage_table:
+title: Oral Dosage of Harmine
+threshold: 50 mg
+light: 150 mg
+common: 300 mg
+strong: 550 mg
+heavy: 700+ mg
+---
+Harmine
+---
+title: Harmine
+aka:
+- 7-methoxy-1-methyl-9H-pyrido[3,4-b]indole
+- Telepathine
+duration_chart_title: Oral Duration of Harmine
+duration_chart:
+total: 4–6 hours
+onset: 30–60 minutes
+coming_up: 45–90 minutes
+plateau: 1–2 hours
+coming_down: 1–2 hours
+after_effects: 4–6 hours
+positive_effects: relaxation
+neutral_effects: sedation, increased duration of psychedelic effects
+
+negative_effects: nausea, dangerous combinations
+dosage_table:
+title: Oral Dosage of Harmine
+threshold: 50 mg
+light: 150 mg
+common: 300 mg
+strong: 550 mg
+heavy: 700+ mg
+---
+Harmaline
+---
+title: Harmaline
+aka:
+- 4,9-dihydro-7-methoxy-1-methyl-3H-pyrido[3,4-b]indole
+- Leucoharmine
+duration_chart_title: Oral Duration of Harmaline
+duration_chart:
+total: 4–8 hours
+onset: 30–60 minutes
+coming_up: 60–150 minutes
+plateau: 90–150 minutes
+coming_down: 1–2 hours
+after_effects: 4–8 hours
+positive_effects: relaxation
+neutral_effects: sedation, increased duration of psychedelic effects
+negative_effects: nausea, dangerous combinations
+dosage_table:
+title: Oral Dosage of Harmaline
+threshold: 6 mg
+light: 15 mg
+common: 60 mg
+strong: 120 mg
+heavy: 180+ mg
+---
+Myristicin
+---
+title: Myristicin
+aka:
+- 5-allyl-1-methoxy-2,3-methylenedioxybenzene
+
+duration_chart_title: Oral Duration of Myristicin
+duration_chart:
+total: 1–3 days
+onset: 3–8 hours
+coming_up: 1–4 hours
+plateau: 9–12 hours
+coming_down: 12–48 hours
+after_effects: 1–3 days
+positive_effects: mood lift, increased energy, feelings of connection, sensory
+appreciation
+neutral_effects: appetite suppression, disinhibition
+negative_effects: increased heart rate, muscle tension, dangerous combinations,
+unpredictable or dangerous behaviour
+dosage_table:
+title: Oral Dosage of Myristicin
+threshold: 0.2 mg
+light: 0.4 mg
+common: 1.6 mg
+strong: 4 mg
+heavy: 8+ mg
+---
+
+Kavalactones
+---
+title: Kavalactones
+aka:
+- kava pyrones
+family_members:
+- kavain
+- dihydrokavain
+- yangonin
+- desmethoxyyangonin
+- methysticin
+- dihydromethysticin
+duration_chart_title: Oral Duration of Kavalactones
+duration_chart:
+total: 4–6 hours
+onset: 15 minutes
+coming_up: 30 minutes
+plateau: 90 minutes
+coming_down: 2 hours
+
+positive_effects: euphoria, relaxation, increased sociability
+neutral_effects: slurred speech, flushed skin
+negative_effects: nausea, reduced coordination, memory impairment
+dosage_table:
+title: Oral Dosage of Kavalactones
+threshold: 50 mg
+light: 150 mg
+common: 300 mg
+strong: 500 mg
+heavy: 800+ mg
+---
+Ephedrine
+---
+title: Ephedrine
+aka:
+- (1R,2S)-2-methylamino-1-phenylpropan-1-ol
+- Epitonin
+duration_chart_title: Oral Duration of Ephedrine
+duration_chart:
+total: 2–5 hours
+onset: 1 hour
+coming_up: 1 hour
+plateau: 1 hour
+coming_down: 1 hour
+positive_effects: euphoria, stimulation, increased sociability
+neutral_effects: decreased appetite, increased heart rate
+negative_effects: muscle tension, insomnia, anxiety
+dosage_table:
+title: Oral Dosage of Ephedrine
+threshold: 5 mg
+light: 10 mg
+common: 20 mg
+strong: 30 mg
+heavy: 50+ mg
+---
+
+Levodopa
+---
+title: Levodopa
+aka:
+
+- L-DOPA
+- 3,4-dihydroxy-L-phenylalanine
+duration_chart_title: Oral Duration of Levodopa
+duration_chart:
+total: 1–2 hours
+onset: 10–45 minutes
+coming_up: 45–75 minutes
+plateau: 1–3 hours
+coming_down: 1–2 hours
+after_effects: 1–2 hours
+positive_effects: euphoria, stimulation, increased sociability
+neutral_effects: decreased appetite, muscle tension
+negative_effects: increased heart rate, anxiety, insomnia
+dosage_table:
+title: Oral Dosage of Levodopa
+threshold: 25 mg
+light: 50 mg
+common: 150 mg
+strong: 300 mg
+heavy: 600+ mg
+---
+
+Ibogaine
+---
+title: Ibogaine
+aka:
+- 12-methoxyibogamine
+duration_chart_title: Oral Duration of Ibogaine
+duration_chart:
+total: 20–40 hours
+onset: 2 hours
+coming_up: 2 hours
+plateau: 24 hours
+coming_down: 6 hours
+positive_effects: euphoria, empathy, stimulation, assists opioid withdrawal
+neutral_effects: visuals
+negative_effects: nausea, muscle tension, confusion, anxiety
+dosage_table:
+title: Oral Dosage of Ibogaine
+threshold: 50 mg
+light: 100 mg
+
+common: 200 mg
+strong: 500 mg
+heavy: 1000+ mg
+---
+
+Tropanes
+---
+title: Tropanes
+aka:
+- Anticholinergic deliriants
+duration_chart_title: Smoked Duration of Hyoscyamine
+duration_chart:
+total: 2–6 hours
+onset: 30 seconds – 2 minutes
+coming_up: 2–5 minutes
+plateau: 10–30 minutes
+coming_down: 30–60 minutes
+after_effects: 2–6 hours
+positive_effects: surreal experiences, hallucination
+neutral_effects: altered sense of time, dizziness, dryness
+negative_effects: delusion, nausea, loss of motor skills, anxiety, confusion,
+unpredictable or dangerous behaviour
+dosage_table:
+title: Smoked Dosage of Hyoscyamine
+threshold: 0.05 mg
+light: 0.5 mg
+common: 1.5 mg
+strong: 2.5 mg
+heavy: 4+ mg
+---
+Hyoscyamine
+---
+title: Hyoscyamine
+aka:
+- levo-atropine
+duration_chart_title: Smoked Duration of Hyoscyamine
+duration_chart:
+total: 2–6 hours
+onset: 30 seconds – 2 minutes
+coming_up: 2–5 minutes
+
+plateau: 10–30 minutes
+coming_down: 30–60 minutes
+after_effects: 2–6 hours
+positive_effects: surreal experiences, hallucination
+neutral_effects: altered sense of time, dizziness, dryness
+negative_effects: delusion, nausea, loss of motor skills, anxiety, confusion,
+unpredictable or dangerous behaviour
+dosage_table:
+title: Smoked Dosage of Hyoscyamine
+threshold: 0.05 mg
+light: 0.5 mg
+common: 1.5 mg
+strong: 2.5 mg
+heavy: 4+ mg
+---
+
+Scopolamine
+---
+title: Scopolamine
+aka:
+- hyoscine
+duration_chart_title: Smoked Duration of Scopolamine
+duration_chart:
+total: 4–8 hours
+onset: 1–3 minutes
+coming_up: 5–10 minutes
+plateau: 30–60 minutes
+coming_down: 1–2 hours
+after_effects: 4–12 hours
+positive_effects: surreal experiences, hallucination
+neutral_effects: altered sense of time, dizziness, dryness
+negative_effects: delusion, nausea, loss of motor skills, anxiety, confusion,
+unpredictable or dangerous behaviour
+dosage_table:
+title: Smoked Dosage of Scopolamine
+threshold: 0.1 mg
+light: 0.4 mg
+common: 1.0 mg
+strong: 2.0 mg
+heavy: 3.5+ mg
+---
+
+MDA
+---
+title: MDA
+aka:
+- 3,4-methylenedioxyamphetamine
+duration_chart_title: Oral Duration of MDA
+duration_chart:
+total: 5–8 hours
+onset: 30–90 minutes
+coming_up: 15–45 minutes
+plateau: 2.5–4 hours
+coming_down: 2–3 hours
+after_effects: 4–48 hours
+positive_effects: euphoria, relaxation, stimulation, empathy
+neutral_effects: decreased appetite, change in body temperature
+negative_effects: nausea, muscle tension, confusion, anxiety, bruxia
+dosage_table:
+title: Oral Dosage of MDA
+threshold: 20 mg
+light: 40–60 mg
+common: 60–100 mg
+strong: 100–145 mg
+heavy: 145+ mg
+---
+
+Mephedrone
+---
+title: Mephedrone
+aka:
+- 4-MMC
+- meow meow
+- M-CAT
+duration_chart_title: Oral Duration of Mephedrone
+duration_chart:
+total: 1.5–3 hours
+onset: 5–8 minutes
+coming_up: 15–30 minutes
+plateau: 45–60 minutes
+coming_down: 30–90 minutes
+after_effects: 2–4 hours
+
+positive_effects: euphoria, stimulation, increased sociability
+neutral_effects: decreased appetite, increased heart rate
+negative_effects: muscle tension, insomnia, anxiety
+dosage_table:
+title: Oral Dosage of Mephedrone
+threshold: 5 mg
+light: 15–45 mg
+common: 45–80 mg
+strong: 80–125 mg
+heavy: 125+ mg
+---
+Methcathinone
+---
+title: Methcathinone
+aka:
+- ephedrone
+- methcat
+duration_chart_title: Oral Duration of Methcathinone
+duration_chart:
+total: 4–6 hours
+onset: 10–20 minutes
+coming_up: 20–40 minutes
+plateau: 1.5–3 hours
+coming_down: 1–2 hours
+after_effects: 2–6 hours
+positive_effects: euphoria, stimulation, increased sociability
+neutral_effects: decreased appetite, increased heart rate
+negative_effects: muscle tension, insomnia, anxiety
+dosage_table:
+title: Oral Dosage of Methcathinone
+threshold: 25 mg
+light: 50–100 mg
+common: 100–200 mg
+strong: 200–300 mg
+heavy: 300+ mg
+---
+
+Methamphetamine
+---
+title: Methamphetamine
+
+aka:
+- meth
+- crystal
+- tina
+duration_chart_title: Oral Duration of Methamphetamine
+duration_chart:
+total: 8–12 hours
+onset: 15–45 minutes
+coming_up: 1–3 hours
+plateau: 3–5 hours
+coming_down: 3–4 hours
+after_effects: 12–24 hours
+positive_effects: euphoria, stimulation, increased sociability
+neutral_effects: decreased appetite, increased heart rate
+negative_effects: muscle tension, insomnia, anxiety
+dosage_table:
+title: Oral Dosage of Methamphetamine
+threshold: &lt;5 mg
+light: 5–10 mg
+common: 10–25 mg
+strong: 25–50 mg
+heavy: 50+ mg
+---
+
+Alprazolam
+---
+title: Alprazolam
+aka:
+- xanax
+duration_chart_title: Oral Duration of Alprazolam
+duration_chart:
+total: 6–8 hours
+onset: 15–30 minutes
+coming_up: 50–90 minutes
+plateau: 1–2 hours
+coming_down: 2–4 hours
+after_effects: 6–24 hours
+positive_effects: euphoria, relaxation, increased sociability
+neutral_effects: slurred speech, flushed skin
+negative_effects: nausea, reduced coordination, memory impairment
+dosage_table:
+
+title: Oral Dosage of Alprazolam
+threshold: 0.10 mg
+light: 0.25–0.5 mg
+common: 0.5–1.5 mg
+strong: 1.5–2 mg
+heavy: 2+ mg
+---
+
+GBL
+---
+title: GBL
+aka:
+- gamma-butyrolactone
+duration_chart_title: Oral Duration of GBL
+duration_chart:
+total: 1–2 hours
+onset: 3–10 minutes
+coming_up: 5–15 minutes
+plateau: 30–45 minutes
+coming_down: 15–30 minutes
+after_effects: 1–3 hours
+positive_effects: euphoria, relaxation, increased sociability
+neutral_effects: slurred speech, flushed skin
+negative_effects: nausea, reduced coordination, memory impairment
+dosage_table:
+title: Oral Dosage of GBL
+threshold: 0.3 mL
+light: 0.3–0.9 mL
+common: 0.9–1.5 mL
+strong: 1.5–3 mL
+heavy: 3+ mL
+---
+
+Codeine
+---
+title: Codeine
+aka:
+- 3-methylmorphine
+duration_chart_title: Oral Duration of Codeine
+duration_chart:
+
+total: 3–6 hours
+onset: 30–45 minutes
+coming_up: 1–2 hours
+plateau: 3–5 hours
+coming_down: 2–4 hours
+positive_effects: euphoria, relaxation, analgesia
+neutral_effects: disinhibition
+negative_effects: nausea, itching, constipation, respiratory depression
+dosage_table:
+title: Oral Dosage of Codeine
+threshold: 30 mg
+light: 50–100 mg
+common: 100–150 mg
+strong: 150–200 mg
+heavy: 200+ mg
+---
+
+Heroin
+---
+title: Heroin
+aka:
+- diacetylmorphine
+- smack
+- brown
+duration_chart_title: Insufflated Duration of Heroin
+duration_chart:
+total: 3–7 hours
+onset: 10–60 seconds
+coming_up: 10–60 seconds
+plateau: 1–90 minutes
+coming_down: 1–3 hours
+after_effects: 1.5–3 hours
+positive_effects: euphoria, relaxation, analgesia
+neutral_effects: disinhibition
+negative_effects: nausea, itching, constipation, respiratory depression
+dosage_table:
+title: Insufflated Dosage of Heroin
+threshold: 5 mg
+light: 7.5–20 mg
+common: 20–35 mg
+strong: 35–50 mg
+heavy: 50+ mg
+
+---

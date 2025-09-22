@@ -11,6 +11,7 @@
     "check": "astro check",
     "lint": "eslint \"src/**/*.{js,astro}\"",
     "test": "npx tsx ./src/test.ts",
+    "tsv-to-json": "npx tsx ./src/tsv-to-json.ts",
     "gen": "npx tsx ./src/genimg.ts"
   },
   "dependencies": {
